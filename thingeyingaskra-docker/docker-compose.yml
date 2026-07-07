@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  # 1. Database Layer
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb_container
+    ports:
+      - "27017:27017" # Exposes MongoDB to your host machine for external importing
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - app-network
+
+  # 2. API Layer
+  backend:
+    build: ./api
+    container_name: fastapi_container
+    ports:
+      - "8016:8000" # Exposes FastAPI externally at http://localhost:8000
+    #environment:
+    #  # FastAPI connects internally using the service name 'mongodb' as the host string
+    #  - MONGO_URI=mongodb://mongodb:27017/thskra
+    depends_on:
+      - mongodb
+    networks:
+      - app-network
+
+  # 3. UI Layer
+  frontend:
+    build: ./frontend
+    container_name: react_container
+    ports:
+      - "3016:80" # Maps port 80 inside Nginx to http://localhost:3000 on your machine
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+volumes:
+  mongo_data:
+
+networks:
+  app-network:
+    driver: bridge
