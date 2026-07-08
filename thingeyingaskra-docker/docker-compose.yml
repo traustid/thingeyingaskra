@@ -3,7 +3,7 @@ version: '3.8'
 services:
   # 1. Database Layer
   mongodb:
-    image: mongo:latest
+    image: mongo:4.4.18
     container_name: mongodb_container
     ports:
       - "27017:27017" # Exposes MongoDB to your host machine for external importing

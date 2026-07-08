@@ -10,7 +10,8 @@ origins = [
 	'http://localhost:5173',
 	'http://localhost:3000',
 	'http://localhost:3016',
-	'http://ginnungagap.arnastofnun.is:3016'
+	'http://ginnungagap.arnastofnun.is:3016',
+	'http://89.127.233.82:3016'
 ]
 
 app.add_middleware(
