@@ -9,7 +9,7 @@ app = FastAPI()
 origins = [
 	'http://localhost:5173',
 	'http://localhost:3000',
-	'http://localhost:3016'
+	'http://localhost:3016',
 	'http://ginnungagap.arnastofnun.is:3016'
 ]
 
@@ -21,10 +21,10 @@ app.add_middleware(
 	allow_headers=['*'],
 )
 
-#client = MongoClient('mongodb://mongodb:27017/')
-client = MongoClient('mongodb://localhost:27017/')
+import config
 
-# 2. Select your database and collection
+client = MongoClient(config.mongo_url)
+
 db = client['thskra']
 collection = db['persons']
 
@@ -112,7 +112,7 @@ async def searchPerson(name = None, search = None, location = None, location_id 
 				}
 			],
 		}
-	
+
 	results = collection.find(query).sort({
 		'person.name': 1
 	});
