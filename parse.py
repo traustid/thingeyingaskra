@@ -5,8 +5,9 @@ import time
 from google import genai
 from google.genai import errors
 
+from . import config
 
-client = genai.Client(api_key='AIzaSyBHRQSp_1Ch491QUlqS0zrrm7RtFeKd2Ag')
+client = genai.Client(api_key=config.google_api_key)
 
 def processFile(fileName):
 	print('Uploading file '+fileName)
