@@ -266,7 +266,7 @@ async def getPlace(placeId):
 		'results': results
 	}
 
-@app.get('/api/places')
+@app.get('/api/places/')
 async def getPlaces():
 	pipeline = [
 		# 1. Flatten the array so we can inspect every history element

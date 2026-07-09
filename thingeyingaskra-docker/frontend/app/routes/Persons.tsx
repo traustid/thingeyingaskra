@@ -18,13 +18,13 @@ function Persons(props) {
 
 	useEffect(() => {
 		if (!data) {
-			fetch(config.apiRoot+'/persons')
+			fetch(config.apiRoot+'/persons/')
 				.then(res => res.json())
 				.then(json => setData(json.results));
 		}
 
 		if (!yearData) {
-			fetch(config.apiRoot+'/years')
+			fetch(config.apiRoot+'/years/')
 				.then(res => res.json())
 				.then(json => {
 					setYearMax(_.max(Object.keys(json).map(key => json[key])));
@@ -42,7 +42,7 @@ function Persons(props) {
 		if (searchParams.get('faedingarar')) {
 			params.push('birthyear='+searchParams.get('faedingarar'));
 		}
-		fetch(config.apiRoot+'/persons?'+params.join('&')
+		fetch(config.apiRoot+'/persons/?'+params.join('&')
 		)
 			.then(res => res.json())
 			.then(json => setData(json.results));
