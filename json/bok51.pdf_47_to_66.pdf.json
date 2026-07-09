@@ -44,6 +44,13 @@
         "parents_original_string": "Guðmundur Sigurðsson og Guðrún Jónsdóttir.",
         "residence_history": [
             {
+                "year": "1882",
+                "original_string": "F. á N.-Dálksst. 7/10. 1882.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "N.-Dálksst."
+            },
+            {
                 "original_string": "Hjá for. á N.-Dálksst. (6) 1888-1890.",
                 "year": "1888-1890",
                 "age": 6,
@@ -103,6 +110,13 @@
         ],
         "parents_original_string": "Guðmundur Snorrason og Aðalbjörg Einarsdóttir.",
         "residence_history": [
+            {
+                "year": "1868",
+                "original_string": "F. 10/10. 1868. í Mánárkoti (svo).",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Mánárkot"
+            },
             {
                 "original_string": "Hjá for. í Mýrarkoti (1 árs) 1869-1870.",
                 "year": "1869-1870",
@@ -199,6 +213,13 @@
         ],
         "parents_original_string": "Guðmundur Jónsson og Ragnhildur Sigmundsdóttir.",
         "residence_history": [
+            {
+                "year": "1798",
+                "original_string": "F. 19/3. 1798. í Sydritungu.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Sydritunga"
+            },
             {
                 "original_string": "Hjá for. í Sydritungu (4 ára) 1801-1808.",
                 "year": "1801-1808",
@@ -400,6 +421,13 @@
                         }
                     ]
                 }
+            },
+            {
+                "year": "1878",
+                "original_string": "D. í Helgagörðum 15/3. 1878, 83 ára",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Helgagarðar"
             }
         ],
         "notes": {
@@ -433,6 +461,13 @@
         "parents": [],
         "parents_original_string": "",
         "residence_history": [
+            {
+                "year": "1759",
+                "original_string": "F. um 1759 á Gjásíðu, Kaldakinn.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Gjásíða, Kaldakinn"
+            },
             {
                 "original_string": "Óttstúlka í Laufási (56) 1815-1818.",
                 "year": "1815-1818",
@@ -565,6 +600,37 @@
                 "location": "Bakki Fn.",
                 "note": "",
                 "note_ref": null,
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "year": "1815",
+                "original_string": "Graf. frá Bakka F. 31/6. 1815, 49 ára.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Bakki F.",
                 "location_obj": {
                     "id": 12361,
                     "name": "Bakki",
@@ -852,6 +918,37 @@
                 "location": "Pálsgerði",
                 "note": "",
                 "note_ref": null,
+                "location_obj": {
+                    "id": 1003802,
+                    "name": "Pálsgerði",
+                    "lat": "65.894289",
+                    "lng": "-18.037853",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "year": "1850",
+                "original_string": "D. í Pálsgerði 12/7. 1850, 80 ára. 1)",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Pálsgerði",
                 "location_obj": {
                     "id": 1003802,
                     "name": "Pálsgerði",
@@ -1279,6 +1376,37 @@
                         }
                     ]
                 }
+            },
+            {
+                "year": "1860",
+                "original_string": "D. í Nesi Fr. 16/6. 1860. 1)",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Nesi Fn.",
+                "location_obj": {
+                    "id": 1001796,
+                    "name": "Nes",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1585,6 +1713,33 @@
                         }
                     ]
                 }
+            },
+            {
+                "year": "1864",
+                "original_string": "D. í Mýrarkoti 7/8. 1864.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Mýrarkot",
+                "location_obj": {
+                    "id": 12516,
+                    "name": "Mýrarkot",
+                    "lat": "66.172919",
+                    "lng": "-17.231739",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1868,6 +2023,37 @@
                         }
                     ]
                 }
+            },
+            {
+                "year": "1864",
+                "original_string": "D. í Nesi 19/12. 1864, 42 ára. 1)",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Nesi",
+                "location_obj": {
+                    "id": 13945,
+                    "name": "Nes",
+                    "lat": "65.902255",
+                    "lng": "-18.118468",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1942,6 +2128,33 @@
         ],
         "parents_original_string": "Halld. Jónsson og Guðrún Reinaldsdóttir.",
         "residence_history": [
+            {
+                "year": "1844",
+                "original_string": "F. 19/9. 1844 á Máná.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Máná",
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
             {
                 "original_string": "Hjá for. í Ytri-tungu (2 ára) 1845 x)",
                 "year": "1845",
@@ -2097,6 +2310,37 @@
         ],
         "parents_original_string": "Hallgrímur Jónsson og Kristín Jónsdóttir.",
         "residence_history": [
+            {
+                "year": "1815",
+                "original_string": "Sk. 25/12 1815 í Nesi Fn.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Nesi Fn.",
+                "location_obj": {
+                    "id": 1001796,
+                    "name": "Nes",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
             {
                 "original_string": "Með for. í Nesi Fr. (1 árs) 1816-",
                 "year": "1816-",
@@ -2835,6 +3079,13 @@
                 "location": "Krosshús",
                 "note": "",
                 "note_ref": null
+            },
+            {
+                "year": "1803",
+                "original_string": "D. í Krosshúsum 8/4. 1803, 62 ára. 1)",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Krosshús"
             }
         ],
         "notes": {
@@ -3070,6 +3321,37 @@
         ],
         "parents_original_string": "Har. Sigurjónsson og Ásrún Jónsdóttir.",
         "residence_history": [
+            {
+                "year": "1893",
+                "original_string": "F. 31/10. 1893 á Einarsstaðir R",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Einarsstaðir R",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
             {
                 "original_string": "Hjá for. á Einarsstöðum (á 1.) 1892-1896.",
                 "year": "1892-1896",

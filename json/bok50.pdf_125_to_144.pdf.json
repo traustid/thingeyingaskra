@@ -716,6 +716,13 @@
         "parents_original_string": "For.: Sv. Magnússon Víkingur og Kristjana Guðný Sigurðardóttir. K. hús",
         "residence_history": [
             {
+                "year": "1880",
+                "original_string": "F. 10/9. 1880 í Veitingahúsi.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Veitingahús"
+            },
+            {
                 "original_string": "Hjá for. í Veitingahúsi (1. ári) 1880.",
                 "year_or_period": "1880",
                 "age": 1,
@@ -840,6 +847,37 @@
         ],
         "parents_original_string": "For. Sæm. Magnússon og Guðný Aradóttir.",
         "residence_history": [
+            {
+                "year": "1797",
+                "original_string": "F. 4/5. 1797 í Austari-Krókum.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Austari-Krókar",
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
             {
                 "original_string": "Hjá for. á Syðrahóli (7) - 1801 - 1808 -",
                 "year_or_period": "1801-1808",
@@ -1005,6 +1043,37 @@
                         }
                     ]
                 }
+            },
+            {
+                "year": "1876",
+                "original_string": "D. á Bakka F. 1/2. 1876",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Bakki, F.",
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1042,6 +1111,13 @@
         "parents": [],
         "parents_original_string": "For.:",
         "residence_history": [
+            {
+                "year": "1833",
+                "original_string": "F. um 1833 í Grímsey.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Grímsey"
+            },
             {
                 "original_string": "Hjú á Miðvík (25) 1859.",
                 "year_or_period": "1859",
@@ -1334,6 +1410,13 @@
         "parents_original_string": "For.: Vilm. Gunnarsson og Guðrún Jónsdóttir.",
         "residence_history": [
             {
+                "year": "1888",
+                "original_string": "F. 9/11. 1888 í Keflavík.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Keflavík"
+            },
+            {
                 "original_string": "Hjá for. á Eyri Fj. (1 árs) 1890-1895-1900.",
                 "year_or_period": "1890-1900",
                 "age": 1,
@@ -1527,6 +1610,33 @@
                 "note": "",
                 "note_ref": 1,
                 "year": "1801-1804",
+                "location_obj": {
+                    "id": 24308,
+                    "name": "Húsavík",
+                    "lat": "66.04465457784943",
+                    "lng": "-17.34897332763694",
+                    "location_type": {
+                        "id": 2,
+                        "name": "Sveitarfélag"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "year": "1804",
+                "original_string": "D í Húsavík 4/5. 1804, 11 ára.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Húsavík",
                 "location_obj": {
                     "id": 24308,
                     "name": "Húsavík",
@@ -1794,6 +1904,33 @@
                         }
                     ]
                 }
+            },
+            {
+                "year": "1820",
+                "original_string": "D. í Naustavík 5/10. 1820, 81 árs.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Naustavík",
+                "location_obj": {
+                    "id": 12395,
+                    "name": "Naustavík",
+                    "lat": "66.00793",
+                    "lng": "-17.676683",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1876,6 +2013,13 @@
         "parents_original_string": "For.: Þórarinn Pálsson (frá Víkvatni) og Ingveldur Þorkelsdóttir.",
         "residence_history": [
             {
+                "year": "1757",
+                "original_string": "F. um 1757 í Sultum í Kelduhverfi.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Sultar, Kelduhverfi"
+            },
+            {
                 "original_string": "B. (tvíq.) í Krosshúsum (44) - 1801-19. (Hrb.).",
                 "year_or_period": "1801-1819",
                 "age": 44,
@@ -1884,6 +2028,13 @@
                 "note": "Hrb.",
                 "note_ref": 2,
                 "year": "1801-1819"
+            },
+            {
+                "year": "1819",
+                "original_string": "D. frá Krosshúsum Gp. 17/4. 1819.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Krosshús"
             }
         ],
         "notes": {
@@ -2037,6 +2188,13 @@
         "parents_original_string": "For.: Þ. Magnússon og Guðrún Jónsdóttir.",
         "residence_history": [
             {
+                "year": "1847",
+                "original_string": "F. 22/3. 1847 á Bessast. í Sæm. hlíð.-",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Bessastaðir, Sæm. hlíð"
+            },
+            {
                 "original_string": "Hjá for. á Halldórsst. L. (2) 1849-1863-1885.",
                 "year_or_period": "1849-1885",
                 "age": 2,
@@ -2184,6 +2342,37 @@
         "parents_original_string": "For.: J. Elíasson og Helga Gestsdóttir. g. v. hjá Kaðalsstöðum.",
         "residence_history": [
             {
+                "year": "1883",
+                "original_string": "F. 1/10. 1883 á Kaðalsstöðum.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Kaðalsstaðir",
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
                 "original_string": "Með og hjá for. á Kaðalsstöðum (á 1.) 1883-1893.",
                 "year_or_period": "1883-1893",
                 "age": 1,
@@ -2293,6 +2482,33 @@
         ],
         "parents_original_string": "For.: Edilon Elíasson og Lovísa Denker.",
         "residence_history": [
+            {
+                "year": "1893",
+                "original_string": "F. 11/9. 1893 á Húsavík.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Húsavík",
+                "location_obj": {
+                    "id": 24308,
+                    "name": "Húsavík",
+                    "lat": "66.04465457784943",
+                    "lng": "-17.34897332763694",
+                    "location_type": {
+                        "id": 2,
+                        "name": "Sveitarfélag"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
             {
                 "original_string": "Hjá for. í Bakkaborg (1. ári) 1893.",
                 "year_or_period": "1893",

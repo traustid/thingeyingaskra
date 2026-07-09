@@ -40,6 +40,13 @@
         "parents_original_string": "For.:",
         "residence_history": [
             {
+                "year": "1736",
+                "original_string": "F. um 1736.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Fagrabær"
+            },
+            {
                 "original_string": "E. búandi í Fagrabæ (65) - 1801-1813.",
                 "year_or_period": "1801-1813",
                 "age": 65,
@@ -56,6 +63,13 @@
                 "location": "Fagrabær",
                 "note": "Forlast af elli",
                 "year": "1814-1815"
+            },
+            {
+                "year": "1816",
+                "original_string": "D. í Fagrabæ 12/8. 1816, 84 ára. 1)",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Fagrabær"
             }
         ],
         "notes": {
@@ -151,6 +165,37 @@
         ],
         "parents_original_string": "For.: D. Indriðason (Stóruvöllum) og Herdís Ásmundsd.",
         "residence_history": [
+            {
+                "year": "1790",
+                "original_string": "F. 28/5 1790. á Halldórsst. B.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Halldórsstaðir B",
+                "location_obj": {
+                    "id": 16560,
+                    "name": "Halldórsstaðir",
+                    "lat": "65.449709",
+                    "lng": "-17.410081",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
             {
                 "original_string": "Hjá for. á Stóruvöllum (11) - 1801-1812-",
                 "year_or_period": "1801-1812",
@@ -412,6 +457,13 @@
         ],
         "parents_original_string": "For.: M. Gíslason og Katrín Jónsdóttir.",
         "residence_history": [
+            {
+                "year": "1799",
+                "original_string": "F. 16/1. 1799. á Þorvaldsstöðum.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Þorvaldsstaðir"
+            },
             {
                 "original_string": "Hjá for. á Kvíslarhóli (3 ára) 1801.",
                 "year_or_period": "1801",
@@ -680,6 +732,37 @@
                 "location": "Fagranes",
                 "note": "",
                 "year": "1866-1868",
+                "location_obj": {
+                    "id": 25928,
+                    "name": "Fagranes",
+                    "lat": "65.805692",
+                    "lng": "-17.415805",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "year": "1869",
+                "original_string": "D. í Fagranesi 21/7. 1869. 1)",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Fagranes",
                 "location_obj": {
                     "id": 25928,
                     "name": "Fagranes",

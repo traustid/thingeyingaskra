@@ -50,6 +50,13 @@
         "parents_original_string": "For.: Guðm. Þórðarson (Meyjarhóli) og",
         "residence_history": [
             {
+                "year": "1827",
+                "original_string": "F. um 1827 á N.-Dálkost.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "N.-Dálkostur"
+            },
+            {
                 "original_string": "Með föður á Meyjarhóli (á l.) 1827-1830.",
                 "year": "1827-1830",
                 "age": null,
@@ -774,6 +781,37 @@
         "parents_original_string": "For.: G. Sveinsson og Anna Finnbogadóttir.",
         "residence_history": [
             {
+                "year": "1834",
+                "original_string": "F. 19/7 1834 á Hallbj.stöðum T.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Hallbjarnarstaðir, T.",
+                "location_obj": {
+                    "id": 25730,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "66.149698",
+                    "lng": "-17.251747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
                 "original_string": "Með for. á Hallbjarnarst. T. (1 árs) 1835-1852.",
                 "year": "1835-1852",
                 "age": 1,
@@ -941,6 +979,37 @@
         ],
         "parents_original_string": "For.: Guðm. Jónsson og Guðfinna Grímsdóttir, Fjósat.",
         "residence_history": [
+            {
+                "year": "1789",
+                "original_string": "F. 27/8 1789 í Fjósatungu.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Fjósatunga",
+                "location_obj": {
+                    "id": 1005212,
+                    "name": "Fjósatunga",
+                    "lat": "65.645111",
+                    "lng": "-17.851273",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
             {
                 "original_string": "Tökub. í Fjósatungu (14) 1802.",
                 "year": "1802",
@@ -1249,6 +1318,37 @@
                         {
                             "name": "Mývatnssveit",
                             "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "year": "1862",
+                "original_string": "D. á Snæbj.st. 25/6 1862.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Snæbjarnarstaðir",
+                "location_obj": {
+                    "id": 16608,
+                    "name": "Snæbjarnarstaðir",
+                    "lat": "65.548975",
+                    "lng": "-17.68629",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1832,12 +1932,74 @@
         "parents_original_string": "For.: Jóh. Halldórsson og Anna Guðlaugsdóttir.",
         "residence_history": [
             {
+                "year": "1847",
+                "original_string": "F. 3/8 1847 á Grýtubakka.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Grýtubakki",
+                "location_obj": {
+                    "id": 16614,
+                    "name": "Grýtubakki",
+                    "lat": "65.929625",
+                    "lng": "-18.101916",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
                 "original_string": "Með for. á Grýtubakka (1 árs) 1847-1849.",
                 "year": "1847-1849",
                 "age": 1,
                 "status": "Með for.",
                 "location": "Grýtubakki",
                 "note": "",
+                "location_obj": {
+                    "id": 16614,
+                    "name": "Grýtubakki",
+                    "lat": "65.929625",
+                    "lng": "-18.101916",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "year": "1850",
+                "original_string": "D. á Grýtubakka 17/9 1850. á 4. ári",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Grýtubakki",
                 "location_obj": {
                     "id": 16614,
                     "name": "Grýtubakki",
@@ -2133,6 +2295,13 @@
         "parents_original_string": "For.: G. Bjarnarsson um Þverá Fr. og Saunn H. Jónsdóttir, búst. í Sundi.",
         "residence_history": [
             {
+                "year": "1880",
+                "original_string": "F. 9/10 1880 í Sundi.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Sund"
+            },
+            {
                 "original_string": "Með móður í Sundi (1 árs) 1880.",
                 "year": "1880",
                 "age": 1,
@@ -2174,6 +2343,13 @@
         "parents": [],
         "parents_original_string": "For.:",
         "residence_history": [
+            {
+                "year": "1780",
+                "original_string": "F. um 1780 á Ytrabæ, Hrísey.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Ytrabær, Hrísey"
+            },
             {
                 "original_string": "Hjú á Botni (32) 1811.",
                 "year": "1811",
@@ -2437,6 +2613,13 @@
         "parents_original_string": "For.:",
         "residence_history": [
             {
+                "year": "1798",
+                "original_string": "F. um 1798 á Rip, Hegranesi.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Rip, Hegranes"
+            },
+            {
                 "original_string": "Tökub. fósturb. í Sigluvík (8) 1806-1816.",
                 "year": "1806-1816",
                 "age": 8,
@@ -2626,6 +2809,37 @@
         "parents_original_string": "For.: Halld. Eiríksson og Elína Jóakimsdóttir.",
         "residence_history": [
             {
+                "year": "1868",
+                "original_string": "F. 13/4 1868 á Mógili.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Mógil",
+                "location_obj": {
+                    "id": 1001843,
+                    "name": "Mógil",
+                    "lat": "65.741287",
+                    "lng": "-18.080913",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
                 "original_string": "Hjá for. á Mógili (1 árs) 1869-1871-",
                 "year": "1869-1871",
                 "age": 1,
@@ -2800,6 +3014,13 @@
         ],
         "parents_original_string": "For.: Halld. Pálsson (á Grýtub.) og Dýrleif Gissurardóttir.",
         "residence_history": [
+            {
+                "year": "1794",
+                "original_string": "F. um 1794 á Karlsá, Upsasókn.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Karlsá, Upsasókn"
+            },
             {
                 "original_string": "Hjá for. á Grýtubakka (14) 1808-1815.",
                 "year": "1808-1815",
@@ -3104,6 +3325,37 @@
                         }
                     ]
                 }
+            },
+            {
+                "year": "1831",
+                "original_string": "D. í Yztafelli 16/10 1831, 93 ára.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Yztafell",
+                "location_obj": {
+                    "id": 16602,
+                    "name": "Ystafell",
+                    "lat": "65.782438",
+                    "lng": "-17.576673",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -3198,6 +3450,37 @@
         ],
         "parents_original_string": "For.: Har. Sigurjónsson og Ásrún Jónsdóttir.",
         "residence_history": [
+            {
+                "year": "1886",
+                "original_string": "F. 26/7 1886 á Einarsstaðir R",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Einarsstaðir, R.",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
             {
                 "original_string": "Hjá for. á Einarsstöðum (3)-1889-1900-",
                 "year": "1889-1900",

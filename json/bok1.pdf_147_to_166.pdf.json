@@ -547,6 +547,33 @@
         "parents_original_string": "For.: Ein. Jónasson (í Saltvík) og Sigríður Vigfúsdóttir.",
         "residence_history": [
             {
+                "year": "1812",
+                "original_string": "F. 3/5 1812 í Naustavík.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Naustavík",
+                "location_obj": {
+                    "id": 12395,
+                    "name": "Naustavík",
+                    "lat": "66.00793",
+                    "lng": "-17.676683",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
                 "original_string": "Hjá for. í Naustavík (6 vikna) 1812-",
                 "year": "1812",
                 "age": null,
@@ -749,6 +776,37 @@
                 "status": "Hjá dóttur",
                 "location": "Skarði",
                 "note": "",
+                "location_obj": {
+                    "id": 25003,
+                    "name": "Skarð",
+                    "lat": "65.881634",
+                    "lng": "-17.974430",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Dalsmynni",
+                            "id": 16453
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "year": "1880",
+                "original_string": "D. á Skarði 1/10 1880, 68 ára.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Skarði",
                 "location_obj": {
                     "id": 25003,
                     "name": "Skarð",

@@ -44,6 +44,13 @@
         "parents_original_string": "Þ. Jónsson og Þórdís Helgadóttir, hj. í Garðshorni.",
         "residence_history": [
             {
+                "year": "1839",
+                "original_string": "F. 24/8 1839 í Lj:v. hr.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Lj:v. hr."
+            },
+            {
                 "original_string": "Hjá for. í Garðshorni (6) 1844-1865",
                 "year": "1844-1865",
                 "age": 6,
@@ -435,6 +442,37 @@
         "parents_original_string": "A. Jónsson og Þóra Jónsdóttir.",
         "residence_history": [
             {
+                "year": "1887",
+                "original_string": "F. 30/5 1887 á Gvendarstöðum.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Gvendarstöðum",
+                "location_obj": {
+                    "id": 16598,
+                    "name": "Gvendarstaðir",
+                    "lat": "65.803447",
+                    "lng": "-17.579532",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
                 "original_string": "Með for. á Einarsst. R. hv. (á 1. ári) 1887-88.",
                 "year": "1887-88",
                 "age": 1,
@@ -493,7 +531,15 @@
         "spouse_original_string": "",
         "parents": [],
         "parents_original_string": "",
-        "residence_history": [],
+        "residence_history": [
+            {
+                "year": "1887",
+                "original_string": "D. á Granast. 25/5 1887. 1)",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Granast."
+            }
+        ],
         "notes": {
             "1": "Ómagi, 11 ára. - Drukknaði í ársprengi."
         },
@@ -550,6 +596,13 @@
         ],
         "parents_original_string": "G. Guðmundsson og Ragnhildur Jónsdóttir.",
         "residence_history": [
+            {
+                "year": "1874",
+                "original_string": "F. 5/5 1874 í Helgagerði.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Helgagerði"
+            },
             {
                 "original_string": "Hjá for. í Helgagerði (1 árs) 1875-1876.",
                 "year": "1875-1876",
@@ -610,6 +663,13 @@
         ],
         "parents_original_string": "Kr. Jónsson og Pálína Hallgrímsdóttir.",
         "residence_history": [
+            {
+                "year": "1893",
+                "original_string": "F. 5/5 1893 á Beinabakka, Húsav.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Beinabakka, Húsav."
+            },
             {
                 "original_string": "Med for. í Skrifstykki (1. ári) 1893.",
                 "year": "1893",
@@ -881,6 +941,13 @@
                 "status": "",
                 "location": "Ísafjarðar",
                 "note": "Flutti til"
+            },
+            {
+                "year": "1882",
+                "original_string": "Fórst með 'Jóhannesi' 1882.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "með 'Jóhannesi'"
             }
         ],
         "notes": {},
@@ -933,6 +1000,13 @@
         ],
         "parents_original_string": "Jóh. Jónatansson og Guðfinna Einarsdóttir.",
         "residence_history": [
+            {
+                "year": "1891",
+                "original_string": "F. 4/4 1891 í Grenivíkukoti.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Grenivíkukoti"
+            },
             {
                 "original_string": "Með for. í Grenivíkurkoti (1 árs) 1891-1892- 1900.",
                 "year": "1891-1900",
@@ -1028,6 +1102,33 @@
         "parents_original_string": "J. Jónsson og Hólmfríður Einarsdóttir.",
         "residence_history": [
             {
+                "year": "1883",
+                "original_string": "F. 6/11 1883 í Yztuvík.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Yztuvík",
+                "location_obj": {
+                    "id": 15849,
+                    "name": "Ysta-Vík",
+                    "lat": "65.821702",
+                    "lng": "-18.052495",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
                 "original_string": "Hjá for. í Yztuvík (1 árs) 1884-1887- 1900.",
                 "year": "1884-1900",
                 "age": 1,
@@ -1054,6 +1155,13 @@
                         }
                     ]
                 }
+            },
+            {
+                "year": "1941",
+                "original_string": "D. í Am. fyrir 1941.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Ameríku"
             }
         ],
         "notes": {},
@@ -1130,6 +1238,37 @@
         ],
         "parents_original_string": "J. Klemenzson og Þuríður Jónsdóttir, hj. á Geirbjarnarst.",
         "residence_history": [
+            {
+                "year": "1892",
+                "original_string": "F. 5/7 1892 á Geirbjarnarstöðum.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Geirbjarnarstöðum",
+                "location_obj": {
+                    "id": 24139,
+                    "name": "Geirbjarnarstaðir",
+                    "lat": "65.897474",
+                    "lng": "-17.563625",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
             {
                 "original_string": "Hjá for. á Geirbjarnarst. (1/2 árs) 1892- 1900.",
                 "year": "1892-1900",
@@ -1225,6 +1364,13 @@
         ],
         "parents_original_string": "Kr. Jónsson og Vilborg Ívarsdóttir.",
         "residence_history": [
+            {
+                "year": "1885",
+                "original_string": "F. í Miðgerði 30/9. 1885.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Miðgerði"
+            },
             {
                 "original_string": "Hjá for. í Miðgerði (1 árs) 1886-1887-1900.",
                 "year": "1886-1900",
@@ -1367,6 +1513,37 @@
                 "status": "Barn",
                 "location": "Syðrahóli",
                 "note": ""
+            },
+            {
+                "year": "1871",
+                "original_string": "D. 31/5. 1871 í Máskoti. 1)",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Máskoti",
+                "location_obj": {
+                    "id": 33872,
+                    "name": "Máskot",
+                    "lat": "65.649194",
+                    "lng": "-17.273219",
+                    "location_type": {
+                        "id": 33,
+                        "name": "Bær"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1421,6 +1598,13 @@
         ],
         "parents_original_string": "Þ. Friðbjörnsson og Petrína Jóhannesdóttir.",
         "residence_history": [
+            {
+                "year": "1892",
+                "original_string": "F. 26/10. 1892 á Sandhólum.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Sandhólum"
+            },
             {
                 "original_string": "Með for. á Sandhólum (1. ári) 1892.",
                 "year": "1892",
@@ -1548,6 +1732,37 @@
         ],
         "parents_original_string": "Kr. Árnason og Aðalbjörg Pálmadóttir, b. hús.",
         "residence_history": [
+            {
+                "year": "1839",
+                "original_string": "F. á Hóli T. 17/3 1839.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Hóli T.",
+                "location_obj": {
+                    "id": 13090,
+                    "name": "Hóll",
+                    "lat": "66.164372",
+                    "lng": "-17.24011",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
             {
                 "original_string": "Tökup. á Kálfborgará . . . 1845.",
                 "year": "1845",
@@ -1967,6 +2182,37 @@
                         }
                     ]
                 }
+            },
+            {
+                "year": "1872",
+                "original_string": "D. í Hringsdal 15/6. 1872, 31 árs",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Hringsdal",
+                "location_obj": {
+                    "id": 15224,
+                    "name": "Hringsdalur",
+                    "lat": "65.979405",
+                    "lng": "-18.237602",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2022,6 +2268,13 @@
         ],
         "parents_original_string": "D. Jónsson og Hallfríður Ólafsdóttir.",
         "residence_history": [
+            {
+                "year": "1858",
+                "original_string": "F. á Narfast. 8/12. 1858.-",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Narfast."
+            },
             {
                 "original_string": "Hjá for. á Narfast. (á 1.) 1858-",
                 "year": "1858-",
@@ -2178,6 +2431,37 @@
         "parents_original_string": "D. Sigurbjörnsson og Jóhanna Arngrímsdóttir.",
         "residence_history": [
             {
+                "year": "1894",
+                "original_string": "F. 28/10. 1894 í Presthvammi.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Presthvammi",
+                "location_obj": {
+                    "id": 16500,
+                    "name": "Presthvammur",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
                 "original_string": "Hjá for. í Presthvammi (á 1.) 1894-1897.",
                 "year": "1894-1897",
                 "age": 1,
@@ -2269,6 +2553,13 @@
         ],
         "parents_original_string": "F. Sigurðsson og Guðrún Sigríður Sigurpálsd.",
         "residence_history": [
+            {
+                "year": "1882",
+                "original_string": "F. 11/5. 1882 í Skrifstykki, Húsav.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Skrifstykki, Húsav."
+            },
             {
                 "original_string": "Hjá for. í Skrifstykki (1. ári) 1882.",
                 "year": "1882",
@@ -2429,6 +2720,33 @@
         "parents_original_string": "Frb. Friðbjörnsson og Vilborg Friðfinnsdóttir.",
         "residence_history": [
             {
+                "year": "1898",
+                "original_string": "F. 25/3. 1898 í Naustavík.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Naustavík",
+                "location_obj": {
+                    "id": 12395,
+                    "name": "Naustavík",
+                    "lat": "66.00793",
+                    "lng": "-17.676683",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
                 "original_string": "Hjá for. í Naustavík (1 árs) 1899-1900-",
                 "year": "1899-1900",
                 "age": 1,
@@ -2544,6 +2862,37 @@
         ],
         "parents_original_string": "Kr. Þorsteinsson og Arnfríður Björnsdóttir.",
         "residence_history": [
+            {
+                "year": "1895",
+                "original_string": "F. 19/2. 1895 á Hofsstöðum.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Hofsstöðum",
+                "location_obj": {
+                    "id": 13626,
+                    "name": "Hofsstaðir",
+                    "lat": "65.608268",
+                    "lng": "-17.164034",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
             {
                 "original_string": "Með for. á Hofsstöðum (á 1.) 1896. (Óskírður við mt.)",
                 "year": "1896",
@@ -2683,6 +3032,37 @@
         ],
         "parents_original_string": "Kr. Jónsson (á Stöng) og Guðný Jónsdóttir (Tómass.).",
         "residence_history": [
+            {
+                "year": "1892",
+                "original_string": "F. 20/12. 1892 á Stöng.",
+                "age": 0,
+                "status": "Fæðingarstaður",
+                "location": "Stöng",
+                "location_obj": {
+                    "id": 16625,
+                    "name": "Stöng",
+                    "lat": "65.5622239622",
+                    "lng": "-17.2398662567",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
             {
                 "original_string": "Hjá föður á Stöng (1 árs) 1893-1899.",
                 "year": "1893-1899",
