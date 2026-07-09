@@ -245,7 +245,35 @@
             "birth": {
                 "original_string": "F. 27/10. 1802 í Parti.",
                 "date": "1802-10-27",
-                "location": "Parti"
+                "location": "Parti",
+                "location_obj": {
+                    "id": 25667,
+                    "name": "Partur",
+                    "lat": "65.7587",
+                    "lng": "-17.387",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Halldórsstaðir",
+                            "id": 33711
+                        },
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -299,7 +327,35 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Parti",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 25667,
+                    "name": "Partur",
+                    "lat": "65.7587",
+                    "lng": "-17.387",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Halldórsstaðir",
+                            "id": 33711
+                        },
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá föður á Hrappsst. K. (7) 1809-1815-",
@@ -2521,7 +2577,31 @@
                 "age": 14,
                 "status": "Léttadr.",
                 "location": "Hallbjarnarstaðir, P.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 16409,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "65.671379",
+                    "lng": "-17.322558",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "þaðan um að Hraunkoti (18) 1836-",
@@ -2616,16 +2696,64 @@
                 "year": "1844-1845",
                 "age": null,
                 "status": "G. hjú",
-                "location": "Stórulaugum",
-                "note": "úr Bárðardal"
+                "location": "Stóru-Laugar",
+                "note": "úr Bárðardal",
+                "location_obj": {
+                    "id": 1005280,
+                    "name": "Stóru-Laugar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Litlulaugum 1847-1860.",
                 "year": "1847-1860",
                 "age": null,
                 "status": "B.",
-                "location": "Litlulaugum",
-                "note": ""
+                "location": "Litlu-Laugar",
+                "note": "",
+                "location_obj": {
+                    "id": 24730,
+                    "name": "Litlu-Laugar",
+                    "lat": "65.720461",
+                    "lng": "-17.353118",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsrn. á sama bæ 1861.",

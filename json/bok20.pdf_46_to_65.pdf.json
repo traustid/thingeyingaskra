@@ -1048,14 +1048,38 @@
                 "status": "Hjá föður",
                 "location": "Tjörn",
                 "note": "",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 90015,
+                    "name": "Tjörn",
+                    "lat": "665.886447",
+                    "lng": "-17.434255",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú frá Hafralæk að Hallbj.st. B. (með son 3 ára) 1822.",
                 "year": "1822",
                 "age": null,
                 "status": "Hjú",
-                "location": "Hallbjarnarstöðum, B.",
+                "location": "Hallbjarnarstaðir, B.",
                 "note": "með son 3 ára",
                 "note_ref": null,
                 "location_obj": {
@@ -2717,7 +2741,31 @@
                 "status": "Hjú",
                 "location": "Bakka, Fn.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Gjóstargerði Fn. (57) 1848-1852.",

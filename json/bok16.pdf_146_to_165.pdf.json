@@ -980,31 +980,7 @@
                 "status": "Hjú",
                 "location": "Múla",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Laxamýri 1858.",
@@ -1088,31 +1064,7 @@
                 "status": "Hjú",
                 "location": "Múla",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Stóruvöllum (27) 1864-67.",
@@ -1804,7 +1756,31 @@
                 "status": "Tökub.",
                 "location": "Hallbjarnarstaðir J.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16409,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "65.671379",
+                    "lng": "-17.322558",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fósturbarn á sama bæ 1829-1839.",
@@ -1813,7 +1789,31 @@
                 "status": "Fósturbarn",
                 "location": "Hallbjarnarstaðir J.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16409,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "65.671379",
+                    "lng": "-17.322558",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fósturb. á Hallbj.st. J. 1841-1859.",
@@ -2368,12 +2368,60 @@
             "birth": {
                 "original_string": "F. 16/7. 1858 á Kaðalsstöðum.",
                 "date": "1858-07-16",
-                "location": "Kaðalsstöðum"
+                "location": "Kaðalsstöðum",
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. þar 12/4. 1860, 2 ára.",
                 "date": "1860-04-12",
-                "location": "Kaðalsstöðum"
+                "location": "Kaðalsstöðum",
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "note_ref": 1,
             "names": [
@@ -2416,7 +2464,31 @@
                 "status": "Hjá for.",
                 "location": "Kaðalsstöðum",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2552,7 +2624,31 @@
             "birth": {
                 "original_string": "F. 4/8. 1847 á Holi J.",
                 "date": "1847-08-04",
-                "location": "Holi J."
+                "location": "Holi J.",
+                "location_obj": {
+                    "id": 1004893,
+                    "name": "Holt",
+                    "lat": "65.959297",
+                    "lng": "-18.196958",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2611,7 +2707,31 @@
                 "status": "Hjá for.",
                 "location": "Holi J.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1004893,
+                    "name": "Holt",
+                    "lat": "65.959297",
+                    "lng": "-18.196958",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Vinnum. í Mýrarkoti (18) 1865.",

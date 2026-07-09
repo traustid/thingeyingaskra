@@ -1811,13 +1811,61 @@
             "birth": {
                 "original_string": "F. 16/10. 1891 í Skriðulandi.",
                 "date": "1891-10-16",
-                "location": "Skriðuland"
+                "location": "Skriðuland",
+                "location_obj": {
+                    "id": 9355,
+                    "name": "Skriðuland",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á s.st. 1/6. 1892. 1)",
                 "date": "1892-06-01",
                 "location": "Skriðuland",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 9355,
+                    "name": "Skriðuland",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Ragnar",
@@ -1859,7 +1907,31 @@
                 "year": "1891",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Skriðuland"
+                "location": "Skriðuland",
+                "location_obj": {
+                    "id": 9355,
+                    "name": "Skriðuland",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

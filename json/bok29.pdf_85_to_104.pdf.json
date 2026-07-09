@@ -191,7 +191,7 @@
             "birth": {
                 "original_string": "F. í ágúst 1893 á Litlulaugum.",
                 "date": "1893-08-01",
-                "location": "Litlulaugar",
+                "location": "Litlu-Laugar",
                 "location_obj": {
                     "id": 24730,
                     "name": "Litlu-Laugar",
@@ -1746,31 +1746,7 @@
                 "status": "Hjú",
                 "location": "Múla",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú þaðan að Laugarhóli (19) 1860-62.",
@@ -2251,7 +2227,31 @@
             "birth": {
                 "original_string": "F. 2/2. 1842 á Holi J.",
                 "date": "1842-02-02",
-                "location": "Holi, J."
+                "location": "Holi, J.",
+                "location_obj": {
+                    "id": 1004893,
+                    "name": "Holt",
+                    "lat": "65.959297",
+                    "lng": "-18.196958",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2543,31 +2543,7 @@
                 "status": "Hjú",
                 "location": "Múla",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú í Heiðarbót (22) 1881-1882.",
@@ -3168,12 +3144,31 @@
                 "status": "Hjú",
                 "location": "Múla",
                 "note": "",
-                "note_ref": 1,
+                "note_ref": 1
+            }
+        ],
+        "notes": {
+            "1": "1785: Hjú í Múla, 26 ára."
+        },
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_29/103",
+        "bok": "bok29",
+        "number": 103,
+        "_id": "bok29-103"
+    },
+    {
+        "person": {
+            "name": "Hildur Jónsdóttir",
+            "status": "Fermd í Nesi 12 ára 1770",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. um 1767 á Tjörn.",
+                "date": "1767-01-01",
+                "location": "Tjörn",
                 "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
+                    "id": 90015,
+                    "name": "Tjörn",
+                    "lat": "665.886447",
+                    "lng": "-17.434255",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -3193,25 +3188,6 @@
                         }
                     ]
                 }
-            }
-        ],
-        "notes": {
-            "1": "1785: Hjú í Múla, 26 ára."
-        },
-        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_29/103",
-        "bok": "bok29",
-        "number": 103,
-        "_id": "bok29-103"
-    },
-    {
-        "person": {
-            "name": "Hildur Jónsdóttir",
-            "status": "Fermd í Nesi 12 ára 1770",
-            "unmarried": false,
-            "birth": {
-                "original_string": "F. um 1767 á Tjörn.",
-                "date": "1767-01-01",
-                "location": "Tjörn"
             },
             "death": {
                 "original_string": "D. í Heiðarbót 21/11. 1829.",

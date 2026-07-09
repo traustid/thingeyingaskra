@@ -37,7 +37,31 @@
                 "original_string": "D. á Bakka 28/9. 1869, 16 ára. 1)",
                 "date": "1869-09-28",
                 "location": "Bakka",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Björn",
@@ -79,6 +103,7 @@
                 "status": "Hjá for.",
                 "location": "Hóli T.",
                 "note": "",
+                "year": "1855-1864",
                 "location_obj": {
                     "id": 13090,
                     "name": "Hóll",
@@ -102,8 +127,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year": "1855-1864"
+                }
             },
             {
                 "original_string": "Tökub. á Bakka, T. (10 ára) 1865-1869.",
@@ -112,6 +136,7 @@
                 "status": "Tökub.",
                 "location": "Bakki T.",
                 "note": "",
+                "year": "1865-1869",
                 "location_obj": {
                     "id": 23886,
                     "name": "Bakki",
@@ -135,8 +160,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year": "1865-1869"
+                }
             }
         ],
         "notes": {
@@ -155,31 +179,7 @@
             "birth": {
                 "original_string": "F. 26/2. 1868 í Höfða.",
                 "date": "1868-02-26",
-                "location": "Höfða",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Höfða"
             },
             "death": {
                 "original_string": "",
@@ -238,30 +238,6 @@
                 "status": "Hjá for.",
                 "location": "Höfða",
                 "note": "",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                },
                 "year": "1868-1891"
             },
             {
@@ -271,30 +247,6 @@
                 "status": "Br. B., húsm.",
                 "location": "Höfða",
                 "note": "",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                },
                 "year": "1893-1895"
             },
             {
@@ -304,6 +256,7 @@
                 "status": "Húsb.",
                 "location": "Kljáströnd",
                 "note": "verzlunarm.",
+                "year": "1896-1900-",
                 "location_obj": {
                     "id": 15168,
                     "name": "Kljáströnd",
@@ -323,8 +276,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year": "1896-1900-"
+                }
             }
         ],
         "notes": {},
@@ -341,7 +293,31 @@
             "birth": {
                 "original_string": "F. 24/7. 1850 í Helgast. (sókn eða hr)",
                 "date": "1850-07-24",
-                "location": "Helgastaðir"
+                "location": "Helgastaðir",
+                "location_obj": {
+                    "id": 24370,
+                    "name": "Helgastaðir",
+                    "lat": "65.7710019691",
+                    "lng": "-17.4054445839",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Fornast. 19/8. 1877. 1)",
@@ -389,7 +365,31 @@
                 "status": "Hjá for.",
                 "location": "Tjörn",
                 "note": "",
-                "year": "1851"
+                "year": "1851",
+                "location_obj": {
+                    "id": 90015,
+                    "name": "Tjörn",
+                    "lat": "665.886447",
+                    "lng": "-17.434255",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Yztahvammi (5) 1855-1857.",
@@ -407,6 +407,7 @@
                 "status": "Tökub.",
                 "location": "Nesi, Grýt.",
                 "note": "með for.",
+                "year": "1858-1859",
                 "location_obj": {
                     "id": 13945,
                     "name": "Nes",
@@ -430,8 +431,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year": "1858-1859"
+                }
             },
             {
                 "original_string": "Vinnum. á Hálsi K. (14) 1863-1865.",
@@ -440,6 +440,7 @@
                 "status": "Vinnum.",
                 "location": "Hálsi K.",
                 "note": "",
+                "year": "1863-1865",
                 "location_obj": {
                     "id": 1004565,
                     "name": "Háls",
@@ -463,8 +464,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year": "1863-1865"
+                }
             },
             {
                 "original_string": "Hjú á Silalæk 1866-1867.",
@@ -482,6 +482,7 @@
                 "status": "Hjú",
                 "location": "Hallgilsstöðum",
                 "note": "",
+                "year": "1868-1872",
                 "location_obj": {
                     "id": 16605,
                     "name": "Hallgilsstaðir",
@@ -505,8 +506,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year": "1868-1872"
+                }
             },
             {
                 "original_string": "Hjú á Hálsi Fr. (23) 1873-",
@@ -515,6 +515,7 @@
                 "status": "Hjú",
                 "location": "Hálsi Fn.",
                 "note": "",
+                "year": "1873-",
                 "location_obj": {
                     "id": 33714,
                     "name": "Háls",
@@ -538,8 +539,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year": "1873-"
+                }
             },
             {
                 "original_string": "Húsm. á Fornastöðum (25) 1875-1877-",
@@ -548,6 +548,7 @@
                 "status": "Húsm.",
                 "location": "Fornastöðum",
                 "note": "",
+                "year": "1875-1877-",
                 "location_obj": {
                     "id": 16462,
                     "name": "Fornastaðir",
@@ -571,8 +572,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year": "1875-1877-"
+                }
             }
         ],
         "notes": {
@@ -663,6 +663,7 @@
                 "status": "Með föður",
                 "location": "Þverá L.",
                 "note": "",
+                "year": "1874",
                 "location_obj": {
                     "id": 25899,
                     "name": "Þverá",
@@ -686,8 +687,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year": "1874"
+                }
             }
         ],
         "notes": {

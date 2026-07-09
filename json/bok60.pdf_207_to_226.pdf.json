@@ -138,7 +138,31 @@
                 "status": "Húsfr.",
                 "location": "Skriðuland",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 9355,
+                    "name": "Skriðuland",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "H. vin. í Narfast.seli (47) 1854-",
@@ -448,31 +472,7 @@
                 "status": "Hjú",
                 "location": "Múla",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjá for. á Syðrafjalli . . 1882-1889-1893.",
@@ -943,31 +943,7 @@
                 "status": "G. húsk.",
                 "location": "Fellseli",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10055,
-                    "name": "Fellssel",
-                    "lat": "65.768489",
-                    "lng": "-17.590552",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {
@@ -2583,7 +2559,31 @@
             "birth": {
                 "original_string": "F. 23/4. 1850. í Glaumb.seli.",
                 "date": "1850-04-23",
-                "location": "Glaumbæjarsel"
+                "location": "Glaumbæjarsel",
+                "location_obj": {
+                    "id": 33745,
+                    "name": "Glaumbæjarsel",
+                    "lat": "65.760509",
+                    "lng": "-17.487118",
+                    "location_type": {
+                        "id": 33,
+                        "name": "Bær"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2630,7 +2630,31 @@
                 "status": "Hjá for.",
                 "location": "Glaumbæjarsel",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 33745,
+                    "name": "Glaumbæjarsel",
+                    "lat": "65.760509",
+                    "lng": "-17.487118",
+                    "location_type": {
+                        "id": 33,
+                        "name": "Bær"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Femdur þaðan 29/5. 1864-",
@@ -2639,7 +2663,31 @@
                 "status": "Femdur þaðan",
                 "location": "Glaumbæjarsel",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 33745,
+                    "name": "Glaumbæjarsel",
+                    "lat": "65.760509",
+                    "lng": "-17.487118",
+                    "location_type": {
+                        "id": 33,
+                        "name": "Bær"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Lettadr. - frá Glaumbæjarseli að Helgast. (15) 1865-66.",
@@ -2648,7 +2696,31 @@
                 "status": "Lettadr.",
                 "location": "Helgastaðir",
                 "note": "frá Glaumbæjarseli",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 24370,
+                    "name": "Helgastaðir",
+                    "lat": "65.7710019691",
+                    "lng": "-17.4054445839",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Vinnudr. að Kvígindisdal (16) 1866-",
@@ -3179,7 +3251,31 @@
             "birth": {
                 "original_string": "F. í Glaumb.seli 18/11. 1862.",
                 "date": "1862-11-18",
-                "location": "Glaumbæjarsel"
+                "location": "Glaumbæjarsel",
+                "location_obj": {
+                    "id": 33745,
+                    "name": "Glaumbæjarsel",
+                    "lat": "65.760509",
+                    "lng": "-17.487118",
+                    "location_type": {
+                        "id": 33,
+                        "name": "Bær"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3226,7 +3322,31 @@
                 "status": "Hjá for.",
                 "location": "Glaumbæjarsel",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 33745,
+                    "name": "Glaumbæjarsel",
+                    "lat": "65.760509",
+                    "lng": "-17.487118",
+                    "location_type": {
+                        "id": 33,
+                        "name": "Bær"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Yztafelli (26) - 1888.",
@@ -3937,7 +4057,31 @@
                 "status": "Hjú",
                 "location": "Bakka T.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 23886,
+                    "name": "Bakki",
+                    "lat": "66.070217",
+                    "lng": "-17.34827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsm. á Ketilsstöðum (38 ára) 1881.",

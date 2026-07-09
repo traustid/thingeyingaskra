@@ -1316,7 +1316,31 @@
                 "age": 29,
                 "status": "G. hjú",
                 "location": "Bakka T.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 23886,
+                    "name": "Bakki",
+                    "lat": "66.070217",
+                    "lng": "-17.34827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsk. í Tröllakoti (31 árs) 1882.",
@@ -1389,7 +1413,31 @@
             "birth": {
                 "original_string": "F. 2/6 1895 í Skriðulandi.",
                 "date": "1895-06-02",
-                "location": "Skriðulandi"
+                "location": "Skriðulandi",
+                "location_obj": {
+                    "id": 9355,
+                    "name": "Skriðuland",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1448,7 +1496,31 @@
                 "age": 1,
                 "status": "Hjá foreldrum",
                 "location": "Skriðulandi",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 9355,
+                    "name": "Skriðuland",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

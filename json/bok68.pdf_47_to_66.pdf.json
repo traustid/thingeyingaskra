@@ -45,7 +45,31 @@
                 "status": "G.",
                 "location": "Bakka, Fn.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. á Vatnsleysu (23) 1857.",
@@ -596,31 +620,7 @@
                 "status": "Húsfr.",
                 "location": "Múla",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Fl. til Seyðisfjarðar 1899.",
@@ -2435,31 +2435,7 @@
                 "status": "Tökukerl.",
                 "location": "Múla",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Tökukerl. í Garði A. (71) 1889-1900.",
@@ -2538,7 +2514,31 @@
             "death": {
                 "original_string": "D. á Helgast. 23/12. 1841.",
                 "date": "1841-12-23",
-                "location": "Helgastaðir"
+                "location": "Helgastaðir",
+                "location_obj": {
+                    "id": 24370,
+                    "name": "Helgastaðir",
+                    "lat": "65.7710019691",
+                    "lng": "-17.4054445839",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Valgerður",

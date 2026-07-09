@@ -956,7 +956,31 @@
             "birth": {
                 "original_string": "F. um. 1813. á Stórulaugum.",
                 "date": "1813",
-                "location": "Stórulaugum"
+                "location": "Stóru-Laugar",
+                "location_obj": {
+                    "id": 1005280,
+                    "name": "Stóru-Laugar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Krossi 29/10. 1889.",
@@ -1027,9 +1051,33 @@
                 "year": "1816",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Stórulaugum",
+                "location": "Stóru-Laugar",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1005280,
+                    "name": "Stóru-Laugar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Termd. frá Glaumbæ (14) 1827.",

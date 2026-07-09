@@ -1405,31 +1405,7 @@
                 "status": "Hjú",
                 "location": "Ási",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 14317,
-                    "name": "Ás",
-                    "lat": "66.022794",
-                    "lng": "-16.473363",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kelduhverfi",
-                            "id": 24585
-                        },
-                        {
-                            "name": "Norður-Þingeyjarsýsla",
-                            "id": 16841
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú (60) frá Ási að Hofstöðum 1858.",
@@ -1504,31 +1480,7 @@
                 "status": "G. maður",
                 "location": "Ási",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 14317,
-                    "name": "Ás",
-                    "lat": "66.022794",
-                    "lng": "-16.473363",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kelduhverfi",
-                            "id": 24585
-                        },
-                        {
-                            "name": "Norður-Þingeyjarsýsla",
-                            "id": 16841
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -1772,7 +1724,31 @@
                 "status": "Med móður",
                 "location": "Bakka, Þ.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Med móður í Kaldbak (8 ára) 1813.",
@@ -2080,7 +2056,31 @@
                 "status": "Faðir K.",
                 "location": "Hallbjarnarstaðir T.",
                 "note": "Geðveikur o.fl.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25730,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "66.149698",
+                    "lng": "-17.251747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Faðir konu á Héðinshöfða (70 ára) 1874.",
@@ -2415,7 +2415,31 @@
             "birth": {
                 "original_string": "F. 5/8. 1879 á Stórulaugum.",
                 "date": "1879-08-05",
-                "location": "Stórulaugum"
+                "location": "Stóru-Laugar",
+                "location_obj": {
+                    "id": 1005280,
+                    "name": "Stóru-Laugar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2993,7 +3017,31 @@
                 "status": "Faðir K.",
                 "location": "Holi T.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1004893,
+                    "name": "Holt",
+                    "lat": "65.959297",
+                    "lng": "-18.196958",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Faðir B. á Sigurðarst. (78) 1878-1883.",
@@ -4141,9 +4189,33 @@
                 "year": "1847-1849",
                 "age": 4,
                 "status": "Með for.",
-                "location": "Stórulaugum",
+                "location": "Stóru-Laugar",
                 "note": "Frá Syðra",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1005280,
+                    "name": "Stóru-Laugar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. að Grenjaðarst. (5) 1849- Með for. á Grenjaðarst. (6) 1850.",

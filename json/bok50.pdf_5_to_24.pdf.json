@@ -113,7 +113,31 @@
                 "status": "Hjá bróður",
                 "location": "Bakka, Fj.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Barn í Klömbur (11) 1810.",
@@ -997,32 +1021,15 @@
                 "status": "B.",
                 "location": "Skriðulandi",
                 "note": "",
-                "note_ref": null
-            }
-        ],
-        "notes": {},
-        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_50/11",
-        "bok": "bok50",
-        "number": 11,
-        "_id": "bok50-11"
-    },
-    {
-        "person": {
-            "name": "Magnús Árnason",
-            "status": "",
-            "unmarried": false,
-            "birth": {
-                "original_string": "F. um 1746 í Múla.",
-                "date": "1746-01-01",
-                "location": "Múla",
+                "note_ref": null,
                 "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
+                    "id": 9355,
+                    "name": "Skriðuland",
+                    "lat": null,
+                    "lng": null,
                     "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
+                        "id": 88,
+                        "name": "Örnefni"
                     },
                     "parent": [
                         {
@@ -1039,6 +1046,23 @@
                         }
                     ]
                 }
+            }
+        ],
+        "notes": {},
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_50/11",
+        "bok": "bok50",
+        "number": 11,
+        "_id": "bok50-11"
+    },
+    {
+        "person": {
+            "name": "Magnús Árnason",
+            "status": "",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. um 1746 í Múla.",
+                "date": "1746-01-01",
+                "location": "Múla"
             },
             "death": {
                 "original_string": "D. í Hjalthúsum 3/9 1833.",

@@ -1153,7 +1153,35 @@
                 "age": 34,
                 "status": "Bústýra, frilla",
                 "location": "Partur",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 25667,
+                    "name": "Partur",
+                    "lat": "65.7587",
+                    "lng": "-17.387",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Halldórsstaðir",
+                            "id": 33711
+                        },
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Bústýra í Miðhvamm (36) 1881-1885.",

@@ -1329,7 +1329,31 @@
                 "status": "V. piltur",
                 "location": "Skriðulandi",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 9355,
+                    "name": "Skriðuland",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Kraunastöðum (20) 1892-1895.",
@@ -1447,12 +1471,68 @@
             "birth": {
                 "original_string": "F. í Parti 20/3. 1851.-",
                 "date": "1851-03-20",
-                "location": "Parti"
+                "location": "Parti",
+                "location_obj": {
+                    "id": 25667,
+                    "name": "Partur",
+                    "lat": "65.7587",
+                    "lng": "-17.387",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Halldórsstaðir",
+                            "id": 33711
+                        },
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á s.st. 10/2. 1860. (Andarteppa)",
                 "date": "1860-02-10",
-                "location": "Parti"
+                "location": "Parti",
+                "location_obj": {
+                    "id": 25667,
+                    "name": "Partur",
+                    "lat": "65.7587",
+                    "lng": "-17.387",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Halldórsstaðir",
+                            "id": 33711
+                        },
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Sigtryggur",
@@ -1494,7 +1574,35 @@
                 "status": "Hjá for.",
                 "location": "Parti",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25667,
+                    "name": "Partur",
+                    "lat": "65.7587",
+                    "lng": "-17.387",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Halldórsstaðir",
+                            "id": 33711
+                        },
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

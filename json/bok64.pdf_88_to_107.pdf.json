@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "14/4. 1887 í Lundi.",
                 "date": "1887-04-14",
-                "location": "Lundi"
+                "location": "Lundi",
+                "location_obj": {
+                    "id": 24743,
+                    "name": "Lundur",
+                    "lat": "65.690189",
+                    "lng": "-17.870023",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -292,31 +316,7 @@
             "birth": {
                 "original_string": "um 1851 í Ási, Pistilf.",
                 "date": "1851-00-00",
-                "location": "Ási, Pistilf.",
-                "location_obj": {
-                    "id": 14317,
-                    "name": "Ás",
-                    "lat": "66.022794",
-                    "lng": "-16.473363",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kelduhverfi",
-                            "id": 24585
-                        },
-                        {
-                            "name": "Norður-Þingeyjarsýsla",
-                            "id": 16841
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Ási, Pistilf."
             },
             "death": {
                 "original_string": "",
@@ -1213,31 +1213,7 @@
                 "status": "Hjú",
                 "location": "Höfða",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -2277,7 +2253,31 @@
             "birth": {
                 "original_string": "í Glaumb.seli 23/4. 1864.",
                 "date": "1864-04-23",
-                "location": "Glaumbæjarsel"
+                "location": "Glaumbæjarsel",
+                "location_obj": {
+                    "id": 33745,
+                    "name": "Glaumbæjarsel",
+                    "lat": "65.760509",
+                    "lng": "-17.487118",
+                    "location_type": {
+                        "id": 33,
+                        "name": "Bær"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "14/12 1927",
@@ -2497,7 +2497,31 @@
                 "status": "G. húsm.",
                 "location": "Fljótsbakka",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90016,
+                    "name": "Fljótsbakki",
+                    "lat": "65.715964",
+                    "lng": "-17.524174",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í S. Neslöndum... 1897.?",
@@ -2539,7 +2563,31 @@
                 "status": "B.",
                 "location": "Fljótsbakka",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90016,
+                    "name": "Fljótsbakki",
+                    "lat": "65.715964",
+                    "lng": "-17.524174",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2853,31 +2901,7 @@
                 "status": "Hjú",
                 "location": "Múla",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú í Múla 1863.",
@@ -2886,31 +2910,7 @@
                 "status": "Hjú",
                 "location": "Múla",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Syðrafjalli (21) 1864.",
@@ -3202,7 +3202,31 @@
                 "status": "Hjú",
                 "location": "Bakka Fn.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Veturliðast. (24) 1861-1862.",
@@ -3427,7 +3451,31 @@
                 "status": "Veturvistarm.",
                 "location": "Hallbjarnarstaðir R",
                 "note": "frá Ameríku",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16409,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "65.671379",
+                    "lng": "-17.322558",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -4079,31 +4127,7 @@
                 "status": "Hjú",
                 "location": "Múla",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú í Garði A. (20) 1882-1883.",
@@ -4145,31 +4169,7 @@
                 "status": "Hjú",
                 "location": "Múla",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Breiðumýri (29) 1892-1893. (G. '93).",

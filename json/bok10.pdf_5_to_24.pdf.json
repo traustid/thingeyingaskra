@@ -383,7 +383,31 @@
                 "age": 44,
                 "status": "Hjú",
                 "location": "Tjörn",
-                "note_ref": 2
+                "note_ref": 2,
+                "location_obj": {
+                    "id": 90015,
+                    "name": "Tjörn",
+                    "lat": "665.886447",
+                    "lng": "-17.434255",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Saltvík (45 ára) 1837.",
@@ -695,7 +719,31 @@
                 "status": "Með móður",
                 "location": "Vað",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90013,
+                    "name": "Vað",
+                    "lat": "65.799802",
+                    "lng": "-17.502078",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður frá Vaði að Fremstafelli (15) 1844-46.",

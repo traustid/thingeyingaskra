@@ -2262,7 +2262,31 @@
                 "age": 25,
                 "status": "Hjú",
                 "location": "Bakka",
-                "note": "25 ára"
+                "note": "25 ára",
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Hóli T. (30) 1830.",
@@ -2962,31 +2986,7 @@
                 "age": 20,
                 "status": "Fósturson",
                 "location": "Höfða",
-                "note": "",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Útskrifaður 1805. (af Páli Hjálmarssyni).",
@@ -3090,7 +3090,31 @@
                 "age": null,
                 "status": "Fekk",
                 "location": "Tjörn í Svarfaðardal",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90015,
+                    "name": "Tjörn",
+                    "lat": "665.886447",
+                    "lng": "-17.434255",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Prestur á Völlum í Svarfaðardal 1846-1858",
@@ -3197,31 +3221,7 @@
                 "age": 20,
                 "status": "Fósturson",
                 "location": "Höfða",
-                "note": "",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Varð stúdent 1805.",

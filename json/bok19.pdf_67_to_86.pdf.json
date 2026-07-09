@@ -395,7 +395,35 @@
                 "status": "Hjú",
                 "location": "Partur",
                 "note": "að Halldórsst.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25667,
+                    "name": "Partur",
+                    "lat": "65.7587",
+                    "lng": "-17.387",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Halldórsstaðir",
+                            "id": 33711
+                        },
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Glaumbæ (37) 1851.",
@@ -2048,7 +2076,31 @@
                 "status": "Hjú",
                 "location": "Hjalla R.",
                 "note": "frá Klömbrum",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90004,
+                    "name": "Hjalli",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Kerling að Grímshúsum (70) 1845-",

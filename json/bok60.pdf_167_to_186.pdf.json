@@ -96,7 +96,31 @@
                 "age": 23,
                 "status": "Hjú",
                 "location": "Litlaströnd",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 24724,
+                    "name": "Litlaströnd",
+                    "lat": "65.539896",
+                    "lng": "-17.069602",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú (23) þaðan - vestur í Krækibl. hlíð 1872.",
@@ -3409,7 +3433,31 @@
                 "age": 27,
                 "status": "Húsfr.",
                 "location": "Fljótsbakka",
-                "note": "frá Íshóli"
+                "note": "frá Íshóli",
+                "location_obj": {
+                    "id": 90016,
+                    "name": "Fljótsbakki",
+                    "lat": "65.715964",
+                    "lng": "-17.524174",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. þaðan að Heiðarseli (27) 1865-",

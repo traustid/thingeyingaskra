@@ -709,9 +709,33 @@
                 "year": "1819",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Stórulaugum",
+                "location": "Stóru-Laugar",
                 "note": "á 1.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1005280,
+                    "name": "Stóru-Laugar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Narfastöðum 1819-1841.",
@@ -977,31 +1001,7 @@
                 "status": "þjónustustúlka",
                 "location": "Múla",
                 "note": "31 árs",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Húsfr. í Máskoti 1802-",
@@ -1680,7 +1680,31 @@
                 "status": "Hjá for.",
                 "location": "Hallbjarnarstaðir S.",
                 "note": "1 ári",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16409,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "65.671379",
+                    "lng": "-17.322558",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. á sama bæ 1833.",

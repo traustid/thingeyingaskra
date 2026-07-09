@@ -1256,7 +1256,31 @@
                 "age": 40,
                 "status": "Hjú",
                 "location": "Snæbjarnarstaðir",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 16608,
+                    "name": "Snæbjarnarstaðir",
+                    "lat": "65.548975",
+                    "lng": "-17.68629",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2437,31 +2461,7 @@
                 "age": 49,
                 "status": "Prófastsfrú",
                 "location": "Múla",
-                "note": "",
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             }
         ],
         "notes": {},

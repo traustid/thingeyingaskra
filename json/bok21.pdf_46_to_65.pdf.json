@@ -2399,7 +2399,35 @@
             "birth": {
                 "original_string": "F. 31/7. 1800 á Hjalla, Grýt.",
                 "date": "1800-07-31",
-                "location": "Hjalla, Grýt"
+                "location": "Hjalla, Grýt",
+                "location_obj": {
+                    "id": 90003,
+                    "name": "Hjalli",
+                    "lat": "65.969928",
+                    "lng": "-18.211361",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2445,7 +2473,35 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Hjalla, Grýt",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90003,
+                    "name": "Hjalli",
+                    "lat": "65.969928",
+                    "lng": "-18.211361",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

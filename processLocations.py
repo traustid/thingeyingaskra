@@ -68,7 +68,7 @@ manualExcludePlaces = [
 ]
 
 jsonDir = 'json'
-jsonDir = 'json_subset'
+#jsonDir = 'json_subset'
 
 def get_region_value(text):
 	sorted_keys = sorted(regions.keys(), key=len, reverse=True)

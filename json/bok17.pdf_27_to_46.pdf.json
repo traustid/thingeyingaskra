@@ -2558,8 +2558,32 @@
                 "year": "1860-1862",
                 "age": null,
                 "status": "G. maður",
-                "location": "Stórulaugum",
-                "note": "frá Helluvaði"
+                "location": "Stóru-Laugar",
+                "note": "frá Helluvaði",
+                "location_obj": {
+                    "id": 1005280,
+                    "name": "Stóru-Laugar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú þaðan til Inyjóska dals (56) 1862-",
@@ -2716,31 +2740,7 @@
                 "original_string": "D. í Múla 21/8. 1837, 24 ára.",
                 "date": "1837-08-21",
                 "location": "Múla",
-                "note_ref": 1,
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": 1
             },
             "names": [
                 "Guðmundur",
@@ -2877,7 +2877,31 @@
                 "age": 17,
                 "status": "Léttabr.",
                 "location": "Bakka",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "--\"-- s.st. 1830-1831, 17-18 ára.",
@@ -2933,31 +2957,7 @@
                 "age": 25,
                 "status": "Hjú",
                 "location": "Múla",
-                "note": "24-25 ára",
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": "24-25 ára"
             }
         ],
         "notes": {
@@ -3808,7 +3808,31 @@
                 "age": 8,
                 "status": "Hjá for.",
                 "location": "Hallbjarnarstaðir T.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 25730,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "66.149698",
+                    "lng": "-17.251747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Héðinshöfða (19 ára) 1874.",

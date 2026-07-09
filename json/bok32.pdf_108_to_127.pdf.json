@@ -1369,7 +1369,31 @@
             "birth": {
                 "original_string": "F. um 1750. á Hjalla R.",
                 "date": "1750",
-                "location": "Hjalla R."
+                "location": "Hjalla R.",
+                "location_obj": {
+                    "id": 90004,
+                    "name": "Hjalli",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2359,7 +2383,31 @@
                 "age": 14,
                 "status": "Hjú",
                 "location": "Bakka Fn.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú þaðan að Reykjum Fn. ... 1817-",
@@ -2698,7 +2746,35 @@
                 "age": 56,
                 "status": "Hjú",
                 "location": "Hjalla Grýt.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90003,
+                    "name": "Hjalli",
+                    "lat": "65.969928",
+                    "lng": "-18.211361",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. á Grýtubakka (64) 1808-1827-",

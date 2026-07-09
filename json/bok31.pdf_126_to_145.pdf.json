@@ -1809,31 +1809,7 @@
                 "age": 22,
                 "status": "Hjú",
                 "location": "Múla",
-                "note": "22-23 ára",
-                "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": "22-23 ára"
             },
             {
                 "original_string": "Hjú í Rauðuskriðu 1820-22, 23- ára.",
@@ -1872,8 +1848,32 @@
                 "year": "1822",
                 "age": null,
                 "status": "G. hjú",
-                "location": "Stórulaugum",
-                "note": ""
+                "location": "Stóru-Laugar",
+                "note": "",
+                "location_obj": {
+                    "id": 1005280,
+                    "name": "Stóru-Laugar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. Máskoti 1824-28.",
@@ -2940,7 +2940,31 @@
                 "age": 15,
                 "status": "Fermd",
                 "location": "Helgastaðir",
-                "note": "frá Höskuldsst."
+                "note": "frá Höskuldsst.",
+                "location_obj": {
+                    "id": 24370,
+                    "name": "Helgastaðir",
+                    "lat": "65.7710019691",
+                    "lng": "-17.4054445839",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. búandi á Höskuldsstöðum (46)-1880.",

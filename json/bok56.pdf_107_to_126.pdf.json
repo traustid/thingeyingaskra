@@ -1303,7 +1303,27 @@
             "birth": {
                 "original_string": "F. 19/7. 1855 á Stórutjörnum.",
                 "date": "1855-07-19",
-                "location": "Stóru-Tjarnir"
+                "location": "Stóru-Tjarnir",
+                "location_obj": {
+                    "id": 15135,
+                    "name": "Stóru-Tjarnir",
+                    "lat": "65.7077204415",
+                    "lng": "-17.7257537842",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [

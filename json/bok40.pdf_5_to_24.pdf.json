@@ -1746,7 +1746,7 @@
             "birth": {
                 "original_string": "F. 5/3 1834 á Hallbj.stöðum T.",
                 "date": "1834-03-05",
-                "location": "Hallbjarnarstöðum, T.",
+                "location": "Hallbjarnarstaðir, T.",
                 "location_obj": {
                     "id": 25730,
                     "name": "Hallbjarnarstaðir",
@@ -2416,7 +2416,31 @@
                 "status": "Með móður",
                 "location": "Tjörn",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90015,
+                    "name": "Tjörn",
+                    "lat": "665.886447",
+                    "lng": "-17.434255",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "A sveit á Björgum (13) 1863.",
@@ -2899,7 +2923,31 @@
                 "status": "B.",
                 "location": "Hallbjarnarstaðir, T.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25730,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "66.149698",
+                    "lng": "-17.251747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Hringveri 1874-89.",

@@ -1626,7 +1626,27 @@
                 "status": "B.",
                 "location": "Öxará",
                 "note": "Hrb.",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 12728,
+                    "name": "Öxará",
+                    "lat": "65.667123",
+                    "lng": "-17.5789",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Vogum (64) 1815. 2)",
@@ -3012,7 +3032,31 @@
             "death": {
                 "original_string": "D. á Holi 1/12 1842, 40 ára. 1)",
                 "date": "1842-12-01",
-                "location": "Holi"
+                "location": "Holi",
+                "location_obj": {
+                    "id": 1004893,
+                    "name": "Holt",
+                    "lat": "65.959297",
+                    "lng": "-18.196958",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Bjarni",
@@ -3175,7 +3219,31 @@
                 "status": "B.",
                 "location": "Holi Fj.",
                 "note": "Hrb.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1004893,
+                    "name": "Holt",
+                    "lat": "65.959297",
+                    "lng": "-18.196958",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

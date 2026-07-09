@@ -374,7 +374,35 @@
             "birth": {
                 "original_string": "F. á Hjalla 8/12. 1830.",
                 "date": "1830-12-08",
-                "location": "Hjalla"
+                "location": "Hjalla",
+                "location_obj": {
+                    "id": 90003,
+                    "name": "Hjalli",
+                    "lat": "65.969928",
+                    "lng": "-18.211361",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -432,7 +460,35 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Hjalla",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90003,
+                    "name": "Hjalli",
+                    "lat": "65.969928",
+                    "lng": "-18.211361",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Þaðan að Mývatni (11) 1841-",
@@ -500,31 +556,7 @@
                 "age": 24,
                 "status": "Húsfr.",
                 "location": "Ási",
-                "note": "frá Vogum að Ási",
-                "location_obj": {
-                    "id": 14317,
-                    "name": "Ás",
-                    "lat": "66.022794",
-                    "lng": "-16.473363",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kelduhverfi",
-                            "id": 24585
-                        },
-                        {
-                            "name": "Norður-Þingeyjarsýsla",
-                            "id": 16841
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": "frá Vogum að Ási"
             }
         ],
         "notes": {},
@@ -2313,31 +2345,7 @@
                 "age": 28,
                 "status": "Hjú",
                 "location": "Höfða, Húsavík",
-                "note": "",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú í Bakkaborg (29 ára) 1900.",
@@ -2648,31 +2656,7 @@
                 "age": 17,
                 "status": "Hjú",
                 "location": "Höfða",
-                "note": "",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "G. (Baldvin) í Höfða (24) 1894-1900-",
@@ -2680,31 +2664,7 @@
                 "age": 24,
                 "status": "G. (Baldvin)",
                 "location": "Höfða",
-                "note": "",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             }
         ],
         "notes": {},
@@ -4219,7 +4179,31 @@
             "birth": {
                 "original_string": "F. á Fljótsbakka 26/11. 1858.",
                 "date": "1858-11-26",
-                "location": "Fljótsbakka"
+                "location": "Fljótsbakka",
+                "location_obj": {
+                    "id": 90016,
+                    "name": "Fljótsbakki",
+                    "lat": "65.715964",
+                    "lng": "-17.524174",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 7/3 1931",
@@ -4278,7 +4262,31 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Fljótsbakka",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90016,
+                    "name": "Fljótsbakki",
+                    "lat": "65.715964",
+                    "lng": "-17.524174",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. þaðan að Hólsdal (1 árs) 1859-",

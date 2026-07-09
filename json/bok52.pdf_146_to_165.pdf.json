@@ -283,7 +283,31 @@
                 "age": 7,
                 "status": "Tökubarn",
                 "location": "Skriðuland",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 9355,
+                    "name": "Skriðuland",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. í Skörðum (17 ára) 1813-1816.",
@@ -291,7 +315,31 @@
                 "age": 17,
                 "status": "Niðurs.",
                 "location": "Skörð",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 16837,
+                    "name": "Skörð",
+                    "lat": "65.958869",
+                    "lng": "-17.323202",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1164,7 +1212,31 @@
                 "age": 2,
                 "status": "Með for.",
                 "location": "Vogar",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 16627,
+                    "name": "Vogar",
+                    "lat": "65.6221",
+                    "lng": "-16.92176",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Litluströnd (9) 1843-",

@@ -896,7 +896,31 @@
                 "age": 29,
                 "status": "B.",
                 "location": "Fljótsbakka",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90016,
+                    "name": "Fljótsbakki",
+                    "lat": "65.715964",
+                    "lng": "-17.524174",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Búferlum þaðan að Heiðarseli (29) 1865-",
@@ -1000,7 +1024,7 @@
                 "year": "1842",
                 "age": 1,
                 "status": "",
-                "location": "Hallbjarnarstöðum R.",
+                "location": "Hallbjarnarstaðir R.",
                 "note": "",
                 "location_obj": {
                     "id": 16409,
@@ -3332,7 +3356,31 @@
             "birth": {
                 "original_string": "F. 19/12. 1884 í Ljósastöðum F.",
                 "date": "1884-12-19",
-                "location": "Ljósastöðum F."
+                "location": "Ljótsstaðir F.",
+                "location_obj": {
+                    "id": 16562,
+                    "name": "Ljótsstaðir",
+                    "lat": "65.683681",
+                    "lng": "-17.201825",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3379,8 +3427,32 @@
                 "year": "1884-1885",
                 "age": 1,
                 "status": "",
-                "location": "Ljósastöðum",
-                "note": ""
+                "location": "Ljótsstaðir",
+                "note": "",
+                "location_obj": {
+                    "id": 16562,
+                    "name": "Ljótsstaðir",
+                    "lat": "65.683681",
+                    "lng": "-17.201825",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

@@ -289,33 +289,15 @@
                 "status": "Með móður",
                 "location": "Skriðulandi",
                 "note": "",
-                "note_ref": null
-            },
-            {
-                "original_string": "Með móður í Skriðulandi (16) 1890-1892.",
-                "year": "1890-1892",
-                "age": 16,
-                "status": "Með móður",
-                "location": "Skriðulandi",
-                "note": "",
-                "note_ref": null
-            },
-            {
-                "original_string": "Hjú í Múla (19) 1893-1896.",
-                "year": "1893-1896",
-                "age": 19,
-                "status": "Hjú",
-                "location": "Múla",
-                "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 24789,
-                    "name": "Múli",
-                    "lat": "65.820546",
-                    "lng": "-17.369374",
+                    "id": 9355,
+                    "name": "Skriðuland",
+                    "lat": null,
+                    "lng": null,
                     "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
+                        "id": 88,
+                        "name": "Örnefni"
                     },
                     "parent": [
                         {
@@ -332,6 +314,48 @@
                         }
                     ]
                 }
+            },
+            {
+                "original_string": "Með móður í Skriðulandi (16) 1890-1892.",
+                "year": "1890-1892",
+                "age": 16,
+                "status": "Með móður",
+                "location": "Skriðulandi",
+                "note": "",
+                "note_ref": null,
+                "location_obj": {
+                    "id": 9355,
+                    "name": "Skriðuland",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Hjú í Múla (19) 1893-1896.",
+                "year": "1893-1896",
+                "age": 19,
+                "status": "Hjú",
+                "location": "Múla",
+                "note": "",
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -508,31 +532,7 @@
                 "status": "Hjú",
                 "location": "Höfða",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -1052,7 +1052,31 @@
             "birth": {
                 "original_string": "F. 1/8 1889 í Lundi.",
                 "date": "1889-08-01",
-                "location": "Lundi"
+                "location": "Lundi",
+                "location_obj": {
+                    "id": 24743,
+                    "name": "Lundur",
+                    "lat": "65.690189",
+                    "lng": "-17.870023",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -1966,7 +1990,31 @@
                 "status": "Hjá for.",
                 "location": "Hallbjarnarstaðir T.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25730,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "66.149698",
+                    "lng": "-17.251747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Vilpu (8 ára) 1806, 1808, 1813, 1815.",
@@ -2030,7 +2078,31 @@
                 "status": "Húsfr.",
                 "location": "Hallbjarnarstaðir T.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25730,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "66.149698",
+                    "lng": "-17.251747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Vilpu 1802-04.",

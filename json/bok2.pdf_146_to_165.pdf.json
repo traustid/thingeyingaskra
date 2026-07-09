@@ -1557,7 +1557,31 @@
                 "age": 16,
                 "status": "Barn bónda",
                 "location": "Fljótsbakki",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90016,
+                    "name": "Fljótsbakki",
+                    "lat": "65.715964",
+                    "lng": "-17.524174",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá föður í Litlutungu (18) 1819-",
@@ -2022,7 +2046,7 @@
             "birth": {
                 "original_string": "F. 10/3 1869 á Litlulaugum.",
                 "date": "1869-03-10",
-                "location": "Litlulaugar",
+                "location": "Litlu-Laugar",
                 "location_obj": {
                     "id": 24730,
                     "name": "Litlu-Laugar",

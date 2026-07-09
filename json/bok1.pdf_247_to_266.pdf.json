@@ -999,7 +999,31 @@
             "death": {
                 "original_string": "D. á Grenjaðarst. 16/5 1884. 1)",
                 "date": "1884-05-16",
-                "location": "Grenjaðarst"
+                "location": "Grenjaðarstaður",
+                "location_obj": {
+                    "id": 16501,
+                    "name": "Grenjaðarstaður",
+                    "lat": "65.8209185748",
+                    "lng": "-17.3502874374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Andrés",
@@ -1084,9 +1108,33 @@
                 "year": "1816",
                 "age": 18,
                 "status": "",
-                "location": "Ljósastöðum L.",
+                "location": "Ljótsstaðir L.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16562,
+                    "name": "Ljótsstaðir",
+                    "lat": "65.683681",
+                    "lng": "-17.201825",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Vinnum. frá Langavatni að Halldórsst. L. (25) 1823.",
@@ -1126,9 +1174,33 @@
                 "year": "1824",
                 "age": null,
                 "status": "Hjú",
-                "location": "Litlulaugum",
+                "location": "Litlu-Laugar",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 24730,
+                    "name": "Litlu-Laugar",
+                    "lat": "65.720461",
+                    "lng": "-17.353118",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Halldórsst. L. (27) 1825-26.",
@@ -1168,9 +1240,33 @@
                 "year": "1826",
                 "age": null,
                 "status": "Hjú",
-                "location": "Stórulaugum",
+                "location": "Stóru-Laugar",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1005280,
+                    "name": "Stóru-Laugar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsm. í Horgsdal (42) 1839. 2)",
@@ -1311,25 +1407,97 @@
                 "status": "G. húsm.",
                 "location": "Fljótsbakka",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90016,
+                    "name": "Fljótsbakki",
+                    "lat": "65.715964",
+                    "lng": "-17.524174",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. frá Fljótsbakka að Höskuldsst. (59) 1856-1857.",
                 "year": "1856-1857",
                 "age": 59,
                 "status": "B.",
-                "location": "Höskuldsst",
+                "location": "Höskuldsstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16620,
+                    "name": "Höskuldsstaðir",
+                    "lat": "65.7831735733",
+                    "lng": "-17.4382638931",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. m. frá Höskuldsst. að Hallbjarnarst. Þ. (62) 1860-.",
                 "year": "1860",
                 "age": 62,
                 "status": "G. m.",
-                "location": "Hallbjarnarstaðir Þ.",
+                "location": "Hallbjarnarstaðir R.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16409,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "65.671379",
+                    "lng": "-17.322558",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. frá Stórulaugum \"inn í Skarð\" (68) 1865.",
@@ -1369,36 +1537,132 @@
                 "year": "1868",
                 "age": 71,
                 "status": "Húsm.",
-                "location": "Hríflu",
+                "location": "Hrifla",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16600,
+                    "name": "Hrifla",
+                    "lat": "65.705412",
+                    "lng": "-17.549969",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Húskarl, frá Hólkoti að Lýnesi (73) 1869-70.",
+                "original_string": "Húskarl, frá Hólkoti að Sýrnesi (73) 1869-70.",
                 "year": "1869-1870",
                 "age": 73,
                 "status": "Húskarl",
-                "location": "Lýnesi",
+                "location": "Sýrnes",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16486,
+                    "name": "Sýrnes",
+                    "lat": "65.810620379",
+                    "lng": "-17.4304318428",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Húsm. í Lýnesi (76) 1870-1871.",
+                "original_string": "Húsm. í Sýrnesi (76) 1870-1871.",
                 "year": "1870-1871",
                 "age": 76,
                 "status": "Húsm.",
-                "location": "Lýnesi",
+                "location": "Sýrnes",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16486,
+                    "name": "Sýrnes",
+                    "lat": "65.810620379",
+                    "lng": "-17.4304318428",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hr.óm. á Grenjaðarst. (79) 1877-1883.",
                 "year": "1877-1883",
                 "age": 79,
                 "status": "Hr.óm.",
-                "location": "Grenjaðarst",
+                "location": "Grenjaðarstaður",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16501,
+                    "name": "Grenjaðarstaður",
+                    "lat": "65.8209185748",
+                    "lng": "-17.3502874374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú í Víðikeri (46) 1845.",
@@ -1438,7 +1702,7 @@
                 "year": "1853-1855",
                 "age": 56,
                 "status": "Hjú",
-                "location": "Hvarfi",
+                "location": "Hvarf",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -1734,7 +1998,31 @@
                 "status": "Hjú",
                 "location": "Bakka T.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 23886,
+                    "name": "Bakki",
+                    "lat": "66.070217",
+                    "lng": "-17.34827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Syðritungu 1887.",
@@ -1805,7 +2093,31 @@
                 "status": "Hjú",
                 "location": "Bakka T.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 23886,
+                    "name": "Bakki",
+                    "lat": "66.070217",
+                    "lng": "-17.34827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Syðritungu 1890-1891.",
@@ -1910,7 +2222,31 @@
                 "status": "Hjú",
                 "location": "Bakka T.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 23886,
+                    "name": "Bakki",
+                    "lat": "66.070217",
+                    "lng": "-17.34827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Ytritungu (36 ára) 1899.",
@@ -1952,7 +2288,31 @@
                 "status": "Hjú",
                 "location": "Bakka T.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 23886,
+                    "name": "Bakki",
+                    "lat": "66.070217",
+                    "lng": "-17.34827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2140,9 +2500,33 @@
                 "year": "1801",
                 "age": 10,
                 "status": "",
-                "location": "Litlulaugum",
+                "location": "Litlu-Laugar",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 24730,
+                    "name": "Litlu-Laugar",
+                    "lat": "65.720461",
+                    "lng": "-17.353118",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Til létta (hjá J.E.) í Baldursheimi (16) 1804.",
@@ -2605,31 +2989,7 @@
                 "status": "Sv. barn",
                 "location": "Höfða",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hr.óm. á Akurbakka (12) 1889-1891.",
@@ -3237,7 +3597,31 @@
                 "status": "Tökub.",
                 "location": "Holi Sj.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1004893,
+                    "name": "Holt",
+                    "lat": "65.959297",
+                    "lng": "-18.196958",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub. á Jökulsá... 1846.",

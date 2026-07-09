@@ -207,7 +207,31 @@
                 "age": 23,
                 "status": "Hjú",
                 "location": "Fljótsbakka",
-                "note": "frá Arnarv."
+                "note": "frá Arnarv.",
+                "location_obj": {
+                    "id": 90016,
+                    "name": "Fljótsbakki",
+                    "lat": "65.715964",
+                    "lng": "-17.524174",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú frá Fljótsbakka að Halldórsst. L. (25) 1818.",
@@ -278,7 +302,7 @@
                 "year": "1821-1837",
                 "age": null,
                 "status": "B.",
-                "location": "Ljósastaðir, L.",
+                "location": "Ljótsstaðir, L.",
                 "note": "",
                 "location_obj": {
                     "id": 16562,

@@ -13,7 +13,31 @@
                 "original_string": "D. á Bakka F. 3/9. 1805, 83 ára. 1)",
                 "date": "1805-09-03",
                 "location": "Bakka, F.",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Jón",
@@ -94,7 +118,31 @@
                 "age": 83,
                 "status": "Faðir B.",
                 "location": "Bakka, Fn.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -820,31 +868,7 @@
                 "age": 66,
                 "status": "Hjú",
                 "location": "Vöglum",
-                "note": "",
-                "location_obj": {
-                    "id": 1003587,
-                    "name": "Vaglir",
-                    "lat": "65.713616",
-                    "lng": "-17.876124",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú á Birningsst. Fr. (67) 1850.",
@@ -3123,7 +3147,31 @@
                 "age": 24,
                 "status": "Hjú",
                 "location": "Hallbjarnarstaðir, R.",
-                "note": "þaðan"
+                "note": "þaðan",
+                "location_obj": {
+                    "id": 16409,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "65.671379",
+                    "lng": "-17.322558",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú frá Hallbjarnarst. að Vaði (25) 1855-56.",
@@ -3131,7 +3179,31 @@
                 "age": 25,
                 "status": "Hjú",
                 "location": "Vaði",
-                "note": "frá Hallbjarnarst."
+                "note": "frá Hallbjarnarst.",
+                "location_obj": {
+                    "id": 90013,
+                    "name": "Vað",
+                    "lat": "65.799802",
+                    "lng": "-17.502078",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Breiðumýri (25) 1856 + Hjú á Grenj.st. ... 1857.",

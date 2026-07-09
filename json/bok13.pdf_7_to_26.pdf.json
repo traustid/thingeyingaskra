@@ -2444,7 +2444,31 @@
             "birth": {
                 "original_string": "F. um 1754 í Skörðum.",
                 "date": "1754",
-                "location": "Skörð"
+                "location": "Skörð",
+                "location_obj": {
+                    "id": 16837,
+                    "name": "Skörð",
+                    "lat": "65.958869",
+                    "lng": "-17.323202",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Alftagerði 31/1 1845, 91 árs.",

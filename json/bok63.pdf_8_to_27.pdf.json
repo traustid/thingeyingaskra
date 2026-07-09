@@ -2390,7 +2390,31 @@
             "birth": {
                 "original_string": "F. 15/11 1841 á Vaði.",
                 "date": "1841-11-15",
-                "location": "Vaði"
+                "location": "Vaði",
+                "location_obj": {
+                    "id": 90013,
+                    "name": "Vað",
+                    "lat": "65.799802",
+                    "lng": "-17.502078",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2448,7 +2472,31 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Vaði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90013,
+                    "name": "Vað",
+                    "lat": "65.799802",
+                    "lng": "-17.502078",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. frá Vaði að Mýlaugsst. (9) 1850.",

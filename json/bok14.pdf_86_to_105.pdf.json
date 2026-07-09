@@ -1728,7 +1728,31 @@
             "birth": {
                 "original_string": "F. 16/11. 1889 í Hrappst. seli.",
                 "date": "1889-11-16",
-                "location": "Hrappsstaðasel"
+                "location": "Hrappsstaðasel",
+                "location_obj": {
+                    "id": 1001888,
+                    "name": "Hrappsstaðasel",
+                    "lat": "65.55743020636",
+                    "lng": "-17.385520460449",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",

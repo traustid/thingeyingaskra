@@ -2368,7 +2368,31 @@
                 "age": 50,
                 "status": "B.",
                 "location": "Hjalla R.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90004,
+                    "name": "Hjalli",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Faðir B. í Víðum (58) 1897.",
@@ -2480,7 +2504,31 @@
                 "age": null,
                 "status": "Með móður",
                 "location": "Hjalla R.",
-                "note": "frá Miðhvammi"
+                "note": "frá Miðhvammi",
+                "location_obj": {
+                    "id": 90004,
+                    "name": "Hjalli",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2743,7 +2791,27 @@
                 "age": null,
                 "status": "B.",
                 "location": "Öxará",
-                "note": "? Hrb."
+                "note": "? Hrb.",
+                "location_obj": {
+                    "id": 12728,
+                    "name": "Öxará",
+                    "lat": "65.667123",
+                    "lng": "-17.5789",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Krossi... 1885-90. ? (Hrb.).",

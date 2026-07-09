@@ -893,7 +893,31 @@
                 "status": "Hjú",
                 "location": "Tjörn",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90015,
+                    "name": "Tjörn",
+                    "lat": "665.886447",
+                    "lng": "-17.434255",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Laxamýri (34 ára) 1845.",
@@ -1490,31 +1514,7 @@
             "birth": {
                 "original_string": "F. um 1844 á Vöglum, Þelamörk.",
                 "date": "1844-00-00",
-                "location": "Vöglum, Þelamörk",
-                "location_obj": {
-                    "id": 1003587,
-                    "name": "Vaglir",
-                    "lat": "65.713616",
-                    "lng": "-17.876124",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Vöglum, Þelamörk"
             },
             "death": {
                 "original_string": "",
@@ -2252,7 +2252,31 @@
                 "status": "Húsfr.",
                 "location": "Hjalla R.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90004,
+                    "name": "Hjalli",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Móðir B. í Víðum (52) 1897.",
@@ -3298,7 +3322,31 @@
                 "status": "G. kona",
                 "location": "Hjalla R.",
                 "note": "frá Fosseli; móðir H.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90004,
+                    "name": "Hjalli",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsk. þaðan að Helluvaði (56) 1848-",

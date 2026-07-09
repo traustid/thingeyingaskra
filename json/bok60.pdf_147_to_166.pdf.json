@@ -399,7 +399,27 @@
                 "age": 7,
                 "status": "Hjá foreldrum",
                 "location": "Öxará",
-                "note": "eða 1 árs?"
+                "note": "eða 1 árs?",
+                "location_obj": {
+                    "id": 12728,
+                    "name": "Öxará",
+                    "lat": "65.667123",
+                    "lng": "-17.5789",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2567,7 +2587,31 @@
                 "age": 13,
                 "status": "Hjá foreldrum",
                 "location": "Fljótsbakki",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90016,
+                    "name": "Fljótsbakki",
+                    "lat": "65.715964",
+                    "lng": "-17.524174",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Daðastöðum (22) 1889.",
@@ -4115,7 +4159,31 @@
                 "age": null,
                 "status": "Hjú",
                 "location": "Skriðuland",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 9355,
+                    "name": "Skriðuland",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Miðhvammi (35) 1884.",
@@ -4873,7 +4941,27 @@
                 "age": 6,
                 "status": "Tökubarn",
                 "location": "Öxará",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 12728,
+                    "name": "Öxará",
+                    "lat": "65.667123",
+                    "lng": "-17.5789",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub. á Eyjardalsá (9) 1890.",

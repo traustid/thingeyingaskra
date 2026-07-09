@@ -1352,7 +1352,31 @@
                 "age": 3,
                 "status": "Fóstur b.",
                 "location": "Holi Höfð.",
-                "note": "frá Höfða"
+                "note": "frá Höfða",
+                "location_obj": {
+                    "id": 1004893,
+                    "name": "Holt",
+                    "lat": "65.959297",
+                    "lng": "-18.196958",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá föður í Höfða (22) 1881-1892.",
@@ -1360,31 +1384,7 @@
                 "age": 22,
                 "status": "",
                 "location": "Höfða",
-                "note": "Hjá föður í",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": "Hjá föður í"
             },
             {
                 "original_string": "Systir B. í Höfða (34) 1893-1894.",
@@ -1392,31 +1392,7 @@
                 "age": 34,
                 "status": "Systir B.",
                 "location": "Höfða",
-                "note": "",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú á Skútustöðum (35) 1895.",
@@ -2023,31 +1999,7 @@
                 "age": 9,
                 "status": "Tökub.",
                 "location": "Vöglum",
-                "note": "",
-                "location_obj": {
-                    "id": 1003587,
-                    "name": "Vaglir",
-                    "lat": "65.713616",
-                    "lng": "-17.876124",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Tökub. í Fjóshatungu (10) 1856-1857.",
@@ -2461,7 +2413,31 @@
                 "age": 48,
                 "status": "Húsfr.",
                 "location": "Holi T.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 1004893,
+                    "name": "Holt",
+                    "lat": "65.959297",
+                    "lng": "-18.196958",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú í Ytritungu 1856-1864.",
@@ -3299,7 +3275,35 @@
             "birth": {
                 "original_string": "F. á Hjalla, Grýtub.hr. 21/11 1827.",
                 "date": "1827-11-21",
-                "location": "Hjalla"
+                "location": "Hjalla",
+                "location_obj": {
+                    "id": 90003,
+                    "name": "Hjalli",
+                    "lat": "65.969928",
+                    "lng": "-18.211361",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 3/5 1890. 1)",
@@ -3357,7 +3361,35 @@
                 "year": "1827-1837",
                 "age": 1,
                 "location": "Hjalla Grýt.",
-                "note": "Hjá for. á"
+                "note": "Hjá for. á",
+                "location_obj": {
+                    "id": 90003,
+                    "name": "Hjalli",
+                    "lat": "65.969928",
+                    "lng": "-18.211361",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Garði A. (9) 1838-55. Virðist þó hafa verið hjú í Haga 1845.",
@@ -4006,7 +4038,31 @@
                 "age": 24,
                 "status": "Hjú",
                 "location": "Holi T.",
-                "note": "Vel lesandi, skikkanleg"
+                "note": "Vel lesandi, skikkanleg",
+                "location_obj": {
+                    "id": 1004893,
+                    "name": "Holt",
+                    "lat": "65.959297",
+                    "lng": "-18.196958",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Heiðarbót (25) 1832-1833.",

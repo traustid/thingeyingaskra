@@ -1665,7 +1665,27 @@
             "birth": {
                 "original_string": "F. um 1755 á Stóratjörnum.",
                 "date": "1755",
-                "location": "Stóru-Tjarnir"
+                "location": "Stóru-Tjarnir",
+                "location_obj": {
+                    "id": 15135,
+                    "name": "Stóru-Tjarnir",
+                    "lat": "65.7077204415",
+                    "lng": "-17.7257537842",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á hreppi 27/11. 1838",
@@ -2672,7 +2692,31 @@
                 "status": "Hjá for.",
                 "location": "Skriðuland",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 9355,
+                    "name": "Skriðuland",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökust. í Sundi (10) 1855–1857.",

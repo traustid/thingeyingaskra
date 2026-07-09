@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. um 1751 á Bakka, Svarf.d.",
                 "date": "1751-00-00",
-                "location": "Bakka, Svarfaðardalur"
+                "location": "Bakka, Svarfaðardalur",
+                "location_obj": {
+                    "id": 12361,
+                    "name": "Bakki",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Steinkirkju 5/3 1834.",
@@ -993,7 +1017,31 @@
                 "age": 22,
                 "status": "Vinnust.",
                 "location": "Grenjaðarstöðum",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 16501,
+                    "name": "Grenjaðarstaður",
+                    "lat": "65.8209185748",
+                    "lng": "-17.3502874374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Yztahvammi (29) 1833.",
@@ -2206,31 +2254,7 @@
                 "age": 29,
                 "status": "Hjú",
                 "location": "Vöglum",
-                "note": "",
-                "location_obj": {
-                    "id": 1003587,
-                    "name": "Vaglir",
-                    "lat": "65.713616",
-                    "lng": "-17.876124",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             }
         ],
         "notes": {},
