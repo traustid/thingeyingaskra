@@ -11,7 +11,9 @@ origins = [
 	'http://localhost:3000',
 	'http://localhost:3016',
 	'http://ginnungagap.arnastofnun.is:3016',
-	'http://89.127.233.82:3016'
+	'http://89.127.233.82:3016',
+	'http://eggald.in:3016',
+	'http://eggald.in'
 ]
 
 app.add_middleware(
@@ -29,7 +31,7 @@ client = MongoClient(config.mongo_url)
 db = client['thskra']
 collection = db['persons']
 
-@app.get('/search/')
+@app.get('/api/search/')
 async def searchPerson(name = None, search = None, location = None, location_id = None):
 	if name is not None:
 		nameQuery = re.escape(name).replace(r'\.', '.*')
@@ -134,7 +136,7 @@ async def searchPerson(name = None, search = None, location = None, location_id 
 			'message': 'not found'
 		}
 
-@app.get('/person/{id}')
+@app.get('/api/person/{id}')
 async def getPerson(id):
 	results = collection.find_one({'_id': id})
 
@@ -147,7 +149,7 @@ async def getPerson(id):
 			'message': 'not found'
 		}
 
-@app.get('/persons/')
+@app.get('/api/persons/')
 async def getPersons(startId=None, order=None, birthyear=None):
 	if (startId is not None):
 
@@ -190,7 +192,7 @@ async def getPersons(startId=None, order=None, birthyear=None):
 			'message': 'not found'
 		}
 
-@app.get('/place/{placeId}')
+@app.get('/api/place/{placeId}')
 async def getPlace(placeId):
 	pipeline = [
 		# 1. Flatten the array so every year/location entry becomes an individual row
@@ -264,7 +266,7 @@ async def getPlace(placeId):
 		'results': results
 	}
 
-@app.get('/places')
+@app.get('/api/places')
 async def getPlaces():
 	pipeline = [
 		# 1. Flatten the array so we can inspect every history element
@@ -320,7 +322,7 @@ async def getPlaces():
 		'results': locations
 	}
 
-@app.get('/spouse/{personId}')
+@app.get('/api/spouse/{personId}')
 async def getSpouse(personId):
 	targetPerson = collection.find_one({'_id': personId})
 	if not targetPerson:
@@ -377,7 +379,7 @@ async def getSpouse(personId):
 		'results': ret
 	}
 
-@app.get('/parents/{personId}')
+@app.get('/api/parents/{personId}')
 async def getParents(personId):
 	targetPerson = collection.find_one({'_id': personId})
 	if not targetPerson:
@@ -463,7 +465,7 @@ async def getParents(personId):
 		'results': response
 	}
 
-@app.get('/children/{personId}')
+@app.get('/api/children/{personId}')
 async def getChildren(personId):
 	targetPerson = collection.find_one({'_id': personId})
 	if not targetPerson:
@@ -559,7 +561,7 @@ async def getChildren(personId):
 		'results': response
 	}
 
-@app.get('/years/')
+@app.get('/api/years/')
 async def getYears():
 	pipeline = [
 		# 1. Filter out nulls and explicitly empty strings early to save processing
@@ -619,7 +621,7 @@ async def getYears():
 
 	return year_counts
 
-@app.get('/related_places/{placeId}')
+@app.get('/api/related_places/{placeId}')
 async def getRelatedPlaces(placeId):
 	pipeline = [
 		# 1. Match: Find only the persons who have the target location in their history
