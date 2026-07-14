@@ -37,17 +37,17 @@ function ParentsList(props) {
 	}, [props.personId]);
 
 	return data && data.length > 0 && <div className={'grow pb-4'+(props.className ? ' '+props.className : '')}>
+		{
+			_.filter(data, (item) => item._id != undefined).length > 0 && <div className="bg-gray-100 border border-gray-200 p-3 mb-4 rounded-md">
+				<div className="text-gray-600 text-sm">Athugið að tenglar á foreldra er byggður á einstaklingum og mökum þeirra þar sem nafn passar við foreldra þessa einstaklings. Mögulega geta tenglarnir vísað á rangan einstakling ef fleiri pör í skránni bera sömu nöfn.</div>
+			</div>
+		}
 		<div className="flex flex-col gap-4">
 			{
 				data.map((item, index) => <PersonLink key={index} item={item} />)
 			}
 			{/* item.note */}
 		</div>
-		{
-			_.filter(data, (item) => item._id != undefined).length > 0 && <div className="bg-gray-100 border border-gray-200 p-3 mt-4 rounded-md">
-				<div className="text-gray-600 text-sm">Athugið að tenglar á foreldra er byggður á einstaklingum og mökum þeirra þar sem nafn passar við foreldra þessa einstaklings. Mögulega geta tenglarnir vísað á rangan einstakling ef fleiri pör í skránni bera sömu nöfn.</div>
-			</div>
-		}
 	</div>
 }
 
@@ -67,17 +67,17 @@ function SpouseList(props) {
 	}, [props.personId]);
 
 	return data && data.length > 0 && <div className={'grow pb-4'+(props.className ? ' '+props.className : '')}>
+		{
+			_.filter(data, (item) => item._id != undefined).length > 0 && <div className="bg-gray-100 border border-gray-200 p-3 mb-4 rounded-md">
+				<div className="text-gray-600 text-sm">Athugið að tenglar á maka er byggður á einstaklingum þar sem nafn maka passa við þennan einstakling. Mögulega geta tenglarnir vísað á rangan einstakling ef fleiri einstaklingar í skránni bera sömu nöfn.</div>
+			</div>
+		}
 		<div className="flex flex-col gap-4">
 			{
 				data.map((item, index) => <PersonLink key={index} item={item} />)
 			}
 			{/* item.note */}
 		</div>
-		{
-			_.filter(data, (item) => item._id != undefined).length > 0 && <div className="bg-gray-100 border border-gray-200 p-3 mt-4 rounded-md">
-				<div className="text-gray-600 text-sm">Athugið að tenglar á maka er byggður á einstaklingum þar sem nafn maka passa við þennan einstakling. Mögulega geta tenglarnir vísað á rangan einstakling ef fleiri einstaklingar í skránni bera sömu nöfn.</div>
-			</div>
-		}
 	</div>
 }
 
@@ -97,14 +97,14 @@ function ChildrenList(props) {
 	}, [props.personId]);
 
 	return data && data.length > 0 && <div className={'grow '+(props.className ? ' '+props.className : '')}>
+		<div className="bg-gray-100 border border-gray-200 p-3 mb-4 rounded-md">
+			<div className="text-gray-600 text-sm">Athugið að listi yfir börn er byggður á einstaklingum þar sem nöfn foreldra passa við þennan einstakling og nafn maka hans. Því geta önnur nöfn slæðst með ef fleiri einstaklingar eiga foreldra með sama nafni.</div>
+		</div>
+
 		<div className="">
 			{
 				data.map((item, index) => <PersonLink key={index} item={item} />)
 			}
-		</div>
-
-		<div className="bg-gray-100 border border-gray-200 p-3 mt-4 rounded-md">
-			<div className="text-gray-600 text-sm">Athugið að listi yfir börn er byggður á einstaklingum þar sem nöfn foreldra passa við þennan einstakling og nafn maka hans. Því geta önnur nöfn slæðst með ef fleiri einstaklingar eiga foreldra með sama nafni.</div>
 		</div>
 	</div>
 }
@@ -354,7 +354,7 @@ export default function Person() {
 						</div>
 						<div className={'group-hover:block '+(item._id == personId ? 'block' : 'hidden')}>
 							{
-								_.uniq(item.residence_history.map(item => item.location)).join(', ')
+								_.uniq(item.residence_history.map(item => item.location_obj ? item.location_obj.name : item.location)).join(', ')
 								
 							}
 						</div>

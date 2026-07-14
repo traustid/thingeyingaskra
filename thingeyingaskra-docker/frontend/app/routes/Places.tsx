@@ -3,11 +3,12 @@ import type { Route } from "./+types/home";
 import { Fragment, useEffect, useState } from "react";
 import _ from "underscore";
 
-import { CircleMarker, MapContainer, Marker, Popup, TileLayer, Tooltip } from 'react-leaflet';
+import { CircleMarker, MapContainer, Marker, Pane, Popup, TileLayer, Tooltip } from 'react-leaflet';
 
 import "leaflet/dist/leaflet.css";
 import config from '../config.js';
 import PersonLink from "~/components/PersonLink";
+import Panel from "~/components/Panel";
 
 export function meta({}: Route.MetaArgs) {
 	return [
@@ -42,45 +43,58 @@ export default function Places() {
 	}, []);
 
 	useEffect(() => {
-		fetch(config.apiRoot+'/place/'+placeId)
-			.then(res => res.json())
-			.then(json => {
-				setPersonList(json.results);
-				setSelectedPlace(json.place);
-			});
+		if (!placeId) {
+			setPersonList(null);
+			setSelectedPlace(null);
+			setRelatedMapData(null);
+		}
 
-		fetch(config.apiRoot+'/related_places/'+placeId)
-			.then(res => res.json())
-			.then(json => {
-				const minValue = _.min(_.pluck(json.results, 'shared_people_count'));
-				const maxValue = _.max(_.pluck(json.results, 'shared_people_count'));
-				setRelMinMax({
-					min: minValue,
-					max: maxValue
-				})
-				setRelatedMapData(json.results);
-			});
+		if (placeId) {
+			fetch(config.apiRoot+'/place/'+placeId)
+				.then(res => res.json())
+				.then(json => {
+					setPersonList(json.results);
+					setSelectedPlace(json.place);
+				});
+
+			fetch(config.apiRoot+'/related_places/'+placeId)
+				.then(res => res.json())
+				.then(json => {
+					const minValue = _.min(_.pluck(json.results, 'shared_people_count'));
+					const maxValue = _.max(_.pluck(json.results, 'shared_people_count'));
+					setRelMinMax({
+						min: minValue,
+						max: maxValue
+					})
+					setRelatedMapData(json.results);
+				});
+		}
 	}, [placeId]);
 
 	return <div>
 		{
 			selectedPlace && <div className="pb-6 px-6 md:px-0 border-b border-gray-300">
+				<Link to={'/stadir/'} className="underline mb-4 block">&larr; Sjá alla staði</Link>
 				<h1 className="text-3xl">{selectedPlace.name}</h1>
 				<div>{selectedPlace.parent[0].name}</div>
 			</div>
 		}
+
 		<div className="flex gap-6">
 			{
-				personList && personList.length > 0 && <div className="mt-4 w-1/3">
-					<div className="mt-4">
-						{
-							personList.map((item, index) => <PersonLink key={index} 
-								item={item}
-								headerText={item.year}
-							/>)
-						}
-					</div>
-				</div>
+				personList && personList.length > 0 && <Panel className="mt-4 w-1/3">
+					{
+						selectedPlace && personList && <div className="mb-4 bg-gray-100 border border-gray-200 p-3 rounded-md flex gap-2 divide-solid divide-gray-300">
+							{_.uniq(personList, (p => p._id)).length} einstaklingar.
+						</div>
+					}
+					{
+						personList.map((item, index) => <PersonLink key={index} 
+							item={item}
+							headerText={item.year}
+						/>)
+					}
+				</Panel>
 			}
 
 			<div className={'mt-4'+(personList && personList.length > 0 ? ' w-2/3' : ' w-full')}>
