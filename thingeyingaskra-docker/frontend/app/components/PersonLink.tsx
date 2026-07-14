@@ -9,9 +9,9 @@ function PersonLink(props) {
 		</div>
 	}
 	if (props.item && props.item.person) {
-		return <NavLink className="flex flex-wrap py-2 px-4 rounded hover:bg-gray-100/40 border-b border-gray-200 border-t border-t-transparent hover:border-t-gray-200 hover:border hover:shadow-md transition-all group" to={'/einstaklingar/'+props.item._id}>
+		return <NavLink className="md:flex flex-wrap py-2 px-4 rounded hover:bg-gray-100/40 border-b border-gray-200 border-t border-t-transparent hover:border-t-gray-200 hover:border hover:shadow-md transition-all group" to={'/einstaklingar/'+props.item._id}>
 
-			<div className="w-1/2">
+			<div className="md:w-1/2">
 				{
 					props.headerText && <Label>
 						{props.headerText}
@@ -26,7 +26,7 @@ function PersonLink(props) {
 				</div>
 			</div>
 
-			<div className="w-1/2">
+			<div className="md:w-1/2">
 				{
 					props.item.spouse && props.item.spouse.length > 0 &&
 					<div className="text-sm mt-1"><span className="font-bold text-gray-500">Maki:</span> {props.item.spouse.map(p => p.name).join(', ')}</div>

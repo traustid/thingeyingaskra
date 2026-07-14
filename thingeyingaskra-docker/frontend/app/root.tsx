@@ -49,13 +49,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 					<div className="pointer-events-none absolute inset-0 bg-linear-to-b from-white/80 to-white/50" />
 
-					<div className="relative max-w-[1400px] px-10 mx-auto py-10">
+					<div className="relative max-w-[1400px] px-8 md:px-10 mx-auto py-8 md:py-10">
 						<Link to={'/'}>
-							<h1 className="text-3xl"><img className="max-w-[350px]" src={headerLogo} /></h1>
+							<h1 className="text-3xl"><img className="max-w-full md:max-w-[350px]" src={headerLogo} /></h1>
 							<div className="text-2xl font-bold text-[#714216]">Konráðs Vilhjálmssonar</div>
 						</Link>
 
-						<div className="flex gap-4 mt-10">
+						<div className="flex gap-4 mt-4 md:mt-10">
 							<input onChange={(event) => setSearchInput(event.target.value)} 
 								onKeyDown={(event) => {
 									if (event.key == 'Enter') {
@@ -75,11 +75,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 				</div>
 
-				<div className="max-w-[1400px] mx-auto py-8 px-2 md:px-10">
+				<div className="max-w-[1400px] mx-auto py-4 md:py-8 px-2 md:px-10">
 
-					<div className="py-12">
-						{children}
-					</div>
+					{children}
 
 				</div>
 
