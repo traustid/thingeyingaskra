@@ -1266,7 +1266,31 @@
                 "age": 87,
                 "status": "E. tómthúsm.",
                 "location": "Þverársel, L.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90028,
+                    "name": "Þverársel",
+                    "lat": "65.700246",
+                    "lng": "-17.207021",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. frá Þverá L. að Fljótsbakka (90) 1818.",
@@ -3730,8 +3754,8 @@
                 "location_obj": {
                     "id": 90018,
                     "name": "Garðshorn",
-                    "lat": "65.821821",
-                    "lng": "-17.559399",
+                    "lat": "65.821969",
+                    "lng": "-17.558875",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"

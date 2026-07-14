@@ -1347,31 +1347,7 @@
                 "status": "B.",
                 "location": "Holi Fj.",
                 "note": "Hrb.",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 1004893,
-                    "name": "Holt",
-                    "lat": "65.959297",
-                    "lng": "-18.196958",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Látraströnd",
-                            "id": 24709
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "B. á Þönglabakka . . . 1830-1832. (Hrb.).",
@@ -1450,7 +1426,31 @@
             "death": {
                 "original_string": "Drukkn. í Granavatni 28/1 1844",
                 "date": "1844-01-28",
-                "location": "Granavatn"
+                "location": "Grænavatn",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Jón",
@@ -1563,25 +1563,97 @@
                 "year": "1840",
                 "age": 24,
                 "status": "Hjú",
-                "location": "Granavatn",
+                "location": "Grænavatn",
                 "note": "frá Kúgindisdal",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Granavatni (24) 1841-1844.",
                 "year": "1841-1844",
                 "age": 24,
                 "status": "Hjú",
-                "location": "Granavatn",
+                "location": "Grænavatn",
                 "note": "",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1844",
                 "original_string": "Drukkn. í Granavatni 28/1 1844",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Granavatn"
+                "location": "Grænavatn",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

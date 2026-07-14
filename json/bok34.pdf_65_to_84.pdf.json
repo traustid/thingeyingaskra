@@ -2771,7 +2771,31 @@
             "death": {
                 "original_string": "D. á Granav. 15/1 1847, 44 a.",
                 "date": "1847-01-15",
-                "location": "Granavatn"
+                "location": "Grænavatn",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Jóhann",
@@ -3061,16 +3085,64 @@
                 "year": "1847",
                 "age": 44,
                 "status": "Giftur",
-                "location": "Granavatn",
+                "location": "Grænavatn",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1847",
                 "original_string": "D. á Granav. 15/1 1847, 44 a.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Granavatn"
+                "location": "Grænavatn",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

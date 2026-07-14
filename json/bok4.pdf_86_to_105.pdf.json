@@ -2179,31 +2179,7 @@
                 "status": "Með móður",
                 "location": "Holi H.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 1004893,
-                    "name": "Holt",
-                    "lat": "65.959297",
-                    "lng": "-18.196958",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Látraströnd",
-                            "id": 24709
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -3543,9 +3519,33 @@
                 "year": "1884",
                 "age": 18,
                 "status": "Vinnum.",
-                "location": "Granavatn",
+                "location": "Grænavatn",
                 "note": "frá Hrappsst. seli",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Hrappsst. seli (18) 1886.",

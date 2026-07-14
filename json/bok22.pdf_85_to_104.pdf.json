@@ -252,7 +252,31 @@
                 "age": 51,
                 "status": "Húsfr.",
                 "location": "Vilpa",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90027,
+                    "name": "Vilpa",
+                    "lat": "66.042678",
+                    "lng": "-17.334741",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Saltsík (52 ára) 1829-1832.",
@@ -1093,16 +1117,64 @@
                 "year": "1829-",
                 "age": 20,
                 "status": "Hjú",
-                "location": "Gaullönd",
-                "note": "frá Mýri B."
+                "location": "Gautlönd",
+                "note": "frá Mýri B.",
+                "location_obj": {
+                    "id": 16389,
+                    "name": "Gautlönd",
+                    "lat": "65.551978",
+                    "lng": "-17.131995",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Gaullöndum (21) 1830-1832.",
                 "year": "1830-1832",
                 "age": 21,
                 "status": "Hjú",
-                "location": "Gaullönd",
-                "note": ""
+                "location": "Gautlönd",
+                "note": "",
+                "location_obj": {
+                    "id": 16389,
+                    "name": "Gautlönd",
+                    "lat": "65.551978",
+                    "lng": "-17.131995",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Mýri (25) 1835.",
@@ -1141,8 +1213,32 @@
                 "year": "1835-1836",
                 "age": 26,
                 "status": "Hjú",
-                "location": "Gaullönd",
-                "note": "frá Mýri B."
+                "location": "Gautlönd",
+                "note": "frá Mýri B.",
+                "location_obj": {
+                    "id": 16389,
+                    "name": "Gautlönd",
+                    "lat": "65.551978",
+                    "lng": "-17.131995",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Narfast. seli 1836-1865. (55 ára '65)",

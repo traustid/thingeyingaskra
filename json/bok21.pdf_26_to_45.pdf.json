@@ -975,9 +975,33 @@
                 "year": "1826",
                 "age": 26,
                 "status": "Hjú",
-                "location": "Granavatn",
+                "location": "Grænavatn",
                 "note": "þaðan",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú (26) þaðan að Mýlaugsstöðum ... 1827.",

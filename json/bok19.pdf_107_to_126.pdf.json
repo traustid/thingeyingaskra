@@ -1484,7 +1484,31 @@
             "birth": {
                 "original_string": "F. 4/3. 1805 í Vilpu, Húsav.",
                 "date": "1805-03-04",
-                "location": "Vilpu, Húsav."
+                "location": "Vilpu, Húsav.",
+                "location_obj": {
+                    "id": 90027,
+                    "name": "Vilpa",
+                    "lat": "66.042678",
+                    "lng": "-17.334741",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1540,7 +1564,31 @@
                 "original_string": "F. 4/3. 1805 í Vilpu, Húsav.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Vilpu, Húsav."
+                "location": "Vilpu, Húsav.",
+                "location_obj": {
+                    "id": 90027,
+                    "name": "Vilpa",
+                    "lat": "66.042678",
+                    "lng": "-17.334741",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Vilpu (1 árs) 1806, 1808, 1813, 1815.",
@@ -1548,7 +1596,31 @@
                 "age": 1,
                 "status": "",
                 "location": "Vilpu",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90027,
+                    "name": "Vilpa",
+                    "lat": "66.042678",
+                    "lng": "-17.334741",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. á Máná (12) 1816.",
@@ -4099,7 +4171,31 @@
             "birth": {
                 "original_string": "F. 28/6. 1794 í Höfða.",
                 "date": "1794-06-28",
-                "location": "Höfða"
+                "location": "Höfða",
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -4156,28 +4252,20 @@
                 "original_string": "F. 28/6. 1794 í Höfða.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Höfða"
-            },
-            {
-                "original_string": "Með for. á Holi Fj. (7) 1801.",
-                "year": "1801",
-                "age": 7,
-                "status": "",
-                "location": "Holi Fj.",
-                "note": "",
+                "location": "Höfða",
                 "location_obj": {
-                    "id": 1004893,
-                    "name": "Holt",
-                    "lat": "65.959297",
-                    "lng": "-18.196958",
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Látraströnd",
-                            "id": 24709
+                            "name": "Húsavík",
+                            "id": 24308
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -4189,6 +4277,14 @@
                         }
                     ]
                 }
+            },
+            {
+                "original_string": "Með for. á Holi Fj. (7) 1801.",
+                "year": "1801",
+                "age": 7,
+                "status": "",
+                "location": "Holi Fj.",
+                "note": ""
             },
             {
                 "original_string": "Hjá for. í Keflavík (11)-1805-1811-",
@@ -4861,31 +4957,7 @@
                 "status": "Niðurs.",
                 "location": "Holi K.",
                 "note": "",
-                "note_ref": 1,
-                "location_obj": {
-                    "id": 1004893,
-                    "name": "Holt",
-                    "lat": "65.959297",
-                    "lng": "-18.196958",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Látraströnd",
-                            "id": 24709
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": 1
             }
         ],
         "notes": {

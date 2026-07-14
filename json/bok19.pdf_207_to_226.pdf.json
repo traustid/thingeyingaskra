@@ -2219,7 +2219,31 @@
                 "status": "E.",
                 "location": "Höfða",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -3582,31 +3606,7 @@
                 "status": "G. hjú",
                 "location": "Holi Höfð.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 1004893,
-                    "name": "Holt",
-                    "lat": "65.959297",
-                    "lng": "-18.196958",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Látraströnd",
-                            "id": 24709
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
