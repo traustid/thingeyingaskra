@@ -1,14 +1,16 @@
-import { NavLink, useParams } from "react-router";
+import { Link, NavLink, useParams } from "react-router";
 import type { Route } from "./+types/home";
 import { useEffect, useState } from "react";
 import PersonLink from "../components/PersonLink";
 
 import config from '../config.js';
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import Panel from "~/components/Panel";
 
 export function meta({}: Route.MetaArgs) {
 	return [
 		{ title: "Þingeyingaskrá Konráðs Vilhjálmssonar" },
-		{ name: "description", content: "Í Þingeyingaskrá Konráðs Vilhjálmssonar er fimmtán þúsund Þingeyingum fylgt frá vöggu til grafar. Konráð Vilhjálmsson fræðimaður vann að skránni í meira enn áratug. Verkið er byggt að miklu leyti á manntölum prestanna. Verkinu skipti Konráð niður í 72 bækur." },
+		{ name: "description", content: "Welcome to React Router!" },
 	];
 }
 
@@ -46,11 +48,30 @@ export default function Search() {
 					{query && <span className="pr-4 mr-2 border-r border-gray-400">Leitarorð: <span className="font-bold">{query}</span></span>}
 					{nameQuery && <span className="pr-4 mr-2 border-r border-gray-400">Nafn: <span className="font-bold">{nameQuery}</span></span>}
 					{placeQuery && <span className="pr-4 mr-2 border-r border-gray-400">Staður: <span className="font-bold">{placeQuery}</span></span>}
-					{data.length} niðurstöður.
+					{data.persons.length} niðurstöður.
 				</div>
+
+				{
+					data.places && data.places.length > 0 && <Panel>
+						<MapContainer className="h-[300px]" center={[65.9, -17]} zoom={8} scrollWheelZoom={false}>
+							<TileLayer
+								attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+								url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+							/>
+							{
+								data.places.map((item, index) => <Marker key={index} position={[item.lat, item.lng]} title={item.name}>
+									<Popup>
+										<div className="text-lg pb-2">{item.name}</div>
+										<Link to={'/stadir/'+item.id}>Nánar</Link>
+									</Popup>
+								</Marker>)
+							}
+						</MapContainer>
+					</Panel>
+				}
 				
 				{
-					data.map((item, index) => <PersonLink item={item} key={index} />)
+					data.persons.map((item, index) => <PersonLink item={item} key={index} />)
 				}
 			</div>
 		}

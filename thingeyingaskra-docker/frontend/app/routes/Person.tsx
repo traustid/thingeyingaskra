@@ -17,7 +17,7 @@ import config from '../config.js';
 export function meta({}: Route.MetaArgs) {
 	return [
 		{ title: "Þingeyingaskrá Konráðs Vilhjálmssonar" },
-		{ name: "description", content: "Í Þingeyingaskrá Konráðs Vilhjálmssonar er fimmtán þúsund Þingeyingum fylgt frá vöggu til grafar. Konráð Vilhjálmsson fræðimaður vann að skránni í meira enn áratug. Verkið er byggt að miklu leyti á manntölum prestanna. Verkinu skipti Konráð niður í 72 bækur." },
+		{ name: "description", content: "Welcome to React Router!" },
 	];
 }
 
@@ -277,7 +277,6 @@ export default function Person() {
 					}
 				</Panel>
 
-
 				<TabContainer personId={personId} tabs={[
 					{
 						title: 'Búsetusaga',
@@ -309,7 +308,7 @@ export default function Person() {
 												url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 											/>
 											{
-												mapData && mapData.map((item, key) => <Marker position={[item.lat, item.lng]} title={item.name}>
+												mapData && mapData.map((item, index) => <Marker key={index} position={[item.lat, item.lng]} title={item.name}>
 													<Popup>
 														<div className="text-lg pb-2">{item.name}</div>
 														<Link to={'/stadir/'+item.id}>Nánar</Link>
@@ -332,34 +331,6 @@ export default function Person() {
 
 						</Fragment>
 					},
-					/*
-					{
-						title: 'Maki',
-						hidden: hideSpouse,
-						element: <Fragment>
-							<SpouseList personId={personId} onResults={(res) => setHideSpouse(res.results.length == 0)} />
-							{
-								data.spouse_original_string && <div className="bg-white p-3 rounded-md">
-									<div className="pb-2 text-gray-600 text-xs font-bold uppercase">Í handriti:</div>
-									{data.spouse_original_string}
-								</div>
-							}
-						</Fragment>
-					},
-					{
-						title: 'Foreldrar',
-						hidden: hideParents,
-						element: <Fragment>
-							<ParentsList personId={personId} onResults={(res) => setHideParents(res.results.length == 0)} />
-							{
-								data.parents_original_string && <div className="bg-white p-3 rounded-md">
-									<div className="pb-2 text-gray-600 text-xs font-bold uppercase">Í handriti:</div>
-									{data.parents_original_string}
-								</div>
-							}
-						</Fragment>
-					},
-					*/
 					{
 						title: 'Börn',
 						hidden: hideChildren,

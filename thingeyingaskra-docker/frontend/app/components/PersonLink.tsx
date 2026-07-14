@@ -41,7 +41,7 @@ function PersonLink(props) {
 				props.item.residence_history && <div className="w-full mt-2">
 				<div className="text-sm">
 					{
-						_.uniq(props.item.residence_history.map(item => item.location || null)).join(', ')
+						_.uniq(props.item.residence_history.map(item => item.location_obj ? item.location_obj.name : item.location || null)).join(', ')
 					}
 				</div>
 			</div>

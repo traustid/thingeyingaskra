@@ -126,6 +126,94 @@ async def searchPerson(name = None, search = None, location = None, location_id 
 		'person.name': 1
 	});
 
+	if search is not None:
+		pipeline = [
+			# 1. Initial Filter: Only grab persons who have this location in at least one of the three places.
+			# This prevents scanning the entire database during the heavy data manipulation stages.
+			{
+				"$match": {
+					"$or": [
+						{
+							"birth.location_obj.name": {
+								'$regex': search,
+								'$options': 'i'
+							}
+						},
+						{
+							"death.location_obj.name": {
+								'$regex': search,
+								'$options': 'i'
+							}
+						},
+						{
+							"residence_history.location_obj.name": {
+								'$regex': search,
+								'$options': 'i'
+							}
+						}
+					]
+				}
+			},
+			
+			# 2. Unify the Data: Create a single temporary array called "all_locations" 
+			# and shove the birth, death, and residence locations into it.
+			{
+				"$project": {
+					"all_locations": {
+						"$concatArrays": [
+							# If birth location exists, put it in a list. Otherwise, empty list.
+							{"$cond": [{"$ifNull": ["$birth.location_obj", False]}, ["$birth.location_obj"], []]},
+							
+							# If death location exists, put it in a list. Otherwise, empty list.
+							{"$cond": [{"$ifNull": ["$death.location_obj", False]}, ["$death.location_obj"], []]},
+							
+							# Loop through residence_history and extract just the location_obj
+							{"$map": {
+								"input": {"$ifNull": ["$residence_history", []]},
+								"as": "res",
+								"in": "$$res.location_obj"
+							}}
+						]
+					}
+				}
+			},
+			
+			# 3. Flatten: Break the "all_locations" array apart so every location is on its own row
+			{
+				"$unwind": "$all_locations"
+			},
+			
+			# 4. Strict Match: Filter out any locations from that person's history that ARE NOT the one you searched for
+			{
+				"$match": {
+					"all_locations.name": {
+						'$regex': search,
+						'$options': 'i'
+					}
+				}
+			},
+			
+			# 5. Deduplicate: Group by the unique location ID you mentioned. 
+			# If 50 people lived here, this reduces it down to 1 single result.
+			{
+				"$group": {
+					"_id": "$all_locations.id",
+					"location_obj": { "$first": "$all_locations" }
+				}
+			},
+			
+			# 6. Clean up: Promote the "location_obj" to the top level of the result, 
+			# stripping away all the MongoDB grouping wrappers.
+			{
+				"$replaceRoot": {
+					"newRoot": "$location_obj"
+				}
+			}
+		]
+
+		# Execute the query
+		locationResults = list(collection.aggregate(pipeline))
+
 	if results:
 		ret = []
 
@@ -133,9 +221,12 @@ async def searchPerson(name = None, search = None, location = None, location_id 
 			person['_id'] = str(person['_id'])
 
 			ret.append(person)
-
+		
 		return {
-			'results': ret
+			'results': {
+				'persons': ret,
+				'places': locationResults
+			}
 		}
 	else:
 		return {
