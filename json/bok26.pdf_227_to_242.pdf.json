@@ -271,9 +271,33 @@
                 "year": "1888",
                 "age": 35,
                 "status": "Hjú",
-                "location": "Bjarnarst. B.",
+                "location": "Bjarnarstaðir B.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Hrappst. B. (36) 1889.",
@@ -753,9 +777,29 @@
                 "year": "1895-1896",
                 "age": 31,
                 "status": "G. húsm.",
-                "location": "Narfast.seli",
+                "location": "Narfastaðasel",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 12317,
+                    "name": "Narfastaðasel",
+                    "lat": "65.678616",
+                    "lng": "-17.394441",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Heiðarseli (33 ára) 1897-1900- (Hb).",
@@ -2904,7 +2948,31 @@
                 "status": "Hjá for.",
                 "location": "Garðshorni",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90018,
+                    "name": "Garðshorn",
+                    "lat": "65.821821",
+                    "lng": "-17.559399",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

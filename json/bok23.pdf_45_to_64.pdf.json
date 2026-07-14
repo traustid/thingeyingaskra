@@ -993,7 +993,31 @@
                 "status": "Hjá föður",
                 "location": "Tungugerði",
                 "note": "",
-                "year": "1845-1848"
+                "year": "1845-1848",
+                "location_obj": {
+                    "id": 90025,
+                    "name": "Tungugerði",
+                    "lat": "66.109337",
+                    "lng": "-17.262125",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá föð. á Heðinshöfða (8 ára) 1850.",
@@ -1049,7 +1073,31 @@
                 "status": "Húsfr.",
                 "location": "Valadal",
                 "note": "",
-                "year": "1874-1875"
+                "year": "1874-1875",
+                "location_obj": {
+                    "id": 90020,
+                    "name": "Valadalur",
+                    "lat": "66.196139",
+                    "lng": "-17.122519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1395,7 +1443,31 @@
                 "status": "Í dvöl",
                 "location": "Sveinströnd",
                 "note": "",
-                "year": "1809"
+                "year": "1809",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjábarn B. í Vindbelg 1812-1815.",
@@ -1842,31 +1914,7 @@
                 "status": "Hjú",
                 "location": "Haga",
                 "note": "",
-                "year": "1877",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1877"
             },
             {
                 "original_string": "Húsfr. í Grjótárgerði B. (27) 1878-86.",
@@ -3176,27 +3224,99 @@
                 "year_or_period": "1859",
                 "age": 1,
                 "status": "Með for.",
-                "location": "Einarsst., Þ.hv.",
+                "location": "Einarsstaðir, Þ.hv.",
                 "note": "",
-                "year": "1859"
+                "year": "1859",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Barn á Einarsst., Þ.hv. 1861-1863.",
                 "year_or_period": "1861-1863",
                 "age": null,
                 "status": "Barn",
-                "location": "Einarsst., Þ.hv.",
+                "location": "Einarsstaðir, Þ.hv.",
                 "note": "",
-                "year": "1861-1863"
+                "year": "1861-1863",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Barn á Einarsst., Þ.hv. 1865-1870.",
                 "year_or_period": "1865-1870",
                 "age": null,
                 "status": "Barn",
-                "location": "Einarsst., Þ.hv.",
+                "location": "Einarsstaðir, Þ.hv.",
                 "note": "",
-                "year": "1865-1870"
+                "year": "1865-1870",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Skörðum (17 ára) 1876.",
@@ -3247,7 +3367,35 @@
                 "status": "Húsfr.",
                 "location": "Árbakka",
                 "note": "",
-                "year": "1883-1900"
+                "year": "1883-1900",
+                "location_obj": {
+                    "id": 90019,
+                    "name": "Árbakki",
+                    "lat": "65.958172",
+                    "lng": "-18.192479",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

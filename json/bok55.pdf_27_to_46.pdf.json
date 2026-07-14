@@ -552,7 +552,31 @@
                 "age": null,
                 "status": "Hjú",
                 "location": "Brekku A.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90026,
+                    "name": "Brekka",
+                    "lat": "65.839003",
+                    "lng": "-17.334747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Núpum (38) 1878",
@@ -600,7 +624,31 @@
                 "age": 43,
                 "status": "Búst.",
                 "location": "Valadal",
-                "note": "Gunnar"
+                "note": "Gunnar",
+                "location_obj": {
+                    "id": 90020,
+                    "name": "Valadalur",
+                    "lat": "66.196139",
+                    "lng": "-17.122519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Stóratungu (22) 1884–1885",
@@ -1059,8 +1107,28 @@
                 "year": "1865",
                 "age": 1,
                 "status": "Með for.",
-                "location": "Narfast.seli",
-                "note": "frá Hólsseli á Fj."
+                "location": "Narfastaðasel",
+                "note": "frá Hólsseli á Fj.",
+                "location_obj": {
+                    "id": 12317,
+                    "name": "Narfastaðasel",
+                    "lat": "65.678616",
+                    "lng": "-17.394441",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1131,7 +1199,31 @@
                 "age": null,
                 "status": "Hjá for.",
                 "location": "Gyðugerði",
-                "note": "nýf."
+                "note": "nýf.",
+                "location_obj": {
+                    "id": 90017,
+                    "name": "Gyðugerði",
+                    "lat": "66.15847",
+                    "lng": "-17.86426",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Krosshúsum (19) 1886",
@@ -1909,7 +2001,7 @@
             "death": {
                 "original_string": "Drukkn. í fiskiróðri frá Bakka 14/6. 1847. 1)",
                 "date": "1847-06-14",
-                "location": "Bakka",
+                "location": "Bakki",
                 "note_ref": 1,
                 "location_obj": {
                     "id": 12361,
@@ -2006,7 +2098,7 @@
                 "original_string": "Drukkn. í fiskiróðri frá Bakka 14/6. 1847. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Bakka",
+                "location": "Bakki",
                 "location_obj": {
                     "id": 12361,
                     "name": "Bakki",

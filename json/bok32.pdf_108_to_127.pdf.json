@@ -836,7 +836,31 @@
                 "age": null,
                 "status": "Niðurs.",
                 "location": "Langavatn",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. á Jódísast. (88) 1888-1889-1893. 1)",
@@ -1414,7 +1438,7 @@
             "birth": {
                 "original_string": "F. um 1750. á Hjalla R.",
                 "date": "1750",
-                "location": "Hjalla R.",
+                "location": "Hjalli R.",
                 "location_obj": {
                     "id": 90004,
                     "name": "Hjalli",
@@ -1462,7 +1486,7 @@
                 "original_string": "F. um 1750. á Hjalla R.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hjalla R.",
+                "location": "Hjalli R.",
                 "location_obj": {
                     "id": 90004,
                     "name": "Hjalli",
@@ -2589,7 +2613,7 @@
                 "year": "1814-1816",
                 "age": 14,
                 "status": "Hjú",
-                "location": "Bakka Fn.",
+                "location": "Bakki Fn.",
                 "note": "",
                 "location_obj": {
                     "id": 12361,
@@ -2968,7 +2992,31 @@
             "birth": {
                 "original_string": "F. um 1745 á Brekku, Fj.-",
                 "date": "1745",
-                "location": "Brekku, Fj."
+                "location": "Brekku, Fj.",
+                "location_obj": {
+                    "id": 90026,
+                    "name": "Brekka",
+                    "lat": "65.839003",
+                    "lng": "-17.334747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Grýtubakka 11/1. 1843, 100 ára.",
@@ -3016,14 +3064,38 @@
                 "original_string": "F. um 1745 á Brekku, Fj.-",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Brekku, Fj."
+                "location": "Brekku, Fj.",
+                "location_obj": {
+                    "id": 90026,
+                    "name": "Brekka",
+                    "lat": "65.839003",
+                    "lng": "-17.334747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Hjalla Grýt. (56) 1801-",
                 "year": "1801",
                 "age": 56,
                 "status": "Hjú",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "note": "",
                 "location_obj": {
                     "id": 90003,

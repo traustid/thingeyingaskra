@@ -1278,7 +1278,31 @@
             "birth": {
                 "original_string": "F. á Bjarnarst. B. 7/12. 1881.",
                 "date": "1881-12-07",
-                "location": "Bjarnarst. B."
+                "location": "Bjarnarstaðir B.",
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1323,17 +1347,65 @@
                 "original_string": "F. á Bjarnarst. B. 7/12. 1881.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Bjarnarst. B."
+                "location": "Bjarnarstaðir B.",
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Bjarnarst. B. (á 1.) 1882-83.",
                 "year_or_period": "1882-1883",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Bjarnarst. B.",
+                "location": "Bjarnarstaðir B.",
                 "note": "",
                 "note_ref": null,
-                "year": "1882-1883"
+                "year": "1882-1883",
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

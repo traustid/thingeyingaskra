@@ -383,7 +383,31 @@
                 "age": 12.5,
                 "status": "Með móður",
                 "location": "Langavatn",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Glaumbæ (20) 1816-",
@@ -2618,8 +2642,32 @@
                 "year": "1878-1880",
                 "age": 30,
                 "status": "Hjú",
-                "location": "Látrar",
-                "note": "G '79"
+                "location": "Látur",
+                "note": "G '79",
+                "location_obj": {
+                    "id": 16616,
+                    "name": "Látur",
+                    "lat": "66.109679",
+                    "lng": "-18.316458",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Grímunesi (41) 1889-1890.",

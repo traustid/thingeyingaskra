@@ -2214,7 +2214,31 @@
                 "status": "K. vm.",
                 "location": "Langavatn",
                 "note": "",
-                "year": "1884"
+                "year": "1884",
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Brekknakoti (43) 1885.",
@@ -3576,7 +3600,31 @@
             "birth": {
                 "original_string": "F. 23/7. 1856 á Látrum.",
                 "date": "1856-07-23",
-                "location": "Látrar"
+                "location": "Látur",
+                "location_obj": {
+                    "id": 16616,
+                    "name": "Látur",
+                    "lat": "66.109679",
+                    "lng": "-18.316458",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -3630,7 +3678,31 @@
                 "original_string": "F. 23/7. 1856 á Látrum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Látrar"
+                "location": "Látur",
+                "location_obj": {
+                    "id": 16616,
+                    "name": "Látur",
+                    "lat": "66.109679",
+                    "lng": "-18.316458",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub. í Yztuvík (á 1.) 1856-1857.",
@@ -4057,9 +4129,33 @@
                 "year_or_period": "1864",
                 "age": 23,
                 "status": "Hjú",
-                "location": "Látrar",
+                "location": "Látur",
                 "note": "",
-                "year": "1864"
+                "year": "1864",
+                "location_obj": {
+                    "id": 16616,
+                    "name": "Látur",
+                    "lat": "66.109679",
+                    "lng": "-18.316458",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

@@ -1497,7 +1497,31 @@
                 "year": "1858-1859",
                 "age": null,
                 "status": "Bóndi",
-                "location": "Sveinströnd"
+                "location": "Sveinströnd",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Uppgj. pr. B. á Grenavatni (51) 1860-1862-",
@@ -2520,18 +2544,18 @@
                 "date": "1852-03-01",
                 "location": "Skör, Höfðasókn",
                 "location_obj": {
-                    "id": 16837,
-                    "name": "Skörð",
-                    "lat": "65.958869",
-                    "lng": "-17.323202",
+                    "id": 25003,
+                    "name": "Skarð",
+                    "lat": "65.881634",
+                    "lng": "-17.974430",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Reykjahverfi",
-                            "id": 1001642
+                            "name": "Dalsmynni",
+                            "id": 16453
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2601,18 +2625,18 @@
                 "status": "Fæðingarstaður",
                 "location": "Skör, Höfðasókn",
                 "location_obj": {
-                    "id": 16837,
-                    "name": "Skörð",
-                    "lat": "65.958869",
-                    "lng": "-17.323202",
+                    "id": 25003,
+                    "name": "Skarð",
+                    "lat": "65.881634",
+                    "lng": "-17.974430",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Reykjahverfi",
-                            "id": 1001642
+                            "name": "Dalsmynni",
+                            "id": 16453
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

@@ -2460,7 +2460,31 @@
                 "status": "G. kona",
                 "location": "Sveinströnd",
                 "note": "frá Fjósakoti, Eyf.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Kálfaströnd (53) 1871-1872.",

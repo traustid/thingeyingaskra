@@ -792,7 +792,31 @@
                 "age": 23,
                 "status": "Hjú",
                 "location": "Langavatn",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á St. Reykjum (23) 1857.",
@@ -927,8 +951,32 @@
                 "year": "1878",
                 "age": null,
                 "status": "G. hjú",
-                "location": "Bjarnarst. B.",
-                "note": ""
+                "location": "Bjarnarstaðir B.",
+                "note": "",
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú í Geitafelli (46) 1878.",
@@ -4374,7 +4422,31 @@
                 "age": null,
                 "status": "Húsfr.",
                 "location": "Garðshorn",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90018,
+                    "name": "Garðshorn",
+                    "lat": "65.821821",
+                    "lng": "-17.559399",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

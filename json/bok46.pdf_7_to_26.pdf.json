@@ -305,9 +305,33 @@
                 "year_or_period": "1813-1814",
                 "age": 16,
                 "status": "Til heimilis",
-                "location": "Múla",
+                "location": "Múli",
                 "note": "",
-                "year": "1813-1814"
+                "year": "1813-1814",
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2767,7 +2791,31 @@
             "birth": {
                 "original_string": "F. á Einarsst. 21/2. 1819.",
                 "date": "1819-02-21",
-                "location": "Einarsst."
+                "location": "Einarsstaðir",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2812,7 +2860,31 @@
                 "original_string": "F. á Einarsst. 21/2. 1819.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Einarsst."
+                "location": "Einarsstaðir",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Einarsstöðum (á l.) 1819-",
@@ -3855,7 +3927,7 @@
                 "year_or_period": "1868-1876",
                 "age": 54,
                 "status": "E. ráðsk.",
-                "location": "Bakka Fn.",
+                "location": "Bakki Fn.",
                 "note": "",
                 "year": "1868-1876",
                 "location_obj": {

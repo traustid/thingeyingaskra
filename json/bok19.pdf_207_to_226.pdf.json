@@ -611,7 +611,31 @@
             "birth": {
                 "original_string": "F. um 1773 á Brekku, Fjörðum.",
                 "date": "1773-01-01",
-                "location": "Brekku, Fjörðum"
+                "location": "Brekku, Fjörðum",
+                "location_obj": {
+                    "id": 90026,
+                    "name": "Brekka",
+                    "lat": "65.839003",
+                    "lng": "-17.334747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -647,7 +671,31 @@
                 "original_string": "F. um 1773 á Brekku, Fjörðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Brekku, Fjörðum"
+                "location": "Brekku, Fjörðum",
+                "location_obj": {
+                    "id": 90026,
+                    "name": "Brekka",
+                    "lat": "65.839003",
+                    "lng": "-17.334747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "H. vm. á Fornastöðum (29) 1802.",
@@ -2068,9 +2116,33 @@
                 "year": "1875",
                 "age": 33,
                 "status": "Bústýra",
-                "location": "Bjarnarst. B.",
+                "location": "Bjarnarstaðir B.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2646,7 +2718,7 @@
             "birth": {
                 "original_string": "F. um 1773. á Bakka, Tj.",
                 "date": "1773-01-01",
-                "location": "Bakka, Tj.",
+                "location": "Bakki. Tj.",
                 "location_obj": {
                     "id": 12361,
                     "name": "Bakki",
@@ -2705,7 +2777,7 @@
                 "original_string": "F. um 1773. á Bakka, Tj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Bakka, Tj.",
+                "location": "Bakki. Tj.",
                 "location_obj": {
                     "id": 12361,
                     "name": "Bakki",
@@ -3551,7 +3623,31 @@
             "birth": {
                 "original_string": "F. 1/9. 1855. í Múla",
                 "date": "1855-09-01",
-                "location": "Múla"
+                "location": "Múli",
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3609,34 +3705,130 @@
                 "original_string": "F. 1/9. 1855. í Múla",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Múla"
+                "location": "Múli",
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Barn hjá foreldrum í Múla 1857, 1 árs.",
                 "year": "1857",
                 "age": 1,
                 "status": "Barn hjá foreldrum",
-                "location": "Múla",
+                "location": "Múli",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Múla (7) 1861-1874.",
                 "year": "1861-1874",
                 "age": 7,
                 "status": "Hjá for.",
-                "location": "Múla",
+                "location": "Múli",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. k. í Múla (22) 1876.- Húsfr. í Múla 1877-1881.",
                 "year": "1876-1881",
                 "age": 22,
                 "status": "G. k. - Húsfr.",
-                "location": "Múla",
+                "location": "Múli",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

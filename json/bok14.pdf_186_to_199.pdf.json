@@ -650,7 +650,31 @@
             "birth": {
                 "original_string": "F. 6/6 1822 á Lónatjörn.",
                 "date": "1822-06-06",
-                "location": "Lónatjörn"
+                "location": "Lómatjörn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -691,15 +715,63 @@
                 "original_string": "F. 6/6 1822 á Lónatjörn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Lónatjörn"
+                "location": "Lómatjörn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Lónatjörn (7) 1829-1835.",
                 "year": "1829-1835",
                 "age": 7,
                 "status": "Hjá for.",
-                "location": "Lónatjörn",
-                "note": ""
+                "location": "Lómatjörn",
+                "note": "",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1860,8 +1932,32 @@
                 "year": "1892",
                 "age": 10,
                 "status": "Með for.",
-                "location": "Krappst. Þ.",
-                "note": ""
+                "location": "Hrappsstaðir Þ.",
+                "note": "",
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

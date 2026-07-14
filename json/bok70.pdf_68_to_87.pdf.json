@@ -538,7 +538,31 @@
             "birth": {
                 "original_string": "F. um 1775 á Sveinströnd.",
                 "date": "1775-00-00",
-                "location": "Sveinströnd"
+                "location": "Sveinströnd",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Hallbj.st. 30/7. 1846.",
@@ -619,7 +643,31 @@
                 "original_string": "F. um 1775 á Sveinströnd.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Sveinströnd"
+                "location": "Sveinströnd",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Vogum (26) 1801-1802.",
@@ -969,31 +1017,7 @@
                 "status": "Hjá for.",
                 "location": "Grenjaðarstöðum",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 16501,
-                    "name": "Grenjaðarstaður",
-                    "lat": "65.8209185748",
-                    "lng": "-17.3502874374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Fermdur frá Hólum R. 31/5. 1857.",
@@ -2890,7 +2914,31 @@
                 "status": "Hjú",
                 "location": "Vöglum",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú frá Vöglum að Einarsst. (17) 1836-",

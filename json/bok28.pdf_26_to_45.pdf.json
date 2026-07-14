@@ -136,7 +136,31 @@
                 "age": 15,
                 "status": "Hjú",
                 "location": "Langavatn",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Geitafelli (17) 1900.",
@@ -3112,7 +3136,31 @@
                 "age": 22,
                 "status": "Húsfrú",
                 "location": "Valadal",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90020,
+                    "name": "Valadalur",
+                    "lat": "66.196139",
+                    "lng": "-17.122519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Hallbj. st. F. (34 ára) 1898-1900.",

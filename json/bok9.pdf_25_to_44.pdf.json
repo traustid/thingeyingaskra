@@ -196,7 +196,35 @@
                 "status": "Með for.",
                 "location": "Árbakka",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90019,
+                    "name": "Árbakki",
+                    "lat": "65.958172",
+                    "lng": "-18.192479",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Skútustöðum (22) 1874.",
@@ -916,7 +944,31 @@
             "birth": {
                 "original_string": "F. á Narfast. 9/9. 1846.",
                 "date": "1846-09-09",
-                "location": "Narfast."
+                "location": "Narfastaðir",
+                "location_obj": {
+                    "id": 24821,
+                    "name": "Narfastaðir",
+                    "lat": "65.675002686",
+                    "lng": "-17.3511457443",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Am. 1936.",
@@ -973,16 +1025,64 @@
                 "original_string": "F. á Narfast. 9/9. 1846.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Narfast."
+                "location": "Narfastaðir",
+                "location_obj": {
+                    "id": 24821,
+                    "name": "Narfastaðir",
+                    "lat": "65.675002686",
+                    "lng": "-17.3511457443",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Narfast. (á l.) 1846-",
                 "year": "1846-",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Narfast.",
+                "location": "Narfastaðir",
                 "note": "á l.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 24821,
+                    "name": "Narfastaðir",
+                    "lat": "65.675002686",
+                    "lng": "-17.3511457443",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fermdur frá Máskoti 26/5. 1861-",
@@ -2162,13 +2262,61 @@
             "birth": {
                 "original_string": "F. 2/12 1858 á Ísólfsst.",
                 "date": "1858-12-02",
-                "location": "Ísólfsst."
+                "location": "Ísólfsstaðir",
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Ísólfsst. 31/5. 1860, 1 1/2 árs.",
                 "date": "1860-05-31",
-                "location": "Ísólfsst.",
-                "note_ref": 1
+                "location": "Ísólfsstaðir",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Björn",
@@ -2208,23 +2356,95 @@
                 "original_string": "F. 2/12 1858 á Ísólfsst.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Ísólfsst."
+                "location": "Ísólfsstaðir",
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Ísólfsst. (1) 1859-1860.",
                 "year": "1859-1860",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Ísólfsst.",
+                "location": "Ísólfsstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1860",
                 "original_string": "D. á Ísólfsst. 31/5. 1860, 1 1/2 árs.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Ísólfsst."
+                "location": "Ísólfsstaðir",
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2415,31 +2635,7 @@
             "birth": {
                 "original_string": "F. í Haga 12/1. 1822.",
                 "date": "1822-01-12",
-                "location": "Haga",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Haga"
             },
             "death": null,
             "names": [
@@ -2492,31 +2688,7 @@
                 "original_string": "F. í Haga 12/1. 1822.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Haga",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Haga"
             },
             {
                 "original_string": "Hjá móður í Haga (6) 1827-1828.",
@@ -2525,31 +2697,7 @@
                 "status": "Hjá móður",
                 "location": "Haga",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Til Am. frá Sleitustöðum 1876. - N-Dak., bls. 266.",
@@ -2887,9 +3035,33 @@
                 "year": "1813-1814",
                 "age": 34,
                 "status": "Hjú",
-                "location": "Múla",
+                "location": "Múli",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Breiðumýri (37) 1816-",

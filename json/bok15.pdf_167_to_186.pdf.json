@@ -714,8 +714,32 @@
                 "year": "1867-1870",
                 "age": 68,
                 "status": "Móðir b.",
-                "location": "Einarsst., Rhv.",
-                "note": ""
+                "location": "Einarsstaðir, Rhv.",
+                "note": "",
+                "location_obj": {
+                    "id": 25978,
+                    "name": "Einarsstaðir",
+                    "lat": "65.951317",
+                    "lng": "-17.304459",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. í Skörðum (72-ára) 1871-1874.",
@@ -754,16 +778,64 @@
                 "year": "1876",
                 "age": null,
                 "status": "Húsk.",
-                "location": "Einarsst., R.hv.",
-                "note": ""
+                "location": "Einarsstaðir, R.hv.",
+                "note": "",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Móðir bónda á Einarsst. R.hv. (83-ára) 1880-82.",
                 "year": "1880-1882",
                 "age": 83,
                 "status": "Móðir bónda",
-                "location": "Einarsst. R.hv.",
-                "note": ""
+                "location": "Einarsstaðir R.hv.",
+                "note": "",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -3198,7 +3270,7 @@
                 "year": "1855-1877",
                 "age": 16,
                 "status": "Hjá móður",
-                "location": "Hjalla, Grýtubakkahr.",
+                "location": "Hjalli, Grýtubakkahr.",
                 "note": "G. '70",
                 "location_obj": {
                     "id": 90003,

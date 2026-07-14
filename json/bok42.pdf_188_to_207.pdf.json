@@ -220,7 +220,7 @@
                 "year_or_period": "1897",
                 "age": 13,
                 "status": "Smali",
-                "location": "Bakka T.",
+                "location": "Bakki T.",
                 "note": "",
                 "year": "1897",
                 "location_obj": {
@@ -1943,7 +1943,31 @@
                 "status": "Hjú",
                 "location": "Langavatn",
                 "note": "",
-                "year": "1898"
+                "year": "1898",
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Presthvammi (23) 1899.",
@@ -2270,9 +2294,33 @@
                 "year_or_period": "1855",
                 "age": null,
                 "status": "Hjú",
-                "location": "Múla",
+                "location": "Múli",
                 "note": "að 1/2",
-                "year": "1855"
+                "year": "1855",
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Fagranesi (30) 1861.",
@@ -4006,9 +4054,33 @@
                 "year_or_period": "1896-1899",
                 "age": 17,
                 "status": "Hjá for.",
-                "location": "Krappst. H.",
+                "location": "Hrappsstaðir H.",
                 "note": "",
-                "year": "1896-1899"
+                "year": "1896-1899",
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

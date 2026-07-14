@@ -747,7 +747,7 @@
             "birth": {
                 "original_string": "F. á Hjalla R. 2/3. 1807.",
                 "date": "1807-03-02",
-                "location": "Hjalla R.",
+                "location": "Hjalli R.",
                 "location_obj": {
                     "id": 90004,
                     "name": "Hjalli",
@@ -776,7 +776,7 @@
             "death": {
                 "original_string": "D. þaðan 1823.",
                 "date": "1823-00-00",
-                "location": "Hjalla R.",
+                "location": "Hjalli R.",
                 "note_ref": 1,
                 "location_obj": {
                     "id": 90004,
@@ -841,7 +841,7 @@
                 "original_string": "F. á Hjalla R. 2/3. 1807.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hjalla R.",
+                "location": "Hjalli R.",
                 "location_obj": {
                     "id": 90004,
                     "name": "Hjalli",
@@ -872,7 +872,7 @@
                 "year": "1807-1823",
                 "age": 1,
                 "status": "hjá for.",
-                "location": "Hjalla R.",
+                "location": "Hjalli R.",
                 "note": "",
                 "location_obj": {
                     "id": 90004,
@@ -904,7 +904,7 @@
                 "year": "1821",
                 "age": null,
                 "status": "Fermdur",
-                "location": "Hjalla R.",
+                "location": "Hjalli R.",
                 "note": "",
                 "location_obj": {
                     "id": 90004,
@@ -936,7 +936,7 @@
                 "original_string": "D. þaðan 1823.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Hjalla R.",
+                "location": "Hjalli R.",
                 "location_obj": {
                     "id": 90004,
                     "name": "Hjalli",
@@ -2831,8 +2831,32 @@
                 "year": "1839",
                 "age": 31,
                 "status": "Bóndi",
-                "location": "Y.-Neslöndum",
-                "note": ""
+                "location": "Ytri-Neslönd",
+                "note": "",
+                "location_obj": {
+                    "id": 1001885,
+                    "name": "Ytri-Neslönd",
+                    "lat": "65.635883",
+                    "lng": "-16.992561",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Grímsstöðum (32) 1841-1843.",

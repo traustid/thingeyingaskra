@@ -267,15 +267,39 @@
                 "year": "1855",
                 "age": null,
                 "status": "G. hjú",
-                "location": "Múla",
-                "note": ""
+                "location": "Múli",
+                "note": "",
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú frá Hjalla að Múla (55) 1854",
                 "year": "1854",
                 "age": 55,
                 "status": "G. hjú",
-                "location": "Hjalla / Múla",
+                "location": "Hjalli / Múla",
                 "note": "",
                 "location_obj": {
                     "id": 90003,
@@ -311,7 +335,7 @@
                 "year": "1856",
                 "age": null,
                 "status": "Hjú",
-                "location": "Hjalla",
+                "location": "Hjalli",
                 "note": "",
                 "location_obj": {
                     "id": 90003,
@@ -348,7 +372,31 @@
                 "age": 55,
                 "status": "G. faðir B.",
                 "location": "Brekku A.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90026,
+                    "name": "Brekka",
+                    "lat": "65.839003",
+                    "lng": "-17.334747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú á Þverá R. (58) 1860.",
@@ -420,31 +468,7 @@
                 "age": 61,
                 "status": "E. húsm. og hjú",
                 "location": "Haga",
-                "note": "",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú á Syðrafjalli (67) 1876",

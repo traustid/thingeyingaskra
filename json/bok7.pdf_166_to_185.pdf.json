@@ -374,18 +374,66 @@
                 "year": "1890-1895",
                 "age": 5,
                 "status": "Hjá for.",
-                "location": "Krappastaðaseli",
+                "location": "Hrappsstaðasel",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1001888,
+                    "name": "Hrappsstaðasel",
+                    "lat": "65.55743020636",
+                    "lng": "-17.385520460449",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Krappastöðum (12) 1896-1899.",
                 "year": "1896-1899",
                 "age": 12,
                 "status": "Hjá for.",
-                "location": "Krappastöðum",
+                "location": "Hrappsstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Kaldbak (16 ára) 1900.",
@@ -1055,7 +1103,31 @@
                 "status": "Hjú",
                 "location": "Brettingsstaðir Fl.",
                 "note": "",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 1002583,
+                    "name": "Brettingsstaðir",
+                    "lat": "66.118751",
+                    "lng": "-17.913197",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1838",
@@ -1136,7 +1208,31 @@
                 "status": "G. maður",
                 "location": "Vöglum",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1177,9 +1273,33 @@
                 "year": "1875",
                 "age": 60,
                 "status": "Húsm.",
-                "location": "Ísólfsst.",
+                "location": "Ísólfsstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1875",
@@ -1987,7 +2107,31 @@
             "birth": {
                 "original_string": "F. 2/5 1879. á Lónatjörn í Laufássókn.",
                 "date": "1879-05-02",
-                "location": "Lónatjörn í Laufássókn"
+                "location": "Lómatjörn í Laufássókn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -2028,16 +2172,64 @@
                 "original_string": "F. 2/5 1879. á Lónatjörn í Laufássókn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Lónatjörn í Laufássókn"
+                "location": "Lómatjörn í Laufássókn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Lónatjörn (á 1.) 1879-1881.",
                 "year": "1879-1881",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Lónatjörn",
+                "location": "Lómatjörn",
                 "note": "á 1.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Sv. óm. á Skuggabjörgum (2) 1882.",

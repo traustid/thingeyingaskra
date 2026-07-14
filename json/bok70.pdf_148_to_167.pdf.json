@@ -668,8 +668,32 @@
             "birth": {
                 "original_string": "F. um 1751 á Lónatjörn. 1)",
                 "date": "1751",
-                "location": "Lónatjörn",
-                "note_ref": 1
+                "location": "Lómatjörn",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. frá Jökulsá 7/3. 1826.",
@@ -750,7 +774,31 @@
                 "original_string": "F. um 1751 á Lónatjörn. 1)",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Lónatjörn"
+                "location": "Lómatjörn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Eing. hjú á Kambhólsmýrum (50) 1801.",
@@ -1506,7 +1554,31 @@
                 "status": "Ókv. B.",
                 "location": "Valadal",
                 "note": "",
-                "note_ref": 2
+                "note_ref": 2,
+                "location_obj": {
+                    "id": 90020,
+                    "name": "Valadalur",
+                    "lat": "66.196139",
+                    "lng": "-17.122519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsm. í Vilpu (52 ára) 1829-1831.",

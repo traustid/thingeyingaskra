@@ -117,7 +117,7 @@
             "birth": {
                 "original_string": "F. 26/3. 1893 á Bakka T.",
                 "date": "1893-03-26",
-                "location": "Bakka T.",
+                "location": "Bakki T.",
                 "location_obj": {
                     "id": 23886,
                     "name": "Bakki",
@@ -198,7 +198,7 @@
                 "original_string": "F. 26/3. 1893 á Bakka T.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Bakka T.",
+                "location": "Bakki T.",
                 "location_obj": {
                     "id": 23886,
                     "name": "Bakki",
@@ -652,9 +652,33 @@
                 "year": "1900",
                 "age": 7,
                 "status": "Með móður",
-                "location": "Múla",
+                "location": "Múli",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1921,7 +1945,7 @@
                 "year": "1801",
                 "age": 10,
                 "status": "Hjá for.",
-                "location": "Hjalla, R.",
+                "location": "Hjalli, R.",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -2431,7 +2455,7 @@
                 "year": "1896",
                 "age": 27,
                 "status": "Hjú",
-                "location": "Bakka T.",
+                "location": "Bakki T.",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {

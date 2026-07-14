@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. 1/9 1788 á Brekku A.",
                 "date": "1788-09-01",
-                "location": "Brekka A."
+                "location": "Brekka A.",
+                "location_obj": {
+                    "id": 90026,
+                    "name": "Brekka",
+                    "lat": "65.839003",
+                    "lng": "-17.334747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -48,7 +72,31 @@
                 "original_string": "F. 1/9 1788 á Brekku A.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Brekka A."
+                "location": "Brekka A.",
+                "location_obj": {
+                    "id": 90026,
+                    "name": "Brekka",
+                    "lat": "65.839003",
+                    "lng": "-17.334747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub. Ómagi á Grenjaðarstað (12 ára) 1801-",
@@ -861,7 +909,7 @@
                 "year": "1890",
                 "age": 47,
                 "status": "Hjú",
-                "location": "Hjalla R.",
+                "location": "Hjalli R.",
                 "note": "",
                 "location_obj": {
                     "id": 90004,
@@ -1621,7 +1669,31 @@
             "birth": {
                 "original_string": "F. 19/1 1844 á Einarsst.",
                 "date": "1844-01-19",
-                "location": "Einarsst."
+                "location": "Einarsstaðir",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -1674,15 +1746,63 @@
                 "original_string": "F. 19/1 1844 á Einarsst.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Einarsst."
+                "location": "Einarsstaðir",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Einarsst. (ál.) 1844-",
                 "year": "1844-",
                 "age": null,
                 "status": "",
-                "location": "Einarsst.",
-                "note": "Hjá for., (ál.)"
+                "location": "Einarsstaðir",
+                "note": "Hjá for., (ál.)",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Barn þaðan að Auðnum (4) 1847-",
@@ -1846,7 +1966,31 @@
                 "age": 19,
                 "status": "Hjú",
                 "location": "Sveinstönd",
-                "note": "frá Hamri"
+                "note": "frá Hamri",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú (27) frá Grímsstöðum að Breiðabóli 1871.",
@@ -1970,7 +2114,7 @@
                 "year": "1809-1811-",
                 "age": 64,
                 "status": "Hjú",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "note": "",
                 "location_obj": {
                     "id": 90003,
@@ -3561,31 +3705,7 @@
                 "age": 32,
                 "status": "Húsk.",
                 "location": "Haga",
-                "note": "",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "G. húsk. í Húsabakka (36) 1894-1895.",

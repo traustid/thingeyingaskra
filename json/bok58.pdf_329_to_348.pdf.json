@@ -1113,7 +1113,31 @@
             "birth": {
                 "original_string": "F. 25/6. 1851. á Sveinströnd.",
                 "date": "1851-06-25",
-                "location": "Sveinströnd"
+                "location": "Sveinströnd",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1158,7 +1182,31 @@
                 "original_string": "F. 25/6. 1851. á Sveinströnd.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Sveinströnd"
+                "location": "Sveinströnd",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. (1 árs) frá Sveinstr. að Ytrafjalli 1852.",
@@ -2232,7 +2280,31 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "note_ref": null,
-                "year": "1883-1884"
+                "year": "1883-1884",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Hofsstöðum (30) 1885.",
@@ -2307,10 +2379,34 @@
                 "year_or_period": "1893-1897",
                 "age": 38,
                 "status": "Húsfr.",
-                "location": "Bjarnarst. M.",
+                "location": "Bjarnarstaðir M.",
                 "note": "",
                 "note_ref": null,
-                "year": "1893-1897"
+                "year": "1893-1897",
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Halldórsst. P. (42) 1898-1900-",
@@ -2920,7 +3016,7 @@
             "birth": {
                 "original_string": "F. um 1860 á Bakka, Fljótum.",
                 "date": "1860-00-00",
-                "location": "Bakka, Fljótum",
+                "location": "Bakki. Fljótum",
                 "location_obj": {
                     "id": 12361,
                     "name": "Bakki",
@@ -2968,7 +3064,7 @@
                 "original_string": "F. um 1860 á Bakka, Fljótum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Bakka, Fljótum",
+                "location": "Bakki. Fljótum",
                 "location_obj": {
                     "id": 12361,
                     "name": "Bakki",

@@ -188,7 +188,7 @@
             "birth": {
                 "original_string": "F. 11/2 1799 á Hjalla Grýt.",
                 "date": "1799-02-11",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "location_obj": {
                     "id": 90003,
                     "name": "Hjalli",
@@ -274,7 +274,7 @@
                 "original_string": "F. 11/2 1799 á Hjalla Grýt.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "location_obj": {
                     "id": 90003,
                     "name": "Hjalli",
@@ -309,7 +309,7 @@
                 "year": "1806-1809",
                 "age": 7,
                 "status": "Með for.",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -491,9 +491,33 @@
                 "year": "1840",
                 "age": 28,
                 "status": "Hjú",
-                "location": "Múla",
+                "location": "Múli",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Syðrafjalli 1841-48, 29-36 ára.",
@@ -533,9 +557,33 @@
                 "year": "1849-1852",
                 "age": "37-41",
                 "status": "Hreppstjóri",
-                "location": "Múla",
+                "location": "Múli",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Syðrafjalli 1853-64, 42-53 ára.",
@@ -643,7 +691,31 @@
                 "status": "Faðir K",
                 "location": "Langavatni",
                 "note": "G.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -936,7 +1008,31 @@
                 "status": "B.",
                 "location": "Valadal",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90020,
+                    "name": "Valadalur",
+                    "lat": "66.196139",
+                    "lng": "-17.122519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tómthúsm. í Illugabæ á Húsavík 1816. (53 ára).",

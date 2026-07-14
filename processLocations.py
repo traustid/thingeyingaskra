@@ -17,6 +17,7 @@ regions = {
 	'A.': 'Aðaldalur',
 	'Rhv.': 'Reykjahverfi',
 	'R.': 'Reykjadalur',
+	'Rd.': 'Reykjadalur',
 	'Fn.': 'Fnjóskadalur',
 	't.': 'Tjörnes',
 	'Fl.': 'Flateyjardalur',
@@ -58,7 +59,7 @@ regions = {
 
 locationCounter = 0
 matchCounter = 0
-notFound = []
+notFound = {}
 fileCounter = 0
 
 
@@ -175,8 +176,11 @@ def findPlace(placeItem):
 		print('probability: '+str(matches[0]['probability']))
 
 		placeItem['location_obj'] = matches[0]['location']
-	elif histName not in notFound:
-		notFound.append(histName)
+	else:
+		if histName not in notFound:
+			notFound[histName] = 1
+		else:
+			notFound[histName] = notFound[histName]+1
 
 for filename in os.listdir(jsonDir):
 	file = open(jsonDir+'/'+filename)

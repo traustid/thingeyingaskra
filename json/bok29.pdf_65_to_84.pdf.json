@@ -1683,8 +1683,32 @@
                 "year": "1896-1898",
                 "age": 9,
                 "status": "Tökubr.",
-                "location": "Múla",
-                "note": ""
+                "location": "Múli",
+                "note": "",
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1730,7 +1754,7 @@
             "death": {
                 "original_string": "D. á Bakka Tj. 7/10. 1957.",
                 "date": "1957-10-07",
-                "location": "Bakka Tj.",
+                "location": "Bakki Tj.",
                 "location_obj": {
                     "id": 12361,
                     "name": "Bakki",
@@ -1869,16 +1893,64 @@
                 "year": "1890-1895",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Krappastaðaseli",
-                "note": ""
+                "location": "Hrappsstaðasel",
+                "note": "",
+                "location_obj": {
+                    "id": 1001888,
+                    "name": "Hrappsstaðasel",
+                    "lat": "65.55743020636",
+                    "lng": "-17.385520460449",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Krappset. K. (9) 1896-1899.",
                 "year": "1896-1899",
                 "age": 9,
                 "status": "Hjá for.",
-                "location": "Krappset. K.",
-                "note": ""
+                "location": "Hrappsstaðir K.",
+                "note": "",
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Kaldbak (13 ára) 1900-",
@@ -1917,7 +1989,7 @@
                 "original_string": "D. á Bakka Tj. 7/10. 1957.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Bakka Tj.",
+                "location": "Bakki Tj.",
                 "location_obj": {
                     "id": 12361,
                     "name": "Bakki",
@@ -2991,7 +3063,31 @@
             "birth": {
                 "original_string": "F. 1/7. 1854 í R.hlíðar-s. (Y.-Neslöndum).",
                 "date": "1854-07-01",
-                "location": "Y.-Neslöndum"
+                "location": "Ytri-Neslönd",
+                "location_obj": {
+                    "id": 1001885,
+                    "name": "Ytri-Neslönd",
+                    "lat": "65.635883",
+                    "lng": "-16.992561",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3048,23 +3144,95 @@
                 "original_string": "F. 1/7. 1854 í R.hlíðar-s. (Y.-Neslöndum).",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Y.-Neslöndum"
+                "location": "Ytri-Neslönd",
+                "location_obj": {
+                    "id": 1001885,
+                    "name": "Ytri-Neslönd",
+                    "lat": "65.635883",
+                    "lng": "-16.992561",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Y.-Neslöndum (6) 1855-1870.",
                 "year": "1855-1870",
                 "age": 6,
                 "status": "Hjá for.",
-                "location": "Y.-Neslöndum",
-                "note": ""
+                "location": "Ytri-Neslönd",
+                "note": "",
+                "location_obj": {
+                    "id": 1001885,
+                    "name": "Ytri-Neslönd",
+                    "lat": "65.635883",
+                    "lng": "-16.992561",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá móður og bróður í Y.-Neslöndum (22) 1871-1877",
                 "year": "1871-1877",
                 "age": 22,
                 "status": "Hjá móður og bróður",
-                "location": "Y.-Neslöndum",
-                "note": ""
+                "location": "Ytri-Neslönd",
+                "note": "",
+                "location_obj": {
+                    "id": 1001885,
+                    "name": "Ytri-Neslönd",
+                    "lat": "65.635883",
+                    "lng": "-16.992561",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Geirastöðum (30) 1880-1882.",

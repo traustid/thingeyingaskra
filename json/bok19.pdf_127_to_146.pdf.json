@@ -7,7 +7,7 @@
             "birth": {
                 "original_string": "F. um 1771 á Hjalla Grýt.",
                 "date": "1771-00-00",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "location_obj": {
                     "id": 90003,
                     "name": "Hjalli",
@@ -92,7 +92,7 @@
                 "original_string": "F. um 1771 á Hjalla Grýt.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "location_obj": {
                     "id": 90003,
                     "name": "Hjalli",
@@ -294,7 +294,7 @@
                 "year": "1801-",
                 "age": 29,
                 "status": "G.",
-                "location": "Hjalla Grýtu",
+                "location": "Hjalli Grýtu",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -331,7 +331,7 @@
                 "year": "1806-1809",
                 "age": 36,
                 "status": "G.",
-                "location": "Hjalla Grýtu",
+                "location": "Hjalli Grýtu",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -862,7 +862,31 @@
             "death": {
                 "original_string": "D. á Ísólfsst. 18/7. 1817, 37 ára. 1)",
                 "date": "1817-07-18",
-                "location": "Ísólfsst."
+                "location": "Ísólfsstaðir",
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Guðrún",
@@ -924,25 +948,97 @@
                 "year": "1806",
                 "age": 25,
                 "status": "Hjú",
-                "location": "Ísólfsst.",
+                "location": "Ísólfsstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Ísólfsst ... 1808-1816.",
                 "year": "1808-1816",
                 "age": null,
                 "status": "Húsfr.",
-                "location": "Ísólfsst.",
+                "location": "Ísólfsstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1817",
                 "original_string": "D. á Ísólfsst. 18/7. 1817, 37 ára. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Ísólfsst."
+                "location": "Ísólfsstaðir",
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2404,7 +2500,31 @@
                 "status": "Húsfr.",
                 "location": "Vöglum",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. búandi á Vöglum ... 1827-28. (Hvb.).",
@@ -2413,7 +2533,31 @@
                 "status": "E. búandi",
                 "location": "Vöglum",
                 "note": "Hvb.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Vöglum (34) 1828-1832.",
@@ -2422,7 +2566,31 @@
                 "status": "Húsfr.",
                 "location": "Vöglum",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Rauðuskriðu 1833-35, 38-40 ára.",
@@ -2474,7 +2642,31 @@
             "birth": {
                 "original_string": "F. 18/10. 1800 á Lónatjörn.",
                 "date": "1800-10-18",
-                "location": "Lónatjörn"
+                "location": "Lómatjörn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2519,16 +2711,64 @@
                 "original_string": "F. 18/10. 1800 á Lónatjörn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Lónatjörn"
+                "location": "Lómatjörn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Lónatjörn (1 árs) 1801.",
                 "year": "1801",
                 "age": 1,
                 "status": "Með for.",
-                "location": "Lónatjörn",
+                "location": "Lómatjörn",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2574,7 +2814,31 @@
             "death": {
                 "original_string": "D. á Vöglum 9/5. 1861. 1)",
                 "date": "1861-05-09",
-                "location": "Vöglum"
+                "location": "Vöglum",
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Guðrún",
@@ -2678,7 +2942,31 @@
                 "original_string": "D. á Vöglum 9/5. 1861. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Vöglum"
+                "location": "Vöglum",
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2697,7 +2985,31 @@
             "birth": {
                 "original_string": "F. 22/7. 1864 á Vöglum.",
                 "date": "1864-07-22",
-                "location": "Vöglum"
+                "location": "Vöglum",
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 2/1 1949",
@@ -2754,7 +3066,31 @@
                 "original_string": "F. 22/7. 1864 á Vöglum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Vöglum"
+                "location": "Vöglum",
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Vöglum (1 árs) 1864-1872-",
@@ -2763,7 +3099,31 @@
                 "status": "Hjá for.",
                 "location": "Vöglum",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Vestari- Krókum (10) 1873-1876-1891.",
@@ -2864,7 +3224,31 @@
             "birth": {
                 "original_string": "F. 24/8. 1888 í Valadal.",
                 "date": "1888-08-24",
-                "location": "Valadal"
+                "location": "Valadal",
+                "location_obj": {
+                    "id": 90020,
+                    "name": "Valadalur",
+                    "lat": "66.196139",
+                    "lng": "-17.122519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2909,7 +3293,31 @@
                 "original_string": "F. 24/8. 1888 í Valadal.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Valadal"
+                "location": "Valadal",
+                "location_obj": {
+                    "id": 90020,
+                    "name": "Valadalur",
+                    "lat": "66.196139",
+                    "lng": "-17.122519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Valadal (1 ári) 1888-1897.",
@@ -2918,7 +3326,31 @@
                 "status": "Hjá for.",
                 "location": "Valadal",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90020,
+                    "name": "Valadalur",
+                    "lat": "66.196139",
+                    "lng": "-17.122519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hallbj.st. T. (10 ára) 1898-1900.",

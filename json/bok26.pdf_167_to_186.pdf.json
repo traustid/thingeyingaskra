@@ -1835,7 +1835,31 @@
                 "status": "Vinnum.",
                 "location": "Valadal",
                 "note": "",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 90020,
+                    "name": "Valadalur",
+                    "lat": "66.196139",
+                    "lng": "-17.122519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2754,7 +2778,7 @@
                 "year": "1887",
                 "age": 22,
                 "status": "Hjú",
-                "location": "Bakka T.",
+                "location": "Bakki T.",
                 "note": "22 ára",
                 "location_obj": {
                     "id": 23886,
@@ -2846,7 +2870,7 @@
                 "year": "1890",
                 "age": 28,
                 "status": "Hjú",
-                "location": "Bakka T.",
+                "location": "Bakki T.",
                 "note": "28 ára!",
                 "location_obj": {
                     "id": 23886,
@@ -3579,8 +3603,32 @@
                 "year": "1840",
                 "age": null,
                 "status": "Svaram.",
-                "location": "Einarsst.",
-                "note": "e.t.v. utansóknar"
+                "location": "Einarsstaðir",
+                "note": "e.t.v. utansóknar",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. í Veisuseli (64) 1844-1845-",
@@ -3637,7 +3685,27 @@
                 "age": null,
                 "status": "B.",
                 "location": "Stóru-tjörnum",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 15135,
+                    "name": "Stóru-Tjarnir",
+                    "lat": "65.7077204415",
+                    "lng": "-17.7257537842",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Litlutjörnum... 1827-29 (Hrb.)",

@@ -44,7 +44,7 @@
                 "year": "1877",
                 "age": 14,
                 "status": "Léttast.",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -276,9 +276,33 @@
                 "year": "1866-1874",
                 "age": 11,
                 "status": "Hjá for.",
-                "location": "Ísólfsst.",
+                "location": "Ísólfsstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú frá Ak. til Húsavíkur (17) 1875.",
@@ -2598,7 +2622,35 @@
                 "status": "Hjú",
                 "location": "Árbakka",
                 "note": "frá Svartárkoti",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90019,
+                    "name": "Árbakki",
+                    "lat": "65.958172",
+                    "lng": "-18.192479",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

@@ -362,7 +362,31 @@
                 "location": "Garðshorn",
                 "note": "",
                 "note_ref": null,
-                "year": "1866"
+                "year": "1866",
+                "location_obj": {
+                    "id": 90018,
+                    "name": "Garðshorn",
+                    "lat": "65.821821",
+                    "lng": "-17.559399",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Þönglabakka (33) 1868-1869. (þar: Solveig Steinvör).",
@@ -3402,31 +3426,7 @@
             "birth": {
                 "original_string": "F. 13/11. 1835 í Haga.",
                 "date": "1835-11-13",
-                "location": "Haga",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Haga"
             },
             "death": {
                 "original_string": "",
@@ -3471,31 +3471,7 @@
                 "original_string": "F. 13/11. 1835 í Haga.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Haga",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Haga"
             },
             {
                 "original_string": "Hjá for. í Haga (1 árs) 1837. Með for. frá Reykjavík að Breiðumýri (3) 1838.",
@@ -3505,31 +3481,7 @@
                 "location": "Haga",
                 "note": "frá Reykjavík að Breiðumýri",
                 "note_ref": null,
-                "year": "1837-1838",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1837-1838"
             },
             {
                 "original_string": "Hjá for. á Hólmavaði (5) 1840-1847.",
@@ -4120,7 +4072,7 @@
                 "year_or_period": "1801-1809",
                 "age": 56,
                 "status": "Húsfr.",
-                "location": "Hjalla",
+                "location": "Hjalli",
                 "note": "",
                 "note_ref": null,
                 "year": "1801-1809",

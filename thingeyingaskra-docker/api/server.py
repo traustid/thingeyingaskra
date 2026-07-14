@@ -66,6 +66,12 @@ async def searchPerson(name = None, search = None, location = None, location_id 
 					}
 				},
 				{
+					'person.status': {
+						'$regex': search,
+						'$options': 'i'
+					}
+				},
+				{
 					'residence_history.location': {
 						'$regex': search,
 						'$options': 'i'

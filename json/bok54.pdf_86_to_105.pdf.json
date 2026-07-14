@@ -7,31 +7,7 @@
             "birth": {
                 "original_string": "F. 5/12 1821 í Haga.",
                 "date": "1821-12-05",
-                "location": "Haga",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Haga"
             },
             "death": {
                 "original_string": "D. á Hvarfi 7/6 1885, 64 ára. G.k.",
@@ -112,31 +88,7 @@
                 "original_string": "F. 5/12 1821 í Haga.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Haga",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Haga"
             },
             {
                 "original_string": "Með móður frá Haga að Geitafelli (5) 1826.",
@@ -1230,8 +1182,32 @@
                 "year": "1850",
                 "age": 46,
                 "status": "G. kona",
-                "location": "Bjarnarst. M.",
-                "note": "frá Arnesi að"
+                "location": "Bjarnarstaðir M.",
+                "note": "frá Arnesi að",
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "H. um. á Grenavatni (51) 1855- Húsk. á Bjarnarst. M. 1857.",
@@ -2206,7 +2182,31 @@
                 "age": 9,
                 "status": "Tökub.",
                 "location": "Vöglum",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub. í Fjóshatungu (10) 1856-1857.",
@@ -2837,31 +2837,7 @@
                 "status": "Húsfr.",
                 "location": "Haga",
                 "note": "",
-                "note_ref": 1,
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": 1
             },
             {
                 "original_string": "Húsk. frá Haga að Geitafelli (27) 1826.",
@@ -3620,7 +3596,7 @@
             "birth": {
                 "original_string": "F. á Hjalla, Grýtub.hr. 21/11 1827.",
                 "date": "1827-11-21",
-                "location": "Hjalla",
+                "location": "Hjalli",
                 "location_obj": {
                     "id": 90003,
                     "name": "Hjalli",
@@ -3706,7 +3682,7 @@
                 "original_string": "F. á Hjalla, Grýtub.hr. 21/11 1827.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hjalla",
+                "location": "Hjalli",
                 "location_obj": {
                     "id": 90003,
                     "name": "Hjalli",
@@ -3740,7 +3716,7 @@
                 "original_string": "Hjá for. á Hjalla Grýt. (á 1.) 1827-1837-",
                 "year": "1827-1837",
                 "age": 1,
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "note": "Hjá for. á",
                 "location_obj": {
                     "id": 90003,

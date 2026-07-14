@@ -141,7 +141,31 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "note_ref": null,
-                "year": "1872-1875"
+                "year": "1872-1875",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í S. Neslöndum (14) 1876-1877.",
@@ -718,10 +742,34 @@
                 "year_or_period": "1871",
                 "age": 12,
                 "status": "Með for.",
-                "location": "Einarsst., Þ.hv.",
+                "location": "Einarsstaðir, Þ.hv.",
                 "note": "12 ára",
                 "note_ref": null,
-                "year": "1871"
+                "year": "1871",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með föður á Mýlaugsstöðum (14) 1872.",

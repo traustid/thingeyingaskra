@@ -2065,7 +2065,31 @@
                 "status": "",
                 "location": "Sveinströnd",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Heiðarseli (6) 1871-1872.",
@@ -2837,7 +2861,7 @@
             "birth": {
                 "original_string": "F. 5/2 1845 í Einarsst.sókn.",
                 "date": "1845-02-05",
-                "location": "Einarsst.sókn"
+                "location": "Einarsstaðirsókn"
             },
             "death": {
                 "original_string": "D. 19/1 1933.",
@@ -2894,16 +2918,40 @@
                 "original_string": "F. 5/2 1845 í Einarsst.sókn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Einarsst.sókn"
+                "location": "Einarsstaðirsókn"
             },
             {
                 "original_string": "Með for. frá Daðast. að Bjarnarst. B. (12) 1858-",
                 "year": "1858",
                 "age": 12,
                 "status": "",
-                "location": "Bjarnarst. B.",
+                "location": "Bjarnarstaðir B.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttast í Víðikeri (13) 1859-1860.",
@@ -2943,9 +2991,33 @@
                 "year": "1861-1865",
                 "age": 15,
                 "status": "Hjú",
-                "location": "Bjarnarst. B.",
+                "location": "Bjarnarstaðir B.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Stóruvöllum (21) 1866-68.",

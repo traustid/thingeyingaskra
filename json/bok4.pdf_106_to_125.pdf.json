@@ -1743,7 +1743,31 @@
                 "status": "Léttdr.",
                 "location": "Sveinströnd",
                 "note": "frá Arnstapa",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1833",
@@ -3416,9 +3440,33 @@
                 "year": "1841-1853",
                 "age": 4,
                 "status": "Hjá for.",
-                "location": "Ísólfsst.",
+                "location": "Ísólfsstaðir",
                 "note": "4 ára 1845",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Másárseli (13) 1854-1857.",

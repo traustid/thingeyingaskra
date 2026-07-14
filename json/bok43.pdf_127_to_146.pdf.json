@@ -7,7 +7,7 @@
             "birth": {
                 "original_string": "F. um 1751 á Bakka, Svarf.d.",
                 "date": "1751-00-00",
-                "location": "Bakka, Svarfaðardalur",
+                "location": "Bakki. Svarfaðardalur",
                 "location_obj": {
                     "id": 12361,
                     "name": "Bakki",
@@ -98,7 +98,7 @@
                 "original_string": "F. um 1751 á Bakka, Svarf.d.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Bakka, Svarfaðardalur",
+                "location": "Bakki. Svarfaðardalur",
                 "location_obj": {
                     "id": 12361,
                     "name": "Bakki",
@@ -554,7 +554,31 @@
                 "age": 1.5,
                 "status": "Með móður",
                 "location": "Valadal",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90020,
+                    "name": "Valadalur",
+                    "lat": "66.196139",
+                    "lng": "-17.122519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Valadal (3) 1830-1835.",
@@ -562,7 +586,31 @@
                 "age": 3,
                 "status": "Með móður",
                 "location": "Valadal",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90020,
+                    "name": "Valadalur",
+                    "lat": "66.196139",
+                    "lng": "-17.122519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Ketilsstöðum (11) 1837.",
@@ -1189,31 +1237,7 @@
                 "age": 22,
                 "status": "Vinnust.",
                 "location": "Grenjaðarstöðum",
-                "note": "",
-                "location_obj": {
-                    "id": 16501,
-                    "name": "Grenjaðarstaður",
-                    "lat": "65.8209185748",
-                    "lng": "-17.3502874374",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Húsfr. í Yztahvammi (29) 1833.",
@@ -2560,7 +2584,31 @@
                 "age": 29,
                 "status": "Hjú",
                 "location": "Vöglum",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

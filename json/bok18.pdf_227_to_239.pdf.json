@@ -468,9 +468,33 @@
                 "year_or_period": "1801",
                 "age": 42,
                 "status": "Barnfóstra",
-                "location": "Múla",
+                "location": "Múli",
                 "note": "",
-                "year": "1801"
+                "year": "1801",
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Rauðuskriðu (45 ára) 1802-1816.",
@@ -1426,18 +1450,58 @@
                 "year_or_period": "1889",
                 "age": 41,
                 "status": "G. kona",
-                "location": "Narfast. seli",
+                "location": "Narfastaðasel",
                 "note": "",
-                "year": "1889"
+                "year": "1889",
+                "location_obj": {
+                    "id": 12317,
+                    "name": "Narfastaðasel",
+                    "lat": "65.678616",
+                    "lng": "-17.394441",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á sama bæ (42) 1890-1900-",
                 "year_or_period": "1890-1900",
                 "age": 42,
                 "status": "Húsfr.",
-                "location": "Narfast. seli",
+                "location": "Narfastaðasel",
                 "note": "",
-                "year": "1890-1900"
+                "year": "1890-1900",
+                "location_obj": {
+                    "id": 12317,
+                    "name": "Narfastaðasel",
+                    "lat": "65.678616",
+                    "lng": "-17.394441",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

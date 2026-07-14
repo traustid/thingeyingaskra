@@ -617,15 +617,63 @@
                 "age": 42,
                 "status": "B.",
                 "location": "Garðshorn",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90018,
+                    "name": "Garðshorn",
+                    "lat": "65.821821",
+                    "lng": "-17.559399",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsm. á Krappset B. (48) 1875-79.",
                 "year": "1875-79",
                 "age": 48,
                 "status": "G. húsm.",
-                "location": "Krappset B.",
-                "note": ""
+                "location": "Hrappsstaðir B.",
+                "note": "",
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -846,7 +894,31 @@
                 "age": 17,
                 "status": "Léttingur",
                 "location": "Tungugerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90025,
+                    "name": "Tungugerði",
+                    "lat": "66.109337",
+                    "lng": "-17.262125",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Niðriba (20) 1872.",
@@ -1568,8 +1640,32 @@
                 "year": "1874-1875",
                 "age": 49,
                 "status": "Hjú",
-                "location": "Látrar",
-                "note": ""
+                "location": "Látur",
+                "note": "",
+                "location_obj": {
+                    "id": 16616,
+                    "name": "Látur",
+                    "lat": "66.109679",
+                    "lng": "-18.316458",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

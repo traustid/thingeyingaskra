@@ -819,7 +819,7 @@
                 "year": "1845-1848",
                 "age": 18,
                 "status": "Hjú",
-                "location": "Bakka Fn.",
+                "location": "Bakki Fn.",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -885,7 +885,7 @@
                 "year": "1850",
                 "age": null,
                 "status": "Hjú",
-                "location": "Bakka Fn.",
+                "location": "Bakki Fn.",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -1675,7 +1675,31 @@
                 "status": "G. Húsm.",
                 "location": "Langavatni",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. maður (59) frá Langavatni að Arnarvatni 1855.",
@@ -1847,9 +1871,33 @@
                 "year": "1863-1867",
                 "age": 66,
                 "status": "Hjú",
-                "location": "Bjarnarst. B.",
+                "location": "Bjarnarstaðir B.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Faðir B. á sama bæ (71) 1868-73.",
@@ -2247,7 +2295,7 @@
                 "year": "1882",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Bakka",
+                "location": "Bakki",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -2315,7 +2363,31 @@
                 "status": "Með for.",
                 "location": "Sveinströnd",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub. á Skútustöðum (12) 1888-1893.",
@@ -2491,7 +2563,31 @@
             "birth": {
                 "original_string": "F. 2/2. 1873 á Víðum.",
                 "date": "1873-02-02",
-                "location": "Víðir"
+                "location": "Víðar",
+                "location_obj": {
+                    "id": 14154,
+                    "name": "Víðar",
+                    "lat": "65.6455885758",
+                    "lng": "-17.3089385033",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -2532,7 +2628,31 @@
                 "original_string": "F. 2/2. 1873 á Víðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Víðir"
+                "location": "Víðar",
+                "location_obj": {
+                    "id": 14154,
+                    "name": "Víðar",
+                    "lat": "65.6455885758",
+                    "lng": "-17.3089385033",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Daðastöðum (7) - 1880-",
@@ -3478,16 +3598,64 @@
                 "status": "B.",
                 "location": "Tungugerði",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90025,
+                    "name": "Tungugerði",
+                    "lat": "66.109337",
+                    "lng": "-17.262125",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Ísólfsst. (40 ára) 1856.",
                 "year": "1856",
                 "age": 40,
                 "status": "B.",
-                "location": "Ísólfsst.",
+                "location": "Ísólfsstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsm. á Holi T. ... 1857.",
@@ -3527,9 +3695,33 @@
                 "year": "1874",
                 "age": 64,
                 "status": "Faðir B.",
-                "location": "Ísólfsst.",
+                "location": "Ísólfsstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16632,
+                    "name": "Ísólfsstaðir",
+                    "lat": "66.155948",
+                    "lng": "-17.25694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Sandi (70) 1882.",
@@ -3673,7 +3865,7 @@
                 "year": "1887",
                 "age": 72,
                 "status": "Lausam.",
-                "location": "Bakka T.",
+                "location": "Bakki T.",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {

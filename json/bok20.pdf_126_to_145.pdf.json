@@ -378,7 +378,7 @@
                 "year_or_period": "1880",
                 "age": 11,
                 "status": "",
-                "location": "Hjalla R.",
+                "location": "Hjalli R.",
                 "note": "",
                 "year": "1880",
                 "location_obj": {
@@ -1549,9 +1549,33 @@
                 "year_or_period": "1836-1838",
                 "age": 32,
                 "status": "Hjú",
-                "location": "Múla",
+                "location": "Múli",
                 "note": "með barn",
-                "year": "1836-1838"
+                "year": "1836-1838",
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Vaði ... (1838-1850).",
@@ -1782,7 +1806,7 @@
             "birth": {
                 "original_string": "f. 2/11. 1826 á Hjalla, Grýt.",
                 "date": "1826-11-02",
-                "location": "Hjalla, Grýt.",
+                "location": "Hjalli, Grýt.",
                 "location_obj": {
                     "id": 90003,
                     "name": "Hjalli",
@@ -1868,7 +1892,7 @@
                 "original_string": "f. 2/11. 1826 á Hjalla, Grýt.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hjalla, Grýt.",
+                "location": "Hjalli, Grýt.",
                 "location_obj": {
                     "id": 90003,
                     "name": "Hjalli",
@@ -1903,7 +1927,7 @@
                 "year_or_period": "1827-1837",
                 "age": 2,
                 "status": "",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "note": "",
                 "year": "1827-1837",
                 "location_obj": {
@@ -2419,31 +2443,7 @@
                 "status": "Vinnust.",
                 "location": "Haga",
                 "note": "",
-                "year": "1846",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1846"
             }
         ],
         "notes": {},
@@ -2600,7 +2600,31 @@
                 "status": "G. húsk.",
                 "location": "Laugavatni",
                 "note": "",
-                "year": "1805"
+                "year": "1805",
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1816",
@@ -3458,7 +3482,31 @@
                 "status": "Húsfr.",
                 "location": "Tungugerði",
                 "note": "",
-                "year": "1888-1892"
+                "year": "1888-1892",
+                "location_obj": {
+                    "id": 90025,
+                    "name": "Tungugerði",
+                    "lat": "66.109337",
+                    "lng": "-17.262125",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

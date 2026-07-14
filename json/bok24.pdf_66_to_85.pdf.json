@@ -1587,7 +1587,7 @@
                 "year_or_period": "1832-1838",
                 "age": 35,
                 "status": "Hjú",
-                "location": "Bakka, Fn.",
+                "location": "Bakki. Fn.",
                 "note": "Ráðsk. frá 1834",
                 "year": "1832-1838",
                 "location_obj": {
@@ -2073,7 +2073,31 @@
             "birth": {
                 "original_string": "F. um 1784 á Sveinströnd.",
                 "date": "1784-01-01",
-                "location": "Sveinströnd"
+                "location": "Sveinströnd",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Geiteyjarstr. 11/2 1867, 82 ára.",
@@ -2154,7 +2178,31 @@
                 "original_string": "F. um 1784 á Sveinströnd.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Sveinströnd"
+                "location": "Sveinströnd",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Arnarvatni (17) 1801-1803.",

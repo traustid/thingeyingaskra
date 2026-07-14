@@ -56,7 +56,31 @@
                 "age": 6,
                 "status": "",
                 "location": "Garðshorni",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90018,
+                    "name": "Garðshorn",
+                    "lat": "65.821821",
+                    "lng": "-17.559399",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Nesi Grýt. (27) 1866.",
@@ -477,8 +501,32 @@
                 "year": "1887-88",
                 "age": 1,
                 "status": "Barn",
-                "location": "Einarsst., R. hv.",
-                "note": ""
+                "location": "Einarsstaðir, R. hv.",
+                "note": "",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Ytri-Skál (2) 1889.",
@@ -493,8 +541,32 @@
                 "year": "1890",
                 "age": null,
                 "status": "Barn",
-                "location": "Einarsst., R. hv.",
-                "note": ""
+                "location": "Einarsstaðir, R. hv.",
+                "note": "",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1627,7 +1699,31 @@
                 "age": 2,
                 "status": "Tökudr.",
                 "location": "Tungugerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90025,
+                    "name": "Tungugerði",
+                    "lat": "66.109337",
+                    "lng": "-17.262125",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2232,7 +2328,31 @@
             "birth": {
                 "original_string": "F. á Narfast. 8/12. 1858.-",
                 "date": "1858-12-08",
-                "location": "Narfast."
+                "location": "Narfastaðir",
+                "location_obj": {
+                    "id": 24821,
+                    "name": "Narfastaðir",
+                    "lat": "65.675002686",
+                    "lng": "-17.3511457443",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -2273,15 +2393,63 @@
                 "original_string": "F. á Narfast. 8/12. 1858.-",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Narfast."
+                "location": "Narfastaðir",
+                "location_obj": {
+                    "id": 24821,
+                    "name": "Narfastaðir",
+                    "lat": "65.675002686",
+                    "lng": "-17.3511457443",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Narfast. (á 1.) 1858-",
                 "year": "1858-",
                 "age": 1,
                 "status": "Barn",
-                "location": "Narfast.",
-                "note": ""
+                "location": "Narfastaðir",
+                "note": "",
+                "location_obj": {
+                    "id": 24821,
+                    "name": "Narfastaðir",
+                    "lat": "65.675002686",
+                    "lng": "-17.3511457443",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá móður og stj. í Mjóadal (15) 1874-78-",
@@ -2499,7 +2667,31 @@
                 "age": 4,
                 "status": "Barn",
                 "location": "Langavatni",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2574,7 +2766,35 @@
                 "age": 1,
                 "status": "Barn",
                 "location": "Árbakka",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90019,
+                    "name": "Árbakki",
+                    "lat": "65.958172",
+                    "lng": "-18.192479",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Árbakka . . . 1888-1895.",
@@ -2582,7 +2802,35 @@
                 "age": null,
                 "status": "Barn",
                 "location": "Árbakka",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90019,
+                    "name": "Árbakki",
+                    "lat": "65.958172",
+                    "lng": "-18.192479",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Héðinshöfða (15 ára) 1897.",
@@ -3100,8 +3348,32 @@
                 "year": "1900-",
                 "age": 8,
                 "status": "Barn",
-                "location": "Bjarnarst. M.",
-                "note": ""
+                "location": "Bjarnarstaðir M.",
+                "note": "",
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

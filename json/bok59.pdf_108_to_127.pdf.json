@@ -1123,8 +1123,32 @@
                 "year": "1801",
                 "age": 2,
                 "status": "Með móður",
-                "location": "Múla",
-                "note": ""
+                "location": "Múli",
+                "note": "",
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá móður og stj. í Ytrahvammi (6) 1804 - 1806.",
@@ -1204,7 +1228,31 @@
                 "age": 18,
                 "status": "Hjú",
                 "location": "Langavatni",
-                "note": "frá Fagraneskoti"
+                "note": "frá Fagraneskoti",
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú frá Klömbrum að Ormalóni 1820.",
@@ -1480,7 +1528,31 @@
                 "age": 22,
                 "status": "Hjú",
                 "location": "Brettingsstaðir Fl.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 1002583,
+                    "name": "Brettingsstaðir",
+                    "lat": "66.118751",
+                    "lng": "-17.913197",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Kaðalsstöðum (25) 1843-1845. (G.'44).",
@@ -3147,7 +3219,31 @@
                 "age": 27,
                 "status": "Hjú",
                 "location": "Vöglum",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3869,7 +3965,27 @@
             "birth": {
                 "original_string": "F. 12/2. 1854 í Narfast.seli.",
                 "date": "1854-02-12",
-                "location": "Narfast.seli"
+                "location": "Narfastaðasel",
+                "location_obj": {
+                    "id": 12317,
+                    "name": "Narfastaðasel",
+                    "lat": "65.678616",
+                    "lng": "-17.394441",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -3910,15 +4026,55 @@
                 "original_string": "F. 12/2. 1854 í Narfast.seli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Narfast.seli"
+                "location": "Narfastaðasel",
+                "location_obj": {
+                    "id": 12317,
+                    "name": "Narfastaðasel",
+                    "lat": "65.678616",
+                    "lng": "-17.394441",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Narfast.seli (á 1.) 1854-",
                 "year": "1854",
                 "age": 1,
                 "status": "Með for.",
-                "location": "Narfast.seli",
-                "note": ""
+                "location": "Narfastaðasel",
+                "note": "",
+                "location_obj": {
+                    "id": 12317,
+                    "name": "Narfastaðasel",
+                    "lat": "65.678616",
+                    "lng": "-17.394441",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Frá for. að Þórisst. Svalb. str. (11) 1865-",

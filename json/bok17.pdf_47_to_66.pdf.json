@@ -590,7 +590,35 @@
                 "age": 28,
                 "status": "G. hjú",
                 "location": "Árbakki",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90019,
+                    "name": "Árbakki",
+                    "lat": "65.958172",
+                    "lng": "-18.192479",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú á Granavatni... 1848-",
@@ -1087,8 +1115,8 @@
     },
     {
         "person": {
-            "name": "Guðmundur Jónsson (summslaukur)",
-            "status": "summslaukur",
+            "name": "Guðmundur Jónsson",
+            "status": "sunnlenskur",
             "unmarried": false,
             "birth": {
                 "original_string": "F um 1862",
@@ -1102,11 +1130,10 @@
             },
             "names": [
                 "Guðmundur",
-                "Jónsson",
-                "(summslaukur)"
+                "Jónsson"
             ],
             "firstName": "Guðmundur",
-            "lastName": "(summslaukur)"
+            "lastName": "Jónsson"
         },
         "spouse": [
             {
@@ -1148,9 +1175,33 @@
                 "original_string": "Hjú á Bjarnarst. B. (24) 1887.",
                 "year": "1887",
                 "age": 24,
-                "location": "Bjarnarst. B.",
+                "location": "Bjarnarstaðir B.",
                 "status": "Hjú",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Granavatni (26) 1888-1889.",

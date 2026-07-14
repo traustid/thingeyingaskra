@@ -219,7 +219,7 @@
                 "year": "1830-1833",
                 "age": 12,
                 "status": "Með móður",
-                "location": "Bakka, J.",
+                "location": "Bakki. J.",
                 "note": "",
                 "location_obj": {
                     "id": 12361,
@@ -1100,8 +1100,32 @@
                 "year": "1870",
                 "age": 3,
                 "status": "Með for.",
-                "location": "Bjarnarst. B.",
-                "note": ""
+                "location": "Bjarnarstaðir B.",
+                "note": "",
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1302,7 +1326,7 @@
                 "year": "1886",
                 "age": 10,
                 "status": "Tökup.",
-                "location": "Bakka, Þ.",
+                "location": "Bakki. Þ.",
                 "note": "",
                 "location_obj": {
                     "id": 12361,
@@ -2863,7 +2887,31 @@
             "birth": {
                 "original_string": "F. 8/7. 1831 á Einarsst.",
                 "date": "1831-07-08",
-                "location": "Einarsst."
+                "location": "Einarsstaðir",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2920,7 +2968,31 @@
                 "original_string": "F. 8/7. 1831 á Einarsst.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Einarsst."
+                "location": "Einarsstaðir",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Einarsstöðum (á 1.) 1831-",

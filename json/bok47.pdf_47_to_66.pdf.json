@@ -159,16 +159,40 @@
                 "year": "1898-1899",
                 "age": 11,
                 "status": "Léttast.",
-                "location": "Jarðst. Grýt.",
+                "location": "Jarlsstaðir Grýt.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1004895,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.950327",
+                    "lng": "-18.156724",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttast. á Hjalla Grýt. (13) 1900.",
                 "year": "1900",
                 "age": 13,
                 "status": "Léttast.",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -2818,7 +2842,7 @@
                 "year": "1857-1879",
                 "age": 5,
                 "status": "Fósturb., síðan hjú",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {

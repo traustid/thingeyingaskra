@@ -602,7 +602,7 @@
                 "year": "1898",
                 "age": 38,
                 "status": "Húsk.",
-                "location": "Hjalla, Grýt.",
+                "location": "Hjalli, Grýt.",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -893,7 +893,31 @@
                 "status": "Með for.",
                 "location": "Langavatni",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Arnesi (17 ára) 1884-1885.",
@@ -2849,9 +2873,33 @@
                 "year": "1883-1892",
                 "age": 10,
                 "status": "Hjá for.",
-                "location": "Bjarnarst. M.",
+                "location": "Bjarnarstaðir M.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for (og bróður) á Grímsstöðum (20) 1893-1899.",

@@ -149,7 +149,31 @@
                 "age": 11,
                 "status": "Niðurs.",
                 "location": "Langavatni",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttast á Langavatni... 1888-1888",
@@ -157,15 +181,63 @@
                 "age": null,
                 "status": "Léttast",
                 "location": "Langavatni",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Múla... 1890.",
                 "year": "1890",
                 "age": null,
                 "status": "Hjú",
-                "location": "Múla",
-                "note": ""
+                "location": "Múli",
+                "note": "",
+                "location_obj": {
+                    "id": 24789,
+                    "name": "Múli",
+                    "lat": "65.820546",
+                    "lng": "-17.369374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Þverá R. (24) 1892-1893.",
@@ -1301,8 +1373,28 @@
                 "year": "1889-1900",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Narfast. seli",
-                "note": ""
+                "location": "Narfastaðasel",
+                "note": "",
+                "location_obj": {
+                    "id": 12317,
+                    "name": "Narfastaðasel",
+                    "lat": "65.678616",
+                    "lng": "-17.394441",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1492,7 +1584,31 @@
                 "age": 24,
                 "status": "G. húsk.",
                 "location": "Sveinströnd",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Lundarbrekku (24) 1879-1892.",
@@ -1932,31 +2048,7 @@
                 "age": 1,
                 "status": "Með móður",
                 "location": "Haga",
-                "note": "",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Með móður í Kaldbak (8 ára) 1873.",
@@ -1996,31 +2088,7 @@
                 "age": 10,
                 "status": "Með móður",
                 "location": "Haga",
-                "note": "",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú á Ytrafjalli (17) 1880-1881.",
@@ -2092,31 +2160,7 @@
                 "age": null,
                 "status": "Með móður",
                 "location": "Haga",
-                "note": "",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Með móður í Haga . . . 1889-1892.",
@@ -2124,31 +2168,7 @@
                 "age": null,
                 "status": "Með móður",
                 "location": "Haga",
-                "note": "",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú á Grenjaðarst. (29) 1893-1897.",
@@ -3370,7 +3390,31 @@
             "birth": {
                 "original_string": "F. 17/7 1896 á Brettingsst. Fl.",
                 "date": "1896-07-17",
-                "location": "Brettingsstaðir Fl."
+                "location": "Brettingsstaðir Fl.",
+                "location_obj": {
+                    "id": 1002583,
+                    "name": "Brettingsstaðir",
+                    "lat": "66.118751",
+                    "lng": "-17.913197",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -3423,7 +3467,31 @@
                 "original_string": "F. 17/7 1896 á Brettingsst. Fl.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Brettingsstaðir Fl."
+                "location": "Brettingsstaðir Fl.",
+                "location_obj": {
+                    "id": 1002583,
+                    "name": "Brettingsstaðir",
+                    "lat": "66.118751",
+                    "lng": "-17.913197",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Brettingsst. Fl. (á 1.) 1896-1900-",
@@ -3431,7 +3499,31 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Brettingsstaðir Fl.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 1002583,
+                    "name": "Brettingsstaðir",
+                    "lat": "66.118751",
+                    "lng": "-17.913197",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

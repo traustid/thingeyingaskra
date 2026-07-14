@@ -1621,7 +1621,31 @@
                 "status": "Bústýra",
                 "location": "Kvígindisdalur",
                 "note": "hjá syni",
-                "year": "1880-"
+                "year": "1880-",
+                "location_obj": {
+                    "id": 90022,
+                    "name": "kvígindisdalur",
+                    "lat": "65.719917",
+                    "lng": "-17.431864",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2315,12 +2339,60 @@
             "birth": {
                 "original_string": "F. 5/10. 1830 á Lónatjörn.",
                 "date": "1830-10-05",
-                "location": "Lónatjörn"
+                "location": "Lómatjörn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Brekku 11/2. 1886. G. kona, 54 ára.",
                 "date": "1886-02-11",
-                "location": "Brekka"
+                "location": "Brekka",
+                "location_obj": {
+                    "id": 90026,
+                    "name": "Brekka",
+                    "lat": "65.839003",
+                    "lng": "-17.334747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Margrét",
@@ -2372,16 +2444,64 @@
                 "original_string": "F. 5/10. 1830 á Lónatjörn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Lónatjörn"
+                "location": "Lómatjörn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Lónatjörn (1/2 árs) 1831-1833.",
                 "year_or_period": "1831-1833",
                 "age": 0.5,
                 "status": "Með for.",
-                "location": "Lónatjörn",
+                "location": "Lómatjörn",
                 "note": "",
-                "year": "1831-1833"
+                "year": "1831-1833",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Kussungsstöðum (6) - 1836-1853.",
@@ -2496,7 +2616,31 @@
                 "original_string": "D. á Brekku 11/2. 1886. G. kona, 54 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Brekka"
+                "location": "Brekka",
+                "location_obj": {
+                    "id": 90026,
+                    "name": "Brekka",
+                    "lat": "65.839003",
+                    "lng": "-17.334747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

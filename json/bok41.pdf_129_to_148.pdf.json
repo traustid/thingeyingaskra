@@ -12,7 +12,7 @@
             "death": {
                 "original_string": "D. á Bakka F. 3/9. 1805, 83 ára. 1)",
                 "date": "1805-09-03",
-                "location": "Bakka, F.",
+                "location": "Bakki. F.",
                 "note_ref": 1,
                 "location_obj": {
                     "id": 12361,
@@ -117,7 +117,7 @@
                 "year": "1805-",
                 "age": 83,
                 "status": "Faðir B.",
-                "location": "Bakka, Fn.",
+                "location": "Bakki. Fn.",
                 "note": "",
                 "location_obj": {
                     "id": 12361,
@@ -149,7 +149,7 @@
                 "original_string": "D. á Bakka F. 3/9. 1805, 83 ára. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Bakka, F.",
+                "location": "Bakki. F.",
                 "location_obj": {
                     "id": 12361,
                     "name": "Bakki",
@@ -1006,7 +1006,31 @@
                 "age": 66,
                 "status": "Hjú",
                 "location": "Vöglum",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Birningsst. Fr. (67) 1850.",
@@ -1353,7 +1377,31 @@
                 "age": 9.5,
                 "status": "Niðurs.",
                 "location": "Sveinströnd",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. á Gautlöndum (10 1/2) 1805.",
@@ -1876,31 +1924,7 @@
                 "age": 55,
                 "status": "G. hjú",
                 "location": "Haga",
-                "note": "",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "G. hjú í Árbót (59) 1890-1892.",
@@ -3202,16 +3226,56 @@
                 "year": "1889",
                 "age": 30,
                 "status": "G. hjá for.",
-                "location": "Narfast. seli",
-                "note": ""
+                "location": "Narfastaðasel",
+                "note": "",
+                "location_obj": {
+                    "id": 12317,
+                    "name": "Narfastaðasel",
+                    "lat": "65.678616",
+                    "lng": "-17.394441",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á sama bæ (31) 1890-1900-",
                 "year": "1890-1900",
                 "age": 31,
                 "status": "B.",
-                "location": "Narfast. seli",
-                "note": ""
+                "location": "Narfastaðasel",
+                "note": "",
+                "location_obj": {
+                    "id": 12317,
+                    "name": "Narfastaðasel",
+                    "lat": "65.678616",
+                    "lng": "-17.394441",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -4149,31 +4213,7 @@
                 "status": "Niðurs.",
                 "location": "Haga",
                 "note": "",
-                "note_ref": 2,
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": 2
             }
         ],
         "notes": {

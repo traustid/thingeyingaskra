@@ -103,25 +103,20 @@
             "birth": {
                 "original_string": "F. 1799 á Langavatni",
                 "date": "1799",
-                "location": "Langavatni"
-            },
-            "death": {
-                "original_string": "D. í Haga 1879.",
-                "date": "1879",
-                "location": "Haga",
+                "location": "Langavatni",
                 "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Aðaldalur",
-                            "id": 16498
+                            "name": "Reykjahverfi",
+                            "id": 1001642
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -133,6 +128,11 @@
                         }
                     ]
                 }
+            },
+            "death": {
+                "original_string": "D. í Haga 1879.",
+                "date": "1879",
+                "location": "Haga"
             },
             "names": [
                 "Sigríður",
@@ -195,7 +195,31 @@
                 "original_string": "F. 1799 á Langavatni",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Langavatni"
+                "location": "Langavatni",
+                "location_obj": {
+                    "id": 90023,
+                    "name": "Langavatn",
+                    "lat": "65.835948",
+                    "lng": "-17.274778",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Hjaltahúsum (3 ára) 1801-1803.",
@@ -557,31 +581,7 @@
                 "status": "G. húsk.",
                 "location": "Haga",
                 "note": "",
-                "year": "1866-1871",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1866-1871"
             },
             {
                 "original_string": "G. húsk. í Kaldbak (74 ára) 1873.",
@@ -623,62 +623,14 @@
                 "status": "Tökukerling",
                 "location": "Haga",
                 "note": "",
-                "year": "1873-1878",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1873-1878"
             },
             {
                 "year": "1879",
                 "original_string": "D. í Haga 1879.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Haga",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Haga"
             }
         ],
         "notes": {},
@@ -1374,7 +1326,31 @@
             "birth": {
                 "original_string": "F. um 1742 á Nípá.",
                 "date": "1742",
-                "location": "Nípá"
+                "location": "Nípá",
+                "location_obj": {
+                    "id": 12261,
+                    "name": "Nípá",
+                    "lat": "65.938495",
+                    "lng": "-17.585653",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 13/10 1821, 70 ára? 1)",
@@ -1398,7 +1374,31 @@
                 "original_string": "F. um 1742 á Nípá.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Nípá"
+                "location": "Nípá",
+                "location_obj": {
+                    "id": 12261,
+                    "name": "Nípá",
+                    "lat": "65.938495",
+                    "lng": "-17.585653",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. á E.-Dálksstöðum (59) 1801.",
@@ -3160,9 +3160,33 @@
                 "year_or_period": "1819-",
                 "age": 77,
                 "status": "Innskrifuð",
-                "location": "Einarsst. sókn",
+                "location": "Einarsstaðir sókn",
                 "note": "",
-                "year": "1819-"
+                "year": "1819-",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

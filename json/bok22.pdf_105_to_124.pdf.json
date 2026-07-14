@@ -761,7 +761,31 @@
                 "location": "Kvigindisdalur",
                 "note": "",
                 "note_ref": null,
-                "year": "1801"
+                "year": "1801",
+                "location_obj": {
+                    "id": 90022,
+                    "name": "kvígindisdalur",
+                    "lat": "65.719917",
+                    "lng": "-17.431864",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2278,10 +2302,34 @@
                 "year_or_period": "1861-1862",
                 "age": 58,
                 "status": "Hjú",
-                "location": "Lónatjörn",
+                "location": "Lómatjörn",
                 "note": "",
                 "note_ref": 1,
-                "year": "1861-1862"
+                "year": "1861-1862",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Svínarnesi (63) 1863-1865.",

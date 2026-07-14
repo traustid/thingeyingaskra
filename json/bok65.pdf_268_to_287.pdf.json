@@ -722,7 +722,31 @@
                 "status": "Húsfr.",
                 "location": "Garðshorni",
                 "note": "",
-                "note_ref": 2
+                "note_ref": 2,
+                "location_obj": {
+                    "id": 90018,
+                    "name": "Garðshorn",
+                    "lat": "65.821821",
+                    "lng": "-17.559399",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Veizluk. á Veturlidastöðum (80) 1834-1841.",
@@ -1526,12 +1550,36 @@
             "birth": {
                 "original_string": "F. um 1767. á Lónatjörn.",
                 "date": "1767-00-00",
-                "location": "Lónatjörn"
+                "location": "Lómatjörn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Steindyrum 3/7. 1841.",
                 "date": "1841-07-03",
-                "location": "Steindyrum",
+                "location": "Steindyr",
                 "location_obj": {
                     "id": 16615,
                     "name": "Steindyr",
@@ -1594,7 +1642,31 @@
                 "original_string": "F. um 1767. á Lónatjörn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Lónatjörn"
+                "location": "Lómatjörn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá móður á Vegeirsstöðum (35) 1801-1802.",
@@ -1666,7 +1738,31 @@
                 "age": 55,
                 "status": "Hjú",
                 "location": "Brekku Fj.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90026,
+                    "name": "Brekka",
+                    "lat": "65.839003",
+                    "lng": "-17.334747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Finnastöðum (71) 1837-1840.",
@@ -1705,7 +1801,7 @@
                 "original_string": "D. á Steindyrum 3/7. 1841.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Steindyrum",
+                "location": "Steindyr",
                 "location_obj": {
                     "id": 16615,
                     "name": "Steindyr",
@@ -1791,7 +1887,7 @@
                 "year": "1801-1827",
                 "age": 31,
                 "status": "Húsfr.",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "note": "",
                 "location_obj": {
                     "id": 90003,
@@ -2573,7 +2669,7 @@
             "birth": {
                 "original_string": "F. 12/4 1803 á Hjalla, Grýt.",
                 "date": "1803-04-12",
-                "location": "Hjalla, Grýt",
+                "location": "Hjalli, Grýt",
                 "location_obj": {
                     "id": 90003,
                     "name": "Hjalli",
@@ -2646,7 +2742,7 @@
                 "original_string": "F. 12/4 1803 á Hjalla, Grýt.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hjalla, Grýt",
+                "location": "Hjalli, Grýt",
                 "location_obj": {
                     "id": 90003,
                     "name": "Hjalli",
@@ -2681,7 +2777,7 @@
                 "year": "1806-",
                 "age": 5,
                 "status": "Hjá for.",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "note": "",
                 "location_obj": {
                     "id": 90003,
@@ -2925,7 +3021,31 @@
                 "age": 6,
                 "status": "Hjá for.",
                 "location": "Brekku Fj.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90026,
+                    "name": "Brekka",
+                    "lat": "65.839003",
+                    "lng": "-17.334747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

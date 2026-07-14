@@ -1226,7 +1226,31 @@
                 "location": "Garðshorn",
                 "note": "",
                 "note_ref": null,
-                "year": "1812"
+                "year": "1812",
+                "location_obj": {
+                    "id": 90018,
+                    "name": "Garðshorn",
+                    "lat": "65.821821",
+                    "lng": "-17.559399",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Til húsa á Vatnsenda ... 1815-",
@@ -3512,10 +3536,34 @@
                 "year_or_period": "1886",
                 "age": 22,
                 "status": "Hjú",
-                "location": "Látrar",
+                "location": "Látur",
                 "note": "",
                 "note_ref": null,
-                "year": "1886"
+                "year": "1886",
+                "location_obj": {
+                    "id": 16616,
+                    "name": "Látur",
+                    "lat": "66.109679",
+                    "lng": "-18.316458",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

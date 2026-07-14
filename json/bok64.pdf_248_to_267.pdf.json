@@ -776,7 +776,31 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Valadalur",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90020,
+                    "name": "Valadalur",
+                    "lat": "66.196139",
+                    "lng": "-17.122519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Ytritungu (3 ára) 1839-1845.",
@@ -915,8 +939,32 @@
                 "year": "1896",
                 "age": 53,
                 "status": "Hjú",
-                "location": "Látrar",
-                "note": ""
+                "location": "Látur",
+                "note": "",
+                "location_obj": {
+                    "id": 16616,
+                    "name": "Látur",
+                    "lat": "66.109679",
+                    "lng": "-18.316458",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

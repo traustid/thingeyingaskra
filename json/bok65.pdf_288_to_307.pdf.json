@@ -560,7 +560,7 @@
                 "year_or_period": "1875-1877",
                 "age": 42,
                 "status": "Hjú",
-                "location": "Hjalla Grýt.",
+                "location": "Hjalli Grýt.",
                 "note": "",
                 "year": "1875-1877",
                 "location_obj": {
@@ -990,9 +990,33 @@
                 "year_or_period": "1874",
                 "age": 33,
                 "status": "Hjú",
-                "location": "Bjarnarst. B.",
+                "location": "Bjarnarstaðir B.",
                 "note": "",
-                "year": "1874"
+                "year": "1874",
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2045,7 +2069,31 @@
             "birth": {
                 "original_string": "F. 12/2 1858 á Lónatjörn.",
                 "date": "1858-02-12",
-                "location": "Lónatjörn"
+                "location": "Lómatjörn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2090,16 +2138,64 @@
                 "original_string": "F. 12/2 1858 á Lónatjörn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Lónatjörn"
+                "location": "Lómatjörn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Lónatjörn (á 1.) 1858-1862.",
                 "year_or_period": "1858-1862",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Lónatjörn",
+                "location": "Lómatjörn",
                 "note": "",
-                "year": "1858-1862"
+                "year": "1858-1862",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Fagraba (5) 1863-1877.",
@@ -2881,7 +2977,7 @@
             "death": {
                 "original_string": "D. á Steindyrum 7/8. 1821.",
                 "date": "1821-08-07",
-                "location": "Steindyrum",
+                "location": "Steindyr",
                 "location_obj": {
                     "id": 16615,
                     "name": "Steindyr",
@@ -2988,7 +3084,7 @@
                 "year_or_period": "1801-1816",
                 "age": 41,
                 "status": "Húsfr.",
-                "location": "Steindyrum",
+                "location": "Steindyr",
                 "note": "",
                 "year": "1801-1816",
                 "location_obj": {
@@ -3021,7 +3117,7 @@
                 "original_string": "D. á Steindyrum 7/8. 1821.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Steindyrum",
+                "location": "Steindyr",
                 "location_obj": {
                     "id": 16615,
                     "name": "Steindyr",

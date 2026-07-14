@@ -1731,7 +1731,31 @@
                 "age": 9,
                 "status": "",
                 "location": "Sveinstönd",
-                "note": "frá Fjósakoti, Eyjaf."
+                "note": "frá Fjósakoti, Eyjaf.",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttast. á Grímsstöðum (14) 1870–1872.",

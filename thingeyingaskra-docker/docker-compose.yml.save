@@ -8,7 +8,7 @@ services:
     ports:
       - "27017:27017" # Exposes MongoDB to your host machine for external importing
     volumes:
-      - ./mongo_data:/data/db
+      - mongo_data:/data/db
     networks:
       - app-network
 
@@ -28,17 +28,19 @@ services:
 
   # 3. UI Layer
   frontend:
-    build: ./frontend
+   build: ./frontend
     container_name: react_container
     ports:
       - "3016:80" # Maps port 80 inside Nginx to http://localhost:3000 on your machine
     depends_on:
+ls
+
       - backend
     networks:
       - app-network
 
-#volumes:
-#  mongo_data:
+volumes:
+  mongo_data:
 
 networks:
   app-network:

@@ -573,10 +573,34 @@
                 "year_or_period": "1864-1865",
                 "age": 62,
                 "status": "",
-                "location": "Einarsst. seli",
+                "location": "Einarsstaðir seli",
                 "note": "Með syni",
                 "note_ref": null,
-                "year": "1864-1865"
+                "year": "1864-1865",
+                "location_obj": {
+                    "id": 16546,
+                    "name": "Einarsstaðir",
+                    "lat": "65.7403968563",
+                    "lng": "-17.4074292183",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. þaðan að Fossvelli (63) 1865-",
@@ -1989,7 +2013,31 @@
                 "location": "Ási norður",
                 "note": "frá Geirastöðum",
                 "note_ref": null,
-                "year": "1828-"
+                "year": "1828-",
+                "location_obj": {
+                    "id": 14317,
+                    "name": "Ás",
+                    "lat": "66.022794",
+                    "lng": "-16.473363",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kelduhverfi",
+                            "id": 24585
+                        },
+                        {
+                            "name": "Norður-Þingeyjarsýsla",
+                            "id": 16841
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -3010,24 +3058,20 @@
             "birth": {
                 "original_string": "F. 2/11. 1789 á Hjalla Þ.",
                 "date": "1789-11-02",
-                "location": "Hjalli Þ.",
+                "location": "Hjalli R.",
                 "location_obj": {
-                    "id": 90003,
+                    "id": 90004,
                     "name": "Hjalli",
-                    "lat": "65.969928",
-                    "lng": "-18.211361",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Reykjadalur",
+                            "id": 16405
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3083,24 +3127,20 @@
                 "original_string": "F. 2/11. 1789 á Hjalla Þ.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hjalli Þ.",
+                "location": "Hjalli R.",
                 "location_obj": {
-                    "id": 90003,
+                    "id": 90004,
                     "name": "Hjalli",
-                    "lat": "65.969928",
-                    "lng": "-18.211361",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Reykjadalur",
+                            "id": 16405
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
