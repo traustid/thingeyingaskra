@@ -719,7 +719,31 @@
             "birth": {
                 "original_string": "F. 2/10. 1898 í Sundi.",
                 "date": "1898-10-02",
-                "location": "Sundi"
+                "location": "Lundur",
+                "location_obj": {
+                    "id": 24743,
+                    "name": "Lundur",
+                    "lat": "65.690189",
+                    "lng": "-17.870023",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -764,15 +788,63 @@
                 "original_string": "F. 2/10. 1898 í Sundi.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Sundi"
+                "location": "Lundur",
+                "location_obj": {
+                    "id": 24743,
+                    "name": "Lundur",
+                    "lat": "65.690189",
+                    "lng": "-17.870023",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Sundi (á 1.) 1898.",
                 "year": "1898",
                 "age": 1,
                 "status": "",
-                "location": "Sundi",
-                "note": "Hjá for."
+                "location": "Lundur",
+                "note": "Hjá for.",
+                "location_obj": {
+                    "id": 24743,
+                    "name": "Lundur",
+                    "lat": "65.690189",
+                    "lng": "-17.870023",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

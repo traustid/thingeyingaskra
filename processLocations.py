@@ -1,4 +1,4 @@
-import os, json, re, traceback
+import os, json, re, traceback, sys
 from difflib import SequenceMatcher
 from icelandic_mcp.server import lookup_word, get_variant, get_lemma
 
@@ -87,6 +87,11 @@ def findPlace(placeItem):
 	global locationCounter
 	global matchCounter
 	global notFound
+
+	if len(sys.argv[1:]) and sys.argv[1] not in placeItem['location']:
+		return;
+	elif len(sys.argv[1:]) and sys.argv[1] in placeItem['location']:
+		print('Leita að "'+sys.argv[1]+'"')		
 
 	if 'location_obj' in placeItem:
 		placeItem['location_obj'] = None
