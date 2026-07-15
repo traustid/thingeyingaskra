@@ -2,6 +2,7 @@ import { Link, NavLink, useParams } from "react-router";
 import type { Route } from "./+types/home";
 import { useEffect, useState } from "react";
 import PersonLink from "../components/PersonLink";
+import _ from 'underscore';
 
 import config from '../config.js';
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
@@ -52,19 +53,21 @@ export default function Search() {
 				</div>
 
 				{
-					data.places && data.places.length > 0 && <Panel>
+					data.places && _.filter(data.places, i => i.lat && i.lng).length > 0 && <Panel>
 						<MapContainer className="h-[300px]" center={[65.9, -17]} zoom={8} scrollWheelZoom={false}>
 							<TileLayer
 								attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 								url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 							/>
 							{
-								data.places.map((item, index) => <Marker key={index} position={[item.lat, item.lng]} title={item.name}>
-									<Popup>
-										<div className="text-lg pb-2">{item.name}</div>
-										<Link to={'/stadir/'+item.id}>Nánar</Link>
-									</Popup>
-								</Marker>)
+								_.filter(data.places, i => i.lat && i.lng).map((item, index) => {
+									return <Marker key={index} position={[item.lat, item.lng]} title={item.name}>
+										<Popup>
+											<div className="text-lg pb-2">{item.name}</div>
+											<Link to={'/stadir/'+item.id}>Nánar</Link>
+										</Popup>
+									</Marker>
+								})
 							}
 						</MapContainer>
 					</Panel>
