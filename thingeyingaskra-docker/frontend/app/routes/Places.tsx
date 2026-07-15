@@ -74,7 +74,7 @@ export default function Places() {
 	return <div>
 		{
 			selectedPlace && <div className="pb-6 px-6 md:px-0 border-b border-gray-300">
-				<Link to={'/stadir/'} className="underline mb-4 block">&larr; Sjá alla staði</Link>
+				<Link to={'/stadir/'} className="mb-4 block"><span className="text-xl mr-2">&lsaquo;</span> <span className="underline">Sjá alla staði</span></Link>
 				<h1 className="text-3xl">{selectedPlace.name}</h1>
 				<div>{selectedPlace.parent[0].name}</div>
 			</div>
