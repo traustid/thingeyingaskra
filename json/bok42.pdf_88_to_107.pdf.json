@@ -2099,9 +2099,33 @@
                 "year": "1870-1871",
                 "age": 48,
                 "status": "B.",
-                "location": "Ytri Leikskálaá",
+                "location": "Ytri-Leikskálaá",
                 "note": "Hrb.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Geirbjarnarst (...) 1871-72 (Hrb.).",
