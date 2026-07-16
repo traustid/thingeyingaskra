@@ -3557,9 +3557,33 @@
             "status": "á Brettingsst. Fl.",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 9/10. 1863 á Leikskálum syðri.",
+                "original_string": "F. 9/10. 1863 á Leikskálaá syðri.",
                 "date": "1863-10-09",
-                "location": "Leikskálum syðri"
+                "location": "Syðri-Leikskálaá",
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3615,17 +3639,41 @@
         "residence_history": [
             {
                 "year": "1863",
-                "original_string": "F. 9/10. 1863 á Leikskálum syðri.",
+                "original_string": "F. 9/10. 1863 á Leikskálaá syðri.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Leikskálum syðri"
+                "location": "Syðri-Leikskálaá",
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. á S. Leikskálum (1 árs) 1863-67.",
+                "original_string": "Hjá for. á Syðri-Leikskálaá (1 árs) 1863-67.",
                 "year": "1863-1867",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Syðri-Leikskálum",
+                "location": "Syðri-Leikskálaá",
                 "note": "árs",
                 "location_obj": {
                     "id": 25662,

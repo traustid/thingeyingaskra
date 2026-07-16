@@ -689,14 +689,38 @@
                 "location": "Hótkoti"
             },
             {
-                "original_string": "B. á Leikskálum (ytri) (36) 1801-1808. (Hrb.)",
+                "original_string": "B. á Leikskálaá (ytri) (36) 1801-1808. (Hrb.)",
                 "year_or_period": "1801-1808",
                 "age": 36,
                 "status": "B.",
-                "location": "Leikskálum, ytri",
+                "location": "Ytri-Leikskálaá",
                 "note": "Hrb.",
                 "note_ref": 2,
-                "year": "1801-1808"
+                "year": "1801-1808",
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Ketilsstöðum 1808-35. (46 ára 1813)",

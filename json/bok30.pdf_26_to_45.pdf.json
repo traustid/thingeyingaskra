@@ -2246,9 +2246,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 21/4 1868 á Leikskálá.",
+                "original_string": "F. 21/4 1868 á Leikskálaá.",
                 "date": "1868-04-21",
-                "location": "Leikskálá"
+                "location": "Leikskálaá"
             },
             "death": {
                 "original_string": "D. í Árbót 1958. 7/8",
@@ -2326,19 +2326,43 @@
         "residence_history": [
             {
                 "year": "1868",
-                "original_string": "F. 21/4 1868 á Leikskálá.",
+                "original_string": "F. 21/4 1868 á Leikskálaá.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Leikskálá"
+                "location": "Leikskálaá"
             },
             {
-                "original_string": "Hjá for. á S. Leikskálá (1 árs) 1869-70.",
+                "original_string": "Hjá for. á Syðri-Leikskálaá (1 árs) 1869-70.",
                 "year_or_period": "1869-70",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "S. Leikskálá",
+                "location": "Syðri-Leikskálaá",
                 "note": "",
-                "year": "1869-70"
+                "year": "1869-70",
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hellnaseli (3) 1870-1877.",

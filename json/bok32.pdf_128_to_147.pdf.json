@@ -2705,13 +2705,37 @@
                 "note_ref": 1
             },
             {
-                "original_string": "Húsfr. á Y. Leikskálá (49) 1849-59.",
+                "original_string": "Húsfr. á Ytri-Leikskálaá (49) 1849-59.",
                 "year": "1849-1859",
                 "age": 49,
                 "status": "Húsfr.",
-                "location": "Y. Leikskálá",
+                "location": "Ytri-Leikskálaá",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1862",

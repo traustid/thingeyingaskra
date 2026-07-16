@@ -2758,12 +2758,36 @@
                 }
             },
             {
-                "original_string": "Húsfr. á Y.-Leikskálum ... 1808-1815- 2)",
+                "original_string": "Húsfr. á Ytri-Leikskálaá ... 1808-1815- 2)",
                 "year": "1808-1815",
                 "age": null,
                 "status": "Húsfrú",
-                "location": "Y.-Leikskálar",
-                "note_ref": 2
+                "location": "Ytri-Leikskálaá",
+                "note_ref": 2,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

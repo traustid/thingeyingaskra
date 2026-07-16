@@ -352,13 +352,37 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Y.-Leikskálum (19) 1844 (suo).",
+                "original_string": "Hjá for. á Ytri-Leikskálaá (19) 1844 (suo).",
                 "year": "1844",
                 "age": 19,
                 "status": "Hjá for.",
-                "location": "Y.-Leikskálum",
+                "location": "Ytri-Leikskálaá",
                 "note": "(suo)",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

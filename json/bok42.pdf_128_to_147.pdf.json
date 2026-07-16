@@ -237,12 +237,36 @@
                 }
             },
             {
-                "original_string": "Hjá föður á Y. Leikskálá (13) 1844 (svo).",
+                "original_string": "Hjá föður á Ytri-Leikskálaá (13) 1844 (svo).",
                 "year": "1844",
                 "age": 13,
                 "status": "",
-                "location": "Y. Leikskálá",
-                "note": "svo"
+                "location": "Ytri-Leikskálaá",
+                "note": "svo",
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú (17) frá Engidal að Garði M. 1849.",
