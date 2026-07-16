@@ -1,6 +1,6 @@
 import { Link, NavLink, useParams } from "react-router";
 import type { Route } from "./+types/home";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import _ from "underscore";
 
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
@@ -120,6 +120,8 @@ export default function Person() {
 	const [hideChildren, setHideChildren] = useState(true);
 	const [hideParents, setHideParents] = useState(true);
 
+	const mapRef = useRef();
+
 	useEffect(() => {
 		fetch(config.apiRoot+'/person/'+personId)
 			.then(res => res.json())
@@ -134,6 +136,16 @@ export default function Person() {
 					}
 				});
 				setMapData(_mapData);
+
+				let bounds = _mapData.map(i => [i.lat, i.lng]);
+
+				if (mapRef.current) {
+					mapRef.current.fitBounds(bounds, {
+						maxZoom: 10,
+						padding: [50, 50]
+					});
+				}
+
 			});
 
 		fetch(config.apiRoot+'/persons/?startId='+personId)
@@ -302,7 +314,7 @@ export default function Person() {
 									}
 
 									<div className="mt-4">
-										<MapContainer className="h-[600px]" center={[65.9, -17]} zoom={8} scrollWheelZoom={false}>
+										<MapContainer ref={mapRef} className="h-[600px]" center={[65.9, -17]} zoom={8} scrollWheelZoom={false}>
 											<TileLayer
 												attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 												url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

@@ -1,6 +1,6 @@
 import { Link, NavLink, useParams } from "react-router";
 import type { Route } from "./+types/home";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import PersonLink from "../components/PersonLink";
 import _ from 'underscore';
 
@@ -20,6 +20,8 @@ export default function Search() {
 
 	const [data, setData] = useState();
 
+	const mapRef = useRef();
+
 	useEffect(() => {
 		let searchParams = [];
 
@@ -37,7 +39,20 @@ export default function Search() {
 
 		fetch(config.apiRoot+'/search/?'+searchParams.join('&'))
 			.then(res => res.json())
-			.then(json => setData(json.results));
+			.then(json => {
+				setData(json.results);
+
+				if (json.results.places) {
+					let bounds = _.filter(json.results.places, i => i.lat && i.lng).map(i => [i.lat, i.lng]);
+
+					if (mapRef.current) {
+						mapRef.current.fitBounds(bounds, {
+							maxZoom: 10,
+							padding: [50, 50]
+						});
+					}
+				}
+			});
 
 		}, [query, nameQuery]);
 
@@ -54,7 +69,7 @@ export default function Search() {
 
 				{
 					data.places && _.filter(data.places, i => i.lat && i.lng).length > 0 && <Panel>
-						<MapContainer className="h-[300px]" center={[65.9, -17]} zoom={8} scrollWheelZoom={false}>
+						<MapContainer ref={mapRef} className="h-[300px]" center={[65.9, -17]} zoom={8} scrollWheelZoom={false}>
 							<TileLayer
 								attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 								url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

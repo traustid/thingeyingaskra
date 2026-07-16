@@ -1,6 +1,6 @@
 import { Link, NavLink, useNavigate, useParams } from "react-router";
 import type { Route } from "./+types/home";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import _ from "underscore";
 
 import { CircleMarker, MapContainer, Marker, Pane, Popup, TileLayer, Tooltip } from 'react-leaflet';
@@ -28,6 +28,8 @@ export default function Places() {
 	const { placeId } = useParams();
 	const navigate = useNavigate();
 
+	const mapRef = useRef();
+
 	useEffect(() => {
 		fetch(config.apiRoot+'/places/')
 			.then(res => res.json())
@@ -39,6 +41,16 @@ export default function Places() {
 					max: maxValue
 				})
 				setMapData(json.results);
+
+				let bounds = _.filter(json.results, i => i.lat && i.lng).map(i => [i.lat, i.lng]);
+
+				if (mapRef.current) {
+					mapRef.current.fitBounds(bounds, {
+						maxZoom: 10,
+						padding: [50, 50]
+					});
+				}
+
 			});
 	}, []);
 
@@ -98,7 +110,7 @@ export default function Places() {
 			}
 
 			<div className={'mt-4'+(personList && personList.length > 0 ? ' w-2/3' : ' w-full')}>
-				<MapContainer className="h-[600px] min-h-[95vh] sticky top-5 rounded-lg oveflow-hidden" center={[65.9, -17]} zoom={8} scrollWheelZoom={false}>
+				<MapContainer ref={mapRef} className="h-[600px] min-h-[95vh] sticky top-5 rounded-lg oveflow-hidden" center={[65.9, -17]} zoom={8} scrollWheelZoom={false}>
 					<TileLayer
 						attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 						url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
