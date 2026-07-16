@@ -1322,7 +1322,31 @@
                 "status": "Hjá for.",
                 "location": "Höskuldstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16620,
+                    "name": "Höskuldsstaðir",
+                    "lat": "65.7831735733",
+                    "lng": "-17.4382638931",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fermd (frá Höskuldsst.) á Helgast (14) 1847.",
@@ -1406,7 +1430,31 @@
                 "status": "Hjú",
                 "location": "Höskuldstaðir",
                 "note": "frá Einarsst.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16620,
+                    "name": "Höskuldsstaðir",
+                    "lat": "65.7831735733",
+                    "lng": "-17.4382638931",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Einarsst. (21) 1855-57.",
@@ -1609,18 +1657,22 @@
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 14046,
+                    "id": 90030,
                     "name": "Hvammur",
-                    "lat": "66.124234",
-                    "lng": "-15.415442",
+                    "lat": "65.949659",
+                    "lng": "-18.141629",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Þistilfjörður",
-                            "id": 25333
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
                         },
                         {
                             "name": "Norður-Þingeyjarsýsla",

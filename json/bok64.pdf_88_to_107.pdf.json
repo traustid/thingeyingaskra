@@ -378,7 +378,31 @@
             "birth": {
                 "original_string": "um 1851 í Ási, Pistilf.",
                 "date": "1851-00-00",
-                "location": "Ási, Pistilf."
+                "location": "Ási, Pistilf.",
+                "location_obj": {
+                    "id": 14317,
+                    "name": "Ás",
+                    "lat": "66.022794",
+                    "lng": "-16.473363",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kelduhverfi",
+                            "id": 24585
+                        },
+                        {
+                            "name": "Norður-Þingeyjarsýsla",
+                            "id": 16841
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -435,7 +459,31 @@
                 "original_string": "um 1851 í Ási, Pistilf.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Ási, Pistilf."
+                "location": "Ási, Pistilf.",
+                "location_obj": {
+                    "id": 14317,
+                    "name": "Ás",
+                    "lat": "66.022794",
+                    "lng": "-16.473363",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kelduhverfi",
+                            "id": 24585
+                        },
+                        {
+                            "name": "Norður-Þingeyjarsýsla",
+                            "id": 16841
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Syðritungu (11 ára) 1862.",
@@ -899,7 +947,31 @@
                 "status": "G. kona",
                 "location": "Brettingsstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16545,
+                    "name": "Brettingsstaðir",
+                    "lat": "65.6436240882",
+                    "lng": "-17.1706867218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsk. á Brettingsst. L. (29) 1863-64.",
@@ -3124,18 +3196,22 @@
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 14046,
+                    "id": 90030,
                     "name": "Hvammur",
-                    "lat": "66.124234",
-                    "lng": "-15.415442",
+                    "lat": "65.949659",
+                    "lng": "-18.141629",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Þistilfjörður",
-                            "id": 25333
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
                         },
                         {
                             "name": "Norður-Þingeyjarsýsla",
@@ -3614,7 +3690,31 @@
                 "status": "Hjú",
                 "location": "Veturliðastaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16610,
+                    "name": "Veturliðastaðir",
+                    "lat": "65.691182",
+                    "lng": "-17.889887",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Melum (26) 1863.",
@@ -4613,7 +4713,31 @@
                 "status": "",
                 "location": "Fornastaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16462,
+                    "name": "Fornastaðir",
+                    "lat": "65.7498465926765",
+                    "lng": "-17.842139723144598",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Presthvammi (3) 1867.",

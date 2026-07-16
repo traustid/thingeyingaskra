@@ -434,7 +434,31 @@
                 "age": 20,
                 "status": "B.",
                 "location": "Draflastaðir",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 9737,
+                    "name": "Draflastaðir",
+                    "lat": "65.812784",
+                    "lng": "-17.914736",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Grímsgerði (22) 1844-61 (Hrb.).",
@@ -3325,31 +3349,7 @@
                 "age": 17,
                 "status": "Hjú",
                 "location": "Kaðalsstöðum",
-                "note": "",
-                "location_obj": {
-                    "id": 15262,
-                    "name": "Kaðalsstaðir",
-                    "lat": "66.129683",
-                    "lng": "-18.072725",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Hvalvatnsfjörður",
-                            "id": 1003446
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             }
         ],
         "notes": {},

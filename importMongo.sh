@@ -3,8 +3,8 @@
 #python3 addLinks.py
 #python3 processLocations.py
 
-mongosh thskra --eval "db.dropDatabase()"
+docker exec -it mongodb_container mongo thskra --eval "db.dropDatabase()"
 
 for f in json/*.json; do
-    mongoimport --db thskra --collection persons --file "$f" --jsonArray
+    docker exec -i mongodb_container mongoimport --db thskra --collection persons --jsonArray < "$f"
 done

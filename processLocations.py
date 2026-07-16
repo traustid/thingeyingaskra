@@ -22,6 +22,7 @@ regions = {
 	't.': 'Tjörnes',
 	'Fl.': 'Flateyjardalur',
 	'Höfð.': 'Höfðahverfi',
+	'Höfðahv.': 'Höfðahverfi',
 	'Grýt.': 'Höfðahverfi',
 	'Fj.': 'Hvalvatnsfjörður',
 	'M.': 'Mývatnssveit',
@@ -73,14 +74,14 @@ jsonDir = 'json'
 
 def get_region_value(text):
 	sorted_keys = sorted(regions.keys(), key=len, reverse=True)
-	
+
 	for key in sorted_keys:
 		suffix_with_period = f" {key}"
 		suffix_without_period = f" {key.rstrip('.')}"
 
 		if text.endswith(suffix_with_period) or text.endswith(suffix_without_period):
 			return key
-			
+
 	return False
 
 def findPlace(placeItem):
@@ -91,7 +92,7 @@ def findPlace(placeItem):
 	if len(sys.argv[1:]) and sys.argv[1] not in placeItem['location']:
 		return;
 	elif len(sys.argv[1:]) and sys.argv[1] in placeItem['location']:
-		print('Leita að "'+sys.argv[1]+'"')		
+		print('Leita að "'+sys.argv[1]+'"')
 
 	if 'location_obj' in placeItem:
 		placeItem['location_obj'] = None

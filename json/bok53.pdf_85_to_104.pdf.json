@@ -1250,7 +1250,31 @@
                 "status": "Hjú",
                 "location": "Drafflastaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 9737,
+                    "name": "Draflastaðir",
+                    "lat": "65.812784",
+                    "lng": "-17.914736",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Stórutjörnum (34) 1843-1844 (frá Drafflast.",
@@ -1772,18 +1796,22 @@
                 "note": "",
                 "note_ref": 1,
                 "location_obj": {
-                    "id": 14046,
+                    "id": 90030,
                     "name": "Hvammur",
-                    "lat": "66.124234",
-                    "lng": "-15.415442",
+                    "lat": "65.949659",
+                    "lng": "-18.141629",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Þistilfjörður",
-                            "id": 25333
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
                         },
                         {
                             "name": "Norður-Þingeyjarsýsla",

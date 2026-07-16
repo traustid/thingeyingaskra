@@ -682,7 +682,31 @@
                 "status": "Fermdur",
                 "location": "Holgastaðir",
                 "note": "pr. k.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 24370,
+                    "name": "Helgastaðir",
+                    "lat": "65.7710019691",
+                    "lng": "-17.4054445839",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Flytur með konu frá Svíná í Hörgárdal að Hvammá, Jök. 183?",

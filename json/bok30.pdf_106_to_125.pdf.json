@@ -508,7 +508,31 @@
                 "age": 30,
                 "status": "Hjú",
                 "location": "Ljótastaðir",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 16562,
+                    "name": "Ljótsstaðir",
+                    "lat": "65.683681",
+                    "lng": "-17.201825",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. Kona (32) frá Hörgsdal til Stóradals 1865.",
@@ -3135,31 +3159,7 @@
                 "age": 31,
                 "status": "Húsfr.",
                 "location": "Kaðalsstöðum",
-                "note": "",
-                "location_obj": {
-                    "id": 15262,
-                    "name": "Kaðalsstaðir",
-                    "lat": "66.129683",
-                    "lng": "-18.072725",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Hvalvatnsfjörður",
-                            "id": 1003446
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "G.k. frá Kaðalsst. að Laufási (54) 1822.",
@@ -3199,14 +3199,6 @@
                 "age": null,
                 "status": "Húsfr.",
                 "location": "Kaðalsstaðir",
-                "note": ""
-            },
-            {
-                "original_string": "Húsfr. á Kaðalsstöðum ... 1827-1838.",
-                "year": "1827-1838",
-                "age": null,
-                "status": "Húsfr.",
-                "location": "Kaðalsstöðum",
                 "note": "",
                 "location_obj": {
                     "id": 15262,
@@ -3232,6 +3224,14 @@
                         }
                     ]
                 }
+            },
+            {
+                "original_string": "Húsfr. á Kaðalsstöðum ... 1827-1838.",
+                "year": "1827-1838",
+                "age": null,
+                "status": "Húsfr.",
+                "location": "Kaðalsstöðum",
+                "note": ""
             },
             {
                 "year": "1840",
@@ -3831,7 +3831,31 @@
                 "age": 30,
                 "status": "Hjú",
                 "location": "Vegeirsstaðir",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 12053,
+                    "name": "Végeirsstaðir",
+                    "lat": "65.8107",
+                    "lng": "-17.89104",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Lólastöðum (32) 1864.",

@@ -2362,7 +2362,32 @@
                 "status": "Hjá for.",
                 "location": "Tunguspordu, T.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90029,
+                    "name": "Tungusporður",
+                    "lat": "66.069589",
+                    "lng": "-17.230294",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ],
+                    "NÆST": 90031
+                }
             },
             {
                 "original_string": "Niðurs. í Saltvík (12 ára) 1848-1850.",
@@ -2897,60 +2922,12 @@
             "birth": {
                 "original_string": "F. 16/7. 1858 á Kaðalsstöðum.",
                 "date": "1858-07-16",
-                "location": "Kaðalsstöðum",
-                "location_obj": {
-                    "id": 15262,
-                    "name": "Kaðalsstaðir",
-                    "lat": "66.129683",
-                    "lng": "-18.072725",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Hvalvatnsfjörður",
-                            "id": 1003446
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Kaðalsstöðum"
             },
             "death": {
                 "original_string": "D. þar 12/4. 1860, 2 ára.",
                 "date": "1860-04-12",
-                "location": "Kaðalsstöðum",
-                "location_obj": {
-                    "id": 15262,
-                    "name": "Kaðalsstaðir",
-                    "lat": "66.129683",
-                    "lng": "-18.072725",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Hvalvatnsfjörður",
-                            "id": 1003446
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Kaðalsstöðum"
             },
             "note_ref": 1,
             "names": [
@@ -2991,31 +2968,7 @@
                 "original_string": "F. 16/7. 1858 á Kaðalsstöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Kaðalsstöðum",
-                "location_obj": {
-                    "id": 15262,
-                    "name": "Kaðalsstaðir",
-                    "lat": "66.129683",
-                    "lng": "-18.072725",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Hvalvatnsfjörður",
-                            "id": 1003446
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Kaðalsstöðum"
             },
             {
                 "original_string": "Hjá for. á Kaðalsstöðum (á 1.) 1858-1859.",
@@ -3024,62 +2977,14 @@
                 "status": "Hjá for.",
                 "location": "Kaðalsstöðum",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 15262,
-                    "name": "Kaðalsstaðir",
-                    "lat": "66.129683",
-                    "lng": "-18.072725",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Hvalvatnsfjörður",
-                            "id": 1003446
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "year": "1860",
                 "original_string": "D. þar 12/4. 1860, 2 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Kaðalsstöðum",
-                "location_obj": {
-                    "id": 15262,
-                    "name": "Kaðalsstaðir",
-                    "lat": "66.129683",
-                    "lng": "-18.072725",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Hvalvatnsfjörður",
-                            "id": 1003446
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Kaðalsstöðum"
             }
         ],
         "notes": {
@@ -3847,7 +3752,31 @@
                 "status": "Hjú",
                 "location": "Veturliðastaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16610,
+                    "name": "Veturliðastaðir",
+                    "lat": "65.691182",
+                    "lng": "-17.889887",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Fornastöðum (22) 1832-1834.",

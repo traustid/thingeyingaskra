@@ -844,20 +844,12 @@
                 "age": 19,
                 "status": "Hjú",
                 "location": "Veturliðastaðir",
-                "note": ""
-            },
-            {
-                "original_string": "Hjú á Vöglum (20) 1863.",
-                "year": "1863",
-                "age": 20,
-                "status": "Hjú",
-                "location": "Vöglum",
                 "note": "",
                 "location_obj": {
-                    "id": 1003587,
-                    "name": "Vaglir",
-                    "lat": "65.713616",
-                    "lng": "-17.876124",
+                    "id": 16610,
+                    "name": "Veturliðastaðir",
+                    "lat": "65.691182",
+                    "lng": "-17.889887",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -877,6 +869,14 @@
                         }
                     ]
                 }
+            },
+            {
+                "original_string": "Hjú á Vöglum (20) 1863.",
+                "year": "1863",
+                "age": 20,
+                "status": "Hjú",
+                "location": "Vöglum",
+                "note": ""
             }
         ],
         "notes": {},
@@ -1122,7 +1122,31 @@
                 "original_string": "D. á Kaðalst. 6/6. 1816. - Niðurseta.",
                 "date": "1816-06-06",
                 "location": "Kaðalstaðir",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Málfríður",
@@ -1150,31 +1174,7 @@
                 "age": null,
                 "status": "Niðurs.",
                 "location": "Kaðalsstöðum",
-                "note": "",
-                "location_obj": {
-                    "id": 15262,
-                    "name": "Kaðalsstaðir",
-                    "lat": "66.129683",
-                    "lng": "-18.072725",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Hvalvatnsfjörður",
-                            "id": 1003446
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "year": "1816",
