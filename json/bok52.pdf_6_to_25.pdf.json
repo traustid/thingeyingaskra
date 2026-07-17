@@ -3223,7 +3223,23 @@
             "birth": {
                 "original_string": "F. um 1840 í Grímsey.",
                 "date": "1840-00-00",
-                "location": "Grímsey"
+                "location": "Grímsey",
+                "location_obj": {
+                    "id": 90034,
+                    "name": "Grímsey",
+                    "lat": "66.541881",
+                    "lng": "-18.000719",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -3243,7 +3259,23 @@
                 "original_string": "F. um 1840 í Grímsey.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grímsey"
+                "location": "Grímsey",
+                "location_obj": {
+                    "id": 90034,
+                    "name": "Grímsey",
+                    "lat": "66.541881",
+                    "lng": "-18.000719",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttingur á Fornastöðum (16) 1856-1860.",
@@ -3327,7 +3359,31 @@
                 "status": "Hjú",
                 "location": "Breiðabóll",
                 "note": "",
-                "year": "1870"
+                "year": "1870",
+                "location_obj": {
+                    "id": 90038,
+                    "name": "Breiðaból",
+                    "lat": "65.733743",
+                    "lng": "-18.078436",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Fornastöðum (32) 1871.",

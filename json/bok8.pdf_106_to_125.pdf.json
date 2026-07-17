@@ -1586,7 +1586,31 @@
             "birth": {
                 "original_string": "F. 27/11. 1892 í Y. Neslöndum.",
                 "date": "1892-11-27",
-                "location": "Ytri-Neslönd"
+                "location": "Ytri-Neslönd",
+                "location_obj": {
+                    "id": 1001885,
+                    "name": "Ytri-Neslönd",
+                    "lat": "65.635883",
+                    "lng": "-16.992561",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -1639,7 +1663,31 @@
                 "original_string": "F. 27/11. 1892 í Y. Neslöndum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Ytri-Neslönd"
+                "location": "Ytri-Neslönd",
+                "location_obj": {
+                    "id": 1001885,
+                    "name": "Ytri-Neslönd",
+                    "lat": "65.635883",
+                    "lng": "-16.992561",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Y. Neslöndum (á l.) 1892-1900.",
@@ -3238,7 +3286,31 @@
                 "status": "G.",
                 "location": "Breiðabóli",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90038,
+                    "name": "Breiðaból",
+                    "lat": "65.733743",
+                    "lng": "-18.078436",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

@@ -2295,12 +2295,52 @@
             "birth": {
                 "original_string": "F. í Hraungerði Eyf. 1844.",
                 "date": "1844-00-00",
-                "location": "Hraungerði Eyf."
+                "location": "Hraungerði Eyf.",
+                "location_obj": {
+                    "id": 90032,
+                    "name": "Hraungerði",
+                    "lat": "65.839502",
+                    "lng": "-17.357982",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Akureyri 22/6. 1929.",
                 "date": "1929-06-22",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Hallgrímur",
@@ -2351,7 +2391,31 @@
                 "original_string": "F. í Hraungerði Eyf. 1844.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hraungerði Eyf."
+                "location": "Hraungerði Eyf.",
+                "location_obj": {
+                    "id": 90032,
+                    "name": "Hraungerði",
+                    "lat": "65.839502",
+                    "lng": "-17.357982",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "(Hjú) frá Neðrafelli, Eyf. að Stafnsholti (18) 1862-",
@@ -2499,7 +2563,23 @@
                 "original_string": "D. á Akureyri 22/6. 1929.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

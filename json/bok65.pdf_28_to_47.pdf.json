@@ -1831,7 +1831,23 @@
             "birth": {
                 "original_string": "F. um 1875 í Grímsey",
                 "date": "1875",
-                "location": "Grímsey"
+                "location": "Grímsey",
+                "location_obj": {
+                    "id": 90034,
+                    "name": "Grímsey",
+                    "lat": "66.541881",
+                    "lng": "-18.000719",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1855,7 +1871,23 @@
                 "original_string": "F. um 1875 í Grímsey",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grímsey"
+                "location": "Grímsey",
+                "location_obj": {
+                    "id": 90034,
+                    "name": "Grímsey",
+                    "lat": "66.541881",
+                    "lng": "-18.000719",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fósturss. á Ísólfsstöðum (6 ára) 1881",
@@ -3663,31 +3695,7 @@
                 "status": "Hjú",
                 "location": "Höfða",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Svalbarði (30) 1849-1850",
@@ -4004,31 +4012,7 @@
                 "status": "Hjú",
                 "location": "Höfða",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Jarðst. Grýt. (24) 1861-1867",

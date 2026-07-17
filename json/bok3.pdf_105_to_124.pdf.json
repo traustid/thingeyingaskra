@@ -552,7 +552,23 @@
             "death": {
                 "original_string": "D. á Akureyri 6/11. 1943.",
                 "date": "1943-11-06",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Arndís",
@@ -889,7 +905,23 @@
                 "original_string": "D. á Akureyri 6/11. 1943.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1100,7 +1132,31 @@
                 "status": "Hjú",
                 "location": "Svaði",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90013,
+                    "name": "Vað",
+                    "lat": "65.799802",
+                    "lng": "-17.502078",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Steindórum (16) 1899.",
@@ -1163,7 +1219,31 @@
             "birth": {
                 "original_string": "F. 1/11. 1885 í Hrappsst.seli.",
                 "date": "1885-11-01",
-                "location": "Hrappsstaðasel"
+                "location": "Hrappsstaðasel",
+                "location_obj": {
+                    "id": 1001888,
+                    "name": "Hrappsstaðasel",
+                    "lat": "65.55743020636",
+                    "lng": "-17.385520460449",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -1204,7 +1284,31 @@
                 "original_string": "F. 1/11. 1885 í Hrappsst.seli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hrappsstaðasel"
+                "location": "Hrappsstaðasel",
+                "location_obj": {
+                    "id": 1001888,
+                    "name": "Hrappsstaðasel",
+                    "lat": "65.55743020636",
+                    "lng": "-17.385520460449",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Hrappsst.seli (á 1.) 1886-89.",
@@ -1923,7 +2027,31 @@
                 "status": "Með móður",
                 "location": "Núpar",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90033,
+                    "name": "Núpar",
+                    "lat": "65.935168",
+                    "lng": "-17.420108",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með föður í Hausbæ (5 ára) 1893.",
@@ -1974,7 +2102,31 @@
                 "status": "Með móður",
                 "location": "Núpar",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90033,
+                    "name": "Núpar",
+                    "lat": "65.935168",
+                    "lng": "-17.420108",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

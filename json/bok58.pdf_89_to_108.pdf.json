@@ -1306,7 +1306,31 @@
             "birth": {
                 "original_string": "F. 8/7 1798 í Keflavík.",
                 "date": "1798-07-08",
-                "location": "Keflavík"
+                "location": "Keflavík",
+                "location_obj": {
+                    "id": 13617,
+                    "name": "Keflavík",
+                    "lat": "66.171866",
+                    "lng": "-18.249487",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Nesi Grýt. 16/9. 1841, 43 ára.",
@@ -1376,7 +1400,31 @@
                 "original_string": "F. 8/7 1798 í Keflavík.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Keflavík"
+                "location": "Keflavík",
+                "location_obj": {
+                    "id": 13617,
+                    "name": "Keflavík",
+                    "lat": "66.171866",
+                    "lng": "-18.249487",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Keflavík (3) -1801.",
@@ -1385,7 +1433,31 @@
                 "status": "Hjá for.",
                 "location": "Keflavík",
                 "note": "",
-                "year": "-1801"
+                "year": "-1801",
+                "location_obj": {
+                    "id": 13617,
+                    "name": "Keflavík",
+                    "lat": "66.171866",
+                    "lng": "-18.249487",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Brekku Fj. (7) -1805-1808-",
@@ -2423,31 +2495,7 @@
                 "status": "Hjú",
                 "location": "Höfða",
                 "note": "",
-                "year": "1862",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1862"
             }
         ],
         "notes": {},

@@ -1807,7 +1807,23 @@
             "death": {
                 "original_string": "D. á Ak. 25/9. 1945.",
                 "date": "1945-09-25",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Guðbjartur",
@@ -1999,7 +2015,23 @@
                 "original_string": "D. á Ak. 25/9. 1945.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3040,7 +3072,31 @@
                 "status": "Húsfr.",
                 "location": "Keflavík",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 13617,
+                    "name": "Keflavík",
+                    "lat": "66.171866",
+                    "lng": "-18.249487",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Brekku Fj. (36) 1801-1810.",
@@ -3133,7 +3189,31 @@
                 "status": "G.",
                 "location": "Keflavík",
                 "note": "E. húsk á Botni (65) 1829.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 13617,
+                    "name": "Keflavík",
+                    "lat": "66.171866",
+                    "lng": "-18.249487",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. í Nesi Grjt. (70) 1834-1840.",

@@ -560,7 +560,31 @@
                 "status": "B.",
                 "location": "Neðri-Dálksstaðir",
                 "note": "Hrb.",
-                "year": "1837-1840"
+                "year": "1837-1840",
+                "location_obj": {
+                    "id": 90036,
+                    "name": "Neðri-Dálksstaðir",
+                    "lat": "65.756478",
+                    "lng": "-18.086943",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Landamóti ... 1840-61. (Hrb.).",
@@ -2160,7 +2184,31 @@
             "death": {
                 "original_string": "D. 25/4. 1874 í Hraungerði.",
                 "date": "1874-04-25",
-                "location": "Hraungerði"
+                "location": "Hraungerði",
+                "location_obj": {
+                    "id": 90032,
+                    "name": "Hraungerði",
+                    "lat": "65.839502",
+                    "lng": "-17.357982",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Magnús",
@@ -2299,14 +2347,62 @@
                 "status": "Hjá for.",
                 "location": "Hraungerði",
                 "note": "",
-                "year": "1867-1874"
+                "year": "1867-1874",
+                "location_obj": {
+                    "id": 90032,
+                    "name": "Hraungerði",
+                    "lat": "65.839502",
+                    "lng": "-17.357982",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1874",
                 "original_string": "D. 25/4. 1874 í Hraungerði.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Hraungerði"
+                "location": "Hraungerði",
+                "location_obj": {
+                    "id": 90032,
+                    "name": "Hraungerði",
+                    "lat": "65.839502",
+                    "lng": "-17.357982",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -3328,31 +3424,7 @@
                 "status": "B.",
                 "location": "Höfða",
                 "note": "Hrb.",
-                "year": "1840-1844",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1840-1844"
             },
             {
                 "original_string": "G. frd. B. í Kolgerði (71) 1865-1881. (E. 80).",

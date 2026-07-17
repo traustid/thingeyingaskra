@@ -827,7 +827,31 @@
                 "original_string": "D. 3/4 1812 í Keflavík, 48 ára.",
                 "date": "1812-04-03",
                 "location": "Keflavík",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 13617,
+                    "name": "Keflavík",
+                    "lat": "66.171866",
+                    "lng": "-18.249487",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Guðlaug",
@@ -889,14 +913,62 @@
                 "status": "Húsfr.",
                 "location": "Keflavík",
                 "note": "",
-                "year": "1804—1812"
+                "year": "1804—1812",
+                "location_obj": {
+                    "id": 13617,
+                    "name": "Keflavík",
+                    "lat": "66.171866",
+                    "lng": "-18.249487",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1812",
                 "original_string": "D. 3/4 1812 í Keflavík, 48 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Keflavík"
+                "location": "Keflavík",
+                "location_obj": {
+                    "id": 13617,
+                    "name": "Keflavík",
+                    "lat": "66.171866",
+                    "lng": "-18.249487",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2159,31 +2231,7 @@
                 "status": "Hjú",
                 "location": "Höfða",
                 "note": "",
-                "year": "1897—1898",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1897—1898"
             },
             {
                 "original_string": "Hjú í Höfða . . . 1900.",
@@ -2192,31 +2240,7 @@
                 "status": "Hjú",
                 "location": "Höfða",
                 "note": "",
-                "year": "1900",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1900"
             }
         ],
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_16/59",

@@ -1221,7 +1221,31 @@
                 "age": 55,
                 "status": "Húsfr.",
                 "location": "Hraungerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90032,
+                    "name": "Hraungerði",
+                    "lat": "65.839502",
+                    "lng": "-17.357982",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Vitl. Niðurs. á Grenjaðarst. (73) 1835-1842. (\"Ötisgöngin\" '37).",
@@ -2014,7 +2038,31 @@
                 "age": 31,
                 "status": "Veturvistark.",
                 "location": "Vöglum",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

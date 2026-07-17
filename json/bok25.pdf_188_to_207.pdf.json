@@ -1580,7 +1580,23 @@
             "birth": {
                 "original_string": "F. um 1882 í Grímsey.",
                 "date": "1882-00-00",
-                "location": "Grímsey"
+                "location": "Grímsey",
+                "location_obj": {
+                    "id": 90034,
+                    "name": "Grímsey",
+                    "lat": "66.541881",
+                    "lng": "-18.000719",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1625,7 +1641,23 @@
                 "original_string": "F. um 1882 í Grímsey.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grímsey"
+                "location": "Grímsey",
+                "location_obj": {
+                    "id": 90034,
+                    "name": "Grímsey",
+                    "lat": "66.541881",
+                    "lng": "-18.000719",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Hofi (2) 1884.",
@@ -1880,31 +1912,7 @@
             "birth": {
                 "original_string": "F. 18/9. 1804 í Höfða, Grýt.",
                 "date": "1804-09-18",
-                "location": "Höfða, Grýt.",
-                "location_obj": {
-                    "id": 16495,
-                    "name": "Höfði",
-                    "lat": "65.915741",
-                    "lng": "-18.163212",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Höfða, Grýt."
             },
             "death": {
                 "original_string": "D. 1882.",
@@ -1961,31 +1969,7 @@
                 "original_string": "F. 18/9. 1804 í Höfða, Grýt.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Höfða, Grýt.",
-                "location_obj": {
-                    "id": 16495,
-                    "name": "Höfði",
-                    "lat": "65.915741",
-                    "lng": "-18.163212",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Höfða, Grýt."
             },
             {
                 "original_string": "Fósturb. á Svalbarði (12) 1816-1817.",
@@ -2029,31 +2013,7 @@
                 "location": "Höfða",
                 "note": "",
                 "note_ref": null,
-                "year": "1827-1837-",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1827-1837-"
             }
         ],
         "notes": {},

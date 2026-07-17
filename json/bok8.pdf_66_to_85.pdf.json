@@ -213,7 +213,31 @@
                 "age": 14,
                 "status": "Með föður",
                 "location": "Núpar",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90033,
+                    "name": "Núpar",
+                    "lat": "65.935168",
+                    "lng": "-17.420108",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Sandvík (15 ára) 1891-1897.",
@@ -3900,7 +3924,23 @@
             "death": {
                 "original_string": "D. á Akureyri (ekkja frá Ísafirði) 21/4. 1927.",
                 "date": "1927-04-21",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Björg",
@@ -4096,7 +4136,23 @@
                 "original_string": "D. á Akureyri (ekkja frá Ísafirði) 21/4. 1927.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

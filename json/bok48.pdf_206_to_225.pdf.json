@@ -2155,7 +2155,31 @@
             "birth": {
                 "original_string": "F. 27/9. 1847 í Nessókn á Núpum.",
                 "date": "1847-09-27",
-                "location": "Núpum í Nessókn"
+                "location": "Núpum í Nessókn",
+                "location_obj": {
+                    "id": 90033,
+                    "name": "Núpar",
+                    "lat": "65.935168",
+                    "lng": "-17.420108",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -2208,7 +2232,31 @@
                 "original_string": "F. 27/9. 1847 í Nessókn á Núpum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Núpum í Nessókn"
+                "location": "Núpum í Nessókn",
+                "location_obj": {
+                    "id": 90033,
+                    "name": "Núpar",
+                    "lat": "65.935168",
+                    "lng": "-17.420108",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Núpum (1 árs) 1847-1863.",
@@ -2216,7 +2264,31 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Núpar",
-                "note": "1 árs"
+                "note": "1 árs",
+                "location_obj": {
+                    "id": 90033,
+                    "name": "Núpar",
+                    "lat": "65.935168",
+                    "lng": "-17.420108",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttadr. á Ytrafjalli (18) 1864.",
@@ -3498,31 +3570,7 @@
                 "age": 20,
                 "status": "Fósturson",
                 "location": "Höfða",
-                "note": "",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Útskrifaður 1805. (af Páli Hjálmarssyni).",
@@ -3570,7 +3618,23 @@
                 "age": null,
                 "status": "Vígðist",
                 "location": "Grímseyjar",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90034,
+                    "name": "Grímsey",
+                    "lat": "66.541881",
+                    "lng": "-18.000719",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fekk Þönglabakka 1812.",
@@ -3757,31 +3821,7 @@
                 "age": 20,
                 "status": "Fósturson",
                 "location": "Höfða",
-                "note": "",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Varð stúdent 1805.",
@@ -3829,7 +3869,23 @@
                 "age": null,
                 "status": "Vígður",
                 "location": "Grímseyjar",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90034,
+                    "name": "Grímsey",
+                    "lat": "66.541881",
+                    "lng": "-18.000719",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Prestur í Grímsey 1810-1812.",
@@ -3837,7 +3893,23 @@
                 "age": null,
                 "status": "Prestur",
                 "location": "Grímsey",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90034,
+                    "name": "Grímsey",
+                    "lat": "66.541881",
+                    "lng": "-18.000719",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Prestur á Þönglabakka (32) 1812-1819.",

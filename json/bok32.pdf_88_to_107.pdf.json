@@ -1446,7 +1446,23 @@
             "death": {
                 "original_string": "D. á Akureyri 23/8. 1948.",
                 "date": "1948-08-23",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Ingibjörg",
@@ -1571,7 +1587,23 @@
                 "original_string": "D. á Akureyri 23/8. 1948.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2819,7 +2851,31 @@
                 "status": "Hjá for.",
                 "location": "Jódísarstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90039,
+                    "name": "Jódísarstaðir",
+                    "lat": "65.812717",
+                    "lng": "-17.504568",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Rauðuskriðu 1847, 2 ára.",

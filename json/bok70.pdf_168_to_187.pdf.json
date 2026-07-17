@@ -1862,31 +1862,7 @@
             "birth": {
                 "original_string": "F. 20/7. 1865 í Höfða.",
                 "date": "1865-07-20",
-                "location": "Höfða",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Höfða"
             },
             "death": {
                 "original_string": "D. á Ak. 7/5. 1935.",
@@ -1944,31 +1920,7 @@
                 "original_string": "F. 20/7. 1865 í Höfða.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Höfða",
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Höfða"
             },
             {
                 "original_string": "Hjá for. í Höfða (2) 1866-1889.",
@@ -1977,31 +1929,7 @@
                 "status": "Hjá for.",
                 "location": "Höfða",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "B., realstúd. á sama bæ... 1890-1892- 1900-",
@@ -2303,7 +2231,31 @@
                 "original_string": "D. í Keflavík 31/12. 1832, 42 ára. 1)",
                 "date": "1832-12-31",
                 "location": "Keflavík",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 13617,
+                    "name": "Keflavík",
+                    "lat": "66.171866",
+                    "lng": "-18.249487",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Þórður",
@@ -2336,14 +2288,62 @@
                 "status": "B.",
                 "location": "Keflavík",
                 "note": "(Hrb)",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 13617,
+                    "name": "Keflavík",
+                    "lat": "66.171866",
+                    "lng": "-18.249487",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1832",
                 "original_string": "D. í Keflavík 31/12. 1832, 42 ára. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Keflavík"
+                "location": "Keflavík",
+                "location_obj": {
+                    "id": 13617,
+                    "name": "Keflavík",
+                    "lat": "66.171866",
+                    "lng": "-18.249487",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -3350,31 +3350,7 @@
                 "status": "Hjá for.",
                 "location": "Höfða",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 15860,
-                    "name": "Höfði",
-                    "lat": "66.048372",
-                    "lng": "-17.354084",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Húsavík",
-                            "id": 24308
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -3472,7 +3448,31 @@
                 "status": "Hjá for.",
                 "location": "Breiðabóli",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90038,
+                    "name": "Breiðaból",
+                    "lat": "65.733743",
+                    "lng": "-18.078436",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á sama bæ (9) 1831-1833.",

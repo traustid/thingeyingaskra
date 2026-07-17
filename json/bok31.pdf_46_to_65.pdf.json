@@ -690,7 +690,31 @@
                 "age": 4,
                 "status": "Hjá for.",
                 "location": "Núpar",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90033,
+                    "name": "Núpar",
+                    "lat": "65.935168",
+                    "lng": "-17.420108",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1084,7 +1108,31 @@
                 "age": 34,
                 "status": "B.",
                 "location": "Núpar",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90033,
+                    "name": "Núpar",
+                    "lat": "65.935168",
+                    "lng": "-17.420108",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2278,7 +2326,31 @@
                 "age": 29,
                 "status": "B.",
                 "location": "Breiðaból",
-                "note": "(Hrb.)"
+                "note": "(Hrb.)",
+                "location_obj": {
+                    "id": 90038,
+                    "name": "Breiðaból",
+                    "lat": "65.733743",
+                    "lng": "-18.078436",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á N. Dálksstöðum (32) 1819-35. (Hrb.).",
@@ -3864,7 +3936,23 @@
             "birth": {
                 "original_string": "F. 7/11. 1796 á Grímsey.",
                 "date": "1796-11-07",
-                "location": "Grímsey"
+                "location": "Grímsey",
+                "location_obj": {
+                    "id": 90034,
+                    "name": "Grímsey",
+                    "lat": "66.541881",
+                    "lng": "-18.000719",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 17/2. 1860 á Húsavík. 1",
@@ -3954,7 +4042,23 @@
                 "original_string": "F. 7/11. 1796 á Grímsey.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grímsey"
+                "location": "Grímsey",
+                "location_obj": {
+                    "id": 90034,
+                    "name": "Grímsey",
+                    "lat": "66.541881",
+                    "lng": "-18.000719",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Skeri (4) - 1801-",

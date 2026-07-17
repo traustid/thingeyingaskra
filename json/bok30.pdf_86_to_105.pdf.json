@@ -771,7 +771,31 @@
                 "age": 23,
                 "status": "Hjú",
                 "location": "Núpar",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90033,
+                    "name": "Núpar",
+                    "lat": "65.935168",
+                    "lng": "-17.420108",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Mjóadal (19) 1877.",
@@ -2903,7 +2927,31 @@
                 "age": 26,
                 "status": "Hjú",
                 "location": "Jódisarstaðir",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90039,
+                    "name": "Jódísarstaðir",
+                    "lat": "65.812717",
+                    "lng": "-17.504568",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Syðrafjalli 1831, (27 ára).",
@@ -3475,7 +3523,31 @@
                 "age": 55,
                 "status": "Húsk.",
                 "location": "Breiðaból",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90038,
+                    "name": "Breiðaból",
+                    "lat": "65.733743",
+                    "lng": "-18.078436",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. í Garðsvík ... 1899.",
@@ -3759,7 +3831,23 @@
             "death": {
                 "original_string": "D. á Akureyri 19/1. 1915.",
                 "date": "1915-01-19",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Hólmfríður",
@@ -3882,7 +3970,23 @@
                 "original_string": "D. á Akureyri 19/1. 1915.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

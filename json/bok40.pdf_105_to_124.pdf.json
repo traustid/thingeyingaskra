@@ -3232,7 +3232,31 @@
             "birth": {
                 "original_string": "F. 16/11. 1872 í Keflavík.",
                 "date": "1872-11-16",
-                "location": "Keflavík"
+                "location": "Keflavík",
+                "location_obj": {
+                    "id": 13617,
+                    "name": "Keflavík",
+                    "lat": "66.171866",
+                    "lng": "-18.249487",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Þönglabakka 19/3. 1879.",
@@ -3302,7 +3326,31 @@
                 "original_string": "F. 16/11. 1872 í Keflavík.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Keflavík"
+                "location": "Keflavík",
+                "location_obj": {
+                    "id": 13617,
+                    "name": "Keflavík",
+                    "lat": "66.171866",
+                    "lng": "-18.249487",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Þönglabakka (1 árs) 1873-1878.",
@@ -4020,31 +4068,7 @@
                 "status": "Tysiv.",
                 "location": "Másskoti",
                 "note": "frá Gadi Fnj.",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 33872,
-                    "name": "Máskot",
-                    "lat": "65.649194",
-                    "lng": "-17.273219",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "B. í Másskoti 1836-1849.",
@@ -4053,31 +4077,7 @@
                 "status": "B.",
                 "location": "Másskoti",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 33872,
-                    "name": "Máskot",
-                    "lat": "65.649194",
-                    "lng": "-17.273219",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "B. frá Mássk. að Kálfborgará (46) 1849-63 (Hrb.).",

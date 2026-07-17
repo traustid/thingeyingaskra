@@ -1008,7 +1008,23 @@
             "death": {
                 "original_string": "D. 24/10. 1930",
                 "date": "1930-10-24",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Halldór",
@@ -1187,7 +1203,23 @@
                 "original_string": "D. 24/10. 1930",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Akureyri"
+                "location": "Akureyri",
+                "location_obj": {
+                    "id": 90035,
+                    "name": "Akureyri",
+                    "lat": "65.672285",
+                    "lng": "-18.086464",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2464,31 +2496,7 @@
             "birth": {
                 "original_string": "F. 30/8. 1880 á Hallbj.stöðum T.",
                 "date": "1880-08-30",
-                "location": "Hallbjargarstöðum T.",
-                "location_obj": {
-                    "id": 16409,
-                    "name": "Hallbjarnarstaðir",
-                    "lat": "65.671379",
-                    "lng": "-17.322558",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Hallbjargarstöðum T."
             },
             "death": {
                 "original_string": "",
@@ -2534,31 +2542,7 @@
                 "original_string": "F. 30/8. 1880 á Hallbj.stöðum T.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hallbjargarstöðum T.",
-                "location_obj": {
-                    "id": 16409,
-                    "name": "Hallbjarnarstaðir",
-                    "lat": "65.671379",
-                    "lng": "-17.322558",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Hallbjargarstöðum T."
             },
             {
                 "original_string": "Hjá for. á Hallbj.st. T. (1. ári) 1880-1886.",
@@ -2566,31 +2550,7 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Hallbjargarstöðum T.",
-                "note": "",
-                "location_obj": {
-                    "id": 16409,
-                    "name": "Hallbjarnarstaðir",
-                    "lat": "65.671379",
-                    "lng": "-17.322558",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjá for. á Hallbj.st. T... 1889.",
@@ -2598,31 +2558,7 @@
                 "age": null,
                 "status": "Hjá for.",
                 "location": "Hallbjargarstöðum T.",
-                "note": "",
-                "location_obj": {
-                    "id": 16409,
-                    "name": "Hallbjarnarstaðir",
-                    "lat": "65.671379",
-                    "lng": "-17.322558",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hróm. í Skrúfstykki (10 ára) 1890-1891.",
