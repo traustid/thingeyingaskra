@@ -5489,7 +5489,7 @@
 	},
 	{
 		"id": 13617,
-		"name": "Keflavík á Látraströnd",
+		"name": "Keflavík",
 		"lat": "66.171866",
 		"lng": "-18.249487",
 		"location_type": {
@@ -5497,6 +5497,10 @@
 			"name": "Örnefni"
 		},
 		"parent": [
+			{
+				"name": "Látraströnd",
+				"id": 24709
+			},
 			{
 				"name": "Suður-Þingeyjarsýsla",
 				"id": 1003354
@@ -5593,7 +5597,7 @@
 	},
 	{
 		"id": 13977,
-		"name": "Kjálkanes á Látraströnd við Eyjafjörð",
+		"name": "Kjálkanes",
 		"lat": "66.154798",
 		"lng": "-18.31047",
 		"location_type": {
@@ -5601,6 +5605,10 @@
 			"name": "Örnefni"
 		},
 		"parent": [
+			{
+				"name": "Látraströnd",
+				"id": 24709
+			},
 			{
 				"name": "Suður-Þingeyjarsýsla",
 				"id": 1003354
@@ -6021,7 +6029,7 @@
 	},
 	{
 		"id": 15185,
-		"name": "Látrabær á Látraströnd",
+		"name": "Látrabær",
 		"lat": null,
 		"lng": null,
 		"location_type": {
@@ -6029,6 +6037,10 @@
 			"name": "Örnefni"
 		},
 		"parent": [
+			{
+				"name": "Látraströnd",
+				"id": 24709
+			},
 			{
 				"name": "Suður-Þingeyjarsýsla",
 				"id": 1003354
@@ -16158,6 +16170,182 @@
 		"name": "Ytri-Leikskálaá",
 		"lat": "65.905309",
 		"lng": "-17.575305",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Kaldakinn",
+				"id": 16594
+			},
+			{
+				"name": "Suður-Þingeyjarsýsla",
+				"id": 1003354
+			},
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90032,
+		"name": "Hraungerði",
+		"lat": "65.839502",
+		"lng": "-17.357982",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Aðaldalur",
+				"id": 16498
+			},
+			{
+				"name": "Suður-Þingeyjarsýsla",
+				"id": 1003354
+			},
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90033,
+		"name": "Núpar",
+		"lat": "65.935168",
+		"lng": "-17.420108",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Aðaldalur",
+				"id": 16498
+			},
+			{
+				"name": "Suður-Þingeyjarsýsla",
+				"id": 1003354
+			},
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90034,
+		"name": "Grímsey",
+		"lat": "66.541881",
+		"lng": "-18.000719",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90035,
+		"name": "Akureyri",
+		"lat": "65.672285",
+		"lng": "-18.086464",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90036,
+		"name": "Neðri-Dálksstaðir",
+		"lat": "65.756478",
+		"lng": "-18.086943",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Svalbarðsströnd",
+				"id": 25150
+			},
+			{
+				"name": "Suður-Þingeyjarsýsla",
+				"id": 1003354
+			},
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90037,
+		"name": "Efri-Dálksstaðir",
+		"lat": "65.757603",
+		"lng": "-18.083988",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Svalbarðsströnd",
+				"id": 25150
+			},
+			{
+				"name": "Suður-Þingeyjarsýsla",
+				"id": 1003354
+			},
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90038,
+		"name": "Breiðaból",
+		"lat": "65.733743",
+		"lng": "-18.078436",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Svalbarðsströnd",
+				"id": 25150
+			},
+			{
+				"name": "Suður-Þingeyjarsýsla",
+				"id": 1003354
+			},
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90039,
+		"name": "Jódísarstaðir",
+		"lat": "65.812717",
+		"lng": "-17.504568",
 		"location_type": {
 			"id": 1,
 			"name": "Heimilisfang"
