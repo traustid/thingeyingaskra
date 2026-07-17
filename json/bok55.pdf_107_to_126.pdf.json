@@ -1715,7 +1715,31 @@
                 "status": "B.",
                 "location": "Eyvindará",
                 "note": "Hrb.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90040,
+                    "name": "Eyvindará",
+                    "lat": "66.076213",
+                    "lng": "-17.884838",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Neðribæ (37) 1844-61. (Hrb.).",
@@ -3838,7 +3862,7 @@
             "birth": {
                 "original_string": "F. 18/9. 1864 á Svaði.",
                 "date": "1864-09-18",
-                "location": "Svaði",
+                "location": "Svæði",
                 "location_obj": {
                     "id": 90013,
                     "name": "Vað",
@@ -3903,7 +3927,7 @@
                 "original_string": "F. 18/9. 1864 á Svaði.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Svaði",
+                "location": "Svæði",
                 "location_obj": {
                     "id": 90013,
                     "name": "Vað",
