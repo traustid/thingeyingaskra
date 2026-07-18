@@ -328,7 +328,31 @@
             "birth": {
                 "original_string": "F. 25/7. 1871 í Niðribæ, Fl.",
                 "date": "1871-07-25",
-                "location": "Niðribær, Fl."
+                "location": "Neðribær, Fl.",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -374,16 +398,64 @@
                 "original_string": "F. 25/7. 1871 í Niðribæ, Fl.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Niðribær, Fl."
+                "location": "Neðribær, Fl.",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Niðribæ (nýf.) 1871-1873",
                 "year": "1871-1873",
                 "age": null,
                 "status": "",
-                "location": "Niðribær",
+                "location": "Neðribær",
                 "note": "nýf.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Krosshúsum (3) 1874-1875",
@@ -1736,7 +1808,7 @@
                 "note_ref": null,
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -1764,9 +1836,33 @@
                 "year": "1890-1891",
                 "age": null,
                 "status": "Fósturb.",
-                "location": "L. Reykir",
+                "location": "Litlu-Reykir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90045,
+                    "name": "Litlu-Reykir",
+                    "lat": "65.895340",
+                    "lng": "-17.313829",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "1 - Fósturb. á St. Reykjum ... 1892-1893",
@@ -1778,7 +1874,7 @@
                 "note_ref": 1,
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -3031,7 +3127,31 @@
             "death": {
                 "original_string": "D. í A-Krókum 7/12. 1887. 1)",
                 "date": "1887-12-07",
-                "location": "A-Krókar"
+                "location": "Austari-Krókar",
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Sigríður",
@@ -3393,32 +3513,128 @@
                 "status": "Húsk.",
                 "location": "Vatnsleysa",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú og húsk. í A-Krókum (68)-1868-1871",
                 "year": "1868-1871",
                 "age": 68,
                 "status": "Hjú og húsk.",
-                "location": "A-Krókar",
+                "location": "Austari-Krókar",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Próventuk. á sama bæ ... 1872-1876-1886",
                 "year": "1872-1886",
                 "age": null,
                 "status": "Próventuk.",
-                "location": "A-Krókar",
+                "location": "Austari-Krókar",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1887",
                 "original_string": "D. í A-Krókum 7/12. 1887. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "A-Krókar"
+                "location": "Austari-Krókar",
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

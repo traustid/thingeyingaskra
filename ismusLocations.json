@@ -7361,7 +7361,7 @@
 	},
 	{
 		"id": 15053,
-		"name": "Neðribær, Flatey",
+		"name": "Neðribær",
 		"lat": "66.161196",
 		"lng": "-17.850939",
 		"location_type": {
@@ -7369,6 +7369,10 @@
 			"name": "Örnefni"
 		},
 		"parent": [
+			{
+				"name": "Flatey",
+				"id": 24092
+			},
 			{
 				"name": "Suður-Þingeyjarsýsla",
 				"id": 1003354
@@ -8569,9 +8573,9 @@
 	},
 	{
 		"id": 10783,
-		"name": "Skógargerði, Húsavík",
-		"lat": null,
-		"lng": null,
+		"name": "Skógargerði",
+		"lat": 66.039801,
+		"lng": -17.329390,
 		"location_type": {
 			"id": 88,
 			"name": "Örnefni"
@@ -9065,7 +9069,7 @@
 	},
 	{
 		"id": 16637,
-		"name": "Stórureykir",
+		"name": "Stóru-Reykir",
 		"lat": "65.897387",
 		"lng": "-17.315872",
 		"location_type": {
@@ -10305,7 +10309,7 @@
 	},
 	{
 		"id": 10234,
-		"name": "Vestari-Krókar, Fnjóskadalur",
+		"name": "Vestari-Krókar",
 		"lat": "65.893253",
 		"lng": "-17.864567",
 		"location_type": {
@@ -16378,6 +16382,150 @@
 			{
 				"name": "Flateyjardalur",
 				"id": 24091
+			},
+			{
+				"name": "Suður-Þingeyjarsýsla",
+				"id": 1003354
+			},
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90041,
+		"name": "Grýta",
+		"lat": "65.929968",
+		"lng": "-18.107616",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Höfðahverfi",
+				"id": 24527
+			},
+			{
+				"name": "Grýtubakkahreppur",
+				"id": 12834
+			},
+			{
+				"name": "Suður-Þingeyjarsýsla",
+				"id": 1003354
+			},
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90042,
+		"name": "Þingvellir",
+		"lat": "65.760190",
+		"lng": "-17.494087",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Suður-Þingeyjarsýsla",
+				"id": 1003354
+			},
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90043,
+		"name": "Vatnsleysa",
+		"lat": "65.782541",
+		"lng": "-17.914840",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Fnjóskadalur",
+				"id": 16452
+			},
+			{
+				"name": "Suður-Þingeyjarsýsla",
+				"id": 1003354
+			},
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90044,
+		"name": "Grímsgerði",
+		"lat": "65.806220",
+		"lng": "-17.925681",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Fnjóskadalur",
+				"id": 16452
+			},
+			{
+				"name": "Suður-Þingeyjarsýsla",
+				"id": 1003354
+			},
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90045,
+		"name": "Litlu-Reykir",
+		"lat": "65.895340",
+		"lng": "-17.313829",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Reykjahverfi",
+				"id": 1001642
+			},
+			{
+				"name": "Suður-Þingeyjarsýsla",
+				"id": 1003354
+			},
+			{
+				"name": "Ísland",
+				"id": 16573
+			}
+		]
+	},
+	{
+		"id": 90046,
+		"name": "Meyjarhóll",
+		"lat": "65.701790",
+		"lng": "-18.052675",
+		"location_type": {
+			"id": 1,
+			"name": "Heimilisfang"
+		},
+		"parent": [
+			{
+				"name": "Svalbarðsströnd",
+				"id": 25150
 			},
 			{
 				"name": "Suður-Þingeyjarsýsla",

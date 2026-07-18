@@ -2656,7 +2656,7 @@
                 "year": "1849",
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -3264,9 +3264,33 @@
                 "year_or_period": "1872",
                 "age": 18,
                 "status": "Með föður",
-                "location": "Hólmavaður",
+                "location": "Hólmavað",
                 "note": "",
-                "year": "1872"
+                "year": "1872",
+                "location_obj": {
+                    "id": 33760,
+                    "name": "Hólmavað",
+                    "lat": "65.857635",
+                    "lng": "-17.403704",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Narfastöðum (25) - 1880-",
@@ -4527,7 +4551,31 @@
             "death": {
                 "original_string": "D. á Vatnsleysu 31/8. 1805, 80 ára.",
                 "date": "1805-08-31",
-                "location": "Vatnsleysa"
+                "location": "Vatnsleysa",
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Guðný",
@@ -4548,14 +4596,62 @@
                 "status": "E.",
                 "location": "Vatnsleysa",
                 "note": "",
-                "year": "1801-1805"
+                "year": "1801-1805",
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1805",
                 "original_string": "D. á Vatnsleysu 31/8. 1805, 80 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Vatnsleysa"
+                "location": "Vatnsleysa",
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

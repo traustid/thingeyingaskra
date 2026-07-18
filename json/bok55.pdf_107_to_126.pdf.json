@@ -1150,9 +1150,33 @@
                 "year": "1871",
                 "age": 29,
                 "status": "Hjú",
-                "location": "L. Reykir",
+                "location": "Litlu-Reykir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90045,
+                    "name": "Litlu-Reykir",
+                    "lat": "65.895340",
+                    "lng": "-17.313829",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Ófeigsstöðum... 1878-79. (Hrb.)",
@@ -1748,7 +1772,31 @@
                 "status": "B.",
                 "location": "Neðribær",
                 "note": "Hrb.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Gyðugerði (54) 1861-1886.",

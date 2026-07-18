@@ -1531,7 +1531,27 @@
                 "status": "Hjá for.",
                 "location": "Skógargerði",
                 "note": "ára",
-                "year": "1888-1900"
+                "year": "1888-1900",
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2308,7 +2328,35 @@
                 "status": "Tökub.",
                 "location": "Grýta",
                 "note": "Niðurs. '31-",
-                "year": "1829-1834"
+                "year": "1829-1834",
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. á Lónatjörn (12) 1838-1840.",
@@ -3117,7 +3165,7 @@
                 "year": "1863",
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -3782,7 +3830,31 @@
             "birth": {
                 "original_string": "F. 13/10 1887 í Niðribæ.",
                 "date": "1887-10-13",
-                "location": "Niðribær"
+                "location": "Neðribær",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -3823,16 +3895,64 @@
                 "original_string": "F. 13/10 1887 í Niðribæ.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Niðribær"
+                "location": "Neðribær",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Niðribæ (á 1.) 1887-1891.",
                 "year_or_period": "1887-1891",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Niðribær",
+                "location": "Neðribær",
                 "note": "",
-                "year": "1887-1891"
+                "year": "1887-1891",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Þönglabakka (5) 1892-1893.",

@@ -2156,7 +2156,31 @@
                 "location": "Meyjarhóll",
                 "note": "",
                 "note_ref": null,
-                "year": "1885"
+                "year": "1885",
+                "location_obj": {
+                    "id": 90046,
+                    "name": "Meyjarhóll",
+                    "lat": "65.701790",
+                    "lng": "-18.052675",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á sama bæ (37) 1886-1887-1900-",
@@ -2166,7 +2190,31 @@
                 "location": "Meyjarhóll",
                 "note": "",
                 "note_ref": null,
-                "year": "1886-1900"
+                "year": "1886-1900",
+                "location_obj": {
+                    "id": 90046,
+                    "name": "Meyjarhóll",
+                    "lat": "65.701790",
+                    "lng": "-18.052675",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2945,7 +2993,7 @@
                 "year_or_period": "1894-1900",
                 "age": 5,
                 "status": "Hjá for.",
-                "location": "V.-Krókar",
+                "location": "Vestari-Krókar",
                 "note": "",
                 "note_ref": null,
                 "year": "1894-1900"
@@ -3241,7 +3289,7 @@
                 "year": "1888-1891",
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -3587,10 +3635,34 @@
                 "year_or_period": "1890",
                 "age": 32,
                 "status": "Óm.",
-                "location": "Niðribær",
+                "location": "Neðribær",
                 "note": "",
                 "note_ref": null,
-                "year": "1890"
+                "year": "1890",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Óm. í Uppibæ (33) 1891.",
@@ -4225,7 +4297,31 @@
             "birth": {
                 "original_string": "F. 27/8. 1863 í A-Krókum.",
                 "date": "1863-08-27",
-                "location": "A-Krókar"
+                "location": "Austari-Krókar",
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -4279,17 +4375,65 @@
                 "original_string": "F. 27/8. 1863 í A-Krókum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "A-Krókar"
+                "location": "Austari-Krókar",
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í A-Krókum (1 árs) 1863-1869-1876-1890.",
                 "year_or_period": "1863-1890",
                 "age": 1,
                 "status": "Með for.",
-                "location": "A-Krókar",
+                "location": "Austari-Krókar",
                 "note": "",
                 "note_ref": null,
-                "year": "1863-1890"
+                "year": "1863-1890",
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. á Þórðarstöðum (28) 1891.",

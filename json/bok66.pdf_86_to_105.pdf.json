@@ -3521,10 +3521,10 @@
                 }
             },
             {
-                "original_string": "\"Í hreppi\" á Náttalestöðum (12) 1842.",
+                "original_string": "\"Í hreppi\" á Kaðalstöðum (12) 1842.",
                 "year": "1842",
                 "age": 12,
-                "location": "Náttalestaðir",
+                "location": "Kaðalsstaðir",
                 "note": "\"Í hreppi\""
             },
             {
@@ -3598,7 +3598,27 @@
                 "year": "1845",
                 "age": 14,
                 "location": "Þingvellir",
-                "note": "Smali frá Þönglabakka"
+                "note": "Smali frá Þönglabakka",
+                "location_obj": {
+                    "id": 90042,
+                    "name": "Þingvellir",
+                    "lat": "65.760190",
+                    "lng": "-17.494087",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Laxamýri (18 ára) 1850.",
@@ -3666,7 +3686,7 @@
                 "original_string": "Hjú í Ytri Tungu (20 ára) 1853.",
                 "year": "1853",
                 "age": null,
-                "location": "Ytri Tungu",
+                "location": "Ytri-Tungu",
                 "note": "Hjú, 20 ára"
             }
         ],

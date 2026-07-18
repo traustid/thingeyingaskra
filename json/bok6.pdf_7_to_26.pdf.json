@@ -1970,16 +1970,40 @@
                 "year": "1891",
                 "age": 14,
                 "status": "Lettadr.",
-                "location": "L. Reykir",
+                "location": "Litlu-Reykir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90045,
+                    "name": "Litlu-Reykir",
+                    "lat": "65.895340",
+                    "lng": "-17.313829",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Lettadr. á Hóluravaði (15) 1892.",
+                "original_string": "Lettadr. á Hólmavaði (15) 1892.",
                 "year": "1892",
                 "age": 15,
                 "status": "Lettadr.",
-                "location": "Hóluravað",
+                "location": "Hólmavað",
                 "note": "",
                 "note_ref": null
             },

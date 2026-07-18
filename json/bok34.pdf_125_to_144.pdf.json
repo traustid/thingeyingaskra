@@ -120,8 +120,32 @@
                 "year": "1847",
                 "age": 4,
                 "status": "Tökub.",
-                "location": "Hólmavaður",
-                "note": ""
+                "location": "Hólmavað",
+                "note": "",
+                "location_obj": {
+                    "id": 33760,
+                    "name": "Hólmavað",
+                    "lat": "65.857635",
+                    "lng": "-17.403704",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á St. Reykjum (7) 1849.",
@@ -132,7 +156,7 @@
                 "note": "",
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -1538,7 +1562,31 @@
                 "age": 46,
                 "status": "Húsm.",
                 "location": "Neðribær",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1579,7 +1627,7 @@
                 "year": "1888",
                 "age": 32,
                 "status": "Hjú",
-                "location": "V-Krókar",
+                "location": "Vestari-Krókar",
                 "note": ""
             }
         ],
@@ -2970,7 +3018,7 @@
                 "year": "1876-1877",
                 "age": 42,
                 "status": "Húsm.",
-                "location": "Dalir",
+                "location": "Dæli",
                 "note": ""
             },
             {

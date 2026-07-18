@@ -458,7 +458,35 @@
             "birth": {
                 "original_string": "F. 30/1 1837 í Grýtu.",
                 "date": "1837-01-30",
-                "location": "Grýta"
+                "location": "Grýta",
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -503,7 +531,35 @@
                 "original_string": "F. 30/1 1837 í Grýtu.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grýta"
+                "location": "Grýta",
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Grenivík (3) - 1840-1844-",
@@ -1871,7 +1927,35 @@
                 "status": "G. húsm.",
                 "location": "Grýta",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. Húsm. í Sundi (45) 1867-1869.",
@@ -2046,7 +2130,31 @@
                 "status": "Hjú",
                 "location": "Meyjarhóll",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90046,
+                    "name": "Meyjarhóll",
+                    "lat": "65.701790",
+                    "lng": "-18.052675",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. í Leifshúsum (58) 1887",
@@ -2964,9 +3072,33 @@
                 "year": "1893-1895",
                 "age": 31,
                 "status": "B.",
-                "location": "L. Reykir",
+                "location": "Litlu-Reykir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90045,
+                    "name": "Litlu-Reykir",
+                    "lat": "65.895340",
+                    "lng": "-17.313829",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á St. Reykjum (34) 1896-1900-",
@@ -2978,7 +3110,7 @@
                 "note_ref": null,
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {

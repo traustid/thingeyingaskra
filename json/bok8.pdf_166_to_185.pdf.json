@@ -2729,7 +2729,27 @@
                 "age": 25,
                 "status": "Hjá for.",
                 "location": "Skógargerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Lausam. í Arnarbæ (26 ára) 1883-1885.",
@@ -4568,7 +4588,35 @@
                 "age": 6,
                 "status": "Hjá for.",
                 "location": "Grýta",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttap. í Garðsvík (15) 1852-1855.",

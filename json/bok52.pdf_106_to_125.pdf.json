@@ -273,11 +273,11 @@
                 }
             },
             {
-                "original_string": "Hjú á Hussungsstöðum (37) 1838-1839.",
+                "original_string": "Hjú á Kussungsstöðum (37) 1838-1839.",
                 "year_or_period": "1838-1839",
                 "age": 37,
                 "status": "Hjú",
-                "location": "Hussungsstaðir",
+                "location": "Kussungsstaðir",
                 "note": "",
                 "year": "1838-1839",
                 "location_obj": {
@@ -1610,7 +1610,7 @@
                 "year_or_period": "1899-1900",
                 "age": 34,
                 "status": "Ráðskona",
-                "location": "Dalir",
+                "location": "Dæli",
                 "note": "",
                 "year": "1899-1900"
             }
@@ -1655,7 +1655,31 @@
                 "original_string": "D. í Grímsgerði 21/6. 1850. 4)",
                 "date": "1850-06-21",
                 "location": "Grímsgerði",
-                "note_ref": 4
+                "note_ref": 4,
+                "location_obj": {
+                    "id": 90044,
+                    "name": "Grímsgerði",
+                    "lat": "65.806220",
+                    "lng": "-17.925681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Kristjana",
@@ -1932,7 +1956,7 @@
                 "year": "1831",
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -2037,7 +2061,7 @@
                 "year": "1840-1842",
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -2140,7 +2164,31 @@
                 "original_string": "D. í Grímsgerði 21/6. 1850. 4)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Grímsgerði"
+                "location": "Grímsgerði",
+                "location_obj": {
+                    "id": 90044,
+                    "name": "Grímsgerði",
+                    "lat": "65.806220",
+                    "lng": "-17.925681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -3749,9 +3797,33 @@
                 "year_or_period": "1805-1816",
                 "age": 7,
                 "status": "Með móður",
-                "location": "A.-Krókar",
+                "location": "Austari-Krókar",
                 "note": "",
-                "year": "1805-1816"
+                "year": "1805-1816",
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Ljósavatni (32) -1830-1838-1847.",

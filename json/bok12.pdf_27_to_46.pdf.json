@@ -582,11 +582,11 @@
                 }
             },
             {
-                "original_string": "Hjú í Siglavík (61) 1809.",
+                "original_string": "Hjú í Sigluvík (61) 1809.",
                 "year": "1809",
                 "age": 61,
                 "status": "Hjú",
-                "location": "Siglavík",
+                "location": "Sigluvík",
                 "note": "",
                 "note_ref": null
             }
@@ -1185,7 +1185,7 @@
                 "year": "1889-1890",
                 "age": 41,
                 "status": "Hjú / Á sveit",
-                "location": "Ytri Tunga",
+                "location": "Ytri-Tunga",
                 "note": "",
                 "note_ref": null
             },
@@ -1392,7 +1392,35 @@
             "birth": {
                 "original_string": "F. 23/7. 1841 í Grýtu, Höfðahv.",
                 "date": "1841-07-23",
-                "location": "Grýta, Höfðahverfi"
+                "location": "Grýta, Höfðahverfi",
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1449,7 +1477,35 @@
                 "original_string": "F. 23/7. 1841 í Grýtu, Höfðahv.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grýta, Höfðahverfi"
+                "location": "Grýta, Höfðahverfi",
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Grýtu (á 1.) 1840-1850-",
@@ -1458,7 +1514,35 @@
                 "status": "Hjá for.",
                 "location": "Grýta",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Böðvarsnesi (20) 1861-1862.",

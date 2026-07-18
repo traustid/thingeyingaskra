@@ -2090,7 +2090,7 @@
             "birth": {
                 "original_string": "F. 17/9. 1852 í Syðri Tungu.-",
                 "date": "1852-09-17",
-                "location": "Syðri Tunga"
+                "location": "Syðri-Tunga"
             },
             "death": {
                 "original_string": "D. 5/2. 1942.",
@@ -2182,7 +2182,7 @@
                 "original_string": "F. 17/9. 1852 í Syðri Tungu.-",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Syðri Tunga"
+                "location": "Syðri-Tunga"
             },
             {
                 "original_string": "Hjá for. í Árbót (6) 1857-1868.",
@@ -4008,9 +4008,33 @@
                 "year": "1886-1891",
                 "age": 5,
                 "status": "Hjá for.",
-                "location": "Niðribær",
+                "location": "Neðribær",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Þönglabakka (11) 1892-1893.",
@@ -4350,11 +4374,11 @@
                 }
             },
             {
-                "original_string": "Hjú í Siglavík (30) 1881.",
+                "original_string": "Hjú í Sigluvík (30) 1881.",
                 "year": "1881",
                 "age": 30,
                 "status": "Hjú",
-                "location": "Siglavík",
+                "location": "Sigluvík",
                 "note": "",
                 "note_ref": null
             },

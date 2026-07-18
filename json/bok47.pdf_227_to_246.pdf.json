@@ -1342,7 +1342,27 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Skógargerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Syðritungu (4 ára) 1848-1850.",
@@ -3482,7 +3502,31 @@
                 "age": 49,
                 "status": "Hjú",
                 "location": "Grímsgerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90044,
+                    "name": "Grímsgerði",
+                    "lat": "65.806220",
+                    "lng": "-17.925681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Draflastöðum (51) 1870-1871.",

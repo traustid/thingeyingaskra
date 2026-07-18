@@ -388,7 +388,31 @@
             "birth": {
                 "original_string": "4/10 1872 á Litlu-Reykjum",
                 "date": "1872-10-04",
-                "location": "Litlu-Reykir"
+                "location": "Litlu-Reykir",
+                "location_obj": {
+                    "id": 90045,
+                    "name": "Litlu-Reykir",
+                    "lat": "65.895340",
+                    "lng": "-17.313829",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -434,7 +458,31 @@
                 "original_string": "4/10 1872 á Litlu-Reykjum",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Litlu-Reykir"
+                "location": "Litlu-Reykir",
+                "location_obj": {
+                    "id": 90045,
+                    "name": "Litlu-Reykir",
+                    "lat": "65.895340",
+                    "lng": "-17.313829",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á L. Reykjum (1 árs) 1874.",
@@ -444,7 +492,31 @@
                 "location": "Litlu-Reykir",
                 "note": "",
                 "note_ref": null,
-                "year": "1874"
+                "year": "1874",
+                "location_obj": {
+                    "id": 90045,
+                    "name": "Litlu-Reykir",
+                    "lat": "65.895340",
+                    "lng": "-17.313829",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -533,17 +605,65 @@
                 "location": "Vatnsleysa",
                 "note": "",
                 "note_ref": null,
-                "year": "1868-1884"
+                "year": "1868-1884",
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í A-Krókum (19) 1885.",
                 "year_or_period": "1885",
                 "age": 19,
                 "status": "Hjú",
-                "location": "A-Krókar",
+                "location": "Austari-Krókar",
                 "note": "",
                 "note_ref": null,
-                "year": "1885"
+                "year": "1885",
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Veisuseli (20) 1886-1887-1889.",

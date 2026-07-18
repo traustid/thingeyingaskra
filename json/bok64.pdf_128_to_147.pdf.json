@@ -978,7 +978,7 @@
                 "year_or_period": "1878-1896",
                 "age": 41,
                 "status": "B.",
-                "location": "Dalir",
+                "location": "Dæli",
                 "note": "",
                 "note_ref": null,
                 "year": "1878-1896"
@@ -2455,7 +2455,7 @@
                 "year": "1893-1895",
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -2483,10 +2483,34 @@
                 "year_or_period": "1896-1900",
                 "age": 4,
                 "status": "",
-                "location": "L. Reykir",
+                "location": "Litlu-Reykir",
                 "note": "",
                 "note_ref": null,
-                "year": "1896-1900"
+                "year": "1896-1900",
+                "location_obj": {
+                    "id": 90045,
+                    "name": "Litlu-Reykir",
+                    "lat": "65.895340",
+                    "lng": "-17.313829",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2717,7 +2741,31 @@
                 "location": "Vatnsleysa",
                 "note": "",
                 "note_ref": null,
-                "year": "1855"
+                "year": "1855",
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Til parfa á Svalbarði (70) 1856-1859-1860.",
@@ -3805,7 +3853,31 @@
                 "location": "Neðribær",
                 "note": "Með for.",
                 "note_ref": null,
-                "year": "1847"
+                "year": "1847",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Bróðurson B. á Eyri Fl. (12) 1848.",

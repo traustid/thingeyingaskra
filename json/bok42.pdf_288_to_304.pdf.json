@@ -540,13 +540,37 @@
                 }
             },
             {
-                "original_string": "Hjú á Amdísarst. (20) 1850.",
+                "original_string": "Hjú á Arndísarst. (20) 1850.",
                 "year": "1850",
                 "age": 20,
                 "status": "Hjú",
-                "location": "Amdísarstaðir",
+                "location": "Arndísarstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15089,
+                    "name": "Arndísarstaðir",
+                    "lat": "65.648607",
+                    "lng": "-17.523857",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Kambsstöðum (24) 1850. ?",
@@ -1184,11 +1208,11 @@
                 }
             },
             {
-                "original_string": "Tökub. á Hussungsstöðum (10) 1880-1882-1886.",
+                "original_string": "Tökub. á Kussungsstöðum (10) 1880-1882-1886.",
                 "year": "1880-1886",
                 "age": 10,
                 "status": "Tökub.",
-                "location": "Hussungsstöðum",
+                "location": "Kussungsstöðum",
                 "note": "",
                 "note_ref": null
             },
@@ -1547,7 +1571,7 @@
                 "note_ref": null,
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -2356,7 +2380,7 @@
                 "year": "1844-1845",
                 "age": 3,
                 "status": "Með for.",
-                "location": "Hóli Fj.",
+                "location": "Hóll Fj.",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {

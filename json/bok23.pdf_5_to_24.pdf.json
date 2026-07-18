@@ -1980,7 +1980,31 @@
             "birth": {
                 "original_string": "F. 1/9. 1860 í Neðribæ, Flatey.",
                 "date": "1860-09-01",
-                "location": "Neðribær, Flatey"
+                "location": "Neðribær, Flatey",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -2034,7 +2058,31 @@
                 "original_string": "F. 1/9. 1860 í Neðribæ, Flatey.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Neðribær, Flatey"
+                "location": "Neðribær, Flatey",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Neðribæ (1/2 árs) 1860-",
@@ -2043,7 +2091,31 @@
                 "status": "Hjá for.",
                 "location": "Neðribær",
                 "note": "",
-                "year": "1860"
+                "year": "1860",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Gýðugerði (1/2 árs) 1861-1876.",
@@ -2095,9 +2167,33 @@
                 "year_or_period": "1894-1895",
                 "age": 34,
                 "status": "G. hjú",
-                "location": "A-Krókar",
+                "location": "Austari-Krókar",
                 "note": "",
-                "year": "1894-1895"
+                "year": "1894-1895",
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsk. í Þúfu (36) 1897-1900.",

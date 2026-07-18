@@ -655,7 +655,27 @@
                 "status": "Húsk.",
                 "location": "Skógargerði",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. í Naustum (51 árs) 1869.",
@@ -682,7 +702,27 @@
                 "status": "Húsk.",
                 "location": "Skógargerði",
                 "note": "!",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. í Húsavík (44 ára) 1872-1873.",
@@ -775,9 +815,9 @@
                 }
             },
             "death": {
-                "original_string": "D. á Amdísarst. 20/6 1862.",
+                "original_string": "D. á Arndísarst. 20/6 1862.",
                 "date": "1862-06-20",
-                "location": "Amdísarst."
+                "location": "Arndísarst."
             },
             "names": [
                 "Guðlaug",
@@ -939,29 +979,77 @@
                 }
             },
             {
-                "original_string": "Systir B. á Amdísarst. (68) 1850-1851.",
+                "original_string": "Systir B. á Arndísarst. (68) 1850-1851.",
                 "year": "1850-1851",
                 "age": 68,
                 "status": "Systir B.",
-                "location": "Amdísarstaðir",
+                "location": "Arndísarstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15089,
+                    "name": "Arndísarstaðir",
+                    "lat": "65.648607",
+                    "lng": "-17.523857",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Próventuk. á Amdísarst. (76) 1852-1858.",
+                "original_string": "Próventuk. á Arndísarst. (76) 1852-1858.",
                 "year": "1852-1858",
                 "age": 76,
                 "status": "Próventuk.",
-                "location": "Amdísarstaðir",
+                "location": "Arndísarstaðir",
                 "note": "",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 15089,
+                    "name": "Arndísarstaðir",
+                    "lat": "65.648607",
+                    "lng": "-17.523857",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1862",
-                "original_string": "D. á Amdísarst. 20/6 1862.",
+                "original_string": "D. á Arndísarst. 20/6 1862.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Amdísarst."
+                "location": "Arndísarst."
             }
         ],
         "notes": {

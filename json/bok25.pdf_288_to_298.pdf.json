@@ -1828,7 +1828,35 @@
                 "age": 41,
                 "status": "G. húsav.",
                 "location": "Grýta",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsm. í Gressivíkurkoti (50) 1878-1880.",
@@ -2575,7 +2603,7 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Kussungst... 1895.",
+                "original_string": "Hjá for. á Kussungsst... 1895.",
                 "year": "1895",
                 "age": null,
                 "status": "Hjá for.",

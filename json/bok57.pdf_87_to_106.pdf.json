@@ -2543,7 +2543,35 @@
                 "status": "Léttast",
                 "location": "Grýta",
                 "note": "",
-                "year": "1851-1852"
+                "year": "1851-1852",
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá móður í Fagrabæ... 1854-1855.",
@@ -3794,10 +3822,10 @@
             "birth": {
                 "original_string": "F. 17/11. 1853 á Stórureykjum.",
                 "date": "1853-11-17",
-                "location": "Stórureykir",
+                "location": "Stóru-Reykir",
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -3875,10 +3903,10 @@
                 "original_string": "F. 17/11. 1853 á Stórureykjum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Stórureykir",
+                "location": "Stóru-Reykir",
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -3911,7 +3939,7 @@
                 "year": "1855-",
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {

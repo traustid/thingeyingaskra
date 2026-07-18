@@ -473,7 +473,31 @@
                 "status": "Hjú",
                 "location": "Meyjarhóll",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90046,
+                    "name": "Meyjarhóll",
+                    "lat": "65.701790",
+                    "lng": "-18.052675",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Draflastöðum (24) 1893. ?",
@@ -3732,7 +3756,7 @@
                 "note_ref": null,
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -3765,7 +3789,7 @@
                 "note_ref": null,
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -3923,7 +3947,27 @@
                 "status": "Húsfr.",
                 "location": "Skógargerði",
                 "note": "?",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Ytritungu (36 ára) 1848.",

@@ -586,7 +586,27 @@
                 "age": 27,
                 "status": "Húsm.",
                 "location": "Skógargerði",
-                "note": "Lesandi. Samil. vinnandi. Í meðallagi guðhræddur og samvizkusamur."
+                "note": "Lesandi. Samil. vinnandi. Í meðallagi guðhræddur og samvizkusamur.",
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Vilpu 1828-37.",
@@ -729,7 +749,7 @@
                 "note": "þá blindr",
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {
@@ -961,14 +981,14 @@
         },
         "spouse": [
             {
-                "name": "Arnina Jónsdóttir",
+                "name": "Árnina Jónsdóttir",
                 "date": null,
                 "status": "",
                 "names": [
-                    "Arnina",
+                    "Árnina",
                     "Jónsdóttir"
                 ],
-                "firstName": "Arnina",
+                "firstName": "Árnina",
                 "lastName": "Jónsdóttir"
             },
             {
@@ -983,7 +1003,7 @@
                 "lastName": "Sigurpálsdóttir"
             }
         ],
-        "spouse_original_string": "K.: 1. Arnina Jónsdóttir. - 2. Hólmfríður Sigurpálsd.",
+        "spouse_original_string": "K.: 1. Árnina Jónsdóttir. - 2. Hólmfríður Sigurpálsd.",
         "parents": [
             {
                 "name": "E. Brandsson",
@@ -1032,7 +1052,7 @@
                 "note": "",
                 "location_obj": {
                     "id": 16637,
-                    "name": "Stórureykir",
+                    "name": "Stóru-Reykir",
                     "lat": "65.897387",
                     "lng": "-17.315872",
                     "location_type": {

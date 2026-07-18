@@ -1691,9 +1691,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 18/10. 1798 á Hussungsstöðum. -",
+                "original_string": "F. 18/10. 1798 á Kussungsstöðum. -",
                 "date": "1798-10-18",
-                "location": "Hussungsstaðir",
+                "location": "Kussungsstaðir",
                 "location_obj": {
                     "id": 16613,
                     "name": "Kussungsstaðir",
@@ -1795,10 +1795,10 @@
         "residence_history": [
             {
                 "year": "1798",
-                "original_string": "F. 18/10. 1798 á Hussungsstöðum. -",
+                "original_string": "F. 18/10. 1798 á Kussungsstöðum. -",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hussungsstaðir",
+                "location": "Kussungsstaðir",
                 "location_obj": {
                     "id": 16613,
                     "name": "Kussungsstaðir",
@@ -1825,12 +1825,12 @@
                 }
             },
             {
-                "original_string": "Niðurs. á Eyri Fj. (3) - 1801-1804. Hjá for. á Hussungsstöðum",
+                "original_string": "Niðurs. á Eyri Fj. (3) - 1801-1804. Hjá for. á Kussungsstöðum",
                 "year": "1801-1804",
                 "age": 3,
                 "status": "Niðurs.",
                 "location": "Arnareyri",
-                "note": "Hjá for. á Hussungsstöðum",
+                "note": "Hjá for. á Kussungsstöðum",
                 "note_ref": null,
                 "location_obj": {
                     "id": 9580,
@@ -2550,7 +2550,27 @@
             "death": {
                 "original_string": "D. 29/4. 1840 í Skógargerði. 1)",
                 "date": "1840-04-29",
-                "location": "Skógargerði"
+                "location": "Skógargerði",
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Guðríður",
@@ -2842,7 +2862,27 @@
                 "status": "Húsfr.",
                 "location": "Skógargerði",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Bústýra (sr. Gísla) í Skógargerði 1841.",
@@ -2851,14 +2891,54 @@
                 "status": "Bústýra",
                 "location": "Skógargerði",
                 "note": "(sr. Gísla)",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1840",
                 "original_string": "D. 29/4. 1840 í Skógargerði. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Skógargerði"
+                "location": "Skógargerði",
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

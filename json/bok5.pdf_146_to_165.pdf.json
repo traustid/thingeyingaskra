@@ -791,8 +791,32 @@
                 "year": "1842-1843",
                 "age": null,
                 "status": "Hjú",
-                "location": "A.-Krókar",
-                "note": ""
+                "location": "Austari-Krókar",
+                "note": "",
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Sigríðarstöðum (36) 1844-45-1847",
@@ -2248,7 +2272,31 @@
             "death": {
                 "original_string": "D. í Grímsgerði 10/2 1831",
                 "date": "1831-02-10",
-                "location": "Grímsgerði"
+                "location": "Grímsgerði",
+                "location_obj": {
+                    "id": 90044,
+                    "name": "Grímsgerði",
+                    "lat": "65.806220",
+                    "lng": "-17.925681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Ástþrúður",
@@ -2353,14 +2401,62 @@
                 "age": 91,
                 "status": "Móðir B.",
                 "location": "Grímsgerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90044,
+                    "name": "Grímsgerði",
+                    "lat": "65.806220",
+                    "lng": "-17.925681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1831",
                 "original_string": "D. í Grímsgerði 10/2 1831",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Grímsgerði"
+                "location": "Grímsgerði",
+                "location_obj": {
+                    "id": 90044,
+                    "name": "Grímsgerði",
+                    "lat": "65.806220",
+                    "lng": "-17.925681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

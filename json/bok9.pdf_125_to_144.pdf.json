@@ -3146,7 +3146,31 @@
             "birth": {
                 "original_string": "F. 1/4. 1878 í Niðriba.",
                 "date": "1878-04-01",
-                "location": "Niðribær"
+                "location": "Neðribær",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3203,7 +3227,31 @@
                 "original_string": "F. 1/4. 1878 í Niðriba.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Niðribær"
+                "location": "Neðribær",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Nýjabæ (1 árs) 1878.- Með móður í Nýjabæ (2) 1879.",
@@ -3219,9 +3267,33 @@
                 "year": "1888-1889",
                 "age": 10,
                 "status": "Með móður",
-                "location": "A.-Krókar",
+                "location": "Austari-Krókar",
                 "note": "Léttast '89.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Landamóti (hjú) (15) 1892-1893.",

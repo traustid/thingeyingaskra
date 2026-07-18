@@ -1354,7 +1354,31 @@
             "birth": {
                 "original_string": "F. 17/12 1827. á Vatnsleysu ?",
                 "date": "1827-12-17",
-                "location": "Vatnsleysa"
+                "location": "Vatnsleysa",
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1399,7 +1423,31 @@
                 "original_string": "F. 17/12 1827. á Vatnsleysu ?",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Vatnsleysa"
+                "location": "Vatnsleysa",
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttadr. á Þóroddsstað (16) 1844-",
@@ -2839,7 +2887,7 @@
     {
         "person": {
             "name": "Jóhannes Jónsson",
-            "status": "á Hussungsstöðum",
+            "status": "á Kussungsstöðum",
             "unmarried": false,
             "birth": {
                 "original_string": "F. 22/11. 1840.",
@@ -2941,11 +2989,11 @@
                 "note_ref": null
             },
             {
-                "original_string": "B. á Hussungsstöðum (48) 1888-1896.",
+                "original_string": "B. á Kussungsstöðum (48) 1888-1896.",
                 "year": "1888-1896",
                 "age": 48,
                 "status": "Bóndi",
-                "location": "Hussungsstaðir",
+                "location": "Kussungsstaðir",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {

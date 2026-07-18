@@ -516,7 +516,31 @@
                 "status": "Hjú",
                 "location": "Grímsgerði",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90044,
+                    "name": "Grímsgerði",
+                    "lat": "65.806220",
+                    "lng": "-17.925681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Sigríðarstöðum (22) 1875.",
@@ -2595,18 +2619,18 @@
         },
         "spouse": [
             {
-                "name": "Arni Jakobsson",
+                "name": "Árni Jakobsson",
                 "date": "0000-00-00",
                 "status": "í Skógarseli",
                 "names": [
-                    "Arni",
+                    "Árni",
                     "Jakobsson"
                 ],
-                "firstName": "Arni",
+                "firstName": "Árni",
                 "lastName": "Jakobsson"
             }
         ],
-        "spouse_original_string": "M. : Arni Jakobsson (í Skógarseli).",
+        "spouse_original_string": "M. : Árni Jakobsson (í Skógarseli).",
         "parents": [
             {
                 "name": "J. Kristjánsson",

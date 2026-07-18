@@ -2189,7 +2189,31 @@
                 "status": "",
                 "location": "Grímsgerði",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90044,
+                    "name": "Grímsgerði",
+                    "lat": "65.806220",
+                    "lng": "-17.925681",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2974,11 +2998,11 @@
                 }
             },
             {
-                "original_string": "Hjú í Siglavík ... 1823-1824",
+                "original_string": "Hjú í Sigluvík ... 1823-1824",
                 "year": "1823-1824",
                 "age": null,
                 "status": "Hjú",
-                "location": "Siglavík",
+                "location": "Sigluvík",
                 "note": "",
                 "note_ref": null
             },

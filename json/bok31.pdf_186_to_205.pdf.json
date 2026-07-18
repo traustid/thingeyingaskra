@@ -317,7 +317,27 @@
                 "status": "Hjú",
                 "location": "Skógargerði",
                 "note": "",
-                "year": "1841"
+                "year": "1841",
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Vilpu (29 ára) 1845.",
@@ -1189,7 +1209,31 @@
             "birth": {
                 "original_string": "F. 20/4. 1860 á Hólmavaði.",
                 "date": "1860-04-20",
-                "location": "Hólmavaður"
+                "location": "Hólmavað",
+                "location_obj": {
+                    "id": 33760,
+                    "name": "Hólmavað",
+                    "lat": "65.857635",
+                    "lng": "-17.403704",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -1254,16 +1298,64 @@
                 "original_string": "F. 20/4. 1860 á Hólmavaði.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hólmavaður"
+                "location": "Hólmavað",
+                "location_obj": {
+                    "id": 33760,
+                    "name": "Hólmavað",
+                    "lat": "65.857635",
+                    "lng": "-17.403704",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hólmavaði (1 árs) 1860-1862.",
                 "year_or_period": "1860-1862",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Hólmavaður",
+                "location": "Hólmavað",
                 "note": "",
-                "year": "1860-1862"
+                "year": "1860-1862",
+                "location_obj": {
+                    "id": 33760,
+                    "name": "Hólmavað",
+                    "lat": "65.857635",
+                    "lng": "-17.403704",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Garði A. (4) 1863.",
@@ -1402,9 +1494,33 @@
                 "year_or_period": "1879",
                 "age": 20,
                 "status": "Hjú",
-                "location": "Hólmavaður",
+                "location": "Hólmavað",
                 "note": "",
-                "year": "1879"
+                "year": "1879",
+                "location_obj": {
+                    "id": 33760,
+                    "name": "Hólmavað",
+                    "lat": "65.857635",
+                    "lng": "-17.403704",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Hraunkoti (24) 1883-1884.",

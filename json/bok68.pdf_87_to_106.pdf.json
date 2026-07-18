@@ -385,7 +385,31 @@
             "birth": {
                 "original_string": "F. á Meyjarhóli 11/9. 1890.",
                 "date": "1890-09-11",
-                "location": "Meyjarhóll"
+                "location": "Meyjarhóll",
+                "location_obj": {
+                    "id": 90046,
+                    "name": "Meyjarhóll",
+                    "lat": "65.701790",
+                    "lng": "-18.052675",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -430,7 +454,31 @@
                 "original_string": "F. á Meyjarhóli 11/9. 1890.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Meyjarhóll"
+                "location": "Meyjarhóll",
+                "location_obj": {
+                    "id": 90046,
+                    "name": "Meyjarhóll",
+                    "lat": "65.701790",
+                    "lng": "-18.052675",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Meyjarhóli (1 árs) 1891-1892.",
@@ -438,7 +486,31 @@
                 "age": 1,
                 "status": "Með for.",
                 "location": "Meyjarhóll",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90046,
+                    "name": "Meyjarhóll",
+                    "lat": "65.701790",
+                    "lng": "-18.052675",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Hvammi (Svalb.) (3) 1893-1898.",
@@ -1884,11 +1956,11 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Hussungsstöðum (20) 1897-1899.",
+                "original_string": "Hjá for. á Kussungsstöðum (20) 1897-1899.",
                 "year": "1897-1899",
                 "age": 20,
                 "status": "Hjá for.",
-                "location": "Hussungsstaðir",
+                "location": "Kussungsstaðir",
                 "note": "",
                 "location_obj": {
                     "id": 16613,
@@ -3925,7 +3997,35 @@
                 "age": 34,
                 "status": "Húsfr.",
                 "location": "Grýta",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Fagrabæ (45) 1822-1833.",
@@ -4045,7 +4145,27 @@
                 "age": 48,
                 "status": "Húsfr.",
                 "location": "Skógargerði",
-                "note_ref": 2
+                "note_ref": 2,
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Skógargerði 1806-1810.",
@@ -4053,7 +4173,27 @@
                 "age": null,
                 "status": "Húsfr.",
                 "location": "Skógargerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Búandi E. í Skógargerði 1810-1815.",
@@ -4061,7 +4201,27 @@
                 "age": null,
                 "status": "Búandi E.",
                 "location": "Skógargerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

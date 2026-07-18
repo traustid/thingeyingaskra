@@ -410,14 +410,38 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. í febr. 1779 í Klómbu.",
+                "original_string": "F. í febr. 1779 í Klömbur.",
                 "date": "1779-02-00",
-                "location": "Klómba"
+                "location": "Klömbur"
             },
             "death": {
-                "original_string": "D. í Láfogerði 16/1. 1855",
+                "original_string": "D. í Láfsgerði 16/1. 1855",
                 "date": "1855-01-16",
-                "location": "Láfogerði"
+                "location": "Láfsgerði",
+                "location_obj": {
+                    "id": 15863,
+                    "name": "Láfsgerði",
+                    "lat": "65.73225",
+                    "lng": "-17.418956",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Benjamín",
@@ -466,10 +490,10 @@
         "residence_history": [
             {
                 "year": "1779",
-                "original_string": "F. í febr. 1779 í Klómbu.",
+                "original_string": "F. í febr. 1779 í Klömbur.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Klómba"
+                "location": "Klömbur"
             },
             {
                 "original_string": "Hjú á Grenjaðarstað (20 ára) 1801-1802.",
@@ -905,9 +929,29 @@
                 "year_or_period": "1844-1853",
                 "age": null,
                 "status": "B.",
-                "location": "Þingvellir, Þingey",
+                "location": "Þingvellir",
                 "note": "",
-                "year": "1844-1853"
+                "year": "1844-1853",
+                "location_obj": {
+                    "id": 90042,
+                    "name": "Þingvellir",
+                    "lat": "65.760190",
+                    "lng": "-17.494087",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. frá Þingvöllum að Tungugerði (75) 1853-",
@@ -943,20 +987,68 @@
                 }
             },
             {
-                "original_string": "Faðir konu að Láfogerði frá Tungugerði (77) 1854",
+                "original_string": "Faðir konu að Láfsgerði frá Tungugerði (77) 1854",
                 "year_or_period": "1854",
                 "age": 77,
                 "status": "Faðir konu",
-                "location": "Láfogerði",
+                "location": "Láfsgerði",
                 "note": "frá Tungugerði",
-                "year": "1854"
+                "year": "1854",
+                "location_obj": {
+                    "id": 15863,
+                    "name": "Láfsgerði",
+                    "lat": "65.73225",
+                    "lng": "-17.418956",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1855",
-                "original_string": "D. í Láfogerði 16/1. 1855",
+                "original_string": "D. í Láfsgerði 16/1. 1855",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Láfogerði"
+                "location": "Láfsgerði",
+                "location_obj": {
+                    "id": 15863,
+                    "name": "Láfsgerði",
+                    "lat": "65.73225",
+                    "lng": "-17.418956",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -3647,7 +3739,31 @@
                 "status": "B.",
                 "location": "Neðribær",
                 "note": "",
-                "year": "1801-1805"
+                "year": "1801-1805",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Eyri Fl. (36) 1805-",
@@ -3971,7 +4087,27 @@
                 "status": "Hjá föður",
                 "location": "Skógargerði",
                 "note": "Efnilegur",
-                "year": "1813"
+                "year": "1813",
+                "location_obj": {
+                    "id": 10783,
+                    "name": "Skógargerði",
+                    "lat": 66.039801,
+                    "lng": -17.32939,
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Arnórsstöðum, Jökuldal (1825)- 1834.",

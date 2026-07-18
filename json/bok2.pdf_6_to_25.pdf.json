@@ -73,7 +73,35 @@
             "birth": {
                 "original_string": "F. 9/10 1872 á Grýtu, Höfðahv.",
                 "date": "1872-10-09",
-                "location": "Grýta, Höfðahv."
+                "location": "Grýta, Höfðahv.",
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -120,7 +148,35 @@
                 "original_string": "F. 9/10 1872 á Grýtu, Höfðahv.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grýta, Höfðahv."
+                "location": "Grýta, Höfðahv.",
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Med for. á Grýtubakka (á l.) 1872-1873.",
@@ -156,11 +212,11 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Svalði (3) 1874-1887.",
+                "original_string": "Hjá for. á Svæði (3) 1874-1887.",
                 "year": "1874-1887",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Svalð",
+                "location": "Svæði",
                 "note": "",
                 "note_ref": null
             },
@@ -235,11 +291,11 @@
                 }
             },
             {
-                "original_string": "Hjú í Siglavík (22) 1894.",
+                "original_string": "Hjú í Sigluvík (22) 1894.",
                 "year": "1894",
                 "age": 22,
                 "status": "Hjú",
-                "location": "Siglavík",
+                "location": "Sigluvík",
                 "note": "",
                 "note_ref": null
             },
@@ -277,13 +333,37 @@
                 }
             },
             {
-                "original_string": "Hjú á Amdísarst. (27) 1900.",
+                "original_string": "Hjú á Arndísarst. (27) 1900.",
                 "year": "1900",
                 "age": 27,
                 "status": "Hjú",
-                "location": "Amdísarstaðir",
+                "location": "Arndísarstaðir",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15089,
+                    "name": "Arndísarstaðir",
+                    "lat": "65.648607",
+                    "lng": "-17.523857",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2459,7 +2539,35 @@
                 "status": "Húsfr.",
                 "location": "Grýta",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

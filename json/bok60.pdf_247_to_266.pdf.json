@@ -1855,7 +1855,35 @@
                 "age": 23,
                 "status": "Hjú",
                 "location": "Grýta",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3428,7 +3456,7 @@
                 "year": "1885",
                 "age": 42,
                 "status": "E. húsm.",
-                "location": "Dalir",
+                "location": "Dæli",
                 "note": "smiður"
             }
         ],
