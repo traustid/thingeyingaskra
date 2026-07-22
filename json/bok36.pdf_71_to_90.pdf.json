@@ -828,7 +828,31 @@
             "birth": {
                 "original_string": "F. 19/2. 1800 í Krosshúsum.",
                 "date": "1800-02-19",
-                "location": "Krosshúsum"
+                "location": "Krosshúsum",
+                "location_obj": {
+                    "id": 90049,
+                    "name": "Krosshús",
+                    "lat": "66.162429",
+                    "lng": "-17.843767",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -873,7 +897,31 @@
                 "original_string": "F. 19/2. 1800 í Krosshúsum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Krosshúsum"
+                "location": "Krosshúsum",
+                "location_obj": {
+                    "id": 90049,
+                    "name": "Krosshús",
+                    "lat": "66.162429",
+                    "lng": "-17.843767",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Útibæ (1 árs) 1801-",
@@ -2297,18 +2345,18 @@
                 "note": "að Sveinst.",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 16559,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.746042",
-                    "lng": "-17.270317",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Laxárdalur",
-                            "id": 24700
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2394,31 +2442,7 @@
                 "status": "B.",
                 "location": "Holtum R.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 1004893,
-                    "name": "Holt",
-                    "lat": "65.959297",
-                    "lng": "-18.196958",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Látraströnd",
-                            "id": 24709
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Flytur biferlum að Rauðá 1852.",
@@ -2986,19 +3010,19 @@
         },
         "spouse": [
             {
-                "name": "Johanna J. Jóhannesdóttir",
+                "name": "Jóhanna J. Jóhannesdóttir",
                 "date": "",
                 "status": "",
                 "names": [
-                    "Johanna",
+                    "Jóhanna",
                     "J.",
                     "Jóhannesdóttir"
                 ],
-                "firstName": "Johanna",
+                "firstName": "Jóhanna",
                 "lastName": "Jóhannesdóttir"
             }
         ],
-        "spouse_original_string": "K. : Johanna J. Jóhannesdóttir.",
+        "spouse_original_string": "K. : Jóhanna J. Jóhannesdóttir.",
         "parents": [
             {
                 "name": "Jóh. Pálsson",
@@ -3130,7 +3154,31 @@
                 "status": "G. hjú",
                 "location": "Krosshús",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90049,
+                    "name": "Krosshús",
+                    "lat": "66.162429",
+                    "lng": "-17.843767",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Krosshúsum (26) 1870.",
@@ -3139,7 +3187,31 @@
                 "status": "B.",
                 "location": "Krosshús",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90049,
+                    "name": "Krosshús",
+                    "lat": "66.162429",
+                    "lng": "-17.843767",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Vík (27) 1871.",

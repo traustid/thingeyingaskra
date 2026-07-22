@@ -1208,31 +1208,7 @@
                 "age": 15,
                 "status": "Hjá for.",
                 "location": "Holtakoti R.",
-                "note": "",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú á Þverá R. (18) 1831-1833. (að 1/2 1831).",
@@ -2427,9 +2403,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 12/12. 1875 á Granavatni.",
+                "original_string": "F. 12/12. 1875 á Grænavatni.",
                 "date": "1875-12-12",
-                "location": "Granavatni"
+                "location": "Grænavatni",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2471,7 +2471,7 @@
             },
             {
                 "name": "Þuríður Jónasdóttir",
-                "note": "hj. á Granavatni",
+                "note": "hj. á Grænavatni",
                 "names": [
                     "Þuríður",
                     "Jónasdóttir"
@@ -2480,22 +2480,70 @@
                 "lastName": "Jónasdóttir"
             }
         ],
-        "parents_original_string": "For.: J. Pétursson og Þuríður Jónasdóttir, hj. á Granavatni.",
+        "parents_original_string": "For.: J. Pétursson og Þuríður Jónasdóttir, hj. á Grænavatni.",
         "residence_history": [
             {
                 "year": "1875",
-                "original_string": "F. 12/12. 1875 á Granavatni.",
+                "original_string": "F. 12/12. 1875 á Grænavatni.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Granavatni"
+                "location": "Grænavatni",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. á Granavatni (á 1.) 1875.",
+                "original_string": "Hjá for. á Grænavatni (á 1.) 1875.",
                 "year": "1875",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Granavatni",
-                "note": "á 1."
+                "location": "Grænavatni",
+                "note": "á 1.",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Reykjahlíð (2) 1876-1884.",
@@ -2530,12 +2578,36 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Granavatni (10) 1885-1891.",
+                "original_string": "Hjá for. á Grænavatni (10) 1885-1891.",
                 "year": "1885-1891",
                 "age": 10,
                 "status": "Hjá for.",
-                "location": "Granavatni",
-                "note": ""
+                "location": "Grænavatni",
+                "note": "",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á St. Reykjum (17) 1892-1895.",
@@ -2615,31 +2687,7 @@
                 "age": null,
                 "status": "Lausak.",
                 "location": "Jaðri, Húsav.",
-                "note": "25 ára",
-                "location_obj": {
-                    "id": 1000541,
-                    "name": "Jaðar",
-                    "lat": "65.737432",
-                    "lng": "-17.406817",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": "25 ára"
             },
             {
                 "original_string": "Húsfr. í Hruna (26 ára) 1898-1900.",

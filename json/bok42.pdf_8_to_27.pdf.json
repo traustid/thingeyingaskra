@@ -7,31 +7,7 @@
             "birth": {
                 "original_string": "F. 8/6 1883 á Svaði.",
                 "date": "1883-06-08",
-                "location": "Svæði",
-                "location_obj": {
-                    "id": 90013,
-                    "name": "Vað",
-                    "lat": "65.799802",
-                    "lng": "-17.502078",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Svæði"
             },
             "death": {
                 "original_string": "D. 27/10 1892, 9 ára.",
@@ -79,31 +55,7 @@
                 "original_string": "F. 8/6 1883 á Svaði.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Svæði",
-                "location_obj": {
-                    "id": 90013,
-                    "name": "Vað",
-                    "lat": "65.799802",
-                    "lng": "-17.502078",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Svæði"
             },
             {
                 "original_string": "Hjá for. á Svaði (á 1.) 1883-1887.",
@@ -111,31 +63,7 @@
                 "age": null,
                 "status": "Hjá for.",
                 "location": "Svæði",
-                "note": "á 1.",
-                "location_obj": {
-                    "id": 90013,
-                    "name": "Vað",
-                    "lat": "65.799802",
-                    "lng": "-17.502078",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": "á 1."
             },
             {
                 "original_string": "Hjá for. á Litla-Svaði ... 1888-1891.",
@@ -627,7 +555,31 @@
                 "age": 6,
                 "status": "Hjá for.",
                 "location": "Hofi",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1315,26 +1267,20 @@
             "birth": {
                 "original_string": "F. 18/9 1845 á Vatnsleysu.",
                 "date": "1845-09-18",
-                "location": "Vatnsleysu"
-            },
-            "death": {
-                "original_string": "D. í Tungu F. 7/6 1894.",
-                "date": "1894-06-07",
-                "location": "Tungu F.",
-                "note_ref": 1,
+                "location": "Vatnsleysu",
                 "location_obj": {
-                    "id": 25200,
-                    "name": "Tunga",
-                    "lat": "65.751172",
-                    "lng": "-18.069293",
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1346,6 +1292,12 @@
                         }
                     ]
                 }
+            },
+            "death": {
+                "original_string": "D. í Tungu F. 7/6 1894.",
+                "date": "1894-06-07",
+                "location": "Tungu F.",
+                "note_ref": 1
             },
             "names": [
                 "Jóna",
@@ -1385,7 +1337,31 @@
                 "original_string": "F. 18/9 1845 á Vatnsleysu.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Vatnsleysu"
+                "location": "Vatnsleysu",
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Vatnsleysu (1 árs) 1845.",
@@ -1393,7 +1369,31 @@
                 "age": null,
                 "status": "Hjá for.",
                 "location": "Vatnsleysu",
-                "note": "1 árs"
+                "note": "1 árs",
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá móður á sama bæ (2) 1846-1856.",
@@ -1409,7 +1409,31 @@
                 "age": 14,
                 "status": "Með bróður",
                 "location": "Vatnsleysu",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Dali (16) 1860-1861.",
@@ -1704,31 +1728,7 @@
                 "original_string": "D. í Tungu F. 7/6 1894.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Tungu F.",
-                "location_obj": {
-                    "id": 25200,
-                    "name": "Tunga",
-                    "lat": "65.751172",
-                    "lng": "-18.069293",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Tungu F."
             }
         ],
         "notes": {
@@ -2629,31 +2629,7 @@
             "birth": {
                 "original_string": "F. 3/5 1885 á Svaði.",
                 "date": "1885-05-03",
-                "location": "Svæði",
-                "location_obj": {
-                    "id": 90013,
-                    "name": "Vað",
-                    "lat": "65.799802",
-                    "lng": "-17.502078",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Svæði"
             },
             "death": {
                 "original_string": "",
@@ -2700,31 +2676,7 @@
                 "original_string": "F. 3/5 1885 á Svaði.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Svæði",
-                "location_obj": {
-                    "id": 90013,
-                    "name": "Vað",
-                    "lat": "65.799802",
-                    "lng": "-17.502078",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Svæði"
             },
             {
                 "original_string": "Hjá for. á Svaði (1 árs) 1885-1887.",
@@ -2732,31 +2684,7 @@
                 "age": null,
                 "status": "Hjá for.",
                 "location": "Svæði",
-                "note": "1 árs",
-                "location_obj": {
-                    "id": 90013,
-                    "name": "Vað",
-                    "lat": "65.799802",
-                    "lng": "-17.502078",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": "1 árs"
             },
             {
                 "original_string": "Lettadr. á Illugastöðum (9) 1894-1895.",
@@ -2963,7 +2891,31 @@
                 "age": 31,
                 "status": "Hjú",
                 "location": "Neðribæ",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hússkarl á Sigríðarstöðum (60) 1829-38",

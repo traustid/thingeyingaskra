@@ -83,7 +83,31 @@
                 "status": "Hjá for.",
                 "location": "Hofi",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -912,7 +936,7 @@
                 }
             },
             {
-                "original_string": "Vinnuk. í Viðikeri (17) 1863. x) Hjú (18) frá Stórutungu ad Granavatni 1864. x)",
+                "original_string": "Vinnuk. í Viðikeri (17) 1863. x) Hjú (18) frá Stórutungu ad Grænavatni 1864. x)",
                 "year": "1863-1864",
                 "age": 17,
                 "status": "Vinnuk.",
@@ -1075,7 +1099,7 @@
             }
         ],
         "notes": {
-            "x": "Hjú í Stórutungu (18) 1864. Hjú (19) frá Granavatni ad Narfast.seli 1865."
+            "x": "Hjú í Stórutungu (18) 1864. Hjú (19) frá Grænavatni ad Narfast.seli 1865."
         },
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_15/51",
         "bok": "bok15",
@@ -1916,7 +1940,27 @@
                 "status": "Hjá for.",
                 "location": "Vestari-Krókum",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Litlagerði (20) 1867-1874.",
@@ -3595,7 +3639,35 @@
                 "status": "Hjú",
                 "location": "Grýtu",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Brattatjörn (24) 1844-1847. 1)",

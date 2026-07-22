@@ -89,7 +89,31 @@
                 "age": 68,
                 "status": "Móðir B.",
                 "location": "Miðgerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1815",
@@ -393,31 +417,7 @@
                 "age": 27,
                 "status": "Húsfr.",
                 "location": "Hrappsstöðum B.",
-                "note": "",
-                "location_obj": {
-                    "id": 10417,
-                    "name": "Hrappstaðir",
-                    "lat": "65.541475",
-                    "lng": "-17.470323",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "year": "1843",
@@ -1096,12 +1096,36 @@
                 "location": "Þorsteinsholt"
             },
             {
-                "original_string": "Hjá for. á Kverá Fn. (3) 1829.",
+                "original_string": "Hjá for. á Þverá Fn. (3) 1829.",
                 "year": "1829",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Kverá, Fn.",
-                "note": ""
+                "location": "Þverá, Fn.",
+                "note": "",
+                "location_obj": {
+                    "id": 1006440,
+                    "name": "Þverá",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Veisu (5) 1830-1843.",
@@ -1830,61 +1854,13 @@
             "birth": {
                 "original_string": "F. um 1755 í Holti, Eyjaf.",
                 "date": "1755-00-00",
-                "location": "Holt, Eyjaf.",
-                "location_obj": {
-                    "id": 1004893,
-                    "name": "Holt",
-                    "lat": "65.959297",
-                    "lng": "-18.196958",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Látraströnd",
-                            "id": 24709
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Holt, Eyjaf."
             },
             "death": {
                 "original_string": "D. í Garði F. 27/4. 1817.",
                 "date": "1817-04-27",
                 "location": "Garður F.",
-                "note_ref": 1,
-                "location_obj": {
-                    "id": 16845,
-                    "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": 1
             },
             "names": [
                 "Aldís",
@@ -1936,31 +1912,7 @@
                 "original_string": "F. um 1755 í Holti, Eyjaf.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Holt, Eyjaf.",
-                "location_obj": {
-                    "id": 1004893,
-                    "name": "Holt",
-                    "lat": "65.959297",
-                    "lng": "-18.196958",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Látraströnd",
-                            "id": 24709
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Holt, Eyjaf."
             },
             {
                 "original_string": "G. kona á Hallgilsstöðum (47) 1802.",
@@ -2035,31 +1987,7 @@
                 "original_string": "D. í Garði F. 27/4. 1817.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Garður F.",
-                "location_obj": {
-                    "id": 16845,
-                    "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Garður F."
             }
         ],
         "notes": {
@@ -2300,31 +2228,7 @@
                 "age": 50,
                 "status": "B.",
                 "location": "Holtakot R.",
-                "note": "",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Uppflosn. B. frá Holtakoti R. að Syðrafjalli (51) 1817.",
@@ -2364,31 +2268,7 @@
                 "age": null,
                 "status": "B.",
                 "location": "Holtakot R.",
-                "note": "",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             }
         ],
         "notes": {
@@ -2401,7 +2281,7 @@
     },
     {
         "person": {
-            "name": "Alfheiður Björnsdóttir",
+            "name": "Álfheiður Björnsdóttir",
             "status": "",
             "unmarried": false,
             "birth": {
@@ -2439,10 +2319,10 @@
                 }
             },
             "names": [
-                "Alfheiður",
+                "Álfheiður",
                 "Björnsdóttir"
             ],
-            "firstName": "Alfheiður",
+            "firstName": "Álfheiður",
             "lastName": "Björnsdóttir"
         },
         "spouse": [
@@ -2482,25 +2362,49 @@
                 "lastName": "Kristjánsson"
             },
             {
-                "name": "Alfheiður Einarsdóttir",
+                "name": "Álfheiður Einarsdóttir",
                 "note": "",
                 "names": [
-                    "Alfheiður",
+                    "Álfheiður",
                     "Einarsdóttir"
                 ],
-                "firstName": "Alfheiður",
+                "firstName": "Álfheiður",
                 "lastName": "Einarsdóttir"
             }
         ],
-        "parents_original_string": "Bj. Kristjánsson og Alfheiður Einarsdóttir.",
+        "parents_original_string": "Bj. Kristjánsson og Álfheiður Einarsdóttir.",
         "residence_history": [
             {
-                "original_string": "Hjá for. á Kverá Fn. (1/4 árs) 1836-1843.",
+                "original_string": "Hjá for. á Þverá Fn. (1/4 árs) 1836-1843.",
                 "year": "1836-1843",
                 "age": 0.25,
                 "status": "Hjá for.",
-                "location": "Kverá Fn.",
-                "note": ""
+                "location": "Þverá Fn.",
+                "note": "",
+                "location_obj": {
+                    "id": 1006440,
+                    "name": "Þverá",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Illugastöðum (9) 1843-1845-1846.",
@@ -2814,7 +2718,7 @@
     },
     {
         "person": {
-            "name": "Alfheiður Einarsdóttir",
+            "name": "Álfheiður Einarsdóttir",
             "status": "",
             "unmarried": false,
             "birth": {
@@ -2852,10 +2756,10 @@
                 "location": ""
             },
             "names": [
-                "Alfheiður",
+                "Álfheiður",
                 "Einarsdóttir"
             ],
-            "firstName": "Alfheiður",
+            "firstName": "Álfheiður",
             "lastName": "Einarsdóttir"
         },
         "spouse": [
@@ -3101,12 +3005,36 @@
                 }
             },
             {
-                "original_string": "Húsfr. á Kverá Fn. (31) 1830-1843.",
+                "original_string": "Húsfr. á Þverá Fn. (31) 1830-1843.",
                 "year": "1830-1843",
                 "age": 31,
                 "status": "Húsfr.",
-                "location": "Kverá Fn.",
-                "note": ""
+                "location": "Þverá Fn.",
+                "note": "",
+                "location_obj": {
+                    "id": 1006440,
+                    "name": "Þverá",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Illugastöðum (45) 1843-46.",
@@ -3221,7 +3149,7 @@
     },
     {
         "person": {
-            "name": "Alfheiður Einarsdóttir",
+            "name": "Álfheiður Einarsdóttir",
             "status": "",
             "unmarried": false,
             "birth": {
@@ -3259,10 +3187,10 @@
                 "location": ""
             },
             "names": [
-                "Alfheiður",
+                "Álfheiður",
                 "Einarsdóttir"
             ],
-            "firstName": "Alfheiður",
+            "firstName": "Álfheiður",
             "lastName": "Einarsdóttir"
         },
         "spouse": [],
@@ -3644,38 +3572,14 @@
                 "age": null,
                 "status": "Hjú",
                 "location": "Ás, K.hv.",
-                "note": "",
-                "location_obj": {
-                    "id": 14317,
-                    "name": "Ás",
-                    "lat": "66.022794",
-                    "lng": "-16.473363",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kelduhverfi",
-                            "id": 24585
-                        },
-                        {
-                            "name": "Norður-Þingeyjarsýsla",
-                            "id": 16841
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Ráðsk. í Syðritungu (25 ára) 1863.",
                 "year": "1863",
                 "age": 25,
                 "status": "Ráðsk.",
-                "location": "Syðritunga",
+                "location": "Syðri-Tunga",
                 "note": "",
                 "location_obj": {
                     "id": 10218,
@@ -3707,7 +3611,7 @@
     },
     {
         "person": {
-            "name": "Alfheiður Grímsdóttir",
+            "name": "Álfheiður Grímsdóttir",
             "status": "",
             "unmarried": false,
             "birth": {
@@ -3745,10 +3649,10 @@
                 "location": ""
             },
             "names": [
-                "Alfheiður",
+                "Álfheiður",
                 "Grímsdóttir"
             ],
-            "firstName": "Alfheiður",
+            "firstName": "Álfheiður",
             "lastName": "Grímsdóttir"
         },
         "spouse": [],
@@ -3831,12 +3735,36 @@
                 }
             },
             {
-                "original_string": "Með föður á Kverá Fn. (8) 1845.",
+                "original_string": "Með föður á Þverá Fn. (8) 1845.",
                 "year": "1845",
                 "age": 8,
                 "status": "Með föður",
-                "location": "Kverá Fn.",
-                "note": ""
+                "location": "Þverá Fn.",
+                "note": "",
+                "location_obj": {
+                    "id": 1006440,
+                    "name": "Þverá",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með föður úr Kinn að Fossseli (10) 1847-48.",
@@ -3983,7 +3911,7 @@
     },
     {
         "person": {
-            "name": "Alfheiður Kristjánsdóttir",
+            "name": "Álfheiður Kristjánsdóttir",
             "status": "",
             "unmarried": false,
             "birth": {
@@ -4045,10 +3973,10 @@
                 }
             },
             "names": [
-                "Alfheiður",
+                "Álfheiður",
                 "Kristjánsdóttir"
             ],
-            "firstName": "Alfheiður",
+            "firstName": "Álfheiður",
             "lastName": "Kristjánsdóttir"
         },
         "spouse": [],
@@ -4180,7 +4108,7 @@
     },
     {
         "person": {
-            "name": "Alfheiður Skúladóttir",
+            "name": "Álfheiður Skúladóttir",
             "status": "",
             "unmarried": true,
             "birth": {
@@ -4219,10 +4147,10 @@
                 "note_ref": 1
             },
             "names": [
-                "Alfheiður",
+                "Álfheiður",
                 "Skúladóttir"
             ],
-            "firstName": "Alfheiður",
+            "firstName": "Álfheiður",
             "lastName": "Skúladóttir"
         },
         "spouse": [],

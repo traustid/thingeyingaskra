@@ -760,21 +760,41 @@
                 "note_ref": null
             },
             {
-                "original_string": "Hjú á Mána (19) 1862-1865.",
+                "original_string": "Hjú á Máná (19) 1862-1865.",
                 "year": "1862-1865",
                 "age": 19,
                 "status": "Hjú",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Til heimilis á Bakka, T. (23 ára) 1866 ,, es var á Mána.\"",
+                "original_string": "Til heimilis á Bakka, T. (23 ára) 1866 ,, es var á Máná.\"",
                 "year": "1866",
                 "age": 23,
                 "status": "Til heimilis",
                 "location": "Bakki, T.",
-                "note": ",, es var á Mána.\"",
+                "note": ",, es var á Máná.\"",
                 "note_ref": null,
                 "location_obj": {
                     "id": 23886,
@@ -1097,31 +1117,7 @@
             "death": {
                 "original_string": "D. í Holtakoti R. 24/11. 1888.",
                 "date": "1888-11-24",
-                "location": "Holtakot, R.",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Holtakot, R."
             },
             "names": [
                 "Jón",
@@ -1239,31 +1235,7 @@
                 "status": "Hjá for.",
                 "location": "Holtakot, R.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "B. á sama bæ ... 1887-1888.",
@@ -1279,31 +1251,7 @@
                 "original_string": "D. í Holtakoti R. 24/11. 1888.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Holtakot, R.",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Holtakot, R."
             }
         ],
         "notes": {
@@ -1541,31 +1489,7 @@
                 "status": "Fermdur",
                 "location": "Helgastaðir, pr. k.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24370,
-                    "name": "Helgastaðir",
-                    "lat": "65.7710019691",
-                    "lng": "-17.4054445839",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -2537,31 +2461,7 @@
                 "status": "B.",
                 "location": "Haga",
                 "note": "og e.t.u 1817-1818, einhv. Jón)",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "B. á Knútsstöðum ... 1823-1825.",

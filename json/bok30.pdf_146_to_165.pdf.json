@@ -356,13 +356,37 @@
                 }
             },
             {
-                "original_string": "Hjú á Steindrum (35) 1874-1877.",
+                "original_string": "Hjú á Steindyrum (35) 1874-1877.",
                 "year_or_period": "1874-1877",
                 "age": 35,
                 "status": "Hjú",
-                "location": "Steindrum",
+                "location": "Steindyr",
                 "note": "",
-                "year": "1874-1877"
+                "year": "1874-1877",
+                "location_obj": {
+                    "id": 16615,
+                    "name": "Steindyr",
+                    "lat": "66.015869",
+                    "lng": "-18.276375",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Þverá, Fn. (41) 1882- 1884.",
@@ -2105,7 +2129,7 @@
                 "year_or_period": "1808-1816",
                 "age": 0.5,
                 "status": "Hjá for.",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "year": "1808-1816",
                 "location_obj": {
@@ -2138,7 +2162,7 @@
                 "year_or_period": "1848-1857",
                 "age": 42,
                 "status": "Húsfr.",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "year": "1848-1857",
                 "location_obj": {
@@ -3665,31 +3689,7 @@
                 "status": "Á hreppi",
                 "location": "Tungu Fn.",
                 "note": "",
-                "year": "1877",
-                "location_obj": {
-                    "id": 25200,
-                    "name": "Tunga",
-                    "lat": "65.751172",
-                    "lng": "-18.069293",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1877"
             },
             {
                 "original_string": "Niðurs. á Snæbjarnarst. (72) 1878.",
@@ -4815,7 +4815,31 @@
             "birth": {
                 "original_string": "F. 2/3. 1869 í Miðgerði.",
                 "date": "1869-03-02",
-                "location": "Miðgerði"
+                "location": "Miðgerði",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -4860,7 +4884,31 @@
                 "original_string": "F. 2/3. 1869 í Miðgerði.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Miðgerði"
+                "location": "Miðgerði",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Miðgerði (á 1.) 1869-1870.",
@@ -4869,7 +4917,31 @@
                 "status": "Hjá for.",
                 "location": "Miðgerði",
                 "note": "",
-                "year": "1869-1870"
+                "year": "1869-1870",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Miðgerði (2) 1871-1871",
@@ -4878,7 +4950,31 @@
                 "status": "Með móður",
                 "location": "Miðgerði",
                 "note": "",
-                "year": "1871-1871"
+                "year": "1871-1871",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Sundi (5) 1873.",

@@ -149,7 +149,31 @@
                 "age": 7,
                 "status": "Með móður",
                 "location": "Krosshús",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90049,
+                    "name": "Krosshús",
+                    "lat": "66.162429",
+                    "lng": "-17.843767",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1876,31 +1900,7 @@
                 "age": 20,
                 "status": "Hjú",
                 "location": "Garði Jm.",
-                "note": "",
-                "location_obj": {
-                    "id": 16845,
-                    "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             }
         ],
         "notes": {},
@@ -2151,7 +2151,31 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Miðgerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3574,31 +3598,7 @@
                 "age": 8,
                 "status": "Með móður",
                 "location": "Grund, Húsav.",
-                "note": "",
-                "location_obj": {
-                    "id": 24185,
-                    "name": "Grund",
-                    "lat": "65.913022",
-                    "lng": "-18.075862",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Með móður í Gyðugerði (8) 1898.",
@@ -3906,27 +3906,7 @@
             "birth": {
                 "original_string": "F. 25/8. 1841 á Reykjum, Skjs.",
                 "date": "1841-08-25",
-                "location": "Reykir, Skjs.",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Reykir, Skjs."
             },
             "death": null,
             "names": [
@@ -3967,27 +3947,7 @@
                 "original_string": "F. 25/8. 1841 á Reykjum, Skjs.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Reykir, Skjs.",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Reykir, Skjs."
             },
             {
                 "original_string": "Hjá for. á St. Reykjum (á 1.) 1842-1847.",
@@ -4119,31 +4079,7 @@
                 "age": 19,
                 "status": "Vinnudr.",
                 "location": "Holtakoti R.",
-                "note": "",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú í Kasthvammi (21) 1863.",

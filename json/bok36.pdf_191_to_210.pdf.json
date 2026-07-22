@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. 18/2. 1867 í Miðgerði.",
                 "date": "1867-02-18",
-                "location": "Miðgerði"
+                "location": "Miðgerði",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -64,7 +88,31 @@
                 "original_string": "F. 18/2. 1867 í Miðgerði.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Miðgerði"
+                "location": "Miðgerði",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Miðgerði (á 1.) 1867-1870.",
@@ -72,7 +120,31 @@
                 "age": 1,
                 "status": "Hjá foreldrum",
                 "location": "Miðgerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Sv.óm í Laufási (4) 1871-1881.",
@@ -244,31 +316,7 @@
                 "age": 33,
                 "status": "Bóndi",
                 "location": "Svæði",
-                "note": "",
-                "location_obj": {
-                    "id": 90013,
-                    "name": "Vað",
-                    "lat": "65.799802",
-                    "lng": "-17.502078",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             }
         ],
         "notes": {},
@@ -2396,7 +2444,7 @@
                 }
             },
             {
-                "original_string": "G. húsm. á Granavatni (45) 1893.",
+                "original_string": "G. húsm. á Grænavatni (45) 1893.",
                 "year": "1893",
                 "age": 45,
                 "status": "Gifting",
@@ -2460,7 +2508,7 @@
                 }
             },
             {
-                "original_string": "Hjú á Granavatni (49) 1897.",
+                "original_string": "Hjú á Grænavatni (49) 1897.",
                 "year": "1897",
                 "age": 49,
                 "status": "Hjú",
@@ -2494,7 +2542,7 @@
             }
         ],
         "notes": {
-            "1": "Vinnum. á Granavatni. - Lungnabólga."
+            "1": "Vinnum. á Grænavatni. - Lungnabólga."
         },
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_36/202",
         "bok": "bok36",
@@ -3844,19 +3892,19 @@
         },
         "spouse": [
             {
-                "name": "Johanna Sigurlína Friðbjörnsdóttir",
+                "name": "Jóhanna Sigurlína Friðbjörnsdóttir",
                 "date": "1883",
                 "status": "frá Skálanesi",
                 "names": [
-                    "Johanna",
+                    "Jóhanna",
                     "Sigurlína",
                     "Friðbjörnsdóttir"
                 ],
-                "firstName": "Johanna",
+                "firstName": "Jóhanna",
                 "lastName": "Friðbjörnsdóttir"
             }
         ],
-        "spouse_original_string": "K. 1883: Johanna Sigurlína Friðbjörnsdóttir (frá Skálanesi).",
+        "spouse_original_string": "K. 1883: Jóhanna Sigurlína Friðbjörnsdóttir (frá Skálanesi).",
         "parents": [
             {
                 "name": "Þ. Jóhannesson",
@@ -4014,7 +4062,27 @@
                 "age": 23,
                 "status": "Hjú",
                 "location": "Þingeyrar",
-                "note": "frá Skútustöðum"
+                "note": "frá Skútustöðum",
+                "location_obj": {
+                    "id": 1002918,
+                    "name": "Þingey",
+                    "lat": "65.756383",
+                    "lng": "-17.505076",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

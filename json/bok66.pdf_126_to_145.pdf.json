@@ -1486,7 +1486,31 @@
                 "status": "Bóndi",
                 "location": "Kambsmýrar",
                 "note": "Hrb.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Jökulsá... -1811-",
@@ -1886,7 +1910,7 @@
     {
         "person": {
             "name": "Sveinn Jóakimsson",
-            "status": "á Steindrum",
+            "status": "á Steindyrum",
             "unmarried": false,
             "birth": {
                 "original_string": "F. 31/12. 1874 á Kussungsstöðum.",
@@ -2071,7 +2095,31 @@
                 "status": "Smali",
                 "location": "Miðgerði",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttadr. í Hringsdal (13) 1889.",
@@ -3425,31 +3473,7 @@
             "birth": {
                 "original_string": "F. um 1795 á Þverá, R.hv.",
                 "date": "1795-00-00",
-                "location": "Þverá, R.hv.",
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Þverá, R.hv."
             },
             "death": {
                 "original_string": "",
@@ -3473,31 +3497,7 @@
                 "original_string": "F. um 1795 á Þverá, R.hv.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Þverá, R.hv.",
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Þverá, R.hv."
             },
             {
                 "original_string": "Hjú á Eyri Fl. (18) 1813-1814-1816.",

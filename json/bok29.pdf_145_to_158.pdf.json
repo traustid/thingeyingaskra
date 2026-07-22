@@ -154,7 +154,31 @@
                 "age": 21,
                 "status": "Smali",
                 "location": "Kambsmýrar",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Grenivík (28) 1887.",

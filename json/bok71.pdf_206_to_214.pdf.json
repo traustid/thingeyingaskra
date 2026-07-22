@@ -952,7 +952,31 @@
                 "location": "Miðvík",
                 "note": "",
                 "note_ref": null,
-                "year": "1828"
+                "year": "1828",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Miðvík (6)-1829-1847-1856",
@@ -962,7 +986,31 @@
                 "location": "Miðvík",
                 "note": "",
                 "note_ref": null,
-                "year": "1829-1856"
+                "year": "1829-1856",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Sv. óm. á Svínarnesi ... 1857-1858- og 1860. (34 ára 1860).",
@@ -1509,31 +1557,7 @@
                 "location": "Hóll, K.",
                 "note": "",
                 "note_ref": null,
-                "year": "1801-1802",
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1801-1802"
             },
             {
                 "original_string": "Hjá for. á Þóroddsstað... 1802-1805.",
@@ -1634,24 +1658,64 @@
                 }
             },
             {
-                "original_string": "Hjú á Mána (36) 1829-1832.",
+                "original_string": "Hjú á Máná (36) 1829-1832.",
                 "year_or_period": "1829-1832",
                 "age": 36,
                 "status": "Hjú",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "",
                 "note_ref": null,
-                "year": "1829-1832"
+                "year": "1829-1832",
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Ráðsk. Salomons á Mána 1833.",
+                "original_string": "Ráðsk. Salomons á Máná 1833.",
                 "year_or_period": "1833",
                 "age": null,
                 "status": "Ráðskona",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "Salomons",
                 "note_ref": null,
-                "year": "1833"
+                "year": "1833",
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Haltakoti Lj. (41) 1834-1838-1846.",

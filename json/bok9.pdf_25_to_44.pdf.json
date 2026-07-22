@@ -749,17 +749,17 @@
                 "lastName": "Jóhannesson"
             },
             {
-                "name": "Alfheiður Björnsdóttir",
+                "name": "Álfheiður Björnsdóttir",
                 "note": "",
                 "names": [
-                    "Alfheiður",
+                    "Álfheiður",
                     "Björnsdóttir"
                 ],
-                "firstName": "Alfheiður",
+                "firstName": "Álfheiður",
                 "lastName": "Björnsdóttir"
             }
         ],
-        "parents_original_string": "Jóh. Jóhannesson og Alfheiður Björnsdóttir.",
+        "parents_original_string": "Jóh. Jóhannesson og Álfheiður Björnsdóttir.",
         "residence_history": [
             {
                 "original_string": "Hjá for. á Granastöðum (2) 1858-",
@@ -801,7 +801,31 @@
                 "status": "Hjá for.",
                 "location": "Neðribæ",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Uppibæ (6) 1862-1863.",
@@ -819,14 +843,38 @@
                 "status": "Hjá móður",
                 "location": "Neðribæ",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Héðinshöfða (11 ára) 1866.",
                 "year": "1866",
                 "age": 11,
                 "status": "Með móður",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -859,7 +907,7 @@
                 "year": "1867-1868",
                 "age": null,
                 "status": "Tökup.",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -2108,7 +2156,31 @@
             "birth": {
                 "original_string": "F. 23/6. 1886 á Ytra-Hóli, Kaupangssveit.",
                 "date": "1886-06-23",
-                "location": "Ytra-Hóli, Kaupangssveit"
+                "location": "Ytra-Hóli, Kaupangssveit",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -2161,7 +2233,31 @@
                 "original_string": "F. 23/6. 1886 á Ytra-Hóli, Kaupangssveit.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Ytra-Hóli, Kaupangssveit"
+                "location": "Ytra-Hóli, Kaupangssveit",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Ytri-Vík (4) 1890.",
@@ -2635,31 +2731,7 @@
             "birth": {
                 "original_string": "F. í Haga 12/1. 1822.",
                 "date": "1822-01-12",
-                "location": "Haga",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Haga"
             },
             "death": null,
             "names": [
@@ -2712,31 +2784,7 @@
                 "original_string": "F. í Haga 12/1. 1822.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Haga",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Haga"
             },
             {
                 "original_string": "Hjá móður í Haga (6) 1827-1828.",
@@ -2745,31 +2793,7 @@
                 "status": "Hjá móður",
                 "location": "Haga",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Til Am. frá Sleitustöðum 1876. - N-Dak., bls. 266.",
@@ -2797,7 +2821,7 @@
             "birth": {
                 "original_string": "F. 13/1 1864 á Héðinshöfða.",
                 "date": "1864-01-13",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "location_obj": {
                     "id": 14548,
                     "name": "Héðinshöfði",
@@ -2862,7 +2886,7 @@
                 "original_string": "F. 13/1 1864 á Héðinshöfða.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "location_obj": {
                     "id": 14548,
                     "name": "Héðinshöfði",
@@ -2893,7 +2917,7 @@
                 "year": "1865-1876",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {

@@ -390,31 +390,7 @@
             "birth": {
                 "original_string": "F. 9/1 1846 á Holi k.",
                 "date": "1846-01-09",
-                "location": "Hóll k.",
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Hóll k."
             },
             "death": {
                 "original_string": "D. 7/4 1878, 33 ára.",
@@ -459,31 +435,7 @@
                 "original_string": "F. 9/1 1846 á Holi k.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hóll k.",
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Hóll k."
             },
             {
                 "original_string": "Hjá for. á Lóðísarst. 1847-62, 2-17 ára.",
@@ -2351,7 +2303,27 @@
                 "age": 13,
                 "status": "Léttadr. og vinnup.",
                 "location": "Vestari-Krókar",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Stóruvöllum (19 ára) 1899-1900.",
@@ -2935,8 +2907,32 @@
                 "year": "1802-1805",
                 "age": 19,
                 "status": "Hjú",
-                "location": "Ytrahóll",
-                "note": "17 ára alleh.mt"
+                "location": "Ytri-Hóll",
+                "note": "17 ára alleh.mt",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Böðvarsnesi (33) 1816-",
@@ -3269,31 +3265,7 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Skógar R.",
-                "note": "",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Með móður og stj. í Skógum R. (21) 1827-1831.",
@@ -3301,31 +3273,7 @@
                 "age": 21,
                 "status": "Með móður og stj.",
                 "location": "Skógar R.",
-                "note": "",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "B. í Skógum R. (27) 1832-1862.",
@@ -3333,31 +3281,7 @@
                 "age": 27,
                 "status": "B.",
                 "location": "Skógar R.",
-                "note": "",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Faðir B. í Skógum R. (57) 1863-1864.",
@@ -3365,31 +3289,7 @@
                 "age": 57,
                 "status": "Faðir B.",
                 "location": "Skógar R.",
-                "note": "",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "B. í Skógum (60) 1866-1867.",
@@ -3429,31 +3329,7 @@
                 "age": null,
                 "status": "G. húsm.",
                 "location": "Skógar R.",
-                "note": "",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "G. faðir K. í Skógum R. (64) 1870.",
@@ -3461,31 +3337,7 @@
                 "age": 64,
                 "status": "G. faðir K.",
                 "location": "Skógar R.",
-                "note": "",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "G. húsm. í Skógum R. 1871.",
@@ -3493,31 +3345,7 @@
                 "age": null,
                 "status": "G. húsm.",
                 "location": "Skógar R.",
-                "note": "",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "G. faðir K. í Skógum R. (66) 1872.",
@@ -3525,31 +3353,7 @@
                 "age": 66,
                 "status": "G. faðir K.",
                 "location": "Skógar R.",
-                "note": "",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "B. í Skógum R. ... 1873-1876.",
@@ -3557,31 +3361,7 @@
                 "age": null,
                 "status": "B.",
                 "location": "Skógar R.",
-                "note": "",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Faðir B. í Skógum R. ... 1877.",
@@ -3589,31 +3369,7 @@
                 "age": null,
                 "status": "Faðir B.",
                 "location": "Skógar R.",
-                "note": "",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "G. húsm. í Skógum R. ... 1878-1882.",
@@ -3621,31 +3377,7 @@
                 "age": null,
                 "status": "G. húsm.",
                 "location": "Skógar R.",
-                "note": "",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Faðir B. í Skógumi R. (77) 1884.",
@@ -3653,31 +3385,7 @@
                 "age": 77,
                 "status": "Faðir B.",
                 "location": "Skógum R.",
-                "note": "",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Húsm. á Héðinshöfða (78 ára) 1885-1889.",

@@ -71,12 +71,32 @@
                 }
             },
             {
-                "original_string": "G. húsm. á Mána (36 ára) 1889.",
+                "original_string": "G. húsm. á Máná (36 ára) 1889.",
                 "year": "1889",
                 "age": 36,
                 "status": "G. húsm.",
-                "location": "Máni",
-                "note": ""
+                "location": "Máná",
+                "note": "",
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsm. á Beinabakka (37 ára) 1890-1891.",
@@ -92,31 +112,7 @@
                 "age": 39,
                 "status": "Hjú",
                 "location": "Bakki J.",
-                "note": "",
-                "location_obj": {
-                    "id": 12361,
-                    "name": "Bakki",
-                    "lat": "65.57006",
-                    "lng": "-17.703681",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú á Beinabakka 1893-1895.",
@@ -531,7 +527,31 @@
                 "age": 6,
                 "status": "Hs.m.",
                 "location": "Miðgerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": [],
@@ -1756,31 +1776,7 @@
                 "age": 32,
                 "status": "Hjú",
                 "location": "Brettingsstaðir, Þl.",
-                "note": "?",
-                "location_obj": {
-                    "id": 16545,
-                    "name": "Brettingsstaðir",
-                    "lat": "65.6436240882",
-                    "lng": "-17.1706867218",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": "?"
             }
         ],
         "notes": [],

@@ -379,31 +379,7 @@
                 "status": "Húsk.",
                 "location": "Nesi A., Skógum R.",
                 "note": "Hjá Árna í Skógum R.",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 13945,
-                    "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Húsk. á Hafralæk (47) 1839-1840",
@@ -857,18 +833,18 @@
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 33711,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.760420",
-                    "lng": "-17.388783",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Reykjadalur",
-                            "id": 16405
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1084,9 +1060,29 @@
             "status": "Sigurlaug Helga",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 18/10. 1869 í Þröllakoti.",
+                "original_string": "F. 18/10. 1869 í Tröllakoti.",
                 "date": "1869-10-18",
-                "location": "Þröllakoti"
+                "location": "Tröllakoti",
+                "location_obj": {
+                    "id": 9914,
+                    "name": "Tröllakot",
+                    "lat": "66.076881",
+                    "lng": "-17.322918",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -1137,51 +1133,20 @@
         "residence_history": [
             {
                 "year": "1869",
-                "original_string": "F. 18/10. 1869 í Þröllakoti.",
+                "original_string": "F. 18/10. 1869 í Tröllakoti.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Þröllakoti"
-            },
-            {
-                "original_string": "Hjá for. í Þröllakoti (1 árs) 1870.",
-                "year": "1870",
-                "age": 1,
-                "status": "Hjá for.",
-                "location": "Þröllakoti",
-                "note": "",
-                "note_ref": null
-            },
-            {
-                "original_string": "Með móður á sama stað (1 árs) 1871.",
-                "year": "1871",
-                "age": 1,
-                "status": "Með móður",
-                "location": "Þröllakoti",
-                "note": "sama stað",
-                "note_ref": null
-            },
-            {
-                "original_string": "Barn á Einarsst., R.hv. (2 ára) 1872-1875.",
-                "year": "1872-1875",
-                "age": 2,
-                "status": "Barn",
-                "location": "Einarsstaðir, R.hv.",
-                "note": "",
-                "note_ref": null,
+                "location": "Tröllakoti",
                 "location_obj": {
-                    "id": 16546,
-                    "name": "Einarsstaðir",
-                    "lat": "65.7403968563",
-                    "lng": "-17.4074292183",
+                    "id": 9914,
+                    "name": "Tröllakot",
+                    "lat": "66.076881",
+                    "lng": "-17.322918",
                     "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
+                        "id": 88,
+                        "name": "Örnefni"
                     },
                     "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
                         {
                             "name": "Suður-Þingeyjarsýsla",
                             "id": 1003354
@@ -1192,6 +1157,73 @@
                         }
                     ]
                 }
+            },
+            {
+                "original_string": "Hjá for. í Tröllakoti (1 árs) 1870.",
+                "year": "1870",
+                "age": 1,
+                "status": "Hjá for.",
+                "location": "Tröllakoti",
+                "note": "",
+                "note_ref": null,
+                "location_obj": {
+                    "id": 9914,
+                    "name": "Tröllakot",
+                    "lat": "66.076881",
+                    "lng": "-17.322918",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Með móður á sama stað (1 árs) 1871.",
+                "year": "1871",
+                "age": 1,
+                "status": "Með móður",
+                "location": "Tröllakoti",
+                "note": "sama stað",
+                "note_ref": null,
+                "location_obj": {
+                    "id": 9914,
+                    "name": "Tröllakot",
+                    "lat": "66.076881",
+                    "lng": "-17.322918",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Barn á Einarsst., R.hv. (2 ára) 1872-1875.",
+                "year": "1872-1875",
+                "age": 2,
+                "status": "Barn",
+                "location": "Einarsstaðir, R.hv.",
+                "note": "",
+                "note_ref": null
             },
             {
                 "original_string": "Með móður og stjúpa í Skörðum (11 ára) 1880-86.",
@@ -1264,7 +1296,7 @@
                 "year": "1891",
                 "age": 22,
                 "status": "Ráðskona",
-                "location": "Syðritungu",
+                "location": "Syðri-Tungu",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -1293,7 +1325,7 @@
                 "year": "1892-1896",
                 "age": null,
                 "status": "Húsfr.",
-                "location": "Syðritungu",
+                "location": "Syðri-Tungu",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -1721,31 +1753,7 @@
             "birth": {
                 "original_string": "F. 2/8. 1870 í Garði F.",
                 "date": "1870-08-02",
-                "location": "Garði F.",
-                "location_obj": {
-                    "id": 16845,
-                    "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Garði F."
             },
             "death": null,
             "names": [
@@ -1787,31 +1795,7 @@
                 "original_string": "F. 2/8. 1870 í Garði F.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Garði F.",
-                "location_obj": {
-                    "id": 16845,
-                    "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Garði F."
             },
             {
                 "original_string": "Hjá for. í Garði Fn. (1 árs) 1870-1876-1886.",
@@ -3352,18 +3336,18 @@
                 "note": "",
                 "note_ref": 1,
                 "location_obj": {
-                    "id": 16559,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.746042",
-                    "lng": "-17.270317",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Laxárdalur",
-                            "id": 24700
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

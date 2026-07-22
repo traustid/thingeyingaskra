@@ -226,31 +226,7 @@
             "birth": {
                 "original_string": "F. 24/11 1828 á Þverá Fj.",
                 "date": "1828-11-24",
-                "location": "Þverá, Fj.",
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Þverá, Fj."
             },
             "death": {
                 "original_string": "",
@@ -307,31 +283,7 @@
                 "original_string": "F. 24/11 1828 á Þverá Fj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Þverá, Fj.",
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Þverá, Fj."
             },
             {
                 "original_string": "Hjá for. á Þverá Fj. (2)-1829-",
@@ -340,31 +292,7 @@
                 "status": "Hjá for.",
                 "location": "Þverá, Fj.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Niðurs., fósturb. lettastí [hjú] á Eyri Fj. (9)-1836-1840-1843.",
@@ -1267,18 +1195,18 @@
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 16559,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.746042",
-                    "lng": "-17.270317",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Laxárdalur",
-                            "id": 24700
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1462,7 +1390,27 @@
                 "status": "Hjú",
                 "location": "Vestari-Krókum",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Hálsi Fn. (20) 1808-1811.",
@@ -1669,7 +1617,35 @@
                 "status": "G.",
                 "location": "Grýtu",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90041,
+                    "name": "Grýta",
+                    "lat": "65.929968",
+                    "lng": "-18.107616",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú á Grýtubakka (50) 1837.",
@@ -1777,7 +1753,31 @@
                 "status": "Húsk.",
                 "location": "Miðgerði",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Skeri (76) 1862.",
@@ -2190,7 +2190,31 @@
             "birth": {
                 "original_string": "F. 20/10 1799 í Miðgerði.",
                 "date": "1799-10-20",
-                "location": "Miðgerði"
+                "location": "Miðgerði",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Grund 15/3 1870, 69 ára.",
@@ -2259,7 +2283,31 @@
                 "original_string": "F. 20/10 1799 í Miðgerði.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Miðgerði"
+                "location": "Miðgerði",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Miðgerði (3) 1801-1812?",
@@ -2268,7 +2316,31 @@
                 "status": "Hjá for.",
                 "location": "Miðgerði",
                 "note": "?",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. á Skeri (16) 1815.",
@@ -2306,7 +2378,31 @@
                 "status": "Lettakind",
                 "location": "Miðvík",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú frá Lómatjörn - að Botni (23) 1823.",
@@ -2630,7 +2726,31 @@
                 "status": "Hjú",
                 "location": "Miðgerði",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú og þarfakerling á Grund... 1859-1869.",
@@ -2718,7 +2838,31 @@
             "death": {
                 "original_string": "D. í Miðvík 23/1 1812. (?)",
                 "date": "1812-01-23",
-                "location": "Miðvík"
+                "location": "Miðvík",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Guðlaug",
@@ -2781,7 +2925,31 @@
                 "original_string": "D. í Miðvík 23/1 1812. (?)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Miðvík"
+                "location": "Miðvík",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3025,7 +3193,31 @@
                 "status": "Móðir B.",
                 "location": "Miðvík",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3042,31 +3234,7 @@
             "birth": {
                 "original_string": "F. um 1760 í Garði, Aðald.",
                 "date": "1760-01-01",
-                "location": "Garði, Aðald.",
-                "location_obj": {
-                    "id": 16845,
-                    "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Garði, Aðald."
             },
             "death": {
                 "original_string": "D. 21/4 1835.",
@@ -3112,31 +3280,7 @@
                 "original_string": "F. um 1760 í Garði, Aðald.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Garði, Aðald.",
-                "location_obj": {
-                    "id": 16845,
-                    "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Garði, Aðald."
             },
             {
                 "original_string": "Húsfr. á Jökulsá (39)-1801-",
@@ -3178,7 +3322,31 @@
                 "status": "Húsk.",
                 "location": "Krosshúsum",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90049,
+                    "name": "Krosshús",
+                    "lat": "66.162429",
+                    "lng": "-17.843767",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. í Neðribæ (49)-1811-",
@@ -3187,7 +3355,31 @@
                 "status": "Húsk.",
                 "location": "Neðribæ",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. á Lydrafjalli (51 árs) 1813.",
@@ -3205,7 +3397,31 @@
                 "status": "Húsk.",
                 "location": "Neðribæ",
                 "note": "svo",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. á Bakka, T. (53 ára) 1815.",
@@ -3494,27 +3710,7 @@
                 "status": "Húsfr.",
                 "location": "Reykjum, Fn.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Húsfr. á Bakka Fn. (64) 1830-1831.",
@@ -3523,31 +3719,7 @@
                 "status": "Húsfr.",
                 "location": "Bakki. Fn.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 12361,
-                    "name": "Bakki",
-                    "lat": "65.57006",
-                    "lng": "-17.703681",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "year": "1832",
@@ -4090,7 +4262,31 @@
                 "status": "Hjá móður",
                 "location": "Miðgerði",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -4311,7 +4507,31 @@
                 "status": "G. hjú",
                 "location": "Neðribæ",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsk. í Utíbæ... 1811",

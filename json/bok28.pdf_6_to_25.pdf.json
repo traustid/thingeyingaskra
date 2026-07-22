@@ -431,7 +431,27 @@
                 "status": "Hjá for.",
                 "location": "Vestari-Krókar",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Vegeirsstöðum (5) 1873-1876-1888.",
@@ -1292,31 +1312,7 @@
                 "status": "Hjá for.",
                 "location": "Binningstaðir, L.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 16541,
-                    "name": "Birningsstaðir",
-                    "lat": "65.768257",
-                    "lng": "-17.279065",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Rauðá . . . . 1815 ?",
@@ -1780,31 +1776,7 @@
                 "status": "Hjú",
                 "location": "Bjarnastaðir, B.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 12832,
-                    "name": "Bjarnarstaðir",
-                    "lat": "65.4353456356",
-                    "lng": "-17.3457813263",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Bárðardalur",
-                            "id": 16538
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú í Víðikeri (25) 1873-74.",
@@ -1897,7 +1869,7 @@
             {
                 "name": "Salómon Jónsson",
                 "date": "1833-05-12",
-                "status": "á Mána",
+                "status": "á Máná",
                 "names": [
                     "Salómon",
                     "Jónsson"
@@ -1918,7 +1890,7 @@
                 "lastName": "Jónsson"
             }
         ],
-        "spouse_original_string": "M. 1. Salómon Jónsson (á Mána). (G. 12/5. 1833). 2. Jón pr. Jónsson á Grenjaðarst (s. k. hans) G. 23/9. 1859.",
+        "spouse_original_string": "M. 1. Salómon Jónsson (á Máná). (G. 12/5. 1833). 2. Jón pr. Jónsson á Grenjaðarst (s. k. hans) G. 23/9. 1859.",
         "parents": [
             {
                 "name": "K. Magnússon",
@@ -1953,13 +1925,33 @@
                 "note_ref": null
             },
             {
-                "original_string": "Húsfr. á Mána . . . 1834-(1844).",
+                "original_string": "Húsfr. á Máná . . . 1834-(1844).",
                 "year": "1834-1844",
                 "age": null,
                 "status": "Húsfr.",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Borgarhóli (46 ára) 1845-1850.",
@@ -2079,31 +2071,7 @@
                 "status": "Ekkjufrú",
                 "location": "Þverá, B.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Prestekkja á Grenjaðarst. (79) 1877-1880.",
@@ -2556,31 +2524,7 @@
                 "status": "Húsfr.",
                 "location": "Hóll, K.",
                 "note": "",
-                "note_ref": 1,
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": 1
             },
             {
                 "original_string": "Hjú á Sigurðarstöðum (55). 1812-1815.",
@@ -2704,31 +2648,7 @@
             "death": {
                 "original_string": "D. í Holtakoti L. 30/6. 1838, 78 ára.",
                 "date": "1838-06-30",
-                "location": "Holtakot, L.",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Holtakot, L."
             },
             "names": [
                 "Helga",
@@ -2779,31 +2699,7 @@
                 "status": "G. Móðir B.",
                 "location": "Holtakot, Lj.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Móðir B. í Holtakoti skrifuð í Hriflu (71) 1834-",
@@ -2845,31 +2741,7 @@
                 "status": "Móðir B.",
                 "location": "Holtakot, Lj.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Móðir K. á Landamóti (73) 1837-1838-",
@@ -2909,31 +2781,7 @@
                 "original_string": "D. í Holtakoti L. 30/6. 1838, 78 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Holtakot, L.",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Holtakot, L."
             }
         ],
         "notes": {
@@ -3974,9 +3822,33 @@
                 "year": "1848",
                 "age": 36,
                 "status": "Hjú",
-                "location": "Ytratunga",
+                "location": "Ytri-Tunga",
                 "note": "",
-                "note_ref": "x"
+                "note_ref": "x",
+                "location_obj": {
+                    "id": 16634,
+                    "name": "Ytri-Tunga",
+                    "lat": "66.131539",
+                    "lng": "-17.243242",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. í Trollakoti (39 ára) 1851-1852.",

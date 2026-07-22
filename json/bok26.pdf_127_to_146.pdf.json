@@ -820,31 +820,7 @@
                 "status": "Innhúsmaður",
                 "location": "Þverá Fj.",
                 "note": "",
-                "note_ref": 2,
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": 2
             },
             {
                 "original_string": "B. á Brekku Fj. ... 1817-19. (Hrb.).",
@@ -853,31 +829,7 @@
                 "status": "B.",
                 "location": "Brekku Fj.",
                 "note": "Hrb.",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 90026,
-                    "name": "Brekka",
-                    "lat": "65.839003",
-                    "lng": "-17.334747",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "year": "1819",
@@ -927,7 +879,31 @@
             "birth": {
                 "original_string": "F. um 1863 á Hofi, Höfðastr.",
                 "date": "1863-00-00",
-                "location": "Hofi, Höfðastr"
+                "location": "Hofi, Höfðastr",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -964,7 +940,31 @@
                 "original_string": "F. um 1863 á Hofi, Höfðastr.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hofi, Höfðastr"
+                "location": "Hofi, Höfðastr",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Grund (27) 1890.",
@@ -1109,7 +1109,31 @@
                 "status": "G. húsm.",
                 "location": "Miðgerði",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú í N-Krókum (34) 1897.",
@@ -1227,31 +1251,7 @@
                 "status": "Smali",
                 "location": "Tungu Fn.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 25200,
-                    "name": "Tunga",
-                    "lat": "65.751172",
-                    "lng": "-18.069293",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -1599,31 +1599,7 @@
                 "status": "Hjú",
                 "location": "Halldórsstaðir Kl.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 13949,
-                    "name": "Halldórsstaðir",
-                    "lat": "65.734894",
-                    "lng": "-17.594338",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Ytrafjalli (21) 1900.",
@@ -1886,35 +1862,7 @@
                 "status": "Léttingur",
                 "location": "Nýjabæ Fn.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10294,
-                    "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flatey",
-                            "id": 24092
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Léttingur á Snebjarnarst. (13) 1859.",
@@ -1956,27 +1904,7 @@
                 "status": "Vinnup.",
                 "location": "Reykjum Fn.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -2311,31 +2239,7 @@
                 "status": "Hjú",
                 "location": "Hóll Fj.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Botni ... 1814 - 1817.",
@@ -2410,31 +2314,7 @@
                 "status": "Hjú",
                 "location": "Hóll Fj.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Þönglabakka (50) 1823.",
@@ -3107,7 +2987,31 @@
                 "status": "Hjú",
                 "location": "Hofi",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Vinnup. í Baldursheimi (18) 1839- (Líkl. annar).",

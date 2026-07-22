@@ -343,8 +343,32 @@
                 "year": "1834-1836",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Ytrahóll",
-                "note": ""
+                "location": "Ytri-Hóll",
+                "note": "",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Sýtrahóli (6) 1839-1845-1849 -",
@@ -798,7 +822,27 @@
                 "age": 3,
                 "status": "Hjá for.",
                 "location": "Vestari-Krókar",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Þúfu (4) 1845-1847-1860.",
@@ -1282,7 +1326,7 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Mána (1 árs) 1871-1872.",
+                "original_string": "Hjá for. á Máná (1 árs) 1871-1872.",
                 "year": "1871-1872",
                 "age": 1,
                 "status": "Hjá for.",
@@ -1394,35 +1438,7 @@
                 "age": 48,
                 "status": "G.",
                 "location": "Nýjibær Fn.",
-                "note": "",
-                "location_obj": {
-                    "id": 10294,
-                    "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flatey",
-                            "id": 24092
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú í Hjaltadal (51) 1860-1862.",
@@ -2533,31 +2549,7 @@
                 "age": 14,
                 "status": "Fermd",
                 "location": "Helgastaðir prk.",
-                "note": "",
-                "location_obj": {
-                    "id": 24370,
-                    "name": "Helgastaðir",
-                    "lat": "65.7710019691",
-                    "lng": "-17.4054445839",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú í Múla (19 ára) 1808.",

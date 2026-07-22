@@ -800,31 +800,7 @@
             "death": {
                 "original_string": "D. á Bakka F. 1/2. 1876",
                 "date": "1876-02-01",
-                "location": "Bakki, F.",
-                "location_obj": {
-                    "id": 12361,
-                    "name": "Bakki",
-                    "lat": "65.57006",
-                    "lng": "-17.703681",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Bakki, F."
             },
             "names": [
                 "Magnús",
@@ -1073,31 +1049,7 @@
                 "original_string": "D. á Bakka F. 1/2. 1876",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Bakki, F.",
-                "location_obj": {
-                    "id": 12361,
-                    "name": "Bakki",
-                    "lat": "65.57006",
-                    "lng": "-17.703681",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Bakki, F."
             }
         ],
         "notes": {
@@ -1182,7 +1134,31 @@
                 "location": "Miðvík",
                 "note": "",
                 "note_ref": null,
-                "year": "1859"
+                "year": "1859",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Grýtu (27) 1860-",
@@ -1298,7 +1274,31 @@
                 "location": "Miðvík",
                 "note": "",
                 "note_ref": null,
-                "year": "1865"
+                "year": "1865",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Lónatjörn (32) 1867.-",
@@ -2111,7 +2111,31 @@
             "death": {
                 "original_string": "D. frá Krosshúsum Gp. 17/4. 1819.",
                 "date": "1819-04-17",
-                "location": "Krosshús"
+                "location": "Krosshús",
+                "location_obj": {
+                    "id": 90049,
+                    "name": "Krosshús",
+                    "lat": "66.162429",
+                    "lng": "-17.843767",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Magnús",
@@ -2183,14 +2207,62 @@
                 "location": "Krosshús",
                 "note": "Hrb.",
                 "note_ref": 2,
-                "year": "1801-1819"
+                "year": "1801-1819",
+                "location_obj": {
+                    "id": 90049,
+                    "name": "Krosshús",
+                    "lat": "66.162429",
+                    "lng": "-17.843767",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1819",
                 "original_string": "D. frá Krosshúsum Gp. 17/4. 1819.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Krosshús"
+                "location": "Krosshús",
+                "location_obj": {
+                    "id": 90049,
+                    "name": "Krosshús",
+                    "lat": "66.162429",
+                    "lng": "-17.843767",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2384,18 +2456,18 @@
                 "note_ref": null,
                 "year": "1849-1885",
                 "location_obj": {
-                    "id": 16559,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.746042",
-                    "lng": "-17.270317",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Laxárdalur",
-                            "id": 24700
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2418,18 +2490,18 @@
                 "note_ref": null,
                 "year": "1886-1900",
                 "location_obj": {
-                    "id": 16559,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.746042",
-                    "lng": "-17.270317",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Laxárdalur",
-                            "id": 24700
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

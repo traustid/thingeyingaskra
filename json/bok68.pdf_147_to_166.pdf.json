@@ -223,31 +223,7 @@
                 "status": "B.",
                 "location": "Hrappsstaðir K.",
                 "note": "Hrb.",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10417,
-                    "name": "Hrappstaðir",
-                    "lat": "65.541475",
-                    "lng": "-17.470323",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "G. hjú í Stafni (42) 1816-1818.",
@@ -441,9 +417,33 @@
                 "year": "1811",
                 "age": 20,
                 "status": "Hjú",
-                "location": "Ytrahóll",
+                "location": "Ytri-Hóll",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Þúfu (22) 1815. -",
@@ -955,18 +955,18 @@
                 "note": "Með móður frá Hálsi K.",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 33711,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.760420",
-                    "lng": "-17.388783",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Reykjadalur",
-                            "id": 16405
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1271,7 +1271,7 @@
                 "year": "1863-1864",
                 "age": null,
                 "status": "B.",
-                "location": "Syðritunga",
+                "location": "Syðri-Tunga",
                 "note": "1 ár",
                 "note_ref": null,
                 "location_obj": {
@@ -2716,31 +2716,7 @@
                 "status": "",
                 "location": "Hóll, K.",
                 "note": "Með for.",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjá for. á Hálsi K. ... 1831-1838-",
@@ -3499,31 +3475,7 @@
                 "status": "B.",
                 "location": "Þverá, R.",
                 "note": "",
-                "note_ref": 2,
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": 2
             },
             {
                 "original_string": "B. í Vík, Flateyjard. ... 1810-12.",
@@ -3712,27 +3664,7 @@
             "birth": {
                 "original_string": "Skírður 17/11. 1743. frá Reykjum R.",
                 "date": "1743-11-17",
-                "location": "Reykir, R.",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Reykir, R."
             },
             "death": {
                 "original_string": "D. í Naustav. 6/11. 1813. 1)",
@@ -3809,27 +3741,7 @@
                 "original_string": "Skírður 17/11. 1743. frá Reykjum R.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Reykir, R.",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Reykir, R."
             },
             {
                 "original_string": "B. í Naustavík (59) 1801-1809. 2) (1810, Hrb.).",
@@ -4010,31 +3922,7 @@
             "birth": {
                 "original_string": "F. 19/10. 1865 á Hóli J. -",
                 "date": "1865-10-19",
-                "location": "Hóll, J.",
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Hóll, J."
             },
             "death": {
                 "original_string": "D. 4/7. 1890, 24 ára. 1)",
@@ -4080,31 +3968,7 @@
                 "original_string": "F. 19/10. 1865 á Hóli J. -",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hóll, J.",
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Hóll, J."
             },
             {
                 "original_string": "Með móður á Krossi (1) 1867.",

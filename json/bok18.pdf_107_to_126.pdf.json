@@ -104,8 +104,32 @@
                 "year": "1843",
                 "age": 33,
                 "status": "G.",
-                "location": "Ytrahóli",
-                "note": "Skr. einnig á Sydrahóli þ. á."
+                "location": "Ytri-Hóll",
+                "note": "Skr. einnig á Sydrahóli þ. á.",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Grímsgerði (35) 1844-1845. (G. 1845).",
@@ -1022,31 +1046,7 @@
             "death": {
                 "original_string": "D. á Þverá R. 16/9. 1846.",
                 "date": "1846-09-16",
-                "location": "Þverá, R.",
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Þverá, R."
             },
             "names": [
                 "Guðný",
@@ -1414,62 +1414,14 @@
                 "age": 58,
                 "status": "G. móðir",
                 "location": "Þverá, R.",
-                "note": "",
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "year": "1846",
                 "original_string": "D. á Þverá R. 16/9. 1846.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Þverá, R.",
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Þverá, R."
             }
         ],
         "notes": {
@@ -1601,7 +1553,31 @@
                 "age": null,
                 "status": "Hjá for.",
                 "location": "Neðribæ",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Uppibæ (2) 1862-1863.",
@@ -1617,7 +1593,31 @@
                 "age": 3,
                 "status": "Hjá móður",
                 "location": "Neðribæ",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub. á Hvarfi (5) 1865-1872.",
@@ -2466,7 +2466,7 @@
                 "year": "1853-1854",
                 "age": 61,
                 "status": "Hjú",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "location_obj": {
                     "id": 14548,
@@ -2848,31 +2848,7 @@
                 "age": 12,
                 "status": "Systund.",
                 "location": "Holtakoti, R.",
-                "note": "",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú í Heiðarbót (21) 1851-1855 ( H. Friðf. par 1855).",
@@ -3077,9 +3053,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 3/5. 1868 á Granavatni.",
+                "original_string": "F. 3/5. 1868 á Grænavatni.",
                 "date": "1868-05-03",
-                "location": "Granavatni"
+                "location": "Grænavatni",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3121,7 +3121,7 @@
             },
             {
                 "name": "Kristjana Þorláksdóttir",
-                "note": "hj. á Granavatni",
+                "note": "hj. á Grænavatni",
                 "names": [
                     "Kristjana",
                     "Þorláksdóttir"
@@ -3130,22 +3130,70 @@
                 "lastName": "Þorláksdóttir"
             }
         ],
-        "parents_original_string": "For. : J. Jónasson og Kristjana Þorláksdóttir hj. á Granavatni.",
+        "parents_original_string": "For. : J. Jónasson og Kristjana Þorláksdóttir hj. á Grænavatni.",
         "residence_history": [
             {
                 "year": "1868",
-                "original_string": "F. 3/5. 1868 á Granavatni.",
+                "original_string": "F. 3/5. 1868 á Grænavatni.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Granavatni"
+                "location": "Grænavatni",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. á Granavatni (2) 1870-1873.",
+                "original_string": "Hjá for. á Grænavatni (2) 1870-1873.",
                 "year": "1870-1873",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Granavatni",
-                "note": ""
+                "location": "Grænavatni",
+                "note": "",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hafstöðum (7) 1874-1879.",
@@ -3156,12 +3204,36 @@
                 "note": ""
             },
             {
-                "original_string": "Hjá for. á Granavatni (13) 1880-1884.",
+                "original_string": "Hjá for. á Grænavatni (13) 1880-1884.",
                 "year": "1880-1884",
                 "age": 13,
                 "status": "Hjá for.",
-                "location": "Granavatni",
-                "note": ""
+                "location": "Grænavatni",
+                "note": "",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Reykjahlíð (18) 1885.",
@@ -3777,31 +3849,7 @@
                 "age": 25,
                 "status": "Hjú",
                 "location": "Hrappsstaðir B.",
-                "note": "",
-                "location_obj": {
-                    "id": 10417,
-                    "name": "Hrappstaðir",
-                    "lat": "65.541475",
-                    "lng": "-17.470323",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú á Litluvöllum (45) 1873.",
@@ -4175,18 +4223,18 @@
                 "location": "Halldórsstaðir L",
                 "note": "",
                 "location_obj": {
-                    "id": 16559,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.746042",
-                    "lng": "-17.270317",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Laxárdalur",
-                            "id": 24700
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

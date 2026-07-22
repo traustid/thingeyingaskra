@@ -710,61 +710,13 @@
             "birth": {
                 "original_string": "F. 5/5. 1803 á Birningsst. Fnj.d.",
                 "date": "1803-05-05",
-                "location": "Birningsstaðir, Fnj.d.",
-                "location_obj": {
-                    "id": 16541,
-                    "name": "Birningsstaðir",
-                    "lat": "65.768257",
-                    "lng": "-17.279065",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Birningsstaðir, Fnj.d."
             },
             "death": {
                 "original_string": "D. á Hóli F. 18/6. 1840. 1)",
                 "date": "1840-06-18",
                 "location": "Hóll F.",
-                "note_ref": 1,
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": 1
             },
             "names": [
                 "Björg",
@@ -816,31 +768,7 @@
                 "original_string": "F. 5/5. 1803 á Birningsst. Fnj.d.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Birningsstaðir, Fnj.d.",
-                "location_obj": {
-                    "id": 16541,
-                    "name": "Birningsstaðir",
-                    "lat": "65.768257",
-                    "lng": "-17.279065",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Birningsstaðir, Fnj.d."
             },
             {
                 "original_string": "Hjá föður á Birningsst. Fn. (2) 1805-1808-",
@@ -947,8 +875,32 @@
                 "year": "1830-1833",
                 "age": 28,
                 "status": "Húsfr.",
-                "location": "Ytrahóll",
-                "note": ""
+                "location": "Ytri-Hóll",
+                "note": "",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Syðrahóli (32) 1834-1836-",
@@ -963,28 +915,21 @@
                 "year": "1839",
                 "age": 37,
                 "status": "Húsfr.",
-                "location": "Ytrahóll",
-                "note": ""
-            },
-            {
-                "year": "1840",
-                "original_string": "D. á Hóli F. 18/6. 1840. 1)",
-                "age": 0,
-                "status": "Dánarstaður",
-                "location": "Hóll F.",
+                "location": "Ytri-Hóll",
+                "note": "",
                 "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Tjörnes",
-                            "id": 16460
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -996,6 +941,13 @@
                         }
                     ]
                 }
+            },
+            {
+                "year": "1840",
+                "original_string": "D. á Hóli F. 18/6. 1840. 1)",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Hóll F."
             }
         ],
         "notes": {
@@ -1900,31 +1852,7 @@
             "birth": {
                 "original_string": "F. 16/8. 1867 í Holtakoti, Ljósav.hr.",
                 "date": "1867-08-16",
-                "location": "Holtakot, Ljósav.hr.",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Holtakot, Ljósav.hr."
             },
             "death": {
                 "original_string": "",
@@ -1982,31 +1910,7 @@
                 "original_string": "F. 16/8. 1867 í Holtakoti, Ljósav.hr.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Holtakot, Ljósav.hr.",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Holtakot, Ljósav.hr."
             },
             {
                 "original_string": "Hjá for. í Holtakoti, Lj. (1 árs) 1868-1872-",
@@ -2014,31 +1918,7 @@
                 "age": 1,
                 "status": "",
                 "location": "Holtakot, Lj.",
-                "note": "Hjá for.",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": "Hjá for."
             },
             {
                 "original_string": "Hjú á N.-Dalksst. (19) 1886.",
@@ -2186,7 +2066,31 @@
                 "age": 28,
                 "status": "G. húsk.",
                 "location": "Miðgerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú í A-Krókum (30) 1897.",

@@ -817,7 +817,31 @@
                 "status": "Hjú",
                 "location": "Sigluvík",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1003857,
+                    "name": "Sigluvík",
+                    "lat": "65.722346",
+                    "lng": "-18.073694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Tungu, Sv. (33) 1862.",
@@ -988,7 +1012,31 @@
                 "status": "",
                 "location": "Meyjarkóll",
                 "note": "Með móður",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90046,
+                    "name": "Meyjarhóll",
+                    "lat": "65.701790",
+                    "lng": "-18.052675",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1743,31 +1791,7 @@
                 "status": "Húsfr.",
                 "location": "Hóll K.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Húsfr. á Þóroddsstað (31) 1867-76.",

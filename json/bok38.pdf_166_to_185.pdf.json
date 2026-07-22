@@ -495,7 +495,7 @@
                 }
             },
             {
-                "original_string": "Smiður á Granavatni ... 1847.",
+                "original_string": "Smiður á Grænavatni ... 1847.",
                 "year": "1847",
                 "age": null,
                 "status": "Smiður",
@@ -828,18 +828,18 @@
         },
         "spouse": [
             {
-                "name": "Malekína Jóhannesdóttir",
+                "name": "Mekkín Jóhannesdóttir",
                 "date": null,
                 "status": "frá Þverá R.",
                 "names": [
-                    "Malekína",
+                    "Mekkín",
                     "Jóhannesdóttir"
                 ],
-                "firstName": "Malekína",
+                "firstName": "Mekkín",
                 "lastName": "Jóhannesdóttir"
             }
         ],
-        "spouse_original_string": "Malekína Jóhannesdóttir (frá Þverá R.)",
+        "spouse_original_string": "Mekkín Jóhannesdóttir (frá Þverá R.)",
         "parents": [
             {
                 "name": "J. Jóhannesson",
@@ -973,31 +973,7 @@
                 "age": null,
                 "status": "B.",
                 "location": "Holtakot, L.",
-                "note": "Hrb.",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": "Hrb."
             },
             {
                 "original_string": "B. á Ljósavatni ... 1893-95. (Hrb.).",
@@ -1425,31 +1401,7 @@
             "birth": {
                 "original_string": "F. 10/8. 1858 í Skútust. s.",
                 "date": "1858-08-10",
-                "location": "Skútustaðir s.",
-                "location_obj": {
-                    "id": 16474,
-                    "name": "Skútustaðir",
-                    "lat": "65.5673011918",
-                    "lng": "-17.0371341705",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Mývatnssveit",
-                            "id": 16604
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Skútustaðir s."
             },
             "death": {
                 "original_string": "D. 8/10. 1901.",
@@ -1507,31 +1459,7 @@
                 "original_string": "F. 10/8. 1858 í Skútust. s.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skútustaðir s.",
-                "location_obj": {
-                    "id": 16474,
-                    "name": "Skútustaðir",
-                    "lat": "65.5673011918",
-                    "lng": "-17.0371341705",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Mývatnssveit",
-                            "id": 16604
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Skútustaðir s."
             },
             {
                 "original_string": "Með for. á Árbakka (3) 1860-1873.",
@@ -2390,7 +2318,27 @@
                 "age": 12,
                 "status": "Með for.",
                 "location": "Vestari-Krókar",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. í Vestari-Krókum ... - 1838",
@@ -2398,7 +2346,27 @@
                 "age": null,
                 "status": "G.",
                 "location": "Vestari-Krókar",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á sama bæ (22) 1839- 43 (Hrb.).",
@@ -3720,7 +3688,31 @@
                 "age": 36,
                 "status": "G. Hjú",
                 "location": "Miðvík",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

@@ -1013,31 +1013,7 @@
                 "status": "Hjú",
                 "location": "Tunga Fn.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 25200,
-                    "name": "Tunga",
-                    "lat": "65.751172",
-                    "lng": "-18.069293",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -1777,31 +1753,7 @@
                 "status": "Hjú",
                 "location": "Hallbjarnarstaðir B.",
                 "note": "frá Skriðulandi",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 16409,
-                    "name": "Hallbjarnarstaðir",
-                    "lat": "65.671379",
-                    "lng": "-17.322558",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú þaðan að Bjarnarstöðum (44) 1855-",
@@ -1876,31 +1828,7 @@
                 "status": "H. um. / G. húsk.",
                 "location": "Stóratunga / Grjótagerði B.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 16591,
-                    "name": "Stóra-Tunga",
-                    "lat": "65.387307",
-                    "lng": "-17.340371",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Bárðardalur",
-                            "id": 16538
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Húsfr. í Víðikeri (50) 1862-64.",
@@ -2239,7 +2167,31 @@
             "death": {
                 "original_string": "D. (grafin) á Hofi 25/10. 1844, 70 ára. 1)",
                 "date": "1844-10-25",
-                "location": "Hof"
+                "location": "Hof",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Ingibjörg",
@@ -2392,7 +2344,31 @@
                 "status": "Húsfr.",
                 "location": "Hof",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsk. á Hofi (65) 1839-1841.",
@@ -2401,7 +2377,31 @@
                 "status": "G. húsk.",
                 "location": "Hof",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. meðgjafarkarl á sama bæ ... 1842-1843.",
@@ -2410,14 +2410,62 @@
                 "status": "G. meðgjafarkarl",
                 "location": "Hof",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1844",
                 "original_string": "D. (grafin) á Hofi 25/10. 1844, 70 ára. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Hof"
+                "location": "Hof",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

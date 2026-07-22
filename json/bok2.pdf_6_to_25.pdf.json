@@ -297,7 +297,31 @@
                 "status": "Hjú",
                 "location": "Sigluvík",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 1003857,
+                    "name": "Sigluvík",
+                    "lat": "65.722346",
+                    "lng": "-18.073694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Eyjardalsá (22) 1894-1897.",
@@ -538,18 +562,18 @@
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 16559,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.746042",
-                    "lng": "-17.270317",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Laxárdalur",
-                            "id": 24700
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -580,18 +604,18 @@
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 16559,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.746042",
-                    "lng": "-17.270317",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Laxárdalur",
-                            "id": 24700
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -818,31 +842,7 @@
                 "status": "E.",
                 "location": "Fjöll, N. hv.",
                 "note": "þaðan að",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 16843,
-                    "name": "Fjöll",
-                    "lat": "66.080837",
-                    "lng": "-16.954244",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kelduhverfi",
-                            "id": 24585
-                        },
-                        {
-                            "name": "Norður-Þingeyjarsýsla",
-                            "id": 16841
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -1520,18 +1520,18 @@
                 "note": "að Stafni",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 16559,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.746042",
-                    "lng": "-17.270317",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Laxárdalur",
-                            "id": 24700
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1685,18 +1685,18 @@
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 16559,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.746042",
-                    "lng": "-17.270317",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Laxárdalur",
-                            "id": 24700
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1943,31 +1943,7 @@
             "death": {
                 "original_string": "D. 6/4 1887 í Garði F.",
                 "date": "1887-04-06",
-                "location": "Garður, F.",
-                "location_obj": {
-                    "id": 16845,
-                    "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Garður, F."
             },
             "names": [
                 "Anna",
@@ -2145,7 +2121,7 @@
                 }
             },
             {
-                "original_string": "Hjá föður á Þverá Fr. (12) 1845-1847-1856.",
+                "original_string": "Hjá föður á Þverá Fn. (12) 1845-1847-1856.",
                 "year": "1845-1856",
                 "age": 12,
                 "status": "Hjá föður",
@@ -2283,31 +2259,7 @@
                 "original_string": "D. 6/4 1887 í Garði F.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Garður, F.",
-                "location_obj": {
-                    "id": 16845,
-                    "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Garður, F."
             }
         ],
         "notes": {
@@ -2326,31 +2278,7 @@
             "birth": {
                 "original_string": "F. um 1809 á Gautsstöðum í Svalb. sókn.",
                 "date": "1809-01-01",
-                "location": "Gautsstaðir, Svalb. sókn.",
-                "location_obj": {
-                    "id": 9658,
-                    "name": "Gautsstaðir",
-                    "lat": "65.767251",
-                    "lng": "-18.073604",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Gautsstaðir, Svalb. sókn."
             },
             "death": {
                 "original_string": "",
@@ -2407,31 +2335,7 @@
                 "original_string": "F. um 1809 á Gautsstöðum í Svalb. sókn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Gautsstaðir, Svalb. sókn.",
-                "location_obj": {
-                    "id": 9658,
-                    "name": "Gautsstaðir",
-                    "lat": "65.767251",
-                    "lng": "-18.073604",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Gautsstaðir, Svalb. sókn."
             },
             {
                 "original_string": "Hjá for. á Gautsstöðum (1 árs) 1810-1827.",
@@ -2968,31 +2872,7 @@
                 "status": "Tökub.",
                 "location": "Holtakot, L.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Fósturb. hjúa á Hvarfi (8) 1894.",
@@ -3034,20 +2914,29 @@
                 "status": "Tökub.",
                 "location": "Holtakot, L.",
                 "note": "",
+                "note_ref": null
+            },
+            {
+                "original_string": "Með for. í Miðvík (12) 1898.",
+                "year": "1898",
+                "age": 12,
+                "status": "Með for.",
+                "location": "Miðvík",
+                "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3059,15 +2948,6 @@
                         }
                     ]
                 }
-            },
-            {
-                "original_string": "Með for. í Miðvík (12) 1898.",
-                "year": "1898",
-                "age": 12,
-                "status": "Með for.",
-                "location": "Miðvík",
-                "note": "",
-                "note_ref": null
             },
             {
                 "original_string": "Með for. í Hvammi (13) 1898.",
@@ -3154,31 +3034,7 @@
             "birth": {
                 "original_string": "F. 9/8 1872 á Grund, Grýt.",
                 "date": "1872-08-09",
-                "location": "Grund, Grýt.",
-                "location_obj": {
-                    "id": 24185,
-                    "name": "Grund",
-                    "lat": "65.913022",
-                    "lng": "-18.075862",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Grund, Grýt."
             },
             "death": {
                 "original_string": "",
@@ -3223,31 +3079,7 @@
                 "original_string": "F. 9/8 1872 á Grund, Grýt.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grund, Grýt.",
-                "location_obj": {
-                    "id": 24185,
-                    "name": "Grund",
-                    "lat": "65.913022",
-                    "lng": "-18.075862",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Grund, Grýt."
             },
             {
                 "original_string": "Hjá for. á Grund (á l.) 1872-1874.",
@@ -3604,31 +3436,7 @@
             "birth": {
                 "original_string": "F. 27/12 1856 á Rauðuskriðu s.",
                 "date": "1856-12-27",
-                "location": "Rauðuskriða s.",
-                "location_obj": {
-                    "id": 24909,
-                    "name": "Rauðaskriða",
-                    "lat": "65.836736",
-                    "lng": "-17.472869",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Rauðuskriða s."
             },
             "death": {
                 "original_string": "",
@@ -3675,31 +3483,7 @@
                 "original_string": "F. 27/12 1856 á Rauðuskriðu s.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Rauðuskriða s.",
-                "location_obj": {
-                    "id": 24909,
-                    "name": "Rauðaskriða",
-                    "lat": "65.836736",
-                    "lng": "-17.472869",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Rauðuskriða s."
             },
             {
                 "original_string": "Hjú á Grenjaðarst. (21) 1877.",
@@ -3815,7 +3599,31 @@
             "birth": {
                 "original_string": "F. 3/10 1867 á Ytrahóli.",
                 "date": "1867-10-03",
-                "location": "Ytrahóll"
+                "location": "Ytri-Hóll",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3860,16 +3668,64 @@
                 "original_string": "F. 3/10 1867 á Ytrahóli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Ytrahóll"
+                "location": "Ytri-Hóll",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Ytrahóli (2) - 1868-1870.",
                 "year": "1868-1870",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Ytrahóll",
+                "location": "Ytri-Hóll",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Rauðuskriðu (5) 1871-1878.",
@@ -4309,7 +4165,31 @@
                 "status": "Með for.",
                 "location": "Miðvík",
                 "note": "1 árs",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

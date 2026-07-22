@@ -292,8 +292,32 @@
                 "year": "1898-1899",
                 "age": 33,
                 "status": "B.",
-                "location": "Ytrahóll",
-                "note": ""
+                "location": "Ytri-Hóll",
+                "note": "",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2842,31 +2866,7 @@
             "birth": {
                 "original_string": "F. 1/8. 1838 í Skógum S.",
                 "date": "1838-08-01",
-                "location": "Skógar, S.",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Skógar, S."
             },
             "death": {
                 "original_string": "",
@@ -2911,31 +2911,7 @@
                 "original_string": "F. 1/8. 1838 í Skógum S.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skógar, S.",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Skógar, S."
             },
             {
                 "original_string": "Hjá for. í Skógum S. (1 árs) 1839-1840.",
@@ -2943,31 +2919,7 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Skógar, S.",
-                "note": "",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjá for. í St. Reykjum (3) 1840-1849.",

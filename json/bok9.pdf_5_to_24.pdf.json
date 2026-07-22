@@ -142,27 +142,7 @@
                 "status": "Tökub.",
                 "location": "Reykir Fn.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Niðurs. á sama bæ... 1860-1864-",
@@ -171,27 +151,7 @@
                 "status": "Niðurs.",
                 "location": "Reykir Fn.",
                 "note": "á sama bæ",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á sama bæ (16) 1868-1873.",
@@ -200,27 +160,7 @@
                 "status": "Hjú",
                 "location": "Reykir Fn.",
                 "note": "á sama bæ",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -728,31 +668,7 @@
                 "status": "Hjá for.",
                 "location": "Ljótstaðir Fn.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 16562,
-                    "name": "Ljótsstaðir",
-                    "lat": "65.683681",
-                    "lng": "-17.201825",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -994,13 +910,33 @@
                 }
             },
             {
-                "original_string": "Með for. á Mána (9) 1875.",
+                "original_string": "Með for. á Máná (9) 1875.",
                 "year": "1875",
                 "age": 9,
                 "status": "Með for.",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fósturb. á Þverá R. (12) 1876-1879. ?",
@@ -1295,7 +1231,7 @@
                 "year": "1897-1900",
                 "age": null,
                 "status": "B.",
-                "location": "Syðritunga",
+                "location": "Syðri-Tunga",
                 "note": "og fram yfir 1900",
                 "note_ref": null,
                 "location_obj": {
@@ -2954,7 +2890,31 @@
             "birth": {
                 "original_string": "F. 28/3. 1898 í Miðvík.",
                 "date": "1898-03-28",
-                "location": "Miðvík"
+                "location": "Miðvík",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2999,7 +2959,31 @@
                 "original_string": "F. 28/3. 1898 í Miðvík.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Miðvík"
+                "location": "Miðvík",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Miðvík (á 1.) 1898.",
@@ -3008,7 +2992,31 @@
                 "status": "Með for.",
                 "location": "Miðvík",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Hvammi (á 1.) 1898.",
@@ -4523,18 +4531,18 @@
                 "date": "1890-10-23",
                 "location": "Bakki T",
                 "location_obj": {
-                    "id": 23886,
+                    "id": 12361,
                     "name": "Bakki",
-                    "lat": "66.070217",
-                    "lng": "-17.34827",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Tjörnes",
-                            "id": 16460
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -4592,18 +4600,18 @@
                 "status": "Fæðingarstaður",
                 "location": "Bakki T",
                 "location_obj": {
-                    "id": 23886,
+                    "id": 12361,
                     "name": "Bakki",
-                    "lat": "66.070217",
-                    "lng": "-17.34827",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Tjörnes",
-                            "id": 16460
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -4625,18 +4633,18 @@
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 23886,
+                    "id": 12361,
                     "name": "Bakki",
-                    "lat": "66.070217",
-                    "lng": "-17.34827",
+                    "lat": "65.57006",
+                    "lng": "-17.703681",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Tjörnes",
-                            "id": 16460
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

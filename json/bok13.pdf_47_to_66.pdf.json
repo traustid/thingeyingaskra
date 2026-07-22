@@ -517,7 +517,31 @@
                 "status": "Húsm.",
                 "location": "Miðgerði",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsm. í Litlagerði (69) 1879.",
@@ -629,31 +653,7 @@
             "death": {
                 "original_string": "D. á Garði F. 28/1. 1866. 1)",
                 "date": "1866-01-28",
-                "location": "Garður F.",
-                "location_obj": {
-                    "id": 16845,
-                    "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Garður F."
             },
             "names": [
                 "Flóvent",
@@ -921,31 +921,7 @@
                 "status": "Hjú",
                 "location": "Skógar P.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú í Heiðarbót (34) 1834-1835.",
@@ -1159,31 +1135,7 @@
                 "original_string": "D. á Garði F. 28/1. 1866. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Garður F.",
-                "location_obj": {
-                    "id": 16845,
-                    "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Garður F."
             }
         ],
         "notes": {
@@ -1304,31 +1256,7 @@
             "birth": {
                 "original_string": "F. 10/9. 1854 í Holtakoti R.",
                 "date": "1854-09-10",
-                "location": "Holtakot R.",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Holtakot R."
             },
             "death": {
                 "original_string": "",
@@ -1385,31 +1313,7 @@
                 "original_string": "F. 10/9. 1854 í Holtakoti R.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Holtakot R.",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Holtakot R."
             },
             {
                 "original_string": "Hjá for. í Skörðum (2- ára) 1856-60.",
@@ -1734,20 +1638,29 @@
                 "status": "B.",
                 "location": "Brekka Fj.",
                 "note": "",
+                "note_ref": null
+            },
+            {
+                "original_string": "B. á Kaðalastöðum (34) 1810-12. (Hrb.).",
+                "year": "1810-1812",
+                "age": 34,
+                "status": "B.",
+                "location": "Kaðalastaðir",
+                "note": "Hrb.",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 90026,
-                    "name": "Brekka",
-                    "lat": "65.839003",
-                    "lng": "-17.334747",
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Aðaldalur",
-                            "id": 16498
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1759,15 +1672,6 @@
                         }
                     ]
                 }
-            },
-            {
-                "original_string": "B. á Kaðalastöðum (34) 1810-12. (Hrb.).",
-                "year": "1810-1812",
-                "age": 34,
-                "status": "B.",
-                "location": "Kaðalastaðir",
-                "note": "Hrb.",
-                "note_ref": null
             },
             {
                 "original_string": "B. á Kussungsstöðum (46) 1812-22. (Hrb.).",
@@ -2455,31 +2359,7 @@
                 "status": "Hjá for.",
                 "location": "Bakki Fj.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 12361,
-                    "name": "Bakki",
-                    "lat": "65.57006",
-                    "lng": "-17.703681",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -2973,31 +2853,7 @@
                 "status": "Húsfr.",
                 "location": "Svæði",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 90013,
-                    "name": "Vað",
-                    "lat": "65.799802",
-                    "lng": "-17.502078",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {

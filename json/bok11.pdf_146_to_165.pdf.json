@@ -268,7 +268,31 @@
                 "age": 25,
                 "status": "Hjú",
                 "location": "Meyjarhóli",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90046,
+                    "name": "Meyjarhóll",
+                    "lat": "65.701790",
+                    "lng": "-18.052675",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Þórustöðum (27) 1895.",
@@ -542,31 +566,7 @@
                 "age": 69,
                 "status": "G. faðir B.",
                 "location": "Holtakoti, Lj.",
-                "note": "",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "year": "1843",
@@ -1705,13 +1705,37 @@
         "parents_original_string": "",
         "residence_history": [
             {
-                "original_string": "Vinnukind á Granavatni (26) 1801-1803.",
+                "original_string": "Vinnukind á Grænavatni (26) 1801-1803.",
                 "year": "1801-1803",
                 "age": 26,
                 "status": "Vinnukind",
-                "location": "Granavatni",
+                "location": "Grænavatni",
                 "note": "",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1907,27 +1931,7 @@
                 "age": 26,
                 "status": "G.",
                 "location": "Reykjum Fn.",
-                "note": "",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "B. á Geldingá (38) 1864-1874. (Hrb.)",
@@ -1976,7 +1980,31 @@
             "birth": {
                 "original_string": "F. 5/8 1865 á Hofi.",
                 "date": "1865-08-05",
-                "location": "Hofi"
+                "location": "Hofi",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2033,7 +2061,31 @@
                 "original_string": "F. 5/8 1865 á Hofi.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hofi"
+                "location": "Hofi",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hofi (1/2 árs) 1865.",
@@ -2041,7 +2093,31 @@
                 "age": 0.5,
                 "status": "Hjá for.",
                 "location": "Hofi",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Eyvindará (1 árs) 1866-1867.",
@@ -2590,7 +2666,31 @@
                 "age": 58,
                 "status": "B. / G. hjú",
                 "location": "Hofi / Ofeigsá",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Hofi (63) 1864. Faðir B. á sama bæ ... 1865.",
@@ -2598,7 +2698,31 @@
                 "age": 63,
                 "status": "B. / Faðir B.",
                 "location": "Hofi",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Faðir B. á Eyvindará (65) 1866-1867.",
@@ -4209,7 +4333,7 @@
                 "year": "1863",
                 "age": 10,
                 "status": "Hjá föður",
-                "location": "Syðritungu",
+                "location": "Syðri-Tungu",
                 "note": "",
                 "location_obj": {
                     "id": 10218,
@@ -4526,7 +4650,7 @@
                 "year": "1865",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Syðritungu",
+                "location": "Syðri-Tungu",
                 "note": "",
                 "location_obj": {
                     "id": 10218,

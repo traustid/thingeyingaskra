@@ -2301,9 +2301,29 @@
                 "location": ""
             },
             "death": {
-                "original_string": "D. á Mána 16/5. 1807, 46 ára.",
+                "original_string": "D. á Máná 16/5. 1807, 46 ára.",
                 "date": "1807-05-16",
-                "location": "Máni"
+                "location": "Máná",
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Pétur",
@@ -2363,20 +2383,60 @@
                 }
             },
             {
-                "original_string": "Síðan á Mána (húsandi) 1803-1807. (45 1/2 árs 1806).",
+                "original_string": "Síðan á Máná (húsandi) 1803-1807. (45 1/2 árs 1806).",
                 "year": "1803-1807",
                 "age": 45,
                 "status": "Húsandi",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "45 1/2 árs 1806",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1807",
-                "original_string": "D. á Mána 16/5. 1807, 46 ára.",
+                "original_string": "D. á Máná 16/5. 1807, 46 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Máni"
+                "location": "Máná",
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2660,31 +2720,7 @@
                 "status": "Hjú",
                 "location": "Holtakot, Þ.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "G. húsm. í Hisabakka (30) 1886-1889.",
@@ -3905,7 +3941,31 @@
                 "status": "Hjú",
                 "location": "Miðvík",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Nesi Grýt. (26) 1865.",
@@ -4021,31 +4081,7 @@
                 "status": "Fósturson",
                 "location": "Holtakot, B.",
                 "note": "",
-                "note_ref": 1,
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": 1
             },
             {
                 "original_string": "Hjú í Garðshorni (21) 1812-",
@@ -4265,13 +4301,33 @@
                 }
             },
             {
-                "original_string": "Hjú á Mána (22) 1851.",
+                "original_string": "Hjú á Máná (22) 1851.",
                 "year": "1851",
                 "age": 22,
                 "status": "Hjú",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Ísólfsstöðum 1858-69.",
@@ -4595,7 +4651,31 @@
                 "status": "Tökubarn",
                 "location": "Miðvík",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á N.-Dálkset. (30) 1874-79.",

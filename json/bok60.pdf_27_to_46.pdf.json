@@ -57,7 +57,27 @@
                 "status": "Hjá for.",
                 "location": "Vestari-Krókum",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Syðrahóli (5) 1869-1870-",
@@ -409,7 +429,7 @@
                 "year": "1885",
                 "age": 17,
                 "status": "Léttasv.",
-                "location": "Syðritungu",
+                "location": "Syðri-Tungu",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -1216,27 +1236,7 @@
                 "status": "Hjá for.",
                 "location": "Reykjum Fnj.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -1341,27 +1341,7 @@
                 "status": "Hjá for.",
                 "location": "Reykjum Fnj.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},
@@ -2587,7 +2567,7 @@
             "birth": {
                 "original_string": "F. 11/1. 1877 í Syðritungu.",
                 "date": "1877-01-11",
-                "location": "Syðritungu",
+                "location": "Syðri-Tungu",
                 "location_obj": {
                     "id": 10218,
                     "name": "Syðri-Tunga",
@@ -2648,7 +2628,7 @@
                 "original_string": "F. 11/1. 1877 í Syðritungu.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Syðritungu",
+                "location": "Syðri-Tungu",
                 "location_obj": {
                     "id": 10218,
                     "name": "Syðri-Tunga",
@@ -2704,7 +2684,7 @@
                 "year": "1883-1884",
                 "age": 6,
                 "status": "Niðurs.",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -2770,7 +2750,7 @@
                 "year": "1889-1890",
                 "age": 12,
                 "status": "Hr. óm.",
-                "location": "Syðritungu",
+                "location": "Syðri-Tungu",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -3048,31 +3028,7 @@
                 "status": "Tökub.",
                 "location": "Gili Fnj.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 25664,
-                    "name": "Gil",
-                    "lat": "66.073194",
-                    "lng": "-18.076101",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fjörður",
-                            "id": 12898
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Með for. í Hléskógum (4) 1858-1860.",

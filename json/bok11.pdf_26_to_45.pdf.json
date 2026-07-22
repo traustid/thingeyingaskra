@@ -1353,7 +1353,7 @@
                 "year_or_period": "1845",
                 "age": 5,
                 "status": "Hjá móður",
-                "location": "Syðritungu",
+                "location": "Syðri-Tungu",
                 "note": "",
                 "year": "1845",
                 "location_obj": {
@@ -1866,7 +1866,7 @@
                 "year_or_period": "1893",
                 "age": 54,
                 "status": "G. hjú",
-                "location": "Syðritungu",
+                "location": "Syðri-Tungu",
                 "note": "",
                 "year": "1893",
                 "location_obj": {
@@ -3099,13 +3099,37 @@
                 }
             },
             {
-                "original_string": "Hjú á Steindrum (30) 1873.",
+                "original_string": "Hjú á Steindyrum (30) 1873.",
                 "year_or_period": "1873",
                 "age": 30,
                 "status": "Hjú",
-                "location": "Steindrum",
+                "location": "Steindyr",
                 "note": "",
-                "year": "1873"
+                "year": "1873",
+                "location_obj": {
+                    "id": 16615,
+                    "name": "Steindyr",
+                    "lat": "66.015869",
+                    "lng": "-18.276375",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Hvammi (33) 1876.",
@@ -3211,7 +3235,7 @@
                 "year_or_period": "1881",
                 "age": 34,
                 "status": "Hjú",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "year": "1881",
                 "location_obj": {
@@ -5172,31 +5196,7 @@
                 "status": "B.",
                 "location": "Tungu Fn.",
                 "note": "",
-                "year": "1876–1877",
-                "location_obj": {
-                    "id": 25200,
-                    "name": "Tunga",
-                    "lat": "65.751172",
-                    "lng": "-18.069293",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1876–1877"
             },
             {
                 "original_string": "Faðir B. á sama bæ... 1878–1881.",
@@ -5205,31 +5205,7 @@
                 "status": "Faðir B.",
                 "location": "Tungu Fn.",
                 "note": "",
-                "year": "1878–1881",
-                "location_obj": {
-                    "id": 25200,
-                    "name": "Tunga",
-                    "lat": "65.751172",
-                    "lng": "-18.069293",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1878–1881"
             },
             {
                 "original_string": "G. hjú í Grjótárgerði Fn. (58) 1882–1885.",

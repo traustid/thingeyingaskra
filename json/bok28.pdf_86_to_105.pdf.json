@@ -66,7 +66,31 @@
                 "age": 14,
                 "status": "Hjá for.",
                 "location": "Krosshús",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90049,
+                    "name": "Krosshús",
+                    "lat": "66.162429",
+                    "lng": "-17.843767",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Niðribæ (18?) 1868-1870.",
@@ -1135,7 +1159,7 @@
                 "year": "1856-1857",
                 "age": 10,
                 "status": "Hjá for.",
-                "location": "Syðritunga",
+                "location": "Syðri-Tunga",
                 "note": "",
                 "location_obj": {
                     "id": 10218,

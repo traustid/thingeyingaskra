@@ -771,7 +771,7 @@
                 "year": "1888-1890",
                 "age": 15,
                 "status": "Hjú",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "Burtsik. 1890",
                 "note_ref": null,
                 "location_obj": {
@@ -3019,31 +3019,7 @@
             "birth": {
                 "original_string": "F. 5/12 1830 í Brekku í Grot. s.",
                 "date": "1830-12-05",
-                "location": "Brekku, Grot. s.",
-                "location_obj": {
-                    "id": 90026,
-                    "name": "Brekka",
-                    "lat": "65.839003",
-                    "lng": "-17.334747",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Brekku, Grot. s."
             },
             "death": null,
             "names": [
@@ -3084,31 +3060,7 @@
                 "original_string": "F. 5/12 1830 í Brekku í Grot. s.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Brekku, Grot. s.",
-                "location_obj": {
-                    "id": 90026,
-                    "name": "Brekka",
-                    "lat": "65.839003",
-                    "lng": "-17.334747",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Brekku, Grot. s."
             },
             {
                 "original_string": "Hjá for. í Brekku (á 1.) 1832-1835.",
@@ -3192,31 +3144,7 @@
                 "status": "Hjú",
                 "location": "Haga",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjá móður í Klömbrum (19) 1851-(1854?)",
@@ -3761,7 +3689,27 @@
                 "status": "Hjá for.",
                 "location": "Vestari-Krókum",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hofi (6) 1873-1875.",
@@ -3770,7 +3718,31 @@
                 "status": "Hjá for.",
                 "location": "Hofi",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. í V-Krókum (11) 1877-1882.",
@@ -3828,9 +3800,33 @@
                 "year": "1890-1891",
                 "age": 22,
                 "status": "Hjú",
-                "location": "Ytrahóli",
+                "location": "Ytri-Hóll",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Þúfu (25) 1893.",
@@ -4040,18 +4036,18 @@
                 "note": "Fer þá að Vík (í Sam. hlíð?)",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 16559,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.746042",
-                    "lng": "-17.270317",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Laxárdalur",
-                            "id": 24700
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

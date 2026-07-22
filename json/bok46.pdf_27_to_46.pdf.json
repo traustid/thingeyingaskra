@@ -225,22 +225,62 @@
         "parents_original_string": "For.:",
         "residence_history": [
             {
-                "original_string": "Hjú á Mána (24 ára)",
+                "original_string": "Hjú á Máná (24 ára)",
                 "year": "",
                 "age": 24,
                 "status": "Hjú",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjú á Mána (24 ára) 1880.",
+                "original_string": "Hjú á Máná (24 ára) 1880.",
                 "year": "1880",
                 "age": 24,
                 "status": "Hjú",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Veitingahúsi (25 ára) 1881-1885.",
@@ -513,31 +553,7 @@
             "birth": {
                 "original_string": "F. 4/3 1865 á Breiðingsstaðir L",
                 "date": "1865-03-04",
-                "location": "Breiðingsstaðir, L.",
-                "location_obj": {
-                    "id": 16545,
-                    "name": "Brettingsstaðir",
-                    "lat": "65.6436240882",
-                    "lng": "-17.1706867218",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Breiðingsstaðir, L."
             },
             "death": {
                 "original_string": "",
@@ -583,31 +599,7 @@
                 "original_string": "F. 4/3 1865 á Breiðingsstaðir L",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Breiðingsstaðir, L.",
-                "location_obj": {
-                    "id": 16545,
-                    "name": "Brettingsstaðir",
-                    "lat": "65.6436240882",
-                    "lng": "-17.1706867218",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Breiðingsstaðir, L."
             },
             {
                 "original_string": "Hjá föður í Hólum L. (6) 1870-1887.",
@@ -911,9 +903,33 @@
                 "year": "1855-1857",
                 "age": 11,
                 "status": "Hjá for.",
-                "location": "Ytrahóll",
+                "location": "Ytri-Hóll",
                 "note": "",
-                "note_ref": 2
+                "note_ref": 2,
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Fagrabæ (13) 1858-1862.",
@@ -1116,7 +1132,31 @@
                 "status": "Hjú",
                 "location": "Hof",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Til heimilis á Sandi (29) 1874.",
@@ -3165,31 +3205,7 @@
             "birth": {
                 "original_string": "F. 23/3 1865 í Skógum R.",
                 "date": "1865-03-23",
-                "location": "Skógar, R.",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Skógar, R."
             },
             "death": {
                 "original_string": "",
@@ -3234,31 +3250,7 @@
                 "original_string": "F. 23/3 1865 í Skógum R.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skógar, R.",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Skógar, R."
             },
             {
                 "original_string": "Hjá for. í Skógum R. (2) 1866-1889.",
@@ -3267,31 +3259,7 @@
                 "status": "Hjá for.",
                 "location": "Skógar, R.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Héðinshöfða (23 ára) 1889.",

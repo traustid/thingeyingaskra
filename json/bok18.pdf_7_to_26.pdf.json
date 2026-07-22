@@ -31,7 +31,7 @@
                 "year_or_period": "1875",
                 "age": 17,
                 "status": "Hjú",
-                "location": "Syðritunga",
+                "location": "Syðri-Tunga",
                 "note": "",
                 "note_ref": null,
                 "year": "1875",
@@ -97,12 +97,29 @@
                 "location": "Reykir, Fn.",
                 "note": "",
                 "note_ref": null,
-                "year": "1805-1810",
+                "year": "1805-1810"
+            }
+        ],
+        "notes": {},
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_18/8",
+        "bok": "bok18",
+        "number": 8,
+        "_id": "bok18-8"
+    },
+    {
+        "person": {
+            "name": "Guðný Aðalbjörg Kristjánsdóttir",
+            "status": "",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. 30/11 1867 á Máná.",
+                "date": "1867-11-30",
+                "location": "Máná",
                 "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"
@@ -118,23 +135,6 @@
                         }
                     ]
                 }
-            }
-        ],
-        "notes": {},
-        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_18/8",
-        "bok": "bok18",
-        "number": 8,
-        "_id": "bok18-8"
-    },
-    {
-        "person": {
-            "name": "Guðný Aðalbjörg Kristjánsdóttir",
-            "status": "",
-            "unmarried": false,
-            "birth": {
-                "original_string": "F. 30/11 1867 á Mána.",
-                "date": "1867-11-30",
-                "location": "Máni"
             },
             "death": {
                 "original_string": "",
@@ -188,20 +188,60 @@
         "residence_history": [
             {
                 "year": "1867",
-                "original_string": "F. 30/11 1867 á Mána.",
+                "original_string": "F. 30/11 1867 á Máná.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Máni"
+                "location": "Máná",
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. á Mána (1 árs) 1868-1870.",
+                "original_string": "Hjá for. á Máná (1 árs) 1868-1870.",
                 "year_or_period": "1868-1870",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "",
                 "note_ref": null,
-                "year": "1868-1870"
+                "year": "1868-1870",
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Ytritungu (2 ára) 1871-1876.",
@@ -245,31 +285,7 @@
                 "location": "Þverá, Þ.",
                 "note": "",
                 "note_ref": null,
-                "year": "1877-1878",
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1877-1878"
             },
             {
                 "original_string": "Með for. á Langavatni (12) 1879-1880.",
@@ -779,31 +795,7 @@
                 "location": "Bjarnarstaðir, M.",
                 "note": "",
                 "note_ref": null,
-                "year": "1875-1877",
-                "location_obj": {
-                    "id": 12832,
-                    "name": "Bjarnarstaðir",
-                    "lat": "65.4353456356",
-                    "lng": "-17.3457813263",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Bárðardalur",
-                            "id": 16538
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1875-1877"
             },
             {
                 "original_string": "Hjá for. á Árbakka ... 1878-1881.",
@@ -1846,31 +1838,7 @@
                 "location": "Hóll, K.",
                 "note": "",
                 "note_ref": null,
-                "year": "1900",
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1900"
             }
         ],
         "notes": {},
@@ -2653,31 +2621,7 @@
             "birth": {
                 "original_string": "F. 17/10 1889 í Skógum R.",
                 "date": "1889-10-17",
-                "location": "Skógar, R.",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Skógar, R."
             },
             "death": {
                 "original_string": "",
@@ -2734,31 +2678,7 @@
                 "original_string": "F. 17/10 1889 í Skógum R.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skógar, R.",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Skógar, R."
             },
             {
                 "original_string": "Hjá for í Skógum R. (á 1.) 1889-1892.",
@@ -2768,31 +2688,7 @@
                 "location": "Skógar, R.",
                 "note": "",
                 "note_ref": null,
-                "year": "1889-1892",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1889-1892"
             },
             {
                 "original_string": "Hjá for. í Díjakoti (3) 1892-1893.",
@@ -2812,31 +2708,7 @@
                 "location": "Skógar, R.",
                 "note": "",
                 "note_ref": null,
-                "year": "1894",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1894"
             },
             {
                 "original_string": "Hjá for. í Díjakoti ... 1895-1897.",
@@ -2856,31 +2728,7 @@
                 "location": "Skógar, R.",
                 "note": "",
                 "note_ref": null,
-                "year": "1898-1900",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1898-1900"
             }
         ],
         "notes": {},
@@ -2897,31 +2745,7 @@
             "birth": {
                 "original_string": "F. 18/4 1899 í Skógum R.",
                 "date": "1899-04-18",
-                "location": "Skógar, R.",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Skógar, R."
             },
             "death": {
                 "original_string": "",
@@ -2978,31 +2802,7 @@
                 "original_string": "F. 18/4 1899 í Skógum R.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skógar, R.",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Skógar, R."
             },
             {
                 "original_string": "Hjá for. í Skógum R. (á 1.) 1899-1900.",
@@ -3012,31 +2812,7 @@
                 "location": "Skógar, R.",
                 "note": "",
                 "note_ref": null,
-                "year": "1899-1900",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1899-1900"
             }
         ],
         "notes": {},
@@ -3053,60 +2829,12 @@
             "birth": {
                 "original_string": "F. 28/12 1892 á Þverá R.",
                 "date": "1892-12-28",
-                "location": "Þverá, R.",
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Þverá, R."
             },
             "death": {
                 "original_string": "D. þar 15/4 1894, 1 árs. 1)",
                 "date": "1894-04-15",
-                "location": "Þverá, R.",
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Þverá, R."
             },
             "names": [
                 "Guðný",
@@ -3146,31 +2874,7 @@
                 "original_string": "F. 28/12 1892 á Þverá R.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Þverá, R.",
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Þverá, R."
             },
             {
                 "original_string": "Hjá for. á Þverá R. (1 árs) 1892.",
@@ -3180,62 +2884,14 @@
                 "location": "Þverá, R.",
                 "note": "",
                 "note_ref": null,
-                "year": "1892",
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1892"
             },
             {
                 "year": "1894",
                 "original_string": "D. þar 15/4 1894, 1 árs. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Þverá, R.",
-                "location_obj": {
-                    "id": 25899,
-                    "name": "Þverá",
-                    "lat": "65.730993",
-                    "lng": "-17.244662",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Þverá, R."
             }
         ],
         "notes": {
@@ -3722,31 +3378,7 @@
                 "location": "Tunga, Fn.",
                 "note": "",
                 "note_ref": null,
-                "year": "1892-1900",
-                "location_obj": {
-                    "id": 25200,
-                    "name": "Tunga",
-                    "lat": "65.751172",
-                    "lng": "-18.069293",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1892-1900"
             }
         ],
         "notes": {

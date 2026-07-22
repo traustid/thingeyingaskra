@@ -153,31 +153,7 @@
             "birth": {
                 "original_string": "F. um 1780 á Fjöllum, Keldu hv.",
                 "date": "1780",
-                "location": "Fjöllum, Keldu hv.",
-                "location_obj": {
-                    "id": 16843,
-                    "name": "Fjöll",
-                    "lat": "66.080837",
-                    "lng": "-16.954244",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kelduhverfi",
-                            "id": 24585
-                        },
-                        {
-                            "name": "Norður-Þingeyjarsýsla",
-                            "id": 16841
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Fjöllum, Keldu hv."
             },
             "death": {
                 "original_string": "",
@@ -212,31 +188,7 @@
                 "original_string": "F. um 1780 á Fjöllum, Keldu hv.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fjöllum, Keldu hv.",
-                "location_obj": {
-                    "id": 16843,
-                    "name": "Fjöll",
-                    "lat": "66.080837",
-                    "lng": "-16.954244",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kelduhverfi",
-                            "id": 24585
-                        },
-                        {
-                            "name": "Norður-Þingeyjarsýsla",
-                            "id": 16841
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Fjöllum, Keldu hv."
             },
             {
                 "original_string": "Hjú í Höfða (35) 1815-1816 (-1824?)",
@@ -308,7 +260,7 @@
                 "year": "1841",
                 "age": 34,
                 "status": "Hjú",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -453,7 +405,7 @@
                 "year": "1859",
                 "age": 50,
                 "status": "Kona vm.",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -671,7 +623,7 @@
         ],
         "notes": {
             "1": "E. Dó úr meinfætum. Í dvöl á Ketilsstöðum.",
-            "2": "G. húsk. á Mána (53) 1863.",
+            "2": "G. húsk. á Máná (53) 1863.",
             "4": "G. húsk. á Hóli T. (54) 1864."
         },
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/e-1726-56/69",
@@ -941,31 +893,7 @@
                 "status": "Hjú",
                 "location": "Hrappsstaðir B.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10417,
-                    "name": "Hrappstaðir",
-                    "lat": "65.541475",
-                    "lng": "-17.470323",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Kalfborgará (20) 1879.",
@@ -1383,7 +1311,31 @@
                 "original_string": "D. í Neðribæ 18/6. 1803, 7 ára.",
                 "date": "1803-06-18",
                 "location": "Neðribæ",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Rannveig",
@@ -1432,14 +1384,62 @@
                 "status": "Hjá for.",
                 "location": "Neðribæ",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1803",
                 "original_string": "D. í Neðribæ 18/6. 1803, 7 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Neðribæ"
+                "location": "Neðribæ",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2037,7 +2037,31 @@
                 "status": "Hjá móður",
                 "location": "Miðgerði",
                 "note": "(takub. '8.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Sundi (8) 1886-1892.",
@@ -3280,31 +3304,7 @@
                 "status": "Hjá for.",
                 "location": "Einarsstaðir, Þ.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 16546,
-                    "name": "Einarsstaðir",
-                    "lat": "65.7403968563",
-                    "lng": "-17.4074292183",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjá for. á Mýlaugsstöðum (20 ára) 1802-1803.",
@@ -3448,22 +3448,18 @@
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 1004483,
+                    "id": 13090,
                     "name": "Hóll",
-                    "lat": "65.851329",
-                    "lng": "-17.869841",
+                    "lat": "66.164372",
+                    "lng": "-17.24011",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
+                            "name": "Tjörnes",
+                            "id": 16460
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3817,31 +3813,7 @@
                 "status": "Hjú",
                 "location": "Tungu Fn.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 25200,
-                    "name": "Tunga",
-                    "lat": "65.751172",
-                    "lng": "-18.069293",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú í Bakkaseli (32) 1890-1891.",

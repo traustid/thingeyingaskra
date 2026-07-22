@@ -594,7 +594,31 @@
                 "status": "G. húsík.",
                 "location": "Vatnsleysu",
                 "note": "",
-                "year": "1877"
+                "year": "1877",
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú í Fjóshatungu (44) 1878-1879.",
@@ -999,31 +1023,7 @@
                 "status": "Húsfr.",
                 "location": "Haga",
                 "note": "",
-                "year": "1897-1900",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1897-1900"
             }
         ],
         "notes": {},
@@ -1490,20 +1490,29 @@
                 "status": "Hjá for.",
                 "location": "Brekku Fj.",
                 "note": "",
-                "year": "-1805-1808-",
+                "year": "-1805-1808-"
+            },
+            {
+                "original_string": "Hjá for. á Kaðalsstöðum (13) -1811-",
+                "year_or_period": "-1811-",
+                "age": 13,
+                "status": "Hjá for.",
+                "location": "Kaðalsstöðum",
+                "note": "",
+                "year": "-1811-",
                 "location_obj": {
-                    "id": 90026,
-                    "name": "Brekka",
-                    "lat": "65.839003",
-                    "lng": "-17.334747",
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Aðaldalur",
-                            "id": 16498
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1517,22 +1526,37 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Kaðalsstöðum (13) -1811-",
-                "year_or_period": "-1811-",
-                "age": 13,
-                "status": "Hjá for.",
-                "location": "Kaðalsstöðum",
-                "note": "",
-                "year": "-1811-"
-            },
-            {
                 "original_string": "Hjá for. á Kussungsstöðum (15) -1813-1821.",
                 "year_or_period": "-1813-1821",
                 "age": 15,
                 "status": "Hjá for.",
                 "location": "Kussungsstöðum",
                 "note": "",
-                "year": "-1813-1821"
+                "year": "-1813-1821",
+                "location_obj": {
+                    "id": 16613,
+                    "name": "Kussungsstaðir",
+                    "lat": "66.113367",
+                    "lng": "-18.08375",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Botni (33) 1829.",
@@ -1648,35 +1672,7 @@
             "birth": {
                 "original_string": "F. 28/4 1884. á Árbakka, Húsav.",
                 "date": "1884-04-28",
-                "location": "Árbakka, Húsav.",
-                "location_obj": {
-                    "id": 90019,
-                    "name": "Árbakki",
-                    "lat": "65.958172",
-                    "lng": "-18.192479",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Árbakka, Húsav."
             },
             "death": {
                 "original_string": "",
@@ -1722,35 +1718,7 @@
                 "original_string": "F. 28/4 1884. á Árbakka, Húsav.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Árbakka, Húsav.",
-                "location_obj": {
-                    "id": 90019,
-                    "name": "Árbakki",
-                    "lat": "65.958172",
-                    "lng": "-18.192479",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Árbakka, Húsav."
             },
             {
                 "original_string": "Hjá for. í Árbakka (1. ári) 1885-1899.",
@@ -2145,31 +2113,7 @@
                 "status": "G. hjú",
                 "location": "Hrappsstaðir Þ.",
                 "note": "",
-                "year": "1891",
-                "location_obj": {
-                    "id": 10417,
-                    "name": "Hrappstaðir",
-                    "lat": "65.541475",
-                    "lng": "-17.470323",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1891"
             },
             {
                 "original_string": "G. húsík. í Húsabakka (27) 1892.",
@@ -2608,31 +2552,7 @@
                 "status": "K. vinn.",
                 "location": "Hrappsstaðir B.",
                 "note": "",
-                "year": "1869",
-                "location_obj": {
-                    "id": 10417,
-                    "name": "Hrappstaðir",
-                    "lat": "65.541475",
-                    "lng": "-17.470323",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1869"
             },
             {
                 "original_string": "K. vinn. á Sandhaugum (28) 1870-71.",
@@ -3128,31 +3048,7 @@
                 "status": "Léttast",
                 "location": "Haga",
                 "note": "",
-                "year": "1861-1864",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1861-1864"
             },
             {
                 "original_string": "Með móður í Mýrarseli (11 ára) 1864.",
@@ -3190,31 +3086,7 @@
                 "status": "Hjú",
                 "location": "Haga",
                 "note": "",
-                "year": "1866-1868",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1866-1868"
             },
             {
                 "original_string": "Hjú í Múla (22) 1870-1871.",

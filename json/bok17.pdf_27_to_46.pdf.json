@@ -714,7 +714,31 @@
                 "age": 5,
                 "status": "Hjá for.",
                 "location": "Krosshúsum",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90049,
+                    "name": "Krosshús",
+                    "lat": "66.162429",
+                    "lng": "-17.843767",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Útibæ (8) 1894-1900-",
@@ -1598,31 +1622,7 @@
             "birth": {
                 "original_string": "F. 9/8. 1855 á Helluvaði, Skútust. s.",
                 "date": "1855-08-09",
-                "location": "Helluvaði, Skútust. s.",
-                "location_obj": {
-                    "id": 1001708,
-                    "name": "Helluvað",
-                    "lat": "65.587333",
-                    "lng": "-17.154798",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Mývatnssveit",
-                            "id": 16604
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Helluvaði, Skútust. s."
             },
             "death": null,
             "names": [
@@ -1663,31 +1663,7 @@
                 "original_string": "F. 9/8. 1855 á Helluvaði, Skútust. s.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Helluvaði, Skútust. s.",
-                "location_obj": {
-                    "id": 1001708,
-                    "name": "Helluvað",
-                    "lat": "65.587333",
-                    "lng": "-17.154798",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Mývatnssveit",
-                            "id": 16604
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Helluvaði, Skútust. s."
             },
             {
                 "original_string": "Hjá for. á Helluvaði (1 árs) 1855-1860-",
@@ -1730,7 +1706,7 @@
                 "note": "frá Geirastöðum"
             },
             {
-                "original_string": "Hjá for. á Mánafá (18) 1873-1874.",
+                "original_string": "Hjá for. á Mánáfá (18) 1873-1874.",
                 "year": "1873-1874",
                 "age": 18,
                 "status": "Hjá for.",
@@ -2416,31 +2392,7 @@
                 "age": 2,
                 "status": "Niðurs.",
                 "location": "Holtakoti Lj.",
-                "note": "",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Niðurs. á Arnðísarst. ... 1819- ?",
@@ -3782,8 +3734,32 @@
                 "year": "1830-1833",
                 "age": 37,
                 "status": "B.",
-                "location": "Ytrahóli",
-                "note": "Hrb."
+                "location": "Ytri-Hóll",
+                "note": "Hrb.",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Syðrahóli (40) 1834-1836- (likl. til 1839).",
@@ -3798,8 +3774,32 @@
                 "year": "1839-1849",
                 "age": 45,
                 "status": "B.",
-                "location": "Ytrahóli",
-                "note": "E. 40/45"
+                "location": "Ytri-Hóll",
+                "note": "E. 40/45",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. búandi á Syðrahóli (56) 1850-1857.",
@@ -3823,7 +3823,31 @@
                 "age": 68,
                 "status": "Faðir B.",
                 "location": "Vatnsleysu",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -4145,7 +4169,7 @@
                 "year": "1848-1852",
                 "age": 54,
                 "status": "Hjú",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "location_obj": {
                     "id": 14548,
@@ -4209,7 +4233,7 @@
                 "year": "1850-1852",
                 "age": null,
                 "status": "Hjú",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "location_obj": {
                     "id": 14548,
@@ -4270,31 +4294,7 @@
                 "age": 62,
                 "status": "Faðir H.",
                 "location": "Haga",
-                "note": "",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             }
         ],
         "notes": {
@@ -4566,7 +4566,7 @@
                 "year": "1874",
                 "age": 19,
                 "status": "Hjá for.",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "location_obj": {
                     "id": 14548,
@@ -4703,31 +4703,7 @@
             "birth": {
                 "original_string": "F. 28/8. 1840 á Brekku Fj.",
                 "date": "1840-08-28",
-                "location": "Brekku Fj.",
-                "location_obj": {
-                    "id": 90026,
-                    "name": "Brekka",
-                    "lat": "65.839003",
-                    "lng": "-17.334747",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Brekku Fj."
             },
             "death": null,
             "names": [
@@ -4768,31 +4744,7 @@
                 "original_string": "F. 28/8. 1840 á Brekku Fj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Brekku Fj.",
-                "location_obj": {
-                    "id": 90026,
-                    "name": "Brekka",
-                    "lat": "65.839003",
-                    "lng": "-17.334747",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Brekku Fj."
             },
             {
                 "original_string": "Hjá for. á Brekku Fj. (á 1.) 1840.",
@@ -4800,31 +4752,7 @@
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Brekku Fj.",
-                "note": "",
-                "location_obj": {
-                    "id": 90026,
-                    "name": "Brekka",
-                    "lat": "65.839003",
-                    "lng": "-17.334747",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             }
         ],
         "notes": {},

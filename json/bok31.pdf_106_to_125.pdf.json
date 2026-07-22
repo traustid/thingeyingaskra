@@ -439,31 +439,7 @@
             "birth": {
                 "original_string": "F. 30/3 1861 í Grjótárgerði F.",
                 "date": "1861-03-30",
-                "location": "Grjótárgerði F.",
-                "location_obj": {
-                    "id": 90001,
-                    "name": "Grjótárgerði",
-                    "lat": "65.42297",
-                    "lon": "-17.28719;",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Bárðardalur",
-                            "id": 16538
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Grjótárgerði F."
             },
             "death": {
                 "original_string": "",
@@ -508,31 +484,7 @@
                 "original_string": "F. 30/3 1861 í Grjótárgerði F.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grjótárgerði F.",
-                "location_obj": {
-                    "id": 90001,
-                    "name": "Grjótárgerði",
-                    "lat": "65.42297",
-                    "lon": "-17.28719;",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Bárðardalur",
-                            "id": 16538
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Grjótárgerði F."
             },
             {
                 "original_string": "Hjá for. í Grjótárgerði Fr. (1 árs) 1861-1864.",
@@ -1536,7 +1488,31 @@
                 "status": "",
                 "location": "Hofi",
                 "note": "Með móður",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1748,7 +1724,31 @@
                 "status": "Hjú",
                 "location": "Ytri-Tunga",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 16634,
+                    "name": "Ytri-Tunga",
+                    "lat": "66.131539",
+                    "lng": "-17.243242",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1877,7 +1877,7 @@
                 "year": "1806-1808",
                 "age": null,
                 "status": "Hjú",
-                "location": "Syðritungu",
+                "location": "Syðri-Tungu",
                 "note": "?",
                 "note_ref": null,
                 "location_obj": {

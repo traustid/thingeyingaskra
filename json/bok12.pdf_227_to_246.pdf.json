@@ -1326,7 +1326,31 @@
                 "age": 2,
                 "status": "Hjá for.",
                 "location": "Miðgerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Miðgerði... 1895-1898.",
@@ -1334,7 +1358,31 @@
                 "age": null,
                 "status": "Hjá for.",
                 "location": "Miðgerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Svalbarðseyri (17) 1899-1900.",
@@ -1528,18 +1576,18 @@
                 "location": "Nesi A",
                 "note": "",
                 "location_obj": {
-                    "id": 24832,
+                    "id": 13945,
                     "name": "Nes",
-                    "lat": "65.878069",
-                    "lng": "-17.405309",
+                    "lat": "65.902255",
+                    "lng": "-18.118468",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Aðaldalur",
-                            "id": 16498
+                            "name": "Höfðahverfi",
+                            "id": 24527
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1624,18 +1672,18 @@
                 "location": "Nesi A",
                 "note": "",
                 "location_obj": {
-                    "id": 24832,
+                    "id": 13945,
                     "name": "Nes",
-                    "lat": "65.878069",
-                    "lng": "-17.405309",
+                    "lat": "65.902255",
+                    "lng": "-18.118468",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Aðaldalur",
-                            "id": 16498
+                            "name": "Höfðahverfi",
+                            "id": 24527
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1744,18 +1792,18 @@
                 "location": "Nesi A",
                 "note": "",
                 "location_obj": {
-                    "id": 24832,
+                    "id": 13945,
                     "name": "Nes",
-                    "lat": "65.878069",
-                    "lng": "-17.405309",
+                    "lat": "65.902255",
+                    "lng": "-18.118468",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Aðaldalur",
-                            "id": 16498
+                            "name": "Höfðahverfi",
+                            "id": 24527
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2637,7 +2685,31 @@
                 "age": 53,
                 "status": "Hjú",
                 "location": "Neðribæ",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3247,31 +3319,7 @@
             "birth": {
                 "original_string": "F. um 1799 í Skógum, Fnj. d.",
                 "date": "1799-00-00",
-                "location": "Skógum, Fnj. d.",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Skógum, Fnj. d."
             },
             "death": {
                 "original_string": "",
@@ -3295,31 +3343,7 @@
                 "original_string": "F. um 1799 í Skógum, Fnj. d.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skógum, Fnj. d.",
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Skógum, Fnj. d."
             },
             {
                 "original_string": "Fósturb. í Fagrabe (1 árs) 1801-1815-",

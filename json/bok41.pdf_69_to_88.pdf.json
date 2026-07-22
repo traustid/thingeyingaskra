@@ -742,31 +742,7 @@
                 "age": 43,
                 "status": "Hjú",
                 "location": "Bjarnastöðum B.",
-                "year": "1900",
-                "location_obj": {
-                    "id": 1002748,
-                    "name": "Bjarnastaðir",
-                    "lat": "65.576353",
-                    "lng": "-17.136612",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Mývatnssveit",
-                            "id": 16604
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1900"
             }
         ],
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_41/73",
@@ -1455,31 +1431,7 @@
                 "year_or_period": "1801-1802",
                 "age": 9,
                 "location": "Tunga Fn.",
-                "year": "1801-1802",
-                "location_obj": {
-                    "id": 25200,
-                    "name": "Tunga",
-                    "lat": "65.751172",
-                    "lng": "-18.069293",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1801-1802"
             },
             {
                 "original_string": "Hjú í Fjósatungu (15) 1805-",
@@ -2247,9 +2199,33 @@
                 "year_or_period": "1843",
                 "age": 30,
                 "status": "G. hjú",
-                "location": "Ytrahóll",
+                "location": "Ytri-Hóll",
                 "note": "Skr. einnig á Syðrahóli",
-                "year": "1843"
+                "year": "1843",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Grímsgerði (34) 1844-1845. (G. 1845).",
@@ -3090,7 +3066,31 @@
             "birth": {
                 "original_string": "F. 19/5. 1843 á Kambsmýrum.",
                 "date": "1843-05-19",
-                "location": "Kambsmýrar"
+                "location": "Kambsmýrar",
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 29/3. 1875.",
@@ -3152,14 +3152,62 @@
                 "original_string": "F. 19/5. 1843 á Kambsmýrum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Kambsmýrar"
+                "location": "Kambsmýrar",
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Kambsmýrum (2) 1845-",
                 "year_or_period": "1845-",
                 "age": 2,
                 "location": "Kambsmýrar",
-                "year": "1845-"
+                "year": "1845-",
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú á Eyri Fj. (29) 1872-1873.",
@@ -3229,7 +3277,31 @@
                 "year_or_period": "1875",
                 "age": 32,
                 "location": "Hof",
-                "year": "1875"
+                "year": "1875",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -3699,31 +3771,7 @@
                 "year_or_period": "1801-1802",
                 "age": 59,
                 "location": "Ljótsstaðir, Fn.",
-                "year": "1801-1802",
-                "location_obj": {
-                    "id": 16562,
-                    "name": "Ljótsstaðir",
-                    "lat": "65.683681",
-                    "lng": "-17.201825",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1801-1802"
             },
             {
                 "year": "1804",

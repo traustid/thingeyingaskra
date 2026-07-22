@@ -542,7 +542,31 @@
                 "status": "Hjú",
                 "location": "Miðvík",
                 "note": "",
-                "year": "1801"
+                "year": "1801",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Fornastöðum (20) 1802 og 1805 (e.t.v. á slitit).",
@@ -1514,7 +1538,7 @@
                 }
             },
             {
-                "original_string": "Hjú frá Hálsi K. að Granavatni (55) 1826-",
+                "original_string": "Hjú frá Hálsi K. að Grænavatni (55) 1826-",
                 "year_or_period": "1826",
                 "age": 55,
                 "status": "Hjú",
@@ -1547,7 +1571,7 @@
                 }
             },
             {
-                "original_string": "Hjú á Granavatni (56) 1830-1836.",
+                "original_string": "Hjú á Grænavatni (56) 1830-1836.",
                 "year_or_period": "1830-1836",
                 "age": 56,
                 "status": "Hjú",
@@ -1681,7 +1705,7 @@
                 }
             },
             {
-                "original_string": "E. á Granavatni (73) 1845-1848-",
+                "original_string": "E. á Grænavatni (73) 1845-1848-",
                 "year_or_period": "1845-1848",
                 "age": 73,
                 "status": "E.",
@@ -2172,7 +2196,7 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 20/10. 1884 á Granavatni.",
+                "original_string": "F. 20/10. 1884 á Grænavatni.",
                 "date": "1884-10-20",
                 "location": "Grænavatn",
                 "location_obj": {
@@ -2235,7 +2259,7 @@
             },
             {
                 "name": "Kristín Ó. Pétursdóttir",
-                "note": "hj. á Granavatni",
+                "note": "hj. á Grænavatni",
                 "names": [
                     "Kristín",
                     "Ó.",
@@ -2245,11 +2269,11 @@
                 "lastName": "Pétursdóttir"
             }
         ],
-        "parents_original_string": "For. : Þorl. Jónasson og Kristín Ó. Pétursdóttir, hj. á Granavatni.",
+        "parents_original_string": "For. : Þorl. Jónasson og Kristín Ó. Pétursdóttir, hj. á Grænavatni.",
         "residence_history": [
             {
                 "year": "1884",
-                "original_string": "F. 20/10. 1884 á Granavatni.",
+                "original_string": "F. 20/10. 1884 á Grænavatni.",
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Grænavatn",
@@ -2279,7 +2303,7 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Granavatni (á 1.) 1884.",
+                "original_string": "Hjá for. á Grænavatni (á 1.) 1884.",
                 "year_or_period": "1884",
                 "age": 1,
                 "status": "",
@@ -2665,31 +2689,7 @@
                 "status": "Prestur",
                 "location": "Holt undir Eyjafj.",
                 "note": "helt til æviloka",
-                "year": "1862",
-                "location_obj": {
-                    "id": 1004893,
-                    "name": "Holt",
-                    "lat": "65.959297",
-                    "lng": "-18.196958",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Látraströnd",
-                            "id": 24709
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1862"
             }
         ],
         "notes": {},
@@ -3483,31 +3483,7 @@
             "birth": {
                 "original_string": "F. 2/1. 1878 í Garði F.",
                 "date": "1878-01-02",
-                "location": "Garður F.",
-                "location_obj": {
-                    "id": 16845,
-                    "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Garður F."
             },
             "death": null,
             "names": [
@@ -3560,31 +3536,7 @@
                 "original_string": "F. 2/1. 1878 í Garði F.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Garður F.",
-                "location_obj": {
-                    "id": 16845,
-                    "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Garður F."
             },
             {
                 "original_string": "Með for. í Garði Fn. (á 1.) 1878-1881.",
@@ -3648,7 +3600,31 @@
                 "status": "",
                 "location": "Kambsmýrar",
                 "note": "Hjá for.",
-                "year": "1883-1885"
+                "year": "1883-1885",
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Lettadr. niðurs. tökup. í Döl (10) 1888-1891.",

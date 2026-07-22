@@ -871,7 +871,7 @@
                 "year": "1871",
                 "age": 11,
                 "status": "Tökub.",
-                "location": "Syðritungu",
+                "location": "Syðri-Tungu",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -904,18 +904,18 @@
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 90012,
+                    "id": 90001,
                     "name": "Grjótárgerði",
-                    "lat": "65.631606",
-                    "lng": "-17.838890",
+                    "lat": "65.42297",
+                    "lon": "-17.28719;",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
+                            "name": "Bárðardalur",
+                            "id": 16538
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1390,7 +1390,31 @@
                 "status": "Hjá for.",
                 "location": "Hofi",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub., sv. barn á Eyri Fj. (7) 1880-1890. ?",
@@ -4022,7 +4046,7 @@
                 }
             },
             {
-                "original_string": "Hjú (21) '47 frá Granavatni - að bera handverk suður í R.vík 1847.",
+                "original_string": "Hjú (21) '47 frá Grænavatni - að bera handverk suður í R.vík 1847.",
                 "year": "1847",
                 "age": 21,
                 "status": "Hjú",

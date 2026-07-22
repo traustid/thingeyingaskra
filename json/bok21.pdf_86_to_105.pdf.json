@@ -7,31 +7,7 @@
             "birth": {
                 "original_string": "F. um 1765. í Haga?",
                 "date": "1765-00-00",
-                "location": "Haga",
-                "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Haga"
             },
             "death": {
                 "original_string": "",
@@ -87,20 +63,29 @@
                 "original_string": "F. um 1765. í Haga?",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Haga",
+                "location": "Haga"
+            },
+            {
+                "original_string": "G. á Vatnsleysu (31) 1801.",
+                "year_or_period": "1801",
+                "age": 31,
+                "status": "G.",
+                "location": "Vatnsleysu",
+                "note": "",
+                "year": "1801",
                 "location_obj": {
-                    "id": 24331,
-                    "name": "Hagi",
-                    "lat": "65.856858",
-                    "lng": "-17.383064",
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Aðaldalur",
-                            "id": 16498
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -112,15 +97,6 @@
                         }
                     ]
                 }
-            },
-            {
-                "original_string": "G. á Vatnsleysu (31) 1801.",
-                "year_or_period": "1801",
-                "age": 31,
-                "status": "G.",
-                "location": "Vatnsleysu",
-                "note": "",
-                "year": "1801"
             },
             {
                 "original_string": "G. á Végeirsstöðum (32) 1802-",
@@ -640,27 +616,7 @@
                 "location": "Reykjum, R.",
                 "note": "",
                 "note_ref": 1,
-                "year": "1801-1807",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1801-1807"
             },
             {
                 "original_string": "Hjú í Garði A (39 ára 1816) 1807-1818. (Óvíst að sé sú sama)",
@@ -1833,7 +1789,31 @@
                 "status": "Hjú",
                 "location": "Neðribæ",
                 "note": "",
-                "year": "1814-1829"
+                "year": "1814-1829",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1909,7 +1889,31 @@
                 "status": "Niðurs.",
                 "location": "Meyjarhóli",
                 "note": "",
-                "year": "1809"
+                "year": "1809",
+                "location_obj": {
+                    "id": 90046,
+                    "name": "Meyjarhóll",
+                    "lat": "65.701790",
+                    "lng": "-18.052675",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

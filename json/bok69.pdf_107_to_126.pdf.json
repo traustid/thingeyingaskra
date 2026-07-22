@@ -1929,27 +1929,7 @@
             "birth": {
                 "original_string": "F. 20/6. 1840 á Reykjum R.",
                 "date": "1840-06-20",
-                "location": "Reykir, R.",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Reykir, R."
             },
             "death": {
                 "original_string": "",
@@ -1994,17 +1974,29 @@
                 "original_string": "F. 20/6. 1840 á Reykjum R.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Reykir, R.",
+                "location": "Reykir, R."
+            },
+            {
+                "original_string": "Hjá for. á St. Reykjum (1 árs) 1840-1842.",
+                "year": "1840-1842",
+                "age": 1,
+                "status": "Hjá for.",
+                "location": "Stóra-Reykir",
+                "note": "",
                 "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
+                    "id": 16637,
+                    "name": "Stóru-Reykir",
+                    "lat": "65.897387",
+                    "lng": "-17.315872",
                     "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
+                        "id": 1,
+                        "name": "Heimilisfang"
                     },
                     "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
                         {
                             "name": "Suður-Þingeyjarsýsla",
                             "id": 1003354
@@ -2015,14 +2007,6 @@
                         }
                     ]
                 }
-            },
-            {
-                "original_string": "Hjá for. á St. Reykjum (1 árs) 1840-1842.",
-                "year": "1840-1842",
-                "age": 1,
-                "status": "Hjá for.",
-                "location": "Stóra-Reykir",
-                "note": ""
             },
             {
                 "original_string": "Hjá for. á Ytrafjalli (3) 1843-1847.",
@@ -2158,7 +2142,31 @@
                 "age": 20,
                 "status": "Hjú",
                 "location": "Miðgerði",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Fjósatungu (22) 1860.",
@@ -2518,7 +2526,31 @@
                 "age": 3,
                 "status": "",
                 "location": "Hof",
-                "note": "Með for."
+                "note": "Með for.",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Utíba...-1805-",

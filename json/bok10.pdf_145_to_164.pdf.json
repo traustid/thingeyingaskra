@@ -262,13 +262,33 @@
                 }
             },
             {
-                "original_string": "Húsm. á Mána (60 ára) 1899.",
+                "original_string": "Húsm. á Máná (60 ára) 1899.",
                 "year": "1899",
                 "age": 60,
                 "status": "Húsm.",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -492,7 +512,31 @@
             "birth": {
                 "original_string": "F. 9/9. 1792 í Miðvík.",
                 "date": "1792-09-09",
-                "location": "Miðvík"
+                "location": "Miðvík",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -533,7 +577,31 @@
                 "original_string": "F. 9/9. 1792 í Miðvík.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Miðvík"
+                "location": "Miðvík",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökubarn í Glaumbæ (10) 1801-",
@@ -608,31 +676,7 @@
                 "status": "Vinnup.",
                 "location": "Hóll, K.",
                 "note": "",
-                "note_ref": 1,
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": 1
             },
             {
                 "original_string": "Vinnup. í Skriðulandi (18 ára) 1810-1812.",
@@ -1541,31 +1585,7 @@
                 "status": "Með móður",
                 "location": "Skógar, P.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 13475,
-                    "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Með móður frá Skógum P. að Breiðumýri (1 1/2) 1830",
@@ -1993,35 +2013,7 @@
                 "status": "Hjú",
                 "location": "Hjalli, Þ.",
                 "note": "Kom frá Sandhólum",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 90003,
-                    "name": "Hjalli",
-                    "lat": "65.969928",
-                    "lng": "-18.211361",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "G. hjá föður að Syðribakka (27) 1856- (32 ára)",
@@ -2819,31 +2811,7 @@
                 "status": "Með for.",
                 "location": "Brettingstaðir, L.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 16545,
-                    "name": "Brettingsstaðir",
-                    "lat": "65.6436240882",
-                    "lng": "-17.1706867218",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Laxárdalur",
-                            "id": 24700
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjá for. í Torfunesi (2) 1888-1900-",
@@ -2960,52 +2928,12 @@
             "birth": {
                 "original_string": "F. 19/1. 1878 á Reykjum P.",
                 "date": "1878-01-19",
-                "location": "Reykir, P.",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Reykir, P."
             },
             "death": {
                 "original_string": "D. á s. st. 8/11. 1882.",
                 "date": "1882-11-08",
-                "location": "Reykir, P.",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Reykir, P."
             },
             "names": [
                 "Eiður",
@@ -3046,27 +2974,7 @@
                 "original_string": "F. 19/1. 1878 á Reykjum P.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Reykir, P.",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Reykir, P."
             },
             {
                 "original_string": "Hjá for. á St. Reykjum (á 1.) 1877-1881.",
@@ -3106,27 +3014,7 @@
                 "original_string": "D. á s. st. 8/11. 1882.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Reykir, P.",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Reykir, P."
             }
         ],
         "notes": {
@@ -3145,27 +3033,7 @@
             "birth": {
                 "original_string": "F. á Reykjum Þ. 24/12. 1883.",
                 "date": "1883-12-24",
-                "location": "Reykir, Þ.",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Reykir, Þ."
             },
             "death": null,
             "names": [
@@ -3207,27 +3075,7 @@
                 "original_string": "F. á Reykjum Þ. 24/12. 1883.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Reykir, Þ.",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Reykir, Þ."
             }
         ],
         "notes": {},
@@ -3482,31 +3330,7 @@
                 "status": "Með for.",
                 "location": "Hóll, K.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             }
         ],
         "notes": {},

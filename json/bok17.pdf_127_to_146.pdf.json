@@ -2092,20 +2092,25 @@
             "birth": {
                 "original_string": "F. 1/3 1796. í Grjótagerði Fn.",
                 "date": "1796-03-01",
-                "location": "Grjótagerði, Fn.",
+                "location": "Grjótagerði, Fn."
+            },
+            "death": {
+                "original_string": "D. á Kambsmýr. 15/12. 1882",
+                "date": "1882-12-15",
+                "location": "Kambsmýrar",
                 "location_obj": {
-                    "id": 90012,
-                    "name": "Grjótárgerði",
-                    "lat": "65.631606",
-                    "lng": "-17.838890",
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
+                            "name": "Flateyjardalur",
+                            "id": 24091
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2117,11 +2122,6 @@
                         }
                     ]
                 }
-            },
-            "death": {
-                "original_string": "D. á Kambsmýr. 15/12. 1882",
-                "date": "1882-12-15",
-                "location": "Kambsmýrar"
             },
             "names": [
                 "Guðmundur",
@@ -2173,31 +2173,7 @@
                 "original_string": "F. 1/3 1796. í Grjótagerði Fn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grjótagerði, Fn.",
-                "location_obj": {
-                    "id": 90012,
-                    "name": "Grjótárgerði",
-                    "lat": "65.631606",
-                    "lng": "-17.838890",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Grjótagerði, Fn."
             },
             {
                 "original_string": "Hjá for. í Grjótagerði Fr. (7)-1801-1816-",
@@ -2269,7 +2245,31 @@
                 "age": 51,
                 "status": "B.",
                 "location": "Kambsmýrar",
-                "note": "Hrb."
+                "note": "Hrb.",
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. Faðir bænda á Kambsmýrum (74) 1870-1876-1882.",
@@ -2277,14 +2277,62 @@
                 "age": 74,
                 "status": "Faðir bænda",
                 "location": "Kambsmýrar",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1882",
                 "original_string": "D. á Kambsmýr. 15/12. 1882",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Kambsmýrar"
+                "location": "Kambsmýrar",
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -3967,7 +4015,31 @@
                 "age": 26,
                 "status": "Hjú",
                 "location": "Miðvík",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Nesi Grýt. (29) 1896.",

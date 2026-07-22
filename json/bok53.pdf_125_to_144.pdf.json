@@ -242,7 +242,27 @@
                 "status": "Hjá for.",
                 "location": "Vestari-Krókum",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í V-Krókum (34) 1884-1891.",
@@ -2139,18 +2159,18 @@
                 "lastName": "Eiríksdóttir"
             },
             {
-                "name": "Alfheiður Einarsdóttir",
+                "name": "Álfheiður Einarsdóttir",
                 "date": "",
                 "status": "frá Hjalla",
                 "names": [
-                    "Alfheiður",
+                    "Álfheiður",
                     "Einarsdóttir"
                 ],
-                "firstName": "Alfheiður",
+                "firstName": "Álfheiður",
                 "lastName": "Einarsdóttir"
             }
         ],
-        "spouse_original_string": "1. Solveig Eiríksdóttir. 2. Alfheiður Einarsdóttir (frá Hjalla).",
+        "spouse_original_string": "1. Solveig Eiríksdóttir. 2. Álfheiður Einarsdóttir (frá Hjalla).",
         "parents": [
             {
                 "name": "Gabr. Ketilsson",
@@ -2277,7 +2297,7 @@
                 "year": "1862-1863",
                 "age": 42,
                 "status": "B.",
-                "location": "Syðritungu",
+                "location": "Syðri-Tungu",
                 "note": "1 ár",
                 "note_ref": null,
                 "location_obj": {
@@ -2515,31 +2535,7 @@
                 "status": "B.",
                 "location": "Gvjótárgerði, Fn.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 90001,
-                    "name": "Grjótárgerði",
-                    "lat": "65.42297",
-                    "lon": "-17.28719;",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Bárðardalur",
-                            "id": 16538
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "G. á Belgsá (56) 1853.",
@@ -3698,7 +3694,31 @@
             "death": {
                 "original_string": "D. á Hofi 22/2. 1844, 35 ára.",
                 "date": "1844-02-22",
-                "location": "Hofi"
+                "location": "Hofi",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Ólafur",
@@ -3849,7 +3869,31 @@
                 "status": "Hjá for.",
                 "location": "Neðribæ",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Útibæ... 1814.",
@@ -3998,14 +4042,62 @@
                 "status": "Hjú",
                 "location": "Hofi",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1844",
                 "original_string": "D. á Hofi 22/2. 1844, 35 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Hofi"
+                "location": "Hofi",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

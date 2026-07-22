@@ -131,16 +131,20 @@ def findPlace(placeItem):
 
 	print('region:')
 	print(lookupRegion)
+
+	hasRegion = re.search(r'([A-ZÁÐÉÍÓÚÝÞÆÖ]{1,5}\.)$', placeItem['location'], re.IGNORECASE)
+
 	for location in locations:
 		locationCounter += 1
 
 		#if location['location_type']['id'] != 8 and location['location_type']['id'] != 88:
 		if location['location_type']['id'] != 8 and histName not in manualExcludePlaces and histNameLemma not in manualExcludePlaces:
-			if lookupRegion and lookupRegion in regions and any(d['name'] == regions[lookupRegion] for d in location['parent']) and (location['name'] == histName or (histNameLemma and location['name'] == histNameLemma)):
-				matches.append({
-					'location': location,
-					'probability': 1
-				})
+			if hasRegion:
+				if lookupRegion in regions and any(d['name'] == regions[lookupRegion] for d in location['parent']) and (location['name'] == histName or (histNameLemma and location['name'] == histNameLemma)):
+					matches.append({
+						'location': location,
+						'probability': 1
+					})
 			elif SequenceMatcher(None, location['name'].lower(), histName.lower()).ratio() >= minSequenceRation+0.05:
 				matches.append({
 					'location': location,
@@ -220,3 +224,8 @@ print('matches: '+str(matchCounter))
 
 print('not found ('+str(len(notFound))+'):')
 print(notFound)
+
+notFoundSorted = {k: v for k, v in sorted(notFound.items(), key=lambda item: item[1])}
+
+with open('unknownLocations.json', 'w', encoding='utf-8') as output:
+	json.dump(notFoundSorted, output, indent=4, ensure_ascii=False)

@@ -415,7 +415,7 @@
                 "year_or_period": "1806-1816",
                 "age": 46,
                 "status": "Húsk.",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "note_ref": null,
                 "year": "1806-1816",
@@ -449,7 +449,7 @@
                 "year_or_period": "1828",
                 "age": 68,
                 "status": "Húsk.",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "note_ref": null,
                 "year": "1828",
@@ -483,7 +483,7 @@
                 "year_or_period": "1829-1832",
                 "age": null,
                 "status": "Tökuk.",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "note_ref": null,
                 "year": "1829-1832",
@@ -518,7 +518,7 @@
                 "age": null,
                 "status": "Ómagi",
                 "location": "s. staðir",
-                "note": "Héðinshöfða",
+                "note": "Héðinshöfði",
                 "note_ref": null,
                 "year": "1833-1837"
             },
@@ -906,7 +906,27 @@
             "birth": {
                 "original_string": "F. í V. Krókum 1/8. 1779.",
                 "date": "1779-08-01",
-                "location": "Vestari-Krókar"
+                "location": "Vestari-Krókar",
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Nesi 3/6. 1838, 58 ára. 1)",
@@ -987,7 +1007,27 @@
                 "original_string": "F. í V. Krókum 1/8. 1779.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Vestari-Krókar"
+                "location": "Vestari-Krókar",
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Bárðartjörn, óg. (25) 1801 - ?",
@@ -1153,31 +1193,7 @@
             "birth": {
                 "original_string": "F. 18/6. 1823 í Nesi F.",
                 "date": "1823-06-18",
-                "location": "Nes F.",
-                "location_obj": {
-                    "id": 13945,
-                    "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Nes F."
             },
             "death": {
                 "original_string": "8/6. 1875",
@@ -1245,31 +1261,7 @@
                 "original_string": "F. 18/6. 1823 í Nesi F.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Nes F.",
-                "location_obj": {
-                    "id": 13945,
-                    "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Nes F."
             },
             {
                 "original_string": "Tökub. í Grímsgerði (7) 1829-1831.",
@@ -1468,7 +1460,31 @@
                 "location": "Meyjarhóli",
                 "note": "",
                 "note_ref": null,
-                "year": "1807"
+                "year": "1807",
+                "location_obj": {
+                    "id": 90046,
+                    "name": "Meyjarhóll",
+                    "lat": "65.701790",
+                    "lng": "-18.052675",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Breiðabóli (6) 1809-1814.",
@@ -1835,31 +1851,7 @@
                 "location": "Svæði",
                 "note": "",
                 "note_ref": null,
-                "year": "1809",
-                "location_obj": {
-                    "id": 90013,
-                    "name": "Vað",
-                    "lat": "65.799802",
-                    "lng": "-17.502078",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1809"
             },
             {
                 "original_string": "Hjú á Grýtubakka (27) 1827.",
@@ -1977,27 +1969,7 @@
             "birth": {
                 "original_string": "F. 25/9. 1833 á Reykjum F.",
                 "date": "1833-09-25",
-                "location": "Reykir F.",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Reykir F."
             },
             "death": {
                 "original_string": "D. í Bakkaseli 17/5. 1886.",
@@ -2066,27 +2038,7 @@
                 "original_string": "F. 25/9. 1833 á Reykjum F.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Reykir F.",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Reykir F."
             },
             {
                 "original_string": "Hjá for. á Reykjum Fr. (1 árs) 1834-1845-1864.",
@@ -2096,27 +2048,7 @@
                 "location": "Reykjum Fn.",
                 "note": "",
                 "note_ref": null,
-                "year": "1834-1864",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1834-1864"
             },
             {
                 "original_string": "Systir B. í Bakkaseli (50) 1883-1885.",
@@ -2792,27 +2724,7 @@
                 "location": "Reykjum Fn.",
                 "note": "",
                 "note_ref": null,
-                "year": "1870-1871",
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1870-1871"
             },
             {
                 "original_string": "Hjú í Sjósatungu (45) 1883-1885.",

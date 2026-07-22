@@ -1203,31 +1203,7 @@
                 "status": "Hjú",
                 "location": "Hóli Þ.",
                 "note": "",
-                "year": "1830",
-                "location_obj": {
-                    "id": 13090,
-                    "name": "Hóll",
-                    "lat": "66.164372",
-                    "lng": "-17.24011",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Tjörnes",
-                            "id": 16460
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1830"
             },
             {
                 "original_string": "Ráðsk. í Skógarseli (37) frá Hóli í Kinn, 1831-",
@@ -1499,18 +1475,18 @@
                 "note": "Frá Halldórsstaðir L",
                 "year": "1853-55",
                 "location_obj": {
-                    "id": 33711,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.760420",
-                    "lng": "-17.388783",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Reykjadalur",
-                            "id": 16405
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1713,31 +1689,7 @@
                 "status": "Tökub.",
                 "location": "Halldórsstaðir Þ.",
                 "note": "",
-                "year": "1844",
-                "location_obj": {
-                    "id": 13949,
-                    "name": "Halldórsstaðir",
-                    "lat": "65.734894",
-                    "lng": "-17.594338",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1844"
             },
             {
                 "original_string": "Fóstruð á Finnstöðum (12)-1850-",
@@ -2694,9 +2646,33 @@
                 "year_or_period": "1854-1855",
                 "age": 28,
                 "status": "Húsfr.",
-                "location": "Ytrahóli",
+                "location": "Ytri-Hóll",
                 "note": "",
-                "year": "1854-1855"
+                "year": "1854-1855",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Jökulsá (30 1/2) 1856-1861-",
@@ -2961,7 +2937,7 @@
                 "year_or_period": "1855",
                 "age": 12,
                 "status": "Með móður",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "year": "1855",
                 "location_obj": {
@@ -3743,7 +3719,31 @@
             "birth": {
                 "original_string": "F. 6/3 1837 á Ytrahóli.",
                 "date": "1837-03-06",
-                "location": "Ytrahóli"
+                "location": "Ytri-Hóll",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3788,16 +3788,64 @@
                 "original_string": "F. 6/3 1837 á Ytrahóli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Ytrahóli"
+                "location": "Ytri-Hóll",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Ytrahóli (3)-1840-1845-1849.",
                 "year_or_period": "1840-1849",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Ytrahóli",
+                "location": "Ytri-Hóll",
                 "note": "",
-                "year": "1840-1849"
+                "year": "1840-1849",
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Syðrahóli (14) 1850-1852.",
@@ -4005,7 +4053,7 @@
                 "year_or_period": "1880",
                 "age": 12,
                 "status": "Léttast",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "year": "1880",
                 "location_obj": {

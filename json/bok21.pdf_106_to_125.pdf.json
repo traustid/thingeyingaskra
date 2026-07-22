@@ -545,7 +545,31 @@
                 "status": "Hjú",
                 "location": "Miðvík - Breiðaból",
                 "note": "",
-                "year": "1820"
+                "year": "1820",
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú frá Draflast. - að Skarði (42) 1827.",
@@ -572,31 +596,7 @@
                 "status": "Hjú",
                 "location": "Nes, Grýl.",
                 "note": "",
-                "year": "1830-1831",
-                "location_obj": {
-                    "id": 13945,
-                    "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year": "1830-1831"
             },
             {
                 "original_string": "Hjú í Borgargerði (47) 1832-1833.",
@@ -632,7 +632,7 @@
                 }
             },
             {
-                "original_string": "Hjú á Þverá Fr. (52) 1837-1841.",
+                "original_string": "Hjú á Þverá Fn. (52) 1837-1841.",
                 "year_or_period": "1837-1841",
                 "age": 52,
                 "status": "Hjú",
@@ -1206,22 +1206,62 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Mána (21) 1808.",
+                "original_string": "Hjá for. á Máná (21) 1808.",
                 "year_or_period": "1808",
                 "age": 21,
                 "status": "Hjá for.",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "",
-                "year": "1808"
+                "year": "1808",
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjú á Mána (24) 1813 (?)",
+                "original_string": "Hjú á Máná (24) 1813 (?)",
                 "year_or_period": "1813",
                 "age": 24,
                 "status": "Hjú",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "",
-                "year": "1813"
+                "year": "1813",
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Vogum (29) 1816-",
@@ -1530,7 +1570,31 @@
                 "status": "Hjá for.",
                 "location": "Kambsmýrar",
                 "note": "",
-                "year": "1802-1805"
+                "year": "1802-1805",
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Fremstafelli (21) 1809-",
@@ -3238,7 +3302,7 @@
                 "year_or_period": "1844-1846",
                 "age": null,
                 "status": "Búandi ekkja",
-                "location": "Syðritunga",
+                "location": "Syðri-Tunga",
                 "note": "",
                 "year": "1844-1846",
                 "location_obj": {

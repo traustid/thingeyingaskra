@@ -2,7 +2,13 @@ import os, json
 
 names = open('nofn.txt').read().split()
 
-notFound = []
+notFound = {}
+
+def addNotFound(n):
+	if n not in notFound:
+		notFound[n] = 0
+	
+	notFound[n] = notFound[n]+1
 
 for filename in os.listdir('json'):
 	file = open('json/'+filename)
@@ -10,14 +16,14 @@ for filename in os.listdir('json'):
 
 	for item in data:
 		nameParts = item['person']['name'].split(' ')
-		if nameParts[0] not in names and nameParts[0] not in notFound:
-			notFound.append(nameParts[0])
+		if nameParts[0] not in names:
+			addNotFound(nameParts[0])
 
 		if 'spouse' in item:
 			for spouse in item['spouse']:
 				spouseNameParts = spouse['name'].split(' ')
-				if spouseNameParts[0] not in names and spouseNameParts[0] not in notFound:
-					notFound.append(spouseNameParts[0])
+				if spouseNameParts[0] not in names:
+					addNotFound(spouseNameParts[0])
 
 				spouse['names'] = spouseNameParts
 				spouse['firstName'] = spouseNameParts[0]
@@ -26,8 +32,8 @@ for filename in os.listdir('json'):
 		if 'parents' in item:
 			for parent in item['parents']:
 				parentNameParts = parent['name'].split(' ')
-				if parentNameParts[0] not in names and parentNameParts[0] not in notFound:
-					notFound.append(parentNameParts[0])
+				if parentNameParts[0] not in names:
+					addNotFound(parentNameParts[0])
 
 				parent['names'] = parentNameParts
 				parent['firstName'] = parentNameParts[0]
@@ -40,5 +46,7 @@ for filename in os.listdir('json'):
 	with open('json/'+filename, 'w', encoding='utf-8') as file:
 		json.dump(data, file, indent=4, ensure_ascii=False)
 
-for name in notFound:
-	print(name)
+notFoundSorted = {k: v for k, v in sorted(notFound.items(), key=lambda item: item[1])}
+
+with open('unknownNames.json', 'w', encoding='utf-8') as output:
+	json.dump(notFoundSorted, output, indent=4, ensure_ascii=False)

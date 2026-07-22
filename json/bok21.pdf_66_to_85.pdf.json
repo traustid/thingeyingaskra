@@ -1650,7 +1650,27 @@
             "death": {
                 "original_string": "D. 26/9. 1836 í V-Krókum.",
                 "date": "1836-09-26",
-                "location": "Vestari-Krókar"
+                "location": "Vestari-Krókar",
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Guðrún",
@@ -1745,14 +1765,54 @@
                 "age": 52,
                 "status": "Húsfr.",
                 "location": "Vestari-Krókar",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1836",
                 "original_string": "D. 26/9. 1836 í V-Krókum.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Vestari-Krókar"
+                "location": "Vestari-Krókar",
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1919,31 +1979,7 @@
             "death": {
                 "original_string": "D. á Hallbj.st. F. 15/6. 1803, 40 ára.",
                 "date": "1803-06-15",
-                "location": "Hallbjarnarstaðir, F.",
-                "location_obj": {
-                    "id": 16409,
-                    "name": "Hallbjarnarstaðir",
-                    "lat": "65.671379",
-                    "lng": "-17.322558",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Hallbjarnarstaðir, F."
             },
             "names": [
                 "Guðrún",
@@ -1984,62 +2020,14 @@
                 "age": 40,
                 "status": "G. húsk.",
                 "location": "Hallbjarnarstaðir, F.",
-                "note": "",
-                "location_obj": {
-                    "id": 16409,
-                    "name": "Hallbjarnarstaðir",
-                    "lat": "65.671379",
-                    "lng": "-17.322558",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "year": "1803",
                 "original_string": "D. á Hallbj.st. F. 15/6. 1803, 40 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Hallbjarnarstaðir, F.",
-                "location_obj": {
-                    "id": 16409,
-                    "name": "Hallbjarnarstaðir",
-                    "lat": "65.671379",
-                    "lng": "-17.322558",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Hallbjarnarstaðir, F."
             }
         ],
         "notes": {
@@ -2592,7 +2580,7 @@
         "parents_original_string": "",
         "residence_history": [
             {
-                "original_string": "Hjú frá Þverá, Fr. - að St. Krókum (54) 1819.",
+                "original_string": "Hjú frá Þverá, Fn. - að St. Krókum (54) 1819.",
                 "year": "1819",
                 "age": 54,
                 "status": "Hjú",

@@ -1860,13 +1860,33 @@
                 }
             },
             {
-                "original_string": "Hjú á Mána (24) 1832.",
+                "original_string": "Hjú á Máná (24) 1832.",
                 "year": "1832",
                 "age": 24,
                 "status": "Hjú",
-                "location": "Máni",
+                "location": "Máná",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 13530,
+                    "name": "Máná",
+                    "lat": "66.196792",
+                    "lng": "-17.105147",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Á sveit á Halldórsst. L. (62) 1870-1895.",
@@ -4090,31 +4110,7 @@
                 "status": "Hjú",
                 "location": "Gili Tj.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 25664,
-                    "name": "Gil",
-                    "lat": "66.073194",
-                    "lng": "-18.076101",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fjörður",
-                            "id": 12898
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Grund (50) 1845-1846.",

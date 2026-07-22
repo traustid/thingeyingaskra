@@ -2040,7 +2040,7 @@
             "birth": {
                 "original_string": "F. 31/8. 1821 í Syðritungu.",
                 "date": "1821-08-31",
-                "location": "Syðritunga",
+                "location": "Syðri-Tunga",
                 "location_obj": {
                     "id": 10218,
                     "name": "Syðri-Tunga",
@@ -2105,7 +2105,7 @@
                 "original_string": "F. 31/8. 1821 í Syðritungu.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Syðritunga",
+                "location": "Syðri-Tunga",
                 "location_obj": {
                     "id": 10218,
                     "name": "Syðri-Tunga",
@@ -2661,31 +2661,7 @@
                 "age": 45,
                 "status": "Hjú",
                 "location": "Jarlesstaðir, B.",
-                "note": "",
-                "location_obj": {
-                    "id": 1002743,
-                    "name": "Jarlsstaðir",
-                    "lat": "65.883203",
-                    "lng": "-17.430757",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": ""
             },
             {
                 "original_string": "Hjú á Hvarfi (47) 1890-1892.",
@@ -3038,7 +3014,7 @@
                 "year": "1837",
                 "age": 20,
                 "status": "Hjú",
-                "location": "Syðritunga",
+                "location": "Syðri-Tunga",
                 "note": "20 ára",
                 "location_obj": {
                     "id": 10218,
@@ -3274,7 +3250,31 @@
                 "age": 39,
                 "status": "Hjú",
                 "location": "Hof",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. í Niðribæ (42) 1891.",
@@ -3683,9 +3683,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 23/11. 1796 á Steindrum.",
+                "original_string": "F. 23/11. 1796 á Steindyrum.",
                 "date": "1796-11-23",
-                "location": "Steindrum"
+                "location": "Steindyr",
+                "location_obj": {
+                    "id": 16615,
+                    "name": "Steindyr",
+                    "lat": "66.015869",
+                    "lng": "-18.276375",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3727,18 +3751,66 @@
         "residence_history": [
             {
                 "year": "1796",
-                "original_string": "F. 23/11. 1796 á Steindrum.",
+                "original_string": "F. 23/11. 1796 á Steindyrum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Steindrum"
+                "location": "Steindyr",
+                "location_obj": {
+                    "id": 16615,
+                    "name": "Steindyr",
+                    "lat": "66.015869",
+                    "lng": "-18.276375",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. á Steindrum (5) - 1801-1816-",
+                "original_string": "Hjá for. á Steindyrum (5) - 1801-1816-",
                 "year": "1801-1816",
                 "age": 5,
                 "status": "hjá for.",
-                "location": "Steindrum",
-                "note": ""
+                "location": "Steindyr",
+                "note": "",
+                "location_obj": {
+                    "id": 16615,
+                    "name": "Steindyr",
+                    "lat": "66.015869",
+                    "lng": "-18.276375",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

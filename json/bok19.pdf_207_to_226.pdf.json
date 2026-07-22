@@ -45,7 +45,27 @@
                 "status": "Húsfr.",
                 "location": "Vestari-Krókum",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -266,35 +286,7 @@
             "birth": {
                 "original_string": "F. um 1769 á Eyri Fj.",
                 "date": "1769-01-01",
-                "location": "Eyri, Fj.",
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Eyri, Fj."
             },
             "death": {
                 "original_string": "D. í Laufási 13/6. 1845, 76 ára. 1)",
@@ -355,24 +347,29 @@
                 "original_string": "F. um 1769 á Eyri Fj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Eyri, Fj.",
+                "location": "Eyri, Fj."
+            },
+            {
+                "original_string": "E., hjú í Neðribæ (33) 1801-",
+                "year": "1801",
+                "age": 33,
+                "status": "E., hjú",
+                "location": "Neðribæ",
+                "note": "",
+                "note_ref": null,
                 "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
                     "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
+                        "id": 88,
+                        "name": "Örnefni"
                     },
                     "parent": [
                         {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
+                            "name": "Flatey",
+                            "id": 24092
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -384,15 +381,6 @@
                         }
                     ]
                 }
-            },
-            {
-                "original_string": "E., hjú í Neðribæ (33) 1801-",
-                "year": "1801",
-                "age": 33,
-                "status": "E., hjú",
-                "location": "Neðribæ",
-                "note": "",
-                "note_ref": null
             },
             {
                 "original_string": "Hjú á Þönglabakka (36) 1805.",
@@ -434,7 +422,31 @@
                 "status": "G. hjú",
                 "location": "Neðribæ",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Vík (49) 1816-",
@@ -476,7 +488,31 @@
                 "status": "Hjú",
                 "location": "Miðvík",
                 "note": "frá Kaupangi",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. frá Miðvík - vestur í Fljót, Skagaf. ... 1820.?",
@@ -1396,31 +1432,7 @@
                 "status": "Hjú",
                 "location": "Tungu Fn.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 25200,
-                    "name": "Tunga",
-                    "lat": "65.751172",
-                    "lng": "-18.069293",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú þaðan að Reykjum Fn. ... 1817-",
@@ -1429,27 +1441,7 @@
                 "status": "Hjú",
                 "location": "Reykjum Fn.",
                 "note": "þaðan",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "E. húsk. frá Kaupangsseli að Miðvík ... 1819.",
@@ -1458,29 +1450,20 @@
                 "status": "E. húsk.",
                 "location": "Miðvík",
                 "note": "frá Kaupangsseli",
-                "note_ref": null
-            },
-            {
-                "original_string": "Hjú í Tungu Fn. (38)-1829.",
-                "year": "1829",
-                "age": 38,
-                "status": "Hjú",
-                "location": "Tungu Fn.",
-                "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 25200,
-                    "name": "Tunga",
-                    "lat": "65.751172",
-                    "lng": "-18.069293",
+                    "id": 90051,
+                    "name": "Miðvík",
+                    "lat": "65.815466",
+                    "lng": "-18.049801",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Svalbarðsströnd",
-                            "id": 25150
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1492,6 +1475,15 @@
                         }
                     ]
                 }
+            },
+            {
+                "original_string": "Hjú í Tungu Fn. (38)-1829.",
+                "year": "1829",
+                "age": 38,
+                "status": "Hjú",
+                "location": "Tungu Fn.",
+                "note": "",
+                "note_ref": null
             },
             {
                 "original_string": "K. vm. á Illugastöðum (42) 1832-1838.",
@@ -2786,31 +2778,7 @@
             "birth": {
                 "original_string": "F. um 1773. á Bakka, Tj.",
                 "date": "1773-01-01",
-                "location": "Bakki. Tj.",
-                "location_obj": {
-                    "id": 12361,
-                    "name": "Bakki",
-                    "lat": "65.57006",
-                    "lng": "-17.703681",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Bakki. Tj."
             },
             "death": {
                 "original_string": "D. í R. hlíð 8/1. 1860, 86 ára. 3)",
@@ -2845,31 +2813,7 @@
                 "original_string": "F. um 1773. á Bakka, Tj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Bakki. Tj.",
-                "location_obj": {
-                    "id": 12361,
-                    "name": "Bakki",
-                    "lat": "65.57006",
-                    "lng": "-17.703681",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Bakki. Tj."
             },
             {
                 "original_string": "Hjú á Skútustöðum (27) 1801-1802. 1)",
@@ -3491,7 +3435,31 @@
                 "status": "Hjú",
                 "location": "Hofi",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Kadalsstöðum (24) 1873-1876.",

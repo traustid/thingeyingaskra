@@ -530,7 +530,31 @@
                 "status": "Smali",
                 "location": "Miðgerði",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90048,
+                    "name": "Miðgerði",
+                    "lat": "65.648151",
+                    "lng": "-17.862601",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttadr. í Y. Neslöndum (17) 1881.",
@@ -671,31 +695,7 @@
                 "status": "Hjú",
                 "location": "Hrappsstaðir B.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10417,
-                    "name": "Hrappstaðir",
-                    "lat": "65.541475",
-                    "lng": "-17.470323",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Sigurðarst. (22) 1888.",
@@ -1657,31 +1657,7 @@
             "birth": {
                 "original_string": "F. 3/9. 1879. á Einarsstöðum, B.hv.",
                 "date": "1879-09-03",
-                "location": "Einarsstaðir, B.hv.",
-                "location_obj": {
-                    "id": 16546,
-                    "name": "Einarsstaðir",
-                    "lat": "65.7403968563",
-                    "lng": "-17.4074292183",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Einarsstaðir, B.hv."
             },
             "death": null,
             "names": [
@@ -1725,31 +1701,7 @@
                 "original_string": "F. 3/9. 1879. á Einarsstöðum, B.hv.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Einarsstaðir, B.hv.",
-                "location_obj": {
-                    "id": 16546,
-                    "name": "Einarsstaðir",
-                    "lat": "65.7403968563",
-                    "lng": "-17.4074292183",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Einarsstaðir, B.hv."
             },
             {
                 "original_string": "Með móður í Húsavík (2 ára) 1881.",
@@ -2481,7 +2433,7 @@
                 }
             },
             {
-                "original_string": "Niðurs. á Granavatni (7) 1872.",
+                "original_string": "Niðurs. á Grænavatni (7) 1872.",
                 "year": "1872",
                 "age": 7,
                 "status": "Niðurs.",
@@ -2607,7 +2559,7 @@
                 "note_ref": null
             },
             {
-                "original_string": "Hjú á Granavatni... 1886-1887.",
+                "original_string": "Hjú á Grænavatni... 1886-1887.",
                 "year": "1886-1887",
                 "age": null,
                 "status": "Hjú",

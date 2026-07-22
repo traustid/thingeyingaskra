@@ -722,7 +722,31 @@
                 "age": 21,
                 "status": "Hjú",
                 "location": "Hofi",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90050,
+                    "name": "Hof",
+                    "lat": "66.115101",
+                    "lng": "-17.886827",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Heiðarhúsum (22) 1864-1865.",
@@ -1800,31 +1824,7 @@
                 "age": 28,
                 "status": "Bóndi",
                 "location": "Holtakoti Lj.",
-                "note": "Hrb.",
-                "location_obj": {
-                    "id": 25661,
-                    "name": "Holtakot",
-                    "lat": "65.697823",
-                    "lng": "-17.576314",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Ljósavatnsskarð",
-                            "id": 24734
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note": "Hrb."
             },
             {
                 "original_string": "B. á Krassi... 1846-1848 (Hrb.)",
@@ -2300,18 +2300,18 @@
         },
         "spouse": [
             {
-                "name": "Alfheiður Einarsdóttir",
+                "name": "Álfheiður Einarsdóttir",
                 "date": "1908-06-16",
                 "status": "",
                 "names": [
-                    "Alfheiður",
+                    "Álfheiður",
                     "Einarsdóttir"
                 ],
-                "firstName": "Alfheiður",
+                "firstName": "Álfheiður",
                 "lastName": "Einarsdóttir"
             }
         ],
-        "spouse_original_string": "K.: 16/6. 1908: Alfheiður Einarsdóttir.",
+        "spouse_original_string": "K.: 16/6. 1908: Álfheiður Einarsdóttir.",
         "parents": [
             {
                 "name": "F. Jónsson",
@@ -2851,7 +2851,7 @@
             "birth": {
                 "original_string": "F. 26/6. 1867 á Héðinshöfða.",
                 "date": "1867-06-26",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "location_obj": {
                     "id": 14548,
                     "name": "Héðinshöfði",
@@ -2921,7 +2921,7 @@
                 "original_string": "F. 26/6. 1867 á Héðinshöfða.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "location_obj": {
                     "id": 14548,
                     "name": "Héðinshöfði",
@@ -2952,7 +2952,7 @@
                 "year": "1868-1876",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Héðinshöfða",
+                "location": "Héðinshöfði",
                 "note": "",
                 "location_obj": {
                     "id": 14548,
@@ -3412,31 +3412,7 @@
             "birth": {
                 "original_string": "F. 23/1. 1838 á Þórðarstöðum Fl.",
                 "date": "1838-01-23",
-                "location": "Þórðarstöðum Fl.",
-                "location_obj": {
-                    "id": 16612,
-                    "name": "Þórðarstaðir",
-                    "lat": "65.626348",
-                    "lng": "-17.811754",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Þórðarstöðum Fl."
             },
             "death": {
                 "original_string": "",
@@ -3493,31 +3469,7 @@
                 "original_string": "F. 23/1. 1838 á Þórðarstöðum Fl.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Þórðarstöðum Fl.",
-                "location_obj": {
-                    "id": 16612,
-                    "name": "Þórðarstaðir",
-                    "lat": "65.626348",
-                    "lng": "-17.811754",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Þórðarstöðum Fl."
             },
             {
                 "original_string": "Með for. á Þverá Fn. (3) 1840-1841.",
@@ -4074,7 +4026,31 @@
                 "age": 46,
                 "status": "Bóndi",
                 "location": "Meyjarhóli",
-                "note": "Ekm."
+                "note": "Ekm.",
+                "location_obj": {
+                    "id": 90046,
+                    "name": "Meyjarhóll",
+                    "lat": "65.701790",
+                    "lng": "-18.052675",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. á sama bæ (49) 1886.",
@@ -4082,7 +4058,31 @@
                 "age": 49,
                 "status": "Ekm.",
                 "location": "Meyjarhóli",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90046,
+                    "name": "Meyjarhóll",
+                    "lat": "65.701790",
+                    "lng": "-18.052675",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

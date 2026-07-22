@@ -807,31 +807,7 @@
             "birth": {
                 "original_string": "F. um 1795 á Bakka, T.",
                 "date": "1795",
-                "location": "Bakki. T.",
-                "location_obj": {
-                    "id": 12361,
-                    "name": "Bakki",
-                    "lat": "65.57006",
-                    "lng": "-17.703681",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Bakki. T."
             },
             "death": {
                 "original_string": "D. í Húsav. sókn 12/8. 1828. 1)",
@@ -889,31 +865,7 @@
                 "original_string": "F. um 1795 á Bakka, T.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Bakki. T.",
-                "location_obj": {
-                    "id": 12361,
-                    "name": "Bakki",
-                    "lat": "65.57006",
-                    "lng": "-17.703681",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Bakki. T."
             },
             {
                 "original_string": "Hjá for. á Bakka (6 ára) 1801.",
@@ -1433,16 +1385,64 @@
                 "status": "Hjú",
                 "location": "Vatnsleysu",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90043,
+                    "name": "Vatnsleysa",
+                    "lat": "65.782541",
+                    "lng": "-17.914840",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Ytrahóli (49) 1830-1831.",
                 "year": "1830-1831",
                 "age": 49,
                 "status": "Hjú",
-                "location": "Ytrahóli",
+                "location": "Ytri-Hóll",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90052,
+                    "name": "Ytri-Hóll",
+                    "lat": "65.851455",
+                    "lng": "-17.869973",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í A-Krókum (52) 1832-1834.",
@@ -2274,18 +2274,18 @@
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 33711,
+                    "id": 13949,
                     "name": "Halldórsstaðir",
-                    "lat": "65.760420",
-                    "lng": "-17.388783",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Reykjadalur",
-                            "id": 16405
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2431,16 +2431,40 @@
                 }
             },
             {
-                "original_string": "Húsfr. (pr.k) á Granavatni (34) 1860-",
+                "original_string": "Húsfr. (pr.k) á Grænavatni (34) 1860-",
                 "year": "1860",
                 "age": 34,
                 "status": "Húsfr. (pr.k)",
-                "location": "Granavatni",
+                "location": "Grænavatni",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Prk. (36) frá Granavatni að Yztafelli 1863-1865.",
+                "original_string": "Prk. (36) frá Grænavatni að Yztafelli 1863-1865.",
                 "year": "1863-1865",
                 "age": 36,
                 "status": "Prk.",
@@ -2615,27 +2639,7 @@
                 "status": "Hjú",
                 "location": "Reykjum, R.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 10155,
-                    "name": "Reykir",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
-                    },
-                    "parent": [
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Tökust. í Prestbakka (15) 1801-02. Hjú á Grenjaðarst. (20) 1807.",
@@ -3105,20 +3109,29 @@
                 "status": "Húsfr.",
                 "location": "Brekku Fj.",
                 "note": "",
+                "note_ref": null
+            },
+            {
+                "original_string": "Húsfr. á Kaðalsstöðum (45) - 1811-",
+                "year": "1811",
+                "age": 45,
+                "status": "Húsfr.",
+                "location": "Kaðalsstöðum",
+                "note": "",
                 "note_ref": null,
                 "location_obj": {
-                    "id": 90026,
-                    "name": "Brekka",
-                    "lat": "65.839003",
-                    "lng": "-17.334747",
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Aðaldalur",
-                            "id": 16498
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3130,15 +3143,6 @@
                         }
                     ]
                 }
-            },
-            {
-                "original_string": "Húsfr. á Kaðalsstöðum (45) - 1811-",
-                "year": "1811",
-                "age": 45,
-                "status": "Húsfr.",
-                "location": "Kaðalsstöðum",
-                "note": "",
-                "note_ref": null
             },
             {
                 "original_string": "Húsfr. á Kussungastöðum (47) - 1813-22.",
@@ -3222,31 +3226,7 @@
                 "status": "Niðurs.",
                 "location": "Nesi Grjt.",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 13945,
-                    "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Ómagi í A-Krókum (77) 1840-1841.",
