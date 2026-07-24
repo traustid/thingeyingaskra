@@ -500,31 +500,7 @@
                 "status": "Hjú",
                 "location": "Vöglum",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 1003587,
-                    "name": "Vaglir",
-                    "lat": "65.713616",
-                    "lng": "-17.876124",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Vöglum ... 1880–1881.",
@@ -533,31 +509,7 @@
                 "status": "Hjú",
                 "location": "Vöglum",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 1003587,
-                    "name": "Vaglir",
-                    "lat": "65.713616",
-                    "lng": "-17.876124",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Þverá, Fn. (25) 1884–1886.",
@@ -781,7 +733,31 @@
             "birth": {
                 "original_string": "F. 18/8. 1861 á Einarsst. R. hv.",
                 "date": "1861-08-18",
-                "location": "Einarsstaðir, R. hv."
+                "location": "Einarsstaðir, R. hv.",
+                "location_obj": {
+                    "id": 25978,
+                    "name": "Einarsstaðir",
+                    "lat": "65.951317",
+                    "lng": "-17.304459",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -827,16 +803,64 @@
                 "original_string": "F. 18/8. 1861 á Einarsst. R. hv.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Einarsstaðir, R. hv."
+                "location": "Einarsstaðir, R. hv.",
+                "location_obj": {
+                    "id": 25978,
+                    "name": "Einarsstaðir",
+                    "lat": "65.951317",
+                    "lng": "-17.304459",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Með for. á Einarsst., Þ. hv. (2 ára) 1863.",
+                "original_string": "Með for. á Einarsst., R. hv. (2 ára) 1863.",
                 "year": "1863",
                 "age": 2,
                 "status": "Með for.",
-                "location": "Einarsstaðir, Þ. hv.",
+                "location": "Einarsstaðir, R. hv.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25978,
+                    "name": "Einarsstaðir",
+                    "lat": "65.951317",
+                    "lng": "-17.304459",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Ytrafjalli (3) 1863 (svo).",

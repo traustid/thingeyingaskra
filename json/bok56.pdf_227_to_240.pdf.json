@@ -297,9 +297,33 @@
                 "year": "1809-1815",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Hrappsstaðir K.",
+                "location": "Hrafnsstaðir K.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90054,
+                    "name": "Hrafnsstaðir",
+                    "lat": "65.814628",
+                    "lng": "-17.567303",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. frá Stafni til Eyjafjarðar 1818.",
@@ -325,31 +349,7 @@
             "birth": {
                 "original_string": "F. 17/6. 1860 á Kaðalsstöðum.",
                 "date": "1860-06-17",
-                "location": "Kaðalsstöðum",
-                "location_obj": {
-                    "id": 15262,
-                    "name": "Kaðalsstaðir",
-                    "lat": "66.129683",
-                    "lng": "-18.072725",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Hvalvatnsfjörður",
-                            "id": 1003446
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Kaðalsstöðum"
             },
             "death": null,
             "names": [
@@ -391,31 +391,7 @@
                 "original_string": "F. 17/6. 1860 á Kaðalsstöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Kaðalsstöðum",
-                "location_obj": {
-                    "id": 15262,
-                    "name": "Kaðalsstaðir",
-                    "lat": "66.129683",
-                    "lng": "-18.072725",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Hvalvatnsfjörður",
-                            "id": 1003446
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Kaðalsstöðum"
             },
             {
                 "original_string": "Hjá for. á Kaðalsstöðum (1/2 árs) 1861-1867-1885.",
@@ -424,31 +400,7 @@
                 "status": "Hjá for.",
                 "location": "Kaðalsstöðum",
                 "note": "1/2 árs",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 15262,
-                    "name": "Kaðalsstaðir",
-                    "lat": "66.129683",
-                    "lng": "-18.072725",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Hvalvatnsfjörður",
-                            "id": 1003446
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú á Kaðalsstöðum (27) 1887-1888.",
@@ -457,31 +409,7 @@
                 "status": "Hjú",
                 "location": "Kaðalsstöðum",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 15262,
-                    "name": "Kaðalsstaðir",
-                    "lat": "66.129683",
-                    "lng": "-18.072725",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Hvalvatnsfjörður",
-                            "id": 1003446
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "Hjú í Höfða (28) 1889-1892-1895.",
@@ -1798,7 +1726,31 @@
             "birth": {
                 "original_string": "F. á Hóli K. 12/7. 1899.",
                 "date": "1899-07-12",
-                "location": "Hóli K."
+                "location": "Hóli K.",
+                "location_obj": {
+                    "id": 90053,
+                    "name": "Hóll",
+                    "lat": "65.816492",
+                    "lng": "-17.556452",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -1839,7 +1791,31 @@
                 "original_string": "F. á Hóli K. 12/7. 1899.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hóli K."
+                "location": "Hóli K.",
+                "location_obj": {
+                    "id": 90053,
+                    "name": "Hóll",
+                    "lat": "65.816492",
+                    "lng": "-17.556452",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hóli K. (1 árs) 1900-",
@@ -1848,7 +1824,31 @@
                 "status": "Hjá for.",
                 "location": "Hóli K.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90053,
+                    "name": "Hóll",
+                    "lat": "65.816492",
+                    "lng": "-17.556452",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

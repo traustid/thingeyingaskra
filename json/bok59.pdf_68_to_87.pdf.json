@@ -1093,12 +1093,36 @@
                 "note": ""
             },
             {
-                "original_string": "Hjú á Einarsst. Þ. hv. (24 ára) 1896.",
+                "original_string": "Hjú á Einarsst. R. hv. (24 ára) 1896.",
                 "year": "1896",
                 "age": 24,
                 "status": "Hjú",
-                "location": "Einarsstaðir Þ. hv.",
-                "note": ""
+                "location": "Einarsstaðir R. hv.",
+                "note": "",
+                "location_obj": {
+                    "id": 25978,
+                    "name": "Einarsstaðir",
+                    "lat": "65.951317",
+                    "lng": "-17.304459",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Kona vm. í Dyjakoti (25) 1897.",
@@ -4774,7 +4798,31 @@
                 "age": 59,
                 "status": "Húsfr.",
                 "location": "Hóli K.",
-                "note": ""
+                "note": "",
+                "location_obj": {
+                    "id": 90053,
+                    "name": "Hóll",
+                    "lat": "65.816492",
+                    "lng": "-17.556452",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1837",

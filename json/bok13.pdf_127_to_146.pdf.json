@@ -2892,19 +2892,14 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 14/6. 1801 á Krappast. K.",
+                "original_string": "F. 14/6. 1801 á Hrappsst. K.",
                 "date": "1801-06-14",
-                "location": "Hrappsstaðir, K."
-            },
-            "death": {
-                "original_string": "D. 27/6. 1803 á Krappast. 3 ára. Taksótt.",
-                "date": "1803-06-27",
-                "location": "Hrappsstaðir",
+                "location": "Hrafnsstaðir K.",
                 "location_obj": {
-                    "id": 10417,
-                    "name": "Hrappstaðir",
-                    "lat": "65.541475",
-                    "lng": "-17.470323",
+                    "id": 90054,
+                    "name": "Hrafnsstaðir",
+                    "lat": "65.814628",
+                    "lng": "-17.567303",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -2913,6 +2908,35 @@
                         {
                             "name": "Kaldakinn",
                             "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            "death": {
+                "original_string": "D. 27/6. 1803 á Hrappsst. 3 ára. Taksótt.",
+                "date": "1803-06-27",
+                "location": "Hrappsstaðir",
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappsstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2960,31 +2984,15 @@
         "residence_history": [
             {
                 "year": "1801",
-                "original_string": "F. 14/6. 1801 á Krappast. K.",
+                "original_string": "F. 14/6. 1801 á Hrappsst. K.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hrappsstaðir, K."
-            },
-            {
-                "original_string": "Hjá for. á Krappastöðum K. (x) 1801-",
-                "year": "1801-",
-                "age": null,
-                "status": "Hjá for.",
-                "location": "Hrappsstaðir, K.",
-                "note": "",
-                "note_ref": null
-            },
-            {
-                "year": "1803",
-                "original_string": "D. 27/6. 1803 á Krappast. 3 ára. Taksótt.",
-                "age": 0,
-                "status": "Dánarstaður",
-                "location": "Hrappsstaðir",
+                "location": "Hrafnsstaðir K.",
                 "location_obj": {
-                    "id": 10417,
-                    "name": "Hrappstaðir",
-                    "lat": "65.541475",
-                    "lng": "-17.470323",
+                    "id": 90054,
+                    "name": "Hrafnsstaðir",
+                    "lat": "65.814628",
+                    "lng": "-17.567303",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -2993,6 +3001,70 @@
                         {
                             "name": "Kaldakinn",
                             "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Hjá for. á Hrappsstöðum K. (x) 1801-",
+                "year": "1801-",
+                "age": null,
+                "status": "Hjá for.",
+                "location": "Hrafnsstaðir K.",
+                "note": "",
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90054,
+                    "name": "Hrafnsstaðir",
+                    "lat": "65.814628",
+                    "lng": "-17.567303",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "year": "1803",
+                "original_string": "D. 27/6. 1803 á Hrappsst. 3 ára. Taksótt.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Hrappsstaðir",
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappsstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3454,13 +3526,37 @@
                 }
             },
             {
-                "original_string": "Hjú á Krappast. K. (55) 1891.-",
+                "original_string": "Hjú á Hrappsst. K. (55) 1891.-",
                 "year": "1891-",
                 "age": 55,
                 "status": "Hjú",
-                "location": "Hrappsstaðir, K.",
+                "location": "Hrafnsstaðir K.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90054,
+                    "name": "Hrafnsstaðir",
+                    "lat": "65.814628",
+                    "lng": "-17.567303",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsm. á Holi K. (56) 1892.",
@@ -3469,7 +3565,31 @@
                 "status": "Húsm.",
                 "location": "Hóll, K.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90053,
+                    "name": "Hóll",
+                    "lat": "65.816492",
+                    "lng": "-17.556452",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Héðinshöfða (58 ára) 1893-1896.",

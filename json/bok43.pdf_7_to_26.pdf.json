@@ -1053,7 +1053,7 @@
             "birth": {
                 "original_string": "F. 3/7. 1852 á Hrappst. Þ.",
                 "date": "1852-07-03",
-                "location": "Hrappstaðir, Þ."
+                "location": "Hrappsstaðir, Þ."
             },
             "death": {
                 "original_string": "",
@@ -1099,7 +1099,7 @@
                 "original_string": "F. 3/7. 1852 á Hrappst. Þ.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hrappstaðir, Þ."
+                "location": "Hrappsstaðir, Þ."
             },
             {
                 "original_string": "Hjá for. á Ytrahóli (2) 1854-1855-",
@@ -2268,7 +2268,31 @@
                 "status": "Með for.",
                 "location": "Hóli, K.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 90053,
+                    "name": "Hóll",
+                    "lat": "65.816492",
+                    "lng": "-17.556452",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Finnastöðum (7) 1872-",
@@ -2856,7 +2880,31 @@
                 "status": "Með móður",
                 "location": "Einarsstaðir, R.hv.",
                 "note": "árs",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25978,
+                    "name": "Einarsstaðir",
+                    "lat": "65.951317",
+                    "lng": "-17.304459",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

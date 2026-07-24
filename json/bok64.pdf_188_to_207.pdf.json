@@ -2034,25 +2034,16 @@
                 }
             },
             {
-                "original_string": "Systir hús-móður á Krappast. B. (34) 1882-1892.",
+                "original_string": "Systir hús-móður á Hrappsst. B. (34) 1882-1892.",
                 "year": "1882-1892",
                 "age": 34,
                 "status": "Systir hús-móður",
                 "location": "Hrappsstaðir, B.",
                 "note": "",
-                "note_ref": null
-            },
-            {
-                "original_string": "Hjú hjá systur á Krappastöðum (45 ára) 1892-1900.",
-                "year": "1892-1900",
-                "age": 45,
-                "status": "Hjú hjá systur",
-                "location": "Hrappsstaðir",
-                "note": "",
                 "note_ref": null,
                 "location_obj": {
                     "id": 10417,
-                    "name": "Hrappstaðir",
+                    "name": "Hrappsstaðir",
                     "lat": "65.541475",
                     "lng": "-17.470323",
                     "location_type": {
@@ -2061,8 +2052,41 @@
                     },
                     "parent": [
                         {
-                            "name": "Kaldakinn",
-                            "id": 16594
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Hjú hjá systur á Hrappsstöðum (45 ára) 1892-1900.",
+                "year": "1892-1900",
+                "age": 45,
+                "status": "Hjú hjá systur",
+                "location": "Hrappsstaðir",
+                "note": "",
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappsstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -4849,7 +4873,31 @@
                 "status": "Niðurs.",
                 "location": "Einarsstaðir, R.hv.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25978,
+                    "name": "Einarsstaðir",
+                    "lat": "65.951317",
+                    "lng": "-17.304459",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hús-a á Beinabakka syðri (21 árs) 1872.",

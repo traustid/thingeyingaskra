@@ -16,6 +16,8 @@ regions = {
 	'B.': 'Bárðardalur',
 	'A.': 'Aðaldalur',
 	'Rhv.': 'Reykjahverfi',
+	'R. hv.': 'Reykjahverfi',
+	'R.hv.': 'Reykjahverfi',
 	'R.': 'Reykjadalur',
 	'Rd.': 'Reykjadalur',
 	'Fn.': 'Fnjóskadalur',
@@ -132,7 +134,7 @@ def findPlace(placeItem):
 	print('region:')
 	print(lookupRegion)
 
-	hasRegion = re.search(r'([A-ZÁÐÉÍÓÚÝÞÆÖ]{1,5}\.)$', placeItem['location'], re.IGNORECASE)
+	hasRegion = re.search(r'([A-Za-zÁáÐðÉéÍíÓóÚúÝýÞþÆæÖö]{1,8}\.)( )?([A-Za-zÁáÐðÉéÍíÓóÚúÝýÞþÆæÖö]{1,8}\.)?$', placeItem['location'], re.IGNORECASE)
 
 	for location in locations:
 		locationCounter += 1

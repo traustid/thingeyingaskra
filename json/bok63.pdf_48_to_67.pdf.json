@@ -544,13 +544,37 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Krappast. B. (2) 1889.",
+                "original_string": "Hjá for. á Hrappsst. B. (2) 1889.",
                 "year": "1889",
                 "age": 2,
                 "status": "Hjá for.",
                 "location": "Hrappsstaðir B.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappsstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Landamóti (3) 1889-1900-",

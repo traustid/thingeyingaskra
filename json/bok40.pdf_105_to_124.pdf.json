@@ -661,7 +661,31 @@
                 "status": "Hjá for.",
                 "location": "Hrappsstöðum B.",
                 "note": "1. ári",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappsstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Fossi (1 árs) 1896-1900.",
@@ -4092,31 +4116,7 @@
                 "status": "Tysiv.",
                 "location": "Másskoti",
                 "note": "frá Gadi Fnj.",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 33872,
-                    "name": "Máskot",
-                    "lat": "65.649194",
-                    "lng": "-17.273219",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "B. í Másskoti 1836-1849.",
@@ -4125,31 +4125,7 @@
                 "status": "B.",
                 "location": "Másskoti",
                 "note": "",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 33872,
-                    "name": "Máskot",
-                    "lat": "65.649194",
-                    "lng": "-17.273219",
-                    "location_type": {
-                        "id": 33,
-                        "name": "Bær"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjadalur",
-                            "id": 16405
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "B. frá Mássk. að Kálfborgará (46) 1849-63 (Hrb.).",

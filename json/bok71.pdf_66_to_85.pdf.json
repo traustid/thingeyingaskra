@@ -2001,7 +2001,31 @@
                 "age": null,
                 "status": "Bóndi",
                 "location": "Hrappsstaðir, B.",
-                "note": "Hrb."
+                "note": "Hrb.",
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappsstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. frá Hrappsstöðum að Fljótsbakka (29) 1839-1844.",
@@ -2660,18 +2684,18 @@
                 "date": "1852-03-01",
                 "location": "Skör, Höfðasókn",
                 "location_obj": {
-                    "id": 25003,
-                    "name": "Skarð",
-                    "lat": "65.881634",
-                    "lng": "-17.974430",
+                    "id": 16837,
+                    "name": "Skörð",
+                    "lat": "65.958869",
+                    "lng": "-17.323202",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Dalsmynni",
-                            "id": 16453
+                            "name": "Reykjahverfi",
+                            "id": 1001642
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2741,18 +2765,18 @@
                 "status": "Fæðingarstaður",
                 "location": "Skör, Höfðasókn",
                 "location_obj": {
-                    "id": 25003,
-                    "name": "Skarð",
-                    "lat": "65.881634",
-                    "lng": "-17.974430",
+                    "id": 16837,
+                    "name": "Skörð",
+                    "lat": "65.958869",
+                    "lng": "-17.323202",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Dalsmynni",
-                            "id": 16453
+                            "name": "Reykjahverfi",
+                            "id": 1001642
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

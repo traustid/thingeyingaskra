@@ -521,9 +521,33 @@
                 "year": "1893",
                 "age": 23,
                 "status": "Hjú",
-                "location": "Hrappsstaðir K.",
+                "location": "Hrafnsstaðir K.",
                 "note": "",
-                "note_ref": "x"
+                "note_ref": "x",
+                "location_obj": {
+                    "id": 90054,
+                    "name": "Hrafnsstaðir",
+                    "lat": "65.814628",
+                    "lng": "-17.567303",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Óg. á Ófeigsstöðum (25) 1895.",
@@ -4898,31 +4922,7 @@
                 "status": "Hjú",
                 "location": "Fellandi",
                 "note": "?",
-                "note_ref": null,
-                "location_obj": {
-                    "id": 26033,
-                    "name": "Fell",
-                    "lat": null,
-                    "lng": null,
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Kaldakinn",
-                            "id": 16594
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "note_ref": null
             },
             {
                 "original_string": "G. húsm. á Belgsá (30) 1887.",
