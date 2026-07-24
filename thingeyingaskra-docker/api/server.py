@@ -467,7 +467,7 @@ async def getSpouse(personId):
 		if results:
 			for matched_person in results:
 				matched_person['_id'] = str(matched_person['_id'])
-				if not any(item['_id'] == matched_person['_id'] for item in ret):
+				if not any('_id' in item and item['_id'] == matched_person['_id'] for item in ret):
 					ret.append(matched_person)
 		else:
 			ret.append(spouse_entry)
