@@ -1504,6 +1504,8 @@
                 "status": "Hjá for.",
                 "location": "Háls, Fn.",
                 "note": "",
+                "year_from_value": 1892,
+                "year_to_value": 1893,
                 "location_obj": {
                     "id": 33714,
                     "name": "Háls",
@@ -1527,9 +1529,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1892,
-                "year_to_value": 1893
+                }
             },
             {
                 "original_string": "Hjá for. í Garði Fr. (10) 1894-1900-",
@@ -1904,6 +1904,8 @@
                 "status": "Hjú",
                 "location": "Nes, A.",
                 "note": "",
+                "year_from_value": 1807,
+                "year_to_value": 1808,
                 "location_obj": {
                     "id": 24832,
                     "name": "Nes",
@@ -1927,9 +1929,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1807,
-                "year_to_value": 1808
+                }
             },
             {
                 "original_string": "Hjú í Nesi A. .... 1812.",
@@ -1938,6 +1938,8 @@
                 "status": "Hjú",
                 "location": "Nes, A.",
                 "note": "",
+                "year_from_value": 1812,
+                "year_to_value": 1812,
                 "location_obj": {
                     "id": 24832,
                     "name": "Nes",
@@ -1961,9 +1963,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1812,
-                "year_to_value": 1812
+                }
             },
             {
                 "original_string": "Hjú á Kambhólsstöðum ... 1814.",
@@ -2367,10 +2367,34 @@
                 "location": "Reykholt, Borgarfjörður"
             },
             "death": {
-                "original_string": "D. á Vísu 1/3. 18.. 3)",
+                "original_string": "D. á Veisu 1/3. 18.. 3)",
                 "date": null,
-                "location": "Vísa",
-                "note_ref": 3
+                "location": "Veisa",
+                "note_ref": 3,
+                "location_obj": {
+                    "id": 1001795,
+                    "name": "Veisa",
+                    "lat": "65.800414",
+                    "lng": "-17.892034",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Karítas",
@@ -2650,14 +2674,38 @@
                 "year_to_value": 1868
             },
             {
-                "original_string": "Móðir K. á Vísu (66) 1870.",
+                "original_string": "Móðir K. á Veisu (66) 1870.",
                 "year": "1870",
                 "age": 66,
                 "status": "Móðir K.",
-                "location": "Vísa",
+                "location": "Veisa",
                 "note": "",
                 "year_from_value": 1870,
-                "year_to_value": 1870
+                "year_to_value": 1870,
+                "location_obj": {
+                    "id": 1001795,
+                    "name": "Veisa",
+                    "lat": "65.800414",
+                    "lng": "-17.892034",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Móðir B. í Vík (68) 1871.",

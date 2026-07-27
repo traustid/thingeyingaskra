@@ -791,6 +791,8 @@
                 "status": "Tökubarn",
                 "location": "Syðri-Neslönd",
                 "note": "lárs",
+                "year_from_value": 1874,
+                "year_to_value": 1874,
                 "location_obj": {
                     "id": 16626,
                     "name": "Syðri-Neslönd",
@@ -814,9 +816,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1874,
-                "year_to_value": 1874
+                }
             }
         ],
         "notes": {},
@@ -1729,18 +1729,18 @@
                 "date": "1877-03-29",
                 "location": "Nes",
                 "location_obj": {
-                    "id": 13945,
+                    "id": 24832,
                     "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
+                    "lat": "65.878069",
+                    "lng": "-17.405309",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
+                            "name": "Aðaldalur",
+                            "id": 16498
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1809,40 +1809,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Nes",
-                "location_obj": {
-                    "id": 13945,
-                    "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                },
                 "year_from_value": 1877,
-                "year_to_value": 1877
-            },
-            {
-                "original_string": "Hjá for. í Nesi A. (1 árs) 1877-1892.",
-                "year": "1877-1892",
-                "age": 1,
-                "status": "Hjá foreldrum",
-                "location": "Nesi A.",
-                "note": "",
+                "year_to_value": 1877,
                 "location_obj": {
                     "id": 24832,
                     "name": "Nes",
@@ -1866,9 +1834,41 @@
                             "id": 16573
                         }
                     ]
-                },
+                }
+            },
+            {
+                "original_string": "Hjá for. í Nesi A. (1 árs) 1877-1892.",
+                "year": "1877-1892",
+                "age": 1,
+                "status": "Hjá foreldrum",
+                "location": "Nesi A.",
+                "note": "",
                 "year_from_value": 1877,
-                "year_to_value": 1892
+                "year_to_value": 1892,
+                "location_obj": {
+                    "id": 24832,
+                    "name": "Nes",
+                    "lat": "65.878069",
+                    "lng": "-17.405309",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttadr. á Bergsstöðum (17) 1893.",
@@ -1911,19 +1911,21 @@
                 "status": "Hjá foreldrum",
                 "location": "Nesi A",
                 "note": "",
+                "year_from_value": 1895,
+                "year_to_value": 1900,
                 "location_obj": {
-                    "id": 13945,
+                    "id": 24832,
                     "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
+                    "lat": "65.878069",
+                    "lng": "-17.405309",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
+                            "name": "Aðaldalur",
+                            "id": 16498
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1934,9 +1936,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1895,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -3546,6 +3546,8 @@
                 "status": "Bóndi",
                 "location": "Syðri-Neslönd",
                 "note": "",
+                "year_from_value": 1893,
+                "year_to_value": 1893,
                 "location_obj": {
                     "id": 16626,
                     "name": "Syðri-Neslönd",
@@ -3569,9 +3571,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1893,
-                "year_to_value": 1893
+                }
             },
             {
                 "original_string": "Hjú á Hofstöðum (41) 1898-1900.",

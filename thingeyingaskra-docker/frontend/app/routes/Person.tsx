@@ -336,7 +336,7 @@ export default function Person() {
 								data.notes && Object.keys(data.notes).length > 0 && <div className="bg-gray-100 border border-gray-200 p-3 rounded-md">
 									<div className="pb-2 text-gray-600 text-xs font-bold uppercase">Neðanmálsgreinar:</div>
 									{
-										Object.keys(data.notes).map((note) => <div key={note}>{note}: {data.notes[note]}</div>)
+										Object.keys(data.notes).map((note) => <div key={note} className="flex gap-4"><div>{note}:</div><div dangerouslySetInnerHTML={{__html: data.notes[note].split('\n').join('<br/>')}} /></div>)
 									}
 								</div>
 							}

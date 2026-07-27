@@ -773,7 +773,31 @@
                 "note": "",
                 "year": "1859",
                 "year_from_value": 1859,
-                "year_to_value": 1859
+                "year_to_value": 1859,
+                "location_obj": {
+                    "id": 15269,
+                    "name": "Tunga",
+                    "lat": "65.558073",
+                    "lng": "-17.753728",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsm. á Ytrahóli",
@@ -1490,6 +1514,8 @@
                 "location": "Nes Grýt.",
                 "note": "",
                 "year": "1870-1873",
+                "year_from_value": 1870,
+                "year_to_value": 1873,
                 "location_obj": {
                     "id": 13945,
                     "name": "Nes",
@@ -1513,9 +1539,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1873
+                }
             },
             {
                 "original_string": "Hjú í Laufási (32) 1875-1876. ?",

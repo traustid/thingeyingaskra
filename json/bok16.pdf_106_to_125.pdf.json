@@ -729,6 +729,8 @@
                 "location": "Litla-Tunga",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1835,
+                "year_to_value": 1866,
                 "location_obj": {
                     "id": 90009,
                     "name": "Litla-Tunga",
@@ -752,9 +754,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1835,
-                "year_to_value": 1866
+                }
             }
         ],
         "notes": {
@@ -1069,9 +1069,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. um 1763 á Vísu.",
+                "original_string": "F. um 1763 á Veisu.",
                 "date": "1763-00-00",
-                "location": "Vísa"
+                "location": "Veisa",
+                "location_obj": {
+                    "id": 1001795,
+                    "name": "Veisa",
+                    "lat": "65.800414",
+                    "lng": "-17.892034",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Ljótasst. F. 13/10. 1833. 1)",
@@ -1092,12 +1116,36 @@
         "residence_history": [
             {
                 "year": "1763",
-                "original_string": "F. um 1763 á Vísu.",
+                "original_string": "F. um 1763 á Veisu.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Vísa",
+                "location": "Veisa",
                 "year_from_value": 1763,
-                "year_to_value": 1763
+                "year_to_value": 1763,
+                "location_obj": {
+                    "id": 1001795,
+                    "name": "Veisa",
+                    "lat": "65.800414",
+                    "lng": "-17.892034",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Kotungsstöðum (36) 1801.",
@@ -2896,7 +2944,31 @@
             "birth": {
                 "original_string": "F. 5/9. 1797 í Tungu Fn.",
                 "date": "1797-09-05",
-                "location": "Tunga Fn."
+                "location": "Tunga Fn.",
+                "location_obj": {
+                    "id": 15269,
+                    "name": "Tunga",
+                    "lat": "65.558073",
+                    "lng": "-17.753728",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2943,7 +3015,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Tunga Fn.",
                 "year_from_value": 1797,
-                "year_to_value": 1797
+                "year_to_value": 1797,
+                "location_obj": {
+                    "id": 15269,
+                    "name": "Tunga",
+                    "lat": "65.558073",
+                    "lng": "-17.753728",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá móður í Tungu Fr. (6) 1802-1805-",
@@ -2954,7 +3050,31 @@
                 "note": "Hjá móður",
                 "note_ref": null,
                 "year_from_value": 1802,
-                "year_to_value": 1805
+                "year_to_value": 1805,
+                "location_obj": {
+                    "id": 15269,
+                    "name": "Tunga",
+                    "lat": "65.558073",
+                    "lng": "-17.753728",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Þórðarstöðum (15) 1811.",
@@ -4531,6 +4651,8 @@
                 "location": "Háls",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1875,
+                "year_to_value": 1878,
                 "location_obj": {
                     "id": 33714,
                     "name": "Háls",
@@ -4554,9 +4676,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1875,
-                "year_to_value": 1878
+                }
             },
             {
                 "original_string": "Húsk. í Húsabakka (40) 1880.",

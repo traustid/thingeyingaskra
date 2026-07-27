@@ -469,41 +469,8 @@
                 "location": "Nes",
                 "note": "",
                 "note_ref": 2,
-                "location_obj": {
-                    "id": 13945,
-                    "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                },
                 "year_from_value": 1848,
-                "year_to_value": 1848
-            },
-            {
-                "original_string": "Með móður í Nesi A. (29) 1847. (Fermdur, ólæs).",
-                "year": "1847",
-                "age": 29,
-                "status": "Með móður",
-                "location": "Nes A.",
-                "note": "Fermdur, ólæs",
-                "note_ref": 1,
+                "year_to_value": 1848,
                 "location_obj": {
                     "id": 24832,
                     "name": "Nes",
@@ -527,9 +494,42 @@
                             "id": 16573
                         }
                     ]
-                },
+                }
+            },
+            {
+                "original_string": "Með móður í Nesi A. (29) 1847. (Fermdur, ólæs).",
+                "year": "1847",
+                "age": 29,
+                "status": "Með móður",
+                "location": "Nes A.",
+                "note": "Fermdur, ólæs",
+                "note_ref": 1,
                 "year_from_value": 1847,
-                "year_to_value": 1847
+                "year_to_value": 1847,
+                "location_obj": {
+                    "id": 24832,
+                    "name": "Nes",
+                    "lat": "65.878069",
+                    "lng": "-17.405309",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Jarlsst. A. (31) 1849-1858.",
@@ -1292,6 +1292,8 @@
                 "location": "Syðri-Tunga",
                 "note": "og fram yfir 1900",
                 "note_ref": null,
+                "year_from_value": 1897,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 10218,
                     "name": "Syðri-Tunga",
@@ -1311,9 +1313,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1897,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},

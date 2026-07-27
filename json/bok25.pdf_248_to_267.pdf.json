@@ -1170,6 +1170,8 @@
                 "location": "Nesi, A.",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1873,
+                "year_to_value": 1873,
                 "location_obj": {
                     "id": 24832,
                     "name": "Nes",
@@ -1193,9 +1195,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1873,
-                "year_to_value": 1873
+                }
             }
         ],
         "notes": {},
@@ -2030,6 +2030,8 @@
                 "location": "Veisa",
                 "note": "G. '93-",
                 "note_ref": null,
+                "year_from_value": 1868,
+                "year_to_value": 1899,
                 "location_obj": {
                     "id": 1001795,
                     "name": "Veisa",
@@ -2053,9 +2055,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1868,
-                "year_to_value": 1899
+                }
             },
             {
                 "original_string": "Húsfr. á Veisu ... 1900-",
@@ -2065,6 +2065,8 @@
                 "location": "Veisa",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1900,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 1001795,
                     "name": "Veisa",
@@ -2088,9 +2090,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1900,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -3310,6 +3310,8 @@
                 "location": "Veisa",
                 "note": "frá Prestv.",
                 "note_ref": null,
+                "year_from_value": 1860,
+                "year_to_value": 1860,
                 "location_obj": {
                     "id": 1001795,
                     "name": "Veisa",
@@ -3333,9 +3335,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1860
+                }
             },
             {
                 "original_string": "Barn, frá Helgast. að Akursseli (8) 1865-",
@@ -3389,18 +3389,18 @@
                 "date": "1811",
                 "location": "Nesi, Aðaldal",
                 "location_obj": {
-                    "id": 13945,
+                    "id": 24832,
                     "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
+                    "lat": "65.878069",
+                    "lng": "-17.405309",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
+                            "name": "Aðaldalur",
+                            "id": 16498
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3482,41 +3482,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Nesi, Aðaldal",
-                "location_obj": {
-                    "id": 13945,
-                    "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                },
                 "year_from_value": 1811,
-                "year_to_value": 1811
-            },
-            {
-                "original_string": "Hjá for. í Nesi A. (1 árs) 1812-1816.",
-                "year": "1812-1816",
-                "age": 1,
-                "status": "Hjá for.",
-                "location": "Nesi, A.",
-                "note": "",
-                "note_ref": null,
+                "year_to_value": 1811,
                 "location_obj": {
                     "id": 24832,
                     "name": "Nes",
@@ -3540,9 +3507,42 @@
                             "id": 16573
                         }
                     ]
-                },
+                }
+            },
+            {
+                "original_string": "Hjá for. í Nesi A. (1 árs) 1812-1816.",
+                "year": "1812-1816",
+                "age": 1,
+                "status": "Hjá for.",
+                "location": "Nesi, A.",
+                "note": "",
+                "note_ref": null,
                 "year_from_value": 1812,
-                "year_to_value": 1816
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 24832,
+                    "name": "Nes",
+                    "lat": "65.878069",
+                    "lng": "-17.405309",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fósturb. á Lónatjörn ... 1816-1818.",
@@ -4494,6 +4494,8 @@
                 "location": "Nesi, A.",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1855,
+                "year_to_value": 1861,
                 "location_obj": {
                     "id": 24832,
                     "name": "Nes",
@@ -4517,9 +4519,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1855,
-                "year_to_value": 1861
+                }
             }
         ],
         "notes": {

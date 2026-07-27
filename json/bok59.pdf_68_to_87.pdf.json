@@ -794,18 +794,18 @@
                 "date": "1873-01-01",
                 "location": "Ness",
                 "location_obj": {
-                    "id": 13945,
+                    "id": 24832,
                     "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
+                    "lat": "65.878069",
+                    "lng": "-17.405309",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
+                            "name": "Aðaldalur",
+                            "id": 16498
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -875,19 +875,21 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Ness",
+                "year_from_value": 1873,
+                "year_to_value": 1873,
                 "location_obj": {
-                    "id": 13945,
+                    "id": 24832,
                     "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
+                    "lat": "65.878069",
+                    "lng": "-17.405309",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
+                            "name": "Aðaldalur",
+                            "id": 16498
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -898,9 +900,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1873,
-                "year_to_value": 1873
+                }
             },
             {
                 "original_string": "Með for. í Saltvík (1 árs) 1874.",
@@ -1109,6 +1109,8 @@
                 "status": "Hjú",
                 "location": "Nesi A.",
                 "note": "",
+                "year_from_value": 1890,
+                "year_to_value": 1890,
                 "location_obj": {
                     "id": 24832,
                     "name": "Nes",
@@ -1132,9 +1134,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1890,
-                "year_to_value": 1890
+                }
             },
             {
                 "original_string": "Hjú í Rauð (19 ára) 1891.",
@@ -1293,7 +1293,31 @@
             "birth": {
                 "original_string": "F. 22/5 1870 í Haga í Ness.",
                 "date": "1870-05-22",
-                "location": "Haga í Ness"
+                "location": "Haga í Ness",
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 15/11 1927",
@@ -1340,7 +1364,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Haga í Ness",
                 "year_from_value": 1870,
-                "year_to_value": 1870
+                "year_to_value": 1870,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Haga (1 árs) 1870-1874.",
@@ -3613,6 +3661,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Ytri-Tunga",
+                "year_from_value": 1842,
+                "year_to_value": 1842,
                 "location_obj": {
                     "id": 16634,
                     "name": "Ytri-Tunga",
@@ -3636,9 +3686,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1842,
-                "year_to_value": 1842
+                }
             },
             {
                 "original_string": "Með for. í Ytritungu (3 ára) 1845.",
@@ -3647,6 +3695,8 @@
                 "status": "",
                 "location": "Ytri-Tunga",
                 "note": "",
+                "year_from_value": 1845,
+                "year_to_value": 1845,
                 "location_obj": {
                     "id": 16634,
                     "name": "Ytri-Tunga",
@@ -3670,9 +3720,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1845,
-                "year_to_value": 1845
+                }
             },
             {
                 "original_string": "Hjá for. á Héðinshöfða (7 ára) 1848.",
@@ -4299,6 +4347,8 @@
                 "status": "Húsfr.",
                 "location": "Syðri-Neslöndum",
                 "note": "",
+                "year_from_value": 1880,
+                "year_to_value": 1884,
                 "location_obj": {
                     "id": 16626,
                     "name": "Syðri-Neslönd",
@@ -4322,9 +4372,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1880,
-                "year_to_value": 1884
+                }
             },
             {
                 "original_string": "Húsfr. í Y. Neslöndum (43) 1885-1892.",
@@ -4343,6 +4391,8 @@
                 "status": "Húsfr.",
                 "location": "Syðri-Neslöndum",
                 "note": "",
+                "year_from_value": 1893,
+                "year_to_value": 1895,
                 "location_obj": {
                     "id": 16626,
                     "name": "Syðri-Neslönd",
@@ -4366,9 +4416,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1893,
-                "year_to_value": 1895
+                }
             },
             {
                 "original_string": "G. Móðir prests á Helgastöðum (53) 1896-1900-",

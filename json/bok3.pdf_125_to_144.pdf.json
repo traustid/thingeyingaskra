@@ -2525,7 +2525,31 @@
                 "note": "",
                 "year": "1870-1872",
                 "year_from_value": 1870,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 15269,
+                    "name": "Tunga",
+                    "lat": "65.558073",
+                    "lng": "-17.753728",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -4871,6 +4895,8 @@
                 "location": "Hálsi K.",
                 "note": "",
                 "year": "1888-1897",
+                "year_from_value": 1888,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 1004565,
                     "name": "Háls",
@@ -4894,9 +4920,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1888,
-                "year_to_value": 1897
+                }
             }
         ],
         "notes": {},

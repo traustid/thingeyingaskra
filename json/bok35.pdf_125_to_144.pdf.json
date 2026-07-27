@@ -426,6 +426,8 @@
                 "age": 0,
                 "status": "Dánarstaður",
                 "location": "Háls",
+                "year_from_value": 1862,
+                "year_to_value": 1862,
                 "location_obj": {
                     "id": 33714,
                     "name": "Háls",
@@ -449,9 +451,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1862,
-                "year_to_value": 1862
+                }
             }
         ],
         "notes": {
@@ -1033,6 +1033,8 @@
                 "status": "Hjú",
                 "location": "Háls, Fn.",
                 "note": "",
+                "year_from_value": 1871,
+                "year_to_value": 1873,
                 "location_obj": {
                     "id": 33714,
                     "name": "Háls",
@@ -1056,9 +1058,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1871,
-                "year_to_value": 1873
+                }
             },
             {
                 "original_string": "Stofust. á Laxamýri (48 ára) 1876.",
@@ -3277,6 +3277,8 @@
                 "status": "Hjú",
                 "location": "Háls, Fn.",
                 "note": "",
+                "year_from_value": 1897,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 33714,
                     "name": "Háls",
@@ -3300,9 +3302,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1897,
-                "year_to_value": 1897
+                }
             }
         ],
         "notes": {},
@@ -3803,7 +3803,31 @@
                 "location": "Tunga Fn.",
                 "note": "",
                 "year_from_value": 1880,
-                "year_to_value": 1882
+                "year_to_value": 1882,
+                "location_obj": {
+                    "id": 15269,
+                    "name": "Tunga",
+                    "lat": "65.558073",
+                    "lng": "-17.753728",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá föður á Víðivöllum (3) 1883-1885.",
@@ -4360,6 +4384,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Háls",
+                "year_from_value": 1888,
+                "year_to_value": 1888,
                 "location_obj": {
                     "id": 33714,
                     "name": "Háls",
@@ -4383,9 +4409,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1888,
-                "year_to_value": 1888
+                }
             },
             {
                 "original_string": "Hjá for. á Hálsi Fr. (á 1.) 1888-1889-1891.",
@@ -4394,6 +4418,7 @@
                 "status": "Hjá for.",
                 "location": "Háls Fn.",
                 "note": "",
+                "year_from_value": 1888,
                 "location_obj": {
                     "id": 33714,
                     "name": "Háls",
@@ -4417,8 +4442,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1888
+                }
             },
             {
                 "original_string": "Hjá for. á Sigríðarstöðum (4) 1892.",
