@@ -7,5 +7,6 @@ export default [
 	route('/leit/:query', 'routes/Search.tsx', { id: 'search-general' }),
 	route('/einstaklingar/', 'routes/Persons.tsx'),
 	route('/einstaklingar/:personId', 'routes/Person.tsx'),
-	route('/stadir/:placeId?', 'routes/Places.tsx')
+	route('/stadir/:placeId?', 'routes/Places.tsx'),
+	route('/um', 'routes/About.jsx')
 ] satisfies RouteConfig;

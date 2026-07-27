@@ -131,22 +131,22 @@ async def searchPerson(name = None, search = None, location = None, location_id 
 			# 1. Initial Filter: Only grab persons who have this location in at least one of the three places.
 			# This prevents scanning the entire database during the heavy data manipulation stages.
 			{
-				"$match": {
-					"$or": [
+				'$match': {
+					'$or': [
 						{
-							"birth.location_obj.name": {
+							'birth.location_obj.name': {
 								'$regex': search,
 								'$options': 'i'
 							}
 						},
 						{
-							"death.location_obj.name": {
+							'death.location_obj.name': {
 								'$regex': search,
 								'$options': 'i'
 							}
 						},
 						{
-							"residence_history.location_obj.name": {
+							'residence_history.location_obj.name': {
 								'$regex': search,
 								'$options': 'i'
 							}
@@ -155,38 +155,38 @@ async def searchPerson(name = None, search = None, location = None, location_id 
 				}
 			},
 			
-			# 2. Unify the Data: Create a single temporary array called "all_locations" 
+			# 2. Unify the Data: Create a single temporary array called 'all_locations' 
 			# and shove the birth, death, and residence locations into it.
 			{
-				"$project": {
-					"all_locations": {
-						"$concatArrays": [
+				'$project': {
+					'all_locations': {
+						'$concatArrays': [
 							# If birth location exists, put it in a list. Otherwise, empty list.
-							{"$cond": [{"$ifNull": ["$birth.location_obj", False]}, ["$birth.location_obj"], []]},
+							{'$cond': [{'$ifNull': ['$birth.location_obj', False]}, ['$birth.location_obj'], []]},
 							
 							# If death location exists, put it in a list. Otherwise, empty list.
-							{"$cond": [{"$ifNull": ["$death.location_obj", False]}, ["$death.location_obj"], []]},
+							{'$cond': [{'$ifNull': ['$death.location_obj', False]}, ['$death.location_obj'], []]},
 							
 							# Loop through residence_history and extract just the location_obj
-							{"$map": {
-								"input": {"$ifNull": ["$residence_history", []]},
-								"as": "res",
-								"in": "$$res.location_obj"
+							{'$map': {
+								'input': {'$ifNull': ['$residence_history', []]},
+								'as': 'res',
+								'in': '$$res.location_obj'
 							}}
 						]
 					}
 				}
 			},
 			
-			# 3. Flatten: Break the "all_locations" array apart so every location is on its own row
+			# 3. Flatten: Break the 'all_locations' array apart so every location is on its own row
 			{
-				"$unwind": "$all_locations"
+				'$unwind': '$all_locations'
 			},
 			
 			# 4. Strict Match: Filter out any locations from that person's history that ARE NOT the one you searched for
 			{
-				"$match": {
-					"all_locations.name": {
+				'$match': {
+					'all_locations.name': {
 						'$regex': search,
 						'$options': 'i'
 					}
@@ -196,17 +196,17 @@ async def searchPerson(name = None, search = None, location = None, location_id 
 			# 5. Deduplicate: Group by the unique location ID you mentioned. 
 			# If 50 people lived here, this reduces it down to 1 single result.
 			{
-				"$group": {
-					"_id": "$all_locations.id",
-					"location_obj": { "$first": "$all_locations" }
+				'$group': {
+					'_id': '$all_locations.id',
+					'location_obj': { '$first': '$all_locations' }
 				}
 			},
 			
-			# 6. Clean up: Promote the "location_obj" to the top level of the result, 
+			# 6. Clean up: Promote the 'location_obj' to the top level of the result, 
 			# stripping away all the MongoDB grouping wrappers.
 			{
-				"$replaceRoot": {
-					"newRoot": "$location_obj"
+				'$replaceRoot': {
+					'newRoot': '$location_obj'
 				}
 			}
 		]
@@ -293,53 +293,59 @@ async def getPersons(startId=None, order=None, birthyear=None):
 async def getPlace(placeId):
 	pipeline = [
 		# 1. Flatten the array so every year/location entry becomes an individual row
-		{"$unwind": "$residence_history"},
+		{'$unwind': '$residence_history'},
 		
 		# 2. Filter down to records matching your specific location
 		{
-			"$match": {
-				# Switch this to "residence_history.location_obj.name": target_location_name if searching by string text
-				"residence_history.location_obj.id": int(placeId) 
+			'$match': {
+				# Switch this to 'residence_history.location_obj.name': target_location_name if searching by string text
+				'residence_history.location_obj.id': int(placeId),
+				#'residence_history.year_from_value': {
+				#	'$gte': 1880
+				#},
+				#'residence_history.year_to_value': {
+				#	'$lte': 1900
+				#}
 			}
 		},
 		
 		# 3. Reshape the document to return only the target person info and that specific year
 		{
-			"$project": {
-				"_id": 1, # Keep the primary person database record identifier
-				"person": 1,
-				"year": "$residence_history.year"
+			'$project': {
+				'_id': 1, # Keep the primary person database record identifier
+				'person': 1,
+				'year': '$residence_history.year'
 			}
 		},
 		
 		# 4. Sort chronologically by the year string value ascending
 		# (Use -1 instead of 1 if you want the most recent records first)
-		{"$sort": {"year": 1}}
+		{'$sort': {'year': 1}}
 	]
 
 	locationObjPipeline = [
 		# 1. Fast match: Grab the first document that contains this location ID anywhere in its array
-		{"$match": {"residence_history.location_obj.id": int(placeId)}},
+		{'$match': {'residence_history.location_obj.id': int(placeId)}},
 		
 		# 2. Optimization: Stop scanning the database after finding the first match
-		{"$limit": 1},
+		{'$limit': 1},
 		
 		# 3. Flatten the history array so we can extract the individual sub-object
-		{"$unwind": "$residence_history"},
+		{'$unwind': '$residence_history'},
 		
 		# 4. Filter the unrolled rows to isolate the exact target location object
-		{"$match": {"residence_history.location_obj.id": int(placeId)}},
+		{'$match': {'residence_history.location_obj.id': int(placeId)}},
 		
 		# 5. Project only the location object structure, discarding the person metadata
 		{
-			"$project": {
-				"_id": 0, # Hide MongoDB's internal object identifier
-				"id": "$residence_history.location_obj.id",
-				"name": "$residence_history.location_obj.name",
-				"lat": "$residence_history.location_obj.lat",
-				"lng": "$residence_history.location_obj.lng",
-				"location_type": "$residence_history.location_obj.location_type",
-				"parent": "$residence_history.location_obj.parent"
+			'$project': {
+				'_id': 0, # Hide MongoDB's internal object identifier
+				'id': '$residence_history.location_obj.id',
+				'name': '$residence_history.location_obj.name',
+				'lat': '$residence_history.location_obj.lat',
+				'lng': '$residence_history.location_obj.lng',
+				'location_type': '$residence_history.location_obj.location_type',
+				'parent': '$residence_history.location_obj.parent'
 			}
 		}
 	]
@@ -367,47 +373,47 @@ async def getPlace(placeId):
 async def getPlaces():
 	pipeline = [
 		# 1. Flatten the array so we can inspect every history element
-		{"$unwind": "$residence_history"},
+		{'$unwind': '$residence_history'},
 		
 		# 2. Guard against missing or corrupted location objects
 		{
-			"$match": {
-				"residence_history.location_obj.id": {"$exists": True, "$ne": None}
+			'$match': {
+				'residence_history.location_obj.id': {'$exists': True, '$ne': None}
 			}
 		},
 		
 		# 3. Group by unique location ID and calculate the dual counts
 		{
-			"$group": {
-				"_id": "$residence_history.location_obj.id",
+			'$group': {
+				'_id': '$residence_history.location_obj.id',
 				# Base field assignments
-				"name": {"$first": "$residence_history.location_obj.name"},
-				"lat": {"$first": "$residence_history.location_obj.lat"},
-				"lng": {"$first": "$residence_history.location_obj.lng"},
-				"location_type": {"$first": "$residence_history.location_obj.location_type"},
-				"parent": {"$first": "$residence_history.location_obj.parent"},
+				'name': {'$first': '$residence_history.location_obj.name'},
+				'lat': {'$first': '$residence_history.location_obj.lat'},
+				'lng': {'$first': '$residence_history.location_obj.lng'},
+				'location_type': {'$first': '$residence_history.location_obj.location_type'},
+				'parent': {'$first': '$residence_history.location_obj.parent'},
 				
 				# COUNT 1: Collect unique root document IDs to find total distinct people/records
-				"unique_records": {"$addToSet": "$_id"},
+				'unique_records': {'$addToSet': '$_id'},
 				
 				# COUNT 2: Increment by 1 for every history item that matches this location
-				"total_history_appearances": {"$sum": 1}
+				'total_history_appearances': {'$sum': 1}
 			}
 		},
 		
 		# 4. Reshape the final output payload
 		{
-			"$project": {
-				"_id": 0,
-				"id": "$_id",
-				"name": 1,
-				"lat": 1,
-				"lng": 1,
-				"location_type": 1,
-				"parent": 1,
+			'$project': {
+				'_id': 0,
+				'id': '$_id',
+				'name': 1,
+				'lat': 1,
+				'lng': 1,
+				'location_type': 1,
+				'parent': 1,
 				# Measure the size of our accumulated unique record set
-				"records_count": {"$size": "$unique_records"},
-				"residence_count": "$total_history_appearances"
+				'records_count': {'$size': '$unique_records'},
+				'residence_count': '$total_history_appearances'
 			}
 		}
 	]
@@ -432,7 +438,7 @@ async def getSpouse(personId):
 	ret = []
 	
 	# 1. Clean and split the target person's name parts
-	# Example: "Anna Friðrika Eiríksdóttir" -> ["Anna", "Friðrika", "Eiríksdóttir"]
+	# Example: 'Anna Friðrika Eiríksdóttir' -> ['Anna', 'Friðrika', 'Eiríksdóttir']
 	target_name = targetPerson.get('person', {}).get('name', '')
 	target_parts = [part.strip() for part in target_name.split() if part.strip()]
 
@@ -489,11 +495,11 @@ async def getParents(personId):
 	# Helper function to extract the core stem of an Icelandic patronymic name
 	def get_patronymic_stem(last_name):
 		if not last_name:
-			return ""
+			return ''
 		# Remove trailing dots and normalize casing
 		name = last_name.strip().rstrip('.')
 		
-		# Strip common variations down to the base possessive/genitive stem (e.g., "Jóakims", "Ásmunds")
+		# Strip common variations down to the base possessive/genitive stem (e.g., 'Jóakims', 'Ásmunds')
 		suffixes = ['dóttir', 'son', 'dótt', 'dót', 'sona', 'd', 's']
 		for suffix in suffixes:
 			if name.lower().endswith(suffix):
@@ -512,10 +518,10 @@ async def getParents(personId):
 		if first_name:
 			clean_first = first_name.rstrip('.')
 			if first_name.endswith('.'):
-				# Target name is short ("J."). Match anything starting with it ("Jón")
+				# Target name is short ('J.'). Match anything starting with it ('Jón')
 				cond[f'{prefix}.firstName'] = {'$regex': f'^{re.escape(clean_first)}', '$options': 'i'}
 			else:
-				# Target name is long ("Jón"). Match full name or progressive initials ("J.", "J")
+				# Target name is long ('Jón'). Match full name or progressive initials ('J.', 'J')
 				prefixes = [clean_first[:i] for i in range(1, len(clean_first) + 1)]
 				prefix_pattern = '|'.join([re.escape(p) for p in prefixes])
 				cond[f'{prefix}.firstName'] = {'$regex': f'^({prefix_pattern})\.?$', '$options': 'i'}
@@ -586,22 +592,22 @@ async def getChildren(personId):
 		cond = {}
 		
 		if first_name:
-			# 1. Clean up target string (e.g., "Sigurj." -> "Sigurj")
+			# 1. Clean up target string (e.g., 'Sigurj.' -> 'Sigurj')
 			clean_first = first_name.rstrip('.')
 			
 			if first_name.endswith('.'):
-				# Scenario A: Target parent is truncated/initial (e.g., "Sigurj." or "S.")
-				# The child's record must START with that prefix (e.g., "Sigurjón")
+				# Scenario A: Target parent is truncated/initial (e.g., 'Sigurj.' or 'S.')
+				# The child's record must START with that prefix (e.g., 'Sigurjón')
 				cond[f'{prefix}.firstName'] = {'$regex': f'^{re.escape(clean_first)}', '$options': 'i'}
 			else:
-				# Scenario B: Target parent has the full name (e.g., "Sigurjón")
+				# Scenario B: Target parent has the full name (e.g., 'Sigurjón')
 				# The child's record could be the full name OR any valid prefix truncation
-				# We build a regex that matches "S", "Si", "Sig", "Sigurj", up to "Sigurjón"
+				# We build a regex that matches 'S', 'Si', 'Sig', 'Sigurj', up to 'Sigurjón'
 				# Pattern shape: ^(S|Si|Sig|Sigurjón)\.?$
 				
 				# Build progressive prefix steps down to a minimum of 1 character
 				prefixes = [clean_first[:i] for i in range(1, len(clean_first) + 1)]
-				# Join them together: "S|Si|Sig|Sigu|Sigur|Sigurj|Sigurjó|Sigurjón"
+				# Join them together: 'S|Si|Sig|Sigu|Sigur|Sigurj|Sigurjó|Sigurjón'
 				prefix_pattern = '|'.join([re.escape(p) for p in prefixes])
 				
 				cond[f'{prefix}.firstName'] = {'$regex': f'^({prefix_pattern})\.?$', '$options': 'i'}
@@ -647,7 +653,7 @@ async def getChildren(personId):
 	}
 	print(dbQuery)
 
-	results = collection.find(dbQuery).sort("person.birth.date", 1)
+	results = collection.find(dbQuery).sort('person.birth.date', 1)
 	
 	response = []
 	for child in results:
@@ -663,28 +669,28 @@ async def getYears():
 	pipeline = [
 		# 1. Filter out nulls and explicitly empty strings early to save processing
 		{
-			"$match": {
-				"person.birth.date": {
-					"$type": "string",
-					"$ne": "" # Excludes empty strings
+			'$match': {
+				'person.birth.date': {
+					'$type': 'string',
+					'$ne': '' # Excludes empty strings
 				}
 			}
 		},
 		# 2. Extract the year safely using $convert
 		{
-			"$addFields": {
-				"birthYear": {
-					"$convert": {
-						"input": {
-							"$trim": { # Trims hidden whitespace before conversion
-								"input": { 
-									"$first": { "$split": ["$person.birth.date", "-"] } 
+			'$addFields': {
+				'birthYear': {
+					'$convert': {
+						'input': {
+							'$trim': { # Trims hidden whitespace before conversion
+								'input': { 
+									'$first': { '$split': ['$person.birth.date', '-'] } 
 								}
 							}
 						},
-						"to": "int",
-						"onError": None, # If conversion fails (e.g., text instead of numbers), yield None instead of crashing
-						"onNull": None
+						'to': 'int',
+						'onError': None, # If conversion fails (e.g., text instead of numbers), yield None instead of crashing
+						'onNull': None
 					}
 				}
 			}
@@ -692,21 +698,21 @@ async def getYears():
 		# 3. Filter for valid years strictly within your 1700-1900 range
 		# (Because malformed strings became None in Step 2, they will safely fail this match)
 		{
-			"$match": {
-				"birthYear": {"$gte": 1700, "$lte": 1900}
+			'$match': {
+				'birthYear': {'$gte': 1700, '$lte': 1900}
 			}
 		},
 		# 4. Group by the year and count the occurrences
 		{
-			"$group": {
-				"_id": "$birthYear",
-				"count": {"$sum": 1}
+			'$group': {
+				'_id': '$birthYear',
+				'count': {'$sum': 1}
 			}
 		},
 		# 5. Sort the results chronologically by year
 		{
-			"$sort": {
-				"_id": 1
+			'$sort': {
+				'_id': 1
 			}
 		}
 	]
@@ -723,36 +729,36 @@ async def getRelatedPlaces(placeId):
 	pipeline = [
 		# 1. Match: Find only the persons who have the target location in their history
 		{
-			"$match": {
-				"residence_history.location_obj.id": int(placeId)
+			'$match': {
+				'residence_history.location_obj.id': int(placeId)
 			}
 		},
 		# 2. Unwind: Deconstruct the residence_history array into separate documents 
 		# so we can process each location individually
 		{
-			"$unwind": "$residence_history"
+			'$unwind': '$residence_history'
 		},
 		# 3. Match (Filter): Keep only the locations that are NOT the target location.
 		# Also ensures we only look at entries that actually have a location_obj.
 		{
-			"$match": {
-				"residence_history.location_obj": {"$exists": True, "$ne": None},
-				"residence_history.location_obj.id": {"$ne": int(placeId)}
+			'$match': {
+				'residence_history.location_obj': {'$exists': True, '$ne': None},
+				'residence_history.location_obj.id': {'$ne': int(placeId)}
 			}
 		},
 		# 4. Group: Group by the *other* location IDs. 
 		# We grab the first instance of the location object's details and count how many people moved between these two places.
 		{
-			"$group": {
-				"_id": "$residence_history.location_obj.id",
-				"location_obj": {"$first": "$residence_history.location_obj"},
-				"shared_people_count": {"$sum": 1}
+			'$group': {
+				'_id': '$residence_history.location_obj.id',
+				'location_obj': {'$first': '$residence_history.location_obj'},
+				'shared_people_count': {'$sum': 1}
 			}
 		},
 		# 5. Sort: Order the results so the locations with the most shared people appear at the top
 		{
-			"$sort": {
-				"shared_people_count": -1
+			'$sort': {
+				'shared_people_count': -1
 			}
 		}
 	]
