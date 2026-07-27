@@ -1577,14 +1577,38 @@
                 "year_to_value": 1848
             },
             {
-                "original_string": "Hjú frá Mývatni að Viðum (21) 1852-",
+                "original_string": "Hjú frá Mývatni að Víðum (21) 1852-",
                 "year": "1852",
                 "age": 21,
                 "status": "Hjú",
-                "location": "Viðar",
+                "location": "Víðar",
                 "note": "frá Mývatni",
                 "year_from_value": 1852,
-                "year_to_value": 1852
+                "year_to_value": 1852,
+                "location_obj": {
+                    "id": 14154,
+                    "name": "Víðar",
+                    "lat": "65.6455885758",
+                    "lng": "-17.3089385033",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú þaðan \"austur á Fjöll\" (21) 1853-",

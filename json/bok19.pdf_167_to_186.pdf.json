@@ -2679,15 +2679,39 @@
                 "year_to_value": 1821
             },
             {
-                "original_string": "Hjú frá Kussungsstöðum að Viðum 1822-1825.",
+                "original_string": "Hjú frá Kussungsstöðum að Víðum 1822-1825.",
                 "year_or_period": "1822-1825",
                 "age": null,
                 "status": "Hjú",
-                "location": "Viðum",
+                "location": "Víðar",
                 "note": "frá Kussungsstöðum",
                 "year": "1822-1825",
                 "year_from_value": 1822,
-                "year_to_value": 1825
+                "year_to_value": 1825,
+                "location_obj": {
+                    "id": 14154,
+                    "name": "Víðar",
+                    "lat": "65.6455885758",
+                    "lng": "-17.3089385033",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fór út í „Fjörður“ 1825-",

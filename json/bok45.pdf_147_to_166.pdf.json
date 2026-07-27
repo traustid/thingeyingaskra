@@ -3690,7 +3690,7 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. í Viðum 11/11. 1822.",
+                "original_string": "F. í Víðum 11/11. 1822.",
                 "date": "1822-11-11",
                 "location": "Viðir"
             },
@@ -3731,7 +3731,7 @@
         "residence_history": [
             {
                 "year": "1822",
-                "original_string": "F. í Viðum 11/11. 1822.",
+                "original_string": "F. í Víðum 11/11. 1822.",
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Viðir",
@@ -3739,15 +3739,39 @@
                 "year_to_value": 1822
             },
             {
-                "original_string": "Hjá for. í Viðum (á 1.) 1822-",
+                "original_string": "Hjá for. í Víðum (á 1.) 1822-",
                 "year": "1822",
                 "age": null,
                 "status": "",
-                "location": "Viðar",
+                "location": "Víðar",
                 "note": "á 1.",
                 "note_ref": null,
                 "year_from_value": 1822,
-                "year_to_value": 1822
+                "year_to_value": 1822,
+                "location_obj": {
+                    "id": 14154,
+                    "name": "Víðar",
+                    "lat": "65.6455885758",
+                    "lng": "-17.3089385033",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Grímsstöðum (á 11.) 1833-",

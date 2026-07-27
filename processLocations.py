@@ -91,6 +91,9 @@ def findPlace(placeItem):
 	global matchCounter
 	global notFound
 
+	if 'location' not in placeItem:
+		placeItem['location'] = ''
+
 	if len(sys.argv[1:]) and sys.argv[1] not in placeItem['location']:
 		return;
 	elif len(sys.argv[1:]) and sys.argv[1] in placeItem['location']:

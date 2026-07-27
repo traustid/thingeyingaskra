@@ -244,15 +244,39 @@
                 "year_to_value": 1899
             },
             {
-                "original_string": "Hjú í Viðum (29) 1900. (Frá Fremstafelli).",
+                "original_string": "Hjú í Víðum (29) 1900. (Frá Fremstafelli).",
                 "year": "1900",
                 "age": 29,
                 "status": "Hjú",
-                "location": "Viðar",
+                "location": "Víðar",
                 "note": "Frá Fremstafelli",
                 "note_ref": null,
                 "year_from_value": 1900,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 14154,
+                    "name": "Víðar",
+                    "lat": "65.6455885758",
+                    "lng": "-17.3089385033",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

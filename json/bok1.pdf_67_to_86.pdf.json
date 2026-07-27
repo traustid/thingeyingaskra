@@ -1343,15 +1343,39 @@
                 "year_to_value": 1853
             },
             {
-                "original_string": "Með móður frá Ytrahvammi að Viðum (1 árs) 1853-",
+                "original_string": "Með móður frá Ytrahvammi að Víðum (1 árs) 1853-",
                 "year_or_period": "1853-",
                 "age": 1,
                 "status": "Með móður",
-                "location": "Viðum",
+                "location": "Víðar",
                 "note": "frá Ytrahvammi",
                 "year": "1853-",
                 "year_from_value": 1853,
-                "year_to_value": 1853
+                "year_to_value": 1853,
+                "location_obj": {
+                    "id": 14154,
+                    "name": "Víðar",
+                    "lat": "65.6455885758",
+                    "lng": "-17.3089385033",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá föður í Ytrahvammi (3) 1855-1857.",
@@ -3035,6 +3059,8 @@
                 "location": "Kálfborgará",
                 "note": "",
                 "year": "1841-1846",
+                "year_from_value": 1841,
+                "year_to_value": 1846,
                 "location_obj": {
                     "id": 12413,
                     "name": "Kálfborgará",
@@ -3058,9 +3084,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1841,
-                "year_to_value": 1846
+                }
             },
             {
                 "original_string": "Með föður frá Kálfborgará að Fljótsbakka (24) 1848-",
@@ -3298,6 +3322,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Kálfborgará",
+                "year_from_value": 1897,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 12413,
                     "name": "Kálfborgará",
@@ -3321,9 +3347,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1897,
-                "year_to_value": 1897
+                }
             },
             {
                 "original_string": "Hjá for. á Kálfborgará (1 árs) 1897-1900.",
@@ -3333,6 +3357,8 @@
                 "location": "Kálfborgará",
                 "note": "",
                 "year": "1897-1900",
+                "year_from_value": 1897,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 12413,
                     "name": "Kálfborgará",
@@ -3356,9 +3382,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1897,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -5227,15 +5251,39 @@
                 "year_to_value": 1816
             },
             {
-                "original_string": "Hjá for. í Viðum (13 ára) 1828.",
+                "original_string": "Hjá for. í Víðum (13 ára) 1828.",
                 "year_or_period": "1828",
                 "age": 13,
                 "status": "Hjá for.",
-                "location": "Viðum",
+                "location": "Víðar",
                 "note": "",
                 "year": "1828",
                 "year_from_value": 1828,
-                "year_to_value": 1828
+                "year_to_value": 1828,
+                "location_obj": {
+                    "id": 14154,
+                    "name": "Víðar",
+                    "lat": "65.6455885758",
+                    "lng": "-17.3089385033",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Saltsík (14 ára) 1829-1833.",

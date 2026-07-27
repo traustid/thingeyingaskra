@@ -2670,15 +2670,39 @@
                 "year_to_value": 1855
             },
             {
-                "original_string": "Móðir K. frá Tjörn að Viðum (55) 1856-",
+                "original_string": "Móðir K. frá Tjörn að Víðum (55) 1856-",
                 "year_or_period": "1856",
                 "age": 55,
                 "status": "Móðir kaupakonu",
-                "location": "Viðar",
+                "location": "Víðar",
                 "note": "frá Tjörn",
                 "year": "1856",
                 "year_from_value": 1856,
-                "year_to_value": 1856
+                "year_to_value": 1856,
+                "location_obj": {
+                    "id": 14154,
+                    "name": "Víðar",
+                    "lat": "65.6455885758",
+                    "lng": "-17.3089385033",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Móðir K. að Reykjahlíð 1857-",
@@ -3313,6 +3337,8 @@
                 "location": "Kálfborgará / Úlfsbær",
                 "note": "",
                 "year": "1812-1815",
+                "year_from_value": 1812,
+                "year_to_value": 1815,
                 "location_obj": {
                     "id": 12413,
                     "name": "Kálfborgará",
@@ -3336,9 +3362,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1812,
-                "year_to_value": 1815
+                }
             },
             {
                 "original_string": "Hjú á Hrappsst. B. (26) 1819.",
@@ -5205,6 +5229,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Kálfborgará",
+                "year_from_value": 1806,
+                "year_to_value": 1806,
                 "location_obj": {
                     "id": 12413,
                     "name": "Kálfborgará",
@@ -5228,9 +5254,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1806,
-                "year_to_value": 1806
+                }
             },
             {
                 "original_string": "Hjá for. á Kálfborgará (á 1.) 1806-1810.",
@@ -5240,6 +5264,8 @@
                 "location": "Kálfborgará",
                 "note": "",
                 "year": "1806-1810",
+                "year_from_value": 1806,
+                "year_to_value": 1810,
                 "location_obj": {
                     "id": 12413,
                     "name": "Kálfborgará",
@@ -5263,9 +5289,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1806,
-                "year_to_value": 1810
+                }
             },
             {
                 "original_string": "Hjá for. á Hvarfi (6)-1812-1815-",

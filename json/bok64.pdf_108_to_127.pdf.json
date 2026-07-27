@@ -2404,9 +2404,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. í Viðum 11/8. 1853. - 1)",
+                "original_string": "F. í Víðum 11/8. 1853. - 1)",
                 "date": "1853-08-11",
-                "location": "Viðum"
+                "location": "Víðar",
+                "location_obj": {
+                    "id": 14154,
+                    "name": "Víðar",
+                    "lat": "65.6455885758",
+                    "lng": "-17.3089385033",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2448,23 +2472,71 @@
         "residence_history": [
             {
                 "year": "1853",
-                "original_string": "F. í Viðum 11/8. 1853. - 1)",
+                "original_string": "F. í Víðum 11/8. 1853. - 1)",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Viðum",
+                "location": "Víðar",
                 "year_from_value": 1853,
-                "year_to_value": 1853
+                "year_to_value": 1853,
+                "location_obj": {
+                    "id": 14154,
+                    "name": "Víðar",
+                    "lat": "65.6455885758",
+                    "lng": "-17.3089385033",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. í Viðum (á l.) 1853-1858.",
+                "original_string": "Hjá for. í Víðum (á l.) 1853-1858.",
                 "year": "1853-1858",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Viðum",
+                "location": "Víðar",
                 "note": "á l.",
                 "note_ref": null,
                 "year_from_value": 1853,
-                "year_to_value": 1858
+                "year_to_value": 1858,
+                "location_obj": {
+                    "id": 14154,
+                    "name": "Víðar",
+                    "lat": "65.6455885758",
+                    "lng": "-17.3089385033",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. að Halldórsst. B. (5) 1858-59. (10) 1862.",
@@ -2576,22 +2648,70 @@
                 "year": "1866-1867",
                 "age": null,
                 "status": "Tökub.",
-                "location": "Kálfb. á",
+                "location": "Kálfborgará",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1866,
-                "year_to_value": 1867
+                "year_to_value": 1867,
+                "location_obj": {
+                    "id": 12413,
+                    "name": "Kálfborgará",
+                    "lat": "65.607335",
+                    "lng": "-17.500539",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Kálfb. á (10) 1864-",
                 "year": "1864",
                 "age": 10,
                 "status": "Með móður",
-                "location": "Kálfb. á",
+                "location": "Kálfborgará",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1864,
-                "year_to_value": 1864
+                "year_to_value": 1864,
+                "location_obj": {
+                    "id": 12413,
+                    "name": "Kálfborgará",
+                    "lat": "65.607335",
+                    "lng": "-17.500539",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Brenniási (15) 1868.",
@@ -2770,7 +2890,7 @@
             }
         ],
         "notes": {
-            "1": "Þá kvað Jakob á Breiðumýri: Skarphéðinn var niðji Njáls nefndur fyrr á tímum; - en nú risinn upp til hálfs ungur fram í Viðum."
+            "1": "Þá kvað Jakob á Breiðumýri: Skarphéðinn var niðji Njáls\nnefndur fyrr á tíðum; -\n en nú risinn upp til hálfs\nungur fram í Víðum."
         },
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/e-1726-64/119",
         "bok": "bok64",

@@ -949,6 +949,8 @@
                 "status": "Með for.",
                 "location": "Kálfborgará",
                 "note": "frá Fljótsbakka",
+                "year_from_value": 1848,
+                "year_to_value": 1848,
                 "location_obj": {
                     "id": 12413,
                     "name": "Kálfborgará",
@@ -972,9 +974,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1848,
-                "year_to_value": 1848
+                }
             },
             {
                 "original_string": "Með for. frá Kálfborgará að Geiteyjarstr. (15) 1849-",
@@ -3477,6 +3477,8 @@
                 "status": "Með móður",
                 "location": "Kálfborgará",
                 "note": "",
+                "year_from_value": 1841,
+                "year_to_value": 1841,
                 "location_obj": {
                     "id": 12413,
                     "name": "Kálfborgará",
@@ -3500,9 +3502,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1841,
-                "year_to_value": 1841
+                }
             },
             {
                 "original_string": "Með móður á Illugastöðum (7) 1844.",
@@ -3765,14 +3765,38 @@
                 "year_to_value": 1858
             },
             {
-                "original_string": "Hjú þaðan að Viðum 1859-",
+                "original_string": "Hjú þaðan að Víðum 1859-",
                 "year": "1859",
                 "age": null,
                 "status": "Hjú",
-                "location": "Viðar",
+                "location": "Víðar",
                 "note": "",
                 "year_from_value": 1859,
-                "year_to_value": 1859
+                "year_to_value": 1859,
+                "location_obj": {
+                    "id": 14154,
+                    "name": "Víðar",
+                    "lat": "65.6455885758",
+                    "lng": "-17.3089385033",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú að Ási, K.hv. 1860-",
