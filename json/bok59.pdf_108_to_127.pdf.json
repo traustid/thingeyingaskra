@@ -1659,10 +1659,34 @@
                 "year": "1843-1845",
                 "age": 25,
                 "status": "Hjú",
-                "location": "Kaðalsstöðum",
+                "location": "Kaðalsstaðir",
                 "note": "G.'44",
                 "year_from_value": 1843,
-                "year_to_value": 1845
+                "year_to_value": 1845,
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. í Keflavík (26) 1844. (Svo).",
@@ -2993,7 +3017,31 @@
             "birth": {
                 "original_string": "F. 1/9. 1838 í Holtakoti R.",
                 "date": "1838-09-01",
-                "location": "Holtakoti R."
+                "location": "Holtakot Rhv.",
+                "location_obj": {
+                    "id": 33766,
+                    "name": "Holtakot",
+                    "lat": "65.894924",
+                    "lng": "-17.276001",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Skörðum 3/11. 1871, 34 ára.",
@@ -3074,19 +3122,67 @@
                 "original_string": "F. 1/9. 1838 í Holtakoti R.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Holtakoti R.",
+                "location": "Holtakot Rhv.",
                 "year_from_value": 1838,
-                "year_to_value": 1838
+                "year_to_value": 1838,
+                "location_obj": {
+                    "id": 33766,
+                    "name": "Holtakot",
+                    "lat": "65.894924",
+                    "lng": "-17.276001",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Holtakoti R. (á 1.) 1839-1851.",
                 "year": "1839-1851",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Holtakoti R.",
+                "location": "Holtakot Rhv.",
                 "note": "",
                 "year_from_value": 1839,
-                "year_to_value": 1851
+                "year_to_value": 1851,
+                "location_obj": {
+                    "id": 33766,
+                    "name": "Holtakot",
+                    "lat": "65.894924",
+                    "lng": "-17.276001",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfrú í Skörðum (18-ára) 1856-1860.",
@@ -3314,10 +3410,34 @@
                 "year": "1868-1869",
                 "age": 27,
                 "status": "Hjú",
-                "location": "Vöglum",
+                "location": "Vaglir",
                 "note": "",
                 "year_from_value": 1868,
-                "year_to_value": 1869
+                "year_to_value": 1869,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3549,6 +3669,8 @@
                 "status": "G. húsk",
                 "location": "Grjótárgerði",
                 "note": "",
+                "year_from_value": 1891,
+                "year_to_value": 1893,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -3572,9 +3694,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1891,
-                "year_to_value": 1893
+                }
             }
         ],
         "notes": {},

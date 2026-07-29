@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. 4/9 1882 í Holtakoti L.",
                 "date": "1882-09-04",
-                "location": "Holtakot L."
+                "location": "Holtakot Lj.",
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 18/12 1957",
@@ -64,9 +88,33 @@
                 "original_string": "F. 4/9 1882 í Holtakoti L.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Holtakot L.",
+                "location": "Holtakot Lj.",
                 "year_from_value": 1882,
-                "year_to_value": 1882
+                "year_to_value": 1882,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Vargsnesi (6) 1888-1890.",
@@ -76,17 +124,65 @@
                 "location": "Vargsnes",
                 "note": "",
                 "year_from_value": 1888,
-                "year_to_value": 1890
+                "year_to_value": 1890,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Ytri-Skál (9) 1891-1892.",
                 "year": "1891-1892",
                 "age": 9,
                 "status": "Hjá for.",
-                "location": "Ytri-Skál",
+                "location": "Ytri-Leikskálaá",
                 "note": "",
                 "year_from_value": 1891,
-                "year_to_value": 1892
+                "year_to_value": 1892,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Lettadr. á Silalæk (12) 1895-1900.",

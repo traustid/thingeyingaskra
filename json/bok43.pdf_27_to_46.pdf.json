@@ -413,6 +413,8 @@
                 "location": "Litlu-Tjarnir",
                 "note": "",
                 "year": "1895-1900",
+                "year_from_value": 1895,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -436,9 +438,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1895,
-                "year_to_value": 1900
+                }
             },
             {
                 "year": "1943",
@@ -1676,6 +1676,8 @@
                 "location": "Höfði",
                 "note": "",
                 "year": "1886",
+                "year_from_value": 1886,
+                "year_to_value": 1886,
                 "location_obj": {
                     "id": 15860,
                     "name": "Höfði",
@@ -1699,9 +1701,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1886,
-                "year_to_value": 1886
+                }
             },
             {
                 "original_string": "Hjú í Görðum (20) 1887.",
@@ -2147,6 +2147,8 @@
                 "location": "Höfði",
                 "note": "G. '86",
                 "year": "1884-1886",
+                "year_from_value": 1884,
+                "year_to_value": 1886,
                 "location_obj": {
                     "id": 15860,
                     "name": "Höfði",
@@ -2170,9 +2172,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1884,
-                "year_to_value": 1886
+                }
             },
             {
                 "original_string": "G. húsk. í Grenivík (33) 1887.",
@@ -3091,11 +3091,35 @@
                 "year_or_period": "1871",
                 "age": 3,
                 "status": "Með for.",
-                "location": "Sveinstr.",
+                "location": "Sveinströnd",
                 "note": "",
                 "year": "1871",
                 "year_from_value": 1871,
-                "year_to_value": 1871
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Skútustöðum (4) 1872.",

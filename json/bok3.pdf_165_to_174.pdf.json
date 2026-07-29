@@ -1167,11 +1167,35 @@
                 "year": "1888",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Holtakoti R.",
+                "location": "Holtakot Rhv.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1888,
-                "year_to_value": 1888
+                "year_to_value": 1888,
+                "location_obj": {
+                    "id": 33766,
+                    "name": "Holtakot",
+                    "lat": "65.894924",
+                    "lng": "-17.276001",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Skörðum (1 árs) 1889-92.",
@@ -1213,11 +1237,35 @@
                 "year": "1893-1895",
                 "age": 5,
                 "status": "Með móður",
-                "location": "Holtakoti R.",
+                "location": "Holtakot Rhv.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1893,
-                "year_to_value": 1895
+                "year_to_value": 1895,
+                "location_obj": {
+                    "id": 33766,
+                    "name": "Holtakot",
+                    "lat": "65.894924",
+                    "lng": "-17.276001",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá móður á St. Reykjum (8) 1896-1898.",
@@ -2900,6 +2948,8 @@
                 "location": "Grjótárgerði",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1886,
+                "year_to_value": 1889,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -2923,9 +2973,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1886,
-                "year_to_value": 1889
+                }
             },
             {
                 "original_string": "Húsfr. á Kotungsstöðum (33) 1890-1893.",

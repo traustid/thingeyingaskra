@@ -1391,6 +1391,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1809",
+                "year_from_value": 1809,
+                "year_to_value": 1809,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -1414,9 +1416,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1809,
-                "year_to_value": 1809
+                }
             }
         ],
         "notes": {},
@@ -1825,7 +1825,31 @@
                 "note_ref": null,
                 "year": "1869-70",
                 "year_from_value": 1869,
-                "year_to_value": 70
+                "year_to_value": 70,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Sandi (að 2/3 fyrra árið, 20 ára) 1870-1871.",
@@ -2959,12 +2983,36 @@
                 "year_or_period": "1862-1865",
                 "age": 26,
                 "status": "Hjú",
-                "location": "Höfða",
+                "location": "Höfði",
                 "note": "",
                 "note_ref": null,
                 "year": "1862-1865",
                 "year_from_value": 1862,
-                "year_to_value": 1865
+                "year_to_value": 1865,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Grýtubakka (33) 1869-1875.",

@@ -1425,11 +1425,35 @@
                 "year": "1810",
                 "age": null,
                 "status": "Niðurs.",
-                "location": "Höfða",
+                "location": "Höfði",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1810,
-                "year_to_value": 1810
+                "year_to_value": 1810,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2051,9 +2075,11 @@
                 "year": "1870-1871",
                 "age": 34,
                 "status": "G.",
-                "location": "Grjótargerði",
+                "location": "Grjótárgerði",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1870,
+                "year_to_value": 1871,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -2077,9 +2103,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1871
+                }
             },
             {
                 "original_string": "Húsfr. í Brúnagerði (36) 1872-1874",
@@ -3321,9 +3345,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 20/6 1828 á Vegeirsstöðum",
+                "original_string": "F. 20/6 1828 á Végeirsstöðum",
                 "date": "1828-06-20",
-                "location": "Vegeirsstöðum"
+                "location": "Végeirsstöðum"
             },
             "death": {
                 "original_string": "",
@@ -3342,7 +3366,7 @@
         "parents": [
             {
                 "name": "Sig. Vigfússon",
-                "note": "Vegeirsst.",
+                "note": "Végeirsst.",
                 "names": [
                     "Sig.",
                     "Vigfússon"
@@ -3361,14 +3385,14 @@
                 "lastName": "Sigurðardóttir"
             }
         ],
-        "parents_original_string": "Sig. Vigfússon og Guðbjörg Sigurðardóttir, Vegeirsst.",
+        "parents_original_string": "Sig. Vigfússon og Guðbjörg Sigurðardóttir, Végeirsst.",
         "residence_history": [
             {
                 "year": "1828",
-                "original_string": "F. 20/6 1828 á Vegeirsstöðum",
+                "original_string": "F. 20/6 1828 á Végeirsstöðum",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Vegeirsstöðum",
+                "location": "Végeirsstöðum",
                 "year_from_value": 1828,
                 "year_to_value": 1828
             },

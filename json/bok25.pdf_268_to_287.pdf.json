@@ -679,7 +679,31 @@
             "birth": {
                 "original_string": "F. 3/7. 1793 í Grjótargerði Fn.",
                 "date": "1793-07-03",
-                "location": "Grjótargerði Fn."
+                "location": "Grjótárgerði Fn.",
+                "location_obj": {
+                    "id": 90012,
+                    "name": "Grjótárgerði",
+                    "lat": "65.631606",
+                    "lng": "-17.838890",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -736,20 +760,68 @@
                 "original_string": "F. 3/7. 1793 í Grjótargerði Fn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grjótargerði Fn.",
+                "location": "Grjótárgerði Fn.",
                 "year_from_value": 1793,
-                "year_to_value": 1793
+                "year_to_value": 1793,
+                "location_obj": {
+                    "id": 90012,
+                    "name": "Grjótárgerði",
+                    "lat": "65.631606",
+                    "lng": "-17.838890",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Grjótargerði Fn. (9)-1801-1832.",
                 "year_or_period": "1801-1832",
                 "age": 9,
                 "status": "Hjá for.",
-                "location": "Grjótargerði Fn.",
+                "location": "Grjótárgerði Fn.",
                 "note": "",
                 "year": "1801-1832",
                 "year_from_value": 1801,
-                "year_to_value": 1832
+                "year_to_value": 1832,
+                "location_obj": {
+                    "id": 90012,
+                    "name": "Grjótárgerði",
+                    "lat": "65.631606",
+                    "lng": "-17.838890",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2537,6 +2609,8 @@
                 "location": "Höfði",
                 "note": "",
                 "year": "1899-1900",
+                "year_from_value": 1899,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 15860,
                     "name": "Höfði",
@@ -2560,9 +2634,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1899,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -2816,13 +2888,15 @@
                 "year_to_value": 1869
             },
             {
-                "original_string": "G. húsk. á E.-Dálkost. (69) 1870-1871.",
+                "original_string": "G. húsk. á E.-Dálksst. (69) 1870-1871.",
                 "year_or_period": "1870-1871",
                 "age": 69,
                 "status": "G. húsk.",
                 "location": "Efri-Dálksstaðir",
                 "note": "",
                 "year": "1870-1871",
+                "year_from_value": 1870,
+                "year_to_value": 1871,
                 "location_obj": {
                     "id": 90036,
                     "name": "Neðri-Dálksstaðir",
@@ -2846,18 +2920,18 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1871
+                }
             },
             {
-                "original_string": "E., húsk. á E.-Dálkost. (75) 1875-1879.",
+                "original_string": "E., húsk. á E.-Dálksst. (75) 1875-1879.",
                 "year_or_period": "1875-1879",
                 "age": 75,
                 "status": "E., húsk.",
                 "location": "Efri-Dálksstaðir",
                 "note": "",
                 "year": "1875-1879",
+                "year_from_value": 1875,
+                "year_to_value": 1879,
                 "location_obj": {
                     "id": 90036,
                     "name": "Neðri-Dálksstaðir",
@@ -2881,18 +2955,18 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1875,
-                "year_to_value": 1879
+                }
             },
             {
-                "original_string": "E. á E.-Dálkost. (80) 1881-1887-1891.",
+                "original_string": "E. á E.-Dálksst. (80) 1881-1887-1891.",
                 "year_or_period": "1881-1891",
                 "age": 80,
                 "status": "E.",
                 "location": "Efri-Dálksstaðir",
                 "note": "",
                 "year": "1881-1891",
+                "year_from_value": 1881,
+                "year_to_value": 1891,
                 "location_obj": {
                     "id": 90036,
                     "name": "Neðri-Dálksstaðir",
@@ -2916,9 +2990,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1881,
-                "year_to_value": 1891
+                }
             }
         ],
         "notes": {},

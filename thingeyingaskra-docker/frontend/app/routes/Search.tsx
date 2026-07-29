@@ -37,6 +37,13 @@ export default function Search() {
 			searchParams.push('location='+placeQuery);
 		}
 
+		if (data) {
+			setData({
+				places: [],
+				persons: data.persons
+			});
+		}
+		
 		fetch(config.apiRoot+'/search/?'+searchParams.join('&'))
 			.then(res => res.json())
 			.then(json => {

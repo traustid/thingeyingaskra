@@ -2200,20 +2200,20 @@
             "birth": {
                 "original_string": "F. 31/5 1877 á Vöglum.",
                 "date": "1877-05-31",
-                "location": "Voglar",
+                "location": "Vaglir",
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2281,20 +2281,22 @@
                 "original_string": "F. 31/5 1877 á Vöglum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Voglar",
+                "location": "Vaglir",
+                "year_from_value": 1877,
+                "year_to_value": 1877,
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2305,20 +2307,42 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1877,
-                "year_to_value": 1877
+                }
             },
             {
                 "original_string": "Hjá for. á Vöglum (1 árs) 1877-1889-1900-",
                 "year": "1877-1900",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Vöglum",
+                "location": "Vaglir",
                 "note": "árs",
                 "note_ref": null,
                 "year_from_value": 1877,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2527,11 +2551,35 @@
                 "year": "1884",
                 "age": 15,
                 "status": "Hjú",
-                "location": "Vöglum",
+                "location": "Vaglir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1884,
-                "year_to_value": 1884
+                "year_to_value": 1884,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3102,11 +3150,35 @@
                 "year": "1893-1894",
                 "age": 18,
                 "status": "Hjú",
-                "location": "Litlatjörnum",
+                "location": "Litlu-Tjarnir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1893,
-                "year_to_value": 1894
+                "year_to_value": 1894,
+                "location_obj": {
+                    "id": 16618,
+                    "name": "Litlu-Tjarnir",
+                    "lat": "65.713556",
+                    "lng": "-17.710988",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. í Sigluvík (20) 1896-1900.",
@@ -4005,7 +4077,31 @@
             "birth": {
                 "original_string": "F. 31/12 1829 á Ytri-Skál.",
                 "date": "1829-12-31",
-                "location": "Ytri-Skál"
+                "location": "Ytri-Leikskálaá",
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -4063,9 +4159,33 @@
                 "original_string": "F. 31/12 1829 á Ytri-Skál.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Ytri-Skál",
+                "location": "Ytri-Leikskálaá",
                 "year_from_value": 1829,
-                "year_to_value": 1829
+                "year_to_value": 1829,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Ytri-Leikskálaá (á 1) 1830-1837.",
@@ -4075,6 +4195,8 @@
                 "location": "Ytri-Leikskálaá K.",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1830,
+                "year_to_value": 1837,
                 "location_obj": {
                     "id": 90031,
                     "name": "Ytri-Leikskálaá",
@@ -4098,9 +4220,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1830,
-                "year_to_value": 1837
+                }
             },
             {
                 "original_string": "Hjá for. á Hóli K. (7) 1837-1838-",

@@ -2695,11 +2695,35 @@
                 "year": "1812-1815",
                 "age": 11,
                 "status": "Hjá for.",
-                "location": "Holtakoti Lj.",
+                "location": "Holtakot Lj.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1812,
-                "year_to_value": 1815
+                "year_to_value": 1815,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Litlutjörnum (29) 1829.",
@@ -2709,6 +2733,8 @@
                 "location": "Litlu-Tjarnir",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1829,
+                "year_to_value": 1829,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -2732,9 +2758,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1829,
-                "year_to_value": 1829
+                }
             },
             {
                 "original_string": "V.k. á Egg í Hegranesi 1839.",

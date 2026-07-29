@@ -2011,7 +2011,31 @@
                 "location": "Grímshúsum",
                 "note": "",
                 "year_from_value": 1804,
-                "year_to_value": 1804
+                "year_to_value": 1804,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Sveinströnd (22) 1812.",
@@ -2020,6 +2044,8 @@
                 "status": "Hjú",
                 "location": "Sveinströnd",
                 "note": "",
+                "year_from_value": 1812,
+                "year_to_value": 1812,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -2043,9 +2069,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1812,
-                "year_to_value": 1812
+                }
             },
             {
                 "original_string": "Vinnuk. á Gautlöndum... 1815-",
@@ -4311,7 +4335,31 @@
             "birth": {
                 "original_string": "F. 28/6. 1794 í Höfða.",
                 "date": "1794-06-28",
-                "location": "Höfða"
+                "location": "Höfði",
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -4368,9 +4416,33 @@
                 "original_string": "F. 28/6. 1794 í Höfða.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Höfða",
+                "location": "Höfði",
                 "year_from_value": 1794,
-                "year_to_value": 1794
+                "year_to_value": 1794,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Holi Fj. (7) 1801.",
@@ -4919,6 +4991,8 @@
                 "status": "Húsfr.",
                 "location": "Litlu-Tjarnir",
                 "note": "",
+                "year_from_value": 1891,
+                "year_to_value": 1894,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -4942,9 +5016,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1891,
-                "year_to_value": 1894
+                }
             },
             {
                 "original_string": "Húsfr. í Sigluvík (32)-1896-1900-",

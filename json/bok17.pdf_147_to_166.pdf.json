@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. 14/11. 1871 á Hólkoti.",
                 "date": "1871-11-14",
-                "location": "Hólkot"
+                "location": "Hólkot",
+                "location_obj": {
+                    "id": 90056,
+                    "name": "Hólkot",
+                    "lat": "65.799484",
+                    "lng": "-17.441553",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -54,7 +78,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Hólkot",
                 "year_from_value": 1871,
-                "year_to_value": 1871
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 90056,
+                    "name": "Hólkot",
+                    "lat": "65.799484",
+                    "lng": "-17.441553",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hólkoti (á l.) 1871-1880 - (þá 8 ára).",
@@ -64,7 +112,31 @@
                 "location": "Hólkot",
                 "note": "á l.",
                 "year_from_value": 1871,
-                "year_to_value": 1880
+                "year_to_value": 1880,
+                "location_obj": {
+                    "id": 90056,
+                    "name": "Hólkot",
+                    "lat": "65.799484",
+                    "lng": "-17.441553",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttadr. á Hamri (12) 1885.",
@@ -2553,6 +2625,8 @@
                 "status": "G. Húsm.",
                 "location": "Miðhvammur",
                 "note": "",
+                "year_from_value": 1876,
+                "year_to_value": 1876,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -2576,9 +2650,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1876,
-                "year_to_value": 1876
+                }
             },
             {
                 "original_string": "B. í Hrauni (39) 1877.",
@@ -3033,6 +3105,8 @@
                 "status": "G. Húsm.",
                 "location": "Sveinströnd",
                 "note": "",
+                "year_from_value": 1866,
+                "year_to_value": 1868,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -3056,9 +3130,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1866,
-                "year_to_value": 1868
+                }
             },
             {
                 "original_string": "B. á Geirastöðum 1869-1870.",
@@ -4432,7 +4504,7 @@
             "birth": {
                 "original_string": "F. 1/1. 1858 í Lilletungu.",
                 "date": "1858-01-01",
-                "location": "Litlatunga",
+                "location": "Litla-Tunga",
                 "location_obj": {
                     "id": 90009,
                     "name": "Litla-Tunga",
@@ -4502,7 +4574,9 @@
                 "original_string": "F. 1/1. 1858 í Lilletungu.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Litlatunga",
+                "location": "Litla-Tunga",
+                "year_from_value": 1858,
+                "year_to_value": 1858,
                 "location_obj": {
                     "id": 90009,
                     "name": "Litla-Tunga",
@@ -4526,9 +4600,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1858,
-                "year_to_value": 1858
+                }
             },
             {
                 "original_string": "Með for. í Litlutungu (1 árs) 1858.",

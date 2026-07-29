@@ -325,6 +325,8 @@
                 "status": "Húsfr.",
                 "location": "Ytri-Leikskálaá K.",
                 "note": "",
+                "year_from_value": 1870,
+                "year_to_value": 1871,
                 "location_obj": {
                     "id": 90031,
                     "name": "Ytri-Leikskálaá",
@@ -348,9 +350,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1871
+                }
             },
             {
                 "original_string": "H. vm. á Jarlsst. B. (50) 1874.",
@@ -427,6 +427,8 @@
                 "status": "G. hjú",
                 "location": "Grjótárgerði, B.",
                 "note": "",
+                "year_from_value": 1877,
+                "year_to_value": 1877,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -450,9 +452,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1877,
-                "year_to_value": 1877
+                }
             },
             {
                 "original_string": "G. hjú í Svartárkoti (55) 1878.",
@@ -2595,10 +2595,34 @@
                 "year": "1860-1865",
                 "age": 20,
                 "status": "Í Holtakoti",
-                "location": "Holtakot, R.",
+                "location": "Holtakot Rhv.",
                 "note": "",
                 "year_from_value": 1860,
-                "year_to_value": 1865
+                "year_to_value": 1865,
+                "location_obj": {
+                    "id": 33766,
+                    "name": "Holtakot",
+                    "lat": "65.894924",
+                    "lng": "-17.276001",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú þaðan að Einarsstöðum (26) 1865-",

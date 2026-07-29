@@ -1751,11 +1751,35 @@
                 "year_or_period": "1859",
                 "age": 47,
                 "status": "Hjú",
-                "location": "Vöglum",
+                "location": "Vaglir",
                 "note": "",
                 "year": "1859",
                 "year_from_value": 1859,
-                "year_to_value": 1859
+                "year_to_value": 1859,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3140,6 +3164,8 @@
                 "location": "Litlu-Tjarnir",
                 "note": "",
                 "year": "1854-1855",
+                "year_from_value": 1854,
+                "year_to_value": 1855,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -3163,9 +3189,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1854,
-                "year_to_value": 1855
+                }
             },
             {
                 "original_string": "Hjú á Mýri B. (33) 1858-1860.",

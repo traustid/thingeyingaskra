@@ -593,14 +593,7 @@
                 "location": "Holtakoti, Lj.",
                 "note": "",
                 "year_from_value": 1830,
-                "year_to_value": 1838
-            },
-            {
-                "year": "1843",
-                "original_string": "D. í Holtakoti L. 31/7. 1843, 83 ára.",
-                "age": 0,
-                "status": "Dánarstaður",
-                "location": "Holtakoti",
+                "year_to_value": 1838,
                 "location_obj": {
                     "id": 25661,
                     "name": "Holtakot",
@@ -624,9 +617,40 @@
                             "id": 16573
                         }
                     ]
-                },
+                }
+            },
+            {
+                "year": "1843",
+                "original_string": "D. í Holtakoti L. 31/7. 1843, 83 ára.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Holtakoti",
                 "year_from_value": 1843,
-                "year_to_value": 1843
+                "year_to_value": 1843,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1136,9 +1160,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 23/12. 1795 á Vegeirsstöðum.",
+                "original_string": "F. 23/12. 1795 á Végeirsstöðum.",
                 "date": "1795-12-23",
-                "location": "Vegeirsstöðum"
+                "location": "Végeirsstöðum"
             },
             "death": {
                 "original_string": "D. 17/6 1866",
@@ -1203,10 +1227,10 @@
         "residence_history": [
             {
                 "year": "1795",
-                "original_string": "F. 23/12. 1795 á Vegeirsstöðum.",
+                "original_string": "F. 23/12. 1795 á Végeirsstöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Vegeirsstöðum",
+                "location": "Végeirsstöðum",
                 "year_from_value": 1795,
                 "year_to_value": 1795
             },
@@ -3462,11 +3486,11 @@
                 "year_to_value": 1875
             },
             {
-                "original_string": "G. húsm. á Vegeirsst. (39) 1876-",
+                "original_string": "G. húsm. á Végeirsst. (39) 1876-",
                 "year": "1876",
                 "age": 39,
                 "status": "G. húsm.",
-                "location": "Vegeirsstaðir",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "location_obj": {
                     "id": 12053,

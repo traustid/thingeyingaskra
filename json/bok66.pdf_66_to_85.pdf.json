@@ -1041,6 +1041,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Miðhvammur",
+                "year_from_value": 1763,
+                "year_to_value": 1763,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -1064,9 +1066,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1763,
-                "year_to_value": 1763
+                }
             },
             {
                 "original_string": "Hjú í Rauðuskriðu (37 ára) 1801-",
@@ -1518,6 +1518,8 @@
                 "location": "Miðhvammur",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1833,
+                "year_to_value": 1833,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -1541,9 +1543,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1833,
-                "year_to_value": 1833
+                }
             },
             {
                 "original_string": "Niðurs. frá Birningsst. að Hólkoti 1836-37.",
@@ -1554,7 +1554,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1836,
-                "year_to_value": 1837
+                "year_to_value": 1837,
+                "location_obj": {
+                    "id": 90056,
+                    "name": "Hólkot",
+                    "lat": "65.799484",
+                    "lng": "-17.441553",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. á Birningsst. (75) 1835.",
@@ -2174,7 +2198,31 @@
             "death": {
                 "original_string": "D. á Syðrahóli 9/4. 1873.",
                 "date": "1873-04-09",
-                "location": "Syðrahóll"
+                "location": "Syðri-Hóll",
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Svanlaug",
@@ -2830,27 +2878,99 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1870,
-                "year_to_value": 1870
+                "year_to_value": 1870,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. á Syðrahóli (65) 1871-1872. (Móðir K.).",
                 "year": "1871-1872",
                 "age": 65,
                 "status": "G.",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "(Móðir K.).",
                 "note_ref": null,
                 "year_from_value": 1871,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1873",
                 "original_string": "D. á Syðrahóli 9/4. 1873.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "year_from_value": 1873,
-                "year_to_value": 1873
+                "year_to_value": 1873,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -3019,18 +3139,66 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1870,
-                "year_to_value": 1870
+                "year_to_value": 1870,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Syðrahóli (14) 1871-1872.",
                 "year": "1871-1872",
                 "age": 14,
                 "status": "Hjú",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1871,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -3403,7 +3571,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1870,
-                "year_to_value": 1870
+                "year_to_value": 1870,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3627,7 +3819,7 @@
                 "year": "1835",
                 "age": 21,
                 "status": "",
-                "location": "Voglar Jnj.",
+                "location": "Vaglir Jnj.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1835,
@@ -3638,22 +3830,24 @@
                 "year": "1836",
                 "age": 25,
                 "status": "Hjú",
-                "location": "Voglar",
+                "location": "Vaglir",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1836,
+                "year_to_value": 1836,
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3664,9 +3858,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1836,
-                "year_to_value": 1836
+                }
             },
             {
                 "original_string": "G. hjú á þverá Fn. (25) 1839.",

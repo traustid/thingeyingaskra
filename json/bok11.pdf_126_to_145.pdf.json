@@ -1863,7 +1863,7 @@
                 "year_or_period": "1852-1862",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Vilga",
+                "location": "Vilpa",
                 "note": "",
                 "year": "1852-1862",
                 "year_from_value": 1852,
@@ -1986,7 +1986,7 @@
             "death": {
                 "original_string": "D. 21/7. 1877, 68 ára. - B. í Litlutungu.",
                 "date": "1877-07-21",
-                "location": "Litlatunga",
+                "location": "Litla-Tunga",
                 "location_obj": {
                     "id": 90009,
                     "name": "Litla-Tunga",
@@ -2231,7 +2231,9 @@
                 "original_string": "D. 21/7. 1877, 68 ára. - B. í Litlutungu.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Litlatunga",
+                "location": "Litla-Tunga",
+                "year_from_value": 1877,
+                "year_to_value": 1877,
                 "location_obj": {
                     "id": 90009,
                     "name": "Litla-Tunga",
@@ -2255,9 +2257,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1877,
-                "year_to_value": 1877
+                }
             }
         ],
         "notes": {},
@@ -2618,7 +2618,7 @@
             {
                 "name": "Helga Jónsdóttir",
                 "date": null,
-                "status": "á Guendarst.",
+                "status": "á Gvendarst.",
                 "names": [
                     "Helga",
                     "Jónsdóttir"
@@ -2627,7 +2627,7 @@
                 "lastName": "Jónsdóttir"
             }
         ],
-        "spouse_original_string": "K. : 1. Guðrún Jónsdóttir. - 2. Helga Jónsdóttir (á Guendarst.).",
+        "spouse_original_string": "K. : 1. Guðrún Jónsdóttir. - 2. Helga Jónsdóttir (á Gvendarst.).",
         "parents": [
             {
                 "name": "Eir. Þorsteinsson",
@@ -3038,13 +3038,15 @@
                 "year_to_value": 1854
             },
             {
-                "original_string": "E. á Guendarstöðum (47) 1855-1856.",
+                "original_string": "E. á Gvendarstöðum (47) 1855-1856.",
                 "year_or_period": "1855-1856",
                 "age": 47,
                 "status": "E.",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "note": "",
                 "year": "1855-1856",
+                "year_from_value": 1855,
+                "year_to_value": 1856,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -3068,18 +3070,18 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1855,
-                "year_to_value": 1856
+                }
             },
             {
                 "original_string": "B. á sama bæ... 1856-1860 (Hrb.).",
                 "year_or_period": "1856-1860",
                 "age": null,
                 "status": "B.",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "note": "Hrb.",
                 "year": "1856-1860",
+                "year_from_value": 1856,
+                "year_to_value": 1860,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -3103,9 +3105,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1856,
-                "year_to_value": 1860
+                }
             }
         ],
         "notes": {},
@@ -3589,6 +3589,8 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "year": "1861",
+                "year_from_value": 1861,
+                "year_to_value": 1861,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -3612,9 +3614,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1861,
-                "year_to_value": 1861
+                }
             },
             {
                 "original_string": "B. á Árbakka ... 1861-1863.",

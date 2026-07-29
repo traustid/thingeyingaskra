@@ -897,14 +897,16 @@
                 }
             },
             {
-                "original_string": "Tökub. á Guendarstöðum (11) 1870.",
+                "original_string": "Tökub. á Gvendarstöðum (11) 1870.",
                 "year_or_period": "1870",
                 "age": 11,
                 "status": "Tökub.",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "note": "",
                 "note_ref": null,
                 "year": "1870",
+                "year_from_value": 1870,
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -928,9 +930,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1870
+                }
             },
             {
                 "original_string": "Með móður á Kálfborgará (11) 1871.",
@@ -2438,7 +2438,31 @@
             "birth": {
                 "original_string": "F. 22/2. 1900 á Vargsnesi.",
                 "date": "1900-02-22",
-                "location": "Vargsnes"
+                "location": "Vargsnes",
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2487,7 +2511,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Vargsnes",
                 "year_from_value": 1900,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Vargsnesi (á 1.) 1900-",
@@ -2499,7 +2547,31 @@
                 "note_ref": null,
                 "year": "1900",
                 "year_from_value": 1900,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

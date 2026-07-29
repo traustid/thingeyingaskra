@@ -662,6 +662,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Sveinströnd",
+                "year_from_value": 1775,
+                "year_to_value": 1775,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -685,9 +687,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1775,
-                "year_to_value": 1775
+                }
             },
             {
                 "original_string": "B. í Vogum (26) 1801-1802.",
@@ -3034,11 +3034,35 @@
                 "year": "1833-1834",
                 "age": 15,
                 "status": "Hjú",
-                "location": "Vöglum",
+                "location": "Vaglir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1833,
-                "year_to_value": 1834
+                "year_to_value": 1834,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú frá Vöglum að Einarsst. (17) 1836-",
@@ -4773,7 +4797,7 @@
                 "year": "1891",
                 "age": 20,
                 "status": "Hjú",
-                "location": "Nípa",
+                "location": "Nípá",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1891,

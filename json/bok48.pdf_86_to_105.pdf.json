@@ -696,7 +696,31 @@
             "birth": {
                 "original_string": "F. 28/5 1878 á Ytri-Skál.",
                 "date": "1878-05-28",
-                "location": "Ytri-Skál"
+                "location": "Ytri-Leikskálaá",
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -750,9 +774,33 @@
                 "original_string": "F. 28/5 1878 á Ytri-Skál.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Ytri-Skál",
+                "location": "Ytri-Leikskálaá",
                 "year_from_value": 1878,
-                "year_to_value": 1878
+                "year_to_value": 1878,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Med for. í Meðalheimi (8) 1886-1887.",
@@ -859,6 +907,8 @@
                 "status": "",
                 "location": "Litlu-Tjarnir",
                 "note": "",
+                "year_from_value": 1895,
+                "year_to_value": 1896,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -882,9 +932,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1895,
-                "year_to_value": 1896
+                }
             },
             {
                 "original_string": "Br. B. í Naustavík (19) 1898.",
@@ -924,7 +972,31 @@
                 "location": "Vargsnes",
                 "note": "",
                 "year_from_value": 1898,
-                "year_to_value": 1898
+                "year_to_value": 1898,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1941,6 +2013,8 @@
                 "status": "",
                 "location": "Litlu-Tjarnir",
                 "note": "",
+                "year_from_value": 1830,
+                "year_to_value": 1830,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -1964,9 +2038,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1830,
-                "year_to_value": 1830
+                }
             },
             {
                 "original_string": "Hjá foreldrum í Grænuhúsum 1833-1838, 5-11 ára.",

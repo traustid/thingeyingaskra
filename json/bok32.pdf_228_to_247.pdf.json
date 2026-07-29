@@ -124,6 +124,8 @@
                 "location": "Sveinströnd",
                 "note": "frá Hólum",
                 "note_ref": null,
+                "year_from_value": 1859,
+                "year_to_value": 1859,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -147,9 +149,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1859,
-                "year_to_value": 1859
+                }
             },
             {
                 "original_string": "Hjá for. á Sveinströnd (4) 1860-",
@@ -159,6 +159,8 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1860,
+                "year_to_value": 1860,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -182,9 +184,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1860
+                }
             },
             {
                 "original_string": "Með for. (8) þaðan að Stóruvöllum 1865-68.",
@@ -540,6 +540,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Sveinströnd",
+                "year_from_value": 1884,
+                "year_to_value": 1884,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -563,9 +565,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1884,
-                "year_to_value": 1884
+                }
             },
             {
                 "original_string": "Með for. á Sveinströnd (á 1.) 1884.",
@@ -575,6 +575,8 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1884,
+                "year_to_value": 1884,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -598,9 +600,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1884,
-                "year_to_value": 1884
+                }
             }
         ],
         "notes": {},
@@ -1424,7 +1424,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1891,
-                "year_to_value": 1893
+                "year_to_value": 1893,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Naustavík . . . 1894.",
@@ -1462,22 +1486,70 @@
                 "year": "1895",
                 "age": 6,
                 "status": "Hjá for.",
-                "location": "Ytri-Skál",
+                "location": "Ytri-Leikskálaá",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1895,
-                "year_to_value": 1895
+                "year_to_value": 1895,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Holtakoti L. (8) 1897.",
                 "year": "1897",
                 "age": 8,
                 "status": "Með for.",
-                "location": "Holtakot, L.",
+                "location": "Holtakot Lj.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1897,
-                "year_to_value": 1897
+                "year_to_value": 1897,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1631,14 +1703,18 @@
                 "location": "Kotamýrar",
                 "location_obj": {
                     "id": 13898,
-                    "name": "Kotmýrar",
-                    "lat": null,
-                    "lng": null,
+                    "name": "Kotamýrar",
+                    "lat": 65.993507,
+                    "lng": -17.672377,
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
                         {
                             "name": "Suður-Þingeyjarsýsla",
                             "id": 1003354
@@ -1694,16 +1770,22 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Kotamýrar",
+                "year_from_value": 1797,
+                "year_to_value": 1797,
                 "location_obj": {
                     "id": 13898,
-                    "name": "Kotmýrar",
-                    "lat": null,
-                    "lng": null,
+                    "name": "Kotamýrar",
+                    "lat": 65.993507,
+                    "lng": -17.672377,
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
                         {
                             "name": "Suður-Þingeyjarsýsla",
                             "id": 1003354
@@ -1713,9 +1795,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1797,
-                "year_to_value": 1797
+                }
             },
             {
                 "original_string": "Hjá for. á Látrum (9) - 1801-",
@@ -1898,6 +1978,8 @@
                 "location": "Miðhvammur",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1883,
+                "year_to_value": 1884,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -1921,9 +2003,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1883,
-                "year_to_value": 1884
+                }
             },
             {
                 "original_string": "Með föður á Ytrafjalli (15) 1885.",
@@ -2993,7 +3073,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1819,
-                "year_to_value": 1820
+                "year_to_value": 1820,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsk. í Glaumbæ 1820.",
@@ -3470,7 +3574,7 @@
             "birth": {
                 "original_string": "F. 17/5 1799 í Litlutungu (ab. Laxamýri).",
                 "date": "1799-05-17",
-                "location": "Litlatunga",
+                "location": "Litla-Tunga",
                 "location_obj": {
                     "id": 90009,
                     "name": "Litla-Tunga",
@@ -3551,7 +3655,9 @@
                 "original_string": "F. 17/5 1799 í Litlutungu (ab. Laxamýri).",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Litlatunga",
+                "location": "Litla-Tunga",
+                "year_from_value": 1799,
+                "year_to_value": 1799,
                 "location_obj": {
                     "id": 90009,
                     "name": "Litla-Tunga",
@@ -3575,9 +3681,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1799,
-                "year_to_value": 1799
+                }
             },
             {
                 "original_string": "Niðurs. á Sitalæk (3 ára) 1801-",
@@ -4301,11 +4405,35 @@
                 "year": "1868",
                 "age": 18,
                 "status": "Hjú",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1868,
-                "year_to_value": 1868
+                "year_to_value": 1868,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. á Draflastöðum (19) 1870-1876-1878.",
@@ -4862,6 +4990,8 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1801,
+                "year_to_value": 1804,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -4885,9 +5015,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1804
+                }
             },
             {
                 "original_string": "Móðursystir B. á Mýlaugsstöðum (78 ára) 1804.",

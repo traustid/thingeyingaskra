@@ -673,11 +673,35 @@
                 "year_or_period": "1898-1900",
                 "age": null,
                 "status": "B.",
-                "location": "Holtakot, L.",
+                "location": "Holtakot Lj.",
                 "note": "Hrb.",
                 "year": "1898-1900",
                 "year_from_value": 1898,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsm. í Fellseli (34) 1900.",
@@ -3093,6 +3117,8 @@
                 "location": "Litlu-Tjarnir",
                 "note": "",
                 "year": "1886",
+                "year_from_value": 1886,
+                "year_to_value": 1886,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -3116,9 +3142,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1886,
-                "year_to_value": 1886
+                }
             },
             {
                 "original_string": "B. í Heiðarhúsum (58) 1888-1894.",
@@ -3388,22 +3412,70 @@
                 "year_or_period": "1850-1856",
                 "age": 12,
                 "status": "Hjá for.",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "",
                 "year": "1850-1856",
                 "year_from_value": 1850,
-                "year_to_value": 1856
+                "year_to_value": 1856,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Syðrahóli (19) 1857-1859.",
                 "year_or_period": "1857-1859",
                 "age": 19,
                 "status": "Hjú",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "",
                 "year": "1857-1859",
                 "year_from_value": 1857,
-                "year_to_value": 1859
+                "year_to_value": 1859,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Sörlastöðum (22) 1860-1862.",
@@ -4525,6 +4597,8 @@
                 "location": "Ytri-Leikskálaá K.",
                 "note": "Hrb.",
                 "year": "1849-1859",
+                "year_from_value": 1849,
+                "year_to_value": 1859,
                 "location_obj": {
                     "id": 90031,
                     "name": "Ytri-Leikskálaá",
@@ -4548,9 +4622,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1849,
-                "year_to_value": 1859
+                }
             },
             {
                 "original_string": "Hjú í Ytafelli (62) 1863. Með syni á Vangsnesi (63) 1864.",
@@ -4892,6 +4964,8 @@
                 "location": "Efri-Dálksstaðir",
                 "note": "Hrb.",
                 "year": "1801-1803",
+                "year_from_value": 1801,
+                "year_to_value": 1803,
                 "location_obj": {
                     "id": 90036,
                     "name": "Neðri-Dálksstaðir",
@@ -4915,9 +4989,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1803
+                }
             },
             {
                 "original_string": "B. á Breiðabóli (41) 1805-1807.",
@@ -4962,6 +5034,8 @@
                 "location": "Efri-Dálksstaðir",
                 "note": "",
                 "year": "1808-1828",
+                "year_from_value": 1808,
+                "year_to_value": 1828,
                 "location_obj": {
                     "id": 90036,
                     "name": "Neðri-Dálksstaðir",
@@ -4985,9 +5059,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1808,
-                "year_to_value": 1828
+                }
             },
             {
                 "original_string": "Faðir B. á sama bæ... 1828-1829.",
@@ -4997,6 +5069,8 @@
                 "location": "Efri-Dálksstaðir",
                 "note": "",
                 "year": "1828-1829",
+                "year_from_value": 1828,
+                "year_to_value": 1829,
                 "location_obj": {
                     "id": 90036,
                     "name": "Neðri-Dálksstaðir",
@@ -5020,9 +5094,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1828,
-                "year_to_value": 1829
+                }
             },
             {
                 "original_string": "G. húsm., fað. B. á Gautastöðum (68) 1831-1843-1846.",

@@ -726,7 +726,31 @@
             "birth": {
                 "original_string": "F. 26/9 1800 í Holtakoti L.",
                 "date": "1800-09-26",
-                "location": "Holtakoti L."
+                "location": "Holtakot Lj.",
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 5/6 1803, 2 1/2 árs. 1)",
@@ -772,16 +796,40 @@
                 "original_string": "F. 26/9 1800 í Holtakoti L.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Holtakoti L.",
+                "location": "Holtakot Lj.",
                 "year_from_value": 1800,
-                "year_to_value": 1800
+                "year_to_value": 1800,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Holtakoti B. (2) 1801-",
                 "year": "1801-",
                 "age": 2,
                 "status": "",
-                "location": "Holtakoti B.",
+                "location": "Holtakot B.",
                 "note": "Hjá for. í",
                 "year_from_value": 1801,
                 "year_to_value": 1801
@@ -1486,20 +1534,68 @@
                 "year": "1881-1892",
                 "age": 22,
                 "status": "",
-                "location": "Höfða",
+                "location": "Höfði",
                 "note": "Hjá föður í",
                 "year_from_value": 1881,
-                "year_to_value": 1892
+                "year_to_value": 1892,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Systir B. í Höfða (34) 1893-1894.",
                 "year": "1893-1894",
                 "age": 34,
                 "status": "Systir B.",
-                "location": "Höfða",
+                "location": "Höfði",
                 "note": "",
                 "year_from_value": 1893,
-                "year_to_value": 1894
+                "year_to_value": 1894,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Skútustöðum (35) 1895.",
@@ -2335,10 +2431,34 @@
                 "year": "1855",
                 "age": 9,
                 "status": "Tökub.",
-                "location": "Vöglum",
+                "location": "Vaglir",
                 "note": "",
                 "year_from_value": 1855,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub. í Fjóshatungu (10) 1856-1857.",

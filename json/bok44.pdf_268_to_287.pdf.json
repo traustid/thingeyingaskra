@@ -2381,6 +2381,8 @@
                 "location": "Miðhvammur",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1835,
+                "year_to_value": 1847,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -2404,9 +2406,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1835,
-                "year_to_value": 1847
+                }
             },
             {
                 "original_string": "Vinnust. frá Miðhvammi að Breiðumýri (15) 1847-",
@@ -3030,11 +3030,35 @@
                 "year": "1896-1897",
                 "age": 35,
                 "status": "Húsfr.",
-                "location": "Ytri-Skál",
+                "location": "Ytri-Leikskálaá",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1896,
-                "year_to_value": 1897
+                "year_to_value": 1897,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Naustavík (37) 1898.",
@@ -3133,7 +3157,31 @@
             "birth": {
                 "original_string": "F. 27/8. 1830 á Litlutjörn.",
                 "date": "1830-08-27",
-                "location": "Litlatjörn"
+                "location": "Litlu-Tjarnir",
+                "location_obj": {
+                    "id": 16618,
+                    "name": "Litlu-Tjarnir",
+                    "lat": "65.713556",
+                    "lng": "-17.710988",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 17/10. 1880, 50 ára. 1)",
@@ -3190,18 +3238,9 @@
                 "original_string": "F. 27/8. 1830 á Litlutjörn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Litlatjörn",
-                "year_from_value": 1830,
-                "year_to_value": 1830
-            },
-            {
-                "original_string": "Hjá for. á Litlutjörnum (1 árs) 1830.",
-                "year": "1830",
-                "age": 1,
-                "status": "Hjá for.",
                 "location": "Litlu-Tjarnir",
-                "note": "",
-                "note_ref": null,
+                "year_from_value": 1830,
+                "year_to_value": 1830,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -3225,9 +3264,42 @@
                             "id": 16573
                         }
                     ]
-                },
+                }
+            },
+            {
+                "original_string": "Hjá for. á Litlutjörnum (1 árs) 1830.",
+                "year": "1830",
+                "age": 1,
+                "status": "Hjá for.",
+                "location": "Litlu-Tjarnir",
+                "note": "",
+                "note_ref": null,
                 "year_from_value": 1830,
-                "year_to_value": 1830
+                "year_to_value": 1830,
+                "location_obj": {
+                    "id": 16618,
+                    "name": "Litlu-Tjarnir",
+                    "lat": "65.713556",
+                    "lng": "-17.710988",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá foreldrum í Grímshúsum 1833-1838, 2-8 ára.",
@@ -3238,7 +3310,31 @@
                 "note": "2-8 ára",
                 "note_ref": null,
                 "year_from_value": 1833,
-                "year_to_value": 1838
+                "year_to_value": 1838,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fóstrb. í Ystafelli (15) 1844.",

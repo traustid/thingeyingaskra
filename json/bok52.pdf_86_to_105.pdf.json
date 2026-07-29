@@ -2866,15 +2866,39 @@
                 "year_to_value": 1873
             },
             {
-                "original_string": "Hjú á E.-Dalkost. (20) 1875.",
+                "original_string": "Hjú á E.-Dálksst. (20) 1875.",
                 "year": "1875",
                 "age": 20,
                 "status": "Hjú",
-                "location": "E.-Dalkostaðir",
+                "location": "Efri-Dálksstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1875,
-                "year_to_value": 1875
+                "year_to_value": 1875,
+                "location_obj": {
+                    "id": 90036,
+                    "name": "Neðri-Dálksstaðir",
+                    "lat": "65.756478",
+                    "lng": "-18.086943",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Fagrabæ... 1876-1879.",
@@ -2912,15 +2936,39 @@
                 "year_to_value": 1879
             },
             {
-                "original_string": "Húsfr. á E.-Dalkost. (24) 1881-1882.",
+                "original_string": "Húsfr. á E.-Dálksst. (24) 1881-1882.",
                 "year": "1881-1882",
                 "age": 24,
                 "status": "Húsfr.",
-                "location": "E.-Dalkostaðir",
+                "location": "Efri-Dálksstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1881,
-                "year_to_value": 1882
+                "year_to_value": 1882,
+                "location_obj": {
+                    "id": 90036,
+                    "name": "Neðri-Dálksstaðir",
+                    "lat": "65.756478",
+                    "lng": "-18.086943",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. í Fagrabæ (32) 1888-1889.",
@@ -3053,6 +3101,8 @@
                 "location": "Sveinströnd",
                 "note": "1 árs, frá Fjósakoti",
                 "note_ref": null,
+                "year_from_value": 1865,
+                "year_to_value": 1865,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -3076,9 +3126,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1865,
-                "year_to_value": 1865
+                }
             },
             {
                 "original_string": "Með móður á Kálfaströnd (8) 1871-1872.",

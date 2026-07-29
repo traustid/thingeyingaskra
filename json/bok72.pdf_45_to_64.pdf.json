@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. 24/10 1845 í Höfða.",
                 "date": "1845-10-24",
-                "location": "Höfða"
+                "location": "Höfði",
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -53,21 +77,69 @@
                 "original_string": "F. 24/10 1845 í Höfða.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Höfða",
+                "location": "Höfði",
                 "year_from_value": 1845,
-                "year_to_value": 1845
+                "year_to_value": 1845,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Höfða (á 1) 1845.",
                 "year_or_period": "1845",
                 "age": 1,
                 "status": "Með for.",
-                "location": "Höfða",
+                "location": "Höfði",
                 "note": "",
                 "note_ref": null,
                 "year": "1845",
                 "year_from_value": 1845,
-                "year_to_value": 1845
+                "year_to_value": 1845,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -684,6 +756,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1855",
+                "year_from_value": 1855,
+                "year_to_value": 1855,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -707,9 +781,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1855,
-                "year_to_value": 1855
+                }
             },
             {
                 "original_string": "Húsfr. (37) þaðan að Svínadal 1859-",
@@ -1734,12 +1806,36 @@
                 "year_or_period": "1896-1897",
                 "age": 31,
                 "status": "Læknisfrú",
-                "location": "Höfða",
+                "location": "Höfði",
                 "note": "",
                 "note_ref": null,
                 "year": "1896-1897",
                 "year_from_value": 1896,
-                "year_to_value": 1897
+                "year_to_value": 1897,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Læknisfrú á Jarðst. Grýt. (33) 1898.",

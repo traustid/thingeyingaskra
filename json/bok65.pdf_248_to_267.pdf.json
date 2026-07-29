@@ -348,7 +348,31 @@
                 "location": "Grímshúsum",
                 "note": "",
                 "year_from_value": 1833,
-                "year_to_value": 1833
+                "year_to_value": 1833,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Mýrarkoti (45) 1834.",
@@ -2005,6 +2029,8 @@
                 "status": "Hjá móður",
                 "location": "Ytri-Leikskálaá K.",
                 "note": "",
+                "year_from_value": 1863,
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 90031,
                     "name": "Ytri-Leikskálaá",
@@ -2028,9 +2054,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1863,
-                "year_to_value": 1870
+                }
             },
             {
                 "original_string": "Hjú í Sv. Krókum (17) 1870-1871.",
@@ -2931,10 +2955,34 @@
                 "year": "1847-1851",
                 "age": 27,
                 "status": "E., hjú",
-                "location": "Höfða",
+                "location": "Höfði",
                 "note": "",
                 "year_from_value": 1847,
-                "year_to_value": 1851
+                "year_to_value": 1851,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Þorsteinsst. (32) 1852-1854.",

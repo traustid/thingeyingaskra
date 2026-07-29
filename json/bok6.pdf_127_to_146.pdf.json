@@ -855,7 +855,31 @@
             "death": {
                 "original_string": "D. 2/11 1876, barn frá Grjótagarði B, 2 ára.",
                 "date": "1876-11-02",
-                "location": "Grjótagarður B"
+                "location": "Grjótárgerði B",
+                "location_obj": {
+                    "id": 90001,
+                    "name": "Grjótárgerði",
+                    "lat": "65.42297",
+                    "lon": "-17.28719;",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Benedikt",
@@ -895,20 +919,68 @@
                 "year": "1875",
                 "age": 1,
                 "status": "",
-                "location": "Grjótagarður",
+                "location": "Grjótárgerði",
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year_from_value": 1875,
-                "year_to_value": 1875
+                "year_to_value": 1875,
+                "location_obj": {
+                    "id": 90001,
+                    "name": "Grjótárgerði",
+                    "lat": "65.42297",
+                    "lon": "-17.28719;",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1876",
                 "original_string": "D. 2/11 1876, barn frá Grjótagarði B, 2 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Grjótagarður B",
+                "location": "Grjótárgerði B",
                 "year_from_value": 1876,
-                "year_to_value": 1876
+                "year_to_value": 1876,
+                "location_obj": {
+                    "id": 90001,
+                    "name": "Grjótárgerði",
+                    "lat": "65.42297",
+                    "lon": "-17.28719;",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1124,6 +1196,8 @@
                 "location": "Sveinströnd",
                 "note": "Hjá for.",
                 "note_ref": null,
+                "year_from_value": 1880,
+                "year_to_value": 1882,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -1147,9 +1221,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1880,
-                "year_to_value": 1882
+                }
             },
             {
                 "original_string": "Hjá for. á Litluströnd (15) 1883-1888.",
@@ -1982,6 +2054,8 @@
                 "location": "Gvendarstaðir",
                 "note": "G.",
                 "note_ref": null,
+                "year_from_value": 1891,
+                "year_to_value": 1892,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -2005,9 +2079,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1891,
-                "year_to_value": 1892
+                }
             },
             {
                 "year": "1893",
@@ -2449,6 +2521,8 @@
                 "location": "Miðhvammur",
                 "note": "Hjá föður",
                 "note_ref": null,
+                "year_from_value": 1887,
+                "year_to_value": 1891,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -2472,9 +2546,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1887,
-                "year_to_value": 1891
+                }
             },
             {
                 "original_string": "Hjú á Langavatni (23) 1892.",

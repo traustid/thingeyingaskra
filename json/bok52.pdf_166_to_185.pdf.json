@@ -147,6 +147,8 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1873,
+                "year_to_value": 1877,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -170,9 +172,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1873,
-                "year_to_value": 1877
+                }
             }
         ],
         "notes": {},
@@ -404,6 +404,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Höfði",
+                "year_from_value": 1892,
+                "year_to_value": 1892,
                 "location_obj": {
                     "id": 15860,
                     "name": "Höfði",
@@ -427,9 +429,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1892,
-                "year_to_value": 1892
+                }
             },
             {
                 "original_string": "Með föður í Höfða (á 1.) 1892-1900.",
@@ -439,6 +439,8 @@
                 "location": "Höfði",
                 "note": "Með föður",
                 "note_ref": null,
+                "year_from_value": 1892,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 15860,
                     "name": "Höfði",
@@ -462,9 +464,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1892,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -2014,6 +2014,8 @@
                 "location": "Grjótárgerði B.",
                 "note": "Hjá for.",
                 "note_ref": null,
+                "year_from_value": 1895,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -2037,9 +2039,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1895,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -3111,11 +3111,35 @@
                 "year": "1885",
                 "age": 2,
                 "status": "",
-                "location": "Holtakot R.",
+                "location": "Holtakot Rhv.",
                 "note": "Með for.",
                 "note_ref": null,
                 "year_from_value": 1885,
-                "year_to_value": 1885
+                "year_to_value": 1885,
+                "location_obj": {
+                    "id": 33766,
+                    "name": "Holtakot",
+                    "lat": "65.894924",
+                    "lng": "-17.276001",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Húsabakka (4) 1886-1889.",

@@ -1982,11 +1982,35 @@
                 "year": "1878-1879",
                 "age": 29,
                 "status": "Hjú, G.",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1878,
-                "year_to_value": 1879
+                "year_to_value": 1879,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. á Hallandi (31) 1879-. G. á sama bæ (32) 1881.",
@@ -2628,6 +2652,8 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1872,
+                "year_to_value": 1875,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -2651,9 +2677,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1872,
-                "year_to_value": 1875
+                }
             },
             {
                 "original_string": "Hjá for. í V. Neslöndum (6) 1876-1877.",
@@ -2779,6 +2803,8 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1885,
+                "year_to_value": 1885,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -2802,9 +2828,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1885,
-                "year_to_value": 1885
+                }
             },
             {
                 "original_string": "Hjú á Gautlöndum (18) 1888-1889.",

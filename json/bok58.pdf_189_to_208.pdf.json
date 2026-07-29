@@ -766,7 +766,31 @@
             "birth": {
                 "original_string": "F. 13/1. 1835 á Hólkoti, Rd.",
                 "date": "1835-01-13",
-                "location": "Hólkot, Rd"
+                "location": "Hólkot, Rd",
+                "location_obj": {
+                    "id": 90056,
+                    "name": "Hólkot",
+                    "lat": "65.799484",
+                    "lng": "-17.441553",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -825,7 +849,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Hólkot, Rd",
                 "year_from_value": 1835,
-                "year_to_value": 1835
+                "year_to_value": 1835,
+                "location_obj": {
+                    "id": 90056,
+                    "name": "Hólkot",
+                    "lat": "65.799484",
+                    "lng": "-17.441553",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hólkoti (á 1.) 1835-",
@@ -835,7 +883,31 @@
                 "location": "Hólkot",
                 "note": "Hjá for.",
                 "year_from_value": 1835,
-                "year_to_value": 1835
+                "year_to_value": 1835,
+                "location_obj": {
+                    "id": 90056,
+                    "name": "Hólkot",
+                    "lat": "65.799484",
+                    "lng": "-17.441553",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fermd (frá Hólkoti) á Helgast. (á 15. ári) 1849.",
@@ -947,7 +1019,31 @@
                 "location": "Hólkot",
                 "note": "",
                 "year_from_value": 1857,
-                "year_to_value": 6
+                "year_to_value": 6,
+                "location_obj": {
+                    "id": 90056,
+                    "name": "Hólkot",
+                    "lat": "65.799484",
+                    "lng": "-17.441553",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú frá Helgast. að Fagranesi 1866",
@@ -3379,6 +3475,8 @@
                 "status": "Hjú",
                 "location": "Grjótárgerði B.",
                 "note": "",
+                "year_from_value": 1870,
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -3402,9 +3500,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1870
+                }
             },
             {
                 "original_string": "Hjú í Stórasi (28) 1873.",
@@ -5314,6 +5410,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Kaðalsstaðir",
+                "year_from_value": 1845,
+                "year_to_value": 1845,
                 "location_obj": {
                     "id": 15262,
                     "name": "Kaðalsstaðir",
@@ -5337,9 +5435,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1845,
-                "year_to_value": 1845
+                }
             },
             {
                 "original_string": "Með for. á Kaðalsstöðum (á 1.) 1845.",
@@ -5348,6 +5444,8 @@
                 "status": "",
                 "location": "Kaðalsstaðir",
                 "note": "Með for.",
+                "year_from_value": 1845,
+                "year_to_value": 1845,
                 "location_obj": {
                     "id": 15262,
                     "name": "Kaðalsstaðir",
@@ -5371,9 +5469,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1845,
-                "year_to_value": 1845
+                }
             }
         ],
         "notes": {},

@@ -1587,11 +1587,11 @@
         "parents_original_string": "For.: Gr. Jóhannesson og Saunn Jónsdóttir.",
         "residence_history": [
             {
-                "original_string": "Hjá for. á N.-Dalkost. (1 árs) 1858-1860.",
+                "original_string": "Hjá for. á N.-Dálksst. (1 árs) 1858-1860.",
                 "year": "1858-1860",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "N.-Dalkostaðir",
+                "location": "N.-Dálksstaðir",
                 "note": "",
                 "note_ref": 1,
                 "year_from_value": 1858,
@@ -1820,11 +1820,35 @@
                 "year": "1829-1846",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Kaðalsstöðum",
+                "location": "Kaðalsstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1829,
-                "year_to_value": 1846
+                "year_to_value": 1846,
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Keflavík (20) 1847-1848.",
@@ -1866,11 +1890,35 @@
                 "year": "1849-1850",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Kaðalsstöðum",
+                "location": "Kaðalsstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1849,
-                "year_to_value": 1850
+                "year_to_value": 1850,
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú á Hofi (24) 1851-1853.",
@@ -1951,7 +1999,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1855,
-                "year_to_value": 1859
+                "year_to_value": 1859,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "K. vnr. á Héðinshöfða... 1860.",
@@ -2322,26 +2394,74 @@
                 "year_to_value": 1893
             },
             {
-                "original_string": "E. Móðir B. á E.-Dalkost. (68) 1895-1897.",
+                "original_string": "E. Móðir B. á E.-Dálksst. (68) 1895-1897.",
                 "year": "1895-1897",
                 "age": 68,
                 "status": "E. Móðir B.",
-                "location": "E.-Dalkostaðir",
+                "location": "Efri-Dálksstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1895,
-                "year_to_value": 1897
+                "year_to_value": 1897,
+                "location_obj": {
+                    "id": 90036,
+                    "name": "Neðri-Dálksstaðir",
+                    "lat": "65.756478",
+                    "lng": "-18.086943",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. á sama bæ (71) 1898-1899.",
                 "year": "1898-1899",
                 "age": 71,
                 "status": "E.",
-                "location": "E.-Dalkostaðir",
+                "location": "Efri-Dálksstaðir",
                 "note": "sama bæ",
                 "note_ref": null,
                 "year_from_value": 1898,
-                "year_to_value": 1899
+                "year_to_value": 1899,
+                "location_obj": {
+                    "id": 90036,
+                    "name": "Neðri-Dálksstaðir",
+                    "lat": "65.756478",
+                    "lng": "-18.086943",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. á Gautsstöðum (73) 1900.",

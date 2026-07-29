@@ -378,7 +378,31 @@
                 "status": "Tökub. (með móður)",
                 "location": "Vargsnes",
                 "year_from_value": 1867,
-                "year_to_value": 1867
+                "year_to_value": 1867,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Brettingsst. Fl. (3) 1867-1868.",
@@ -2195,6 +2219,8 @@
                 "age": 25,
                 "status": "G.",
                 "location": "Litlu-Tjarnir",
+                "year_from_value": 1873,
+                "year_to_value": 1876,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -2218,9 +2244,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1873,
-                "year_to_value": 1876
+                }
             },
             {
                 "original_string": "Hjú í Krosshúsum (36) 1883-1886. (G.'86).",
@@ -3350,7 +3374,31 @@
                 "location": "Grímshús",
                 "note": "28-33 ára",
                 "year_from_value": 1851,
-                "year_to_value": 1857
+                "year_to_value": 1857,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "K. vinnuk. á Laxamýri (31 árs) 1858-1859.",
@@ -3486,6 +3534,8 @@
                 "age": 64,
                 "status": "Móðir B.",
                 "location": "Miðhvammur",
+                "year_from_value": 1885,
+                "year_to_value": 1885,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -3509,9 +3559,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1885,
-                "year_to_value": 1885
+                }
             },
             {
                 "original_string": "Hjú á Ásmundast. (66) 1887.",
@@ -3627,6 +3675,8 @@
                 "age": 78,
                 "status": "Tökuk.",
                 "location": "Miðhvammur",
+                "year_from_value": 1898,
+                "year_to_value": 1899,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -3650,9 +3700,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1898,
-                "year_to_value": 1899
+                }
             },
             {
                 "original_string": "Tökukona í Klambraseli (80) 1900.",

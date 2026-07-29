@@ -468,11 +468,11 @@
                 "year_to_value": 1872
             },
             {
-                "original_string": "Hjá for. á Vegeirsstöðum (5) 1873-1876-1888.",
+                "original_string": "Hjá for. á Végeirsstöðum (5) 1873-1876-1888.",
                 "year": "1873-1888",
                 "age": 5,
                 "status": "Hjá for.",
-                "location": "Vegeirsstaðir",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -573,11 +573,11 @@
                 "year_to_value": 1893
             },
             {
-                "original_string": "G. hjá for. á Vegeirsstöðum (25) 1894-1895.",
+                "original_string": "G. hjá for. á Végeirsstöðum (25) 1894-1895.",
                 "year": "1894-1895",
                 "age": 25,
                 "status": "G. hjá for.",
-                "location": "Vegeirsstaðir",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -682,11 +682,11 @@
                 "year_to_value": 1896
             },
             {
-                "original_string": "G. húsk. á Vegeirsstöðum (28) 1897.",
+                "original_string": "G. húsk. á Végeirsstöðum (28) 1897.",
                 "year": "1897",
                 "age": 28,
                 "status": "G. húsk.",
-                "location": "Vegeirsstaðir",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -1440,6 +1440,8 @@
                 "location": "Efri-Dálksstaðir",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1825,
+                "year_to_value": 1827,
                 "location_obj": {
                     "id": 90036,
                     "name": "Neðri-Dálksstaðir",
@@ -1463,9 +1465,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1825,
-                "year_to_value": 1827
+                }
             },
             {
                 "original_string": "Húsfr. á sama bæ . . . 1828-1832.",
@@ -1475,6 +1475,8 @@
                 "location": "Efri-Dálksstaðir",
                 "note": "sama bæ",
                 "note_ref": null,
+                "year_from_value": 1828,
+                "year_to_value": 1832,
                 "location_obj": {
                     "id": 90036,
                     "name": "Neðri-Dálksstaðir",
@@ -1498,9 +1500,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1828,
-                "year_to_value": 1832
+                }
             }
         ],
         "notes": {},
@@ -1623,6 +1623,8 @@
                 "location": "Miðhvammur",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1849,
+                "year_to_value": 1849,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -1646,9 +1648,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1849,
-                "year_to_value": 1849
+                }
             },
             {
                 "original_string": "Hjá for. í Klömbur (2) 1850-51.",
@@ -2105,7 +2105,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1858,
-                "year_to_value": 1858
+                "year_to_value": 1858,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Prestkona á Grenjaðarstað (63) 1860-1866.",
@@ -2822,7 +2846,31 @@
             "death": {
                 "original_string": "D. í Holtakoti L. 30/6. 1838, 78 ára.",
                 "date": "1838-06-30",
-                "location": "Holtakot, L."
+                "location": "Holtakot Lj.",
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Helga",
@@ -2879,7 +2927,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1830,
-                "year_to_value": 1830
+                "year_to_value": 1830,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Móðir B. í Holtakoti skrifuð í Hriflu (71) 1834-",
@@ -2925,7 +2997,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1836,
-                "year_to_value": 1837
+                "year_to_value": 1837,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Móðir K. á Landamóti (73) 1837-1838-",
@@ -2967,9 +3063,33 @@
                 "original_string": "D. í Holtakoti L. 30/6. 1838, 78 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Holtakot, L.",
+                "location": "Holtakot Lj.",
                 "year_from_value": 1838,
-                "year_to_value": 1838
+                "year_to_value": 1838,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -4357,6 +4477,8 @@
                 "location": "Höfði",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1885,
+                "year_to_value": 1887,
                 "location_obj": {
                     "id": 15860,
                     "name": "Höfði",
@@ -4380,9 +4502,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1885,
-                "year_to_value": 1887
+                }
             }
         ],
         "notes": {},

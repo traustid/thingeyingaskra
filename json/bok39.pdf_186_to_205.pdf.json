@@ -1166,6 +1166,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1875-1877",
+                "year_from_value": 1875,
+                "year_to_value": 1877,
                 "location_obj": {
                     "id": 90012,
                     "name": "Grjótárgerði",
@@ -1189,9 +1191,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1875,
-                "year_to_value": 1877
+                }
             },
             {
                 "original_string": "G. á Sjósatungu (58) 1878.",
@@ -2203,6 +2203,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1838-1839",
+                "year_from_value": 1838,
+                "year_to_value": 1839,
                 "location_obj": {
                     "id": 90036,
                     "name": "Neðri-Dálksstaðir",
@@ -2226,9 +2228,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1838,
-                "year_to_value": 1839
+                }
             },
             {
                 "original_string": "Hjú í Garðsvík (18) 1840-1841.",
@@ -3180,6 +3180,8 @@
                 "note": "G.'47",
                 "note_ref": null,
                 "year": "1846-1849",
+                "year_from_value": 1846,
+                "year_to_value": 1849,
                 "location_obj": {
                     "id": 15860,
                     "name": "Höfði",
@@ -3203,9 +3205,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1846,
-                "year_to_value": 1849
+                }
             }
         ],
         "notes": {},
@@ -4142,12 +4142,36 @@
                 "year_or_period": "1874-76",
                 "age": null,
                 "status": "B.",
-                "location": "Holtakot, L.",
+                "location": "Holtakot Lj.",
                 "note": "Hrb.",
                 "note_ref": null,
                 "year": "1874-76",
                 "year_from_value": 1874,
-                "year_to_value": 76
+                "year_to_value": 76,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

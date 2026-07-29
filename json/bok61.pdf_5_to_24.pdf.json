@@ -296,11 +296,35 @@
                 "year": "1830",
                 "age": 24,
                 "status": "Hjú",
-                "location": "Litlatjörn",
+                "location": "Litlu-Tjarnir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1830,
-                "year_to_value": 1830
+                "year_to_value": 1830,
+                "location_obj": {
+                    "id": 16618,
+                    "name": "Litlu-Tjarnir",
+                    "lat": "65.713556",
+                    "lng": "-17.710988",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Hálsi Fn. (25) 1831-1833.",
@@ -346,7 +370,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1835,
-                "year_to_value": 1835
+                "year_to_value": 1835,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Breiðamýri (28) 1835. (Kvanist það ár).",
@@ -2160,6 +2208,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Miðhvammur",
+                "year_from_value": 1790,
+                "year_to_value": 1790,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -2183,9 +2233,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1790,
-                "year_to_value": 1790
+                }
             },
             {
                 "original_string": "Með for. í Garði, A. (12 ára) 1801-",

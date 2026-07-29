@@ -461,6 +461,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Kaðalsstaðir",
+                "year_from_value": 1860,
+                "year_to_value": 1860,
                 "location_obj": {
                     "id": 15262,
                     "name": "Kaðalsstaðir",
@@ -484,9 +486,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1860
+                }
             },
             {
                 "original_string": "Hjá for. á Kaðalsstöðum (1 árs) 1860-1861-1877.",
@@ -495,6 +495,7 @@
                 "status": "Hjá for.",
                 "location": "Kaðalsstaðir",
                 "note": "",
+                "year_from_value": 1860,
                 "location_obj": {
                     "id": 15262,
                     "name": "Kaðalsstaðir",
@@ -518,8 +519,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860
+                }
             },
             {
                 "original_string": "G. hjú á sama bæ ... 1878-1885.",
@@ -2092,6 +2092,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Litlu-Tjarnir",
+                "year_from_value": 1844,
+                "year_to_value": 1844,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -2115,9 +2117,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1844,
-                "year_to_value": 1844
+                }
             },
             {
                 "original_string": "Hjá for. á Litlutjörnum (1 árs) 1844-45-1849.",
@@ -2126,6 +2126,7 @@
                 "status": "Hjá for.",
                 "location": "Litlu-Tjarnir",
                 "note": "",
+                "year_from_value": 1844,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -2149,8 +2150,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1844
+                }
             },
             {
                 "original_string": "Tökub. á Berningast. Fr. (7) 1850-1853.",
@@ -2169,6 +2169,8 @@
                 "status": "Hjá for.",
                 "location": "Litlu-Tjarnir",
                 "note": "",
+                "year_from_value": 1854,
+                "year_to_value": 1862,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -2192,9 +2194,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1854,
-                "year_to_value": 1862
+                }
             },
             {
                 "original_string": "Hjú á Þorsteinsholti? (19) 1863.",
@@ -2709,10 +2709,34 @@
                 "year": "1817",
                 "age": 40,
                 "status": "Ógift húskona",
-                "location": "Holtakot, R.",
+                "location": "Holtakot Rhv.",
                 "note": "",
                 "year_from_value": 1817,
-                "year_to_value": 1817
+                "year_to_value": 1817,
+                "location_obj": {
+                    "id": 33766,
+                    "name": "Holtakot",
+                    "lat": "65.894924",
+                    "lng": "-17.276001",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsk. í Skógargerði (52 ára) 1828.",
@@ -4302,21 +4326,23 @@
                 "year": "1868",
                 "age": 27,
                 "status": "Hjú",
-                "location": "Voglar",
+                "location": "Vaglir",
                 "note": "",
+                "year_from_value": 1868,
+                "year_to_value": 1868,
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -4327,9 +4353,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1868,
-                "year_to_value": 1868
+                }
             },
             {
                 "original_string": "Hjú á Sigríðarstöðum (30) 1871.",

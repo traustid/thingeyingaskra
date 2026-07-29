@@ -1738,7 +1738,31 @@
             "birth": {
                 "original_string": "F. um 1844 á Vöglum, Þelamörk.",
                 "date": "1844-00-00",
-                "location": "Vöglum, Þelamörk"
+                "location": "Vaglir, Þelamörk",
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1807,9 +1831,33 @@
                 "original_string": "F. um 1844 á Vöglum, Þelamörk.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Vöglum, Þelamörk",
+                "location": "Vaglir, Þelamörk",
                 "year_from_value": 1844,
-                "year_to_value": 1844
+                "year_to_value": 1844,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Gautastöðum (18) 1862.",
@@ -3395,7 +3443,31 @@
             "death": {
                 "original_string": "D. á Sveinstr. 3/4. 1870, 77 ára.",
                 "date": "1870-04-03",
-                "location": "Sveinstr."
+                "location": "Sveinströnd",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Sigríður",
@@ -3809,6 +3881,8 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1855,
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -3832,18 +3906,40 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1855,
-                "year_to_value": 1870
+                }
             },
             {
                 "year": "1870",
                 "original_string": "D. á Sveinstr. 3/4. 1870, 77 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Sveinstr.",
+                "location": "Sveinströnd",
                 "year_from_value": 1870,
-                "year_to_value": 1870
+                "year_to_value": 1870,
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -4439,11 +4535,35 @@
                 "year": "1861-",
                 "age": null,
                 "status": "Hjú",
-                "location": "Sveinstr.",
+                "location": "Sveinströnd",
                 "note": "þaðan",
                 "note_ref": null,
                 "year_from_value": 1861,
-                "year_to_value": 1861
+                "year_to_value": 1861,
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú (41) frá Sveinströnd að Yztafelli 1863-1864.",

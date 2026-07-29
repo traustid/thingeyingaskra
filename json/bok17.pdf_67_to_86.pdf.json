@@ -620,6 +620,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Kaðalsstaðir",
+                "year_from_value": 1880,
+                "year_to_value": 1880,
                 "location_obj": {
                     "id": 15262,
                     "name": "Kaðalsstaðir",
@@ -643,9 +645,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1880,
-                "year_to_value": 1880
+                }
             },
             {
                 "original_string": "Með og hjá for. á Kaðalsstöðum (1 árs) 1880-1893.",
@@ -654,6 +654,8 @@
                 "status": "",
                 "location": "Kaðalsstaðir",
                 "note": "",
+                "year_from_value": 1880,
+                "year_to_value": 1893,
                 "location_obj": {
                     "id": 15262,
                     "name": "Kaðalsstaðir",
@@ -677,9 +679,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1880,
-                "year_to_value": 1893
+                }
             },
             {
                 "original_string": "Með for. á Grímsnesi ... 1894.",
@@ -1088,6 +1088,8 @@
                 "status": "Bóndi",
                 "location": "Miðhvammur",
                 "note": "",
+                "year_from_value": 1816,
+                "year_to_value": 1816,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -1111,9 +1113,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1816,
-                "year_to_value": 1816
+                }
             },
             {
                 "original_string": "E. þaðan að Glaumbæ (60) 1817-",
@@ -1631,7 +1631,31 @@
             "birth": {
                 "original_string": "F. 28/6. 1858 á Syðrahóli.",
                 "date": "1858-06-28",
-                "location": "Syðrahóll"
+                "location": "Syðri-Hóll",
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. frá Skarði 22/1. 1875, 17 ára. 1)",
@@ -1701,19 +1725,67 @@
                 "original_string": "F. 28/6. 1858 á Syðrahóli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "year_from_value": 1858,
-                "year_to_value": 1858
+                "year_to_value": 1858,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Syðrahóli (1 árs) 1858 - 1862.",
                 "year": "1858-1862",
                 "age": 1,
                 "status": "",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "",
                 "year_from_value": 1858,
-                "year_to_value": 1862
+                "year_to_value": 1862,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Jökulsá (7) 1864-1865.",
@@ -1810,6 +1882,8 @@
                 "status": "Léttadrengur",
                 "location": "Grjótárgerði, Fn.",
                 "note": "",
+                "year_from_value": 1873,
+                "year_to_value": 1873,
                 "location_obj": {
                     "id": 90012,
                     "name": "Grjótárgerði",
@@ -1833,9 +1907,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1873,
-                "year_to_value": 1873
+                }
             },
             {
                 "original_string": "Smali á Skarði (16) 1874.",
@@ -3078,9 +3150,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 21/3. 1877 á Vegeirsstöðum.",
+                "original_string": "F. 21/3. 1877 á Végeirsstöðum.",
                 "date": "1877-03-21",
-                "location": "Vegeirsstaðir",
+                "location": "Végeirsstaðir",
                 "location_obj": {
                     "id": 12053,
                     "name": "Végeirsstaðir",
@@ -3146,10 +3218,10 @@
         "residence_history": [
             {
                 "year": "1877",
-                "original_string": "F. 21/3. 1877 á Vegeirsstöðum.",
+                "original_string": "F. 21/3. 1877 á Végeirsstöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Vegeirsstaðir",
+                "location": "Végeirsstaðir",
                 "location_obj": {
                     "id": 12053,
                     "name": "Végeirsstaðir",
@@ -3178,11 +3250,11 @@
                 "year_to_value": 1877
             },
             {
-                "original_string": "Hjá for. á Vegeirsstöðum (á 1.) 1877-1896.",
+                "original_string": "Hjá for. á Végeirsstöðum (á 1.) 1877-1896.",
                 "year": "1877-1896",
                 "age": 1,
                 "status": "",
-                "location": "Vegeirsstaðir",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "location_obj": {
                     "id": 12053,
@@ -3212,11 +3284,11 @@
                 "year_to_value": 1896
             },
             {
-                "original_string": "Hjá for. á Vegeirsstöðum ... 1898.",
+                "original_string": "Hjá for. á Végeirsstöðum ... 1898.",
                 "year": "1898",
                 "age": null,
                 "status": "",
-                "location": "Vegeirsstaðir",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "location_obj": {
                     "id": 12053,

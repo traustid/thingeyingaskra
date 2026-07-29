@@ -12,7 +12,7 @@
             "death": {
                 "original_string": "D. á Sv.strönd 10/4 1886, barn, 5 ára.",
                 "date": "1886-04-10",
-                "location": "Sveinsströnd",
+                "location": "Sveinströnd",
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -120,9 +120,11 @@
                 "year": "1885",
                 "age": 5,
                 "status": "",
-                "location": "Sveinsströnd",
+                "location": "Sveinströnd",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1885,
+                "year_to_value": 1885,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -146,16 +148,16 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1885,
-                "year_to_value": 1885
+                }
             },
             {
                 "year": "1886",
                 "original_string": "D. á Sv.strönd 10/4 1886, barn, 5 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Sveinsströnd",
+                "location": "Sveinströnd",
+                "year_from_value": 1886,
+                "year_to_value": 1886,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -179,9 +181,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1886,
-                "year_to_value": 1886
+                }
             }
         ],
         "notes": {},
@@ -386,7 +386,31 @@
                 "status": "",
                 "location": "Holtakot, Lj.",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Smali í Litlagerði (16) 1876–1877.",
@@ -604,9 +628,33 @@
                 "year": "1896–1898",
                 "age": null,
                 "status": "B.",
-                "location": "Ytri-Skál",
+                "location": "Ytri-Leikskálaá",
                 "note": "Hrb.",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Naustavík (37) 1898.",
@@ -647,16 +695,22 @@
                 "location": "Kotamýrar",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1899,
+                "year_to_value": 1899,
                 "location_obj": {
                     "id": 13898,
-                    "name": "Kotmýrar",
-                    "lat": null,
-                    "lng": null,
+                    "name": "Kotamýrar",
+                    "lat": 65.993507,
+                    "lng": -17.672377,
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
                         {
                             "name": "Suður-Þingeyjarsýsla",
                             "id": 1003354
@@ -666,9 +720,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1899,
-                "year_to_value": 1899
+                }
             },
             {
                 "original_string": "B. á Vargsnesi (39) 1900–",
@@ -679,7 +731,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1900,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

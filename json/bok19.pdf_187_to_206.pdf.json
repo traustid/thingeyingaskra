@@ -2177,10 +2177,34 @@
                 "year": "1858",
                 "age": 31,
                 "status": "Veturvistark.",
-                "location": "Vöglum",
+                "location": "Vaglir",
                 "note": "",
                 "year_from_value": 1858,
-                "year_to_value": 1858
+                "year_to_value": 1858,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2967,7 +2991,31 @@
             "birth": {
                 "original_string": "F. 2/3. 1833 á Syðrahóli.",
                 "date": "1833-03-02",
-                "location": "Syðrahóll"
+                "location": "Syðri-Hóll",
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Kambsmýrum 24/6. 1838. 1)",
@@ -3036,9 +3084,33 @@
                 "original_string": "F. 2/3. 1833 á Syðrahóli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "year_from_value": 1833,
-                "year_to_value": 1833
+                "year_to_value": 1833,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Kambsmýrum (2) 1834-1836.",
@@ -3173,12 +3245,14 @@
         "parents_original_string": "E. Eiríksson (á Guðndarst.) og Helga Jónsd. (frá Sypreisi)",
         "residence_history": [
             {
-                "original_string": "Hjá for. á Guendarstöðum (2) 1858-1872-",
+                "original_string": "Hjá for. á Gvendarstöðum (2) 1858-1872-",
                 "year": "1858-1872",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "note": "",
+                "year_from_value": 1858,
+                "year_to_value": 1872,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -3202,9 +3276,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1858,
-                "year_to_value": 1872
+                }
             },
             {
                 "original_string": "G. húsk. á Grenjaðarst. (27) 1883.",
@@ -3987,6 +4059,8 @@
                 "status": "Húsfr.",
                 "location": "Miðhvammur",
                 "note": "",
+                "year_from_value": 1867,
+                "year_to_value": 1869,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -4010,9 +4084,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1867,
-                "year_to_value": 1869
+                }
             },
             {
                 "original_string": "Húsfr. í Klömbur (46) 1871-1874-",

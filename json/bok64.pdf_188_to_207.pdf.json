@@ -174,7 +174,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1871,
-                "year_to_value": 1871
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Kambsstöðum... 1871-1872.",
@@ -711,6 +735,8 @@
                 "location": "Grjótárgerði, Fn.",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1860,
+                "year_to_value": 1864,
                 "location_obj": {
                     "id": 90012,
                     "name": "Grjótárgerði",
@@ -734,9 +760,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1864
+                }
             },
             {
                 "original_string": "Hjú á Geldingá (16) 1865.",
@@ -1486,22 +1510,24 @@
                 "year": "1855",
                 "age": 47,
                 "status": "G.",
-                "location": "Voglar",
+                "location": "Vaglir",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1855,
+                "year_to_value": 1855,
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1512,9 +1538,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1855,
-                "year_to_value": 1855
+                }
             },
             {
                 "original_string": "G. í Fjóshatungu (48) 1856-1857.",
@@ -2454,6 +2478,8 @@
                 "location": "Kaðalsstaðir",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1870,
+                "year_to_value": 1871,
                 "location_obj": {
                     "id": 15262,
                     "name": "Kaðalsstaðir",
@@ -2477,9 +2503,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1871
+                }
             },
             {
                 "original_string": "Hjú á Þönglabakka (23) 1872-1873.",
@@ -2570,6 +2594,8 @@
                 "location": "Kaðalsstaðir",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1895,
+                "year_to_value": 1896,
                 "location_obj": {
                     "id": 15262,
                     "name": "Kaðalsstaðir",
@@ -2593,9 +2619,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1895,
-                "year_to_value": 1896
+                }
             }
         ],
         "notes": {},

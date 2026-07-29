@@ -1905,10 +1905,34 @@
                 "year": "1828-1846",
                 "age": 28,
                 "status": "Bóndi",
-                "location": "Holtakoti Lj.",
+                "location": "Holtakot Lj.",
                 "note": "Hrb.",
                 "year_from_value": 1828,
-                "year_to_value": 1846
+                "year_to_value": 1846,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Krassi... 1846-1848 (Hrb.)",
@@ -2029,6 +2053,8 @@
                 "status": "Hjú",
                 "location": "Litlu-Tjarnir",
                 "note": "",
+                "year_from_value": 1853,
+                "year_to_value": 1853,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -2052,9 +2078,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1853,
-                "year_to_value": 1853
+                }
             },
             {
                 "original_string": "B. á Finnsstöðum (58)-1855-1858-",
@@ -2097,6 +2121,8 @@
                 "status": "Húsm.",
                 "location": "Litlu-Tjarnir",
                 "note": "",
+                "year_from_value": 1859,
+                "year_to_value": 1859,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -2120,9 +2146,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1859,
-                "year_to_value": 1859
+                }
             },
             {
                 "original_string": "Faðir K. á Knappst. K. (65)-1863-1872-",

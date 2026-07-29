@@ -915,7 +915,31 @@
             "birth": {
                 "original_string": "F. 26/8 1842 á Kaðalsstöðum.",
                 "date": "1842-08-26",
-                "location": "Kaðalsstöðum"
+                "location": "Kaðalsstaðir",
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -973,21 +997,69 @@
                 "original_string": "F. 26/8 1842 á Kaðalsstöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Kaðalsstöðum",
+                "location": "Kaðalsstaðir",
                 "year_from_value": 1842,
-                "year_to_value": 1842
+                "year_to_value": 1842,
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Kaðalsstöðum (á 1.) 1842-1857.",
                 "year_or_period": "1842-1857",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Kaðalsstöðum",
+                "location": "Kaðalsstaðir",
                 "note": "",
                 "note_ref": null,
                 "year": "1842-1857",
                 "year_from_value": 1842,
-                "year_to_value": 1857
+                "year_to_value": 1857,
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Vinnum. á Grýtubakka (16) 1858-1859.",
@@ -1834,12 +1906,36 @@
                 "year_or_period": "1893-1894",
                 "age": 16,
                 "status": "Hjú",
-                "location": "Höfða",
+                "location": "Höfði",
                 "note": "",
                 "note_ref": null,
                 "year": "1893-1894",
                 "year_from_value": 1893,
-                "year_to_value": 1894
+                "year_to_value": 1894,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Steindyrni (18) 1895.",
@@ -1858,12 +1954,36 @@
                 "year_or_period": "1896-1897",
                 "age": null,
                 "status": "Hjú",
-                "location": "Höfða",
+                "location": "Höfði",
                 "note": "",
                 "note_ref": null,
                 "year": "1896-1897",
                 "year_from_value": 1896,
-                "year_to_value": 1897
+                "year_to_value": 1897,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Kljáströnd (22) 1899-1900.",
@@ -3212,12 +3332,36 @@
                 "year_or_period": "1832",
                 "age": 31,
                 "status": "Hjú",
-                "location": "Vöglum",
+                "location": "Vaglir",
                 "note": "",
                 "note_ref": null,
                 "year": "1832",
                 "year_from_value": 1832,
-                "year_to_value": 1832
+                "year_to_value": 1832,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Sandi (32) 1834-1836.",
@@ -3642,12 +3786,36 @@
                 "year_or_period": "1819-1822",
                 "age": null,
                 "status": "B.",
-                "location": "Vöglum",
+                "location": "Vaglir",
                 "note": "Hrb.",
                 "note_ref": null,
                 "year": "1819-1822",
                 "year_from_value": 1819,
-                "year_to_value": 1822
+                "year_to_value": 1822,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Kotungsstöðum... 1822-31. (Svo í mannt.)",

@@ -7,7 +7,7 @@
             "birth": {
                 "original_string": "F. 14/6 1804 í Litlutungu.",
                 "date": "1804-06-14",
-                "location": "Litlatunga",
+                "location": "Litla-Tunga",
                 "location_obj": {
                     "id": 90009,
                     "name": "Litla-Tunga",
@@ -88,7 +88,9 @@
                 "original_string": "F. 14/6 1804 í Litlutungu.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Litlatunga",
+                "location": "Litla-Tunga",
+                "year_from_value": 1804,
+                "year_to_value": 1804,
                 "location_obj": {
                     "id": 90009,
                     "name": "Litla-Tunga",
@@ -112,9 +114,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1804,
-                "year_to_value": 1804
+                }
             },
             {
                 "original_string": "Hjá for. í Litlutungu (1 árs) 1805-1809.",
@@ -226,6 +226,8 @@
                 "status": "Bóndi",
                 "location": "Grjótárgerði B.",
                 "note": "Hrb.",
+                "year_from_value": 1836,
+                "year_to_value": 1859,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -249,9 +251,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1836,
-                "year_to_value": 1859
+                }
             }
         ],
         "notes": {
@@ -694,7 +694,31 @@
                 "location": "Grímshús",
                 "note": "",
                 "year_from_value": 1862,
-                "year_to_value": 1864
+                "year_to_value": 1864,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1802,6 +1826,8 @@
                 "status": "Bóndi",
                 "location": "Sveinströnd",
                 "note": "",
+                "year_from_value": 1880,
+                "year_to_value": 1882,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -1825,9 +1851,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1880,
-                "year_to_value": 1882
+                }
             },
             {
                 "original_string": "B. á Litluströnd (38) 1883-1888.",
@@ -4394,6 +4418,8 @@
                 "status": "Bóndi",
                 "location": "Grjótárgerði B.",
                 "note": "Hrb.",
+                "year_from_value": 1878,
+                "year_to_value": 1886,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -4417,9 +4443,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1878,
-                "year_to_value": 1886
+                }
             },
             {
                 "original_string": "B. í Stórutungu (51) 1886-92-",

@@ -2478,7 +2478,7 @@
         "parents": [
             {
                 "name": "J. Jónsson",
-                "note": "Litlatungu",
+                "note": "Litla-Tunga",
                 "names": [
                     "J.",
                     "Jónsson"
@@ -2718,8 +2718,32 @@
             "death": {
                 "original_string": "D. á Sveinstr. 10/8. 1825, 66 ára. Brjóstveiki, landfarsótt.",
                 "date": "1825-08-10",
-                "location": "Sveinstr.",
-                "note": "Brjóstveiki, landfarsótt"
+                "location": "Sveinströnd",
+                "note": "Brjóstveiki, landfarsótt",
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Jón",
@@ -2878,6 +2902,8 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "year": "1812-1825",
+                "year_from_value": 1812,
+                "year_to_value": 1825,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -2901,18 +2927,40 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1812,
-                "year_to_value": 1825
+                }
             },
             {
                 "year": "1825",
                 "original_string": "D. á Sveinstr. 10/8. 1825, 66 ára. Brjóstveiki, landfarsótt.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Sveinstr.",
+                "location": "Sveinströnd",
                 "year_from_value": 1825,
-                "year_to_value": 1825
+                "year_to_value": 1825,
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

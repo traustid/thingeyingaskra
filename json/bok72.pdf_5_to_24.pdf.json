@@ -2441,6 +2441,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Sveinströnd",
+                "year_from_value": 1827,
+                "year_to_value": 1827,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -2464,9 +2466,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1827,
-                "year_to_value": 1827
+                }
             },
             {
                 "original_string": "Hjá for. á Sveinströnd (3) 1830–1848–",
@@ -3406,11 +3406,35 @@
                 "year": "1899",
                 "age": 67,
                 "status": "Móðir K.",
-                "location": "Holtakoti L.",
+                "location": "Holtakot Lj.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1899,
-                "year_to_value": 1899
+                "year_to_value": 1899,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Í Landamótsseli (68) 1900.",

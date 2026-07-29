@@ -2093,20 +2093,20 @@
             "birth": {
                 "original_string": "F. 7/9. 1860 á Vöglum.",
                 "date": "1860-09-07",
-                "location": "Voglar",
+                "location": "Vaglir",
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2174,20 +2174,22 @@
                 "original_string": "F. 7/9. 1860 á Vöglum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Voglar",
+                "location": "Vaglir",
+                "year_from_value": 1860,
+                "year_to_value": 1860,
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2198,30 +2200,30 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1860
+                }
             },
             {
                 "original_string": "Hjá for. á Vöglum (1 árs) 1860-1872.",
                 "year": "1860-1872",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Voglar",
+                "location": "Vaglir",
                 "note": "1 árs",
+                "year_from_value": 1860,
+                "year_to_value": 1872,
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2232,9 +2234,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1872
+                }
             },
             {
                 "original_string": "Hjá for. í Vestari-Krókum (14) 1873-1876-1887.",
@@ -3366,10 +3366,34 @@
                 "year": "1875",
                 "age": 16,
                 "status": "Smali",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "Skrifaður þar: Friðbjörn Sigurður Friðriksson",
                 "year_from_value": 1875,
-                "year_to_value": 1875
+                "year_to_value": 1875,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. Húsman. og hjú í Grímsgerði (23) 1882-1883. Til Am.",

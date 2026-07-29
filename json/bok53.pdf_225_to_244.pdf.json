@@ -336,7 +336,31 @@
                 "status": "Húsm.",
                 "location": "Grímshús",
                 "note": "",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2610,6 +2634,8 @@
                 "location": "Miðhvammur",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1807,
+                "year_to_value": 1807,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -2633,9 +2659,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1807,
-                "year_to_value": 1807
+                }
             },
             {
                 "original_string": "Hjá for. í Fagraneskoti 1814–20, 12–18 ára.",
@@ -2975,6 +2999,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Efri-Dálksstaðir",
+                "year_from_value": 1897,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 90036,
                     "name": "Neðri-Dálksstaðir",
@@ -2998,9 +3024,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1897,
-                "year_to_value": 1897
+                }
             },
             {
                 "original_string": "Með for. á E-Dálksst. (á 1.) 1895–1897.",

@@ -1103,7 +1103,31 @@
             "birth": {
                 "original_string": "F. 19/5 1800 í Grímshúsum",
                 "date": "1800-05-19",
-                "location": "Grímshús"
+                "location": "Grímshús",
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Heidarbot 13/8 1846",
@@ -1163,7 +1187,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Grímshús",
                 "year_from_value": 1800,
-                "year_to_value": 1800
+                "year_to_value": 1800,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Grímshúsum (1 árs) 1801-1806.",
@@ -1174,7 +1222,31 @@
                 "note": "",
                 "year": "1801-1806",
                 "year_from_value": 1801,
-                "year_to_value": 1806
+                "year_to_value": 1806,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Fótaskinni (7 ára) 1807-1813.",
@@ -1872,11 +1944,35 @@
                 "year_or_period": "1899-1900",
                 "age": null,
                 "status": "B. Hjú",
-                "location": "Ytri-Skálar",
+                "location": "Ytri-Leikskálaáar",
                 "note": "",
                 "year": "1899-1900",
                 "year_from_value": 1899,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90031,
+                    "name": "Ytri-Leikskálaá",
+                    "lat": "65.905309",
+                    "lng": "-17.575305",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2405,6 +2501,8 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "year": "1830-1848",
+                "year_from_value": 1830,
+                "year_to_value": 1848,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -2428,9 +2526,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1830,
-                "year_to_value": 1848
+                }
             },
             {
                 "original_string": "B. á Sveinströnd - 1853-1860-1872.",
@@ -2440,6 +2536,8 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "year": "1853-1872",
+                "year_from_value": 1853,
+                "year_to_value": 1872,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -2463,9 +2561,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1853,
-                "year_to_value": 1872
+                }
             },
             {
                 "year": "1872",
@@ -2473,6 +2569,8 @@
                 "age": 0,
                 "status": "Dánarstaður",
                 "location": "Sveinströnd",
+                "year_from_value": 1872,
+                "year_to_value": 1872,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -2496,9 +2594,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1872,
-                "year_to_value": 1872
+                }
             }
         ],
         "notes": {

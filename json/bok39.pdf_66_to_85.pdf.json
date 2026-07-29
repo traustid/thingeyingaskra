@@ -841,12 +841,36 @@
                 "year_or_period": "1811-1816",
                 "age": 5,
                 "status": "Hjá for.",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "",
                 "note_ref": null,
                 "year": "1811-1816",
                 "year_from_value": 1811,
-                "year_to_value": 1816
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á N.-Dálksstöðum (29) 1835-36. (Hrb.).",
@@ -2010,9 +2034,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 30/1. 1813. á Guendarstöðum.",
+                "original_string": "F. 30/1. 1813. á Gvendarstöðum.",
                 "date": "1813-01-30",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -2090,10 +2114,12 @@
         "residence_history": [
             {
                 "year": "1813",
-                "original_string": "F. 30/1. 1813. á Guendarstöðum.",
+                "original_string": "F. 30/1. 1813. á Gvendarstöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
+                "year_from_value": 1813,
+                "year_to_value": 1813,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -2117,19 +2143,19 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1813,
-                "year_to_value": 1813
+                }
             },
             {
-                "original_string": "Með for. á Guendarstöðum (2) 1815-1838-",
+                "original_string": "Með for. á Gvendarstöðum (2) 1815-1838-",
                 "year_or_period": "1815-1838",
                 "age": 2,
                 "status": "Með for.",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "note": "",
                 "note_ref": null,
                 "year": "1815-1838",
+                "year_from_value": 1815,
+                "year_to_value": 1838,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -2153,19 +2179,19 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1815,
-                "year_to_value": 1838
+                }
             },
             {
-                "original_string": "B. á Guendarstöðum (32) 1844-1853 (Hrb.).",
+                "original_string": "B. á Gvendarstöðum (32) 1844-1853 (Hrb.).",
                 "year_or_period": "1844-1853",
                 "age": 32,
                 "status": "B.",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "note": "Hrb.",
                 "note_ref": null,
                 "year": "1844-1853",
+                "year_from_value": 1844,
+                "year_to_value": 1853,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -2189,9 +2215,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1844,
-                "year_to_value": 1853
+                }
             }
         ],
         "notes": {},

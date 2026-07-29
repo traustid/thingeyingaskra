@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. 24/10. 1800 á Syðrahóli.",
                 "date": "1800-10-24",
-                "location": "Syðrahóll"
+                "location": "Syðri-Hóll",
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -64,9 +88,33 @@
                 "original_string": "F. 24/10. 1800 á Syðrahóli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "year_from_value": 1800,
-                "year_to_value": 1800
+                "year_to_value": 1800,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í A-Krókum (2) 1801.",
@@ -2322,6 +2370,8 @@
                 "note": "",
                 "note_ref": 2,
                 "year": "1832-1833",
+                "year_from_value": 1832,
+                "year_to_value": 1833,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -2345,9 +2395,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1832,
-                "year_to_value": 1833
+                }
             },
             {
                 "original_string": "E. í Glaumb.seli (50) 1842-1854.",
@@ -2589,6 +2637,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1830-1834",
+                "year_from_value": 1830,
+                "year_to_value": 1834,
                 "location_obj": {
                     "id": 90031,
                     "name": "Ytri-Leikskálaá",
@@ -2612,9 +2662,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1830,
-                "year_to_value": 1834
+                }
             },
             {
                 "original_string": "Húsfr. á Jódísarstöðum 1847-61, 32-44 ára.",

@@ -1688,6 +1688,8 @@
                 "note": "",
                 "note_ref": 2,
                 "year": "1837",
+                "year_from_value": 1837,
+                "year_to_value": 1837,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -1711,9 +1713,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1837,
-                "year_to_value": 1837
+                }
             },
             {
                 "original_string": "Hjú á Geirastöðum (68) 1841- 3)",
@@ -3747,11 +3747,35 @@
                 "year_or_period": "1882",
                 "age": 3,
                 "status": "",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "Hjá for.",
                 "year": "1882",
                 "year_from_value": 1882,
-                "year_to_value": 1882
+                "year_to_value": 1882,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Eftrahóli (4) 1883.",
@@ -3924,9 +3948,9 @@
                 }
             },
             "death": {
-                "original_string": "D. á Vegeirsst. 19/4. 1843, 40 ára. 1)",
+                "original_string": "D. á Végeirsst. 19/4. 1843, 40 ára. 1)",
                 "date": "1843-04-19",
-                "location": "Vegeirsstaðir",
+                "location": "Végeirsstaðir",
                 "note_ref": 1,
                 "location_obj": {
                     "id": 12053,
@@ -3964,7 +3988,7 @@
             {
                 "name": "Árni Sigurðsson",
                 "date": "1831-09-24",
-                "status": "á Vegeirsstöðum. - Bætti 1. sinn.",
+                "status": "á Végeirsstöðum. - Bætti 1. sinn.",
                 "names": [
                     "Árni",
                     "Sigurðsson"
@@ -3973,7 +3997,7 @@
                 "lastName": "Sigurðsson"
             }
         ],
-        "spouse_original_string": "M. 24/9. 1831: Árni Sigurðsson (á Vegeirsstöðum. - Bætti 1. sinn.).",
+        "spouse_original_string": "M. 24/9. 1831: Árni Sigurðsson (á Végeirsstöðum. - Bætti 1. sinn.).",
         "parents": [
             {
                 "name": "Bergþ. Jónsson",
@@ -4133,18 +4157,42 @@
                 "year_or_period": "1833-1839",
                 "age": null,
                 "status": "Húsfr.",
-                "location": "Litlatjörn",
+                "location": "Litlu-Tjarnir",
                 "note": "",
                 "year": "1833-1839",
                 "year_from_value": 1833,
-                "year_to_value": 1839
+                "year_to_value": 1839,
+                "location_obj": {
+                    "id": 16618,
+                    "name": "Litlu-Tjarnir",
+                    "lat": "65.713556",
+                    "lng": "-17.710988",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Húsfr. á Vegeirsstöðum (36) 1839-1842.",
+                "original_string": "Húsfr. á Végeirsstöðum (36) 1839-1842.",
                 "year_or_period": "1839-1842",
                 "age": 36,
                 "status": "Húsfr.",
-                "location": "Vegeirsstaðir",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "year": "1839-1842",
                 "location_obj": {
@@ -4176,10 +4224,10 @@
             },
             {
                 "year": "1843",
-                "original_string": "D. á Vegeirsst. 19/4. 1843, 40 ára. 1)",
+                "original_string": "D. á Végeirsst. 19/4. 1843, 40 ára. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Vegeirsstaðir",
+                "location": "Végeirsstaðir",
                 "location_obj": {
                     "id": 12053,
                     "name": "Végeirsstaðir",

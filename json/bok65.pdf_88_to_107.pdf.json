@@ -1862,7 +1862,31 @@
                 "note_ref": null,
                 "year": "1891-1893",
                 "year_from_value": 1891,
-                "year_to_value": 1893
+                "year_to_value": 1893,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. í Naustavík ... 1894.",
@@ -1901,36 +1925,108 @@
                 "year_or_period": "1895-1896",
                 "age": null,
                 "status": "B.",
-                "location": "Ytri-Skál",
+                "location": "Ytri-Leikskálaá",
                 "note": "Hrb.",
                 "note_ref": null,
                 "year": "1895-1896",
                 "year_from_value": 1895,
-                "year_to_value": 1896
+                "year_to_value": 1896,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsm. í Holtakoti, L. (36) 1897-98. (Hrb.).",
                 "year_or_period": "1897-1898",
                 "age": 36,
                 "status": "G. húsm.",
-                "location": "Holtakoti, L.",
+                "location": "Holtakot Lj.",
                 "note": "Hrb.",
                 "note_ref": null,
                 "year": "1897-1898",
                 "year_from_value": 1897,
-                "year_to_value": 1898
+                "year_to_value": 1898,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Ytri-Skál ... 1898-99. (Hrb.).",
                 "year_or_period": "1898-1899",
                 "age": null,
                 "status": "B.",
-                "location": "Ytri-Skál",
+                "location": "Ytri-Leikskálaá",
                 "note": "Hrb.",
                 "note_ref": null,
                 "year": "1898-1899",
                 "year_from_value": 1898,
-                "year_to_value": 1899
+                "year_to_value": 1899,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2382,6 +2478,8 @@
                 "note": "Með for.",
                 "note_ref": null,
                 "year": "1900",
+                "year_from_value": 1900,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -2405,9 +2503,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1900,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -2838,6 +2934,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Litlu-Tjarnir",
+                "year_from_value": 1868,
+                "year_to_value": 1868,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -2861,9 +2959,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1868,
-                "year_to_value": 1868
+                }
             },
             {
                 "original_string": "Hjá for. á Litlutjörnum (1 árs) 1868-1869.",
@@ -2874,6 +2970,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1868-1869",
+                "year_from_value": 1868,
+                "year_to_value": 1869,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -2897,9 +2995,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1868,
-                "year_to_value": 1869
+                }
             },
             {
                 "original_string": "Hjá for. á Vargsnesi (2) 1871-",
@@ -2911,7 +3007,31 @@
                 "note_ref": null,
                 "year": "1871",
                 "year_from_value": 1871,
-                "year_to_value": 1871
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Veitingahúsi (19 ára) 1886-1891.",
@@ -4091,12 +4211,36 @@
                 "year_or_period": "1801",
                 "age": 13,
                 "status": "",
-                "location": "Kaðalsstöðum",
+                "location": "Kaðalsstaðir",
                 "note": "Með móður",
                 "note_ref": null,
                 "year": "1801",
                 "year_from_value": 1801,
-                "year_to_value": 1801
+                "year_to_value": 1801,
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

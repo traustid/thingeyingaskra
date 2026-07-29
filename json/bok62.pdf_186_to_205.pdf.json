@@ -4252,16 +4252,22 @@
                 "note": "",
                 "note_ref": "1",
                 "year": "1801-1846",
+                "year_from_value": 1801,
+                "year_to_value": 1846,
                 "location_obj": {
                     "id": 13898,
-                    "name": "Kotmýrar",
-                    "lat": null,
-                    "lng": null,
+                    "name": "Kotamýrar",
+                    "lat": 65.993507,
+                    "lng": -17.672377,
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
                         {
                             "name": "Suður-Þingeyjarsýsla",
                             "id": 1003354
@@ -4271,9 +4277,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1846
+                }
             },
             {
                 "original_string": "Niðurs. á Nípá (80)-1850-",

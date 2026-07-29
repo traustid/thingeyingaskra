@@ -711,6 +711,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Gvendarstaðir",
+                "year_from_value": 1791,
+                "year_to_value": 1791,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -734,9 +736,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1791,
-                "year_to_value": 1791
+                }
             },
             {
                 "original_string": "Hjá for. á Guðnarstöðum (12) 1801-1815-",
@@ -746,6 +746,8 @@
                 "location": "Gvendarstaðir",
                 "note": "",
                 "year": "1801-1815-",
+                "year_from_value": 1801,
+                "year_to_value": 1815,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -769,9 +771,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1815
+                }
             },
             {
                 "year": "1820",
@@ -779,6 +779,8 @@
                 "age": 0,
                 "status": "Dánarstaður",
                 "location": "Gvendarstaðir",
+                "year_from_value": 1820,
+                "year_to_value": 1820,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -802,9 +804,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1820,
-                "year_to_value": 1820
+                }
             }
         ],
         "notes": {
@@ -2604,6 +2604,8 @@
                 "note": "",
                 "note_ref": 1,
                 "year": "1808-1815-",
+                "year_from_value": 1808,
+                "year_to_value": 1815,
                 "location_obj": {
                     "id": 90031,
                     "name": "Ytri-Leikskálaá",
@@ -2627,9 +2629,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1808,
-                "year_to_value": 1815
+                }
             },
             {
                 "original_string": "Húsfr. í Garðshorni (28) 1829-183x",
@@ -3612,16 +3612,22 @@
                 "note": "",
                 "note_ref": 1,
                 "year": "1809-1815-",
+                "year_from_value": 1809,
+                "year_to_value": 1815,
                 "location_obj": {
                     "id": 13898,
-                    "name": "Kotmýrar",
-                    "lat": null,
-                    "lng": null,
+                    "name": "Kotamýrar",
+                    "lat": 65.993507,
+                    "lng": -17.672377,
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
                         {
                             "name": "Suður-Þingeyjarsýsla",
                             "id": 1003354
@@ -3631,9 +3637,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1809,
-                "year_to_value": 1815
+                }
             },
             {
                 "original_string": "Hjú á Þóroddstað (44) 1834.",
@@ -3679,6 +3683,8 @@
                 "note": "",
                 "note_ref": 2,
                 "year": "1838-",
+                "year_from_value": 1838,
+                "year_to_value": 1838,
                 "location_obj": {
                     "id": 90031,
                     "name": "Ytri-Leikskálaá",
@@ -3702,9 +3708,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1838,
-                "year_to_value": 1838
+                }
             },
             {
                 "original_string": "Hjú á Kotamýrum (54) - 1844-",
@@ -3714,16 +3718,22 @@
                 "location": "Kotamýrar",
                 "note": "",
                 "year": "1844-",
+                "year_from_value": 1844,
+                "year_to_value": 1844,
                 "location_obj": {
                     "id": 13898,
-                    "name": "Kotmýrar",
-                    "lat": null,
-                    "lng": null,
+                    "name": "Kotamýrar",
+                    "lat": 65.993507,
+                    "lng": -17.672377,
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
                         {
                             "name": "Suður-Þingeyjarsýsla",
                             "id": 1003354
@@ -3733,9 +3743,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1844,
-                "year_to_value": 1844
+                }
             },
             {
                 "original_string": "Niðurs. á Vargsnesi (60) 1850-",
@@ -3746,7 +3754,31 @@
                 "note": "",
                 "year": "1850-",
                 "year_from_value": 1850,
-                "year_to_value": 1850
+                "year_to_value": 1850,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Á sveit á Björgum (65)-1855-",

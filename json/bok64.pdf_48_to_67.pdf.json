@@ -260,6 +260,8 @@
                 "status": "Með for.",
                 "location": "Grjótárgerði, B.",
                 "note": "",
+                "year_from_value": 1878,
+                "year_to_value": 1879,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -283,9 +285,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1878,
-                "year_to_value": 1879
+                }
             },
             {
                 "original_string": "Tökub. á Ljótest. L. (7) 1880.",
@@ -1766,6 +1766,8 @@
                 "status": "G. húsk.",
                 "location": "Grjótárgerði, B.",
                 "note": "",
+                "year_from_value": 1894,
+                "year_to_value": 1894,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -1789,9 +1791,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1894,
-                "year_to_value": 1894
+                }
             },
             {
                 "original_string": "G. húsfr. á Birningsstöðum L. (28) 1895.",
@@ -1852,10 +1852,34 @@
                 "year": "1899-1900",
                 "age": 31,
                 "status": "Húsfr.",
-                "location": "Ytri-Skál",
+                "location": "Ytri-Leikskálaá",
                 "note": "",
                 "year_from_value": 1899,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2371,7 +2395,31 @@
                 "location": "Grímshúsum",
                 "note": "",
                 "year_from_value": 1889,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1904",
@@ -3056,20 +3104,68 @@
                 "year": "1887-1891",
                 "age": 17,
                 "status": "Hjú",
-                "location": "Höfða",
+                "location": "Höfði",
                 "note": "",
                 "year_from_value": 1887,
-                "year_to_value": 1891
+                "year_to_value": 1891,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. (Baldvin) í Höfða (24) 1894-1900-",
                 "year": "1894-1900",
                 "age": 24,
                 "status": "G. (Baldvin)",
-                "location": "Höfða",
+                "location": "Höfði",
                 "note": "",
                 "year_from_value": 1894,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 15860,
+                    "name": "Höfði",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

@@ -1238,6 +1238,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1825-1827",
+                "year_from_value": 1825,
+                "year_to_value": 1827,
                 "location_obj": {
                     "id": 15262,
                     "name": "Kaðalsstaðir",
@@ -1261,9 +1263,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1825,
-                "year_to_value": 1827
+                }
             },
             {
                 "original_string": "Hjú á Þönglabakka (36) 1829.",
@@ -1704,7 +1704,7 @@
             "birth": {
                 "original_string": "F. 20/1. 1800 (1799?) í Litlutungu. -",
                 "date": "1800-01-20",
-                "location": "Litlatunga",
+                "location": "Litla-Tunga",
                 "location_obj": {
                     "id": 90009,
                     "name": "Litla-Tunga",
@@ -1785,7 +1785,9 @@
                 "original_string": "F. 20/1. 1800 (1799?) í Litlutungu. -",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Litlatunga",
+                "location": "Litla-Tunga",
+                "year_from_value": 1800,
+                "year_to_value": 1800,
                 "location_obj": {
                     "id": 90009,
                     "name": "Litla-Tunga",
@@ -1809,9 +1811,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1800,
-                "year_to_value": 1800
+                }
             },
             {
                 "original_string": "Hjá for. í Litlutungu (1 árs) - 1801- 1809.",
@@ -3462,7 +3462,31 @@
             "birth": {
                 "original_string": "F. 25/2. 1813 á Syðrahóli. -",
                 "date": "1813-02-25",
-                "location": "Syðrahóll"
+                "location": "Syðri-Hóll",
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Veisu 16/12. 1868. 1)",
@@ -3543,33 +3567,105 @@
                 "original_string": "F. 25/2. 1813 á Syðrahóli. -",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "year_from_value": 1813,
-                "year_to_value": 1813
+                "year_to_value": 1813,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Syðrahóli (2) 1814- 1816-",
                 "year_or_period": "1814-1816",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "",
                 "note_ref": null,
                 "year": "1814-1816",
                 "year_from_value": 1814,
-                "year_to_value": 1816
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Syðrahóli (16)-1829.",
                 "year_or_period": "1829",
                 "age": 16,
                 "status": "Hjá for.",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "",
                 "note_ref": null,
                 "year": "1829",
                 "year_from_value": 1829,
-                "year_to_value": 1829
+                "year_to_value": 1829,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á N.-Dálksstöðum (23) 1835.",

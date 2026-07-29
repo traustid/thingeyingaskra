@@ -677,6 +677,8 @@
                 "status": "G. hjú",
                 "location": "Grjótárgerði B.",
                 "note": "",
+                "year_from_value": 1852,
+                "year_to_value": 1852,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -700,9 +702,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1852,
-                "year_to_value": 1852
+                }
             },
             {
                 "original_string": "G. húsk. í Grjótárgerði B. ... 1855-57.",
@@ -711,6 +711,8 @@
                 "status": "G. húsk.",
                 "location": "Grjótárgerði B.",
                 "note": "",
+                "year_from_value": 1855,
+                "year_to_value": 1857,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -734,9 +736,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1855,
-                "year_to_value": 1857
+                }
             },
             {
                 "original_string": "Húsfr. í Stórási (44) 1858-66.",
@@ -1859,21 +1859,21 @@
                 "year_to_value": 1767
             },
             {
-                "original_string": "Hjá móður á Vegeirsstöðum (35) 1801-1802.",
+                "original_string": "Hjá móður á Végeirsstöðum (35) 1801-1802.",
                 "year": "1801-1802",
                 "age": 35,
                 "status": "Hjá móður",
-                "location": "Vegeirsstöðum",
+                "location": "Végeirsstöðum",
                 "note": "",
                 "year_from_value": 1801,
                 "year_to_value": 1802
             },
             {
-                "original_string": "Hjá bróður á Vegeirsstöðum (28) - 1805-",
+                "original_string": "Hjá bróður á Végeirsstöðum (28) - 1805-",
                 "year": "1805-",
                 "age": 28,
                 "status": "Hjá bróður",
-                "location": "Vegeirsstöðum",
+                "location": "Végeirsstöðum",
                 "note": "",
                 "year_from_value": 1805,
                 "year_to_value": 1805
@@ -2026,7 +2026,31 @@
             "birth": {
                 "original_string": "F. um 1770 á Hólkoti, Möðruv. kl. sókn.",
                 "date": "1770-00-00",
-                "location": "Hólkoti, Möðruv. kl. sókn"
+                "location": "Hólkoti, Möðruv. kl. sókn",
+                "location_obj": {
+                    "id": 90056,
+                    "name": "Hólkot",
+                    "lat": "65.799484",
+                    "lng": "-17.441553",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2064,7 +2088,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Hólkoti, Möðruv. kl. sókn",
                 "year_from_value": 1770,
-                "year_to_value": 1770
+                "year_to_value": 1770,
+                "location_obj": {
+                    "id": 90056,
+                    "name": "Hólkot",
+                    "lat": "65.799484",
+                    "lng": "-17.441553",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Hjalla Grýt. (31) 1801-1827-",

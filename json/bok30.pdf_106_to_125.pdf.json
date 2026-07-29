@@ -3320,10 +3320,34 @@
                 "year": "1801-1822",
                 "age": 31,
                 "status": "Húsfr.",
-                "location": "Kaðalsstöðum",
+                "location": "Kaðalsstaðir",
                 "note": "",
                 "year_from_value": 1801,
-                "year_to_value": 1822
+                "year_to_value": 1822,
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G.k. frá Kaðalsst. að Laufási (54) 1822.",
@@ -3366,6 +3390,8 @@
                 "status": "Húsfr.",
                 "location": "Kaðalsstaðir",
                 "note": "",
+                "year_from_value": 1826,
+                "year_to_value": 1827,
                 "location_obj": {
                     "id": 15262,
                     "name": "Kaðalsstaðir",
@@ -3389,19 +3415,41 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1826,
-                "year_to_value": 1827
+                }
             },
             {
                 "original_string": "Húsfr. á Kaðalsstöðum ... 1827-1838.",
                 "year": "1827-1838",
                 "age": null,
                 "status": "Húsfr.",
-                "location": "Kaðalsstöðum",
+                "location": "Kaðalsstaðir",
                 "note": "",
                 "year_from_value": 1827,
-                "year_to_value": 1838
+                "year_to_value": 1838,
+                "location_obj": {
+                    "id": 15262,
+                    "name": "Kaðalsstaðir",
+                    "lat": "66.129683",
+                    "lng": "-18.072725",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Hvalvatnsfjörður",
+                            "id": 1003446
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1840",
@@ -3992,11 +4040,11 @@
                 "year_to_value": 1855
             },
             {
-                "original_string": "Hjú á Vegeirsstöðum (22) 1856-1857.",
+                "original_string": "Hjú á Végeirsstöðum (22) 1856-1857.",
                 "year": "1856-1857",
                 "age": 22,
                 "status": "Hjú",
-                "location": "Vegeirsstöðum",
+                "location": "Végeirsstöðum",
                 "note": "",
                 "year_from_value": 1856,
                 "year_to_value": 1857
@@ -4070,11 +4118,11 @@
                 "year_to_value": 1860
             },
             {
-                "original_string": "Hjú á Vegeirsst. (30) 1862.",
+                "original_string": "Hjú á Végeirsst. (30) 1862.",
                 "year": "1862",
                 "age": 30,
                 "status": "Hjú",
-                "location": "Vegeirsstaðir",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "location_obj": {
                     "id": 12053,
@@ -4222,11 +4270,11 @@
                 "year_to_value": 1876
             },
             {
-                "original_string": "Hjú á Vegeirsstöðum (53) 1877.",
+                "original_string": "Hjú á Végeirsstöðum (53) 1877.",
                 "year": "1877",
                 "age": 53,
                 "status": "Hjú",
-                "location": "Vegeirsstöðum",
+                "location": "Végeirsstöðum",
                 "note": "",
                 "year_from_value": 1877,
                 "year_to_value": 1877

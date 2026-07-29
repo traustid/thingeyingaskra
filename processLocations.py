@@ -15,6 +15,8 @@ regions = {
 	'l.': 'Laxárdalur',
 	'B.': 'Bárðardalur',
 	'A.': 'Aðaldalur',
+	'Ljósav. hr.': 'Ljósavatnsskarð',
+	'Lj.': 'Ljósavatnsskarð',
 	'Rhv.': 'Reykjahverfi',
 	'R. hv.': 'Reykjahverfi',
 	'R.hv.': 'Reykjahverfi',

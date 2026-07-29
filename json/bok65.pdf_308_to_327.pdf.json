@@ -1986,7 +1986,31 @@
             "birth": {
                 "original_string": "F. 13/7 1788 á Syðrahóli.",
                 "date": "1788-07-13",
-                "location": "Syðrahóll"
+                "location": "Syðri-Hóll",
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2031,9 +2055,33 @@
                 "original_string": "F. 13/7 1788 á Syðrahóli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "year_from_value": 1788,
-                "year_to_value": 1788
+                "year_to_value": 1788,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Meyjarhóli (12) 1801.",
@@ -3977,6 +4025,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Miðhvammur",
+                "year_from_value": 1807,
+                "year_to_value": 1807,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -4000,9 +4050,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1807,
-                "year_to_value": 1807
+                }
             },
             {
                 "original_string": "Bóndad. í Fagraneskoti 1814-1821, 7-14 ára.",

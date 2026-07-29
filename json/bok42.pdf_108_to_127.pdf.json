@@ -2646,6 +2646,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1873-1875",
+                "year_from_value": 1873,
+                "year_to_value": 1875,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -2669,9 +2671,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1873,
-                "year_to_value": 1875
+                }
             },
             {
                 "original_string": "Með for. í Grjótárgerði B. (8) 1877. Önn. þar ... 1878.",
@@ -4140,12 +4140,12 @@
     {
         "person": {
             "name": "Jónas Jónsson",
-            "status": "á Guendarstöðum",
+            "status": "á Gvendarstöðum",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 10/12 1847 á Guendarstöðum",
+                "original_string": "F. 10/12 1847 á Gvendarstöðum",
                 "date": "1847-12-10",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -4223,10 +4223,12 @@
         "residence_history": [
             {
                 "year": "1847",
-                "original_string": "F. 10/12 1847 á Guendarstöðum",
+                "original_string": "F. 10/12 1847 á Gvendarstöðum",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
+                "year_from_value": 1847,
+                "year_to_value": 1847,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -4250,16 +4252,14 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1847,
-                "year_to_value": 1847
+                }
             },
             {
-                "original_string": "Hjá for. á Guendarstöðum (3) 1850–1872–",
+                "original_string": "Hjá for. á Gvendarstöðum (3) 1850–1872–",
                 "year_or_period": "1850–1872",
                 "age": 3,
                 "status": "",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1850–1872",
@@ -4289,14 +4289,16 @@
                 }
             },
             {
-                "original_string": "B. á Guendarstöðum ... 1886-1900-",
+                "original_string": "B. á Gvendarstöðum ... 1886-1900-",
                 "year_or_period": "1886-1900",
                 "age": null,
                 "status": "Bóndi",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "note": "",
                 "note_ref": null,
                 "year": "1886-1900",
+                "year_from_value": 1886,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -4320,9 +4322,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1886,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},

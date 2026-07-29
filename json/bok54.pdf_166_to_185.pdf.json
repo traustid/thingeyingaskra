@@ -385,7 +385,31 @@
             "death": {
                 "original_string": "D. á Kotamýri 30/11. 1834, 83 ár",
                 "date": "1834-11-30",
-                "location": "Kotamýri"
+                "location": "Kotamýrar",
+                "location_obj": {
+                    "id": 13898,
+                    "name": "Kotamýrar",
+                    "lat": 65.993507,
+                    "lng": -17.672377,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Ólöf",
@@ -706,16 +730,22 @@
                 "location": "Kotamýrar",
                 "note": "",
                 "year": "1834-",
+                "year_from_value": 1834,
+                "year_to_value": 1834,
                 "location_obj": {
                     "id": 13898,
-                    "name": "Kotmýrar",
-                    "lat": null,
-                    "lng": null,
+                    "name": "Kotamýrar",
+                    "lat": 65.993507,
+                    "lng": -17.672377,
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
                         {
                             "name": "Suður-Þingeyjarsýsla",
                             "id": 1003354
@@ -725,18 +755,40 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1834,
-                "year_to_value": 1834
+                }
             },
             {
                 "year": "1834",
                 "original_string": "D. á Kotamýri 30/11. 1834, 83 ár",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Kotamýri",
+                "location": "Kotamýrar",
                 "year_from_value": 1834,
-                "year_to_value": 1834
+                "year_to_value": 1834,
+                "location_obj": {
+                    "id": 13898,
+                    "name": "Kotamýrar",
+                    "lat": 65.993507,
+                    "lng": -17.672377,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

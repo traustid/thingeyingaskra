@@ -916,12 +916,36 @@
                 "year_or_period": "1801-1808",
                 "age": 7,
                 "status": "Hjá for.",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "",
                 "note_ref": null,
                 "year": "1801-1808",
                 "year_from_value": 1801,
-                "year_to_value": 1808
+                "year_to_value": 1808,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Heiðarhúsum (15) 1812-1815.",
@@ -2702,6 +2726,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Kaðalsstaðir",
+                "year_from_value": 1883,
+                "year_to_value": 1883,
                 "location_obj": {
                     "id": 15262,
                     "name": "Kaðalsstaðir",
@@ -2725,9 +2751,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1883,
-                "year_to_value": 1883
+                }
             },
             {
                 "original_string": "Með og hjá for. á Kaðalsstöðum (á 1.) 1883-1893.",
@@ -2738,6 +2762,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1883-1893",
+                "year_from_value": 1883,
+                "year_to_value": 1893,
                 "location_obj": {
                     "id": 15262,
                     "name": "Kaðalsstaðir",
@@ -2761,9 +2787,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1883,
-                "year_to_value": 1893
+                }
             }
         ],
         "notes": {},

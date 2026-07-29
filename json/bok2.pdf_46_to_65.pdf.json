@@ -5,7 +5,7 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. um 1827 á N.-Dálkost.",
+                "original_string": "F. um 1827 á N.-Dálksst.",
                 "date": "1827-01-01",
                 "location": "Neðri-Dálksstaðir",
                 "location_obj": {
@@ -75,7 +75,7 @@
         "residence_history": [
             {
                 "year": "1827",
-                "original_string": "F. um 1827 á N.-Dálkost.",
+                "original_string": "F. um 1827 á N.-Dálksst.",
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Neðri-Dálksstaðir",
@@ -1443,21 +1443,23 @@
                 "year": "1860-1861",
                 "age": 72,
                 "status": "Hjú",
-                "location": "Voglar",
+                "location": "Vaglir",
                 "note": "",
+                "year_from_value": 1860,
+                "year_to_value": 1861,
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1468,9 +1470,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1861
+                }
             },
             {
                 "year": "1862",
@@ -1765,21 +1765,23 @@
                 "year": "1829",
                 "age": 47,
                 "status": "Hjú",
-                "location": "Voglar",
+                "location": "Vaglir",
                 "note": "",
+                "year_from_value": 1829,
+                "year_to_value": 1829,
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1790,9 +1792,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1829,
-                "year_to_value": 1829
+                }
             },
             {
                 "original_string": "Hjú í Rauðuskriðu 1833-37, 50-54 ára.",
@@ -1948,7 +1948,31 @@
                 "location": "Grímshús",
                 "note": "61-62 ára",
                 "year_from_value": 1845,
-                "year_to_value": 1847
+                "year_to_value": 1847,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Barnfóstra í Nesi Grýt. (64) 1847-1848.",
@@ -2761,10 +2785,34 @@
                 "year": "1849",
                 "age": null,
                 "status": "Hjú",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "",
                 "year_from_value": 1849,
-                "year_to_value": 1849
+                "year_to_value": 1849,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Ytrahóli (62) 1850-1853.",
@@ -2875,6 +2923,8 @@
                 "status": "Hjú",
                 "location": "Höfði",
                 "note": "",
+                "year_from_value": 1843,
+                "year_to_value": 1843,
                 "location_obj": {
                     "id": 15860,
                     "name": "Höfði",
@@ -2898,9 +2948,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1843,
-                "year_to_value": 1843
+                }
             }
         ],
         "notes": {},
@@ -3611,6 +3659,8 @@
                 "status": "Húsfr.",
                 "location": "Efri-Dálksstaðir",
                 "note": "",
+                "year_from_value": 1805,
+                "year_to_value": 1807,
                 "location_obj": {
                     "id": 90036,
                     "name": "Neðri-Dálksstaðir",
@@ -3634,9 +3684,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1805,
-                "year_to_value": 1807
+                }
             },
             {
                 "original_string": "G. kona í Yztafelli (70) 1809-1812-",

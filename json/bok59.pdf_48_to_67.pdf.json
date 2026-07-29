@@ -2051,8 +2051,32 @@
             "death": {
                 "original_string": "D. á Vöglum 14/5. 1804, 75 ára.",
                 "date": "1804-05-14",
-                "location": "Vöglum",
-                "note_ref": 1
+                "location": "Vaglir",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Sigríður",
@@ -2083,19 +2107,67 @@
                 "year": "1801-1802",
                 "age": 72,
                 "status": "Húsfr.",
-                "location": "Vöglum",
+                "location": "Vaglir",
                 "note": "",
                 "year_from_value": 1801,
-                "year_to_value": 1802
+                "year_to_value": 1802,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1804",
                 "original_string": "D. á Vöglum 14/5. 1804, 75 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Vöglum",
+                "location": "Vaglir",
                 "year_from_value": 1804,
-                "year_to_value": 1804
+                "year_to_value": 1804,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2902,6 +2974,8 @@
                 "status": "Hjú",
                 "location": "Litlu-Tjarnir",
                 "note": "",
+                "year_from_value": 1896,
+                "year_to_value": 1896,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -2925,9 +2999,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1896,
-                "year_to_value": 1896
+                }
             },
             {
                 "original_string": "Hjú í A-Krókum (54) 1897-1900.",

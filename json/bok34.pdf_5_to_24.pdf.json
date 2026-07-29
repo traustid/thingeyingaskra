@@ -3706,7 +3706,31 @@
             "birth": {
                 "original_string": "F. 10/9 1815 á Vöglum.",
                 "date": "1815-09-10",
-                "location": "Vöglum"
+                "location": "Vaglir",
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Vatnsenda 6/6. 1892. 1)",
@@ -3763,20 +3787,68 @@
                 "original_string": "F. 10/9 1815 á Vöglum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Vöglum",
+                "location": "Vaglir",
                 "year_from_value": 1815,
-                "year_to_value": 1815
+                "year_to_value": 1815,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub. á Vöglum (1 árs) 1816-",
                 "year": "1816-",
                 "age": 1,
                 "status": "Tökub.",
-                "location": "Vöglum",
+                "location": "Vaglir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1816,
-                "year_to_value": 1816
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá móður og stj. á Hróarsstöðum (15) 1829-1833.",

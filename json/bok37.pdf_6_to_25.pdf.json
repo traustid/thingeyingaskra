@@ -2299,12 +2299,36 @@
             "birth": {
                 "original_string": "F. um 1758. á Syðrahóli.",
                 "date": "1758-01-01",
-                "location": "Syðrahóll"
+                "location": "Syðri-Hóll",
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
-                "original_string": "D. á Guendarst. 1/8. 1843",
+                "original_string": "D. á Gvendarst. 1/8. 1843",
                 "date": "1843-08-01",
-                "location": "Guendarst."
+                "location": "Gvendarst."
             },
             "names": [
                 "Jón",
@@ -2356,9 +2380,33 @@
                 "original_string": "F. um 1758. á Syðrahóli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "year_from_value": 1758,
-                "year_to_value": 1758
+                "year_to_value": 1758,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Ytrahóli (45) - 1801 - 29. (Hrb.).",
@@ -2396,13 +2444,15 @@
                 "year_to_value": 1829
             },
             {
-                "original_string": "Faðir B. á Guendarstöðum (72) 1830 - 1838-",
+                "original_string": "Faðir B. á Gvendarstöðum (72) 1830 - 1838-",
                 "year": "1830-1838",
                 "age": 72,
                 "status": "Faðir B.",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "note": "",
                 "note_ref": 1,
+                "year_from_value": 1830,
+                "year_to_value": 1838,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -2426,16 +2476,14 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1830,
-                "year_to_value": 1838
+                }
             },
             {
                 "year": "1843",
-                "original_string": "D. á Guendarst. 1/8. 1843",
+                "original_string": "D. á Gvendarst. 1/8. 1843",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Guendarst.",
+                "location": "Gvendarst.",
                 "year_from_value": 1843,
                 "year_to_value": 1843
             }
@@ -4128,7 +4176,7 @@
         "parents": [
             {
                 "name": "Á. Arason",
-                "note": "Sveinstr.",
+                "note": "Sveinströnd",
                 "names": [
                     "Á.",
                     "Arason"
@@ -4155,6 +4203,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Sveinströnd",
+                "year_from_value": 1828,
+                "year_to_value": 1828,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -4178,9 +4228,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1828,
-                "year_to_value": 1828
+                }
             },
             {
                 "original_string": "Hjá for. á Sveinströnd (2) 1830-1848-",
@@ -4190,6 +4238,8 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1830,
+                "year_to_value": 1848,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -4213,9 +4263,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1830,
-                "year_to_value": 1848
+                }
             },
             {
                 "original_string": "B. (24) frá Sveinströnd að Ytrafjalli 1852.",

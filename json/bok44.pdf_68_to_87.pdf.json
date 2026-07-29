@@ -79,12 +79,14 @@
                 "year_to_value": 1890
             },
             {
-                "original_string": "Með for. á Guendarstöðum (13) 1891-1892.",
+                "original_string": "Með for. á Gvendarstöðum (13) 1891-1892.",
                 "year": "1891-1892",
                 "age": 13,
                 "status": "Með for.",
                 "location": "Gvendarstaðir",
                 "note": "",
+                "year_from_value": 1891,
+                "year_to_value": 1892,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -108,9 +110,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1891,
-                "year_to_value": 1892
+                }
             },
             {
                 "original_string": "Með móður á Ingólfsstöðum (15) 1892. (Frá Þóroddsst.)",
@@ -850,7 +850,31 @@
             "birth": {
                 "original_string": "F. um 1810.",
                 "date": "1810-01-01",
-                "location": "Holtakot, L."
+                "location": "Holtakot Lj.",
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Fremstafelli 9/11. 1838, K. 29 ára.",
@@ -932,9 +956,33 @@
                 "original_string": "F. um 1810.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Holtakot, L.",
+                "location": "Holtakot Lj.",
                 "year_from_value": 1810,
-                "year_to_value": 1810
+                "year_to_value": 1810,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hrappsstöðum B. (4 1/2) - 1815-1819-",
@@ -2255,6 +2303,8 @@
                 "status": "Hjá for.",
                 "location": "Sveinströnd",
                 "note": "",
+                "year_from_value": 1888,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -2278,9 +2328,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1888,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -2651,6 +2699,8 @@
                 "status": "Fósturd.",
                 "location": "Sveinströnd",
                 "note": "frá Lundarbrekku",
+                "year_from_value": 1859,
+                "year_to_value": 1859,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -2674,9 +2724,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1859,
-                "year_to_value": 1859
+                }
             },
             {
                 "original_string": "Fósturb. (14) þaðan til Akureyrar 1860.",
@@ -2940,6 +2988,8 @@
                 "status": "Hjá for.",
                 "location": "Ytri-Leikskálaá K.",
                 "note": "svo",
+                "year_from_value": 1844,
+                "year_to_value": 1844,
                 "location_obj": {
                     "id": 90031,
                     "name": "Ytri-Leikskálaá",
@@ -2963,9 +3013,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1844,
-                "year_to_value": 1844
+                }
             },
             {
                 "original_string": "Hjú á Ófeigsstöðum (18) 1850.",

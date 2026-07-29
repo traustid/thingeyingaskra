@@ -2487,6 +2487,8 @@
                 "status": "Hjá for.",
                 "location": "Litlu-Tjarnir",
                 "note": "",
+                "year_from_value": 1831,
+                "year_to_value": 1832,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -2510,9 +2512,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1831,
-                "year_to_value": 1832
+                }
             },
             {
                 "original_string": "Hjá for. á Laxamýri (19 ára) 1834-1837.",
@@ -4192,10 +4192,34 @@
                 "year": "1801-1808",
                 "age": 9,
                 "status": "Hjá for.",
-                "location": "Syðrahóll",
+                "location": "Syðri-Hóll",
                 "note": "",
                 "year_from_value": 1801,
-                "year_to_value": 1808
+                "year_to_value": 1808,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Heiðarhúsum (16) 1812-1818-",
@@ -4457,7 +4481,31 @@
             "birth": {
                 "original_string": "F. 13/9 1823 í Holtakoti L.",
                 "date": "1823-09-13",
-                "location": "Holtakot L."
+                "location": "Holtakot Lj.",
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 1892",
@@ -4514,9 +4562,33 @@
                 "original_string": "F. 13/9 1823 í Holtakoti L.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Holtakot L.",
+                "location": "Holtakot Lj.",
                 "year_from_value": 1823,
-                "year_to_value": 1823
+                "year_to_value": 1823,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Arndísarst. (12) - 1835-1841-",

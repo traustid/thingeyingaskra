@@ -2023,11 +2023,35 @@
                 "year": "1894",
                 "age": 16,
                 "status": "Hjú",
-                "location": "Holtakot L.",
+                "location": "Holtakot Lj.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1894,
-                "year_to_value": 1894
+                "year_to_value": 1894,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttast. á Stórutjörnum ... 1895.",
@@ -3426,16 +3450,22 @@
                 "location": "Kotamýrar",
                 "note": "Hjá for.",
                 "note_ref": null,
+                "year_from_value": 1844,
+                "year_to_value": 1850,
                 "location_obj": {
                     "id": 13898,
-                    "name": "Kotmýrar",
-                    "lat": null,
-                    "lng": null,
+                    "name": "Kotamýrar",
+                    "lat": 65.993507,
+                    "lng": -17.672377,
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
                         {
                             "name": "Suður-Þingeyjarsýsla",
                             "id": 1003354
@@ -3445,9 +3475,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1844,
-                "year_to_value": 1850
+                }
             },
             {
                 "original_string": "Léttast. í Tungugerði (14 ára) 1856.",
@@ -5017,11 +5045,35 @@
                 "year": "1801-1802",
                 "age": 33,
                 "status": "B.",
-                "location": "Holtakot, R.",
+                "location": "Holtakot Rhv.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1801,
-                "year_to_value": 1802
+                "year_to_value": 1802,
+                "location_obj": {
+                    "id": 33766,
+                    "name": "Holtakot",
+                    "lat": "65.894924",
+                    "lng": "-17.276001",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Sigríðarstöðum (39) 1805-1816-",

@@ -31,6 +31,8 @@ export default function Places() {
 	const mapRef = useRef();
 
 	useEffect(() => {
+		setMapData([]);
+
 		fetch(config.apiRoot+'/places/')
 			.then(res => res.json())
 			.then(json => {

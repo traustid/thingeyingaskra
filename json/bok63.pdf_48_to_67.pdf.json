@@ -1490,7 +1490,31 @@
             "birth": {
                 "original_string": "F. 17/5. 1896 í Holtakoti L.",
                 "date": "1896-05-17",
-                "location": "Holtakot L."
+                "location": "Holtakot Lj.",
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1536,20 +1560,68 @@
                 "original_string": "F. 17/5. 1896 í Holtakoti L.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Holtakot L.",
+                "location": "Holtakot Lj.",
                 "year_from_value": 1896,
-                "year_to_value": 1896
+                "year_to_value": 1896,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Holtakoti L. (1 árs) 1896.",
                 "year": "1896",
                 "age": 1,
                 "status": "Með for.",
-                "location": "Holtakot L.",
+                "location": "Holtakot Lj.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1896,
-                "year_to_value": 1896
+                "year_to_value": 1896,
+                "location_obj": {
+                    "id": 25661,
+                    "name": "Holtakot",
+                    "lat": "65.697823",
+                    "lng": "-17.576314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Skógarseli (1 árs) 1897.",
@@ -3019,6 +3091,8 @@
                 "location": "Miðhvammur",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1881,
+                "year_to_value": 1885,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -3042,9 +3116,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1881,
-                "year_to_value": 1885
+                }
             },
             {
                 "original_string": "B. í Miðhvamma, 35 ára. - jarðaður á Einarsstöðum.",
@@ -4270,6 +4342,8 @@
                 "location": "Sveinströnd",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1882,
+                "year_to_value": 1884,
                 "location_obj": {
                     "id": 90024,
                     "name": "Sveinströnd",
@@ -4293,9 +4367,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1882,
-                "year_to_value": 1884
+                }
             },
             {
                 "original_string": "G. Hjú á Skútustöðum (52) 1885-",

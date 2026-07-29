@@ -1537,6 +1537,8 @@
                 "age": 0,
                 "status": "Dánarstaður",
                 "location": "Holtakot",
+                "year_from_value": 1844,
+                "year_to_value": 1844,
                 "location_obj": {
                     "id": 25661,
                     "name": "Holtakot",
@@ -1560,9 +1562,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1844,
-                "year_to_value": 1844
+                }
             }
         ],
         "notes": {
@@ -4467,12 +4467,36 @@
                 "year_or_period": "1879-1881",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Grjótagarður, Fn.",
+                "location": "Grjótárgerði, Fn.",
                 "note": "",
                 "note_ref": null,
                 "year": "1879-1881",
                 "year_from_value": 1879,
-                "year_to_value": 1881
+                "year_to_value": 1881,
+                "location_obj": {
+                    "id": 90012,
+                    "name": "Grjótárgerði",
+                    "lat": "65.631606",
+                    "lng": "-17.838890",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Tungu Fnj. (3) 1882.",
@@ -4527,12 +4551,36 @@
                 "year_or_period": "1885",
                 "age": 7,
                 "status": "Tökub.",
-                "location": "Grjótagarður, Fn.",
+                "location": "Grjótárgerði, Fn.",
                 "note": "",
                 "note_ref": null,
                 "year": "1885",
                 "year_from_value": 1885,
-                "year_to_value": 1885
+                "year_to_value": 1885,
+                "location_obj": {
+                    "id": 90012,
+                    "name": "Grjótárgerði",
+                    "lat": "65.631606",
+                    "lng": "-17.838890",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá fóður á Víðivöllum... 1886-1899.",

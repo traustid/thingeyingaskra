@@ -194,9 +194,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 27/9. 1831 á Guendarstöðum.",
+                "original_string": "F. 27/9. 1831 á Gvendarstöðum.",
                 "date": "1831-09-27",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -251,7 +251,7 @@
         "parents": [
             {
                 "name": "J. Jónsson",
-                "note": "á Guendarst.",
+                "note": "á Gvendarst.",
                 "names": [
                     "J.",
                     "Jónsson"
@@ -270,14 +270,16 @@
                 "lastName": "Sörensds."
             }
         ],
-        "parents_original_string": "For.: J. Jónsson (á Guendarst.) og Sigurlaug Sörensds. s. k. hús.",
+        "parents_original_string": "For.: J. Jónsson (á Gvendarst.) og Sigurlaug Sörensds. s. k. hús.",
         "residence_history": [
             {
                 "year": "1831",
-                "original_string": "F. 27/9. 1831 á Guendarstöðum.",
+                "original_string": "F. 27/9. 1831 á Gvendarstöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
+                "year_from_value": 1831,
+                "year_to_value": 1831,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -301,17 +303,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1831,
-                "year_to_value": 1831
+                }
             },
             {
-                "original_string": "Hjá for. á Guendarstöðum (2 1/2) 1834-1838-1844",
+                "original_string": "Hjá for. á Gvendarstöðum (2 1/2) 1834-1838-1844",
                 "year": "1834-1844",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "note": "2 1/2",
+                "year_from_value": 1834,
+                "year_to_value": 1844,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -335,17 +337,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1834,
-                "year_to_value": 1844
+                }
             },
             {
-                "original_string": "Hjá á Guendarstöðum (19) 1850-",
+                "original_string": "Hjá á Gvendarstöðum (19) 1850-",
                 "year": "1850",
                 "age": 19,
                 "status": "Hjú",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "note": "",
+                "year_from_value": 1850,
+                "year_to_value": 1850,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -369,9 +371,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1850,
-                "year_to_value": 1850
+                }
             },
             {
                 "original_string": "Húsfr. á Holmavadi (25) 1855-1862.",
@@ -2069,6 +2069,8 @@
                 "status": "Hjá for.",
                 "location": "Litlu-Tjarnir",
                 "note": "1 árs",
+                "year_from_value": 1872,
+                "year_to_value": 1885,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -2092,9 +2094,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1872,
-                "year_to_value": 1885
+                }
             },
             {
                 "original_string": "Hjá for. í Brúnagerði (14) 1886-1889-1892.",
@@ -4282,10 +4282,34 @@
                 "year": "1860",
                 "age": 19,
                 "status": "Vinnudr.",
-                "location": "Holtakoti R.",
+                "location": "Holtakot Rhv.",
                 "note": "",
                 "year_from_value": 1860,
-                "year_to_value": 1860
+                "year_to_value": 1860,
+                "location_obj": {
+                    "id": 33766,
+                    "name": "Holtakot",
+                    "lat": "65.894924",
+                    "lng": "-17.276001",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Kasthvammi (21) 1863.",

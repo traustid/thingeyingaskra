@@ -978,6 +978,8 @@
                 "location": "Litlu-Tjarnir",
                 "note": "Líkl. rangt.",
                 "year": "1852",
+                "year_from_value": 1852,
+                "year_to_value": 1852,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -1001,9 +1003,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1852,
-                "year_to_value": 1852
+                }
             },
             {
                 "original_string": "G. á Stórutjörnum ... 1852.",
@@ -1187,6 +1187,8 @@
                 "location": "Höfði",
                 "note": "",
                 "year": "1892",
+                "year_from_value": 1892,
+                "year_to_value": 1892,
                 "location_obj": {
                     "id": 15860,
                     "name": "Höfði",
@@ -1210,9 +1212,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1892,
-                "year_to_value": 1892
+                }
             },
             {
                 "original_string": "Léttadr. í Hvammi (14) 1893-1894.",
@@ -2522,6 +2522,8 @@
                 "location": "Gvendarstaðir",
                 "note": "(Hrb.)",
                 "year": "1869-1870",
+                "year_from_value": 1869,
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -2545,9 +2547,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1869,
-                "year_to_value": 1870
+                }
             },
             {
                 "original_string": "G. húsm. á Gvendarstöðum (33) 1870.",
@@ -2557,6 +2557,8 @@
                 "location": "Gvendarstaðir",
                 "note": "",
                 "year": "1870",
+                "year_from_value": 1870,
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -2580,9 +2582,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1870
+                }
             },
             {
                 "original_string": "Hjú á Hallgilsstöðum (33) 1870. ?",
@@ -4030,11 +4030,35 @@
                 "year_or_period": "1885-1887",
                 "age": null,
                 "status": "B.",
-                "location": "Ytri-Skál",
+                "location": "Ytri-Leikskálaá",
                 "note": "(Hrb.)",
                 "year": "1885-1887",
                 "year_from_value": 1885,
-                "year_to_value": 1887
+                "year_to_value": 1887,
+                "location_obj": {
+                    "id": 25662,
+                    "name": "Syðri-Leikskálaá",
+                    "lat": "65.903681",
+                    "lng": "-17.569109",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú á Úlfsbæ (55) 1888.",
@@ -4691,6 +4715,8 @@
                 "location": "Gvendarstaðir",
                 "note": "",
                 "year": "1876-1878",
+                "year_from_value": 1876,
+                "year_to_value": 1878,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -4714,9 +4740,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1876,
-                "year_to_value": 1878
+                }
             },
             {
                 "original_string": "Léttadr. í Leifshúsum (13) 1879.",

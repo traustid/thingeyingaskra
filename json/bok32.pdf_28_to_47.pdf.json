@@ -2382,10 +2382,34 @@
                 "year": "1816",
                 "age": 50,
                 "status": "Húsfr.",
-                "location": "Holtakot, R.",
+                "location": "Holtakot Rhv.",
                 "note": "",
                 "year_from_value": 1816,
-                "year_to_value": 1816
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 33766,
+                    "name": "Holtakot",
+                    "lat": "65.894924",
+                    "lng": "-17.276001",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Ráðskona í Skriðulandi 1817.",
@@ -2494,10 +2518,34 @@
                 "year": "1818-1820",
                 "age": null,
                 "status": "Húsfr.",
-                "location": "Holtakot, R.",
+                "location": "Holtakot Rhv.",
                 "note": "",
                 "year_from_value": 1818,
-                "year_to_value": 1820
+                "year_to_value": 1820,
+                "location_obj": {
+                    "id": 33766,
+                    "name": "Holtakot",
+                    "lat": "65.894924",
+                    "lng": "-17.276001",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Veisu (64) 1829.",
@@ -2540,6 +2588,8 @@
                 "status": "Hjú",
                 "location": "Litlu-Tjarnir",
                 "note": "",
+                "year_from_value": 1830,
+                "year_to_value": 1830,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -2563,9 +2613,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1830,
-                "year_to_value": 1830
+                }
             },
             {
                 "original_string": "Í Grímshúsum (móðir Sigurðar) 1835, 69 ára.",
@@ -2575,7 +2623,31 @@
                 "location": "Grímshús",
                 "note": "",
                 "year_from_value": 1835,
-                "year_to_value": 1835
+                "year_to_value": 1835,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Frá Grímshúsum að Breiðumýri (69) 1835.",
@@ -3014,6 +3086,8 @@
                 "status": "Lausakona",
                 "location": "Litlu-Tjarnir",
                 "note": "",
+                "year_from_value": 1826,
+                "year_to_value": 1826,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -3037,9 +3111,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1826,
-                "year_to_value": 1826
+                }
             },
             {
                 "original_string": "Þaðan að Láfsgerði 1827.",
@@ -3385,6 +3457,8 @@
                 "status": "Tökust.",
                 "location": "Litlu-Tjarnir",
                 "note": "Fósturb. '05",
+                "year_from_value": 1802,
+                "year_to_value": 1805,
                 "location_obj": {
                     "id": 16618,
                     "name": "Litlu-Tjarnir",
@@ -3408,9 +3482,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1802,
-                "year_to_value": 1805
+                }
             }
         ],
         "notes": {},

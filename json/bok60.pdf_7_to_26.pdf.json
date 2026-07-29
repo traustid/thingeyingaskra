@@ -3214,7 +3214,7 @@
                 "year": "1883-1886",
                 "age": null,
                 "status": "B.",
-                "location": "Nípa",
+                "location": "Nípá",
                 "note": "Hrb.",
                 "note_ref": null,
                 "year_from_value": 1883,
@@ -3717,11 +3717,35 @@
                 "year": "1896-1900",
                 "age": 12,
                 "status": "Hjá föður",
-                "location": "Holtakoti R.",
+                "location": "Holtakot Rhv.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1896,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 33766,
+                    "name": "Holtakot",
+                    "lat": "65.894924",
+                    "lng": "-17.276001",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -4120,7 +4144,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1873,
-                "year_to_value": 1874
+                "year_to_value": 1874,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Jódisarst. (6) 1876.",

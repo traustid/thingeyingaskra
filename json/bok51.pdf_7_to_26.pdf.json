@@ -500,7 +500,31 @@
             "birth": {
                 "original_string": "F. 22/5 1774 á Syðrahóli Fn.",
                 "date": "1774-05-22",
-                "location": "Syðrahóll, Fn."
+                "location": "Syðri-Hóll, Fn.",
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í V. Krókum 10/6. 1850. 1)",
@@ -578,9 +602,33 @@
                 "original_string": "F. 22/5 1774 á Syðrahóli Fn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Syðrahóll, Fn.",
+                "location": "Syðri-Hóll, Fn.",
                 "year_from_value": 1774,
-                "year_to_value": 1774
+                "year_to_value": 1774,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. í Garði Fn. (29) 1801-1805-",
@@ -982,6 +1030,8 @@
                 "age": null,
                 "status": "Hjá for.",
                 "location": "Miðhvammur",
+                "year_from_value": 1832,
+                "year_to_value": 1832,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -1005,9 +1055,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1832,
-                "year_to_value": 1832
+                }
             },
             {
                 "original_string": "Hjá for. í Yztahvammi (3) 1833.",
@@ -1314,20 +1362,22 @@
                 "year": "1857",
                 "age": 29,
                 "status": "Hjú",
-                "location": "Voglar",
+                "location": "Vaglir",
+                "year_from_value": 1857,
+                "year_to_value": 1857,
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1338,9 +1388,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1857,
-                "year_to_value": 1857
+                }
             },
             {
                 "original_string": "Hjú á Veturliðast. (30) 1858-1859",
@@ -2905,20 +2953,20 @@
             "birth": {
                 "original_string": "F. 3/12. 1880 á Vöglum.",
                 "date": "1880-12-03",
-                "location": "Voglar",
+                "location": "Vaglir",
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2934,21 +2982,21 @@
             "death": {
                 "original_string": "D. þar 27/9. 1896. 1)",
                 "date": "1896-09-27",
-                "location": "Voglar",
+                "location": "Vaglir",
                 "note_ref": 1,
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2999,20 +3047,22 @@
                 "original_string": "F. 3/12. 1880 á Vöglum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Voglar",
+                "location": "Vaglir",
+                "year_from_value": 1880,
+                "year_to_value": 1880,
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3023,29 +3073,29 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1880,
-                "year_to_value": 1880
+                }
             },
             {
                 "original_string": "Hjá for. á Vöglum (3) 1883- 1889- 1895.",
                 "year": "1883-1895",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Voglar",
+                "location": "Vaglir",
+                "year_from_value": 1883,
+                "year_to_value": 1895,
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3056,29 +3106,29 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1883,
-                "year_to_value": 1895
+                }
             },
             {
                 "year": "1896",
                 "original_string": "D. þar 27/9. 1896. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Voglar",
+                "location": "Vaglir",
+                "year_from_value": 1896,
+                "year_to_value": 1896,
                 "location_obj": {
-                    "id": 16627,
-                    "name": "Vogar",
-                    "lat": "65.6221",
-                    "lng": "-16.92176",
+                    "id": 1003587,
+                    "name": "Vaglir",
+                    "lat": "65.713616",
+                    "lng": "-17.876124",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3089,9 +3139,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1896,
-                "year_to_value": 1896
+                }
             }
         ],
         "notes": {
@@ -3653,6 +3701,8 @@
                 "age": null,
                 "status": "Hjú",
                 "location": "Grjótárgerði B.",
+                "year_from_value": 1895,
+                "year_to_value": 1895,
                 "location_obj": {
                     "id": 90001,
                     "name": "Grjótárgerði",
@@ -3676,9 +3726,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1895,
-                "year_to_value": 1895
+                }
             },
             {
                 "original_string": "Hjú á Syðrafjalli (33) 1897-1899.",
@@ -4208,11 +4256,11 @@
                 "year_to_value": 1875
             },
             {
-                "original_string": "G. húsk. á Vegeirsstöðum (40) 1876-",
+                "original_string": "G. húsk. á Végeirsstöðum (40) 1876-",
                 "year": "1876-",
                 "age": 40,
                 "status": "G. húsk.",
-                "location": "Vegeirsstaðir",
+                "location": "Végeirsstaðir",
                 "location_obj": {
                     "id": 12053,
                     "name": "Végeirsstaðir",

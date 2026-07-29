@@ -3117,7 +3117,31 @@
             "birth": {
                 "original_string": "F. 20/7 1844 í Grímshúsum.",
                 "date": "1844-07-20",
-                "location": "Grímshús"
+                "location": "Grímshús",
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3164,7 +3188,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Grímshús",
                 "year_from_value": 1844,
-                "year_to_value": 1844
+                "year_to_value": 1844,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá foreldrum í Grímshúsum 1845-1850, 2-7 ára.",
@@ -3174,7 +3222,31 @@
                 "location": "Grímshús",
                 "note": "2-7 ára",
                 "year_from_value": 1845,
-                "year_to_value": 1850
+                "year_to_value": 1850,
+                "location_obj": {
+                    "id": 90057,
+                    "name": "Grímshús",
+                    "lat": "65.821579",
+                    "lng": "-17.374514",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. að Daðastöðum 1850-51.",
@@ -3704,9 +3776,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 6/1 1794 á Guendarstöðum.",
+                "original_string": "F. 6/1 1794 á Gvendarstöðum.",
                 "date": "1794-01-06",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -3735,7 +3807,7 @@
             "death": {
                 "original_string": "D. þar 19/2 1846. K. 52 ára.",
                 "date": "1846-02-19",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -3772,7 +3844,7 @@
             {
                 "name": "Jón Jónsson",
                 "date": "1820-06-21",
-                "status": "á Guendarst., S. k. hans",
+                "status": "á Gvendarst., S. k. hans",
                 "names": [
                     "Jón",
                     "Jónsson"
@@ -3781,7 +3853,7 @@
                 "lastName": "Jónsson"
             }
         ],
-        "spouse_original_string": "M. 21/6 1820: Jón Jónsson (á Guendarst.) S. k. hans. L.",
+        "spouse_original_string": "M. 21/6 1820: Jón Jónsson (á Gvendarst.) S. k. hans. L.",
         "parents": [
             {
                 "name": "Sæm. Helgason",
@@ -3808,10 +3880,12 @@
         "residence_history": [
             {
                 "year": "1794",
-                "original_string": "F. 6/1 1794 á Guendarstöðum.",
+                "original_string": "F. 6/1 1794 á Gvendarstöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
+                "year_from_value": 1794,
+                "year_to_value": 1794,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -3835,17 +3909,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1794,
-                "year_to_value": 1794
+                }
             },
             {
-                "original_string": "Hjá for. á Guendarstöðum (11) 1801-1815-",
+                "original_string": "Hjá for. á Gvendarstöðum (11) 1801-1815-",
                 "year": "1801-1815",
                 "age": 11,
                 "status": "Hjá for.",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "note": "",
+                "year_from_value": 1801,
+                "year_to_value": 1815,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -3869,18 +3943,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1815
+                }
             },
             {
-                "original_string": "Húsfr. á Guendarstöðum (36) 1830-1838-1844. 1)",
+                "original_string": "Húsfr. á Gvendarstöðum (36) 1830-1838-1844. 1)",
                 "year": "1830-1838-1844",
                 "age": 36,
                 "status": "Húsfr.",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
                 "note": "",
                 "note_ref": 1,
+                "year_from_value": 1830,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -3904,15 +3977,16 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1830
+                }
             },
             {
                 "year": "1846",
                 "original_string": "D. þar 19/2 1846. K. 52 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Guendarstaðir",
+                "location": "Gvendarstaðir",
+                "year_from_value": 1846,
+                "year_to_value": 1846,
                 "location_obj": {
                     "id": 16598,
                     "name": "Gvendarstaðir",
@@ -3936,9 +4010,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1846,
-                "year_to_value": 1846
+                }
             }
         ],
         "notes": {

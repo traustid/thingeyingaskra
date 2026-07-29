@@ -123,6 +123,7 @@ export default function Person() {
 	const mapRef = useRef();
 
 	useEffect(() => {
+		setMapData([]);
 		fetch(config.apiRoot+'/person/'+personId)
 			.then(res => res.json())
 			.then(json => {
@@ -247,7 +248,12 @@ export default function Person() {
 									}
 
 								</div>
-								<div className="text-sm text-gray-500">{data.person.birth.original_string}</div>
+								<div className="text-sm text-gray-500">{data.person.birth.original_string}
+
+									{
+										data.person.birth.note_ref && <span> <sup title={data.notes && data.notes[data.person.birth.note_ref] ? data.notes[data.person.birth.note_ref] : null}>{data.person.death.note_ref}</sup></span>
+									}
+								</div>
 							</div>
 						</div>
 					}
@@ -263,7 +269,12 @@ export default function Person() {
 									}
 
 								</div>
-								<div className="text-sm text-gray-500">{data.person.death.original_string}</div>
+								<div className="text-sm text-gray-500">{data.person.death.original_string}
+									{
+										data.person.death.note_ref && <span> <sup title={data.notes && data.notes[data.person.death.note_ref] ? data.notes[data.person.death.note_ref] : null}>{data.person.death.note_ref}</sup></span>
+									}
+
+								</div>
 							</div>
 						</div>
 					}
@@ -306,7 +317,7 @@ export default function Person() {
 													!item.location_obj && <span>{item.location}</span>
 												}
 												{
-													item.note_ref && <span> <sup>{item.note_ref}</sup></span>
+													item.note_ref && <span> <sup title={data.notes && data.notes[item.note_ref] ? data.notes[item.note_ref] : null}>{item.note_ref}</sup></span>
 												}
 											</div>
 											<div className="w-2/6 text-sm italic">{item.original_string}</div>
