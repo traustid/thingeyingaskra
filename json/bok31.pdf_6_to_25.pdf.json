@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. 12/7. 1869 í S. Neslöndum.",
                 "date": "1869-07-12",
-                "location": "S. Neslöndum"
+                "location": "Syðri-Neslöndum",
+                "location_obj": {
+                    "id": 16626,
+                    "name": "Syðri-Neslönd",
+                    "lat": "65.619143",
+                    "lng": "-16.977638",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 26/5. 1872, 4 ára. - Barn frá Svartárkoti",
@@ -76,9 +100,33 @@
                 "original_string": "F. 12/7. 1869 í S. Neslöndum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "S. Neslöndum",
+                "location": "Syðri-Neslöndum",
                 "year_from_value": 1869,
-                "year_to_value": 1869
+                "year_to_value": 1869,
+                "location_obj": {
+                    "id": 16626,
+                    "name": "Syðri-Neslönd",
+                    "lat": "65.619143",
+                    "lng": "-16.977638",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í S. Neslöndum (1 árs) 1870-",

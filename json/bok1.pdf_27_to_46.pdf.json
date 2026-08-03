@@ -2471,7 +2471,31 @@
             "birth": {
                 "original_string": "F. 23/9 1815 í S.-Neslöndum.",
                 "date": "1815-09-23",
-                "location": "S.-Neslöndum"
+                "location": "Syðri-Neslöndum",
+                "location_obj": {
+                    "id": 16626,
+                    "name": "Syðri-Neslönd",
+                    "lat": "65.619143",
+                    "lng": "-16.977638",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á s.st. 12/8 1816.",
@@ -2516,9 +2540,33 @@
                 "original_string": "F. 23/9 1815 í S.-Neslöndum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "S.-Neslöndum",
+                "location": "Syðri-Neslöndum",
                 "year_from_value": 1815,
-                "year_to_value": 1815
+                "year_to_value": 1815,
+                "location_obj": {
+                    "id": 16626,
+                    "name": "Syðri-Neslönd",
+                    "lat": "65.619143",
+                    "lng": "-16.977638",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Syðri-Neslöndum (á 1.) 1816-",

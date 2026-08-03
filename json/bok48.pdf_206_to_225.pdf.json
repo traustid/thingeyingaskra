@@ -3087,7 +3087,31 @@
             "birth": {
                 "original_string": "F. 6/3. 1886 í S. Neslöndum.",
                 "date": "1886-03-06",
-                "location": "S. Neslöndum"
+                "location": "Syðri-Neslöndum",
+                "location_obj": {
+                    "id": 16626,
+                    "name": "Syðri-Neslönd",
+                    "lat": "65.619143",
+                    "lng": "-16.977638",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -3129,9 +3153,33 @@
                 "original_string": "F. 6/3. 1886 í S. Neslöndum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "S. Neslöndum",
+                "location": "Syðri-Neslöndum",
                 "year_from_value": 1886,
-                "year_to_value": 1886
+                "year_to_value": 1886,
+                "location_obj": {
+                    "id": 16626,
+                    "name": "Syðri-Neslönd",
+                    "lat": "65.619143",
+                    "lng": "-16.977638",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í S. Neslöndum (á l.) 1886-1892.",

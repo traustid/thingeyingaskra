@@ -2676,14 +2676,38 @@
                 "year_to_value": 1882
             },
             {
-                "original_string": "Léttast í S. Naslöndum (14) 1882-1883.",
+                "original_string": "Léttast í S. Neslöndum (14) 1882-1883.",
                 "year": "1882-1883",
                 "age": 14,
                 "status": "Léttast",
-                "location": "S. Naslönd",
+                "location": "Syðri-Neslönd",
                 "note": "",
                 "year_from_value": 1882,
-                "year_to_value": 1883
+                "year_to_value": 1883,
+                "location_obj": {
+                    "id": 16626,
+                    "name": "Syðri-Neslönd",
+                    "lat": "65.619143",
+                    "lng": "-16.977638",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttast og Hjú á Gautlöndum (16) 1884-1885.",
