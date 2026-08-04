@@ -2168,7 +2168,7 @@
             "birth": {
                 "original_string": "F. 31/1 1793 í Yztafelli.",
                 "date": "1793-01-31",
-                "location": "Yztafelli",
+                "location": "Ysta-Fell",
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -2197,7 +2197,7 @@
             "death": {
                 "original_string": "D. 10/1. 1860.",
                 "date": "1860-01-10",
-                "location": "Yztafelli",
+                "location": "Ysta-Fell",
                 "note_ref": 1,
                 "location_obj": {
                     "id": 16602,
@@ -2275,7 +2275,9 @@
                 "original_string": "F. 31/1 1793 í Yztafelli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztafelli",
+                "location": "Ysta-Fell",
+                "year_from_value": 1793,
+                "year_to_value": 1793,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -2299,17 +2301,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1793,
-                "year_to_value": 1793
+                }
             },
             {
                 "original_string": "Hjá for. í Yztafelli (9) 1801-1815-",
                 "year": "1801-1815",
                 "age": 9,
                 "status": "Hjá for.",
-                "location": "Yztafelli",
+                "location": "Ysta-Fell",
                 "note": "",
+                "year_from_value": 1801,
+                "year_to_value": 1815,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -2333,9 +2335,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1815
+                }
             },
             {
                 "original_string": "Vinnustýra á Breiðumýri 1826.",
@@ -2814,7 +2814,9 @@
                 "original_string": "D. 10/1. 1860.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Yztafelli",
+                "location": "Ysta-Fell",
+                "year_from_value": 1860,
+                "year_to_value": 1860,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -2838,9 +2840,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1860
+                }
             }
         ],
         "notes": {

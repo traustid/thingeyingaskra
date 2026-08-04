@@ -1172,7 +1172,7 @@
             "death": {
                 "original_string": "D. í Yztuvík 5/7 1882, 3 ára.",
                 "date": "1882-07-05",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1265,9 +1265,11 @@
                 "year": "1879-1882",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note": "ál.",
                 "note_ref": null,
+                "year_from_value": 1879,
+                "year_to_value": 1882,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1287,16 +1289,16 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1879,
-                "year_to_value": 1882
+                }
             },
             {
                 "year": "1882",
                 "original_string": "D. í Yztuvík 5/7 1882, 3 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
+                "year_from_value": 1882,
+                "year_to_value": 1882,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1316,9 +1318,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1882,
-                "year_to_value": 1882
+                }
             }
         ],
         "notes": {
@@ -1337,7 +1337,7 @@
             "birth": {
                 "original_string": "F. 1/9 1890 í Yztuvík.",
                 "date": "1890-09-01",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1402,7 +1402,9 @@
                 "original_string": "F. 1/9 1890 í Yztuvík.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
+                "year_from_value": 1890,
+                "year_to_value": 1890,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1422,9 +1424,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1890,
-                "year_to_value": 1890
+                }
             }
         ],
         "notes": {},

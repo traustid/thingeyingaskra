@@ -398,7 +398,7 @@
             "birth": {
                 "original_string": "F í Yztafelli 4/6. 1889 í Yztafelli.",
                 "date": "1889-06-04",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -475,7 +475,9 @@
                 "original_string": "F í Yztafelli 4/6. 1889 í Yztafelli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
+                "year_from_value": 1889,
+                "year_to_value": 1889,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -499,18 +501,18 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1889,
-                "year_to_value": 1889
+                }
             },
             {
                 "original_string": "Hjá for. í Yztafelli (á l.) 1889-1900-",
                 "year": "1889-1900-",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "note": "á l.",
                 "note_ref": null,
+                "year_from_value": 1889,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -534,9 +536,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1889,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},

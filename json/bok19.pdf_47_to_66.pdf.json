@@ -222,7 +222,7 @@
             "death": {
                 "original_string": "D. í Yztafelli 20/6. 1866.",
                 "date": "1866-06-20",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -714,7 +714,9 @@
                 "original_string": "D. í Yztafelli 20/6. 1866.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
+                "year_from_value": 1866,
+                "year_to_value": 1866,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -738,9 +740,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1866,
-                "year_to_value": 1866
+                }
             }
         ],
         "notes": {
@@ -1680,12 +1680,36 @@
                 "year_or_period": "1831-1832",
                 "age": 3,
                 "status": "Með for.",
-                "location": "Yztahvammi",
+                "location": "Ysti-Hvammur",
                 "note": "",
                 "note_ref": null,
                 "year": "1831-1832",
                 "year_from_value": 1831,
-                "year_to_value": 1832
+                "year_to_value": 1832,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Fagraneskoti 1850, 22 ára.",

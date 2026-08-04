@@ -659,7 +659,7 @@
             "birth": {
                 "original_string": "F. 10/5 1843 í Yztuvík.",
                 "date": "1843-05-10",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -736,7 +736,9 @@
                 "original_string": "F. 10/5 1843 í Yztuvík.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
+                "year_from_value": 1843,
+                "year_to_value": 1843,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -756,18 +758,18 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1843,
-                "year_to_value": 1843
+                }
             },
             {
                 "original_string": "Hjá for. í Yztuvík (1 viku) 1843 og 1845 - 1847 - 1878. (G.'73).",
                 "year": "1843, 1845-1878",
                 "age": null,
                 "status": "",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note": "1 viku, G.'73",
                 "note_ref": null,
+                "year_from_value": 1878,
+                "year_to_value": 1878,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -787,9 +789,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1878,
-                "year_to_value": 1878
+                }
             },
             {
                 "original_string": "Húsfr. á N.-Dálksst. (37) 1879 - 1887 -",
@@ -1806,9 +1806,11 @@
                 "year": "1890",
                 "age": 32,
                 "status": "G. húsfr.",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1890,
+                "year_to_value": 1890,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1828,9 +1830,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1890,
-                "year_to_value": 1890
+                }
             },
             {
                 "original_string": "G. húsfr. í Litlagerði (33) 1891- 1892",
@@ -4111,9 +4111,11 @@
                 "year": "1850-1858",
                 "age": 8,
                 "status": "",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "note": "Hjá for.",
                 "note_ref": null,
+                "year_from_value": 1850,
+                "year_to_value": 1858,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -4137,9 +4139,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1850,
-                "year_to_value": 1858
+                }
             },
             {
                 "original_string": "Húsfr. í Lundi (24) 1862.",

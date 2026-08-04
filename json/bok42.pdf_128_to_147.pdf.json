@@ -1125,10 +1125,34 @@
                 "year": "1844",
                 "age": 67,
                 "status": "B.",
-                "location": "Yztahvammsgerði",
+                "location": "Ystahvammsgerði",
                 "note": "",
                 "year_from_value": 1844,
-                "year_to_value": 1844
+                "year_to_value": 1844,
+                "location_obj": {
+                    "id": 90061,
+                    "name": "Ystahvammsgerði",
+                    "lat": "65.854864",
+                    "lng": "-17.357893",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2507,8 +2531,10 @@
                 "year": "1822-1848",
                 "age": 31,
                 "status": "B.",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "note": "Hrb.",
+                "year_from_value": 1822,
+                "year_to_value": 1848,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -2532,9 +2558,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1822,
-                "year_to_value": 1848
+                }
             },
             {
                 "original_string": "B. á Krossi... 1848-49. (Hrb.).",

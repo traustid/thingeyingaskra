@@ -6268,7 +6268,7 @@
             "death": {
                 "original_string": "D. í Yztafelli 16/1 1926.",
                 "date": "1926-01-16",
-                "location": "Yztafelli",
+                "location": "Ysta-Fell",
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -6445,8 +6445,10 @@
                 "year": "1863-1872",
                 "age": 11,
                 "status": "Fósturson",
-                "location": "Yztafelli",
+                "location": "Ysta-Fell",
                 "note": "þaðan",
+                "year_from_value": 1863,
+                "year_to_value": 1872,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -6470,17 +6472,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1863,
-                "year_to_value": 1872
+                }
             },
             {
                 "original_string": "Fyrirvinna í Yztafelli... 1866-89.",
                 "year": "1866-1889",
                 "age": null,
                 "status": "Fyrirvinna",
-                "location": "Yztafelli",
+                "location": "Ysta-Fell",
                 "note": "",
+                "year_from_value": 1866,
+                "year_to_value": 1889,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -6504,17 +6506,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1866,
-                "year_to_value": 1889
+                }
             },
             {
                 "original_string": "B. í Yztafelli... 1889-1900-",
                 "year": "1889-1900",
                 "age": null,
                 "status": "B.",
-                "location": "Yztafelli",
+                "location": "Ysta-Fell",
                 "note": "",
+                "year_from_value": 1889,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -6538,16 +6540,16 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1889,
-                "year_to_value": 1900
+                }
             },
             {
                 "year": "1926",
                 "original_string": "D. í Yztafelli 16/1 1926.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Yztafelli",
+                "location": "Ysta-Fell",
+                "year_from_value": 1926,
+                "year_to_value": 1926,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -6571,9 +6573,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1926,
-                "year_to_value": 1926
+                }
             }
         ],
         "notes": {},

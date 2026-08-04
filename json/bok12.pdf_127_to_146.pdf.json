@@ -1600,7 +1600,7 @@
             "birth": {
                 "original_string": "F. 2/2. 1882 í Yztuvík.",
                 "date": "1882-02-02",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1661,7 +1661,9 @@
                 "original_string": "F. 2/2. 1882 í Yztuvík.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
+                "year_from_value": 1882,
+                "year_to_value": 1882,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1681,18 +1683,18 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1882,
-                "year_to_value": 1882
+                }
             },
             {
                 "original_string": "Með móður í Yztuvík (á 1.) 1882.",
                 "year": "1882",
                 "age": null,
                 "status": "Með móður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note": "á 1.",
                 "note_ref": null,
+                "year_from_value": 1882,
+                "year_to_value": 1882,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1712,9 +1714,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1882,
-                "year_to_value": 1882
+                }
             },
             {
                 "original_string": "Hjá for. á Melum (2) 1883-1886.",

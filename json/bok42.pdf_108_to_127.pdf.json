@@ -2077,7 +2077,7 @@
             "birth": {
                 "original_string": "F. 4/5 1842 í Yztuvík",
                 "date": "1842-05-04",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -2155,7 +2155,9 @@
                 "original_string": "F. 4/5 1842 í Yztuvík",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
+                "year_from_value": 1842,
+                "year_to_value": 1842,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -2175,16 +2177,14 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1842,
-                "year_to_value": 1842
+                }
             },
             {
                 "original_string": "Hjá for. í Yztuvík (2) 1844–1847–1873.",
                 "year_or_period": "1844–1873",
                 "age": 2,
                 "status": "",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1844–1873",
@@ -2260,7 +2260,7 @@
                 "year_or_period": "1879–1899",
                 "age": null,
                 "status": "Bóndi",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note": "",
                 "note_ref": null,
                 "year": "1879–1899",
@@ -2302,7 +2302,31 @@
             "birth": {
                 "original_string": "F. 4/10 1842 í Yztahvammi",
                 "date": "1842-10-04",
-                "location": "Yztahvammur"
+                "location": "Ysti-Hvammur",
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2347,31 +2371,103 @@
                 "original_string": "F. 4/10 1842 í Yztahvammi",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztahvammur",
+                "location": "Ysti-Hvammur",
                 "year_from_value": 1842,
-                "year_to_value": 1842
+                "year_to_value": 1842,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Yztahvammi (2) 1844.",
                 "year_or_period": "1844",
                 "age": 2,
                 "status": "",
-                "location": "Yztahvammur",
+                "location": "Ysti-Hvammur",
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1844",
                 "year_from_value": 1844,
-                "year_to_value": 1844
+                "year_to_value": 1844,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. á sama bæ ... 1845–1847.",
                 "year_or_period": "1845–1847",
                 "age": null,
                 "status": "Niðursetningur",
-                "location": "Yztahvammur",
+                "location": "Ysti-Hvammur",
                 "note": "",
                 "note_ref": null,
-                "year": "1845–1847"
+                "year": "1845–1847",
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Hraungerði (6) 1848–1851–",

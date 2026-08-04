@@ -1193,11 +1193,35 @@
                 "year": "1842",
                 "age": 1,
                 "status": "Með móður",
-                "location": "Ystahvammi",
+                "location": "Ysti-Hvammur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1842,
-                "year_to_value": 1842
+                "year_to_value": 1842,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Grímshúsum 1843, 3 ára.",
@@ -3981,9 +4005,11 @@
                 "year": "1848-1863",
                 "age": null,
                 "status": "Býr",
-                "location": "Yztafelli",
+                "location": "Ysta-Fell",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1848,
+                "year_to_value": 1863,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -4007,9 +4033,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1848,
-                "year_to_value": 1863
+                }
             },
             {
                 "original_string": "Veitt Þingeyraklausturs-kall 1862.",

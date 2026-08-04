@@ -308,7 +308,7 @@
             "birth": {
                 "original_string": "F. 19/5 1833 í Yztuvík.",
                 "date": "1833-05-19",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -392,7 +392,9 @@
                 "original_string": "F. 19/5 1833 í Yztuvík.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
+                "year_from_value": 1833,
+                "year_to_value": 1833,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -412,17 +414,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1833,
-                "year_to_value": 1833
+                }
             },
             {
                 "original_string": "Hjá for. í Yztuvík (1 árs) 1834-1847-1868.",
                 "year": "1834-1868",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note": "",
+                "year_from_value": 1834,
+                "year_to_value": 1868,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -442,17 +444,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1834,
-                "year_to_value": 1868
+                }
             },
             {
                 "original_string": "Hjá móður í Yztuvík ... 1871-1873 (G.).",
                 "year": "1871-1873",
                 "age": null,
                 "status": "Hjá móður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note": "G.",
+                "year_from_value": 1871,
+                "year_to_value": 1873,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -472,9 +474,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1871,
-                "year_to_value": 1873
+                }
             },
             {
                 "original_string": "Húsfr. í Leifshúsum (43) 1875-1900-",

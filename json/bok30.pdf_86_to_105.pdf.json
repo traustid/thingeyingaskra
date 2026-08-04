@@ -1123,7 +1123,7 @@
             "birth": {
                 "original_string": "F. 10/9. 1794 í Yztafelli.",
                 "date": "1794-09-10",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -1205,7 +1205,9 @@
                 "original_string": "F. 10/9. 1794 í Yztafelli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
+                "year_from_value": 1794,
+                "year_to_value": 1794,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -1229,17 +1231,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1794,
-                "year_to_value": 1794
+                }
             },
             {
                 "original_string": "Hjá for. í Yztafelli (8) 1801-1815-",
                 "year": "1801-1815",
                 "age": 8,
                 "status": "Hjá for.",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "note": "",
+                "year_from_value": 1801,
+                "year_to_value": 1815,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -1263,9 +1265,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1815
+                }
             },
             {
                 "original_string": "þjónustust. í Nesi A. 1820-1821.",

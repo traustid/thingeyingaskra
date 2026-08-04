@@ -1030,10 +1030,34 @@
                 "year": "1831-1832",
                 "age": 48,
                 "status": "G. húsm.",
-                "location": "Yztahvammur",
+                "location": "Ysti-Hvammur",
                 "note": "",
                 "year_from_value": 1831,
-                "year_to_value": 1832
+                "year_to_value": 1832,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. grass húsm. á Ytrafjalli (51) 1835-1837.",
@@ -2528,8 +2552,10 @@
                 "year": "1863-1872",
                 "age": 64,
                 "status": "Faðir K.",
-                "location": "Yztafelli",
+                "location": "Ysta-Fell",
                 "note": "frá Grænavatni",
+                "year_from_value": 1863,
+                "year_to_value": 1872,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -2553,9 +2579,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1863,
-                "year_to_value": 1872
+                }
             }
         ],
         "notes": {},

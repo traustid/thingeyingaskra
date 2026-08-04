@@ -1558,7 +1558,7 @@
             "birth": {
                 "original_string": "F. 1/10. 1852 í Yztafelli.",
                 "date": "1852-10-01",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -1639,7 +1639,9 @@
                 "original_string": "F. 1/10. 1852 í Yztafelli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
+                "year_from_value": 1852,
+                "year_to_value": 1852,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -1663,18 +1665,18 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1852,
-                "year_to_value": 1852
+                }
             },
             {
                 "original_string": "Hjá for. í Yztafelli (3) 1855-1858-",
                 "year": "1855-1858",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1855,
+                "year_to_value": 1858,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -1698,9 +1700,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1855,
-                "year_to_value": 1858
+                }
             },
             {
                 "original_string": "Húsfr. á Víðivöllum (36) 1889-1900-",
@@ -1752,7 +1752,7 @@
             "birth": {
                 "original_string": "F. 3/1. 1835 í Yztafelli.",
                 "date": "1835-01-03",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -1781,7 +1781,7 @@
             "death": {
                 "original_string": "D. í Yztafelli 14/12. 1890. - G., 56 ára",
                 "date": "1890-12-14",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -1857,7 +1857,9 @@
                 "original_string": "F. 3/1. 1835 í Yztafelli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
+                "year_from_value": 1835,
+                "year_to_value": 1835,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -1881,9 +1883,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1835,
-                "year_to_value": 1835
+                }
             },
             {
                 "original_string": "Hjá for. í Stóretungu (1 árs) 1835-1860.",
@@ -2085,9 +2085,11 @@
                 "year": "1889",
                 "age": 56,
                 "status": "A sv.",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1889,
+                "year_to_value": 1889,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -2111,16 +2113,16 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1889,
-                "year_to_value": 1889
+                }
             },
             {
                 "year": "1890",
                 "original_string": "D. í Yztafelli 14/12. 1890. - G., 56 ára",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
+                "year_from_value": 1890,
+                "year_to_value": 1890,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -2144,9 +2146,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1890,
-                "year_to_value": 1890
+                }
             }
         ],
         "notes": {},

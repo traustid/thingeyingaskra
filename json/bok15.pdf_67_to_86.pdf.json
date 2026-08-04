@@ -153,7 +153,7 @@
             "birth": {
                 "original_string": "F. 4/5 1833 í Yztafelli.",
                 "date": "1833-05-04",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -222,7 +222,9 @@
                 "original_string": "F. 4/5 1833 í Yztafelli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
+                "year_from_value": 1833,
+                "year_to_value": 1833,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -246,19 +248,19 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1833,
-                "year_to_value": 1833
+                }
             },
             {
                 "original_string": "Með móður í Yztafelli (1 árs) 1834-1838-",
                 "year_or_period": "1834-1838",
                 "age": 1,
                 "status": "Með móður",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "note": "",
                 "note_ref": null,
                 "year": "1834-1838",
+                "year_from_value": 1834,
+                "year_to_value": 1838,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -282,9 +284,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1834,
-                "year_to_value": 1838
+                }
             }
         ],
         "notes": {},

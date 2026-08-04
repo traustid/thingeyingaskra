@@ -3347,7 +3347,7 @@
             "birth": {
                 "original_string": "F. 28/10. 1882 í Yztafelli.",
                 "date": "1882-10-28",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -3428,7 +3428,9 @@
                 "original_string": "F. 28/10. 1882 í Yztafelli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
+                "year_from_value": 1882,
+                "year_to_value": 1882,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -3452,17 +3454,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1882,
-                "year_to_value": 1882
+                }
             },
             {
                 "original_string": "Tökub. í Yztafelli (6)–1888.",
                 "year": "1888",
                 "age": 6,
                 "status": "Tökub.",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "note": "",
+                "year_from_value": 1888,
+                "year_to_value": 1888,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -3486,9 +3488,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1888,
-                "year_to_value": 1888
+                }
             },
             {
                 "original_string": "Með for. á Skútustöðum (8) 1889–1900–",

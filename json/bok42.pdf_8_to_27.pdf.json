@@ -1087,7 +1087,7 @@
             "birth": {
                 "original_string": "F. 21/1 1870 í Yztuvík.",
                 "date": "1870-01-21",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1112,7 +1112,7 @@
             "death": {
                 "original_string": "D. í Yztuvík 5/4 1902, 32 ára.",
                 "date": "1902-04-05",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note_ref": 1,
                 "location_obj": {
                     "id": 15849,
@@ -1173,7 +1173,9 @@
                 "original_string": "F. 21/1 1870 í Yztuvík.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
+                "year_from_value": 1870,
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1193,17 +1195,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1870
+                }
             },
             {
                 "original_string": "Hjá for. í Yztuvík (1 árs) 1870-1873.",
                 "year": "1870-1873",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note": "1 árs",
+                "year_from_value": 1870,
+                "year_to_value": 1873,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1223,9 +1225,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1873
+                }
             },
             {
                 "original_string": "Hjá for. í Sauðabrekkugerði (5) 1874.",
@@ -1252,8 +1252,10 @@
                 "year": "1879-1895",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note": "",
+                "year_from_value": 1879,
+                "year_to_value": 1895,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1273,16 +1275,16 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1879,
-                "year_to_value": 1895
+                }
             },
             {
                 "year": "1902",
                 "original_string": "D. í Yztuvík 5/4 1902, 32 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
+                "year_from_value": 1902,
+                "year_to_value": 1902,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1302,9 +1304,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1902,
-                "year_to_value": 1902
+                }
             }
         ],
         "notes": {

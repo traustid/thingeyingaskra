@@ -952,7 +952,7 @@
             "birth": {
                 "original_string": "F. 31/12. 1896 í Yztuvík.",
                 "date": "1896-12-31",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1014,7 +1014,9 @@
                 "original_string": "F. 31/12. 1896 í Yztuvík.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
+                "year_from_value": 1896,
+                "year_to_value": 1896,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1034,17 +1036,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1896,
-                "year_to_value": 1896
+                }
             },
             {
                 "original_string": "Með for. í Yztuvík (á 1.) 1897.",
                 "year": "1897",
                 "age": 1,
                 "status": "Með for.",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note": "",
+                "year_from_value": 1897,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1064,9 +1066,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1897,
-                "year_to_value": 1897
+                }
             }
         ],
         "notes": {},

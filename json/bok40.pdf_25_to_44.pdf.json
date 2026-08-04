@@ -7,7 +7,7 @@
             "birth": {
                 "original_string": "F. 9/1. 1838. í Yztuvík",
                 "date": "1838-01-09",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -32,7 +32,7 @@
             "death": {
                 "original_string": "D. par 15/7. 1869, 31 árs. 1)",
                 "date": "1869-07-15",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note_ref": 1,
                 "location_obj": {
                     "id": 15849,
@@ -67,7 +67,7 @@
         "parents": [
             {
                 "name": "J. Guðmundsson",
-                "note": "Yztuvík",
+                "note": "Ysta-Vík",
                 "names": [
                     "J.",
                     "Guðmundsson"
@@ -93,7 +93,9 @@
                 "original_string": "F. 9/1. 1838. í Yztuvík",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
+                "year_from_value": 1838,
+                "year_to_value": 1838,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -113,16 +115,14 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1838,
-                "year_to_value": 1838
+                }
             },
             {
                 "original_string": "Hjá for. í Yztuvík (1/2 árs) 1838—1847—1868.",
                 "year_or_period": "1838—1847—1868",
                 "age": 0.5,
                 "status": "Hjá for.",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note": "",
                 "year": "1838—1847—1868",
                 "location_obj": {
@@ -151,7 +151,9 @@
                 "original_string": "D. par 15/7. 1869, 31 árs. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
+                "year_from_value": 1869,
+                "year_to_value": 1869,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -171,9 +173,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1869,
-                "year_to_value": 1869
+                }
             }
         ],
         "notes": {

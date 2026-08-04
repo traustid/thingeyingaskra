@@ -340,8 +340,32 @@
             "death": {
                 "original_string": "D. í Yztahvammi 7/3. 1898.",
                 "date": "1898-03-07",
-                "location": "Yztahvammur",
-                "note_ref": 1
+                "location": "Ysti-Hvammur",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Elísabet",
@@ -836,11 +860,35 @@
                 "year_or_period": "1890-1897",
                 "age": 80,
                 "status": "Móðir B.",
-                "location": "Yztahvammur",
+                "location": "Ysti-Hvammur",
                 "note": "",
                 "year": "1890-1897",
                 "year_from_value": 1890,
-                "year_to_value": 1897
+                "year_to_value": 1897,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. Hjú á Bjarnarst. B. (53) 1864-66.",
@@ -952,9 +1000,33 @@
                 "original_string": "D. í Yztahvammi 7/3. 1898.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Yztahvammur",
+                "location": "Ysti-Hvammur",
                 "year_from_value": 1898,
-                "year_to_value": 1898
+                "year_to_value": 1898,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

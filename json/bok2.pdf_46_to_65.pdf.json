@@ -3568,7 +3568,7 @@
             "death": {
                 "original_string": "D. í Yztafelli 16/10 1831, 93 ára.",
                 "date": "1831-10-16",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -3691,8 +3691,10 @@
                 "year": "1809-1812",
                 "age": 70,
                 "status": "G. kona",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "note": "",
+                "year_from_value": 1809,
+                "year_to_value": 1812,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -3716,17 +3718,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1809,
-                "year_to_value": 1812
+                }
             },
             {
                 "original_string": "Próventuk. í Yztafelli . . . 1815-1830 - (þá 90 ára).",
                 "year": "1815-1830",
                 "age": null,
                 "status": "Próventuk.",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "note": "þá 90 ára",
+                "year_from_value": 1815,
+                "year_to_value": 1830,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -3750,16 +3752,16 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1815,
-                "year_to_value": 1830
+                }
             },
             {
                 "year": "1831",
                 "original_string": "D. í Yztafelli 16/10 1831, 93 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
+                "year_from_value": 1831,
+                "year_to_value": 1831,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -3783,9 +3785,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1831,
-                "year_to_value": 1831
+                }
             }
         ],
         "notes": {

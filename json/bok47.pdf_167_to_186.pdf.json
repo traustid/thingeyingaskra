@@ -3463,7 +3463,7 @@
             "birth": {
                 "original_string": "F. 12/8 1869 í Yztafelli.",
                 "date": "1869-08-12",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -3544,7 +3544,9 @@
                 "original_string": "F. 12/8 1869 í Yztafelli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
+                "year_from_value": 1869,
+                "year_to_value": 1869,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -3568,18 +3570,18 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1869,
-                "year_to_value": 1869
+                }
             },
             {
                 "original_string": "Hjá móður í Yztafelli (1 árs) 1870-1872-",
                 "year": "1870-1872",
                 "age": 1,
                 "status": "Hjá móður",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1870,
+                "year_to_value": 1872,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -3603,18 +3605,18 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1872
+                }
             },
             {
                 "original_string": "Hjá móður í Yztafelli (19)-1888.",
                 "year": "1888",
                 "age": 19,
                 "status": "Hjá móður",
-                "location": "Yztafell",
+                "location": "Ysta-Fell",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1888,
+                "year_to_value": 1888,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -3638,9 +3640,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1888,
-                "year_to_value": 1888
+                }
             },
             {
                 "original_string": "Hjá móður á Skútustöðum (21) 1889-1900-",

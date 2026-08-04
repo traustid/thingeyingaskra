@@ -2108,7 +2108,31 @@
             "birth": {
                 "original_string": "F. um 1769. í Yztahvammi.",
                 "date": "1769-01-01",
-                "location": "Yztahvammur"
+                "location": "Ysti-Hvammur",
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 9/10. 1838, 72 ára.",
@@ -2166,9 +2190,33 @@
                 "original_string": "F. um 1769. í Yztahvammi.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztahvammur",
+                "location": "Ysti-Hvammur",
                 "year_from_value": 1769,
-                "year_to_value": 1769
+                "year_to_value": 1769,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Hólmavaði (32 ára) 1801 — 1838. 1)",

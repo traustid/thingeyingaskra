@@ -1174,7 +1174,7 @@
             "birth": {
                 "original_string": "F. 6/11 1883 í Yztuvík.",
                 "date": "1883-11-06",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1250,7 +1250,9 @@
                 "original_string": "F. 6/11 1883 í Yztuvík.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
+                "year_from_value": 1883,
+                "year_to_value": 1883,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1270,17 +1272,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1883,
-                "year_to_value": 1883
+                }
             },
             {
                 "original_string": "Hjá for. í Yztuvík (1 árs) 1884-1887- 1900.",
                 "year": "1884-1900",
                 "age": 1,
                 "status": "Barn",
-                "location": "Yztuvík",
+                "location": "Ysta-Vík",
                 "note": "",
+                "year_from_value": 1884,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 15849,
                     "name": "Ysta-Vík",
@@ -1300,9 +1302,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1884,
-                "year_to_value": 1900
+                }
             },
             {
                 "year": "1941",
@@ -2300,8 +2300,10 @@
                 "year": "1863-1864",
                 "age": 23,
                 "status": "Hjú",
-                "location": "Yztafelli",
+                "location": "Ysta-Fell",
                 "note": "",
+                "year_from_value": 1863,
+                "year_to_value": 1864,
                 "location_obj": {
                     "id": 16602,
                     "name": "Ystafell",
@@ -2325,9 +2327,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1863,
-                "year_to_value": 1864
+                }
             },
             {
                 "original_string": "Hjú á Þóroddsstað (27) 1865.",
