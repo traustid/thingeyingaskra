@@ -551,15 +551,39 @@
                 "year_to_value": 1850
             },
             {
-                "original_string": "G. hjú á Grenavatni -1855-1858.",
+                "original_string": "G. hjú á Grænavatni -1855-1858.",
                 "year_or_period": "1855-1858",
                 "age": null,
                 "status": "G. hjú",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "",
                 "year": "1855-1858",
                 "year_from_value": 1855,
-                "year_to_value": 1858
+                "year_to_value": 1858,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. Hjú (53) frá Litluströnd að Svínadal 1859.",
@@ -1009,6 +1033,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Einarsstaðir Stórulaugum",
+                "year_from_value": 1870,
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 16546,
                     "name": "Einarsstaðir",
@@ -1032,9 +1058,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1870
+                }
             },
             {
                 "original_string": "Tökub. í Sandvík (9) 1881.",
@@ -4323,6 +4347,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Kvíslarhóll",
+                "year_from_value": 1845,
+                "year_to_value": 1845,
                 "location_obj": {
                     "id": 16633,
                     "name": "Kvíslarhóll",
@@ -4346,9 +4372,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1845,
-                "year_to_value": 1845
+                }
             },
             {
                 "original_string": "Hjá for. á Kvíslarhóli (1 árs) 1845-1852.",
@@ -4358,6 +4382,8 @@
                 "location": "Kvíslarhóll",
                 "note": "",
                 "year": "1845-1852",
+                "year_from_value": 1845,
+                "year_to_value": 1852,
                 "location_obj": {
                     "id": 16633,
                     "name": "Kvíslarhóll",
@@ -4381,9 +4407,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1845,
-                "year_to_value": 1852
+                }
             },
             {
                 "original_string": "Tökub. á Hringveri (8 ára) 1853-1854-",
@@ -4428,6 +4452,8 @@
                 "location": "Kvíslarhóll",
                 "note": "",
                 "year": "1856-1858",
+                "year_from_value": 1856,
+                "year_to_value": 1858,
                 "location_obj": {
                     "id": 16633,
                     "name": "Kvíslarhóll",
@@ -4451,9 +4477,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1856,
-                "year_to_value": 1858
+                }
             },
             {
                 "original_string": "Léttakind í Syðritungu (13 ára) 1859-1860.",
@@ -4974,6 +4998,8 @@
                 "location": "Einarsstaðir",
                 "note": "Fermd (frá Hömrum)",
                 "year": "1862",
+                "year_from_value": 1862,
+                "year_to_value": 1862,
                 "location_obj": {
                     "id": 16546,
                     "name": "Einarsstaðir",
@@ -4997,9 +5023,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1862,
-                "year_to_value": 1862
+                }
             },
             {
                 "original_string": "Hjá for. í Vallakoti (32) - 1880-",

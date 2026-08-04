@@ -293,7 +293,31 @@
             "birth": {
                 "original_string": "F. 2/11. 1853 í Skriðu.",
                 "date": "1853-11-02",
-                "location": "Skriða"
+                "location": "Rauðaskriða",
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 3/3 1921",
@@ -350,9 +374,33 @@
                 "original_string": "F. 2/11. 1853 í Skriðu.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skriða",
+                "location": "Rauðaskriða",
                 "year_from_value": 1853,
-                "year_to_value": 1853
+                "year_to_value": 1853,
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Rauðuskriðu 1854-60 (á 1.-8. ári).",
@@ -425,15 +473,39 @@
                 "year_to_value": 1860
             },
             {
-                "original_string": "Hjú á Grenavatni (19) 1871.-",
+                "original_string": "Hjú á Grænavatni (19) 1871.-",
                 "year": "1871-",
                 "age": 19,
                 "status": "Hjú",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1871,
-                "year_to_value": 1871
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. í Haganesi (22) 1874-1877.",
@@ -3115,9 +3187,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 8/5. 1849 á Jarfast. A.",
+                "original_string": "F. 8/5. 1849 á Jarlssst. A.",
                 "date": "1849-05-08",
-                "location": "Jarfastöðir, A."
+                "location": "Jarlssstaðir, A."
             },
             "death": {
                 "original_string": "",
@@ -3171,23 +3243,47 @@
         "residence_history": [
             {
                 "year": "1849",
-                "original_string": "F. 8/5. 1849 á Jarfast. A.",
+                "original_string": "F. 8/5. 1849 á Jarlssst. A.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Jarfastöðir, A.",
+                "location": "Jarlssstaðir, A.",
                 "year_from_value": 1849,
                 "year_to_value": 1849
             },
             {
-                "original_string": "Hjá for. á Lýtrafjalli 1850.",
+                "original_string": "Hjá for. á Ytra-Fjalli 1850.",
                 "year": "1850",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Lýtrafjall",
+                "location": "Ytra-Fjall",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1850,
-                "year_to_value": 1850
+                "year_to_value": 1850,
+                "location_obj": {
+                    "id": 16504,
+                    "name": "Ytra-Fjall",
+                    "lat": "65.853096",
+                    "lng": "-17.425314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Miðhvammi (2) 1851-1856.",
@@ -3260,15 +3356,39 @@
                 "year_to_value": 1858
             },
             {
-                "original_string": "Tökust. á Einarsst., Þ.hv. (12 ára) 1862.",
+                "original_string": "Tökust. á Einarsst., R.hv. (12 ára) 1862.",
                 "year": "1862",
                 "age": 12,
                 "status": "Tökust.",
-                "location": "Einarsstaðir, Þ.hv.",
+                "location": "Einarsstaðir, R.hv.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1862,
-                "year_to_value": 1862
+                "year_to_value": 1862,
+                "location_obj": {
+                    "id": 25978,
+                    "name": "Einarsstaðir",
+                    "lat": "65.951317",
+                    "lng": "-17.304459",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá móður í Miðhvammi 1863.",
@@ -3313,6 +3433,8 @@
                 "location": "Ytra-Fjall",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1864,
+                "year_to_value": 1864,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -3336,9 +3458,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1864,
-                "year_to_value": 1864
+                }
             },
             {
                 "original_string": "Hjú á Helgastöðum (19) 1867-68.",
@@ -3376,15 +3496,39 @@
                 "year_to_value": 1868
             },
             {
-                "original_string": "Hjú að Syðrahóli, Þrj. (19) 1867-",
+                "original_string": "Hjú að Syðrahóli, Fnj. (19) 1867-",
                 "year": "1867-",
                 "age": 19,
                 "status": "Hjú",
-                "location": "Syðri-Hóll, Þrj.",
+                "location": "Syðri-Hóll, Fnj.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1867,
-                "year_to_value": 1867
+                "year_to_value": 1867,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Laxamýri (21 ára) 1873-1876.",

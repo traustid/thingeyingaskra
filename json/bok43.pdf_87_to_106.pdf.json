@@ -528,24 +528,72 @@
                 "year_or_period": "1893",
                 "age": 21,
                 "status": "Hjú",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "",
                 "note_ref": null,
                 "year": "1893",
                 "year_from_value": 1893,
-                "year_to_value": 1893
+                "year_to_value": 1893,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Haga (22) 1894-1900-",
                 "year_or_period": "1894-1900",
                 "age": 22,
                 "status": "Húsfr.",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "",
                 "note_ref": null,
                 "year": "1894-1900",
                 "year_from_value": 1894,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1666,6 +1714,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1899",
+                "year_from_value": 1899,
+                "year_to_value": 1899,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -1689,9 +1739,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1899,
-                "year_to_value": 1899
+                }
             }
         ],
         "notes": {},
@@ -1922,6 +1970,8 @@
                 "note": "Hjá föður",
                 "note_ref": null,
                 "year": "1898-1899",
+                "year_from_value": 1898,
+                "year_to_value": 1899,
                 "location_obj": {
                     "id": 90005,
                     "name": "Jarlsstaðir",
@@ -1945,9 +1995,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1898,
-                "year_to_value": 1899
+                }
             },
             {
                 "original_string": "Systir konu (Jóns G.) í Húsavík (26 ára) 1900.",

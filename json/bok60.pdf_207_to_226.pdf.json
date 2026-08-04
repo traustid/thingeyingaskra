@@ -2272,10 +2272,10 @@
                 "year_to_value": 1857
             },
             {
-                "original_string": "Lettadr. í Grýtu (15) 1857-1860. (Vin. '60).",
+                "original_string": "Léttadr. í Grýtu (15) 1857-1860. (Vin. '60).",
                 "year": "1857-1860",
                 "age": 15,
-                "status": "Lettadr.",
+                "status": "Léttadr.",
                 "location": "Grýtu",
                 "note": "Vin. '60",
                 "note_ref": null,
@@ -2787,7 +2787,31 @@
             "birth": {
                 "original_string": "F. 9/8. 1834 í Haga.",
                 "date": "1834-08-09",
-                "location": "Haga"
+                "location": "Hagi",
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D.",
@@ -2832,20 +2856,68 @@
                 "original_string": "F. 9/8. 1834 í Haga.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Haga",
+                "location": "Hagi",
                 "year_from_value": 1834,
-                "year_to_value": 1834
+                "year_to_value": 1834,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Haga (á 1.) 1834.",
                 "year": "1834",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1834,
-                "year_to_value": 1834
+                "year_to_value": 1834,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2984,10 +3056,10 @@
                 "year_to_value": 1866
             },
             {
-                "original_string": "Lettadr. í Garðsvík (15) 1870-1871.",
+                "original_string": "Léttadr. í Garðsvík (15) 1870-1871.",
                 "year": "1870-1871",
                 "age": 15,
-                "status": "Lettadr.",
+                "status": "Léttadr.",
                 "location": "Garðsvík",
                 "note": "",
                 "note_ref": null,
@@ -3370,10 +3442,10 @@
                 "year_to_value": 1864
             },
             {
-                "original_string": "Lettadr. - frá Glaumbæjarseli að Helgast. (15) 1865-66.",
+                "original_string": "Léttadr. - frá Glaumbæjarseli að Helgast. (15) 1865-66.",
                 "year": "1865-1866",
                 "age": 15,
-                "status": "Lettadr.",
+                "status": "Léttadr.",
                 "location": "Helgastaðir",
                 "note": "frá Glaumbæjarseli",
                 "note_ref": null,
@@ -4827,10 +4899,10 @@
                 "year_to_value": 1856
             },
             {
-                "original_string": "Lettadr. í Breiðuvík 1857.",
+                "original_string": "Léttadr. í Breiðuvík 1857.",
                 "year": "1857",
                 "age": null,
-                "status": "Lettadr.",
+                "status": "Léttadr.",
                 "location": "Breiðuvík",
                 "note": "",
                 "note_ref": null,
@@ -4897,10 +4969,10 @@
                 "year_to_value": 1859
             },
             {
-                "original_string": "Lettadr í Breiðuvík 1860.",
+                "original_string": "Léttadr í Breiðuvík 1860.",
                 "year": "1860",
                 "age": null,
-                "status": "Lettadr",
+                "status": "Léttadr",
                 "location": "Breiðuvík",
                 "note": "",
                 "note_ref": null,

@@ -1878,7 +1878,7 @@
             {
                 "name": "Jóhannes Jónsson",
                 "date": "1828-04-04",
-                "status": "í Fosseli",
+                "status": "í Fossseli",
                 "names": [
                     "Jóhannes",
                     "Jónsson"
@@ -1887,7 +1887,7 @@
                 "lastName": "Jónsson"
             }
         ],
-        "spouse_original_string": "M. 4/4 1828: Jóhannes Jónsson (í Fosseli).",
+        "spouse_original_string": "M. 4/4 1828: Jóhannes Jónsson (í Fossseli).",
         "parents": [
             {
                 "name": "H. Þorkelsson",
@@ -2144,13 +2144,37 @@
                 "year_to_value": 1825
             },
             {
-                "original_string": "Húsfr. í Fosseli 1828-38.",
+                "original_string": "Húsfr. í Fossseli 1828-38.",
                 "year": "1828-1838",
                 "age": null,
-                "location": "Fossell",
+                "location": "Fosssell",
                 "status": "Húsfrú",
                 "year_from_value": 1828,
-                "year_to_value": 1838
+                "year_to_value": 1838,
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. á Hömrum 1838-40.",
@@ -2186,16 +2210,40 @@
                 "year_to_value": 1840
             },
             {
-                "original_string": "Húsfr. í Fosseli 1841-44.",
+                "original_string": "Húsfr. í Fossseli 1841-44.",
                 "year": "1841-1844",
                 "age": null,
-                "location": "Fossell",
+                "location": "Fosssell",
                 "status": "Húsfrú",
                 "year_from_value": 1841,
-                "year_to_value": 1844
+                "year_to_value": 1844,
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Húsfr. Frá Fosseli að Glaumbæ (45) 1844-47.",
+                "original_string": "Húsfr. Frá Fossseli að Glaumbæ (45) 1844-47.",
                 "year": "1844-1847",
                 "age": 45,
                 "location": "Glaumbær",
@@ -2503,6 +2551,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Jarlsstaðir, Grýt.",
+                "year_from_value": 1857,
+                "year_to_value": 1857,
                 "location_obj": {
                     "id": 1004895,
                     "name": "Jarlsstaðir",
@@ -2526,9 +2576,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1857,
-                "year_to_value": 1857
+                }
             },
             {
                 "original_string": "Hjá for. á Jarlsst. Grýt. (á l.) 1857.",
@@ -2537,6 +2585,8 @@
                 "status": "",
                 "location": "Jarlsstaðir, Grýt.",
                 "note": "á l.",
+                "year_from_value": 1857,
+                "year_to_value": 1857,
                 "location_obj": {
                     "id": 1004895,
                     "name": "Jarlsstaðir",
@@ -2560,9 +2610,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1857,
-                "year_to_value": 1857
+                }
             },
             {
                 "year": "1858",
@@ -2570,6 +2618,8 @@
                 "age": 0,
                 "status": "Dánarstaður",
                 "location": "Jarlsstaðir, Grýt.",
+                "year_from_value": 1858,
+                "year_to_value": 1858,
                 "location_obj": {
                     "id": 1004895,
                     "name": "Jarlsstaðir",
@@ -2593,9 +2643,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1858,
-                "year_to_value": 1858
+                }
             }
         ],
         "notes": {

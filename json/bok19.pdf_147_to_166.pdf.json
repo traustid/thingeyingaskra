@@ -233,6 +233,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1829-1831",
+                "year_from_value": 1829,
+                "year_to_value": 1831,
                 "location_obj": {
                     "id": 15272,
                     "name": "Kotungsstaðir",
@@ -252,9 +254,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1829,
-                "year_to_value": 1831
+                }
             }
         ],
         "notes": {},
@@ -373,12 +373,36 @@
                 "year_or_period": "1832",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "",
                 "note_ref": null,
                 "year": "1832",
                 "year_from_value": 1832,
-                "year_to_value": 1832
+                "year_to_value": 1832,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Geitafelli (3) 1835-1842.",
@@ -1076,7 +1100,6 @@
                 "note": "Hofshópsþingum",
                 "names": [
                     "Björn",
-                    "pr.",
                     "Björnsson"
                 ],
                 "firstName": "Björn",
@@ -1519,7 +1542,6 @@
                 "status": "",
                 "names": [
                     "Einar",
-                    "pr.",
                     "Tómasson"
                 ],
                 "firstName": "Einar",
@@ -1531,7 +1553,6 @@
                 "status": "",
                 "names": [
                     "Jón",
-                    "pr.",
                     "Sigurðsson"
                 ],
                 "firstName": "Jón",
@@ -1554,7 +1575,6 @@
                 "status": "",
                 "names": [
                     "Einar",
-                    "pr.",
                     "Hjaltason"
                 ],
                 "firstName": "Einar",

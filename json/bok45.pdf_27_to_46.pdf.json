@@ -36,7 +36,31 @@
             "death": {
                 "original_string": "D. á Grenav., 4 ára 12/5. 1840",
                 "date": "1840-05-12",
-                "location": "Grenavatn"
+                "location": "Grænavatn",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Kristín",
@@ -140,24 +164,72 @@
                 "year_to_value": 1837
             },
             {
-                "original_string": "Hjá for. á Grenavatni (3) 1839-",
+                "original_string": "Hjá for. á Grænavatni (3) 1839-",
                 "year": "1839",
                 "age": 3,
                 "status": "",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1839,
-                "year_to_value": 1839
+                "year_to_value": 1839,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1840",
                 "original_string": "D. á Grenav., 4 ára 12/5. 1840",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "year_from_value": 1840,
-                "year_to_value": 1840
+                "year_to_value": 1840,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2253,6 +2325,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Ytra-Fjall",
+                "year_from_value": 1870,
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -2276,9 +2350,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1870
+                }
             },
             {
                 "original_string": "Hjá for. á Ytrafjalli (1 árs) 1870-1872.",
@@ -2288,6 +2360,8 @@
                 "location": "Ytra-Fjall",
                 "note": "Hjá foreldrum",
                 "note_ref": null,
+                "year_from_value": 1870,
+                "year_to_value": 1872,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -2311,9 +2385,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1872
+                }
             },
             {
                 "original_string": "Hjú á Þverá R. (13) 1883-1885.",
@@ -3063,6 +3135,8 @@
                 "location": "Ytra-Fjall",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1875,
+                "year_to_value": 1875,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -3086,9 +3160,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1875,
-                "year_to_value": 1875
+                }
             },
             {
                 "original_string": "Hjú í Happast. seli (16) 1877.",
@@ -3194,6 +3266,8 @@
                 "location": "Ytra-Fjall",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1884,
+                "year_to_value": 1884,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -3217,9 +3291,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1884,
-                "year_to_value": 1884
+                }
             },
             {
                 "original_string": "G. húsk. á Mýlaugstöðum (25) 1885.",

@@ -732,7 +732,31 @@
             "death": {
                 "original_string": "D. í Skriðu 18/3. 1860, 71 ára",
                 "date": "1860-03-18",
-                "location": "Skriða"
+                "location": "Rauðaskriða",
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Sigríður",
@@ -1057,9 +1081,33 @@
                 "original_string": "D. í Skriðu 18/3. 1860, 71 ára",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Skriða",
+                "location": "Rauðaskriða",
                 "year_from_value": 1860,
-                "year_to_value": 1860
+                "year_to_value": 1860,
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1758,6 +1806,8 @@
                 "status": "E. búandi",
                 "location": "Kotungsstaðir",
                 "note": "",
+                "year_from_value": 1801,
+                "year_to_value": 1801,
                 "location_obj": {
                     "id": 15272,
                     "name": "Kotungsstaðir",
@@ -1777,9 +1827,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1801
+                }
             },
             {
                 "original_string": "Húsfr. í Fjósatungu (43) 1802-",
@@ -3806,6 +3854,8 @@
                 "status": "Vinnust.",
                 "location": "Hagi",
                 "note": "",
+                "year_from_value": 1837,
+                "year_to_value": 1837,
                 "location_obj": {
                     "id": 24331,
                     "name": "Hagi",
@@ -3829,9 +3879,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1837,
-                "year_to_value": 1837
+                }
             },
             {
                 "original_string": "Hjú í Skógum P. (að 1/2) ... 1839. (að 1/2 á St. Reykjum).",

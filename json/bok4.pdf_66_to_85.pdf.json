@@ -436,12 +436,12 @@
             "birth": {
                 "original_string": "F. í maí 1804 í Dali.",
                 "date": "1804-05-00",
-                "location": "Dali"
+                "location": "Dæli"
             },
             "death": {
                 "original_string": "D. þar 7/1. 1876.",
                 "date": "1876-01-07",
-                "location": "Dali",
+                "location": "Dæli",
                 "note_ref": 1
             },
             "names": [
@@ -505,7 +505,7 @@
                 "original_string": "F. í maí 1804 í Dali.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Dali",
+                "location": "Dæli",
                 "year_from_value": 1804,
                 "year_to_value": 1804
             },
@@ -514,7 +514,7 @@
                 "year_or_period": "1805-1816-",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Dali",
+                "location": "Dæli",
                 "note": "",
                 "year": "1805-1816-",
                 "year_from_value": 1805,
@@ -525,7 +525,7 @@
                 "year_or_period": "1829-1832",
                 "age": 26,
                 "status": "Hjá for.",
-                "location": "Dali",
+                "location": "Dæli",
                 "note": "",
                 "year": "1829-1832",
                 "year_from_value": 1829,
@@ -536,7 +536,7 @@
                 "year_or_period": "1833-1835",
                 "age": null,
                 "status": "G.",
-                "location": "Dali",
+                "location": "Dæli",
                 "note": "",
                 "year": "1833-1835",
                 "year_from_value": 1833,
@@ -547,7 +547,7 @@
                 "year_or_period": "1836-1875",
                 "age": null,
                 "status": "B.",
-                "location": "Dali",
+                "location": "Dæli",
                 "note": "(Hrb.) E.46. G.'48.",
                 "year": "1836-1875",
                 "year_from_value": 1836,
@@ -558,7 +558,7 @@
                 "original_string": "D. þar 7/1. 1876.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Dali",
+                "location": "Dæli",
                 "year_from_value": 1876,
                 "year_to_value": 1876
             }
@@ -2156,9 +2156,9 @@
             "status": "Hermann",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 1/11. 1862 í Fosseli.",
+                "original_string": "F. 1/11. 1862 í Fossseli.",
                 "date": "1862-11-01",
-                "location": "Fosseli",
+                "location": "Fossseli",
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -2236,10 +2236,12 @@
         "residence_history": [
             {
                 "year": "1862",
-                "original_string": "F. 1/11. 1862 í Fosseli.",
+                "original_string": "F. 1/11. 1862 í Fossseli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fosseli",
+                "location": "Fossseli",
+                "year_from_value": 1862,
+                "year_to_value": 1862,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -2263,18 +2265,18 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1862,
-                "year_to_value": 1862
+                }
             },
             {
-                "original_string": "Hjá for. í Fosseli (á 1.) 1862-71.",
+                "original_string": "Hjá for. í Fossseli (á 1.) 1862-71.",
                 "year_or_period": "1862-1871",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Fosseli",
+                "location": "Fossseli",
                 "note": "",
                 "year": "1862-1871",
+                "year_from_value": 1862,
+                "year_to_value": 1871,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -2298,17 +2300,15 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1862,
-                "year_to_value": 1871
+                }
             },
             {
-                "original_string": "Hjá for. - frá Fosseli að Hóli K. (11) 1871-",
+                "original_string": "Hjá for. - frá Fossseli að Hóli K. (11) 1871-",
                 "year_or_period": "1871-",
                 "age": 11,
                 "status": "Hjá for.",
                 "location": "Hóli, K.",
-                "note": "frá Fosseli",
+                "note": "frá Fossseli",
                 "year": "1871-",
                 "location_obj": {
                     "id": 90053,

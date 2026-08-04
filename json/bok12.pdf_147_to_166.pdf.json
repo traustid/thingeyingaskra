@@ -657,24 +657,15 @@
                 "year_to_value": 1862
             },
             {
-                "original_string": "Hjú (59) frá Bjarnarst. B. að Grenavatni 1870-",
+                "original_string": "Hjú (59) frá Bjarnarst. B. að Grænavatni 1870-",
                 "year_or_period": "1870-",
                 "age": 59,
                 "status": "Hjú",
-                "location": "Grenavatni",
+                "location": "Grænavatni",
                 "note": "frá Bjarnarst. B. að",
                 "year": "1870-",
                 "year_from_value": 1870,
-                "year_to_value": 1870
-            },
-            {
-                "original_string": "G. hjú á Grænavatni (59) 1870-",
-                "year_or_period": "1870-",
-                "age": 59,
-                "status": "G. hjú",
-                "location": "Grænavatni",
-                "note": "",
-                "year": "1870-",
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -698,9 +689,42 @@
                             "id": 16573
                         }
                     ]
-                },
+                }
+            },
+            {
+                "original_string": "G. hjú á Grænavatni (59) 1870-",
+                "year_or_period": "1870-",
+                "age": 59,
+                "status": "G. hjú",
+                "location": "Grænavatni",
+                "note": "",
+                "year": "1870-",
                 "year_from_value": 1870,
-                "year_to_value": 1870
+                "year_to_value": 1870,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú (60) frá Grenav. að Bjarnarst. B. 1871-72.",
@@ -1667,7 +1691,7 @@
                 "year_or_period": "1869",
                 "age": 21,
                 "status": "Hjú",
-                "location": "Kambsmýrum",
+                "location": "Kambsmýrar",
                 "note": "",
                 "year": "1869",
                 "year_from_value": 1869,
@@ -1678,7 +1702,7 @@
                 "year_or_period": "1870-1883",
                 "age": 21,
                 "status": "Húsfr.",
-                "location": "Kambsmýrum",
+                "location": "Kambsmýrar",
                 "note": "á sama bæ",
                 "year": "1870-1883",
                 "year_from_value": 1870,
@@ -1922,7 +1946,7 @@
                 "year_or_period": "1885",
                 "age": 6,
                 "status": "Með for.",
-                "location": "Veigastöðum",
+                "location": "Veigastaðir",
                 "note": "",
                 "year": "1885",
                 "location_obj": {
@@ -2806,7 +2830,7 @@
                 "year_or_period": "1865",
                 "age": 13,
                 "status": "Með móður",
-                "location": "Veigastöðum",
+                "location": "Veigastaðir",
                 "note": "",
                 "year": "1865",
                 "location_obj": {
@@ -3252,7 +3276,7 @@
                 "year_or_period": "1849",
                 "age": 22,
                 "status": "Húsfr.",
-                "location": "Veigastöðum",
+                "location": "Veigastaðir",
                 "note": "",
                 "year": "1849",
                 "location_obj": {

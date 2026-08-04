@@ -1435,9 +1435,9 @@
             "status": "á Ljóststöðum Fn.",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 19/10. 1799 á Kotungastöðum. -",
+                "original_string": "F. 19/10. 1799 á Kotungsstöðum. -",
                 "date": "1799-10-19",
-                "location": "Kotungastaðir",
+                "location": "Kotungsstaðir",
                 "location_obj": {
                     "id": 15272,
                     "name": "Kotungsstaðir",
@@ -1535,10 +1535,12 @@
         "residence_history": [
             {
                 "year": "1799",
-                "original_string": "F. 19/10. 1799 á Kotungastöðum. -",
+                "original_string": "F. 19/10. 1799 á Kotungsstöðum. -",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Kotungastaðir",
+                "location": "Kotungsstaðir",
+                "year_from_value": 1799,
+                "year_to_value": 1799,
                 "location_obj": {
                     "id": 15272,
                     "name": "Kotungsstaðir",
@@ -1558,19 +1560,19 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1799,
-                "year_to_value": 1799
+                }
             },
             {
-                "original_string": "Hjá móður á Kotungastöðum (3)-1801.",
+                "original_string": "Hjá móður á Kotungsstöðum (3)-1801.",
                 "year_or_period": "1801",
                 "age": 3,
                 "status": "Hjá móður",
-                "location": "Kotungastaðir",
+                "location": "Kotungsstaðir",
                 "note": "",
                 "note_ref": null,
                 "year": "1801",
+                "year_from_value": 1801,
+                "year_to_value": 1801,
                 "location_obj": {
                     "id": 15272,
                     "name": "Kotungsstaðir",
@@ -1590,9 +1592,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1801
+                }
             },
             {
                 "original_string": "Hjá móður í Fjósatungu (5) 1802-",
@@ -3065,6 +3065,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Einarsstaðir R.",
+                "year_from_value": 1802,
+                "year_to_value": 1802,
                 "location_obj": {
                     "id": 16546,
                     "name": "Einarsstaðir",
@@ -3088,9 +3090,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1802,
-                "year_to_value": 1802
+                }
             },
             {
                 "original_string": "Hjá for. á Einarst. R. (á 1.) 1802.",
@@ -3101,6 +3101,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1802",
+                "year_from_value": 1802,
+                "year_to_value": 1802,
                 "location_obj": {
                     "id": 16546,
                     "name": "Einarsstaðir",
@@ -3124,9 +3126,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1802,
-                "year_to_value": 1802
+                }
             }
         ],
         "notes": {},

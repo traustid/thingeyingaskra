@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. 21/12. 1900 í Skriðu.",
                 "date": "1900-12-21",
-                "location": "Skriða"
+                "location": "Rauðaskriða",
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 2/6 1924",
@@ -54,9 +78,33 @@
                 "original_string": "F. 21/12. 1900 í Skriðu.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skriða",
+                "location": "Rauðaskriða",
                 "year_from_value": 1900,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Rauðuskriðu (á l.) 1900.",
@@ -709,7 +757,7 @@
                 "year_to_value": 1805
             },
             {
-                "original_string": "1786: Hjú á Silalæk, 56 ára. ?",
+                "original_string": "1786: Hjú á Sílalæk, 56 ára. ?",
                 "year": "1786",
                 "age": 56,
                 "status": "Hjú",
@@ -778,7 +826,7 @@
             }
         ],
         "notes": {
-            "1": "1786: Hjú á Silalæk, 56 ára. ?"
+            "1": "1786: Hjú á Sílalæk, 56 ára. ?"
         },
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/e-1726-69/111",
         "bok": "bok69",
@@ -1403,6 +1451,8 @@
                 "status": "",
                 "location": "Grænavatn",
                 "note": "Hjá for.",
+                "year_from_value": 1890,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -1426,9 +1476,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1890,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -1479,7 +1527,6 @@
                 "note": "",
                 "names": [
                     "G.",
-                    "pr.",
                     "Gunnarsson"
                 ],
                 "firstName": "G.",
@@ -1698,6 +1745,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Jarlsstaðir, B.",
+                "year_from_value": 1878,
+                "year_to_value": 1878,
                 "location_obj": {
                     "id": 90005,
                     "name": "Jarlsstaðir",
@@ -1721,9 +1770,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1878,
-                "year_to_value": 1878
+                }
             },
             {
                 "original_string": "Hjá for. á Jarlsst. B. (1 árs) 1879.",
@@ -1732,6 +1779,8 @@
                 "status": "Hjá for.",
                 "location": "Jarlsstaðir, B.",
                 "note": "",
+                "year_from_value": 1879,
+                "year_to_value": 1879,
                 "location_obj": {
                     "id": 90005,
                     "name": "Jarlsstaðir",
@@ -1755,9 +1804,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1879,
-                "year_to_value": 1879
+                }
             },
             {
                 "original_string": "Hjá for. á Hamri (2) 1879-1880.",
@@ -1902,6 +1949,8 @@
                 "status": "Hjú",
                 "location": "Grænavatn",
                 "note": "",
+                "year_from_value": 1899,
+                "year_to_value": 1899,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -1925,9 +1974,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1899,
-                "year_to_value": 1899
+                }
             },
             {
                 "original_string": "Hjú á Gautlöndum... 1900.",
@@ -2101,6 +2148,8 @@
                 "status": "Hjá for.",
                 "location": "Ytra-Fjall",
                 "note": "",
+                "year_from_value": 1843,
+                "year_to_value": 1847,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -2124,9 +2173,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1843,
-                "year_to_value": 1847
+                }
             },
             {
                 "original_string": "Hjá for. á Tjörn (8) 1847-1851.",
@@ -2459,6 +2506,8 @@
                 "status": "K. vin.",
                 "location": "Einarsstaðir",
                 "note": "",
+                "year_from_value": 1891,
+                "year_to_value": 1891,
                 "location_obj": {
                     "id": 16546,
                     "name": "Einarsstaðir",
@@ -2482,9 +2531,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1891,
-                "year_to_value": 1891
+                }
             },
             {
                 "original_string": "Húsfr. á Höskuldsstöðum... 1892.",
@@ -3523,6 +3570,8 @@
                 "status": "Vinnustelpa",
                 "location": "Kvíslarhóll",
                 "note": "",
+                "year_from_value": 1893,
+                "year_to_value": 1894,
                 "location_obj": {
                     "id": 16633,
                     "name": "Kvíslarhóll",
@@ -3546,9 +3595,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1893,
-                "year_to_value": 1894
+                }
             },
             {
                 "original_string": "Hjú í Kasthvammi (16 ?) 1894-1900.",

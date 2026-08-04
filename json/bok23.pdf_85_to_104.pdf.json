@@ -167,13 +167,15 @@
         "parents_original_string": "",
         "residence_history": [
             {
-                "original_string": "Húsfr. í Fosseli (64 ára) 1801-",
+                "original_string": "Húsfr. í Fossseli (64 ára) 1801-",
                 "year": "1801-",
                 "age": 64,
                 "status": "Húsfr.",
-                "location": "Fossel",
+                "location": "Fosssel",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1801,
+                "year_to_value": 1801,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -197,9 +199,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1801
+                }
             }
         ],
         "notes": {},
@@ -352,7 +352,6 @@
                 "note": "",
                 "names": [
                     "Sig.",
-                    "pr.",
                     "Benediktsson"
                 ],
                 "firstName": "Sig.",
@@ -2505,6 +2504,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Ytra-Fjall",
+                "year_from_value": 1815,
+                "year_to_value": 1815,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -2528,9 +2529,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1815,
-                "year_to_value": 1815
+                }
             },
             {
                 "original_string": "Hjá for. á Ytrafjalli (1 árs) 1816.",
@@ -2540,6 +2539,8 @@
                 "location": "Ytra-Fjall",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1816,
+                "year_to_value": 1816,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -2563,9 +2564,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1816,
-                "year_to_value": 1816
+                }
             }
         ],
         "notes": {},

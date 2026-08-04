@@ -1453,6 +1453,8 @@
                 "status": "B.",
                 "location": "Ytra-Fjall",
                 "note": "",
+                "year_from_value": 1896,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -1476,9 +1478,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1896,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -4115,14 +4115,38 @@
                 "year_to_value": 1875
             },
             {
-                "original_string": "Hjú á Grenavatni (51) 1876-1877.",
+                "original_string": "Hjú á Grænavatni (51) 1876-1877.",
                 "year": "1876-1877",
                 "age": 51,
                 "status": "Hjú",
-                "location": "Grenavatni",
+                "location": "Grænavatni",
                 "note": "",
                 "year_from_value": 1876,
-                "year_to_value": 1877
+                "year_to_value": 1877,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. í Vogum (50) 1880-1881.",

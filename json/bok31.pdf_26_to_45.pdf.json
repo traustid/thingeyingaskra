@@ -823,7 +823,31 @@
             "birth": {
                 "original_string": "F. um 1766 á Syðrahóli Fnj.",
                 "date": "1766-00-00",
-                "location": "Syðri-Hóll, Fnj."
+                "location": "Syðri-Hóll, Fnj.",
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Melum 22/11 1838. 1)",
@@ -918,7 +942,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Syðri-Hóll, Fnj.",
                 "year_from_value": 1766,
-                "year_to_value": 1766
+                "year_to_value": 1766,
+                "location_obj": {
+                    "id": 90058,
+                    "name": "Syðri-Hóll",
+                    "lat": "65.843698",
+                    "lng": "-17.875142",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Garði Fn. (33) 1801.",
@@ -4061,6 +4109,8 @@
                 "location": "Grænavatn",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1855,
+                "year_to_value": 1856,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -4084,9 +4134,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1855,
-                "year_to_value": 1856
+                }
             },
             {
                 "original_string": "G. hjú á Laxamýri 1856-1857.",

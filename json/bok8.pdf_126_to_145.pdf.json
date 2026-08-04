@@ -1896,6 +1896,8 @@
                 "location": "Kotungsstaðir",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1863,
+                "year_to_value": 1864,
                 "location_obj": {
                     "id": 15272,
                     "name": "Kotungsstaðir",
@@ -1915,9 +1917,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1863,
-                "year_to_value": 1864
+                }
             }
         ],
         "notes": {},
@@ -3126,6 +3126,8 @@
                 "age": 0,
                 "status": "Dánarstaður",
                 "location": "Grænavatn",
+                "year_from_value": 1878,
+                "year_to_value": 1878,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -3149,9 +3151,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1878,
-                "year_to_value": 1878
+                }
             }
         ],
         "notes": {},
@@ -3168,7 +3168,31 @@
             "birth": {
                 "original_string": "F. 30/2. 1821 í Tungu í Fnj.",
                 "date": "1821-02-30",
-                "location": "Tunga, Fnj."
+                "location": "Tunga, Fnj.",
+                "location_obj": {
+                    "id": 15269,
+                    "name": "Tunga",
+                    "lat": "65.558073",
+                    "lng": "-17.753728",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Húsavík 19/5. 1908.",
@@ -3247,7 +3271,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Tunga, Fnj.",
                 "year_from_value": 1821,
-                "year_to_value": 1821
+                "year_to_value": 1821,
+                "location_obj": {
+                    "id": 15269,
+                    "name": "Tunga",
+                    "lat": "65.558073",
+                    "lng": "-17.753728",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Tungu Fr. (9) - 1829-1845-1847.",

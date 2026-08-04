@@ -448,15 +448,39 @@
                 "year_to_value": 1869
             },
             {
-                "original_string": "Hjá for. í Forseli (14)-1880.",
+                "original_string": "Hjá for. í Fossseli (14)-1880.",
                 "year_or_period": "1880",
                 "age": 14,
                 "status": "Hjá for.",
-                "location": "Forsel",
+                "location": "Fosssel",
                 "note": "",
                 "year": "1880",
                 "year_from_value": 1880,
-                "year_to_value": 1880
+                "year_to_value": 1880,
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Grenjaðarst. (15) 1881-1882.",
@@ -2653,6 +2677,8 @@
                 "location": "Einarsstaðir",
                 "note": "",
                 "year": "1809",
+                "year_from_value": 1809,
+                "year_to_value": 1809,
                 "location_obj": {
                     "id": 16546,
                     "name": "Einarsstaðir",
@@ -2676,9 +2702,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1809,
-                "year_to_value": 1809
+                }
             },
             {
                 "original_string": "Vinnum. í Heitarbót (23) 1816.",

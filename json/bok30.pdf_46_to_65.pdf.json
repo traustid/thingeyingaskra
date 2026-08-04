@@ -756,6 +756,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1816",
+                "year_from_value": 1816,
+                "year_to_value": 1816,
                 "location_obj": {
                     "id": 16546,
                     "name": "Einarsstaðir",
@@ -779,9 +781,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1816,
-                "year_to_value": 1816
+                }
             },
             {
                 "original_string": "Hjú á Sandi . . . 1820-21.",
@@ -882,9 +882,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 31/10 1848 á Grenavatni.",
+                "original_string": "F. 31/10 1848 á Grænavatni.",
                 "date": "1848-10-31",
-                "location": "Grenavatn"
+                "location": "Grænavatn",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 16/4 1933",
@@ -926,20 +950,44 @@
         "residence_history": [
             {
                 "year": "1848",
-                "original_string": "F. 31/10 1848 á Grenavatni.",
+                "original_string": "F. 31/10 1848 á Grænavatni.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "year_from_value": 1848,
-                "year_to_value": 1848
+                "year_to_value": 1848,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Med for. (ál.) frá Grenavatni á Vallakoti 1849-1858.",
+                "original_string": "Med for. (ál.) frá Grænavatni á Vallakoti 1849-1858.",
                 "year_or_period": "1849-1858",
                 "age": null,
                 "status": "Med for.",
                 "location": "Vallakot",
-                "note": "ál. frá Grenavatni",
+                "note": "ál. frá Grænavatni",
                 "note_ref": null,
                 "year": "1849-1858",
                 "location_obj": {
@@ -978,6 +1026,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1858-1859",
+                "year_from_value": 1858,
+                "year_to_value": 1859,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -1001,9 +1051,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1858,
-                "year_to_value": 1859
+                }
             },
             {
                 "original_string": "Með for. þaðan að Vallakoti (12) 1859-1861.",
@@ -1694,7 +1742,7 @@
             {
                 "name": "Páll Jónsson",
                 "date": "1913-03-11",
-                "status": "á Grenavatni",
+                "status": "á Grænavatni",
                 "names": [
                     "Páll",
                     "Jónsson"
@@ -1703,7 +1751,7 @@
                 "lastName": "Jónsson"
             }
         ],
-        "spouse_original_string": "M. 11/3 1913 : Páll Jónsson (á Grenavatni).",
+        "spouse_original_string": "M. 11/3 1913 : Páll Jónsson (á Grænavatni).",
         "parents": [
             {
                 "name": "G. Ásmundsson",
@@ -1798,16 +1846,40 @@
                 "year_to_value": 1889
             },
             {
-                "original_string": "Hjá for. á Grenavatni (7) 1890-1900-",
+                "original_string": "Hjá for. á Grænavatni (7) 1890-1900-",
                 "year_or_period": "1890-1900",
                 "age": 7,
                 "status": "Hjá for.",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "",
                 "note_ref": null,
                 "year": "1890-1900",
                 "year_from_value": 1890,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -4287,6 +4359,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1845-1848",
+                "year_from_value": 1845,
+                "year_to_value": 1848,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -4310,9 +4384,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1845,
-                "year_to_value": 1848
+                }
             },
             {
                 "original_string": "Hjú (24) þaðan að Hálsi 1848-1851.",
@@ -4759,6 +4831,8 @@
                 "note": "",
                 "note_ref": 1,
                 "year": "1830-1877",
+                "year_from_value": 1830,
+                "year_to_value": 1877,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -4782,9 +4856,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1830,
-                "year_to_value": 1877
+                }
             },
             {
                 "original_string": "Móðir B. á Grænavatni (76) 1880-1884.",
@@ -4795,6 +4867,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1880-1884",
+                "year_from_value": 1880,
+                "year_to_value": 1884,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -4818,9 +4892,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1880,
-                "year_to_value": 1884
+                }
             },
             {
                 "original_string": "Skjólskeðingur á Grænavatni (81) 1885.",
@@ -4831,6 +4903,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1885",
+                "year_from_value": 1885,
+                "year_to_value": 1885,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -4854,9 +4928,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1885,
-                "year_to_value": 1885
+                }
             },
             {
                 "year": "1887",
@@ -4864,6 +4936,8 @@
                 "age": 0,
                 "status": "Dánarstaður",
                 "location": "Grænavatn",
+                "year_from_value": 1887,
+                "year_to_value": 1887,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -4887,9 +4961,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1887,
-                "year_to_value": 1887
+                }
             }
         ],
         "notes": {

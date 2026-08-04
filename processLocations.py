@@ -23,6 +23,7 @@ regions = {
 	'R.': 'Reykjadalur',
 	'Rd.': 'Reykjadalur',
 	'Fn.': 'Fnjóskadalur',
+	'Fnj.': 'Fnjóskadalur',
 	'F.': 'Fnjóskadalur',
 	't.': 'Tjörnes',
 	'Fl.': 'Flateyjardalur',

@@ -1049,9 +1049,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. í Fosseli 31/12 1849.",
+                "original_string": "F. í Fossseli 31/12 1849.",
                 "date": "1849-12-31",
-                "location": "Fossell"
+                "location": "Fosssell",
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1094,26 +1118,74 @@
         "residence_history": [
             {
                 "year": "1849",
-                "original_string": "F. í Fosseli 31/12 1849.",
+                "original_string": "F. í Fossseli 31/12 1849.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fossell",
+                "location": "Fosssell",
                 "year_from_value": 1849,
-                "year_to_value": 1849
+                "year_to_value": 1849,
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. í Fosseli (á 1.) 1849-",
+                "original_string": "Hjá for. í Fossseli (á 1.) 1849-",
                 "year": "1849",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Fossell",
+                "location": "Fosssell",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1849,
-                "year_to_value": 1849
+                "year_to_value": 1849,
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Léttast., frá Fosseli að Skógariseli (12) 1862-",
+                "original_string": "Léttast., frá Fossseli að Skógariseli (12) 1862-",
                 "year": "1862",
                 "age": 12,
                 "status": "Léttast.",
@@ -2536,6 +2608,8 @@
                 "location": "Hagi",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1898,
+                "year_to_value": 1898,
                 "location_obj": {
                     "id": 24331,
                     "name": "Hagi",
@@ -2559,9 +2633,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1898,
-                "year_to_value": 1898
+                }
             },
             {
                 "original_string": "Hjú í Klambraseli ... 1899.",
@@ -3582,15 +3654,39 @@
                 "year_to_value": 1874
             },
             {
-                "original_string": "K. vinn. á Grenavatni 1875.",
+                "original_string": "K. vinn. á Grænavatni 1875.",
                 "year": "1875",
                 "age": null,
                 "status": "K. vinn.",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1875,
-                "year_to_value": 1875
+                "year_to_value": 1875,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsf. á Ásbakka (31) 1876. (Talin þá einnig á Bjarnarst.)",

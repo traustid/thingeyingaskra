@@ -524,6 +524,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Einarsstaðir, R.hv.",
+                "year_from_value": 1900,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 25978,
                     "name": "Einarsstaðir",
@@ -547,9 +549,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1900,
-                "year_to_value": 1900
+                }
             },
             {
                 "original_string": "Hjá for. á Einarsst. R.hv. (1. ári) 1900.",
@@ -559,6 +559,8 @@
                 "location": "Einarsstaðir, R.hv.",
                 "note": "Hjá for.",
                 "note_ref": null,
+                "year_from_value": 1900,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 25978,
                     "name": "Einarsstaðir",
@@ -582,9 +584,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1900,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -5240,11 +5240,35 @@
                 "year": "1882",
                 "age": 18,
                 "status": "Hjú",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1882,
-                "year_to_value": 1882
+                "year_to_value": 1882,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Múla (20) 1884-1886.",

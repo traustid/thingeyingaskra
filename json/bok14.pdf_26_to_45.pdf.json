@@ -160,20 +160,20 @@
                 }
             },
             {
-                "original_string": "Lettadr. á sama bæ (14) 1890-1891.",
+                "original_string": "Léttadr. á sama bæ (14) 1890-1891.",
                 "year": "1890-1891",
                 "age": 14,
-                "status": "Lettadr.",
+                "status": "Léttadr.",
                 "location": "sama bæ",
                 "note": "",
                 "year_from_value": 1890,
                 "year_to_value": 1891
             },
             {
-                "original_string": "Lettadr. í Grjótárgerði Fn. (17) 1893.",
+                "original_string": "Léttadr. í Grjótárgerði Fn. (17) 1893.",
                 "year": "1893",
                 "age": 17,
-                "status": "Lettadr.",
+                "status": "Léttadr.",
                 "location": "Grjótárgerði, Fn.",
                 "note": "",
                 "year_from_value": 1893,
@@ -204,10 +204,10 @@
                 }
             },
             {
-                "original_string": "Lettadr. á Vöglum . . . 1894.",
+                "original_string": "Léttadr. á Vöglum . . . 1894.",
                 "year": "1894",
                 "age": null,
-                "status": "Lettadr.",
+                "status": "Léttadr.",
                 "location": "Vaglir",
                 "note": "",
                 "year_from_value": 1894,
@@ -972,9 +972,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 4/10. 1867 í Fosseli.",
+                "original_string": "F. 4/10. 1867 í Fossseli.",
                 "date": "1867-10-04",
-                "location": "Fosseli",
+                "location": "Fossseli",
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -1049,10 +1049,12 @@
         "residence_history": [
             {
                 "year": "1867",
-                "original_string": "F. 4/10. 1867 í Fosseli.",
+                "original_string": "F. 4/10. 1867 í Fossseli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fosseli",
+                "location": "Fossseli",
+                "year_from_value": 1867,
+                "year_to_value": 1867,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -1076,17 +1078,17 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1867,
-                "year_to_value": 1867
+                }
             },
             {
-                "original_string": "Hjá for. í Fosseli (á 1.) 1867-71.",
+                "original_string": "Hjá for. í Fossseli (á 1.) 1867-71.",
                 "year": "1867-71",
                 "age": 1,
                 "status": "",
-                "location": "Fosseli",
+                "location": "Fossseli",
                 "note": "Hjá for.",
+                "year_from_value": 1867,
+                "year_to_value": 71,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -1110,17 +1112,15 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1867,
-                "year_to_value": 71
+                }
             },
             {
-                "original_string": "Með for. frá Fosseli að Hóli Þ. (5) 1871-",
+                "original_string": "Með for. frá Fossseli að Hóli Þ. (5) 1871-",
                 "year": "1871-",
                 "age": 5,
                 "status": "",
                 "location": "Hóli, Þ.",
-                "note": "Með for. frá Fosseli",
+                "note": "Með for. frá Fossseli",
                 "year_from_value": 1871,
                 "year_to_value": 1871
             },
@@ -2792,6 +2792,8 @@
                 "status": "Hjú",
                 "location": "Grænavatni",
                 "note": "Kom frá Hofsós",
+                "year_from_value": 1881,
+                "year_to_value": 1881,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -2815,9 +2817,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1881,
-                "year_to_value": 1881
+                }
             },
             {
                 "original_string": "G. húsk. á Sveinsströnd (33) 1882-1884.",
@@ -2938,6 +2938,8 @@
                 "status": "G. húsk.",
                 "location": "Grænavatni",
                 "note": "",
+                "year_from_value": 1890,
+                "year_to_value": 1891,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -2961,9 +2963,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1890,
-                "year_to_value": 1891
+                }
             },
             {
                 "original_string": "Húsk. í Álftagerði (41) 1892.",
@@ -3294,7 +3294,7 @@
             "birth": {
                 "original_string": "F. 5/10. 1833 í Veigastöðum.",
                 "date": "1833-10-05",
-                "location": "Veigastöðum",
+                "location": "Veigastaðir",
                 "location_obj": {
                     "id": 1004894,
                     "name": "Veigastaðir",
@@ -3371,7 +3371,7 @@
                 "original_string": "F. 5/10. 1833 í Veigastöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Veigastöðum",
+                "location": "Veigastaðir",
                 "location_obj": {
                     "id": 1004894,
                     "name": "Veigastaðir",
@@ -3404,7 +3404,7 @@
                 "year": "1833-1851",
                 "age": 1,
                 "status": "",
-                "location": "Veigastöðum",
+                "location": "Veigastaðir",
                 "note": "Hjá for.",
                 "location_obj": {
                     "id": 1004894,
@@ -3472,7 +3472,7 @@
                 "year": "1856-1858",
                 "age": null,
                 "status": "Hjú",
-                "location": "Veigastöðum",
+                "location": "Veigastaðir",
                 "note": "",
                 "location_obj": {
                     "id": 1004894,

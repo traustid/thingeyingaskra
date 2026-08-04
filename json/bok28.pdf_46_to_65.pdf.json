@@ -940,9 +940,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 19/11 1875 í Fosseli",
+                "original_string": "F. 19/11 1875 í Fossseli",
                 "date": "1875-11-19",
-                "location": "Fosseli",
+                "location": "Fossseli",
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -1042,10 +1042,12 @@
         "residence_history": [
             {
                 "year": "1875",
-                "original_string": "F. 19/11 1875 í Fosseli",
+                "original_string": "F. 19/11 1875 í Fossseli",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fosseli",
+                "location": "Fossseli",
+                "year_from_value": 1875,
+                "year_to_value": 1875,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -1069,9 +1071,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1875,
-                "year_to_value": 1875
+                }
             },
             {
                 "original_string": "Hjá for. á L. Reykjum (1 árs) 1876-1878",
@@ -1223,6 +1223,8 @@
                 "location": "Einarsstaðir, R.hv.",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1859,
+                "year_to_value": 1859,
                 "location_obj": {
                     "id": 25978,
                     "name": "Einarsstaðir",
@@ -1246,9 +1248,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1859,
-                "year_to_value": 1859
+                }
             },
             {
                 "original_string": "Med for. á Einarsst., R.hv. 1861-1863",
@@ -1258,6 +1258,8 @@
                 "location": "Einarsstaðir, R.hv.",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1861,
+                "year_to_value": 1863,
                 "location_obj": {
                     "id": 25978,
                     "name": "Einarsstaðir",
@@ -1281,9 +1283,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1861,
-                "year_to_value": 1863
+                }
             },
             {
                 "original_string": "Á hrepp að Stafni (8) 1863",
@@ -1618,6 +1618,8 @@
                 "location": "Jarlsstaðir Grýt.",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1816,
+                "year_to_value": 1816,
                 "location_obj": {
                     "id": 1004895,
                     "name": "Jarlsstaðir",
@@ -1641,9 +1643,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1816,
-                "year_to_value": 1816
+                }
             },
             {
                 "original_string": "Hjú á Skeri (36) 1827-1837. (Bústýra '37)",
@@ -2060,11 +2060,11 @@
                 "year_to_value": 1864
             },
             {
-                "original_string": "G. á Kotungastöðum (39) - 1868-1869",
+                "original_string": "G. á Kotungsstöðum (39) - 1868-1869",
                 "year": "1868-1869",
                 "age": 39,
                 "status": "G.",
-                "location": "Kotungastöðum",
+                "location": "Kotungsstöðum",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1868,
@@ -2141,11 +2141,11 @@
                 "year_to_value": 1874
             },
             {
-                "original_string": "Húsfr. á Kotungastöðum (39) 1875-1877-1889",
+                "original_string": "Húsfr. á Kotungsstöðum (39) 1875-1877-1889",
                 "year": "1875-1889",
                 "age": 39,
                 "status": "Húsfr.",
-                "location": "Kotungastöðum",
+                "location": "Kotungsstöðum",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1875,
@@ -3100,6 +3100,8 @@
                 "location": "Ytra-Fjall",
                 "note": "Par: Illugad.",
                 "note_ref": null,
+                "year_from_value": 1827,
+                "year_to_value": 1838,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -3123,9 +3125,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1827,
-                "year_to_value": 1838
+                }
             },
             {
                 "original_string": "Tökukerling á Syðrafjalli 1839-40, 84-85 ára.",
@@ -3170,6 +3170,8 @@
                 "location": "Ytra-Fjall",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1842,
+                "year_to_value": 1842,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -3193,9 +3195,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1842,
-                "year_to_value": 1842
+                }
             },
             {
                 "year": "1843",
@@ -3347,7 +3347,7 @@
             "birth": {
                 "original_string": "F. 20/6 1828 á Végeirsstöðum",
                 "date": "1828-06-20",
-                "location": "Végeirsstöðum"
+                "location": "Végeirsstaðir"
             },
             "death": {
                 "original_string": "",
@@ -3392,7 +3392,7 @@
                 "original_string": "F. 20/6 1828 á Végeirsstöðum",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Végeirsstöðum",
+                "location": "Végeirsstaðir",
                 "year_from_value": 1828,
                 "year_to_value": 1828
             },

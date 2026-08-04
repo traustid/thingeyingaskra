@@ -1978,7 +1978,7 @@
                 "year": "1881",
                 "age": 1,
                 "status": "",
-                "location": "Végeirsstöðum",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1881,
@@ -2865,9 +2865,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 18/6. 1854 á Grenavatni.",
+                "original_string": "F. 18/6. 1854 á Grænavatni.",
                 "date": "1854-06-18",
-                "location": "Grenavatni"
+                "location": "Grænavatni",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2896,7 +2920,7 @@
             },
             {
                 "name": "Jóhanna Jóhannesdóttir",
-                "note": "g. v. hjú á Grenavatni.",
+                "note": "g. v. hjú á Grænavatni.",
                 "names": [
                     "Jóhanna",
                     "Jóhannesdóttir"
@@ -2905,27 +2929,75 @@
                 "lastName": "Jóhannesdóttir"
             }
         ],
-        "parents_original_string": "For.: Bj. Björnsson og Jóhanna Jóhannesdóttir. g. v. hjú á Grenavatni.",
+        "parents_original_string": "For.: Bj. Björnsson og Jóhanna Jóhannesdóttir. g. v. hjú á Grænavatni.",
         "residence_history": [
             {
                 "year": "1854",
-                "original_string": "F. 18/6. 1854 á Grenavatni.",
+                "original_string": "F. 18/6. 1854 á Grænavatni.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grenavatni",
+                "location": "Grænavatni",
                 "year_from_value": 1854,
-                "year_to_value": 1854
+                "year_to_value": 1854,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Með for. á Grenavatni (2) 1855-",
+                "original_string": "Með for. á Grænavatni (2) 1855-",
                 "year": "1855-",
                 "age": 2,
                 "status": "",
-                "location": "Grenavatni",
+                "location": "Grænavatni",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1855,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Bjarnarstöðum M. (7) 1860-1874.",

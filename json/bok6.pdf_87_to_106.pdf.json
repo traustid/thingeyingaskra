@@ -405,9 +405,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 25/8. 1874. í Fosseli.",
+                "original_string": "F. 25/8. 1874. í Fossseli.",
                 "date": "1874-08-25",
-                "location": "Fosseli",
+                "location": "Fossseli",
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -488,10 +488,12 @@
         "residence_history": [
             {
                 "year": "1874",
-                "original_string": "F. 25/8. 1874. í Fosseli.",
+                "original_string": "F. 25/8. 1874. í Fossseli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fosseli",
+                "location": "Fossseli",
+                "year_from_value": 1874,
+                "year_to_value": 1874,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -515,18 +517,18 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1874,
-                "year_to_value": 1874
+                }
             },
             {
-                "original_string": "Hjá for. í Fosseli (6) - 1880 -",
+                "original_string": "Hjá for. í Fossseli (6) - 1880 -",
                 "year": "1880",
                 "age": 6,
                 "status": "Hjá for.",
-                "location": "Fosseli",
+                "location": "Fossseli",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1880,
+                "year_to_value": 1880,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -550,9 +552,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1880,
-                "year_to_value": 1880
+                }
             },
             {
                 "original_string": "Vinnumaðr. í Torfunesi (15) 1889.",
@@ -1661,11 +1661,35 @@
                 "year": "1803",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "E-Dalksstöðum",
+                "location": "Efri-Dálksstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1803,
-                "year_to_value": 1803
+                "year_to_value": 1803,
+                "location_obj": {
+                    "id": 90036,
+                    "name": "Neðri-Dálksstaðir",
+                    "lat": "65.756478",
+                    "lng": "-18.086943",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Breiðabóli (3) 1805-1807-",
@@ -1707,18 +1731,42 @@
                 "year": "1809-1824",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "E-Dalksstöðum",
+                "location": "Efri-Dálksstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1809,
-                "year_to_value": 1824
+                "year_to_value": 1824,
+                "location_obj": {
+                    "id": 90036,
+                    "name": "Neðri-Dálksstaðir",
+                    "lat": "65.756478",
+                    "lng": "-18.086943",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Veigastöðum (24) 1825-1826-",
                 "year": "1825-1826",
                 "age": 24,
                 "status": "B.",
-                "location": "Veigastöðum",
+                "location": "Veigastaðir",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -2913,7 +2961,7 @@
                 "year": "1895-1900",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Veigastöðum",
+                "location": "Veigastaðir",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {
@@ -3651,7 +3699,7 @@
                 "year": "1889",
                 "age": 17,
                 "status": "Smali",
-                "location": "Veigastöðum",
+                "location": "Veigastaðir",
                 "note": "",
                 "note_ref": null,
                 "location_obj": {

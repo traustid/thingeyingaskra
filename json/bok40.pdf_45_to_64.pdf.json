@@ -714,9 +714,33 @@
             "status": "alþm. í Múla",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 23/4. 1855 á Grenavatni.",
+                "original_string": "F. 23/4. 1855 á Grænavatni.",
                 "date": "1855-04-23",
-                "location": "Grenavatn"
+                "location": "Grænavatn",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Seyðisf. 5/10. 1912",
@@ -757,7 +781,7 @@
             },
             {
                 "name": "Friðrika Helgadóttir",
-                "note": "g. v. hj. á Grenavatn",
+                "note": "g. v. hj. á Grænavatn",
                 "names": [
                     "Friðrika",
                     "Helgadóttir"
@@ -766,26 +790,74 @@
                 "lastName": "Helgadóttir"
             }
         ],
-        "parents_original_string": "J. Hinriksson og Friðrika Helgadóttir. g. v. hj. á Grenavatn",
+        "parents_original_string": "J. Hinriksson og Friðrika Helgadóttir. g. v. hj. á Grænavatn",
         "residence_history": [
             {
                 "year": "1855",
-                "original_string": "F. 23/4. 1855 á Grenavatni.",
+                "original_string": "F. 23/4. 1855 á Grænavatni.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "year_from_value": 1855,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Grenav. (á 1.) 1855-",
                 "year": "1855-",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "",
                 "year_from_value": 1855,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Stöng (3) 1857-1860-(1865)-",

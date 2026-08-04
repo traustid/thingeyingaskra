@@ -4406,15 +4406,39 @@
                 "year_to_value": 1851
             },
             {
-                "original_string": "Hjú (21) frá Hripkelst. að Grenavatni 1852-",
+                "original_string": "Hjú (21) frá Hripkelst. að Grænavatni 1852-",
                 "year": "1852-",
                 "age": 21,
                 "status": "Hjú",
-                "location": "Grenavatni",
+                "location": "Grænavatni",
                 "note": "frá Hripkelst.",
                 "note_ref": null,
                 "year_from_value": 1852,
-                "year_to_value": 1852
+                "year_to_value": 1852,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. kona (24) frá Arbakkann í Eyjafjörð 1855.",
@@ -5273,6 +5297,8 @@
                 "location": "Kotungsstaðir",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1891,
+                "year_to_value": 1891,
                 "location_obj": {
                     "id": 15272,
                     "name": "Kotungsstaðir",
@@ -5292,9 +5318,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1891,
-                "year_to_value": 1891
+                }
             },
             {
                 "original_string": "Hjú á Snæbjarnarst. . . . 1892.",

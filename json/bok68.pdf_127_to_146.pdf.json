@@ -203,8 +203,32 @@
             "death": {
                 "original_string": "D. í Skriðu 7/7 1899.",
                 "date": "1899-07-07",
-                "location": "Skriða",
-                "note_ref": 1
+                "location": "Rauðaskriða",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Vigdís",
@@ -233,7 +257,6 @@
                 "note": "",
                 "names": [
                     "Sigurður",
-                    "pr.",
                     "Grímsson"
                 ],
                 "firstName": "Sigurður",
@@ -650,9 +673,33 @@
                 "original_string": "D. í Skriðu 7/7 1899.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Skriða",
+                "location": "Rauðaskriða",
                 "year_from_value": 1899,
-                "year_to_value": 1899
+                "year_to_value": 1899,
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -2359,6 +2406,8 @@
                 "status": "G. húsm.",
                 "location": "Jarlsstaðir Grýt.",
                 "note": "",
+                "year_from_value": 1865,
+                "year_to_value": 1867,
                 "location_obj": {
                     "id": 1004895,
                     "name": "Jarlsstaðir",
@@ -2382,9 +2431,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1865,
-                "year_to_value": 1867
+                }
             },
             {
                 "original_string": "Húsm. á Barðastjörn (59) 1868-1871.",

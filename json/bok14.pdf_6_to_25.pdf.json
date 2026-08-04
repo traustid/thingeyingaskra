@@ -869,11 +869,35 @@
                 "year": "1822-1825",
                 "age": null,
                 "status": "Bóndi",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "eða 1825",
                 "note_ref": 1,
                 "year_from_value": 1822,
-                "year_to_value": 1825
+                "year_to_value": 1825,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1343,12 +1367,12 @@
                 "year_to_value": 1844
             },
             {
-                "original_string": "Með for. - frá Fosseli að Hjalla R. (2) 1845-",
+                "original_string": "Með for. - frá Fossseli að Hjalla R. (2) 1845-",
                 "year": "1845-",
                 "age": 2,
                 "status": "Með for.",
                 "location": "Hjalli R.",
-                "note": "frá Fosseli",
+                "note": "frá Fossseli",
                 "note_ref": null,
                 "location_obj": {
                     "id": 90004,

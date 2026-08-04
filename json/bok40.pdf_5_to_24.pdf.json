@@ -39,15 +39,39 @@
         "parents_original_string": "For.: Jón Jónsson blindi og",
         "residence_history": [
             {
-                "original_string": "Barn á Einarsst., Þ.hv. (ára) 1872.",
+                "original_string": "Barn á Einarsst., R.hv. (ára) 1872.",
                 "year": "1872",
                 "age": null,
                 "status": "Barn",
-                "location": "Einarsstaðir, Þ.hv.",
+                "location": "Einarsstaðir, R.hv.",
                 "note": "ára",
                 "note_ref": null,
                 "year_from_value": 1872,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 25978,
+                    "name": "Einarsstaðir",
+                    "lat": "65.951317",
+                    "lng": "-17.304459",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -206,11 +230,11 @@
                 "year_to_value": 1869
             },
             {
-                "original_string": "Með for. á Kotungastöðum (12) 1870.",
+                "original_string": "Með for. á Kotungsstöðum (12) 1870.",
                 "year": "1870",
                 "age": 12,
                 "status": "Með for.",
-                "location": "Kotungastöðum",
+                "location": "Kotungsstöðum",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1870,

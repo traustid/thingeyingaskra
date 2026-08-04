@@ -628,7 +628,7 @@
             {
                 "name": "Kristján Sigurðsson",
                 "date": "1891-05-12",
-                "status": "Végeirsstöðum",
+                "status": "Végeirsstaðir",
                 "names": [
                     "Kristján",
                     "Sigurðsson"
@@ -914,7 +914,7 @@
                 "year": "1899-1900",
                 "age": 35,
                 "status": "Húsfr.",
-                "location": "Végeirsstöðum",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "location_obj": {
                     "id": 12053,
@@ -2021,14 +2021,38 @@
                 "year_to_value": 1891
             },
             {
-                "original_string": "Fósturb. á Grenavatni (3) 1892-1894.",
+                "original_string": "Fósturb. á Grænavatni (3) 1892-1894.",
                 "year": "1892-1894",
                 "age": 3,
                 "status": "Fósturb.",
-                "location": "Grenavatni",
+                "location": "Grænavatni",
                 "note": "",
                 "year_from_value": 1892,
-                "year_to_value": 1894
+                "year_to_value": 1894,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Múla (6) 1895.",
@@ -2065,14 +2089,38 @@
                 "year_to_value": 1895
             },
             {
-                "original_string": "Fósturb. á Grenavatni ... 1896-1897.",
+                "original_string": "Fósturb. á Grænavatni ... 1896-1897.",
                 "year": "1896-1897",
                 "age": null,
                 "status": "Fósturb.",
-                "location": "Grenavatni",
+                "location": "Grænavatni",
                 "note": "",
                 "year_from_value": 1896,
-                "year_to_value": 1897
+                "year_to_value": 1897,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Múla ... 1898.",
@@ -2205,7 +2253,6 @@
                 "note": "",
                 "names": [
                     "Jón",
-                    "pr.",
                     "Stefánsson"
                 ],
                 "firstName": "Jón",
@@ -3163,7 +3210,7 @@
                 "year": "1801",
                 "age": 42,
                 "status": "Eing. hjú",
-                "location": "Kambsmýrum",
+                "location": "Kambsmýrar",
                 "note": "",
                 "year_from_value": 1801,
                 "year_to_value": 1801
@@ -3576,9 +3623,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. um 1803 í Helgust.sókn.",
+                "original_string": "F. um 1803 í Helgast.sókn.",
                 "date": "1803-01-01",
-                "location": "Helgust.sókn"
+                "location": "Helgast.sókn"
             },
             "death": {
                 "original_string": "",
@@ -3611,10 +3658,10 @@
         "residence_history": [
             {
                 "year": "1803",
-                "original_string": "F. um 1803 í Helgust.sókn.",
+                "original_string": "F. um 1803 í Helgast.sókn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Helgust.sókn",
+                "location": "Helgast.sókn",
                 "year_from_value": 1803,
                 "year_to_value": 1803
             },
@@ -4044,7 +4091,7 @@
                 "year": "1856-1857",
                 "age": 22,
                 "status": "Hjú",
-                "location": "Végeirsstöðum",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "year_from_value": 1856,
                 "year_to_value": 1857
@@ -4274,7 +4321,7 @@
                 "year": "1877",
                 "age": 53,
                 "status": "Hjú",
-                "location": "Végeirsstöðum",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "year_from_value": 1877,
                 "year_to_value": 1877
@@ -4362,7 +4409,7 @@
                 "year": "1886-1892",
                 "age": 51,
                 "status": "E. Móðir B.",
-                "location": "Kambsmýrum",
+                "location": "Kambsmýrar",
                 "note": "",
                 "year_from_value": 1886,
                 "year_to_value": 1892
@@ -4416,7 +4463,7 @@
                 "year": "1900-",
                 "age": 67,
                 "status": "Hjú",
-                "location": "Dali",
+                "location": "Dæli",
                 "note": "",
                 "year_from_value": 1900,
                 "year_to_value": 1900

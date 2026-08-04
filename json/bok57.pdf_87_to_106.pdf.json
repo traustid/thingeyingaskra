@@ -2250,15 +2250,39 @@
                 "year_to_value": 1863
             },
             {
-                "original_string": "Hjú á Einarsst., Þ.hv. (21 árs?) 1864-1865.",
+                "original_string": "Hjú á Einarsst., R.hv. (21 árs?) 1864-1865.",
                 "year_or_period": "1864-1865",
                 "age": 21,
                 "status": "Hjú",
-                "location": "Einarsstaðir, Þ.hv.",
+                "location": "Einarsstaðir, R.hv.",
                 "note": "",
                 "year": "1864-1865",
                 "year_from_value": 1864,
-                "year_to_value": 1865
+                "year_to_value": 1865,
+                "location_obj": {
+                    "id": 25978,
+                    "name": "Einarsstaðir",
+                    "lat": "65.951317",
+                    "lng": "-17.304459",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Geitafelli (31) 1867.",

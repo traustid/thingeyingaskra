@@ -411,12 +411,36 @@
                 "year_or_period": "1843",
                 "age": 40,
                 "status": "Hjú",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "?",
                 "note_ref": null,
                 "year": "1843",
                 "year_from_value": 1843,
-                "year_to_value": 1843
+                "year_to_value": 1843,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1138,7 +1162,7 @@
                 "year_or_period": "1846",
                 "age": 39,
                 "status": "G.",
-                "location": "Kambsmýrum",
+                "location": "Kambsmýrar",
                 "note": "",
                 "note_ref": null,
                 "year": "1846",
@@ -3927,6 +3951,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1855-",
+                "year_from_value": 1855,
+                "year_to_value": 1855,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -3950,9 +3976,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1855,
-                "year_to_value": 1855
+                }
             },
             {
                 "original_string": "Með for. (8) frá Grænav. að Lundarbrekku 1859.",

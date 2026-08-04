@@ -212,7 +212,6 @@
                 "note": "",
                 "names": [
                     "Ein.",
-                    "pr.",
                     "Þorleifsson"
                 ],
                 "firstName": "Ein.",
@@ -504,7 +503,31 @@
             "death": {
                 "original_string": "D. í Skriðu 19/3. 1860, 41 árs.",
                 "date": "1860-03-19",
-                "location": "Skriða"
+                "location": "Rauðaskriða",
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Anna",
@@ -627,6 +650,8 @@
                 "location": "Rauðaskriða",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1845,
+                "year_to_value": 1846,
                 "location_obj": {
                     "id": 24909,
                     "name": "Rauðaskriða",
@@ -650,9 +675,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1845,
-                "year_to_value": 1846
+                }
             },
             {
                 "original_string": "Húsfr. í Rauðuskriðu 1847-1858, 28-39 ára.",
@@ -662,6 +685,8 @@
                 "location": "Rauðaskriða",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1847,
+                "year_to_value": 1858,
                 "location_obj": {
                     "id": 24909,
                     "name": "Rauðaskriða",
@@ -685,18 +710,40 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1847,
-                "year_to_value": 1858
+                }
             },
             {
                 "year": "1860",
                 "original_string": "D. í Skriðu 19/3. 1860, 41 árs.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Skriða",
+                "location": "Rauðaskriða",
                 "year_from_value": 1860,
-                "year_to_value": 1860
+                "year_to_value": 1860,
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1525,6 +1572,8 @@
                 "location": "Rauðaskriða",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1844,
+                "year_to_value": 1844,
                 "location_obj": {
                     "id": 24909,
                     "name": "Rauðaskriða",
@@ -1548,9 +1597,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1844,
-                "year_to_value": 1844
+                }
             },
             {
                 "original_string": "Hjú á Þóroddsstað (36) 1844-",

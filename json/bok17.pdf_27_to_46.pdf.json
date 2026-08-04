@@ -5,14 +5,14 @@
             "status": "Ókv. og barnl.",
             "unmarried": true,
             "birth": {
-                "original_string": "F. á Silalæk 6/10. 1860.",
+                "original_string": "F. á Sílalæk 6/10. 1860.",
                 "date": "1860-10-06",
-                "location": "Silalæk"
+                "location": "Sílalæk"
             },
             "death": {
                 "original_string": "D. á sama st. 26/7. 1896.",
                 "date": "1896-07-26",
-                "location": "Silalæk",
+                "location": "Sílalæk",
                 "note_ref": 1
             },
             "names": [
@@ -50,29 +50,29 @@
         "residence_history": [
             {
                 "year": "1860",
-                "original_string": "F. á Silalæk 6/10. 1860.",
+                "original_string": "F. á Sílalæk 6/10. 1860.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Silalæk",
+                "location": "Sílalæk",
                 "year_from_value": 1860,
                 "year_to_value": 1860
             },
             {
-                "original_string": "Hjá for. á Silalæk (2) 1861-1895.",
+                "original_string": "Hjá for. á Sílalæk (2) 1861-1895.",
                 "year": "1861-1895",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Silalæk",
+                "location": "Sílalæk",
                 "note": "",
                 "year_from_value": 1861,
                 "year_to_value": 1895
             },
             {
-                "original_string": "B. á Silalæk (1/2 jörð)... 1896.",
+                "original_string": "B. á Sílalæk (1/2 jörð)... 1896.",
                 "year": "1896",
                 "age": null,
                 "status": "B.",
-                "location": "Silalæk",
+                "location": "Sílalæk",
                 "note": "1/2 jörð",
                 "year_from_value": 1896,
                 "year_to_value": 1896
@@ -82,13 +82,13 @@
                 "original_string": "D. á sama st. 26/7. 1896.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Silalæk",
+                "location": "Sílalæk",
                 "year_from_value": 1896,
                 "year_to_value": 1896
             }
         ],
         "notes": {
-            "1": "Bóndi á Silalæk, 35 ára. - Kolbrandur."
+            "1": "Bóndi á Sílalæk, 35 ára. - Kolbrandur."
         },
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_17/27",
         "bok": "bok17",
@@ -232,6 +232,8 @@
                 "status": "E. húsm.",
                 "location": "Jarlsstaðir Grýt.",
                 "note": "",
+                "year_from_value": 1881,
+                "year_to_value": 1881,
                 "location_obj": {
                     "id": 1004895,
                     "name": "Jarlsstaðir",
@@ -255,9 +257,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1881,
-                "year_to_value": 1881
+                }
             },
             {
                 "original_string": "Hjú í Höfða (44) 1882-1883. (G.'83).",
@@ -2803,7 +2803,7 @@
                 "year": "1846",
                 "age": 41,
                 "status": "G.",
-                "location": "Kambsmýrum",
+                "location": "Kambsmýrar",
                 "note": "xx",
                 "year_from_value": 1846,
                 "year_to_value": 1846
@@ -4335,6 +4335,8 @@
                 "status": "G.",
                 "location": "Ytra-Fjall",
                 "note": "",
+                "year_from_value": 1827,
+                "year_to_value": 1831,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -4358,9 +4360,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1827,
-                "year_to_value": 1831
+                }
             },
             {
                 "original_string": "B. á Ytrafjalli ... 1832-1842.",
@@ -4369,6 +4369,8 @@
                 "status": "B.",
                 "location": "Ytra-Fjall",
                 "note": "",
+                "year_from_value": 1832,
+                "year_to_value": 1842,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -4392,9 +4394,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1832,
-                "year_to_value": 1842
+                }
             },
             {
                 "original_string": "Hjú á Laxamýri (51 árs) 1845.",
@@ -4567,10 +4567,34 @@
                 "year": "1855-1864",
                 "age": 62,
                 "status": "Faðir H.",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "",
                 "year_from_value": 1855,
-                "year_to_value": 1864
+                "year_to_value": 1864,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

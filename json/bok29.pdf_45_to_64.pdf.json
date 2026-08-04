@@ -176,9 +176,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 11/4 1886 í Fosseli.",
+                "original_string": "F. 11/4 1886 í Fossseli.",
                 "date": "1886-04-11",
-                "location": "Fossel",
+                "location": "Fosssel",
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -244,10 +244,12 @@
         "residence_history": [
             {
                 "year": "1886",
-                "original_string": "F. 11/4 1886 í Fosseli.",
+                "original_string": "F. 11/4 1886 í Fossseli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fossel",
+                "location": "Fosssel",
+                "year_from_value": 1886,
+                "year_to_value": 1886,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -271,18 +273,18 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1886,
-                "year_to_value": 1886
+                }
             },
             {
-                "original_string": "Hjá for. í Fosseli (3) 1889-1900-",
+                "original_string": "Hjá for. í Fossseli (3) 1889-1900-",
                 "year": "1889-1900",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Fossel",
+                "location": "Fosssel",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1889,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -306,9 +308,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1889,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},

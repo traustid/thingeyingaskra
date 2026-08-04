@@ -980,6 +980,8 @@
                 "location": "Ytra-Fjall",
                 "note": "",
                 "year": "1894-1897",
+                "year_from_value": 1894,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -1003,9 +1005,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1894,
-                "year_to_value": 1897
+                }
             },
             {
                 "original_string": "Faðir B. á Tjörn (60) 1900.",
@@ -1807,6 +1807,8 @@
                 "location": "Grænavatn",
                 "note": "",
                 "year": "1870-",
+                "year_from_value": 1870,
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -1830,9 +1832,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1870
+                }
             },
             {
                 "original_string": "Hjú á Skútustöðum (27) 1871.",
@@ -2141,8 +2141,32 @@
             "death": {
                 "original_string": "D. í s. st. 14/3 1895",
                 "date": "1895-03-14",
-                "location": "Haga",
-                "note_ref": 1
+                "location": "Hagi",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Friðný",
@@ -2186,6 +2210,8 @@
                 "location": "Hagi",
                 "note": "",
                 "year": "1870-1894",
+                "year_from_value": 1870,
+                "year_to_value": 1894,
                 "location_obj": {
                     "id": 24331,
                     "name": "Hagi",
@@ -2209,18 +2235,40 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1894
+                }
             },
             {
                 "year": "1895",
                 "original_string": "D. í s. st. 14/3 1895",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Haga",
+                "location": "Hagi",
                 "year_from_value": 1895,
-                "year_to_value": 1895
+                "year_to_value": 1895,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

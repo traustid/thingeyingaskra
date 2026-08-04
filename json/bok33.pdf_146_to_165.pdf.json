@@ -1811,7 +1811,31 @@
             "birth": {
                 "original_string": "F. 10/4. 1832 í Skriðu.",
                 "date": "1832-04-10",
-                "location": "Skriða"
+                "location": "Rauðaskriða",
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Húsavík 2/3. 1848.",
@@ -1876,9 +1900,33 @@
                 "original_string": "F. 10/4. 1832 í Skriðu.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skriða",
+                "location": "Rauðaskriða",
                 "year_from_value": 1832,
-                "year_to_value": 1832
+                "year_to_value": 1832,
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Sandi ... 1834-1835.",
@@ -2149,6 +2197,8 @@
                 "location": "Rauðaskriða",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1829,
+                "year_to_value": 1831,
                 "location_obj": {
                     "id": 24909,
                     "name": "Rauðaskriða",
@@ -2172,9 +2222,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1829,
-                "year_to_value": 1831
+                }
             }
         ],
         "notes": {
@@ -3356,6 +3404,8 @@
                 "location": "Rauðaskriða",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1801,
+                "year_to_value": 1801,
                 "location_obj": {
                     "id": 24909,
                     "name": "Rauðaskriða",
@@ -3379,9 +3429,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1801
+                }
             },
             {
                 "original_string": "E. í Skriðulandi (71 árs) 1802-1803.",

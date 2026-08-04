@@ -656,16 +656,40 @@
                 "year_to_value": 1867
             },
             {
-                "original_string": "Með for. á Einarsst., Þ.hv. (12 ára) 1871.",
+                "original_string": "Með for. á Einarsst., R.hv. (12 ára) 1871.",
                 "year_or_period": "1871",
                 "age": 12,
                 "status": "Með for.",
-                "location": "Einarsstaðir, Þ.hv.",
+                "location": "Einarsstaðir, R.hv.",
                 "note": "12 ára",
                 "note_ref": null,
                 "year": "1871",
                 "year_from_value": 1871,
-                "year_to_value": 1871
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 25978,
+                    "name": "Einarsstaðir",
+                    "lat": "65.951317",
+                    "lng": "-17.304459",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með föður á Mýlaugsstöðum (14) 1872.",

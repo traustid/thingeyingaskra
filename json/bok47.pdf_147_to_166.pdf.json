@@ -1790,6 +1790,8 @@
                 "location": "Jarlsstaðir B.",
                 "note": "",
                 "year": "1866",
+                "year_from_value": 1866,
+                "year_to_value": 1866,
                 "location_obj": {
                     "id": 90005,
                     "name": "Jarlsstaðir",
@@ -1813,9 +1815,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1866,
-                "year_to_value": 1866
+                }
             },
             {
                 "original_string": "Hjú á Stóru-völlum ... 1867-70",
@@ -3895,7 +3895,7 @@
             {
                 "name": "Jón Jónasson",
                 "date": "1855-05-25",
-                "status": "á Grenavatni",
+                "status": "á Grænavatni",
                 "names": [
                     "Jón",
                     "Jónasson"
@@ -3904,7 +3904,7 @@
                 "lastName": "Jónasson"
             }
         ],
-        "spouse_original_string": "M. 25/5. 1855: Jón Jónasson (á Grenavatni).",
+        "spouse_original_string": "M. 25/5. 1855: Jón Jónasson (á Grænavatni).",
         "parents": [
             {
                 "name": "Þorl. Þorsteinsson",
@@ -3974,48 +3974,144 @@
                 "year_to_value": 1854
             },
             {
-                "original_string": "Trúlofuð (28) frá Þórðarstöðum að Grenavatni 1855.",
+                "original_string": "Trúlofuð (28) frá Þórðarstöðum að Grænavatni 1855.",
                 "year_or_period": "1855",
                 "age": 28,
                 "status": "Trúlofuð",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "frá Þórðarstöðum",
                 "year": "1855",
                 "year_from_value": 1855,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjú á Grenavatni (28) 1855-",
+                "original_string": "Hjú á Grænavatni (28) 1855-",
                 "year_or_period": "1855",
                 "age": 28,
                 "status": "Hjú",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "",
                 "year": "1855",
                 "year_from_value": 1855,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "G. kona á Grenavatni - 1860-",
+                "original_string": "G. kona á Grænavatni - 1860-",
                 "year_or_period": "1860",
                 "age": null,
                 "status": "G. kona",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "",
                 "year": "1860",
                 "year_from_value": 1860,
-                "year_to_value": 1860
+                "year_to_value": 1860,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Húsfr. á Grenavatni - 1870-1873.",
+                "original_string": "Húsfr. á Grænavatni - 1870-1873.",
                 "year_or_period": "1870-1873",
                 "age": null,
                 "status": "Húsfr.",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "",
                 "year": "1870-1873",
                 "year_from_value": 1870,
-                "year_to_value": 1873
+                "year_to_value": 1873,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Hofstöðum (47) 1874-1879.",
@@ -4053,15 +4149,39 @@
                 "year_to_value": 1879
             },
             {
-                "original_string": "Húsfr. á Grenavatni (53) 1880-1884.",
+                "original_string": "Húsfr. á Grænavatni (53) 1880-1884.",
                 "year_or_period": "1880-1884",
                 "age": 53,
                 "status": "Húsfr.",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "",
                 "year": "1880-1884",
                 "year_from_value": 1880,
-                "year_to_value": 1884
+                "year_to_value": 1884,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Reykjahlíð (58) 1885.",

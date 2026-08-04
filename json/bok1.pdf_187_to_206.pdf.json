@@ -176,6 +176,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Jarlsstaðir B.",
+                "year_from_value": 1855,
+                "year_to_value": 1855,
                 "location_obj": {
                     "id": 90005,
                     "name": "Jarlsstaðir",
@@ -199,9 +201,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1855,
-                "year_to_value": 1855
+                }
             },
             {
                 "original_string": "Hjá for. á Jarlsst. B. (2) 1857.",
@@ -211,6 +211,8 @@
                 "location": "Jarlsstaðir B.",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1857,
+                "year_to_value": 1857,
                 "location_obj": {
                     "id": 90005,
                     "name": "Jarlsstaðir",
@@ -234,9 +236,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1857,
-                "year_to_value": 1857
+                }
             },
             {
                 "original_string": "Hjá for. í Jarlsst.seli (5) 1860-78.",
@@ -3535,15 +3535,39 @@
                 }
             },
             {
-                "original_string": "Með for. á Grenavatni (3) 1889.",
+                "original_string": "Með for. á Grænavatni (3) 1889.",
                 "year": "1889",
                 "age": 3,
                 "status": "Með for.",
-                "location": "Grenavatni",
+                "location": "Grænavatni",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1889,
-                "year_to_value": 1889
+                "year_to_value": 1889,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Vogum (4) 1890-1891.",
@@ -3616,15 +3640,39 @@
                 "year_to_value": 1892
             },
             {
-                "original_string": "Með for. á Grenavatni (7) 1893-1894.",
+                "original_string": "Með for. á Grænavatni (7) 1893-1894.",
                 "year": "1893-1894",
                 "age": 7,
                 "status": "Með for.",
-                "location": "Grenavatni",
+                "location": "Grænavatni",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1893,
-                "year_to_value": 1894
+                "year_to_value": 1894,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Lundarbrekku (8 ára) 1895-1896.",

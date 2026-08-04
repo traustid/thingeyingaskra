@@ -132,10 +132,34 @@
                 "year": "1872",
                 "age": 59,
                 "status": "G. húsm.",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "",
                 "year_from_value": 1872,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Ytrafjalli (62) 1873. -",
@@ -144,6 +168,8 @@
                 "status": "Hjú",
                 "location": "Ytra-Fjall",
                 "note": "",
+                "year_from_value": 1873,
+                "year_to_value": 1873,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -167,9 +193,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1873,
-                "year_to_value": 1873
+                }
             },
             {
                 "original_string": "G. húsm. á Hafralægerði (61) 1874-1876.",
@@ -567,20 +591,68 @@
                 "year": "1875-1895",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "",
                 "year_from_value": 1875,
-                "year_to_value": 1895
+                "year_to_value": 1895,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Haga (21) 1896.",
                 "year": "1896",
                 "age": 21,
                 "status": "B.",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "",
                 "year_from_value": 1896,
-                "year_to_value": 1896
+                "year_to_value": 1896,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Arbót (22) 1897-1900.",
@@ -1004,6 +1076,8 @@
                 "location": "Grænavatni",
                 "note": "",
                 "note_ref": 2,
+                "year_from_value": 1801,
+                "year_to_value": 1803,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -1027,9 +1101,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1803
+                }
             },
             {
                 "original_string": "B. á Halldórsst. L. (57) 1804.",
@@ -3055,9 +3127,9 @@
                 }
             },
             "death": {
-                "original_string": "D. í Fosseli 10/6. 1860. (Slunsótt).",
+                "original_string": "D. í Fossseli 10/6. 1860. (Slunsótt).",
                 "date": "1860-06-10",
-                "location": "Fosseli",
+                "location": "Fossseli",
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -3094,7 +3166,7 @@
             {
                 "name": "Jósef Jósafatsson",
                 "date": "1836-10-04",
-                "status": "í Fosseli",
+                "status": "í Fossseli",
                 "names": [
                     "Jósef",
                     "Jósafatsson"
@@ -3103,7 +3175,7 @@
                 "lastName": "Jósafatsson"
             }
         ],
-        "spouse_original_string": "4/10. 1836 : Jósef Jósafatsson (í Fosseli).",
+        "spouse_original_string": "4/10. 1836 : Jósef Jósafatsson (í Fossseli).",
         "parents": [
             {
                 "name": "E. Halldórsson",
@@ -3276,12 +3348,14 @@
                 "year_to_value": 1844
             },
             {
-                "original_string": "Húsfr. frá Hjalla í Fossel (35) 1845-1860. (Talin búandi í Fosseli 1860).",
+                "original_string": "Húsfr. frá Hjalla í Fosssel (35) 1845-1860. (Talin búandi í Fossseli 1860).",
                 "year": "1845-1860",
                 "age": 35,
                 "status": "Húsfr.",
-                "location": "Fossel",
-                "note": "Talin búandi í Fosseli 1860",
+                "location": "Fosssel",
+                "note": "Talin búandi í Fossseli 1860",
+                "year_from_value": 1845,
+                "year_to_value": 1860,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -3305,16 +3379,16 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1845,
-                "year_to_value": 1860
+                }
             },
             {
                 "year": "1860",
-                "original_string": "D. í Fosseli 10/6. 1860. (Slunsótt).",
+                "original_string": "D. í Fossseli 10/6. 1860. (Slunsótt).",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Fosseli",
+                "location": "Fossseli",
+                "year_from_value": 1860,
+                "year_to_value": 1860,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -3338,9 +3412,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1860
+                }
             }
         ],
         "notes": {},
@@ -3447,6 +3519,8 @@
                 "status": "Hjú",
                 "location": "Jarlsstaðir Grýt.",
                 "note": "",
+                "year_from_value": 1893,
+                "year_to_value": 1893,
                 "location_obj": {
                     "id": 1004895,
                     "name": "Jarlsstaðir",
@@ -3470,9 +3544,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1893,
-                "year_to_value": 1893
+                }
             }
         ],
         "notes": {},
@@ -3800,12 +3872,14 @@
                 "year_to_value": 1818
             },
             {
-                "original_string": "Hjú frá Stórulaugum að Fosseli 1820-",
+                "original_string": "Hjú frá Stórulaugum að Fossseli 1820-",
                 "year": "1820",
                 "age": null,
                 "status": "Hjú",
-                "location": "Fosseli",
+                "location": "Fossseli",
                 "note": "frá Stórulaugum",
+                "year_from_value": 1820,
+                "year_to_value": 1820,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -3829,9 +3903,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1820,
-                "year_to_value": 1820
+                }
             }
         ],
         "notes": {},

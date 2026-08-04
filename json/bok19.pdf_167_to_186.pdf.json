@@ -177,15 +177,39 @@
         "parents_original_string": "For.:",
         "residence_history": [
             {
-                "original_string": "Hjú á Einarsst., Þ.hv. (20 ára) 1874.",
+                "original_string": "Hjú á Einarsst., R.hv. (20 ára) 1874.",
                 "year_or_period": "1874",
                 "age": 20,
                 "status": "Hjú",
-                "location": "Einarsstaðir, Þ.hv.",
+                "location": "Einarsstaðir, R.hv.",
                 "note": "",
                 "year": "1874",
                 "year_from_value": 1874,
-                "year_to_value": 1874
+                "year_to_value": 1874,
+                "location_obj": {
+                    "id": 25978,
+                    "name": "Einarsstaðir",
+                    "lat": "65.951317",
+                    "lng": "-17.304459",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Bústýra í Kaldbak (21) 1875-1876.",
@@ -3443,7 +3467,6 @@
                 "note": "",
                 "names": [
                     "Einar",
-                    "pr.",
                     "Tómasson"
                 ],
                 "firstName": "Einar",
@@ -4179,6 +4202,8 @@
                 "location": "Grænavatni",
                 "note": "",
                 "year": "1874",
+                "year_from_value": 1874,
+                "year_to_value": 1874,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -4202,9 +4227,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1874,
-                "year_to_value": 1874
+                }
             },
             {
                 "original_string": "Hjú á Gautlöndum ... 1875-1877-",
@@ -4627,6 +4650,8 @@
                 "location": "Grænavatni",
                 "note": "",
                 "year": "1875",
+                "year_from_value": 1875,
+                "year_to_value": 1875,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -4650,9 +4675,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1875,
-                "year_to_value": 1875
+                }
             },
             {
                 "original_string": "Hjú í Reykjahlíð (26) 1876-1880.",
@@ -4743,6 +4766,8 @@
                 "location": "Grænavatni",
                 "note": "",
                 "year": "1883",
+                "year_from_value": 1883,
+                "year_to_value": 1883,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -4766,9 +4791,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1883,
-                "year_to_value": 1883
+                }
             },
             {
                 "original_string": "Húsk. á Geiteyjarströnd ... 1884-1885.",
@@ -4813,6 +4836,8 @@
                 "location": "Grænavatni",
                 "note": "",
                 "year": "1895",
+                "year_from_value": 1895,
+                "year_to_value": 1895,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -4836,9 +4861,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1895,
-                "year_to_value": 1895
+                }
             },
             {
                 "original_string": "Húsk. á sama bæ .. 1896-1897.",

@@ -208,6 +208,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Grænavatn",
+                "year_from_value": 1859,
+                "year_to_value": 1859,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -231,9 +233,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1859,
-                "year_to_value": 1859
+                }
             },
             {
                 "original_string": "Með for. á Sveinströnd (2) 1860-",
@@ -2940,6 +2940,8 @@
                 "location": "Grænavatn",
                 "note": "",
                 "year": "1888-1889",
+                "year_from_value": 1888,
+                "year_to_value": 1889,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -2963,9 +2965,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1888,
-                "year_to_value": 1889
+                }
             },
             {
                 "original_string": "Hjú í Skógum R. (42) 1890.- Kona vm. í Djúpakoti (43) 1891.",
@@ -3010,6 +3010,8 @@
                 "location": "Einarsstaðir R. hv.",
                 "note": "",
                 "year": "1892",
+                "year_from_value": 1892,
+                "year_to_value": 1892,
                 "location_obj": {
                     "id": 25978,
                     "name": "Einarsstaðir",
@@ -3033,9 +3035,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1892,
-                "year_to_value": 1892
+                }
             },
             {
                 "original_string": "Húsfr. á Borgarhóli (47 ára) 1893.",
@@ -3067,6 +3067,8 @@
                 "location": "Hagi",
                 "note": "",
                 "year": "1899",
+                "year_from_value": 1899,
+                "year_to_value": 1899,
                 "location_obj": {
                     "id": 24331,
                     "name": "Hagi",
@@ -3090,9 +3092,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1899,
-                "year_to_value": 1899
+                }
             },
             {
                 "original_string": "Hjá dóttur í Hallgrímsbæ (52 ára) 1900.",
@@ -3513,7 +3513,31 @@
             "death": {
                 "original_string": "D. í Skriðu 29/5. 1901.",
                 "date": "1901-05-29",
-                "location": "Skriða"
+                "location": "Rauðaskriða",
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Guðný",
@@ -3701,9 +3725,33 @@
                 "original_string": "D. í Skriðu 29/5. 1901.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Skriða",
+                "location": "Rauðaskriða",
                 "year_from_value": 1901,
-                "year_to_value": 1901
+                "year_to_value": 1901,
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -4169,6 +4217,8 @@
                 "location": "Jarlsstaðir B.",
                 "note": "",
                 "year": "1845",
+                "year_from_value": 1845,
+                "year_to_value": 1845,
                 "location_obj": {
                     "id": 90005,
                     "name": "Jarlsstaðir",
@@ -4192,9 +4242,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1845,
-                "year_to_value": 1845
+                }
             },
             {
                 "original_string": "Húsfr. úr Bárðardal að Fljótsbakka (21) 1845-1847.",

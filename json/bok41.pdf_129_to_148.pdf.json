@@ -1922,6 +1922,8 @@
                 "status": "G. hjú",
                 "location": "Ytra-Fjall",
                 "note": "",
+                "year_from_value": 1888,
+                "year_to_value": 1888,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -1945,19 +1947,41 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1888,
-                "year_to_value": 1888
+                }
             },
             {
                 "original_string": "G. hjú í Haga (55) 1889.",
                 "year": "1889",
                 "age": 55,
                 "status": "G. hjú",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "",
                 "year_from_value": 1889,
-                "year_to_value": 1889
+                "year_to_value": 1889,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú í Árbót (59) 1890-1892.",
@@ -4304,11 +4328,35 @@
                 "year": "1785",
                 "age": 16,
                 "status": "Niðurs.",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "",
                 "note_ref": 2,
                 "year_from_value": 1785,
-                "year_to_value": 1785
+                "year_to_value": 1785,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

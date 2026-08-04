@@ -668,6 +668,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1890-1900",
+                "year_from_value": 1890,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -691,9 +693,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1890,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -2105,7 +2105,6 @@
                 "note": "",
                 "names": [
                     "Eir.",
-                    "pr.",
                     "Þorleifsson"
                 ],
                 "firstName": "Eir.",
@@ -2647,6 +2646,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1885",
+                "year_from_value": 1885,
+                "year_to_value": 1885,
                 "location_obj": {
                     "id": 25169,
                     "name": "Grænavatn",
@@ -2670,9 +2671,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1885,
-                "year_to_value": 1885
+                }
             },
             {
                 "original_string": "Húsfr. í Jóhannesbæ (42 ára) 1886-1894.",
@@ -4565,6 +4564,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1897-1898",
+                "year_from_value": 1897,
+                "year_to_value": 1898,
                 "location_obj": {
                     "id": 1002743,
                     "name": "Jarlsstaðir",
@@ -4588,9 +4589,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1897,
-                "year_to_value": 1898
+                }
             },
             {
                 "original_string": "Hjú í Sundi (55) 1899.",
@@ -4637,6 +4636,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1900",
+                "year_from_value": 1900,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 1002743,
                     "name": "Jarlsstaðir",
@@ -4660,9 +4661,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1900,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -4751,7 +4750,31 @@
             "birth": {
                 "original_string": "F 15/8. 1893 í Skriðu.",
                 "date": "1893-08-15",
-                "location": "Skriða"
+                "location": "Rauðaskriða",
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -4797,19 +4820,9 @@
                 "original_string": "F 15/8. 1893 í Skriðu.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skriða",
-                "year_from_value": 1893,
-                "year_to_value": 1893
-            },
-            {
-                "original_string": "Hjá for. í Rauðuskriðu (á 1.) 1893-1900.",
-                "year_or_period": "1893-1900",
-                "age": 1,
-                "status": "Hjá for.",
                 "location": "Rauðaskriða",
-                "note": "",
-                "note_ref": null,
-                "year": "1893-1900",
+                "year_from_value": 1893,
+                "year_to_value": 1893,
                 "location_obj": {
                     "id": 24909,
                     "name": "Rauðaskriða",
@@ -4833,9 +4846,43 @@
                             "id": 16573
                         }
                     ]
-                },
+                }
+            },
+            {
+                "original_string": "Hjá for. í Rauðuskriðu (á 1.) 1893-1900.",
+                "year_or_period": "1893-1900",
+                "age": 1,
+                "status": "Hjá for.",
+                "location": "Rauðaskriða",
+                "note": "",
+                "note_ref": null,
+                "year": "1893-1900",
                 "year_from_value": 1893,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

@@ -983,7 +983,7 @@
                 "year_to_value": 1820
             },
             {
-                "original_string": "Barn frá Fosseli að Láfsgerði 1823. - Gefið með honum af föður hans.",
+                "original_string": "Barn frá Fossseli að Láfsgerði 1823. - Gefið með honum af föður hans.",
                 "year": "1823",
                 "age": null,
                 "status": "Barn",
@@ -2166,6 +2166,8 @@
                 "location": "Rauðaskriða",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1844,
+                "year_to_value": 1844,
                 "location_obj": {
                     "id": 24909,
                     "name": "Rauðaskriða",
@@ -2189,9 +2191,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1844,
-                "year_to_value": 1844
+                }
             },
             {
                 "original_string": "Hjá for. í Rauðuskriðu 1845-46, 20-21 ára.",
@@ -2201,6 +2201,8 @@
                 "location": "Rauðaskriða",
                 "note": "20-21 ára",
                 "note_ref": null,
+                "year_from_value": 1845,
+                "year_to_value": 1846,
                 "location_obj": {
                     "id": 24909,
                     "name": "Rauðaskriða",
@@ -2224,9 +2226,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1845,
-                "year_to_value": 1846
+                }
             },
             {
                 "original_string": "B. á Hóli K. (24) 1848-50. (Hrb.).",
@@ -2863,15 +2863,39 @@
                 "year_to_value": 1865
             },
             {
-                "original_string": "G. maður- frá Kraunast. að Fosseli (31) 1866-67.",
+                "original_string": "G. maður- frá Kraunast. að Fossseli (31) 1866-67.",
                 "year": "1866-1867",
                 "age": 31,
                 "status": "G. maður",
-                "location": "Fossell",
+                "location": "Fosssell",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1866,
-                "year_to_value": 1867
+                "year_to_value": 1867,
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. m. að Litlulaugum (32) 1867- B. í Miðhvammi (44) 1879-1880.",
@@ -3738,7 +3762,31 @@
             "death": {
                 "original_string": "D. í Skriðu 6/2 1901.",
                 "date": "1901-02-06",
-                "location": "Skriða"
+                "location": "Rauðaskriða",
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Árni",
@@ -3861,6 +3909,8 @@
                 "location": "Rauðaskriða",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1847,
+                "year_to_value": 1847,
                 "location_obj": {
                     "id": 24909,
                     "name": "Rauðaskriða",
@@ -3884,9 +3934,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1847,
-                "year_to_value": 1847
+                }
             },
             {
                 "original_string": "Hjú á Þverá L. (17) 1849-1851.",
@@ -4071,6 +4119,8 @@
                 "location": "Rauðaskriða",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1879,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 24909,
                     "name": "Rauðaskriða",
@@ -4094,9 +4144,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1879,
-                "year_to_value": 1897
+                }
             },
             {
                 "original_string": "Húsmaður eða búlaus á sama bæ 1898-1900-",
@@ -4106,6 +4154,8 @@
                 "location": "Rauðaskriða",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1898,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 24909,
                     "name": "Rauðaskriða",
@@ -4129,18 +4179,40 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1898,
-                "year_to_value": 1900
+                }
             },
             {
                 "year": "1901",
                 "original_string": "D. í Skriðu 6/2 1901.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Skriða",
+                "location": "Rauðaskriða",
                 "year_from_value": 1901,
-                "year_to_value": 1901
+                "year_to_value": 1901,
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

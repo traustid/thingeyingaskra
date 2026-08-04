@@ -389,6 +389,8 @@
                 "location": "Ytra-Fjall",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1870,
+                "year_to_value": 1877,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -412,9 +414,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1877
+                }
             },
             {
                 "original_string": "Hjú á Sydrafjalli (23) 1876-1877.",
@@ -2582,15 +2582,39 @@
         "parents_original_string": "For.: ",
         "residence_history": [
             {
-                "original_string": "Hjú á Grenavatni (21) 1888.",
+                "original_string": "Hjú á Grænavatni (21) 1888.",
                 "year": "1888",
                 "age": 21,
                 "status": "Hjú",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1888,
-                "year_to_value": 1888
+                "year_to_value": 1888,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Baldursheimi (22) 1889-1890.",

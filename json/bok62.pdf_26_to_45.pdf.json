@@ -1267,14 +1267,38 @@
                 "year_to_value": 1872
             },
             {
-                "original_string": "G. hjú á Grenavatni (43) 1875.",
+                "original_string": "G. hjú á Grænavatni (43) 1875.",
                 "year": "1875",
                 "age": 43,
                 "status": "G. hjú",
-                "location": "Grenavatni",
+                "location": "Grænavatni",
                 "note": "",
                 "year_from_value": 1875,
-                "year_to_value": 1875
+                "year_to_value": 1875,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú á Amavatni (44) 1876-1880.",
@@ -2293,7 +2317,7 @@
                 "year": "1892-1894",
                 "age": 55,
                 "status": "B. / Þ.b.m.",
-                "location": "Kambsmýrum / Nýjabæ",
+                "location": "Kambsmýrar / Nýjabæ",
                 "note": "",
                 "year_from_value": 1892,
                 "year_to_value": 1894
@@ -3912,6 +3936,8 @@
                 "status": "Vinnumann.",
                 "location": "Einarsstaðir R. hv.",
                 "note": "",
+                "year_from_value": 1860,
+                "year_to_value": 1860,
                 "location_obj": {
                     "id": 25978,
                     "name": "Einarsstaðir",
@@ -3935,9 +3961,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1860
+                }
             },
             {
                 "original_string": "Hjú þaðan að Hallbjarnarst. R. (19) 1860-",
@@ -3990,6 +4014,8 @@
                 "status": "Hjú",
                 "location": "Ytra-Fjall",
                 "note": "?",
+                "year_from_value": 1862,
+                "year_to_value": 1862,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -4013,9 +4039,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1862,
-                "year_to_value": 1862
+                }
             },
             {
                 "original_string": "Hjú í Þúfu (20) 1863. ?",
@@ -6383,14 +6407,38 @@
                 }
             },
             {
-                "original_string": "Fósturb. á Grenavatni (9) 1860-1866.",
+                "original_string": "Fósturb. á Grænavatni (9) 1860-1866.",
                 "year": "1860-1866",
                 "age": 9,
                 "status": "Fósturb.",
-                "location": "Grenavatni",
+                "location": "Grænavatni",
                 "note": "",
                 "year_from_value": 1860,
-                "year_to_value": 1866
+                "year_to_value": 1866,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fósturson (11) þaðan að Yztafelli 1863-1872",

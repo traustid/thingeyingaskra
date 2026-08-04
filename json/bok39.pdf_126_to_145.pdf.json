@@ -518,10 +518,10 @@
         "parents_original_string": "For.:",
         "residence_history": [
             {
-                "original_string": "Lettadr. á Hofi (19)-1801- ?",
+                "original_string": "Léttadr. á Hofi (19)-1801- ?",
                 "year_or_period": "1801",
                 "age": 19,
-                "status": "Lettadr.",
+                "status": "Léttadr.",
                 "location": "Hofi",
                 "note": "",
                 "note_ref": null,
@@ -2027,14 +2027,16 @@
                 "year_to_value": 1820
             },
             {
-                "original_string": "G. Frá Glaumbæ að Fosseli 1821-23.",
+                "original_string": "G. Frá Glaumbæ að Fossseli 1821-23.",
                 "year_or_period": "1821-1823",
                 "age": null,
                 "status": "G.",
-                "location": "Fosseli",
+                "location": "Fossseli",
                 "note": "Frá Glaumbæ",
                 "note_ref": null,
                 "year": "1821-1823",
+                "year_from_value": 1821,
+                "year_to_value": 1823,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -2058,9 +2060,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1821,
-                "year_to_value": 1823
+                }
             }
         ],
         "notes": {},

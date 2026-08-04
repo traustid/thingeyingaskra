@@ -620,14 +620,38 @@
                 }
             },
             {
-                "original_string": "Hjú á Grenavatni (24) 1855-56.",
+                "original_string": "Hjú á Grænavatni (24) 1855-56.",
                 "year": "1855-1856",
                 "age": 24,
                 "status": "Hjú",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "",
                 "year_from_value": 1855,
-                "year_to_value": 1856
+                "year_to_value": 1856,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú á Laxamýri 1856-57.",
@@ -3045,6 +3069,8 @@
                 "status": "Hjá for.",
                 "location": "Jarlsstaðir, Grýt.",
                 "note": "1 árs",
+                "year_from_value": 1842,
+                "year_to_value": 1846,
                 "location_obj": {
                     "id": 1004895,
                     "name": "Jarlsstaðir",
@@ -3068,9 +3094,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1842,
-                "year_to_value": 1846
+                }
             },
             {
                 "original_string": "Hjá for. á Þverá Fj. (5 1/2) 1847-1849-",
@@ -3117,10 +3141,10 @@
                 "year_to_value": 1850
             },
             {
-                "original_string": "Lettast í Hvammi (10) 1851-1859-1875.",
+                "original_string": "Léttast í Hvammi (10) 1851-1859-1875.",
                 "year": "1851-1875",
                 "age": 10,
-                "status": "Lettast",
+                "status": "Léttast",
                 "location": "Hvammur",
                 "note": "",
                 "location_obj": {
@@ -3858,10 +3882,10 @@
                 "year_to_value": 1898
             },
             {
-                "original_string": "Lettast í Grjótárgerði Fr. (14) 1899-1900.",
+                "original_string": "Léttast í Grjótárgerði Fr. (14) 1899-1900.",
                 "year": "1899-1900",
                 "age": 14,
-                "status": "Lettast",
+                "status": "Léttast",
                 "location": "Grjótárgerði, Fn.",
                 "note": "",
                 "year_from_value": 1899,

@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. 5/12 1821 í Haga.",
                 "date": "1821-12-05",
-                "location": "Haga"
+                "location": "Hagi",
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Hvarfi 7/6 1885, 64 ára. G.k.",
@@ -88,9 +112,33 @@
                 "original_string": "F. 5/12 1821 í Haga.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Haga",
+                "location": "Hagi",
                 "year_from_value": 1821,
-                "year_to_value": 1821
+                "year_to_value": 1821,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður frá Haga að Geitafelli (5) 1826.",
@@ -1222,14 +1270,38 @@
                 "year_to_value": 1850
             },
             {
-                "original_string": "H. um. á Grenavatni (51) 1855- Húsk. á Bjarnarst. M. 1857.",
+                "original_string": "H. um. á Grænavatni (51) 1855- Húsk. á Bjarnarst. M. 1857.",
                 "year": "1855-1857",
                 "age": 51,
                 "status": "H. um.",
-                "location": "Grenavatni",
+                "location": "Grænavatni",
                 "note": "Húsk. á Bjarnarst. M. 1857",
                 "year_from_value": 1855,
-                "year_to_value": 1857
+                "year_to_value": 1857,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "H. um. frá Litluströnd að Svínadal 1859.",
@@ -1820,7 +1892,7 @@
             "birth": {
                 "original_string": "F. 1/2 1803 í Dali.",
                 "date": "1803-02-01",
-                "location": "Dali"
+                "location": "Dæli"
             },
             "death": {
                 "original_string": "D. á Arnareyri 18/3 1885. 1)",
@@ -1902,7 +1974,7 @@
                 "original_string": "F. 1/2 1803 í Dali.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Dali",
+                "location": "Dæli",
                 "year_from_value": 1803,
                 "year_to_value": 1803
             },
@@ -1910,7 +1982,7 @@
                 "original_string": "Hjá for. í Dali (3) 1805-1816-",
                 "year": "1805-1816",
                 "age": 3,
-                "location": "Dali",
+                "location": "Dæli",
                 "note": "Hjá for. í",
                 "year_from_value": 1805,
                 "year_to_value": 1816
@@ -1919,7 +1991,7 @@
                 "original_string": "Hjá for. í Dali (27) 1829- 1831.",
                 "year": "1829-1831",
                 "age": 27,
-                "location": "Dali",
+                "location": "Dæli",
                 "note": "Hjá for. í",
                 "year_from_value": 1829,
                 "year_to_value": 1831
@@ -1939,7 +2011,7 @@
                 "year": "1834-1845",
                 "age": 33,
                 "status": "Húsfr.",
-                "location": "Kambsmýrum",
+                "location": "Kambsmýrar",
                 "note": "",
                 "year_from_value": 1834,
                 "year_to_value": 1845
@@ -3097,11 +3169,35 @@
                 "original_string": "Húsfr. í Haga ... 1822-1825. 1)",
                 "year": "1822-1825",
                 "status": "Húsfr.",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "",
                 "note_ref": 1,
                 "year_from_value": 1822,
-                "year_to_value": 1825
+                "year_to_value": 1825,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. frá Haga að Geitafelli (27) 1826.",
@@ -4340,6 +4436,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Ytra-Fjall",
+                "year_from_value": 1900,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -4363,9 +4461,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1900,
-                "year_to_value": 1900
+                }
             },
             {
                 "original_string": "Hjá for. á Ytrafjalli (á 1.) 1900.",
@@ -4373,6 +4469,8 @@
                 "age": 1,
                 "location": "Ytra-Fjall",
                 "note": "Hjá for. á",
+                "year_from_value": 1900,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -4396,9 +4494,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1900,
-                "year_to_value": 1900
+                }
             },
             {
                 "original_string": "Húsfreyja í Brúum",

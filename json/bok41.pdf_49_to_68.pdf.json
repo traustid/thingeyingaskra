@@ -395,9 +395,33 @@
             "status": "(í Hörgsdal)",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 5/2. 1787. á Grenavatni.",
+                "original_string": "F. 5/2. 1787. á Grænavatni.",
                 "date": "1787-02-05",
-                "location": "Grenavatn"
+                "location": "Grænavatn",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -458,12 +482,36 @@
         "residence_history": [
             {
                 "year": "1787",
-                "original_string": "F. 5/2. 1787. á Grenavatni.",
+                "original_string": "F. 5/2. 1787. á Grænavatni.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "year_from_value": 1787,
-                "year_to_value": 1787
+                "year_to_value": 1787,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Víðikeri (15) 1801.",
@@ -1318,7 +1366,6 @@
                 "note": "",
                 "names": [
                     "Magnús",
-                    "pr.",
                     "Jónsson"
                 ],
                 "firstName": "Magnús",
@@ -3454,16 +3501,40 @@
                 "year_to_value": 1865
             },
             {
-                "original_string": "Með for. á Grenavatni (5) 1870 — 1871.",
+                "original_string": "Með for. á Grænavatni (5) 1870 — 1871.",
                 "year_or_period": "1870-1871",
                 "age": 5,
                 "status": "Með for.",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "",
                 "note_ref": null,
                 "year": "1870-1871",
                 "year_from_value": 1870,
-                "year_to_value": 1871
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Helluvaði (8) 1872 — 1873.",

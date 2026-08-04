@@ -672,22 +672,46 @@
                 "year_to_value": 1854
             },
             {
-                "original_string": "Tökub. á Einarsst., Þ.hv. (6 ára) 1855-1857.",
+                "original_string": "Tökub. á Einarsst., R.hv. (6 ára) 1855-1857.",
                 "year": "1855-1857",
                 "age": 6,
                 "status": "Tökub.",
-                "location": "Einarsstaðir, Þ.hv.",
+                "location": "Einarsstaðir, R.hv.",
                 "note": "",
                 "year_from_value": 1855,
-                "year_to_value": 1857
+                "year_to_value": 1857,
+                "location_obj": {
+                    "id": 25978,
+                    "name": "Einarsstaðir",
+                    "lat": "65.951317",
+                    "lng": "-17.304459",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "(Töku) stúlka á Halldórsst. Þ. (8) 1856 (stendur svo) (Komin frá Einarsst. í Þ.hv.)",
+                "original_string": "(Töku) stúlka á Halldórsst. Þ. (8) 1856 (stendur svo) (Komin frá Einarsst. í R.hv.)",
                 "year": "1856",
                 "age": 8,
                 "status": "(Töku) stúlka",
                 "location": "Halldórsstaðir Þ.",
-                "note": "Komin frá Einarsst. í Þ.hv.",
+                "note": "Komin frá Einarsst. í R.hv.",
                 "year_from_value": 1856,
                 "year_to_value": 1856
             },
@@ -698,6 +722,8 @@
                 "status": "Fermd",
                 "location": "Einarsstaðir",
                 "note": "frá Halldórsst. Þ",
+                "year_from_value": 1863,
+                "year_to_value": 1863,
                 "location_obj": {
                     "id": 16546,
                     "name": "Einarsstaðir",
@@ -721,9 +747,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1863,
-                "year_to_value": 1863
+                }
             },
             {
                 "original_string": "Ungb., frá Halldórsst. Þ. að Skógarseli (16) 1865-",
@@ -766,6 +790,8 @@
                 "status": "Hjú",
                 "location": "Einarsstaðir",
                 "note": "frá Halldórsst. Þ.",
+                "year_from_value": 1867,
+                "year_to_value": 1867,
                 "location_obj": {
                     "id": 16546,
                     "name": "Einarsstaðir",
@@ -789,9 +815,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1867,
-                "year_to_value": 1867
+                }
             },
             {
                 "original_string": "Fluttist til Kelduhverfis ... 1883.",
@@ -2912,7 +2936,6 @@
                 "note": "",
                 "names": [
                     "Sæm.",
-                    "pr.",
                     "Jónsson"
                 ],
                 "firstName": "Sæm.",

@@ -2284,15 +2284,39 @@
         "parents_original_string": "For. :",
         "residence_history": [
             {
-                "original_string": "Hjú á Grenavatni ... 1843-",
+                "original_string": "Hjú á Grænavatni ... 1843-",
                 "year": "1843-",
                 "age": null,
                 "status": "Hjú",
-                "location": "Grenavatni",
+                "location": "Grænavatni",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1843,
-                "year_to_value": 1843
+                "year_to_value": 1843,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2997,7 +3021,7 @@
                 "year": "1868",
                 "age": 10,
                 "status": "Tökub.",
-                "location": "Végeirsstöðum",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1868,

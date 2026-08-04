@@ -1607,12 +1607,36 @@
                 "year_or_period": "1873",
                 "age": null,
                 "status": "Hjú",
-                "location": "Haga",
+                "location": "Hagi",
                 "note": "",
                 "note_ref": null,
                 "year": "1873",
                 "year_from_value": 1873,
-                "year_to_value": 1873
+                "year_to_value": 1873,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Ytrafjalli... 1874.",
@@ -1623,6 +1647,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1874",
+                "year_from_value": 1874,
+                "year_to_value": 1874,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -1646,9 +1672,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1874,
-                "year_to_value": 1874
+                }
             },
             {
                 "original_string": "Húsm. í Uppibæ (32) 1881-1882. (G. '82).",
@@ -2584,6 +2608,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Fossseli",
+                "year_from_value": 1881,
+                "year_to_value": 1881,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -2607,9 +2633,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1881,
-                "year_to_value": 1881
+                }
             },
             {
                 "original_string": "Hjá for. í Fossseli (8) 1889-1892.",
@@ -2620,6 +2644,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1889-1892",
+                "year_from_value": 1889,
+                "year_to_value": 1892,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -2643,9 +2669,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1889,
-                "year_to_value": 1892
+                }
             },
             {
                 "original_string": "Tökub. á Arndísarst. (12) 1893.",
@@ -2704,6 +2728,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1898",
+                "year_from_value": 1898,
+                "year_to_value": 1898,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -2727,9 +2753,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1898,
-                "year_to_value": 1898
+                }
             },
             {
                 "original_string": "Hjú í Glaumbæ (18) 1899.",

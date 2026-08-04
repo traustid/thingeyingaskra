@@ -1608,6 +1608,8 @@
                 "location": "Jarlsstaðir",
                 "note": "",
                 "year": "1801-1805",
+                "year_from_value": 1801,
+                "year_to_value": 1805,
                 "location_obj": {
                     "id": 1002743,
                     "name": "Jarlsstaðir",
@@ -1631,9 +1633,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1805
+                }
             },
             {
                 "original_string": "Bræðurson búandi konu á Arnarst. (17) - 1806-07.",
@@ -1678,6 +1678,8 @@
                 "location": "Jarlsstaðir",
                 "note": "",
                 "year": "1808-1810",
+                "year_from_value": 1808,
+                "year_to_value": 1810,
                 "location_obj": {
                     "id": 1002743,
                     "name": "Jarlsstaðir",
@@ -1701,9 +1703,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1808,
-                "year_to_value": 1810
+                }
             }
         ],
         "notes": {},
@@ -1718,9 +1718,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. um 1766 á Grenavatni.",
+                "original_string": "F. um 1766 á Grænavatni.",
                 "date": "1766-01-01",
-                "location": "Grenavatn"
+                "location": "Grænavatn",
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Hofstöðum 26/6. 1827. 1)",
@@ -1799,12 +1823,36 @@
         "residence_history": [
             {
                 "year": "1766",
-                "original_string": "F. um 1766 á Grenavatni.",
+                "original_string": "F. um 1766 á Grænavatni.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "year_from_value": 1766,
-                "year_to_value": 1766
+                "year_to_value": 1766,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Hofstöðum (35) 1801-1816-1827.",

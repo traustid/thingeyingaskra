@@ -429,6 +429,8 @@
                 "status": "Móðir B.",
                 "location": "Kvíslarhóll",
                 "note": "",
+                "year_from_value": 1831,
+                "year_to_value": 1838,
                 "location_obj": {
                     "id": 16633,
                     "name": "Kvíslarhóll",
@@ -452,9 +454,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1831,
-                "year_to_value": 1838
+                }
             },
             {
                 "year": "1838",
@@ -462,6 +462,8 @@
                 "age": 0,
                 "status": "Dánarstaður",
                 "location": "Kvíslarhóll",
+                "year_from_value": 1838,
+                "year_to_value": 1838,
                 "location_obj": {
                     "id": 16633,
                     "name": "Kvíslarhóll",
@@ -485,9 +487,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1838,
-                "year_to_value": 1838
+                }
             }
         ],
         "notes": {
@@ -908,14 +908,38 @@
                 "year_to_value": 1879
             },
             {
-                "original_string": "Móðir H. í Fosseli (56) 1880.",
+                "original_string": "Móðir H. í Fossseli (56) 1880.",
                 "year": "1880",
                 "age": 56,
                 "status": "Móðir H.",
-                "location": "Fossell",
+                "location": "Fosssell",
                 "note": "",
                 "year_from_value": 1880,
-                "year_to_value": 1880
+                "year_to_value": 1880,
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. á Þorvaldsst. (57 ára) 1881-1886.",
@@ -1528,6 +1552,8 @@
                 "status": "G. húsk.",
                 "location": "Ytra-Fjall",
                 "note": "",
+                "year_from_value": 1835,
+                "year_to_value": 1837,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -1551,9 +1577,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1835,
-                "year_to_value": 1837
+                }
             },
             {
                 "original_string": "G. tómthúsk. frá Ytrafj. að Höskuldsst. (42) 1837-40.",
@@ -2313,7 +2337,6 @@
                 "status": "í Glæsibæ; hún s. k. hans",
                 "names": [
                     "Björn",
-                    "pr.",
                     "Jónsson"
                 ],
                 "firstName": "Björn",
@@ -4699,6 +4722,8 @@
                 "status": "Húsfr.",
                 "location": "Jarlsstaðir B.",
                 "note": "",
+                "year_from_value": 1857,
+                "year_to_value": 1861,
                 "location_obj": {
                     "id": 90005,
                     "name": "Jarlsstaðir",
@@ -4722,9 +4747,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1857,
-                "year_to_value": 1861
+                }
             },
             {
                 "original_string": "Hjú í Torfunesi (43) 1867. - G. húsk. á sama bæ... 1868.",
@@ -4869,6 +4892,8 @@
                 "status": "G. kona",
                 "location": "Ytra-Fjall",
                 "note": "Hjú 1880",
+                "year_from_value": 1879,
+                "year_to_value": 1880,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -4892,9 +4917,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1879,
-                "year_to_value": 1880
+                }
             },
             {
                 "original_string": "Hjú á Hólmavaði (60) 1881.",

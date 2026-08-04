@@ -328,7 +328,7 @@
             "birth": {
                 "original_string": "F. um 1771 á Veigastöðum.",
                 "date": "1771-00-00",
-                "location": "Veigastöðum",
+                "location": "Veigastaðir",
                 "location_obj": {
                     "id": 1004894,
                     "name": "Veigastaðir",
@@ -409,7 +409,7 @@
                 "original_string": "F. um 1771 á Veigastöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Veigastöðum",
+                "location": "Veigastaðir",
                 "location_obj": {
                     "id": 1004894,
                     "name": "Veigastaðir",
@@ -1669,7 +1669,6 @@
                 "note": "",
                 "names": [
                     "Halld.",
-                    "pr.",
                     "Björnsson"
                 ],
                 "firstName": "Halld.",
@@ -3769,13 +3768,15 @@
                 "year_to_value": 1843
             },
             {
-                "original_string": "G. kona frá Þverá L. að Fosseli ... 1844-45.",
+                "original_string": "G. kona frá Þverá L. að Fossseli ... 1844-45.",
                 "year": "1844-1845",
                 "age": null,
                 "status": "G. kona",
-                "location": "Fosseli",
+                "location": "Fossseli",
                 "note": "frá Þverá L.",
                 "note_ref": null,
+                "year_from_value": 1844,
+                "year_to_value": 1845,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -3799,17 +3800,15 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1844,
-                "year_to_value": 1845
+                }
             },
             {
-                "original_string": "G. kona - frá Fosseli að Hjalla R. (54) 1845-1848. (móðir H.)",
+                "original_string": "G. kona - frá Fossseli að Hjalla R. (54) 1845-1848. (móðir H.)",
                 "year": "1845-1848",
                 "age": 54,
                 "status": "G. kona",
                 "location": "Hjalli R.",
-                "note": "frá Fosseli; móðir H.",
+                "note": "frá Fossseli; móðir H.",
                 "note_ref": null,
                 "location_obj": {
                     "id": 90004,

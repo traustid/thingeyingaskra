@@ -228,7 +228,7 @@
             {
                 "name": "Þóra Guðnadóttir",
                 "date": null,
-                "status": "frá Grenavatni",
+                "status": "frá Grænavatni",
                 "names": [
                     "Þóra",
                     "Guðnadóttir"
@@ -237,7 +237,7 @@
                 "lastName": "Guðnadóttir"
             }
         ],
-        "spouse_original_string": "Þóra Guðnadóttir (frá Grenavatni).",
+        "spouse_original_string": "Þóra Guðnadóttir (frá Grænavatni).",
         "parents": [
             {
                 "name": "Kr. Jónsson",
@@ -2323,6 +2323,8 @@
                 "location": "Ytra-Fjall",
                 "note": "staðekki greind 1801",
                 "note_ref": null,
+                "year_from_value": 1801,
+                "year_to_value": 1801,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -2346,9 +2348,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1801
+                }
             }
         ],
         "notes": {},
@@ -2674,26 +2674,74 @@
                 "year_to_value": 1832
             },
             {
-                "original_string": "Silfursm. (30) frá Kaupm.höfn að Grenavatni 1835.",
+                "original_string": "Silfursm. (30) frá Kaupm.höfn að Grænavatni 1835.",
                 "year": "1835",
                 "age": 30,
                 "status": "Silfursm.",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "frá Kaupm.höfn",
                 "note_ref": null,
                 "year_from_value": 1835,
-                "year_to_value": 1835
+                "year_to_value": 1835,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Gullsm., veturvistars. á Grenavatni (30) 1836. 3)",
+                "original_string": "Gullsm., veturvistars. á Grænavatni (30) 1836. 3)",
                 "year": "1836",
                 "age": 30,
                 "status": "Gullsm.",
-                "location": "Grenavatn",
+                "location": "Grænavatn",
                 "note": "veturvistars.",
                 "note_ref": 3,
                 "year_from_value": 1836,
-                "year_to_value": 1836
+                "year_to_value": 1836,
+                "location_obj": {
+                    "id": 25169,
+                    "name": "Grænavatn",
+                    "lat": "65.539095",
+                    "lng": "-16.994179",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Grenav. 1837.",
@@ -3161,6 +3209,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Ytra-Fjall",
+                "year_from_value": 1819,
+                "year_to_value": 1819,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -3184,9 +3234,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1819,
-                "year_to_value": 1819
+                }
             },
             {
                 "original_string": "Hjá for. á Ytrafjalli 1820-31, 2-13 ára.",
@@ -3196,6 +3244,8 @@
                 "location": "Ytra-Fjall",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1820,
+                "year_to_value": 1831,
                 "location_obj": {
                     "id": 16504,
                     "name": "Ytra-Fjall",
@@ -3219,9 +3269,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1820,
-                "year_to_value": 1831
+                }
             },
             {
                 "original_string": "Hjá for. á Litlutjörnum (13) 1831-32.",
@@ -3364,13 +3412,15 @@
                 "year_to_value": 1861
             },
             {
-                "original_string": "Hjú í Fosseli (45) 1864-65.",
+                "original_string": "Hjú í Fossseli (45) 1864-65.",
                 "year": "1864-1865",
                 "age": 45,
                 "status": "Hjú",
-                "location": "Fossel",
+                "location": "Fosssel",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1864,
+                "year_to_value": 1865,
                 "location_obj": {
                     "id": 13584,
                     "name": "Fosssel",
@@ -3394,9 +3444,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1864,
-                "year_to_value": 1865
+                }
             },
             {
                 "original_string": "Lausam. á Hafralæk 1866.",

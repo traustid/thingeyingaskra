@@ -2432,6 +2432,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Kvíslarhóll",
+                "year_from_value": 1866,
+                "year_to_value": 1866,
                 "location_obj": {
                     "id": 16633,
                     "name": "Kvíslarhóll",
@@ -2455,9 +2457,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1866,
-                "year_to_value": 1866
+                }
             },
             {
                 "original_string": "Hjá for. á Kvíslarhóli (2 ára) 1868-1876.",
@@ -2467,6 +2467,8 @@
                 "location": "Kvíslarhóll",
                 "note": "",
                 "year": "1868-1876",
+                "year_from_value": 1868,
+                "year_to_value": 1876,
                 "location_obj": {
                     "id": 16633,
                     "name": "Kvíslarhóll",
@@ -2490,9 +2492,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1868,
-                "year_to_value": 1876
+                }
             },
             {
                 "original_string": "Hjá for. á Kvíslarhóli (14 ára) 1880-1886.",
@@ -2502,6 +2502,8 @@
                 "location": "Kvíslarhóll",
                 "note": "",
                 "year": "1880-1886",
+                "year_from_value": 1880,
+                "year_to_value": 1886,
                 "location_obj": {
                     "id": 16633,
                     "name": "Kvíslarhóll",
@@ -2525,9 +2527,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1880,
-                "year_to_value": 1886
+                }
             },
             {
                 "original_string": "Hjá for. á Hallbj.st. T. (20 ára) 1887-1889.",
@@ -2818,9 +2818,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 16/1. 1865 í Fosseli.",
+                "original_string": "F. 16/1. 1865 í Fossseli.",
                 "date": "1865-01-16",
-                "location": "Fossell"
+                "location": "Fosssell",
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -2871,31 +2895,79 @@
         "residence_history": [
             {
                 "year": "1865",
-                "original_string": "F. 16/1. 1865 í Fosseli.",
+                "original_string": "F. 16/1. 1865 í Fossseli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fossell",
+                "location": "Fosssell",
                 "year_from_value": 1865,
-                "year_to_value": 1865
+                "year_to_value": 1865,
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. í Fosseli (á l.) 1865-71.",
+                "original_string": "Hjá for. í Fossseli (á l.) 1865-71.",
                 "year_or_period": "1865-1871",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Fossell",
+                "location": "Fosssell",
                 "note": "á l.",
                 "year": "1865-1871",
                 "year_from_value": 1865,
-                "year_to_value": 1871
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Með for. frá Fosseli að Holti Þ. (7) 1871-",
+                "original_string": "Með for. frá Fossseli að Holti Þ. (7) 1871-",
                 "year_or_period": "1871",
                 "age": 7,
                 "status": "Með for.",
                 "location": "Holt Þ.",
-                "note": "frá Fosseli",
+                "note": "frá Fossseli",
                 "year": "1871",
                 "year_from_value": 1871,
                 "year_to_value": 1871
@@ -3199,6 +3271,8 @@
                 "location": "Einarsstaðir",
                 "note": "",
                 "year": "1894-1895",
+                "year_from_value": 1894,
+                "year_to_value": 1895,
                 "location_obj": {
                     "id": 16546,
                     "name": "Einarsstaðir",
@@ -3222,9 +3296,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1894,
-                "year_to_value": 1895
+                }
             },
             {
                 "original_string": "Tökuk. á Einarsst. ... 1896.",
@@ -3234,6 +3306,8 @@
                 "location": "Einarsstaðir",
                 "note": "",
                 "year": "1896",
+                "year_from_value": 1896,
+                "year_to_value": 1896,
                 "location_obj": {
                     "id": 16546,
                     "name": "Einarsstaðir",
@@ -3257,9 +3331,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1896,
-                "year_to_value": 1896
+                }
             },
             {
                 "original_string": "Móðir K. í Glaumbæjarseli (82) 1897-1900.",
