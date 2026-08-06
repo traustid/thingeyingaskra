@@ -1541,7 +1541,31 @@
                 "note_ref": null,
                 "year": "1870",
                 "year_from_value": 1870,
-                "year_to_value": 1870
+                "year_to_value": 1870,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2322,6 +2346,8 @@
                 "note": "Hrb.",
                 "note_ref": 2,
                 "year": "1801-1819",
+                "year_from_value": 1801,
+                "year_to_value": 1819,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -2345,9 +2371,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1801,
-                "year_to_value": 1819
+                }
             },
             {
                 "year": "1819",
@@ -2355,6 +2379,8 @@
                 "age": 0,
                 "status": "Dánarstaður",
                 "location": "Krosshús",
+                "year_from_value": 1819,
+                "year_to_value": 1819,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -2378,9 +2404,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1819,
-                "year_to_value": 1819
+                }
             }
         ],
         "notes": {

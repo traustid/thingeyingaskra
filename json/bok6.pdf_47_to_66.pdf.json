@@ -1614,9 +1614,33 @@
                 "year_or_period": "1864-",
                 "age": 4,
                 "status": "Niðurs.",
-                "location": "Hólar, B.",
+                "location": "Hólar, R.",
                 "note": "",
                 "year": "1864-",
+                "location_obj": {
+                    "id": 33744,
+                    "name": "Hólar",
+                    "lat": "65.721285",
+                    "lng": "-17.364283",
+                    "location_type": {
+                        "id": 33,
+                        "name": "Bær"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                },
                 "year_from_value": 1864,
                 "year_to_value": 1864
             },
@@ -4338,6 +4362,8 @@
                 "location": "Sýrnes",
                 "note": "",
                 "year": "1870",
+                "year_from_value": 1870,
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 16486,
                     "name": "Sýrnes",
@@ -4361,9 +4387,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1870
+                }
             },
             {
                 "original_string": "Léttadr. á Mýlaugsstöðum (15) 1871.",

@@ -1241,7 +1241,31 @@
                 "note": "",
                 "year": "1839-1840",
                 "year_from_value": 1839,
-                "year_to_value": 1840
+                "year_to_value": 1840,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Prestshvammi 1842-45.",
@@ -1532,6 +1556,8 @@
                 "location": "Krosshús",
                 "note": "",
                 "year": "1867-1868",
+                "year_from_value": 1867,
+                "year_to_value": 1868,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -1555,9 +1581,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1867,
-                "year_to_value": 1868
+                }
             },
             {
                 "original_string": "B. í Niðribæ (42) 1869-1873.",
@@ -1602,6 +1626,8 @@
                 "location": "Krosshús",
                 "note": "",
                 "year": "1874-1875",
+                "year_from_value": 1874,
+                "year_to_value": 1875,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -1625,9 +1651,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1874,
-                "year_to_value": 1875
+                }
             },
             {
                 "original_string": "B. í Grímshúsum (50) 1876-1888.",

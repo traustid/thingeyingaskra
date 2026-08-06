@@ -3364,7 +3364,31 @@
                 "note": "",
                 "year": "1888-1890",
                 "year_from_value": 1888,
-                "year_to_value": 1890
+                "year_to_value": 1890,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Stöng (30) 1890-1891.",
@@ -5071,6 +5095,8 @@
                 "location": "Kambsmýrar",
                 "note": "",
                 "year": "1868",
+                "year_from_value": 1868,
+                "year_to_value": 1868,
                 "location_obj": {
                     "id": 90047,
                     "name": "Kambsmýrar",
@@ -5094,9 +5120,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1868,
-                "year_to_value": 1868
+                }
             }
         ],
         "notes": {},

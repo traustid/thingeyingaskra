@@ -68,14 +68,38 @@
         "parents_original_string": "G. Jónsson og Sigurveig Guðmundsdóttir.",
         "residence_history": [
             {
-                "original_string": "Hjá for. í Lýrnesi (1 árs) 1873–1888.",
+                "original_string": "Hjá for. í Sýrnesi (1 árs) 1873–1888.",
                 "year": "1873-1888",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Lýrnes",
+                "location": "Sýrnes",
                 "note": "",
                 "year_from_value": 1873,
-                "year_to_value": 1888
+                "year_to_value": 1888,
+                "location_obj": {
+                    "id": 16486,
+                    "name": "Sýrnes",
+                    "lat": "65.810620379",
+                    "lng": "-17.4304318428",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Ytrafjalli (16) 1889–1891.",

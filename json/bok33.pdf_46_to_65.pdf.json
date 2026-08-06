@@ -92,7 +92,31 @@
                 "location": "Sandhólar",
                 "note": "",
                 "year_from_value": 1845,
-                "year_to_value": 1845
+                "year_to_value": 1845,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá móður á Hóli J. (10) 1848-1852.",
@@ -1368,6 +1392,8 @@
                 "status": "G. hjú",
                 "location": "Sker",
                 "note": "",
+                "year_from_value": 1893,
+                "year_to_value": 1894,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -1387,9 +1413,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1893,
-                "year_to_value": 1894
+                }
             },
             {
                 "original_string": "G. húsm. á Svínárnesi (25) 1895.",
@@ -1432,6 +1456,8 @@
                 "status": "B.",
                 "location": "Sker",
                 "note": "",
+                "year_from_value": 1896,
+                "year_to_value": 1898,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -1451,9 +1477,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1896,
-                "year_to_value": 1898
+                }
             }
         ],
         "notes": {},

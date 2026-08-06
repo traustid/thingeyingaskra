@@ -1235,11 +1235,35 @@
                 "year": "1874-1877",
                 "age": 24,
                 "status": "Hjú",
-                "location": "Mjóadalur",
+                "location": "Mjóidalur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1874,
-                "year_to_value": 1877
+                "year_to_value": 1877,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2583,11 +2607,35 @@
                 "year": "1885-1894",
                 "age": 9,
                 "status": "Hjá for.",
-                "location": "Ytrihvammur",
+                "location": "Ysti-Hvammur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1885,
-                "year_to_value": 1894
+                "year_to_value": 1894,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Klambraseli (20) 1895-1897.",
@@ -2766,6 +2814,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Kambsmýrar",
+                "year_from_value": 1822,
+                "year_to_value": 1822,
                 "location_obj": {
                     "id": 90047,
                     "name": "Kambsmýrar",
@@ -2789,9 +2839,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1822,
-                "year_to_value": 1822
+                }
             },
             {
                 "original_string": "Tökub. á Kambsmýrum (9) 1829-1830.",
@@ -2801,6 +2849,8 @@
                 "location": "Kambsmýrar",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1829,
+                "year_to_value": 1830,
                 "location_obj": {
                     "id": 90047,
                     "name": "Kambsmýrar",
@@ -2824,9 +2874,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1829,
-                "year_to_value": 1830
+                }
             },
             {
                 "original_string": "Hjá föður á Jökulsá (15) 1836-1844.",

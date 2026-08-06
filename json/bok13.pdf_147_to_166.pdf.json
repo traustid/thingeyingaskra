@@ -396,10 +396,34 @@
                 "year": "1839",
                 "age": 12,
                 "status": "Hjá for.",
-                "location": "Mjóadalur",
+                "location": "Mjóidalur",
                 "note": "",
                 "year_from_value": 1839,
-                "year_to_value": 1839
+                "year_to_value": 1839,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Vinnup. í Stórutungu (14) 1841.",
@@ -2780,7 +2804,27 @@
                 "location": "Skriðusel",
                 "note": "",
                 "year_from_value": 1876,
-                "year_to_value": 1877
+                "year_to_value": 1877,
+                "location_obj": {
+                    "id": 90064,
+                    "name": "Skriðusel",
+                    "lat": "65.869233",
+                    "lng": "-17.492561",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú í Hólum L. (36) 1878.",

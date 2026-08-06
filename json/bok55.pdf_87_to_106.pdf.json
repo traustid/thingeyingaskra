@@ -3904,11 +3904,35 @@
                 "year": "1885-1887",
                 "age": 25,
                 "status": "Hjú",
-                "location": "Mjóadal",
+                "location": "Mjóidalur",
                 "note": "Hjú á Lundarbr. 1886-1887",
                 "note_ref": null,
                 "year_from_value": 1885,
-                "year_to_value": 1887
+                "year_to_value": 1887,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Stóruvöllum . . . 1888-89.",
@@ -5418,6 +5442,8 @@
                 "location": "Sýrnesi",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1897,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 16486,
                     "name": "Sýrnes",
@@ -5441,9 +5467,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1897,
-                "year_to_value": 1897
+                }
             }
         ],
         "notes": {},

@@ -704,7 +704,31 @@
             "birth": {
                 "original_string": "F. 10/12 1802 í Ytrahvammi.",
                 "date": "1802-12-10",
-                "location": "Ytrahvammi"
+                "location": "Ysti-Hvammur",
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -745,19 +769,67 @@
                 "original_string": "F. 10/12 1802 í Ytrahvammi.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Ytrahvammi",
+                "location": "Ysti-Hvammur",
                 "year_from_value": 1802,
-                "year_to_value": 1802
+                "year_to_value": 1802,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Ytrahvammi (1 árs) 1803-1804.",
                 "year": "1803-1804",
                 "age": 1,
                 "status": "",
-                "location": "Ytrahvammi",
+                "location": "Ysti-Hvammur",
                 "note": "Hjá for. í",
                 "year_from_value": 1803,
-                "year_to_value": 1804
+                "year_to_value": 1804,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2014,7 +2086,31 @@
                 "location": "Kambsmýrar",
                 "note": "",
                 "year_from_value": 1834,
-                "year_to_value": 1845
+                "year_to_value": 1845,
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Heiðarhúsum (47) 1849-1850.",
@@ -4239,6 +4335,8 @@
                 "status": "Húsfr.",
                 "location": "Skeri",
                 "note": "",
+                "year_from_value": 1858,
+                "year_to_value": 1860,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -4258,9 +4356,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1858,
-                "year_to_value": 1860
+                }
             },
             {
                 "original_string": "Húsfr. á Sandi (35) 1861-1867.",

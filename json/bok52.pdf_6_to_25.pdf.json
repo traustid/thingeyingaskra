@@ -1919,7 +1919,31 @@
             "birth": {
                 "original_string": "F. 23/10 1830 á Sandhólum.",
                 "date": "1830-10-23",
-                "location": "Sandhólar"
+                "location": "Sandhólar",
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -1974,7 +1998,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Sandhólar",
                 "year_from_value": 1830,
-                "year_to_value": 1830
+                "year_to_value": 1830,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Sandhólum (1 árs) 1831",
@@ -1985,7 +2033,31 @@
                 "note": "",
                 "year": "1831",
                 "year_from_value": 1831,
-                "year_to_value": 1831
+                "year_to_value": 1831,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub. í Presthvammi (á 1.) 1831-1833.",
@@ -2175,7 +2247,31 @@
                 "note": "",
                 "year": "1841-1854",
                 "year_from_value": 1841,
-                "year_to_value": 1854
+                "year_to_value": 1854,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Rauf (21 árs) 1855-1859.",
@@ -2552,6 +2648,8 @@
                 "location": "Sker",
                 "note": "",
                 "year": "1870-1871",
+                "year_from_value": 1870,
+                "year_to_value": 1871,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2571,9 +2669,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1870,
-                "year_to_value": 1871
+                }
             },
             {
                 "original_string": "G. húsk. á Grýtubakka (28) 1872-1873.",

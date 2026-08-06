@@ -443,12 +443,36 @@
                 "year_or_period": "1881-1883",
                 "age": 22,
                 "status": "Húsfrú",
-                "location": "Mjóadal",
+                "location": "Mjóidalur",
                 "note": "",
                 "note_ref": null,
                 "year": "1881-1883",
                 "year_from_value": 1881,
-                "year_to_value": 1883
+                "year_to_value": 1883,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2832,6 +2856,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Skeri",
+                "year_from_value": 1871,
+                "year_to_value": 1871,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2851,9 +2877,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1871,
-                "year_to_value": 1871
+                }
             },
             {
                 "original_string": "Hjá for. á Skeri (á l.) 1871.",
@@ -2864,6 +2888,8 @@
                 "note": "á l.",
                 "note_ref": null,
                 "year": "1871",
+                "year_from_value": 1871,
+                "year_to_value": 1871,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2883,9 +2909,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1871,
-                "year_to_value": 1871
+                }
             }
         ],
         "notes": {},

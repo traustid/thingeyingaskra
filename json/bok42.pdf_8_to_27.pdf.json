@@ -2128,7 +2128,31 @@
             "birth": {
                 "original_string": "F. 20/11 1830 í Mjóadal.",
                 "date": "1830-11-20",
-                "location": "Mjóadal"
+                "location": "Mjóidalur",
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 3/5 1899, 67 ára.",
@@ -2148,7 +2172,7 @@
         "parents": [
             {
                 "name": "Jón Jónsson",
-                "note": "Mjóadal",
+                "note": "Mjóidalur",
                 "names": [
                     "Jón",
                     "Jónsson"
@@ -2174,19 +2198,67 @@
                 "original_string": "F. 20/11 1830 í Mjóadal.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Mjóadal",
+                "location": "Mjóidalur",
                 "year_from_value": 1830,
-                "year_to_value": 1830
+                "year_to_value": 1830,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Mjóadal (5) 1835-41. (þó ekki 1839).",
                 "year": "1835-1841",
                 "age": 5,
                 "status": "Hjá for.",
-                "location": "Mjóadal",
+                "location": "Mjóidalur",
                 "note": "þó ekki 1839",
                 "year_from_value": 1835,
-                "year_to_value": 1841
+                "year_to_value": 1841,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Halldórsst. B. (7) 1839.",

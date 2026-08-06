@@ -2087,6 +2087,8 @@
                 "location": "Skeri",
                 "note": "",
                 "year": "1895",
+                "year_from_value": 1895,
+                "year_to_value": 1895,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2106,9 +2108,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1895,
-                "year_to_value": 1895
+                }
             },
             {
                 "original_string": "Hjú á Skeri (29) 1896.",
@@ -2118,6 +2118,8 @@
                 "location": "Skeri",
                 "note": "",
                 "year": "1896",
+                "year_from_value": 1896,
+                "year_to_value": 1896,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2137,9 +2139,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1896,
-                "year_to_value": 1896
+                }
             }
         ],
         "notes": {
@@ -2621,7 +2621,31 @@
             "birth": {
                 "original_string": "F. 20/12. 1876 í Ytrahvammi.",
                 "date": "1876-12-20",
-                "location": "Ytrahvammi"
+                "location": "Ysti-Hvammur",
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 9/11. 1881.",
@@ -2668,20 +2692,68 @@
                 "original_string": "F. 20/12. 1876 í Ytrahvammi.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Ytrahvammi",
+                "location": "Ysti-Hvammur",
                 "year_from_value": 1876,
-                "year_to_value": 1876
+                "year_to_value": 1876,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Ytrahvammi (1 árs) 1877-1881.",
                 "year_or_period": "1877-1881",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Ytrahvammi",
+                "location": "Ysti-Hvammur",
                 "note": "",
                 "year": "1877-1881",
                 "year_from_value": 1877,
-                "year_to_value": 1881
+                "year_to_value": 1881,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

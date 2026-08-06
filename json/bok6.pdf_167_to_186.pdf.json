@@ -1170,11 +1170,35 @@
                 "year_or_period": "1862-1866",
                 "age": 13,
                 "status": "Fósturbarn",
-                "location": "Mjóadalur",
+                "location": "Mjóidalur",
                 "note": "",
                 "year": "1862-1866",
                 "year_from_value": 1862,
-                "year_to_value": 1866
+                "year_to_value": 1866,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Vinnudr. á Úlfsbæ (17) 1867.",
@@ -1216,11 +1240,35 @@
                 "year_or_period": "1868-1869",
                 "age": 18,
                 "status": "Vinnupiltur",
-                "location": "Kálfbær",
+                "location": "Kálfborgará",
                 "note": "",
                 "year": "1868-1869",
                 "year_from_value": 1868,
-                "year_to_value": 1869
+                "year_to_value": 1869,
+                "location_obj": {
+                    "id": 12413,
+                    "name": "Kálfborgará",
+                    "lat": "65.607335",
+                    "lng": "-17.500539",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Stórutungu (20) 1870.",
@@ -2534,6 +2582,8 @@
                 "location": "Krosshús",
                 "note": "",
                 "year": "1867-1868",
+                "year_from_value": 1867,
+                "year_to_value": 1868,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -2557,9 +2607,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1867,
-                "year_to_value": 1868
+                }
             },
             {
                 "original_string": "Hjá for. í Niðribæ (5) 1869-1873.",
@@ -2604,6 +2652,8 @@
                 "location": "Krosshús",
                 "note": "",
                 "year": "1874-1875",
+                "year_from_value": 1874,
+                "year_to_value": 1875,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -2627,9 +2677,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1874,
-                "year_to_value": 1875
+                }
             },
             {
                 "original_string": "Hjá for. í Grímshúsum (13) 1876-1879.",
@@ -2786,7 +2834,31 @@
             "birth": {
                 "original_string": "F. 25/7. 1837 í Mjóadal.",
                 "date": "1837-07-25",
-                "location": "Mjóadalur"
+                "location": "Mjóidalur",
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2817,7 +2889,7 @@
         "parents": [
             {
                 "name": "J. Jónsson",
-                "note": "Mjóadal",
+                "note": "Mjóidalur",
                 "names": [
                     "J.",
                     "Jónsson"
@@ -2843,9 +2915,33 @@
                 "original_string": "F. 25/7. 1837 í Mjóadal.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Mjóadalur",
+                "location": "Mjóidalur",
                 "year_from_value": 1837,
-                "year_to_value": 1837
+                "year_to_value": 1837,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Halldórsst. B. (2) 1839.",
@@ -2887,11 +2983,35 @@
                 "year_or_period": "1841-1855",
                 "age": 4,
                 "status": "",
-                "location": "Mjóadalur",
+                "location": "Mjóidalur",
                 "note": "",
                 "year": "1841-1855",
                 "year_from_value": 1841,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Vinnudr. á Jarlst. B. (18) 1856.",

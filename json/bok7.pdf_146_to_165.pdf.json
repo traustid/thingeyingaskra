@@ -1527,7 +1527,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1896,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1612,9 +1636,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 29/12 1791 í Lyrnesi.",
+                "original_string": "F. 29/12 1791 í Sýrnesi.",
                 "date": "1791-12-29",
-                "location": "Lyrnes"
+                "location": "Sýrnes",
+                "location_obj": {
+                    "id": 16486,
+                    "name": "Sýrnes",
+                    "lat": "65.810620379",
+                    "lng": "-17.4304318428",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -1652,12 +1700,36 @@
         "residence_history": [
             {
                 "year": "1791",
-                "original_string": "F. 29/12 1791 í Lyrnesi.",
+                "original_string": "F. 29/12 1791 í Sýrnesi.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Lyrnes",
+                "location": "Sýrnes",
                 "year_from_value": 1791,
-                "year_to_value": 1791
+                "year_to_value": 1791,
+                "location_obj": {
+                    "id": 16486,
+                    "name": "Sýrnes",
+                    "lat": "65.810620379",
+                    "lng": "-17.4304318428",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Vallakoti (10) 1801-",
@@ -3260,7 +3332,31 @@
                 "note": "",
                 "note_ref": 2,
                 "year_from_value": 1808,
-                "year_to_value": 1808
+                "year_to_value": 1808,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

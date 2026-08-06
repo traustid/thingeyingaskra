@@ -1540,15 +1540,39 @@
                 "year_to_value": 1849
             },
             {
-                "original_string": "Hjú á Jarðlest. B. (23) 1850-1851.",
+                "original_string": "Hjú á Jarlsst. B. (23) 1850-1851.",
                 "year": "1850-1851",
                 "age": 23,
                 "status": "Hjú",
-                "location": "Jarlsstaðiröðum",
+                "location": "Jarlsstaðir B.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1850,
-                "year_to_value": 1851
+                "year_to_value": 1851,
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Hofi (30) 1855-63. (Hrb.).",
@@ -4730,6 +4754,8 @@
                 "location": "Krosshúsum",
                 "note": "",
                 "note_ref": "x",
+                "year_from_value": 1876,
+                "year_to_value": 1876,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -4753,9 +4779,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1876,
-                "year_to_value": 1876
+                }
             },
             {
                 "original_string": "Hjú í Garði Fr. (48) 1888.",

@@ -2124,11 +2124,35 @@
                 "year_or_period": "1872",
                 "age": 16,
                 "status": "Léttast.",
-                "location": "Mjóadal",
+                "location": "Mjóidalur",
                 "note": "",
                 "year": "1872",
                 "year_from_value": 1872,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Bjarnarst. B. (17) 1873.",
@@ -3623,6 +3647,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Krosshúsum",
+                "year_from_value": 1808,
+                "year_to_value": 1808,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -3646,9 +3672,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1808,
-                "year_to_value": 1808
+                }
             },
             {
                 "original_string": "Hjú á Þverá Fn. (22) 1830.",

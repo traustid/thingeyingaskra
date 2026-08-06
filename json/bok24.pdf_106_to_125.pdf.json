@@ -390,11 +390,35 @@
                 "year": "1856",
                 "age": 16,
                 "status": "Hjá for.",
-                "location": "Ytrahvammi",
+                "location": "Ysti-Hvammur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1856,
-                "year_to_value": 1856
+                "year_to_value": 1856,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Þverá L. (17) 1857.",
@@ -1819,6 +1843,8 @@
                 "location": "Skeri",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1900,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -1838,9 +1864,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1900,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},

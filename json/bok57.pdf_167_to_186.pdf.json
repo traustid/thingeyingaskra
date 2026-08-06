@@ -1472,7 +1472,31 @@
                 "note_ref": null,
                 "year": "1882",
                 "year_from_value": 1882,
-                "year_to_value": 1882
+                "year_to_value": 1882,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Niðribæ... 1883-1885.",
@@ -3301,7 +3325,31 @@
                 "note_ref": null,
                 "year": "1889-1892",
                 "year_from_value": 1889,
-                "year_to_value": 1892
+                "year_to_value": 1892,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Húsavík (22 ára) 1893-1897.",
@@ -4005,6 +4053,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1893-1897",
+                "year_from_value": 1893,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 90047,
                     "name": "Kambsmýrar",
@@ -4028,9 +4078,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1893,
-                "year_to_value": 1897
+                }
             }
         ],
         "notes": {},

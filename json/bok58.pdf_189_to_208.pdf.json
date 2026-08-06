@@ -681,7 +681,31 @@
                 "location": "Sandhólar",
                 "note": "",
                 "year_from_value": 1886,
-                "year_to_value": 1888
+                "year_to_value": 1888,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Grímsstöðum (29) 1889.",
@@ -2076,6 +2100,8 @@
                 "status": "Léttast.",
                 "location": "Sker",
                 "note": "",
+                "year_from_value": 1851,
+                "year_to_value": 1853,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2095,9 +2121,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1851,
-                "year_to_value": 1853
+                }
             },
             {
                 "original_string": "Vinnust. á sama bæ . . . 1854-1861.",
@@ -2106,6 +2130,8 @@
                 "status": "Vinnust.",
                 "location": "Sker",
                 "note": "",
+                "year_from_value": 1854,
+                "year_to_value": 1861,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2125,9 +2151,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1854,
-                "year_to_value": 1861
+                }
             },
             {
                 "original_string": "Hjú á Snæbjarnarst. (22) 1856. (önnur!)",
@@ -2200,6 +2224,8 @@
                 "status": "Bústýra",
                 "location": "Sker",
                 "note": "",
+                "year_from_value": 1867,
+                "year_to_value": 1867,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2219,9 +2245,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1867,
-                "year_to_value": 1867
+                }
             },
             {
                 "original_string": "Húsfr. á sama bæ . . . 1868-1887.",
@@ -2230,6 +2254,8 @@
                 "status": "Húsfr.",
                 "location": "Sker",
                 "note": "",
+                "year_from_value": 1868,
+                "year_to_value": 1887,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2249,9 +2275,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1868,
-                "year_to_value": 1887
+                }
             }
         ],
         "notes": {
@@ -5722,6 +5746,8 @@
                 "status": "Hjú",
                 "location": "Krosshús",
                 "note": "",
+                "year_from_value": 1866,
+                "year_to_value": 1866,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -5745,9 +5771,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1866,
-                "year_to_value": 1866
+                }
             },
             {
                 "original_string": "Húsfr. í Tröllakoti (21 árs) 1868-1870",

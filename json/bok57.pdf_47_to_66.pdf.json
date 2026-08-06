@@ -3306,6 +3306,8 @@
                 "status": "Hjú",
                 "location": "Krosshúsum",
                 "note": "",
+                "year_from_value": 1889,
+                "year_to_value": 1889,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -3329,9 +3331,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1889,
-                "year_to_value": 1889
+                }
             }
         ],
         "notes": {},
@@ -3599,10 +3599,34 @@
                 "year": "1839",
                 "age": 29,
                 "status": "Húsfr.",
-                "location": "Mjóadal",
+                "location": "Mjóidalur",
                 "note": "",
                 "year_from_value": 1839,
-                "year_to_value": 1839
+                "year_to_value": 1839,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. frá Mjóadal að Fljótsbakka (27) 1839–1848.",

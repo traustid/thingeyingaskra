@@ -83,7 +83,31 @@
             "birth": {
                 "original_string": "F. 28/5. um 1819 (á Kambsmýrum?).",
                 "date": "1819-05-28",
-                "location": "Kambsmýrar"
+                "location": "Kambsmýrar",
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Jóhanna",
@@ -137,7 +161,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Kambsmýrar",
                 "year_from_value": 1819,
-                "year_to_value": 1819
+                "year_to_value": 1819,
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökust. á Svalbarðarst. (10) 1829-1834",
@@ -3091,6 +3139,8 @@
                 "location": "Krosshúsum",
                 "note": "",
                 "year": "1872-1873",
+                "year_from_value": 1872,
+                "year_to_value": 1873,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -3114,9 +3164,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1872,
-                "year_to_value": 1873
+                }
             },
             {
                 "original_string": "Með föður í Utibæ (13) 1874.",
@@ -3244,6 +3292,8 @@
                 "location": "Krosshúsum",
                 "note": "g. 89",
                 "year": "1887-1889",
+                "year_from_value": 1887,
+                "year_to_value": 1889,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -3267,9 +3317,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1887,
-                "year_to_value": 1889
+                }
             },
             {
                 "original_string": "Húsfr. á Borgarhóli (29 ára) 1890-1896.",

@@ -885,7 +885,7 @@
                 "year_or_period": "1870-1871",
                 "age": 22,
                 "status": "Hjú",
-                "location": "Viðikeri",
+                "location": "Viðirkeri",
                 "note": "",
                 "note_ref": null,
                 "year": "1870-1871",
@@ -1954,7 +1954,31 @@
                 "note_ref": null,
                 "year": "1811-1816",
                 "year_from_value": 1811,
-                "year_to_value": 1816
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá móður á Kambsmýrum (28) 1829-1830.",
@@ -1966,7 +1990,31 @@
                 "note_ref": null,
                 "year": "1829-1830",
                 "year_from_value": 1829,
-                "year_to_value": 1830
+                "year_to_value": 1830,
+                "location_obj": {
+                    "id": 90047,
+                    "name": "Kambsmýrar",
+                    "lat": "65.944527",
+                    "lng": "-17.854628",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Laufási (34) 1835-1840.",
@@ -2390,6 +2438,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1834-1837",
+                "year_from_value": 1834,
+                "year_to_value": 1837,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2409,9 +2459,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1834,
-                "year_to_value": 1837
+                }
             },
             {
                 "original_string": "Niðurs. í Hringsdal (45) 1840-1842. (Hálfviti).",

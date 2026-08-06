@@ -2095,7 +2095,31 @@
             "birth": {
                 "original_string": "F. 17/9 1892 í Uppiba.",
                 "date": "1892-09-17",
-                "location": "Uppibær"
+                "location": "Uppibær",
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -2138,7 +2162,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Uppibær",
                 "year_from_value": 1892,
-                "year_to_value": 1892
+                "year_to_value": 1892,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Uppiba (á 1.) 1892-1893.",
@@ -2149,7 +2197,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1892,
-                "year_to_value": 1893
+                "year_to_value": 1893,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Nedriba (2) 1894.",
@@ -3861,7 +3933,31 @@
                 "note": "Síðgóður, samil. að sér",
                 "note_ref": null,
                 "year_from_value": 1829,
-                "year_to_value": 1829
+                "year_to_value": 1829,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Núpum (27) 1830-1837.",
@@ -4008,11 +4104,35 @@
                 "year": "1845-1851",
                 "age": 42,
                 "status": "Bóndi",
-                "location": "Ytrahvammur",
+                "location": "Ysti-Hvammur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1845,
-                "year_to_value": 1851
+                "year_to_value": 1851,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú í Geitafelli (51) 1855-1857.",
@@ -4308,6 +4428,8 @@
                 "location": "Kambsmýrar",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1871,
+                "year_to_value": 1883,
                 "location_obj": {
                     "id": 90047,
                     "name": "Kambsmýrar",
@@ -4331,9 +4453,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1871,
-                "year_to_value": 1883
+                }
             },
             {
                 "original_string": "Niðurs. á Kambsstöðum (14) 1883.",
@@ -4742,6 +4862,8 @@
                 "location": "Kambsmýrar",
                 "note": "Barn Stefaníu",
                 "note_ref": null,
+                "year_from_value": 1871,
+                "year_to_value": 1880,
                 "location_obj": {
                     "id": 90047,
                     "name": "Kambsmýrar",
@@ -4765,9 +4887,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1871,
-                "year_to_value": 1880
+                }
             },
             {
                 "original_string": "Hjú í Niðribæ (16) 1887.",

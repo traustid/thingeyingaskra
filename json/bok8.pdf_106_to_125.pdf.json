@@ -302,11 +302,35 @@
                 "year": "1884-1885",
                 "age": 19,
                 "status": "Hjú",
-                "location": "Mjóadal",
+                "location": "Mjóidalur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1884,
-                "year_to_value": 1885
+                "year_to_value": 1885,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Sandhaugum ... 1888.",
@@ -2460,6 +2484,8 @@
                 "location": "Skeri",
                 "note": "systir B.",
                 "note_ref": null,
+                "year_from_value": 1851,
+                "year_to_value": 1855,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2479,9 +2505,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1851,
-                "year_to_value": 1855
+                }
             },
             {
                 "original_string": "Hjú á Finnastöðum (58) 1856 og 1858.",
@@ -2561,6 +2585,8 @@
                 "location": "Skeri",
                 "note": "Húskarl '65",
                 "note_ref": null,
+                "year_from_value": 1863,
+                "year_to_value": 1865,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2580,9 +2606,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1863,
-                "year_to_value": 1865
+                }
             },
             {
                 "year": "1866",
@@ -2590,6 +2614,8 @@
                 "age": 0,
                 "status": "Dánarstaður",
                 "location": "Skeri",
+                "year_from_value": 1866,
+                "year_to_value": 1866,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2609,9 +2635,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1866,
-                "year_to_value": 1866
+                }
             }
         ],
         "notes": {
@@ -3153,6 +3177,8 @@
                 "location": "Skeri",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1851,
+                "year_to_value": 1851,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -3172,9 +3198,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1851,
-                "year_to_value": 1851
+                }
             },
             {
                 "original_string": "Hjú á Finnastöðum (26) 1853.",
@@ -3462,7 +3486,31 @@
             "birth": {
                 "original_string": "F. 19/10. 1872 í Uppibæ.",
                 "date": "1872-10-19",
-                "location": "Uppibær"
+                "location": "Uppibær",
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -3507,7 +3555,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Uppibær",
                 "year_from_value": 1872,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá föður í Uppibæ (nýf.) 1872.",

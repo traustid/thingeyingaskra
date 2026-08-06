@@ -440,7 +440,27 @@
             "birth": {
                 "original_string": "F. á Skeri, Grýtub.hr. 31/1. 1859.",
                 "date": "1859-01-31",
-                "location": "Skeri, Grýtub.hr."
+                "location": "Skeri",
+                "location_obj": {
+                    "id": 15908,
+                    "name": "Sker",
+                    "lat": "66.029703",
+                    "lng": "-18.275501",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 17/10 1951",
@@ -497,18 +517,9 @@
                 "original_string": "F. á Skeri, Grýtub.hr. 31/1. 1859.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skeri, Grýtub.hr.",
+                "location": "Sker",
                 "year_from_value": 1859,
-                "year_to_value": 1859
-            },
-            {
-                "original_string": "Hjá for. á Skeri (1 árs) 1859.",
-                "year": "1859",
-                "age": 1,
-                "status": "Hjá for.",
-                "location": "Skeri",
-                "note": "",
-                "note_ref": null,
+                "year_to_value": 1859,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -528,9 +539,38 @@
                             "id": 16573
                         }
                     ]
-                },
+                }
+            },
+            {
+                "original_string": "Hjá for. á Skeri (1 árs) 1859.",
+                "year": "1859",
+                "age": 1,
+                "status": "Hjá for.",
+                "location": "Skeri",
+                "note": "",
+                "note_ref": null,
                 "year_from_value": 1859,
-                "year_to_value": 1859
+                "year_to_value": 1859,
+                "location_obj": {
+                    "id": 15908,
+                    "name": "Sker",
+                    "lat": "66.029703",
+                    "lng": "-18.275501",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Sandi (3) 1861-1867.",
@@ -568,15 +608,39 @@
                 "year_to_value": 1867
             },
             {
-                "original_string": "Hjá for. í Lyrnesi (10) 1868-1869.",
+                "original_string": "Hjá for. í Sýrnesi (10) 1868-1869.",
                 "year": "1868-1869",
                 "age": 10,
                 "status": "Hjá for.",
-                "location": "Lyrnesi",
+                "location": "Sýrnes",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1868,
-                "year_to_value": 1869
+                "year_to_value": 1869,
+                "location_obj": {
+                    "id": 16486,
+                    "name": "Sýrnes",
+                    "lat": "65.810620379",
+                    "lng": "-17.4304318428",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Syðrafjalli (12) 1870-1880.",
@@ -1378,7 +1442,31 @@
             "birth": {
                 "original_string": "F. 5/3. 1839 á Sandhólum.",
                 "date": "1839-03-05",
-                "location": "Sandhólar"
+                "location": "Sandhólar",
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 13/6. 1894. (55 ára). 1)",
@@ -1426,7 +1514,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Sandhólar",
                 "year_from_value": 1839,
-                "year_to_value": 1839
+                "year_to_value": 1839,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Sandhólum (1 árs) 1840-1870.",
@@ -1437,7 +1549,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1840,
-                "year_to_value": 1870
+                "year_to_value": 1870,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Sandhólum (31) 1871-1873.",
@@ -1448,7 +1584,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1871,
-                "year_to_value": 1873
+                "year_to_value": 1873,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Sandhólum 1873-91.",
@@ -1459,7 +1619,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1873,
-                "year_to_value": 1891
+                "year_to_value": 1891,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Ketilsstöðum 1892-94. (55 ára).",
@@ -3181,6 +3365,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Skeri",
+                "year_from_value": 1864,
+                "year_to_value": 1864,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -3200,9 +3386,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1864,
-                "year_to_value": 1864
+                }
             },
             {
                 "original_string": "Hjá for. á Skeri (á 1.) 1864-1889. (Fáráðlingur '84).",
@@ -3212,6 +3396,8 @@
                 "location": "Skeri",
                 "note": "Fáráðlingur '84",
                 "note_ref": null,
+                "year_from_value": 1864,
+                "year_to_value": 1889,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -3231,9 +3417,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1864,
-                "year_to_value": 1889
+                }
             },
             {
                 "original_string": "Fáráðlingur á Steindýrum (21) 1885.",

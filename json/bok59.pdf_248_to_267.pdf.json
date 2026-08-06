@@ -943,6 +943,8 @@
                 "location": "Kambsmýrar",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1886,
+                "year_to_value": 1892,
                 "location_obj": {
                     "id": 90047,
                     "name": "Kambsmýrar",
@@ -966,9 +968,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1886,
-                "year_to_value": 1892
+                }
             },
             {
                 "original_string": "Húsfr. á Jökulsá (35) 1893-1898.",
@@ -2498,11 +2498,35 @@
                 "year": "1881-1883",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Mjóadalur",
+                "location": "Mjóidalur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1881,
-                "year_to_value": 1883
+                "year_to_value": 1883,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2921,7 +2945,31 @@
                 "note": "Til Am.",
                 "note_ref": null,
                 "year_from_value": 1899,
-                "year_to_value": 1899
+                "year_to_value": 1899,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

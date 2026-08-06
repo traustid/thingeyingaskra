@@ -1479,7 +1479,31 @@
             "birth": {
                 "original_string": "F. 26/11. 1790 í Ytrahvamm.",
                 "date": "1790-11-26",
-                "location": "Ytrahvammur"
+                "location": "Ysti-Hvammur",
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -1520,19 +1544,67 @@
                 "original_string": "F. 26/11. 1790 í Ytrahvamm.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Ytrahvammur",
+                "location": "Ysti-Hvammur",
                 "year_from_value": 1790,
-                "year_to_value": 1790
+                "year_to_value": 1790,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Ytrahvammi (3 ára) 1801-1804.",
                 "year": "1801-1804",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Ytrahvammur",
+                "location": "Ysti-Hvammur",
                 "note": "",
                 "year_from_value": 1801,
-                "year_to_value": 1804
+                "year_to_value": 1804,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

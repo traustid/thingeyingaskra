@@ -819,6 +819,8 @@
                 "location": "Sker",
                 "note": "",
                 "year": "1897-1898",
+                "year_from_value": 1897,
+                "year_to_value": 1898,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -838,9 +840,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1897,
-                "year_to_value": 1898
+                }
             },
             {
                 "original_string": "Hjú á Steinshyl (20) 1899-1900.",
@@ -874,7 +874,31 @@
                 "original_string": "Dó á Sandhólum 1/7 1890, 62 ára.",
                 "date": "1890-07-01",
                 "location": "Sandhólar",
-                "note_ref": 1
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Halldór",
@@ -1160,7 +1184,31 @@
                 "status": "Dánarstaður",
                 "location": "Sandhólar",
                 "year_from_value": 1890,
-                "year_to_value": 1890
+                "year_to_value": 1890,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

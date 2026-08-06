@@ -279,6 +279,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Sker",
+                "year_from_value": 1895,
+                "year_to_value": 1895,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -298,9 +300,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1895,
-                "year_to_value": 1895
+                }
             },
             {
                 "original_string": "Hjá for. á Skeri (á 1.) 1895-1900.",
@@ -309,6 +309,8 @@
                 "status": "Hjá for.",
                 "location": "Sker",
                 "note": "",
+                "year_from_value": 1895,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -328,9 +330,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1895,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -736,6 +736,8 @@
                 "status": "Með móður",
                 "location": "Krosshús",
                 "note": "nýf.",
+                "year_from_value": 1879,
+                "year_to_value": 1880,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -759,9 +761,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1879,
-                "year_to_value": 1880
+                }
             },
             {
                 "original_string": "Niðurs. á Ytrahóli (1 árs) 1881-1883.",
@@ -906,6 +906,8 @@
                 "status": "Með móður",
                 "location": "Krosshús",
                 "note": "",
+                "year_from_value": 1891,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -929,9 +931,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1891,
-                "year_to_value": 1897
+                }
             },
             {
                 "original_string": "Hjú í Utíbæ (16) 1895-1896.",
@@ -950,6 +950,8 @@
                 "status": "Hjú",
                 "location": "Krosshús",
                 "note": "",
+                "year_from_value": 1897,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -973,9 +975,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1897,
-                "year_to_value": 1897
+                }
             },
             {
                 "original_string": "Hjú í Uppíbæ (19) 1898.",
@@ -2008,7 +2008,31 @@
             "birth": {
                 "original_string": "F. i nóv. 1828 á Sandhólum.",
                 "date": "1828-11-01",
-                "location": "Sandhólar"
+                "location": "Sandhólar",
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -2051,7 +2075,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Sandhólar",
                 "year_from_value": 1828,
-                "year_to_value": 1828
+                "year_to_value": 1828,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Sandhólum (1 árs) 1829-1837.",
@@ -2061,7 +2109,31 @@
                 "location": "Sandhólar",
                 "note": "",
                 "year_from_value": 1829,
-                "year_to_value": 1837
+                "year_to_value": 1837,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Sandhólum ... 1838-1857.",
@@ -2071,7 +2143,31 @@
                 "location": "Sandhólar",
                 "note": "",
                 "year_from_value": 1838,
-                "year_to_value": 1857
+                "year_to_value": 1857,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. Hjá móður á Sandhólum ... 1858-1861.",
@@ -2081,7 +2177,31 @@
                 "location": "Sandhólar",
                 "note": "",
                 "year_from_value": 1858,
-                "year_to_value": 1861
+                "year_to_value": 1861,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsm. á Sandhólum ... 1862-1865.",
@@ -2091,7 +2211,31 @@
                 "location": "Sandhólar",
                 "note": "",
                 "year_from_value": 1862,
-                "year_to_value": 1865
+                "year_to_value": 1865,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fyrir búi á Sandhólum (37) 1866-1872.",
@@ -2101,7 +2245,31 @@
                 "location": "Sandhólar",
                 "note": "",
                 "year_from_value": 1866,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 90063,
+                    "name": "Sandhólar",
+                    "lat": "66.183266",
+                    "lng": "-17.207582",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

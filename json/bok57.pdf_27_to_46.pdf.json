@@ -4082,6 +4082,8 @@
                 "status": "Hjú",
                 "location": "Krosshús",
                 "note": "",
+                "year_from_value": 1872,
+                "year_to_value": 1874,
                 "location_obj": {
                     "id": 90049,
                     "name": "Krosshús",
@@ -4105,9 +4107,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1872,
-                "year_to_value": 1874
+                }
             },
             {
                 "original_string": "G. í Nýjabæ (27) 1875.",
@@ -4419,24 +4419,72 @@
                 "year_to_value": 1795
             },
             {
-                "original_string": "Hjá for. í Lyrnesi (7 ára) 1801-1805.",
+                "original_string": "Hjá for. í Sýrnesi (7 ára) 1801-1805.",
                 "year": "1801-1805",
                 "age": 7,
                 "status": "Hjá for.",
-                "location": "Lyrnes",
+                "location": "Sýrnes",
                 "note": "",
                 "year_from_value": 1801,
-                "year_to_value": 1805
+                "year_to_value": 1805,
+                "location_obj": {
+                    "id": 16486,
+                    "name": "Sýrnes",
+                    "lat": "65.810620379",
+                    "lng": "-17.4304318428",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Ytrahvammi (11) 1807-1816.",
                 "year": "1807-1816",
                 "age": 11,
                 "status": "Hjá for.",
-                "location": "Ytrahvammur",
+                "location": "Ysti-Hvammur",
                 "note": "",
                 "year_from_value": 1807,
-                "year_to_value": 1816
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Hrauni (32) 1827-182?",

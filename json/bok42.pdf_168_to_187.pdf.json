@@ -3938,7 +3938,31 @@
             "birth": {
                 "original_string": "F. 27/1 1834.",
                 "date": "1834-01-27",
-                "location": "Jarlsstaðiröðum"
+                "location": "Jarlsstaðir",
+                "location_obj": {
+                    "id": 1002743,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.883203",
+                    "lng": "-17.430757",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Helgast. 9/4 1864. (Flagaveikur).",
@@ -4008,9 +4032,33 @@
                 "original_string": "F. 27/1 1834.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Jarlsstaðiröðum",
+                "location": "Jarlsstaðir",
                 "year_from_value": 1834,
-                "year_to_value": 1834
+                "year_to_value": 1834,
+                "location_obj": {
+                    "id": 1002743,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.883203",
+                    "lng": "-17.430757",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Brekku (1 árs) 1835-1850.",

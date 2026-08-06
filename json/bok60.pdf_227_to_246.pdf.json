@@ -426,7 +426,27 @@
             "death": {
                 "original_string": "D. 28/7 1924 í Skriðuseli",
                 "date": "1924-07-28",
-                "location": "Skriðusel"
+                "location": "Skriðusel",
+                "location_obj": {
+                    "id": 90064,
+                    "name": "Skriðusel",
+                    "lat": "65.869233",
+                    "lng": "-17.492561",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Sigurbjörn",
@@ -767,15 +787,39 @@
                 }
             },
             {
-                "original_string": "B. í Ýptahvammi (42) 1893-1895.",
+                "original_string": "B. í Ysti-Hvammi (42) 1893-1895.",
                 "year": "1893-1895",
                 "age": 42,
                 "status": "B.",
-                "location": "Ýptahvammur",
+                "location": "Ysti-Hvammur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1893,
-                "year_to_value": 1895
+                "year_to_value": 1895,
+                "location_obj": {
+                    "id": 90060,
+                    "name": "Ysti-Hvammur",
+                    "lat": "65.852811",
+                    "lng": "-17.356129",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú í Múla (45) 1896.",
@@ -924,7 +968,27 @@
                 "status": "Dánarstaður",
                 "location": "Skriðusel",
                 "year_from_value": 1924,
-                "year_to_value": 1924
+                "year_to_value": 1924,
+                "location_obj": {
+                    "id": 90064,
+                    "name": "Skriðusel",
+                    "lat": "65.869233",
+                    "lng": "-17.492561",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3409,6 +3473,8 @@
                 "location": "Kambsmýrar",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1894,
+                "year_to_value": 1895,
                 "location_obj": {
                     "id": 90047,
                     "name": "Kambsmýrar",
@@ -3432,9 +3498,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1894,
-                "year_to_value": 1895
+                }
             },
             {
                 "original_string": "Fósturson á Kljáströnd (3) 1896-1900.",
@@ -3810,15 +3874,39 @@
         "parents_original_string": "",
         "residence_history": [
             {
-                "original_string": "Hjú í Krashúsum (26) 1882.",
+                "original_string": "Hjú í Krosshúsum (26) 1882.",
                 "year": "1882",
                 "age": 26,
                 "status": "Hjú",
-                "location": "Krashús",
+                "location": "Krosshús",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1882,
-                "year_to_value": 1882
+                "year_to_value": 1882,
+                "location_obj": {
+                    "id": 90049,
+                    "name": "Krosshús",
+                    "lat": "66.162429",
+                    "lng": "-17.843767",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3884,11 +3972,11 @@
         "parents_original_string": "J. Eiríksson og Guðbjörg Eiríksdóttir.",
         "residence_history": [
             {
-                "original_string": "Hjá móður í Presthamri (13) 1880.",
+                "original_string": "Hjá móður í Preshvammi (13) 1880.",
                 "year": "1880",
                 "age": 13,
                 "status": "",
-                "location": "Presthamar",
+                "location": "Presthvammur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1880,
@@ -3902,6 +3990,8 @@
                 "location": "Sker",
                 "note": "",
                 "note_ref": null,
+                "year_from_value": 1899,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -3921,9 +4011,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1899,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},

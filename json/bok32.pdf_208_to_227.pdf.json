@@ -1125,7 +1125,31 @@
             "birth": {
                 "original_string": "F. 18/1. 1839 í Mjóadal.",
                 "date": "1839-01-18",
-                "location": "Mjóadalur"
+                "location": "Mjóidalur",
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1182,20 +1206,68 @@
                 "original_string": "F. 18/1. 1839 í Mjóadal.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Mjóadalur",
+                "location": "Mjóidalur",
                 "year_from_value": 1839,
-                "year_to_value": 1839
+                "year_to_value": 1839,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Mjóadal (á 1.) 1839.",
                 "year": "1839",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Mjóadalur",
+                "location": "Mjóidalur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1839,
-                "year_to_value": 1839
+                "year_to_value": 1839,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Kálfborgará (9) 1849.",
@@ -3504,7 +3576,27 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1893,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90064,
+                    "name": "Skriðusel",
+                    "lat": "65.869233",
+                    "lng": "-17.492561",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. 8/9. 1823 í Mjóadal",
                 "date": "1823-09-08",
-                "location": "Mjóadalur"
+                "location": "Mjóidalur",
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Am. 1/9. 1908",
@@ -64,19 +88,67 @@
                 "original_string": "F. 8/9. 1823 í Mjóadal",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Mjóadalur",
+                "location": "Mjóidalur",
                 "year_from_value": 1823,
-                "year_to_value": 1823
+                "year_to_value": 1823,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Mjóadal (12) - 1835-1846- (þó ekki 1839).",
                 "year": "1835-1846",
                 "age": 12,
                 "status": "Hjá for.",
-                "location": "Mjóadalur",
+                "location": "Mjóidalur",
                 "note": "þó ekki 1839",
                 "year_from_value": 1835,
-                "year_to_value": 1846
+                "year_to_value": 1846,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Halldórsst. B. (16) 1839.",
@@ -215,10 +287,34 @@
                 "year": "1865",
                 "age": 43,
                 "status": "Hjá for.",
-                "location": "Mjóadalur",
+                "location": "Mjóidalur",
                 "note": "",
                 "year_from_value": 1865,
-                "year_to_value": 1865
+                "year_to_value": 1865,
+                "location_obj": {
+                    "id": 90065,
+                    "name": "Mjóidalur",
+                    "lat": "65.299931",
+                    "lng": "-17.455519",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. á Draflast. (46) 1868.",
@@ -2034,6 +2130,8 @@
                 "status": "Hjá for.",
                 "location": "Sker",
                 "note": "",
+                "year_from_value": 1841,
+                "year_to_value": 1846,
                 "location_obj": {
                     "id": 15908,
                     "name": "Sker",
@@ -2053,9 +2151,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1841,
-                "year_to_value": 1846
+                }
             },
             {
                 "original_string": "Fósturb. (frá Skeri) á Steindyrum (8) 1847-1856.",
