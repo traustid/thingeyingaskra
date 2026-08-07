@@ -2072,9 +2072,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. um 1892 á Halld.staðir L",
+                "original_string": "F. um 1892 á Halldórsstaðir L",
                 "date": "1892-00-00",
-                "location": "Halld.staðir L"
+                "location": "Halldórsstaðir L",
+                "location_obj": {
+                    "id": 13949,
+                    "name": "Halldórsstaðir",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 28/3 1963",
@@ -2128,12 +2152,36 @@
         "residence_history": [
             {
                 "year": "1892",
-                "original_string": "F. um 1892 á Halld.staðir L",
+                "original_string": "F. um 1892 á Halldórsstaðir L",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Halld.staðir L",
+                "location": "Halldórsstaðir L",
                 "year_from_value": 1892,
-                "year_to_value": 1892
+                "year_to_value": 1892,
+                "location_obj": {
+                    "id": 13949,
+                    "name": "Halldórsstaðir",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Halldórsst. L. (á l.) 1892-1900-",

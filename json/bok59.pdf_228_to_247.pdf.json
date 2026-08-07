@@ -1786,7 +1786,31 @@
             "death": {
                 "original_string": "D. á Halld.st. L. 20/6. 1862.",
                 "date": "1862-06-20",
-                "location": "Halld.staðir L"
+                "location": "Halldórsstaðir L",
+                "location_obj": {
+                    "id": 13949,
+                    "name": "Halldórsstaðir",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Sigríður",
@@ -2222,9 +2246,33 @@
                 "original_string": "D. á Halld.st. L. 20/6. 1862.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Halld.staðir L",
+                "location": "Halldórsstaðir L",
                 "year_from_value": 1862,
-                "year_to_value": 1862
+                "year_to_value": 1862,
+                "location_obj": {
+                    "id": 13949,
+                    "name": "Halldórsstaðir",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
