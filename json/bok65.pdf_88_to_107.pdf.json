@@ -148,6 +148,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1876",
+                "year_from_value": 1876,
+                "year_to_value": 1876,
                 "location_obj": {
                     "id": 16603,
                     "name": "Þóroddsstaður",
@@ -171,9 +173,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1876,
-                "year_to_value": 1876
+                }
             },
             {
                 "original_string": "Pr. á Þóroddsstad... 1878-79.",
@@ -196,6 +196,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1879",
+                "year_from_value": 1879,
+                "year_to_value": 1879,
                 "location_obj": {
                     "id": 24489,
                     "name": "Mývatnsþing",
@@ -215,9 +217,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1879,
-                "year_to_value": 1879
+                }
             },
             {
                 "original_string": "Prestur á Skútustöðum (32) 1880.",
@@ -228,6 +228,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1880",
+                "year_from_value": 1880,
+                "year_to_value": 1880,
                 "location_obj": {
                     "id": 16474,
                     "name": "Skútustaðir",
@@ -251,9 +253,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1880,
-                "year_to_value": 1880
+                }
             },
             {
                 "original_string": "Prestur á Þóroddsstað... 1881-88.",
@@ -264,6 +264,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1881-1888",
+                "year_from_value": 1881,
+                "year_to_value": 1888,
                 "location_obj": {
                     "id": 16603,
                     "name": "Þóroddsstaður",
@@ -287,9 +289,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1881,
-                "year_to_value": 1888
+                }
             },
             {
                 "year": "1888",
@@ -317,7 +317,31 @@
             "birth": {
                 "original_string": "F. á Halldórsst. B. 13/7. 1855.",
                 "date": "1855-07-13",
-                "location": "Halldórsst. B."
+                "location": "Halldórsstaðir B.",
+                "location_obj": {
+                    "id": 16560,
+                    "name": "Halldórsstaðir",
+                    "lat": "65.449709",
+                    "lng": "-17.410081",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -375,19 +399,9 @@
                 "original_string": "F. á Halldórsst. B. 13/7. 1855.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Halldórsst. B.",
-                "year_from_value": 1855,
-                "year_to_value": 1855
-            },
-            {
-                "original_string": "Hjá for. á Halldórsst. B. (1 árs) 1856-58.",
-                "year_or_period": "1856-1858",
-                "age": 1,
-                "status": "",
                 "location": "Halldórsstaðir B.",
-                "note": "Hjá for.",
-                "note_ref": null,
-                "year": "1856-1858",
+                "year_from_value": 1855,
+                "year_to_value": 1855,
                 "location_obj": {
                     "id": 16560,
                     "name": "Halldórsstaðir",
@@ -411,9 +425,43 @@
                             "id": 16573
                         }
                     ]
-                },
+                }
+            },
+            {
+                "original_string": "Hjá for. á Halldórsst. B. (1 árs) 1856-58.",
+                "year_or_period": "1856-1858",
+                "age": 1,
+                "status": "",
+                "location": "Halldórsstaðir B.",
+                "note": "Hjá for.",
+                "note_ref": null,
+                "year": "1856-1858",
                 "year_from_value": 1856,
-                "year_to_value": 1858
+                "year_to_value": 1858,
+                "location_obj": {
+                    "id": 16560,
+                    "name": "Halldórsstaðir",
+                    "lat": "65.449709",
+                    "lng": "-17.410081",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Eyjardalsá (3) 1858-1872-",
@@ -424,6 +472,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1858-1872",
+                "year_from_value": 1858,
+                "year_to_value": 1872,
                 "location_obj": {
                     "id": 24043,
                     "name": "Eyjadalsá",
@@ -447,9 +497,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1858,
-                "year_to_value": 1872
+                }
             },
             {
                 "original_string": "Hjá for. á Eyjardalsá (32) 1888.",
@@ -460,6 +508,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1888",
+                "year_from_value": 1888,
+                "year_to_value": 1888,
                 "location_obj": {
                     "id": 24043,
                     "name": "Eyjadalsá",
@@ -483,9 +533,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1888,
-                "year_to_value": 1888
+                }
             },
             {
                 "original_string": "B. á Eyjardalsá ... 1889-1900- (Hrb.).",
@@ -496,6 +544,8 @@
                 "note": "Hrb.",
                 "note_ref": null,
                 "year": "1889-1900",
+                "year_from_value": 1889,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 24043,
                     "name": "Eyjadalsá",
@@ -519,9 +569,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1889,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -566,6 +614,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1881-1882",
+                "year_from_value": 1881,
+                "year_to_value": 1882,
                 "location_obj": {
                     "id": 16616,
                     "name": "Látur",
@@ -589,9 +639,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1881,
-                "year_to_value": 1882
+                }
             }
         ],
         "notes": {},
@@ -637,7 +685,31 @@
             "death": {
                 "original_string": "D. á Öndólfsst. 1/1. 1951.",
                 "date": "1951-01-01",
-                "location": "Öndólfsst."
+                "location": "Öndólfsstaðir",
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Stefán",
@@ -702,6 +774,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Stöng",
+                "year_from_value": 1860,
+                "year_to_value": 1860,
                 "location_obj": {
                     "id": 16625,
                     "name": "Stöng",
@@ -725,9 +799,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1860
+                }
             },
             {
                 "original_string": "Hjá for. á Stöng (ál.) 1860-(1865)-",
@@ -738,6 +810,8 @@
                 "note": "ál.",
                 "note_ref": null,
                 "year": "1860-1865",
+                "year_from_value": 1860,
+                "year_to_value": 1865,
                 "location_obj": {
                     "id": 16625,
                     "name": "Stöng",
@@ -761,9 +835,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1865
+                }
             },
             {
                 "original_string": "Hjá föður og stj. á Litluströnd ...(1866)-1871-1875.",
@@ -774,6 +846,8 @@
                 "note": "Hjá föður og stj.",
                 "note_ref": null,
                 "year": "1866-1875",
+                "year_from_value": 1866,
+                "year_to_value": 1875,
                 "location_obj": {
                     "id": 24724,
                     "name": "Litlaströnd",
@@ -797,9 +871,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1866,
-                "year_to_value": 1875
+                }
             },
             {
                 "original_string": "Hjá föður á Helluvaði (20) 1880-81.",
@@ -810,6 +882,8 @@
                 "note": "Hjá föður",
                 "note_ref": null,
                 "year": "1880-1881",
+                "year_from_value": 1880,
+                "year_to_value": 1881,
                 "location_obj": {
                     "id": 1001708,
                     "name": "Helluvað",
@@ -833,9 +907,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1880,
-                "year_to_value": 1881
+                }
             },
             {
                 "original_string": "Hjú á Helluvaði... 1882-1883.",
@@ -846,6 +918,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1882-1883",
+                "year_from_value": 1882,
+                "year_to_value": 1883,
                 "location_obj": {
                     "id": 1001708,
                     "name": "Helluvað",
@@ -869,9 +943,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1882,
-                "year_to_value": 1883
+                }
             },
             {
                 "original_string": "G. húsmaður á Helluvaði... 1884.",
@@ -882,6 +954,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1884",
+                "year_from_value": 1884,
+                "year_to_value": 1884,
                 "location_obj": {
                     "id": 1001708,
                     "name": "Helluvað",
@@ -905,9 +979,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1884,
-                "year_to_value": 1884
+                }
             },
             {
                 "original_string": "G. maður á Arnarvatni (26) 1885.",
@@ -918,6 +990,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1885",
+                "year_from_value": 1885,
+                "year_to_value": 1885,
                 "location_obj": {
                     "id": 16388,
                     "name": "Arnarvatn",
@@ -941,9 +1015,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1885,
-                "year_to_value": 1885
+                }
             },
             {
                 "original_string": "Br. B. á St. Reykjum (28) 1888-1891. (G. 1890)",
@@ -954,6 +1026,8 @@
                 "note": "G. 1890",
                 "note_ref": null,
                 "year": "1888-1891",
+                "year_from_value": 1888,
+                "year_to_value": 1891,
                 "location_obj": {
                     "id": 16637,
                     "name": "Stóru-Reykir",
@@ -977,9 +1051,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1888,
-                "year_to_value": 1891
+                }
             },
             {
                 "original_string": "B. í Múla (33) 1892-1897.",
@@ -990,6 +1062,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1892-1897",
+                "year_from_value": 1892,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 24789,
                     "name": "Múli",
@@ -1013,9 +1087,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1892,
-                "year_to_value": 1897
+                }
             },
             {
                 "original_string": "B. á Öndólfsstöðum (38) 1898-1900-",
@@ -1027,16 +1099,64 @@
                 "note_ref": null,
                 "year": "1898-1900",
                 "year_from_value": 1898,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1951",
                 "original_string": "D. á Öndólfsst. 1/1. 1951.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Öndólfsst.",
+                "location": "Öndólfsstaðir",
                 "year_from_value": 1951,
-                "year_to_value": 1951
+                "year_to_value": 1951,
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1124,6 +1244,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Grímslandi",
+                "year_from_value": 1860,
+                "year_to_value": 1860,
                 "location_obj": {
                     "id": 10371,
                     "name": "Grímsland",
@@ -1147,9 +1269,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1860
+                }
             },
             {
                 "original_string": "Hjá for. á Grímslandi (á 1.) 1860-1867.",
@@ -1160,6 +1280,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1860-1867",
+                "year_from_value": 1860,
+                "year_to_value": 1867,
                 "location_obj": {
                     "id": 10371,
                     "name": "Grímsland",
@@ -1183,9 +1305,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1860,
-                "year_to_value": 1867
+                }
             },
             {
                 "original_string": "Hjá for. á Eyri Fl. (8) 1868-1870.",
@@ -1196,6 +1316,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1868-1870",
+                "year_from_value": 1868,
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 90008,
                     "name": "Eyri",
@@ -1223,9 +1345,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1868,
-                "year_to_value": 1870
+                }
             },
             {
                 "original_string": "Hjá for. á Jökulsá (11) 1871.",
@@ -1236,6 +1356,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1871",
+                "year_from_value": 1871,
+                "year_to_value": 1871,
                 "location_obj": {
                     "id": 1001205,
                     "name": "Jökulsá",
@@ -1259,9 +1381,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1871,
-                "year_to_value": 1871
+                }
             },
             {
                 "original_string": "Sv. barn í Gydugerði (12) 1872-1873.",
@@ -1284,6 +1404,8 @@
                 "note": "Sv. óm.",
                 "note_ref": null,
                 "year": "1874-18..",
+                "year_from_value": 1874,
+                "year_to_value": 1874,
                 "location_obj": {
                     "id": 1006440,
                     "name": "Þverá",
@@ -1307,9 +1429,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1874,
-                "year_to_value": 1874
+                }
             },
             {
                 "original_string": "Smali í St-Krókum (18) 1878-1881. (Hjú '81, son hjúa.)",
@@ -1421,6 +1541,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Landamóti",
+                "year_from_value": 1861,
+                "year_to_value": 1861,
                 "location_obj": {
                     "id": 16601,
                     "name": "Landamót",
@@ -1444,9 +1566,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1861,
-                "year_to_value": 1861
+                }
             },
             {
                 "original_string": "Hjá for. í Skörðum (3 ára) 1864.",
@@ -1457,6 +1577,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1864",
+                "year_from_value": 1864,
+                "year_to_value": 1864,
                 "location_obj": {
                     "id": 16837,
                     "name": "Skörð",
@@ -1480,9 +1602,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1864,
-                "year_to_value": 1864
+                }
             },
             {
                 "original_string": "Með for. í Landamótsseli ... 1864-1869.",
@@ -1493,6 +1613,8 @@
                 "note": "Með for.",
                 "note_ref": null,
                 "year": "1864-1869",
+                "year_from_value": 1864,
+                "year_to_value": 1869,
                 "location_obj": {
                     "id": 25916,
                     "name": "Landamótssel",
@@ -1516,9 +1638,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1864,
-                "year_to_value": 1869
+                }
             },
             {
                 "original_string": "Hjá for. á Hálsi K. (9) 1870-1871-",
@@ -1577,6 +1697,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "-1879",
+                "year_from_value": 1879,
+                "year_to_value": 1879,
                 "location_obj": {
                     "id": 90006,
                     "name": "Jarlsstaðasel",
@@ -1600,9 +1722,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1879,
-                "year_to_value": 1879
+                }
             },
             {
                 "original_string": "Hjú í Rauðuskriðu (20) 1881-1882.",
@@ -1613,6 +1733,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1881-1882",
+                "year_from_value": 1881,
+                "year_to_value": 1882,
                 "location_obj": {
                     "id": 24909,
                     "name": "Rauðaskriða",
@@ -1636,9 +1758,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1881,
-                "year_to_value": 1882
+                }
             },
             {
                 "original_string": "Hjú á Hólmavaði (22) 1883-1885. (G. 1885).",
@@ -1649,6 +1769,8 @@
                 "note": "G. 1885",
                 "note_ref": null,
                 "year": "1883-1885",
+                "year_from_value": 1883,
+                "year_to_value": 1885,
                 "location_obj": {
                     "id": 33760,
                     "name": "Hólmavað",
@@ -1672,9 +1794,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1883,
-                "year_to_value": 1885
+                }
             },
             {
                 "original_string": "G. hjú á Hraunkoti (25) 1886.",
@@ -1685,6 +1805,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1886",
+                "year_from_value": 1886,
+                "year_to_value": 1886,
                 "location_obj": {
                     "id": 10221,
                     "name": "Hraunkot",
@@ -1708,9 +1830,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1886,
-                "year_to_value": 1886
+                }
             },
             {
                 "original_string": "G. hjú á Hrappsst. B. (26) 1888.",
@@ -1721,6 +1841,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1888",
+                "year_from_value": 1888,
+                "year_to_value": 1888,
                 "location_obj": {
                     "id": 10417,
                     "name": "Hrappsstaðir",
@@ -1744,9 +1866,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1888,
-                "year_to_value": 1888
+                }
             },
             {
                 "original_string": "G. húsman á Ytrafjalli (27) 1888.",
@@ -1793,6 +1913,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1889",
+                "year_from_value": 1889,
+                "year_to_value": 1889,
                 "location_obj": {
                     "id": 12395,
                     "name": "Naustavík",
@@ -1812,9 +1934,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1889,
-                "year_to_value": 1889
+                }
             },
             {
                 "original_string": "G. húsman í Landamótsseli (29) 1890.",
@@ -1825,6 +1945,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1890",
+                "year_from_value": 1890,
+                "year_to_value": 1890,
                 "location_obj": {
                     "id": 25916,
                     "name": "Landamótssel",
@@ -1848,9 +1970,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1890,
-                "year_to_value": 1890
+                }
             },
             {
                 "original_string": "G. á Vargsnesi (30) 1891-1893.",
@@ -1897,6 +2017,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1894",
+                "year_from_value": 1894,
+                "year_to_value": 1894,
                 "location_obj": {
                     "id": 12395,
                     "name": "Naustavík",
@@ -1916,9 +2038,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1894,
-                "year_to_value": 1894
+                }
             },
             {
                 "original_string": "B. á Ytri-Skál ... 1895-96. (Hrb.).",
@@ -2106,6 +2226,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1894-1898",
+                "year_from_value": 1894,
+                "year_to_value": 1898,
                 "location_obj": {
                     "id": 16546,
                     "name": "Einarsstaðir",
@@ -2129,9 +2251,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1894,
-                "year_to_value": 1898
+                }
             },
             {
                 "original_string": "G. húsm. á Dadasstöðum (20) 1899.",
@@ -2243,6 +2363,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Hamri",
+                "year_from_value": 1882,
+                "year_to_value": 1882,
                 "location_obj": {
                     "id": 16561,
                     "name": "Hamar",
@@ -2266,9 +2388,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1882,
-                "year_to_value": 1882
+                }
             },
             {
                 "original_string": "Með for. á Hamri (á 1.) 1882.",
@@ -2279,6 +2399,8 @@
                 "note": "Með for.",
                 "note_ref": null,
                 "year": "1882",
+                "year_from_value": 1882,
+                "year_to_value": 1882,
                 "location_obj": {
                     "id": 16561,
                     "name": "Hamar",
@@ -2302,9 +2424,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1882,
-                "year_to_value": 1882
+                }
             }
         ],
         "notes": {},
@@ -2370,6 +2490,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1889",
+                "year_from_value": 1889,
+                "year_to_value": 1889,
                 "location_obj": {
                     "id": 16388,
                     "name": "Arnarvatn",
@@ -2393,9 +2515,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1889,
-                "year_to_value": 1889
+                }
             },
             {
                 "original_string": "Hjá for. á Arnarvatni ... 1890-1894.",
@@ -2406,6 +2526,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1890-1894",
+                "year_from_value": 1890,
+                "year_to_value": 1894,
                 "location_obj": {
                     "id": 16388,
                     "name": "Arnarvatn",
@@ -2429,9 +2551,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1890,
-                "year_to_value": 1894
+                }
             },
             {
                 "original_string": "Hjá for. á Skútustöðum (7) 1895-1899.",
@@ -2442,6 +2562,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1895-1899",
+                "year_from_value": 1895,
+                "year_to_value": 1899,
                 "location_obj": {
                     "id": 16474,
                     "name": "Skútustaðir",
@@ -2465,9 +2587,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1895,
-                "year_to_value": 1899
+                }
             },
             {
                 "original_string": "Með for. á Sveinströnd (11) 1900-",
@@ -2590,6 +2710,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Illugastöðum",
+                "year_from_value": 1897,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 16606,
                     "name": "Illugastaðir",
@@ -2613,9 +2735,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1897,
-                "year_to_value": 1897
+                }
             },
             {
                 "original_string": "Með for. á Illugastöðum (á 1.) 1897.",
@@ -2626,6 +2746,8 @@
                 "note": "Með for.",
                 "note_ref": null,
                 "year": "1897",
+                "year_from_value": 1897,
+                "year_to_value": 1897,
                 "location_obj": {
                     "id": 16606,
                     "name": "Illugastaðir",
@@ -2649,9 +2771,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1897,
-                "year_to_value": 1897
+                }
             }
         ],
         "notes": {},
@@ -2717,6 +2837,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1867",
+                "year_from_value": 1867,
+                "year_to_value": 1867,
                 "location_obj": {
                     "id": 1005236,
                     "name": "Torfunes",
@@ -2740,9 +2862,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1867,
-                "year_to_value": 1867
+                }
             },
             {
                 "original_string": "Með for. á sama bæ (3) 1868.",
@@ -2765,6 +2885,8 @@
                 "note": "Með for.",
                 "note_ref": null,
                 "year": "1869-1870",
+                "year_from_value": 1869,
+                "year_to_value": 1870,
                 "location_obj": {
                     "id": 16600,
                     "name": "Hrifla",
@@ -2788,9 +2910,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1869,
-                "year_to_value": 1870
+                }
             },
             {
                 "original_string": "Hjá for. í Landamótsseli (5) 1871-1872.",
@@ -2801,6 +2921,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1871-1872",
+                "year_from_value": 1871,
+                "year_to_value": 1872,
                 "location_obj": {
                     "id": 25916,
                     "name": "Landamótssel",
@@ -2824,9 +2946,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1871,
-                "year_to_value": 1872
+                }
             },
             {
                 "year": "1872",
@@ -3066,6 +3186,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1893-1900",
+                "year_from_value": 1893,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 24139,
                     "name": "Geirbjarnarstaðir",
@@ -3089,9 +3211,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1893,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -3190,6 +3310,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Miðhvammi",
+                "year_from_value": 1834,
+                "year_to_value": 1834,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -3213,9 +3335,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1834,
-                "year_to_value": 1834
+                }
             },
             {
                 "original_string": "Hjá for. í Miðhvammi (1 árs) 1835-1839. (þó ekki 1842)",
@@ -3226,6 +3346,8 @@
                 "note": "Hjá for., þó ekki 1842",
                 "note_ref": null,
                 "year": "1835-1839",
+                "year_from_value": 1835,
+                "year_to_value": 1839,
                 "location_obj": {
                     "id": 25967,
                     "name": "Miðhvammur",
@@ -3249,9 +3371,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1835,
-                "year_to_value": 1839
+                }
             },
             {
                 "original_string": "Fósturb. í Presthvammi (7) 1840-1842. Hjá for. í Miðhv. 1843-184...",
@@ -3262,6 +3382,8 @@
                 "note": "Síðar hjá for. í Miðhv.",
                 "note_ref": null,
                 "year": "1840-1842",
+                "year_from_value": 1840,
+                "year_to_value": 1842,
                 "location_obj": {
                     "id": 16500,
                     "name": "Presthvammur",
@@ -3285,9 +3407,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1840,
-                "year_to_value": 1842
+                }
             },
             {
                 "original_string": "Smali í Heiðarbót (15) 1849.",
@@ -3298,6 +3418,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1849",
+                "year_from_value": 1849,
+                "year_to_value": 1849,
                 "location_obj": {
                     "id": 24410,
                     "name": "Heiðarbót",
@@ -3321,9 +3443,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1849,
-                "year_to_value": 1849
+                }
             },
             {
                 "original_string": "Léttingur í Tungugerði (17 ára) 1850.",
@@ -3334,6 +3454,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1850",
+                "year_from_value": 1850,
+                "year_to_value": 1850,
                 "location_obj": {
                     "id": 90025,
                     "name": "Tungugerði",
@@ -3357,9 +3479,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1850,
-                "year_to_value": 1850
+                }
             },
             {
                 "original_string": "B. á Hallbjarnarst. Fn. (39 ára) 1873-75.",
@@ -3470,6 +3590,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Mýri B.",
+                "year_from_value": 1871,
+                "year_to_value": 1871,
                 "location_obj": {
                     "id": 24814,
                     "name": "Mýri",
@@ -3493,9 +3615,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1871,
-                "year_to_value": 1871
+                }
             },
             {
                 "original_string": "Hjá for. á Mýri (1 árs) 1872-79.",
@@ -3506,6 +3626,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1872-1879",
+                "year_from_value": 1872,
+                "year_to_value": 1879,
                 "location_obj": {
                     "id": 24814,
                     "name": "Mýri",
@@ -3529,9 +3651,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1872,
-                "year_to_value": 1879
+                }
             },
             {
                 "original_string": "Hjá föður á Hallgilsstöðum (9) 1880-1889.",
@@ -3542,6 +3662,8 @@
                 "note": "Hjá föður",
                 "note_ref": null,
                 "year": "1880-1889",
+                "year_from_value": 1880,
+                "year_to_value": 1889,
                 "location_obj": {
                     "id": 16605,
                     "name": "Hallgilsstaðir",
@@ -3565,9 +3687,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1880,
-                "year_to_value": 1889
+                }
             }
         ],
         "notes": {},
@@ -3656,6 +3776,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1817-1824",
+                "year_from_value": 1817,
+                "year_to_value": 1824,
                 "location_obj": {
                     "id": 9658,
                     "name": "Gautsstaðir",
@@ -3679,9 +3801,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1817,
-                "year_to_value": 1824
+                }
             },
             {
                 "original_string": "Hjú á sama bæ ... 1825-1826.",
@@ -3704,6 +3824,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1827",
+                "year_from_value": 1827,
+                "year_to_value": 1827,
                 "location_obj": {
                     "id": 25200,
                     "name": "Tunga",
@@ -3727,9 +3849,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1827,
-                "year_to_value": 1827
+                }
             },
             {
                 "original_string": "B. á sama bæ ... 1828-'85. (Hrb.).",
@@ -3807,6 +3927,8 @@
                 "note": "Með for.",
                 "note_ref": null,
                 "year": "1899",
+                "year_from_value": 1899,
+                "year_to_value": 1899,
                 "location_obj": {
                     "id": 13303,
                     "name": "Geldingsá",
@@ -3830,9 +3952,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1899,
-                "year_to_value": 1899
+                }
             },
             {
                 "original_string": "Með for. í Meðalheimi (13) 1900.",
@@ -3843,6 +3963,8 @@
                 "note": "Með for.",
                 "note_ref": null,
                 "year": "1900",
+                "year_from_value": 1900,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 1004535,
                     "name": "Meðalheimur",
@@ -3866,9 +3988,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1900,
-                "year_to_value": 1900
+                }
             }
         ],
         "notes": {},
@@ -4029,6 +4149,8 @@
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Hóli Grýt.",
+                "year_from_value": 1867,
+                "year_to_value": 1867,
                 "location_obj": {
                     "id": 1004483,
                     "name": "Hóll",
@@ -4056,9 +4178,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1867,
-                "year_to_value": 1867
+                }
             },
             {
                 "original_string": "Hjá for. á Hóli Höfð. (á 1.) 1867-1869.",
@@ -4069,6 +4189,8 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year": "1867-1869",
+                "year_from_value": 1867,
+                "year_to_value": 1869,
                 "location_obj": {
                     "id": 1004483,
                     "name": "Hóll",
@@ -4096,9 +4218,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1867,
-                "year_to_value": 1869
+                }
             },
             {
                 "original_string": "Hjá for. á Svæði (7) 1873.",
@@ -4121,6 +4241,8 @@
                 "note": "",
                 "note_ref": null,
                 "year": "1881-1882",
+                "year_from_value": 1881,
+                "year_to_value": 1882,
                 "location_obj": {
                     "id": 1004483,
                     "name": "Hóll",
@@ -4148,9 +4270,7 @@
                             "id": 16573
                         }
                     ]
-                },
-                "year_from_value": 1881,
-                "year_to_value": 1882
+                }
             }
         ],
         "notes": {},

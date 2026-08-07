@@ -2325,7 +2325,31 @@
             "birth": {
                 "original_string": "F. um 19/10. 1868 á Þóroddsst.",
                 "date": "1868-10-19",
-                "location": "Þóroddsst."
+                "location": "Þóroddsstaðir",
+                "location_obj": {
+                    "id": 16603,
+                    "name": "Þóroddsstaður",
+                    "lat": "65.853912",
+                    "lng": "-17.546014",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2383,9 +2407,33 @@
                 "original_string": "F. um 19/10. 1868 á Þóroddsst.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Þóroddsst.",
+                "location": "Þóroddsstaðir",
                 "year_from_value": 1868,
-                "year_to_value": 1868
+                "year_to_value": 1868,
+                "location_obj": {
+                    "id": 16603,
+                    "name": "Þóroddsstaður",
+                    "lat": "65.853912",
+                    "lng": "-17.546014",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú for. á Þóroddsstad (1 árs) 1869-71.",
