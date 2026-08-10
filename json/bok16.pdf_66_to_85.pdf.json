@@ -1532,10 +1532,34 @@
                 }
             },
             "death": {
-                "original_string": "D. á Kvislarhóli 3/11. 1855. 1)",
+                "original_string": "D. á Kvíslarhóli 3/11. 1855. 1)",
                 "date": "1855-11-03",
-                "location": "Kvislarhóli",
-                "note_ref": 1
+                "location": "Kvíslarhóll",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 16633,
+                    "name": "Kvíslarhóll",
+                    "lat": "66.09743142243651",
+                    "lng": "-17.24975305175804",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Guðlaugur",
@@ -1860,35 +1884,107 @@
                 }
             },
             {
-                "original_string": "Hjú á Kvislarhóli (31 árs) 1841.",
+                "original_string": "Hjú á Kvíslarhóli (31 árs) 1841.",
                 "year": "1841",
                 "age": 31,
                 "status": "Hjú",
-                "location": "Kvislarhóli",
+                "location": "Kvíslarhóll",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1841,
-                "year_to_value": 1841
+                "year_to_value": 1841,
+                "location_obj": {
+                    "id": 16633,
+                    "name": "Kvíslarhóll",
+                    "lat": "66.09743142243651",
+                    "lng": "-17.24975305175804",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "B. á Kvislarhóli 1842-55, - 45 ára.",
+                "original_string": "B. á Kvíslarhóli 1842-55, - 45 ára.",
                 "year": "1842-1855",
                 "age": 45,
                 "status": "B.",
-                "location": "Kvislarhóli",
+                "location": "Kvíslarhóll",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1842,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 16633,
+                    "name": "Kvíslarhóll",
+                    "lat": "66.09743142243651",
+                    "lng": "-17.24975305175804",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1855",
-                "original_string": "D. á Kvislarhóli 3/11. 1855. 1)",
+                "original_string": "D. á Kvíslarhóli 3/11. 1855. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Kvislarhóli",
+                "location": "Kvíslarhóll",
                 "year_from_value": 1855,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 16633,
+                    "name": "Kvíslarhóll",
+                    "lat": "66.09743142243651",
+                    "lng": "-17.24975305175804",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

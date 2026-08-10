@@ -810,8 +810,8 @@
                 "location_obj": {
                     "id": 13148,
                     "name": "Rauf",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.094869",
+                    "lng": "-17.298041",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"
@@ -894,8 +894,8 @@
                 "location_obj": {
                     "id": 13148,
                     "name": "Rauf",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.094869",
+                    "lng": "-17.298041",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"
@@ -928,8 +928,8 @@
                 "location_obj": {
                     "id": 13148,
                     "name": "Rauf",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.094869",
+                    "lng": "-17.298041",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"
@@ -951,14 +951,38 @@
                 }
             },
             {
-                "original_string": "Með for. á Hallbj.st. J. (1 árs) 1895-1896.",
+                "original_string": "Með for. á Hallbj.st. T. (1 árs) 1895-1896.",
                 "year": "1895-1896",
                 "age": null,
                 "status": "Með for.",
-                "location": "Hallbj.st. J.",
+                "location": "Hallbjarnarstaðir T.",
                 "note": "1 árs",
                 "year_from_value": 1895,
-                "year_to_value": 1896
+                "year_to_value": 1896,
+                "location_obj": {
+                    "id": 25730,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "66.149698",
+                    "lng": "-17.251747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Breiðuvík (3 ára) 1897.",
@@ -2466,9 +2490,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 5/9 1881 á Kvislarhóli.",
+                "original_string": "F. 5/9 1881 á Kvíslarhóli.",
                 "date": "1881-09-05",
-                "location": "Kvislarhóli"
+                "location": "Kvíslarhóll",
+                "location_obj": {
+                    "id": 16633,
+                    "name": "Kvíslarhóll",
+                    "lat": "66.09743142243651",
+                    "lng": "-17.24975305175804",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2523,32 +2571,104 @@
         "residence_history": [
             {
                 "year": "1881",
-                "original_string": "F. 5/9 1881 á Kvislarhóli.",
+                "original_string": "F. 5/9 1881 á Kvíslarhóli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Kvislarhóli",
+                "location": "Kvíslarhóll",
                 "year_from_value": 1881,
-                "year_to_value": 1881
+                "year_to_value": 1881,
+                "location_obj": {
+                    "id": 16633,
+                    "name": "Kvíslarhóll",
+                    "lat": "66.09743142243651",
+                    "lng": "-17.24975305175804",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. á Kvislarhóli (1. ári) 1881-1886.",
+                "original_string": "Hjá for. á Kvíslarhóli (1. ári) 1881-1886.",
                 "year": "1881-1886",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Kvislarhóli",
+                "location": "Kvíslarhóll",
                 "note": "1. ári",
                 "year_from_value": 1881,
-                "year_to_value": 1886
+                "year_to_value": 1886,
+                "location_obj": {
+                    "id": 16633,
+                    "name": "Kvíslarhóll",
+                    "lat": "66.09743142243651",
+                    "lng": "-17.24975305175804",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. á Hallbj.st. J. (6 ára) 1887-1898.",
+                "original_string": "Hjá for. á Hallbj.st. T. (6 ára) 1887-1898.",
                 "year": "1887-1898",
                 "age": 6,
                 "status": "Hjá for.",
-                "location": "Hallbj.st. J.",
+                "location": "Hallbjarnarstaðir T.",
                 "note": "",
                 "year_from_value": 1887,
-                "year_to_value": 1898
+                "year_to_value": 1898,
+                "location_obj": {
+                    "id": 25730,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "66.149698",
+                    "lng": "-17.251747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Húsavík (18 ára) 1899-1900.",

@@ -2392,15 +2392,39 @@
                 "year_to_value": 1839
             },
             {
-                "original_string": "Fósturb. á Hallbj.st. J. 1841-1859.",
+                "original_string": "Fósturb. á Hallbj.st. T. 1841-1859.",
                 "year": "1841-1859",
                 "age": null,
                 "status": "Fósturb.",
-                "location": "Hallbj.st. J.",
+                "location": "Hallbjarnarstaðir T.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1841,
-                "year_to_value": 1859
+                "year_to_value": 1859,
+                "location_obj": {
+                    "id": 25730,
+                    "name": "Hallbjarnarstaðir",
+                    "lat": "66.149698",
+                    "lng": "-17.251747",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3757,8 +3781,8 @@
                 "location_obj": {
                     "id": 13148,
                     "name": "Rauf",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.094869",
+                    "lng": "-17.298041",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"
