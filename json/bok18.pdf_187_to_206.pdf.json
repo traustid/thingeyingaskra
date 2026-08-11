@@ -1470,7 +1470,35 @@
             "birth": {
                 "original_string": "F. 3/8. 1869 í Fótaskinni.",
                 "date": "1869-08-03",
-                "location": "Fótaskinn"
+                "location": "Helluland",
+                "location_obj": {
+                    "id": 90011,
+                    "name": "Helluland",
+                    "lat": "65.821415",
+                    "lng": "-17.379450",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fótaskinn",
+                            "id": 0
+                        },
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -1512,9 +1540,37 @@
                 "original_string": "F. 3/8. 1869 í Fótaskinni.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fótaskinn",
+                "location": "Helluland",
                 "year_from_value": 1869,
-                "year_to_value": 1869
+                "year_to_value": 1869,
+                "location_obj": {
+                    "id": 90011,
+                    "name": "Helluland",
+                    "lat": "65.821415",
+                    "lng": "-17.379450",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fótaskinn",
+                            "id": 0
+                        },
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Fótaskinni (2) 1870.",
@@ -4628,15 +4684,39 @@
                 "year_to_value": 1875
             },
             {
-                "original_string": "Húsk. í Tunnu ... 1879.",
+                "original_string": "Húsk. í Tumsu ... 1879.",
                 "year_or_period": "1879",
                 "age": null,
                 "status": "Húsk.",
-                "location": "Tunna",
+                "location": "Tumsa",
                 "note": "",
                 "year": "1879",
                 "year_from_value": 1879,
-                "year_to_value": 1879
+                "year_to_value": 1879,
+                "location_obj": {
+                    "id": 1001657,
+                    "name": "Tumsa",
+                    "lat": "65.820197",
+                    "lng": "-17.373539",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. á Eftrahóli (56) 1881.",

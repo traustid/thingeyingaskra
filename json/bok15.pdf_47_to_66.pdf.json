@@ -2628,7 +2628,35 @@
             "birth": {
                 "original_string": "F. um 1779 í Fótaskinni.",
                 "date": "1779-00-00",
-                "location": "Fótaskinni"
+                "location": "Helluland",
+                "location_obj": {
+                    "id": 90011,
+                    "name": "Helluland",
+                    "lat": "65.821415",
+                    "lng": "-17.379450",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fótaskinn",
+                            "id": 0
+                        },
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Hörgsdal 28/2. 1860.",
@@ -2709,20 +2737,76 @@
                 "original_string": "F. um 1779 í Fótaskinni.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fótaskinni",
+                "location": "Helluland",
                 "year_from_value": 1779,
-                "year_to_value": 1779
+                "year_to_value": 1779,
+                "location_obj": {
+                    "id": 90011,
+                    "name": "Helluland",
+                    "lat": "65.821415",
+                    "lng": "-17.379450",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fótaskinn",
+                            "id": 0
+                        },
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Fótaskinni (23 ára) 1801-1803. 1)",
                 "year": "1801-1803",
                 "age": 23,
                 "status": "Hjá for.",
-                "location": "Fótaskinni",
+                "location": "Helluland",
                 "note": "",
                 "note_ref": 1,
                 "year_from_value": 1801,
-                "year_to_value": 1803
+                "year_to_value": 1803,
+                "location_obj": {
+                    "id": 90011,
+                    "name": "Helluland",
+                    "lat": "65.821415",
+                    "lng": "-17.379450",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fótaskinn",
+                            "id": 0
+                        },
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Grenjaðarst. (26) 1805-1806.",

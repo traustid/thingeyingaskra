@@ -2386,9 +2386,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. á Guðólfsst. 17/2. 1852.",
+                "original_string": "F. á Öndólfsst. 17/2. 1852.",
                 "date": "1852-02-17",
-                "location": "Guðólfsstaðir"
+                "location": "Öndólfsstaðir",
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 1892.",
@@ -2442,22 +2466,70 @@
         "residence_history": [
             {
                 "year": "1852",
-                "original_string": "F. á Guðólfsst. 17/2. 1852.",
+                "original_string": "F. á Öndólfsst. 17/2. 1852.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Guðólfsstaðir",
+                "location": "Öndólfsstaðir",
                 "year_from_value": 1852,
-                "year_to_value": 1852
+                "year_to_value": 1852,
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. á Guðólfsstöðum (á l.) 1852-",
+                "original_string": "Hjá for. á Öndólfsstöðum (á l.) 1852-",
                 "year": "1852",
                 "age": null,
                 "status": "á l.",
-                "location": "Guðólfsstaðir",
+                "location": "Öndólfsstaðir",
                 "note": "Hjá for.",
                 "year_from_value": 1852,
-                "year_to_value": 1852
+                "year_to_value": 1852,
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. kona á Helgastöðum (28) - 1880-",
@@ -4186,7 +4258,7 @@
             {
                 "name": "Björn Einarsson",
                 "date": "1808-06-30",
-                "status": "Guðólfsstöðum",
+                "status": "Öndólfsstöðum",
                 "names": [
                     "Björn",
                     "Einarsson"
@@ -4195,7 +4267,7 @@
                 "lastName": "Einarsson"
             }
         ],
-        "spouse_original_string": "M. 30/6. ? 1808: Björn Einarsson, Guðólfsstöðum.",
+        "spouse_original_string": "M. 30/6. ? 1808: Björn Einarsson, Öndólfsstöðum.",
         "parents": [
             {
                 "name": "J. Sigurðsson",

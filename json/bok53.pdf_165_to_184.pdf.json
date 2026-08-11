@@ -214,10 +214,34 @@
                 "location": ""
             },
             "death": {
-                "original_string": "D. á Lomatjörn 29/7. 1855, 85 ára. 1)",
+                "original_string": "D. á Lómatjörn 29/7. 1855, 85 ára. 1)",
                 "date": "1855-07-29",
-                "location": "Lomatjörn",
-                "note_ref": 1
+                "location": "Lómatjörn",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Ólafur",
@@ -484,27 +508,75 @@
                 }
             },
             {
-                "original_string": "Faðir B. á Lomatjörn (68) 1838 - 1847 - 1854. (blindur).",
+                "original_string": "Faðir B. á Lómatjörn (68) 1838 - 1847 - 1854. (blindur).",
                 "year": "1838-1854",
                 "age": 68,
                 "status": "Faðir B.",
-                "location": "Lomatjörn",
+                "location": "Lómatjörn",
                 "note": "blindur",
                 "year_from_value": 1838,
-                "year_to_value": 1854
+                "year_to_value": 1854,
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1855",
-                "original_string": "D. á Lomatjörn 29/7. 1855, 85 ára. 1)",
+                "original_string": "D. á Lómatjörn 29/7. 1855, 85 ára. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Lomatjörn",
+                "location": "Lómatjörn",
                 "year_from_value": 1855,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
-            "1": "Faðir B. á Lomatjörn. - Kvefsótt og elli."
+            "1": "Faðir B. á Lómatjörn. - Kvefsótt og elli."
         },
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_53_-_allt/166",
         "bok": "bok53",
@@ -2499,14 +2571,38 @@
                 "year_to_value": 1835
             },
             {
-                "original_string": "Hjú á Lomatjörn (56) 1890.",
+                "original_string": "Hjú á Lómatjörn (56) 1890.",
                 "year": "1890",
                 "age": 56,
                 "status": "Hjú",
-                "location": "Lomatjörn",
+                "location": "Lómatjörn",
                 "note": "",
                 "year_from_value": 1890,
-                "year_to_value": 1890
+                "year_to_value": 1890,
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Laufási (57) 1891-1892.",
@@ -3364,11 +3460,11 @@
                 "year_to_value": 1867
             },
             {
-                "original_string": "Léttadr. á Guðólfsstöðum (13) 1880-",
+                "original_string": "Léttadr. á Öndólfsstöðum (13) 1880-",
                 "year": "1880",
                 "age": 13,
                 "status": "Léttadr.",
-                "location": "Guðólfsstöðum",
+                "location": "Öndólfsstöðum",
                 "note": "",
                 "year_from_value": 1880,
                 "year_to_value": 1880
@@ -3798,9 +3894,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 6/2. 1863 á Lomatjörn.",
+                "original_string": "F. 6/2. 1863 á Lómatjörn.",
                 "date": "1863-02-06",
-                "location": "Lomatjörn"
+                "location": "Lómatjörn",
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Fagrabæ 11/1. 1875, 12 ára. 1)",
@@ -3867,12 +3987,36 @@
         "residence_history": [
             {
                 "year": "1863",
-                "original_string": "F. 6/2. 1863 á Lomatjörn.",
+                "original_string": "F. 6/2. 1863 á Lómatjörn.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Lomatjörn",
+                "location": "Lómatjörn",
                 "year_from_value": 1863,
-                "year_to_value": 1863
+                "year_to_value": 1863,
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Fagrabæ (1 árs) 1863 - 1874.",

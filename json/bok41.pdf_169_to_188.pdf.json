@@ -3545,15 +3545,39 @@
                 }
             },
             {
-                "original_string": "Hjú á Guðólfsstöðum (42) 1889-1890.",
+                "original_string": "Hjú á Öndólfsstöðum (42) 1889-1890.",
                 "year": "1889-1890",
                 "age": 42,
                 "status": "Hjú",
-                "location": "Guðólfsstaðir",
+                "location": "Öndólfsstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1889,
-                "year_to_value": 1890
+                "year_to_value": 1890,
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsm. í Narfast.seli (44) 1892-1893.",

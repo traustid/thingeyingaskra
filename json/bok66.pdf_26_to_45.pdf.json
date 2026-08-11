@@ -430,9 +430,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. á Guðólfsst. 9/10 1813.",
+                "original_string": "F. á Öndólfsst. 9/10 1813.",
                 "date": "1813-10-09",
-                "location": "Guðólfsstaðir"
+                "location": "Öndólfsstaðir",
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -474,23 +498,71 @@
         "residence_history": [
             {
                 "year": "1813",
-                "original_string": "F. á Guðólfsst. 9/10 1813.",
+                "original_string": "F. á Öndólfsst. 9/10 1813.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Guðólfsstaðir",
+                "location": "Öndólfsstaðir",
                 "year_from_value": 1813,
-                "year_to_value": 1813
+                "year_to_value": 1813,
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. á Guðólfsstöðum (2) 1816-",
+                "original_string": "Hjá for. á Öndólfsstöðum (2) 1816-",
                 "year_or_period": "1816",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Guðólfsstaðir",
+                "location": "Öndólfsstaðir",
                 "note": "",
                 "year": "1816",
                 "year_from_value": 1816,
-                "year_to_value": 1816
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fermd þaðan 1829.",
@@ -539,15 +611,39 @@
                 }
             },
             {
-                "original_string": "Á Guðólfsstöðum 1845-1847-",
+                "original_string": "Á Öndólfsstöðum 1845-1847-",
                 "year_or_period": "1845-1847",
                 "age": null,
                 "status": "",
-                "location": "Guðólfsstaðir",
+                "location": "Öndólfsstaðir",
                 "note": "",
                 "year": "1845-1847",
                 "year_from_value": 1845,
-                "year_to_value": 1847
+                "year_to_value": 1847,
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Á Einarsstöðum 1851-",

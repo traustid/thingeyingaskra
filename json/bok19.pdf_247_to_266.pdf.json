@@ -597,7 +597,35 @@
             "birth": {
                 "original_string": "F. 27/11. 1885 í Fótaskinni.",
                 "date": "1885-11-27",
-                "location": "Fótaskinn"
+                "location": "Helluland",
+                "location_obj": {
+                    "id": 90011,
+                    "name": "Helluland",
+                    "lat": "65.821415",
+                    "lng": "-17.379450",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fótaskinn",
+                            "id": 0
+                        },
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -639,9 +667,37 @@
                 "original_string": "F. 27/11. 1885 í Fótaskinni.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fótaskinn",
+                "location": "Helluland",
                 "year_from_value": 1885,
-                "year_to_value": 1885
+                "year_to_value": 1885,
+                "location_obj": {
+                    "id": 90011,
+                    "name": "Helluland",
+                    "lat": "65.821415",
+                    "lng": "-17.379450",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fótaskinn",
+                            "id": 0
+                        },
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Fótaskinni (1 árs) 1885-1886.",
@@ -993,14 +1049,38 @@
                 }
             },
             {
-                "original_string": "Böndad. Tunnu 1857-1864, 5-8 ára.",
+                "original_string": "Böndad. Tumsu 1857-1864, 5-8 ára.",
                 "year": "1857-1864",
                 "age": null,
                 "status": "Böndadóttir",
-                "location": "Tunna",
+                "location": "Tumsa",
                 "note": "5-8 ára",
                 "year_from_value": 1857,
-                "year_to_value": 1864
+                "year_to_value": 1864,
+                "location_obj": {
+                    "id": 1001657,
+                    "name": "Tumsa",
+                    "lat": "65.820197",
+                    "lng": "-17.373539",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Hvammi (17) 1866-1869.",

@@ -3551,14 +3551,38 @@
                 }
             },
             {
-                "original_string": "Hr.óm. á Lomatjörn (56) 1896-1898.",
+                "original_string": "Hr.óm. á Lómatjörn (56) 1896-1898.",
                 "year": "1896-1898",
                 "age": 56,
                 "status": "Hr.óm.",
-                "location": "Lomatjörn",
+                "location": "Lómatjörn",
                 "note": "",
                 "year_from_value": 1896,
-                "year_to_value": 1898
+                "year_to_value": 1898,
+                "location_obj": {
+                    "id": 1000948,
+                    "name": "Lómatjörn",
+                    "lat": "65.917493",
+                    "lng": "-18.080509",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

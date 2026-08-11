@@ -741,8 +741,8 @@
                 "location_obj": {
                     "id": 1001657,
                     "name": "Tumsa",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.820197",
+                    "lng": "-17.373539",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -815,22 +815,70 @@
         "residence_history": [
             {
                 "year": "1866",
-                "original_string": "F. 15/2 1866 í Tunnu í Mýlaugast.",
+                "original_string": "F. 15/2 1866 í Tumsu í Mýlaugast.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Tunna í Mýlaugastaðir",
+                "location": "Tumsa í Mýlaugastaðir",
                 "year_from_value": 1866,
-                "year_to_value": 1866
+                "year_to_value": 1866,
+                "location_obj": {
+                    "id": 1001657,
+                    "name": "Tumsa",
+                    "lat": "65.820197",
+                    "lng": "-17.373539",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. í Tunnu (1 árs) 1866.",
+                "original_string": "Hjá for. í Tumsu (1 árs) 1866.",
                 "year": "1866",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Tunna",
+                "location": "Tumsa",
                 "note": "",
                 "year_from_value": 1866,
-                "year_to_value": 1866
+                "year_to_value": 1866,
+                "location_obj": {
+                    "id": 1001657,
+                    "name": "Tumsa",
+                    "lat": "65.820197",
+                    "lng": "-17.373539",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Yztahvammi (1 árs) 1867.",

@@ -2107,14 +2107,38 @@
                 }
             },
             {
-                "original_string": "Hjú á Guðólfsstöðum 1828.",
+                "original_string": "Hjú á Öndólfsstöðum 1828.",
                 "year": "1828",
                 "age": null,
                 "status": "Hjú",
-                "location": "Guðólfsstaðir",
+                "location": "Öndólfsstaðir",
                 "note": "",
                 "year_from_value": 1828,
-                "year_to_value": 1828
+                "year_to_value": 1828,
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú frá Breiðumýri að Haganesi (43) 1831.",
@@ -2122,7 +2146,7 @@
                 "age": 43,
                 "status": "Hjú",
                 "location": "Haganes",
-                "note": "eða Guðólfsst.",
+                "note": "eða Öndólfsst.",
                 "year_from_value": 1831,
                 "year_to_value": 1831,
                 "location_obj": {

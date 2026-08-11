@@ -125,7 +125,35 @@
             "birth": {
                 "original_string": "F. 28/9 1868 í Fótaskinni",
                 "date": "1868-09-28",
-                "location": "Fótaskinni"
+                "location": "Helluland",
+                "location_obj": {
+                    "id": 90011,
+                    "name": "Helluland",
+                    "lat": "65.821415",
+                    "lng": "-17.379450",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fótaskinn",
+                            "id": 0
+                        },
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 24/12 1883, 15 ára.",
@@ -171,9 +199,37 @@
                 "original_string": "F. 28/9 1868 í Fótaskinni",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fótaskinni",
+                "location": "Helluland",
                 "year_from_value": 1868,
-                "year_to_value": 1868
+                "year_to_value": 1868,
+                "location_obj": {
+                    "id": 90011,
+                    "name": "Helluland",
+                    "lat": "65.821415",
+                    "lng": "-17.379450",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fótaskinn",
+                            "id": 0
+                        },
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Fótaskinni (1 árs) 1868.",
@@ -225,7 +281,31 @@
                 "note_ref": null,
                 "year": "1871",
                 "year_from_value": 1871,
-                "year_to_value": 1871
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 90076,
+                    "name": "Hafralækjargerði",
+                    "lat": "65.871062",
+                    "lng": "-17.432703",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. á Syðrafjalli (5) 1872-1873.",

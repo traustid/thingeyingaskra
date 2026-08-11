@@ -917,7 +917,7 @@
             {
                 "name": "Guðfinna Stefánsdóttir",
                 "date": null,
-                "status": "frá Guðólfsstöðum",
+                "status": "frá Öndólfsstöðum",
                 "names": [
                     "Guðfinna",
                     "Stefánsdóttir"
@@ -926,7 +926,7 @@
                 "lastName": "Stefánsdóttir"
             }
         ],
-        "spouse_original_string": "K.: Guðfinna Stefánsdóttir (frá Guðólfsstöðum).",
+        "spouse_original_string": "K.: Guðfinna Stefánsdóttir (frá Öndólfsstöðum).",
         "parents": [
             {
                 "name": "Hallgrímur Pétursson",
@@ -1851,32 +1851,80 @@
         "parents_original_string": "For.: H. Ásmundsson (Skútust.) og Helga Sigmundsdóttir",
         "residence_history": [
             {
-                "original_string": "Tökub. (1 árs) frá Skútust. að Guðólfsst. 1827-",
+                "original_string": "Tökub. (1 árs) frá Skútust. að Öndólfsst. 1827-",
                 "year": "1827",
                 "age": 1,
                 "status": "Tökub.",
-                "location": "Guðólfsstaðir",
+                "location": "Öndólfsstaðir",
                 "note": "frá Skútust.",
                 "year_from_value": 1827,
-                "year_to_value": 1827
+                "year_to_value": 1827,
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fermdur þaðan (14) 1841-",
                 "year": "1841",
                 "age": 14,
                 "status": "Fermdur",
-                "location": "Guðólfsstaðir",
+                "location": "Öndólfsstaðir",
                 "note": "",
                 "year_from_value": 1841,
-                "year_to_value": 1841
+                "year_to_value": 1841,
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjú frá Guðólfsst. \"norður\" (23) 1850-",
+                "original_string": "Hjú frá Öndólfsst. \"norður\" (23) 1850-",
                 "year": "1850",
                 "age": 23,
                 "status": "Hjú",
                 "location": "norður",
-                "note": "frá Guðólfsst.",
+                "note": "frá Öndólfsst.",
                 "year_from_value": 1850,
                 "year_to_value": 1850
             },

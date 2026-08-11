@@ -2276,9 +2276,9 @@
                 }
             },
             "death": {
-                "original_string": "D. á Guðólfsst. 8/12. 1830.",
+                "original_string": "D. á Öndólfsst. 8/12. 1830.",
                 "date": "1830-12-08",
-                "location": "Guðólfsstöðum",
+                "location": "Öndólfsstöðum",
                 "note_ref": 1
             },
             "names": [
@@ -2399,11 +2399,11 @@
                 }
             },
             {
-                "original_string": "Húsfr. á Guðólfsstöðum (57) 1816-1830.",
+                "original_string": "Húsfr. á Öndólfsstöðum (57) 1816-1830.",
                 "year_or_period": "1816-1830",
                 "age": 57,
                 "status": "Húsfr.",
-                "location": "Guðólfsstöðum",
+                "location": "Öndólfsstöðum",
                 "note": "",
                 "year": "1816-1830",
                 "year_from_value": 1816,
@@ -2411,10 +2411,10 @@
             },
             {
                 "year": "1830",
-                "original_string": "D. á Guðólfsst. 8/12. 1830.",
+                "original_string": "D. á Öndólfsst. 8/12. 1830.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Guðólfsstöðum",
+                "location": "Öndólfsstöðum",
                 "year_from_value": 1830,
                 "year_to_value": 1830
             }
@@ -2562,9 +2562,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 28/8. 1850 á Guðólfsstöðum.",
+                "original_string": "F. 28/8. 1850 á Öndólfsstöðum.",
                 "date": "1850-08-28",
-                "location": "Guðólfsstöðum"
+                "location": "Öndólfsstöðum"
             },
             "death": {
                 "original_string": "D 1/6 1925 á Húsavík",
@@ -2638,42 +2638,90 @@
         "residence_history": [
             {
                 "year": "1850",
-                "original_string": "F. 28/8. 1850 á Guðólfsstöðum.",
+                "original_string": "F. 28/8. 1850 á Öndólfsstöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Guðólfsstöðum",
+                "location": "Öndólfsstöðum",
                 "year_from_value": 1850,
                 "year_to_value": 1850
             },
             {
-                "original_string": "Hjá for. á Guðólfsst. (á 1.) 1850-",
+                "original_string": "Hjá for. á Öndólfsst. (á 1.) 1850-",
                 "year_or_period": "1850",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Guðólfsstaðir",
+                "location": "Öndólfsstaðir",
                 "note": "á 1.",
                 "year": "1850",
                 "year_from_value": 1850,
-                "year_to_value": 1850
+                "year_to_value": 1850,
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fermd þaðan 4/6. 1865-",
                 "year_or_period": "1865",
                 "age": null,
                 "status": "Fermd",
-                "location": "Guðólfsstaðir",
+                "location": "Öndólfsstaðir",
                 "note": "",
                 "year": "1865",
                 "year_from_value": 1865,
-                "year_to_value": 1865
+                "year_to_value": 1865,
+                "location_obj": {
+                    "id": 25341,
+                    "name": "Öndólfsstaðir",
+                    "lat": "65.7480306862",
+                    "lng": "-17.3830586672",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Yngist. - frá Guðólfsst. að Helgast. (20) 1870-",
+                "original_string": "Yngist. - frá Öndólfsst. að Helgast. (20) 1870-",
                 "year_or_period": "1870",
                 "age": 20,
                 "status": "Yngist.",
                 "location": "Helgastaðir",
-                "note": "frá Guðólfsst.",
+                "note": "frá Öndólfsst.",
                 "year": "1870",
                 "year_from_value": 1870,
                 "year_to_value": 1870,
