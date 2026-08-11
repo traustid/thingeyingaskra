@@ -606,7 +606,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1890,
-                "year_to_value": 1890
+                "year_to_value": 1890,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1224,39 +1248,11 @@
                 "year": "1896-1899",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Eyri Fl.",
+                "location": "Eyri Fj.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1896,
-                "year_to_value": 1899,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1899
             }
         ],
         "notes": {},
@@ -1600,7 +1596,7 @@
                 }
             },
             {
-                "original_string": "Húsfr. á Svaði (21) 1895-1898.",
+                "original_string": "Húsfr. á Svæði (21) 1895-1898.",
                 "year": "1895-1898",
                 "age": 21,
                 "status": "Húsfr.",
@@ -1608,7 +1604,35 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1895,
-                "year_to_value": 1898
+                "year_to_value": 1898,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Réttarholti (25) 1899-1900.",

@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. 2/2. 1792 á Litluvöllum.",
                 "date": "1792-02-02",
-                "location": "Litluvöllum"
+                "location": "Litluvellir",
+                "location_obj": {
+                    "id": 15083,
+                    "name": "Litluvellir",
+                    "lat": "65.462154",
+                    "lng": "-17.433764",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Arnarv. 22/6. 1866, 74 ára.",
@@ -90,9 +114,33 @@
                 "original_string": "F. 2/2. 1792 á Litluvöllum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Litluvöllum",
+                "location": "Litluvellir",
                 "year_from_value": 1792,
-                "year_to_value": 1792
+                "year_to_value": 1792,
+                "location_obj": {
+                    "id": 15083,
+                    "name": "Litluvellir",
+                    "lat": "65.462154",
+                    "lng": "-17.433764",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú for. á Halldórsst. B. (10) - 1801 - 1809.",
@@ -1649,34 +1697,10 @@
                 "year": "1840-1842",
                 "age": 22,
                 "status": "Hjú",
-                "location": "Brettingsstaðir Fl.",
+                "location": "Brettingsstaðir Fj.",
                 "note": "",
                 "year_from_value": 1840,
-                "year_to_value": 1842,
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1842
             },
             {
                 "original_string": "Hjú á Kaðalsstöðum (25) 1843-1845. (G.'44).",
@@ -2634,22 +2658,46 @@
                 "location": "Heiðarhúsum",
                 "note": "",
                 "year_from_value": 1877,
-                "year_to_value": 1877
+                "year_to_value": 1877,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsk. í Nýjabæ (40) 1878-1882.",
                 "year": "1878-1882",
                 "age": 40,
                 "status": "G. húsk.",
-                "location": "Nýjabæ",
+                "location": "Nýibær",
                 "note": "",
                 "year_from_value": 1878,
                 "year_to_value": 1882,
                 "location_obj": {
                     "id": 10294,
                     "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"
@@ -2726,7 +2774,31 @@
                 "location": "Heiðarhúsum",
                 "note": "",
                 "year_from_value": 1891,
-                "year_to_value": 1891
+                "year_to_value": 1891,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. á Skeri (53) 1891.",

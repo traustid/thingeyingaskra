@@ -213,7 +213,35 @@
                 "location": "Grenivíkurkoti",
                 "note": "",
                 "year_from_value": 1815,
-                "year_to_value": 1816
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 90071,
+                    "name": "Grenivíkurkot",
+                    "lat": "65.950617",
+                    "lng": "-18.177070",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Grýtubakka (29) 1827-1829.",
@@ -503,12 +531,12 @@
         "parents_original_string": "",
         "residence_history": [
             {
-                "original_string": "Léttadr. frá Hellisvaði at Halldórsst. L. 1820-22.",
+                "original_string": "Léttadr. frá HelliSvæði at Halldórsst. L. 1820-22.",
                 "year": "1820-1822",
                 "age": null,
                 "status": "Léttadr.",
                 "location": "Halldórsstaðir L",
-                "note": "frá Hellisvaði",
+                "note": "frá HelliSvæði",
                 "year_from_value": 1820,
                 "year_to_value": 1822,
                 "location_obj": {

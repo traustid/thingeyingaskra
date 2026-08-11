@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. 21/9. 1815 á Jarlsst. Grýt.",
                 "date": "1815-09-21",
-                "location": "Jarlsst. Grýt."
+                "location": "Jarlsstaðir Grýt.",
+                "location_obj": {
+                    "id": 1004895,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.950327",
+                    "lng": "-18.156724",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -38,7 +62,7 @@
         "parents": [
             {
                 "name": "Þorst. Þorsteinsson",
-                "note": "Jarlsst.",
+                "note": "Jarlsstaðir",
                 "names": [
                     "Þorst.",
                     "Þorsteinsson"
@@ -64,9 +88,33 @@
                 "original_string": "F. 21/9. 1815 á Jarlsst. Grýt.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Jarlsst. Grýt.",
+                "location": "Jarlsstaðir Grýt.",
                 "year_from_value": 1815,
-                "year_to_value": 1815
+                "year_to_value": 1815,
+                "location_obj": {
+                    "id": 1004895,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.950327",
+                    "lng": "-18.156724",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Jarlsst. Grýt. (1 árs) 1816-1831.",
@@ -697,11 +745,39 @@
                 "year": "1863-1875",
                 "age": 45,
                 "status": "Húsfr.",
-                "location": "Vatnsenda",
+                "location": "Vatnsendi",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1863,
-                "year_to_value": 1875
+                "year_to_value": 1875,
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Tungu Fr. (60) 1876-1877.",

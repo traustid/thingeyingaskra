@@ -190,7 +190,7 @@
             "birth": {
                 "original_string": "F. í R. hlíð 2/11 1847.",
                 "date": "1847-11-02",
-                "location": "R. hlíð"
+                "location": "Reykjahlíð"
             },
             "death": {
                 "original_string": "D. 23/12 1897. 1)",
@@ -247,7 +247,7 @@
                 "original_string": "F. í R. hlíð 2/11 1847.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "R. hlíð",
+                "location": "Reykjahlíð",
                 "year_from_value": 1847,
                 "year_to_value": 1847
             },
@@ -583,7 +583,31 @@
             "birth": {
                 "original_string": "F. 6/9 1864 í Heiðarhúsum.",
                 "date": "1864-09-06",
-                "location": "Heiðarhús"
+                "location": "Heiðarhús",
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -643,7 +667,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Heiðarhús",
                 "year_from_value": 1864,
-                "year_to_value": 1864
+                "year_to_value": 1864,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Heiðarhúsum (á 1.) 1864-1866.",
@@ -654,7 +702,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1864,
-                "year_to_value": 1866
+                "year_to_value": 1866,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Veisu (5)-1868-1876-1881.",
@@ -2332,7 +2404,7 @@
             {
                 "name": "Sólveig Tómasdóttir",
                 "date": null,
-                "status": "frá Eyri Fl.",
+                "status": "frá Eyri Fj.",
                 "names": [
                     "Sólveig",
                     "Tómasdóttir"
@@ -2509,39 +2581,11 @@
                 "year": "1886",
                 "age": 31,
                 "status": "G. hjú",
-                "location": "Eyri Fl.",
+                "location": "Eyri Fj.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1886,
-                "year_to_value": 1886,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1886
             },
             {
                 "original_string": "G. Lausamaður í Krosshúsum ... 1887.",

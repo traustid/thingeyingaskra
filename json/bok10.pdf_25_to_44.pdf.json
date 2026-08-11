@@ -1267,15 +1267,39 @@
         "parents_original_string": "For.: Dav. Jónsson og Hólmfríður Jónsdóttir.",
         "residence_history": [
             {
-                "original_string": "Hjá for. á N.-Dalksstöðum (3) 1812.",
+                "original_string": "Hjá for. á N.-Dálksstöðum (3) 1812.",
                 "year": "1812",
                 "age": 3,
                 "status": "Hjá foreldrum",
-                "location": "N.-Dalksstaðir",
+                "location": "Neðri-Dálksstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1812,
-                "year_to_value": 1812
+                "year_to_value": 1812,
+                "location_obj": {
+                    "id": 90036,
+                    "name": "Neðri-Dálksstaðir",
+                    "lat": "65.756478",
+                    "lng": "-18.086943",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2298,35 +2322,11 @@
                 "year": "1844-1845",
                 "age": 74,
                 "status": "Ekkja/Skyldumenni",
-                "location": "Brettingsstaðir, Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "note": "",
                 "note_ref": 1,
                 "year_from_value": 1844,
-                "year_to_value": 1845,
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1845
             }
         ],
         "notes": {

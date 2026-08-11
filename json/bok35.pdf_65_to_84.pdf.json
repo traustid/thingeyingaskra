@@ -409,7 +409,7 @@
                 "year": "1867-1868",
                 "age": 3,
                 "status": "Með móður",
-                "location": "Brettingsst., Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "year_from_value": 1867,
                 "year_to_value": 1868
             },
@@ -2351,14 +2351,14 @@
                 "year": "1887-",
                 "age": 40,
                 "status": "G.",
-                "location": "Nýjibær",
+                "location": "Nýibær",
                 "year_from_value": 1887,
                 "year_to_value": 1887,
                 "location_obj": {
                     "id": 10294,
                     "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"
@@ -2421,9 +2421,33 @@
                 "year": "1889",
                 "age": 42,
                 "status": "G. húsk.",
-                "location": "Uppiba",
+                "location": "Uppibær",
                 "year_from_value": 1889,
-                "year_to_value": 1889
+                "year_to_value": 1889,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Niðribæ ... 1891-1896.",
@@ -2538,14 +2562,14 @@
                 "year": "1900",
                 "age": 54,
                 "status": "Húsk.",
-                "location": "Nýjibær",
+                "location": "Nýibær",
                 "year_from_value": 1900,
                 "year_to_value": 1900,
                 "location_obj": {
                     "id": 10294,
                     "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"
@@ -2797,7 +2821,7 @@
             {
                 "name": "Árni Tómasson",
                 "date": "1898-06-19",
-                "status": "á Eyri Fl.",
+                "status": "á Eyri Fj.",
                 "names": [
                     "Árni",
                     "Tómasson"
@@ -2869,37 +2893,9 @@
                 "year": "1898-1899",
                 "age": 21,
                 "status": "G. húsk.",
-                "location": "Eyri Fl.",
+                "location": "Eyri Fj.",
                 "year_from_value": 1898,
-                "year_to_value": 1899,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1899
             }
         ],
         "notes": {},
@@ -3709,7 +3705,31 @@
                 "status": "Tökukona",
                 "location": "Klambrasel",
                 "year_from_value": 1900,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90074,
+                    "name": "Klambrasel",
+                    "lat": "65.852766",
+                    "lng": "-17.292501",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3726,7 +3746,31 @@
             "birth": {
                 "original_string": "F. 13/1. 1847 í Heiðarhúsum.",
                 "date": "1847-01-13",
-                "location": "Heiðarhús"
+                "location": "Heiðarhús",
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3773,7 +3817,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Heiðarhús",
                 "year_from_value": 1847,
-                "year_to_value": 1847
+                "year_to_value": 1847,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Grímslandi (1 árs) 1847-1854.",
@@ -4280,13 +4348,41 @@
                 }
             },
             {
-                "original_string": "Fósturb. á Svaði (5) 1900.",
+                "original_string": "Fósturb. á Svæði (5) 1900.",
                 "year": "1900",
                 "age": 5,
                 "status": "Fósturb.",
                 "location": "Svæði",
                 "year_from_value": 1900,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

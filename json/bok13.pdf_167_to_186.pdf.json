@@ -1532,9 +1532,37 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 22/5 1897 á Svaði",
+                "original_string": "F. 22/5 1897 á Svæði",
                 "date": "1897-05-22",
-                "location": "Svæði"
+                "location": "Svæði",
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1576,12 +1604,40 @@
         "residence_history": [
             {
                 "year": "1897",
-                "original_string": "F. 22/5 1897 á Svaði",
+                "original_string": "F. 22/5 1897 á Svæði",
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Svæði",
                 "year_from_value": 1897,
-                "year_to_value": 1897
+                "year_to_value": 1897,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Læk (á 1.) 1897-1898.",

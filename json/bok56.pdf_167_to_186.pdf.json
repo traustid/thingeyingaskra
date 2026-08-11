@@ -2286,7 +2286,31 @@
             "death": {
                 "original_string": "D. á Jarlsst. Grýt. 3/8. 1855. 1)",
                 "date": "1855-08-03",
-                "location": "Jarlsst. Grýt."
+                "location": "Jarlsstaðir Grýt.",
+                "location_obj": {
+                    "id": 1004895,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.950327",
+                    "lng": "-18.156724",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Rósa",
@@ -2346,9 +2370,33 @@
                 "original_string": "D. á Jarlsst. Grýt. 3/8. 1855. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Jarlsst. Grýt.",
+                "location": "Jarlsstaðir Grýt.",
                 "year_from_value": 1855,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 1004895,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.950327",
+                    "lng": "-18.156724",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

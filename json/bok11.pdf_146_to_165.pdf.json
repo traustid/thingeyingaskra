@@ -581,9 +581,37 @@
                 "year": "1801-1819-1826",
                 "age": 40,
                 "status": "B.",
-                "location": "Vatnsenda",
+                "location": "Vatnsendi",
                 "note": "Hrb.",
-                "year_from_value": 1801
+                "year_from_value": 1801,
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. faðir B. í Holtakoti Lj. (69) 1830-1838-",
@@ -2321,38 +2349,10 @@
                 "year": "1868-1871",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Eyri Fl.",
+                "location": "Eyri Fj.",
                 "note": "",
                 "year_from_value": 1868,
-                "year_to_value": 1871,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1871
             },
             {
                 "original_string": "Tökub. - fósturb. á Eyri Fj. (8) 1872-1878-1883.",
@@ -2887,7 +2887,31 @@
                 "location": "Heiðarhúsum",
                 "note": "",
                 "year_from_value": 1849,
-                "year_to_value": 1850
+                "year_to_value": 1850,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Ofeigsá (49) 1851-1858.",
@@ -3016,38 +3040,10 @@
                 "year": "1868-1871",
                 "age": 67,
                 "status": "Faðir B.",
-                "location": "Eyri Fl.",
+                "location": "Eyri Fj.",
                 "note": "",
                 "year_from_value": 1868,
-                "year_to_value": 1871,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1871
             },
             {
                 "original_string": "G. faðir húsb. á Eyri Fj. (72) 1872-1878-1883.",
@@ -3388,38 +3384,68 @@
                 }
             },
             {
-                "original_string": "Hjú á N.-Dalksst. (26) 1862.",
+                "original_string": "Hjú á N.-Dálksst. (26) 1862.",
                 "year": "1862",
                 "age": 26,
                 "status": "Hjú",
-                "location": "N.-Dalksstaðir",
+                "location": "Neðri-Dálksstaðir",
                 "note": "",
                 "year_from_value": 1862,
-                "year_to_value": 1862
-            },
-            {
-                "original_string": "B. á Eyri Fl. (30) 1867-68.",
-                "year": "1867-1868",
-                "age": 30,
-                "status": "B.",
-                "location": "Eyri Fl.",
-                "note": "",
-                "year_from_value": 1867,
-                "year_to_value": 1868,
+                "year_to_value": 1862,
                 "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
+                    "id": 90036,
+                    "name": "Neðri-Dálksstaðir",
+                    "lat": "65.756478",
+                    "lng": "-18.086943",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Knarrareyri",
-                            "id": 0
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
                         },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. á Eyri Fl. (30) 1867-68.",
+                "year": "1867-1868",
+                "age": 30,
+                "status": "B.",
+                "location": "Eyri Fj.",
+                "note": "",
+                "year_from_value": 1867,
+                "year_to_value": 1868
+            },
+            {
+                "original_string": "Hjú í Heiðarhúsum (29) 1868.",
+                "year": "1868",
+                "age": 29,
+                "status": "Hjú",
+                "location": "Heiðarhúsum",
+                "note": "",
+                "year_from_value": 1868,
+                "year_to_value": 1868,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
                         {
                             "name": "Flateyjardalur",
                             "id": 24091
@@ -3434,16 +3460,6 @@
                         }
                     ]
                 }
-            },
-            {
-                "original_string": "Hjú í Heiðarhúsum (29) 1868.",
-                "year": "1868",
-                "age": 29,
-                "status": "Hjú",
-                "location": "Heiðarhúsum",
-                "note": "",
-                "year_from_value": 1868,
-                "year_to_value": 1868
             },
             {
                 "original_string": "Hjú í Tungu, Sv. (32) 1869.",

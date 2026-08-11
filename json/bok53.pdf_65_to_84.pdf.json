@@ -123,14 +123,42 @@
                 }
             },
             {
-                "original_string": "Hjú á Svaði (20) 1900.",
+                "original_string": "Hjú á Svæði (20) 1900.",
                 "year": "1900",
                 "age": 20,
                 "status": "Hjú",
                 "location": "Svæði",
                 "note": "",
                 "year_from_value": 1900,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3503,38 +3531,10 @@
                 "year": "1846",
                 "age": 77,
                 "status": "Sj. sín",
-                "location": "Eyri, Fl.",
+                "location": "Eyri, Fj.",
                 "note": "",
                 "year_from_value": 1846,
-                "year_to_value": 1846,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1846
             },
             {
                 "original_string": "E. á Hofi (78) 1847.",
@@ -4139,34 +4139,10 @@
                 "year": "1801-",
                 "age": 27,
                 "status": "Eing. hjú",
-                "location": "Brettingsstöðum, Fl.",
+                "location": "Brettingsstöðum, Fj.",
                 "note": "",
                 "year_from_value": 1801,
-                "year_to_value": 1801,
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1801
             },
             {
                 "original_string": "Vinnudr. í Uppíbæ (34)-1808- 1)",

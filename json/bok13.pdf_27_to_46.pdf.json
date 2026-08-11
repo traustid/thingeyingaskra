@@ -1566,7 +1566,31 @@
                 "location": "Þorvaldsstaðir",
                 "note": "Hjá for.",
                 "year_from_value": 1872,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. í Syðritungu (13 ára) 1873.",
@@ -1647,33 +1671,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. um 1783 í Vík, Fl.",
+                "original_string": "F. um 1783 í Vík, Fj.",
                 "date": "1783-01-01",
-                "location": "Vík, Fl.",
-                "location_obj": {
-                    "id": 16628,
-                    "name": "Vík",
-                    "lat": "66.139034",
-                    "lng": "-17.922003",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Vík, Fj."
             },
             "death": {
                 "original_string": "D. á Sindrastast. 8/7. 1830?, 50 ára. 1)",
@@ -1728,36 +1728,12 @@
         "residence_history": [
             {
                 "year": "1783",
-                "original_string": "F. um 1783 í Vík, Fl.",
+                "original_string": "F. um 1783 í Vík, Fj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Vík, Fl.",
+                "location": "Vík, Fj.",
                 "year_from_value": 1783,
-                "year_to_value": 1783,
-                "location_obj": {
-                    "id": 16628,
-                    "name": "Vík",
-                    "lat": "66.139034",
-                    "lng": "-17.922003",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1783
             },
             {
                 "original_string": "Hjá for. í Vík (18) 1801-1805. (G. 1805).",
@@ -2628,37 +2604,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 25/8. 1853 á Eyri Fl.",
+                "original_string": "F. 25/8. 1853 á Eyri Fj.",
                 "date": "1853-08-25",
-                "location": "Eyri, Fl.",
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Eyri, Fj."
             },
             "names": [
                 "Finnbogi",
@@ -2693,78 +2641,22 @@
         "residence_history": [
             {
                 "year": "1853",
-                "original_string": "F. 25/8. 1853 á Eyri Fl.",
+                "original_string": "F. 25/8. 1853 á Eyri Fj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Eyri, Fl.",
+                "location": "Eyri, Fj.",
                 "year_from_value": 1853,
-                "year_to_value": 1853,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1853
             },
             {
                 "original_string": "Hjá for. á Eyri Fl. (3 mán.) 1853-1861-1866.",
                 "year": "1853-1866",
                 "age": null,
                 "status": "",
-                "location": "Eyri, Fl.",
+                "location": "Eyri, Fj.",
                 "note": "Hjá for.",
                 "year_from_value": 1853,
-                "year_to_value": 1866,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1866
             },
             {
                 "original_string": "Óm. á Sörlastöðum (15) 1868-1870.",

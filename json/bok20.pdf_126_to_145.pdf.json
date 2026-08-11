@@ -722,7 +722,7 @@
                 "year_or_period": "1878",
                 "age": 15,
                 "status": "",
-                "location": "Nýjabæ",
+                "location": "Nýibær",
                 "note": "",
                 "year": "1878",
                 "year_from_value": 1878,
@@ -730,8 +730,8 @@
                 "location_obj": {
                     "id": 10294,
                     "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"
@@ -3283,7 +3283,7 @@
         "parents_original_string": "For. : Ív. Jóhannesson og Soffía Rafnsdóttir.",
         "residence_history": [
             {
-                "original_string": "Hjá for. á Svaði (23) 1857.",
+                "original_string": "Hjá for. á Svæði (23) 1857.",
                 "year_or_period": "1857",
                 "age": 23,
                 "status": "",
@@ -3292,7 +3292,35 @@
                 "note_ref": 1,
                 "year": "1857",
                 "year_from_value": 1857,
-                "year_to_value": 1857
+                "year_to_value": 1857,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

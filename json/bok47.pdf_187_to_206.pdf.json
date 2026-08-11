@@ -139,11 +139,11 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Voglum (7) 1860-1872-",
+                "original_string": "Hjá for. á Vöglum (7) 1860-1872-",
                 "year": "1860-1872",
                 "age": 7,
                 "status": "",
-                "location": "Voglum",
+                "location": "Vöglum",
                 "note": "",
                 "year_from_value": 1860,
                 "year_to_value": 1872
@@ -981,7 +981,31 @@
                 "location": "Heiðarhúsum",
                 "note": "",
                 "year_from_value": 1869,
-                "year_to_value": 1871
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á sama bæ... 1872-1887-",
@@ -998,7 +1022,7 @@
                 "year": "1887-1900",
                 "age": 49,
                 "status": "G. móðir",
-                "location": "Brettingsst. Fl.",
+                "location": "Brettingsstaðir Fj.",
                 "note": "B. á Brettingsst.",
                 "year_from_value": 1887,
                 "year_to_value": 1900

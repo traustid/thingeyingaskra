@@ -434,7 +434,31 @@
                 "note_ref": null,
                 "year": "1866-",
                 "year_from_value": 1866,
-                "year_to_value": 1866
+                "year_to_value": 1866,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2629,40 +2653,12 @@
                 "year_or_period": "1868-71",
                 "age": 45,
                 "status": "B.",
-                "location": "Eyri, Fl.",
+                "location": "Eyri, Fj.",
                 "note": "Hrb.",
                 "note_ref": null,
                 "year": "1868-71",
                 "year_from_value": 1868,
-                "year_to_value": 71,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 71
             },
             {
                 "original_string": "B. á Jökulsá (48) 1871-72. (Hrb.).",
@@ -3176,7 +3172,7 @@
                 }
             },
             {
-                "original_string": "Léttadr., hjú á Svaði (16) 1841-1842.",
+                "original_string": "Léttadr., hjú á Svæði (16) 1841-1842.",
                 "year_or_period": "1841-1842",
                 "age": 16,
                 "status": "Léttadr., hjú",
@@ -3185,7 +3181,35 @@
                 "note_ref": null,
                 "year": "1841-1842",
                 "year_from_value": 1841,
-                "year_to_value": 1842
+                "year_to_value": 1842,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Grenivík (18) 1843-1844.",

@@ -268,7 +268,7 @@
                 "year": "1867",
                 "age": 2,
                 "status": "Fósturb.",
-                "location": "Efri Fl.",
+                "location": "Efri Fj.",
                 "note": "",
                 "year_from_value": 1867,
                 "year_to_value": 1867
@@ -458,34 +458,10 @@
                 "year": "1892-1893",
                 "age": 26,
                 "status": "Hjú",
-                "location": "Brettingsstaðir, Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "note": "",
                 "year_from_value": 1892,
-                "year_to_value": 1893,
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1893
             },
             {
                 "original_string": "G. húsm. í Krosshúsum (28) 1894-1897.",
@@ -3403,14 +3379,42 @@
                 }
             },
             {
-                "original_string": "Fyrirv. á Svaði (28) 1843-1854.",
+                "original_string": "Fyrirv. á Svæði (28) 1843-1854.",
                 "year": "1843-1854",
                 "age": 28,
                 "status": "Fyrirv.",
                 "location": "Svæði",
                 "note": "",
                 "year_from_value": 1843,
-                "year_to_value": 1854
+                "year_to_value": 1854,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Miðgerði (38) 1855-1867-1870.",

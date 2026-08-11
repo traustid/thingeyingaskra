@@ -2398,33 +2398,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 25/4 1799 á Brettingsstöðum, Fl.",
+                "original_string": "F. 25/4 1799 á Brettingsstöðum, Fj.",
                 "date": "1799-04-25",
-                "location": "Brettingsstöðum, Fl.",
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Brettingsstöðum, Fj."
             },
             "death": null,
             "names": [
@@ -2441,43 +2417,19 @@
         "residence_history": [
             {
                 "year": "1799",
-                "original_string": "F. 25/4 1799 á Brettingsstöðum, Fl.",
+                "original_string": "F. 25/4 1799 á Brettingsstöðum, Fj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Brettingsstöðum, Fl.",
+                "location": "Brettingsstöðum, Fj.",
                 "year_from_value": 1799,
-                "year_to_value": 1799,
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1799
             },
             {
                 "original_string": "Fósturb. á Brettingsst. Fl. (2) 1801-",
                 "year_or_period": "1801-",
                 "age": 2,
                 "status": "Fósturb.",
-                "location": "Brettingsst., Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "note": "",
                 "note_ref": null,
                 "year": "1801-",
@@ -2712,12 +2664,40 @@
                 "year_or_period": "1837",
                 "age": 38,
                 "status": "B.",
-                "location": "Vatnsenda",
+                "location": "Vatnsendi",
                 "note": "",
                 "note_ref": null,
                 "year": "1837",
                 "year_from_value": 1837,
-                "year_to_value": 1837
+                "year_to_value": 1837,
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Krossi... 1838-1848.",
@@ -3033,7 +3013,7 @@
                 "year_or_period": "1887",
                 "age": 15,
                 "status": "Með móður",
-                "location": "Nýjabæ",
+                "location": "Nýibær",
                 "note": "",
                 "note_ref": null,
                 "year": "1887",
@@ -3042,8 +3022,8 @@
                 "location_obj": {
                     "id": 10294,
                     "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"
@@ -3399,7 +3379,7 @@
                 "year_or_period": "1882",
                 "age": 26,
                 "status": "Lausam.",
-                "location": "Brettingsst., Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "note": "",
                 "note_ref": null,
                 "year": "1882",

@@ -1498,7 +1498,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1880,
-                "year_to_value": 1894
+                "year_to_value": 1894,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Ráðsk. (Edv. Stef.) á Þorvaldsst. 1895-1896.",
@@ -1509,7 +1533,31 @@
                 "note": "Edv. Stef.",
                 "note_ref": null,
                 "year_from_value": 1895,
-                "year_to_value": 1896
+                "year_to_value": 1896,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Erlendarbæ (19 ára) 1897.",
@@ -1871,39 +1919,11 @@
                 "year": "1877",
                 "age": 1,
                 "status": "",
-                "location": "Eyri Fl.",
+                "location": "Eyri Fj.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1877,
-                "year_to_value": 1877,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1877
             },
             {
                 "original_string": "Hjá for. í Niðribæ (1 árs) 1878-1886.",
@@ -1921,7 +1941,7 @@
                 "year": "1890-1893",
                 "age": 13,
                 "status": "",
-                "location": "Nýjabæ",
+                "location": "Nýibær",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1890,
@@ -1929,8 +1949,8 @@
                 "location_obj": {
                     "id": 10294,
                     "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"

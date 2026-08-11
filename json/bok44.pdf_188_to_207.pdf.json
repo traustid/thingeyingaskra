@@ -2167,10 +2167,38 @@
                 "year": "1878-1879",
                 "age": 42,
                 "status": "Húsfr.",
-                "location": "Nýjabær",
+                "location": "Nýibær",
                 "note": "Húsk. '79",
                 "year_from_value": 1878,
-                "year_to_value": 1879
+                "year_to_value": 1879,
+                "location_obj": {
+                    "id": 10294,
+                    "name": "Nýibær",
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. í A-Krókum (51) 1888-1889. (Hjú '89).",
@@ -3598,14 +3626,42 @@
                 }
             },
             {
-                "original_string": "Hjá föður á Svaði (14) - 1815-1824-",
+                "original_string": "Hjá föður á Svæði (14) - 1815-1824-",
                 "year": "1815-1824",
                 "age": 14,
                 "status": "Hjá föður",
                 "location": "Svæði",
                 "note": "",
                 "year_from_value": 1815,
-                "year_to_value": 1824
+                "year_to_value": 1824,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Grýtubakka (25) 1827-1837.",

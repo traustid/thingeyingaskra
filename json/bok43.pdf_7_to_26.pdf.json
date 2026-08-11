@@ -1618,7 +1618,35 @@
             "birth": {
                 "original_string": "F. 20/9. 1885 á Vatnsenda.",
                 "date": "1885-09-20",
-                "location": "Vatnsenda"
+                "location": "Vatnsendi",
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1664,20 +1692,76 @@
                 "original_string": "F. 20/9. 1885 á Vatnsenda.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Vatnsenda",
+                "location": "Vatnsendi",
                 "year_from_value": 1885,
-                "year_to_value": 1885
+                "year_to_value": 1885,
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Vatnsenda (3) - 1888 - 1900-",
                 "year": "1888-1900",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Vatnsenda",
+                "location": "Vatnsendi",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1888,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

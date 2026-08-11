@@ -394,33 +394,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 8/8. 1862 á Brettingsstöðum Fl.",
+                "original_string": "F. 8/8. 1862 á Brettingsstöðum Fj.",
                 "date": "1862-08-08",
-                "location": "Brettingsstöðum Fl.",
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Brettingsstöðum Fj."
             },
             "death": {
                 "original_string": "",
@@ -475,43 +451,19 @@
         "residence_history": [
             {
                 "year": "1862",
-                "original_string": "F. 8/8. 1862 á Brettingsstöðum Fl.",
+                "original_string": "F. 8/8. 1862 á Brettingsstöðum Fj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Brettingsstöðum Fl.",
+                "location": "Brettingsstöðum Fj.",
                 "year_from_value": 1862,
-                "year_to_value": 1862,
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1862
             },
             {
                 "original_string": "Hjá for. á Brettingsst. Fl. (1 árs) 1862-1882.",
                 "year_or_period": "1862-1882",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Brettingsst. Fl.",
+                "location": "Brettingsstaðir Fj.",
                 "note": "",
                 "year": "1862-1882",
                 "year_from_value": 1862,
@@ -1062,11 +1014,11 @@
                 }
             },
             {
-                "original_string": "Hjú á Voglum (52) 1851-1854.",
+                "original_string": "Hjú á Vöglum (52) 1851-1854.",
                 "year_or_period": "1851-1854",
                 "age": 52,
                 "status": "Hjú",
-                "location": "Voglum",
+                "location": "Vöglum",
                 "note": "",
                 "year": "1851-1854",
                 "year_from_value": 1851,
@@ -1598,7 +1550,7 @@
             "death": {
                 "original_string": "D. í R.hlíð 28/7. 1812, 67 ára. 2)",
                 "date": "1812-07-28",
-                "location": "R.hlíð",
+                "location": "Reykjahlíð",
                 "note_ref": 2
             },
             "names": [
@@ -1689,7 +1641,7 @@
                 "original_string": "D. í R.hlíð 28/7. 1812, 67 ára. 2)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "R.hlíð",
+                "location": "Reykjahlíð",
                 "year_from_value": 1812,
                 "year_to_value": 1812
             }
@@ -2375,12 +2327,36 @@
                 "year_or_period": "1801-04",
                 "age": 48,
                 "status": "Húsfr.",
-                "location": "Litluvöllum",
+                "location": "Litluvellir",
                 "note": "",
                 "note_ref": 1,
                 "year": "1801-04",
                 "year_from_value": 1801,
-                "year_to_value": 4
+                "year_to_value": 4,
+                "location_obj": {
+                    "id": 15083,
+                    "name": "Litluvellir",
+                    "lat": "65.462154",
+                    "lng": "-17.433764",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. búandi á sama bæ ... 1804-06.",
@@ -3630,11 +3606,11 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Voglum (1 árs) 1847-1859-",
+                "original_string": "Hjá for. á Vöglum (1 árs) 1847-1859-",
                 "year_or_period": "1847-1859",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Voglum",
+                "location": "Vöglum",
                 "note": "",
                 "year": "1847-1859",
                 "year_from_value": 1847,

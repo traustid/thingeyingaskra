@@ -1400,11 +1400,35 @@
                 "year": "1813",
                 "age": null,
                 "status": "Hjú",
-                "location": "Uppiba",
+                "location": "Uppibær",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1813,
-                "year_to_value": 1813
+                "year_to_value": 1813,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Illugastöðum (50) 1814-1816-",
@@ -2272,7 +2296,7 @@
             "birth": {
                 "original_string": "F. 25/1. 1870 í Jarlsst.seli.",
                 "date": "1870-01-25",
-                "location": "Jarlsst.sel"
+                "location": "Jarlsstaðirsel"
             },
             "death": {
                 "original_string": "",
@@ -2318,7 +2342,7 @@
                 "original_string": "F. 25/1. 1870 í Jarlsst.seli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Jarlsst.sel",
+                "location": "Jarlsstaðirsel",
                 "year_from_value": 1870,
                 "year_to_value": 1870
             },

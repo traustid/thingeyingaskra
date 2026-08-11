@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. á Litluvöllum 1790.",
                 "date": "1790-00-00",
-                "location": "Litluvöllum"
+                "location": "Litluvellir",
+                "location_obj": {
+                    "id": 15083,
+                    "name": "Litluvellir",
+                    "lat": "65.462154",
+                    "lng": "-17.433764",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Grænav. 5/5. 1838, 48 ára.",
@@ -100,9 +124,33 @@
                 "original_string": "F. á Litluvöllum 1790.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Litluvöllum",
+                "location": "Litluvellir",
                 "year_from_value": 1790,
-                "year_to_value": 1790
+                "year_to_value": 1790,
+                "location_obj": {
+                    "id": 15083,
+                    "name": "Litluvellir",
+                    "lat": "65.462154",
+                    "lng": "-17.433764",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Halldórsst. B. (12) - 1801 - 1809.",
@@ -2368,39 +2416,11 @@
                 "year_or_period": "1868-1871",
                 "age": 33,
                 "status": "Húsfr.",
-                "location": "Eyri, Fl.",
+                "location": "Eyri, Fj.",
                 "note": "",
                 "year": "1868-1871",
                 "year_from_value": 1868,
-                "year_to_value": 1871,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1871
             },
             {
                 "original_string": "Húsfr. á Jökulsá (36) 1871 - 72.",
@@ -2709,7 +2729,7 @@
                 "year_or_period": "1896-1897",
                 "age": 61,
                 "status": "Móðir húsk.",
-                "location": "Nýjabæ",
+                "location": "Nýibær",
                 "note": "",
                 "year": "1896-1897",
                 "year_from_value": 1896,
@@ -2717,8 +2737,8 @@
                 "location_obj": {
                     "id": 10294,
                     "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"

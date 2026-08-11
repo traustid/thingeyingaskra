@@ -327,14 +327,42 @@
                 }
             },
             {
-                "original_string": "B. á Svaði (33) 1900.",
+                "original_string": "B. á Svæði (33) 1900.",
                 "year": "1900",
                 "age": 33,
                 "status": "Bóndi",
                 "location": "Svæði",
                 "note": "",
                 "year_from_value": 1900,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -832,7 +860,7 @@
             "birth": {
                 "original_string": "F. 24/7 1855 í R. hlíðars.",
                 "date": "1855-07-24",
-                "location": "R. hlíð"
+                "location": "Reykjahlíð"
             },
             "death": {
                 "original_string": "D. 20/7. 1934.",
@@ -889,7 +917,7 @@
                 "original_string": "F. 24/7 1855 í R. hlíðars.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "R. hlíð",
+                "location": "Reykjahlíð",
                 "year_from_value": 1855,
                 "year_to_value": 1855
             },

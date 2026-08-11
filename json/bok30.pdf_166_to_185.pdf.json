@@ -478,7 +478,7 @@
             "birth": {
                 "original_string": "F. í R.hlíð 8/4 1891.",
                 "date": "1891-04-08",
-                "location": "R.hlíð"
+                "location": "Reykjahlíð"
             },
             "death": {
                 "original_string": "",
@@ -509,7 +509,7 @@
         "parents": [
             {
                 "name": "Sigurg. Pétursson",
-                "note": "R.hlíð",
+                "note": "Reykjahlíð",
                 "names": [
                     "Sigurg.",
                     "Pétursson"
@@ -535,7 +535,7 @@
                 "original_string": "F. í R.hlíð 8/4 1891.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "R.hlíð",
+                "location": "Reykjahlíð",
                 "year_from_value": 1891,
                 "year_to_value": 1891
             },
@@ -1159,7 +1159,7 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 14/9 1879 á Dadasstöðum.",
+                "original_string": "F. 14/9 1879 á Daðastöðum.",
                 "date": "1879-09-14",
                 "location": "Dadasstaðir"
             },
@@ -1240,7 +1240,7 @@
         "residence_history": [
             {
                 "year": "1879",
-                "original_string": "F. 14/9 1879 á Dadasstöðum.",
+                "original_string": "F. 14/9 1879 á Daðastöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Dadasstaðir",
@@ -1248,7 +1248,7 @@
                 "year_to_value": 1879
             },
             {
-                "original_string": "Hjá for. á Dadasstöðum (1 árs) 1880-",
+                "original_string": "Hjá for. á Daðastöðum (1 árs) 1880-",
                 "year": "1880-",
                 "age": 1,
                 "status": "",
@@ -1760,7 +1760,31 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year_from_value": 1806,
-                "year_to_value": 1808
+                "year_to_value": 1808,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. á Laxamýri (15 1/2 árs) 1813-(1814?).",

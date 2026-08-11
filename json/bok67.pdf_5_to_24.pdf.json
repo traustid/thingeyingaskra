@@ -7,7 +7,35 @@
             "birth": {
                 "original_string": "F. 27/4. 1876 á Nýjabæ í Flatey.",
                 "date": "1876-04-27",
-                "location": "Nýjabær, Flatey"
+                "location": "Nýibær, Flatey",
+                "location_obj": {
+                    "id": 10294,
+                    "name": "Nýibær",
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 8/4. 1948.",
@@ -64,9 +92,37 @@
                 "original_string": "F. 27/4. 1876 á Nýjabæ í Flatey.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Nýjabær, Flatey",
+                "location": "Nýibær, Flatey",
                 "year_from_value": 1876,
-                "year_to_value": 1876
+                "year_to_value": 1876,
+                "location_obj": {
+                    "id": 10294,
+                    "name": "Nýibær",
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hofi (1 árs) 1876-1881.",
@@ -107,10 +163,38 @@
                 "year": "1883-1885",
                 "age": 8,
                 "status": "Með for.",
-                "location": "Nýjabær",
+                "location": "Nýibær",
                 "note": "",
                 "year_from_value": 1883,
-                "year_to_value": 1885
+                "year_to_value": 1885,
+                "location_obj": {
+                    "id": 10294,
+                    "name": "Nýibær",
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Niðribæ (11) 1886-1891.",
@@ -1048,31 +1132,7 @@
             "birth": {
                 "original_string": "F. 6/6 1774 á Hofi, Fl.?",
                 "date": "1774-06-06",
-                "location": "Hof, Fl.",
-                "location_obj": {
-                    "id": 90050,
-                    "name": "Hof",
-                    "lat": "66.115101",
-                    "lng": "-17.886827",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Hof, Fj."
             },
             "death": {
                 "original_string": "",
@@ -1108,33 +1168,9 @@
                 "original_string": "F. 6/6 1774 á Hofi, Fl.?",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hof, Fl.",
+                "location": "Hof, Fj.",
                 "year_from_value": 1774,
-                "year_to_value": 1774,
-                "location_obj": {
-                    "id": 90050,
-                    "name": "Hof",
-                    "lat": "66.115101",
-                    "lng": "-17.886827",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1774
             },
             {
                 "original_string": "Hjú í Uppibæ (27) 1801",
@@ -2653,38 +2689,10 @@
                 "year": "1878-1899",
                 "age": 48,
                 "status": "B.",
-                "location": "Eyri Fl.",
+                "location": "Eyri Fj.",
                 "note": "",
                 "year_from_value": 1878,
-                "year_to_value": 1899,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1899
             }
         ],
         "notes": {},

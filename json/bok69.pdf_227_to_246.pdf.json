@@ -1480,7 +1480,35 @@
                 "location": "Grenivíkurkot",
                 "note": "",
                 "year_from_value": 1811,
-                "year_to_value": 1816
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 90071,
+                    "name": "Grenivíkurkot",
+                    "lat": "65.950617",
+                    "lng": "-18.177070",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. frá Greniv. koti - að Borgargerði ... 1821.",
@@ -1627,7 +1655,35 @@
             "birth": {
                 "original_string": "F. 5/4. 1800 á Vatnsenda.",
                 "date": "1800-04-05",
-                "location": "Vatnsendi"
+                "location": "Vatnsendi",
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1674,7 +1730,35 @@
                 "status": "Fæðingarstaður",
                 "location": "Vatnsendi",
                 "year_from_value": 1800,
-                "year_to_value": 1800
+                "year_to_value": 1800,
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hvarfi (1 árs) 1801-",
@@ -2534,34 +2618,10 @@
                 "year": "1846",
                 "age": 2.33,
                 "status": "Með móður",
-                "location": "Brettingsstaðir, Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "note": "",
                 "year_from_value": 1846,
-                "year_to_value": 1846,
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1846
             },
             {
                 "original_string": "Með móður í Höfða (á 4.) 1847-1851.",

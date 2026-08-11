@@ -2086,7 +2086,35 @@
             "birth": {
                 "original_string": "F. um 1778 á Nýjabæ í Flatey.",
                 "date": "1778-01-01",
-                "location": "Nýjabær, Flatey"
+                "location": "Nýibær, Flatey",
+                "location_obj": {
+                    "id": 10294,
+                    "name": "Nýibær",
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Tindriðast. 28/3. 1841.",
@@ -2163,9 +2191,37 @@
                 "original_string": "F. um 1778 á Nýjabæ í Flatey.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Nýjabær, Flatey",
+                "location": "Nýibær, Flatey",
                 "year_from_value": 1778,
-                "year_to_value": 1778
+                "year_to_value": 1778,
+                "location_obj": {
+                    "id": 10294,
+                    "name": "Nýibær",
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Grímsnesi (30) - 1809-1811-",

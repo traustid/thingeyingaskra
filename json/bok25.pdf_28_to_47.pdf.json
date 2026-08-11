@@ -705,24 +705,30 @@
                 "year": "1842-1843",
                 "age": 1,
                 "status": "hjá for.",
-                "location": "Eyri, Fl.",
+                "location": "Eyri, Fj.",
                 "note": "",
                 "year_from_value": 1842,
-                "year_to_value": 1843,
+                "year_to_value": 1843
+            },
+            {
+                "original_string": "Tóku fósturuppp. Heiðarhúsum (4) 1846-1847-1862.",
+                "year": "1846-1862",
+                "age": 4,
+                "status": "fósturbarn",
+                "location": "Heiðarhúsum",
+                "note": "fósturuppp.",
+                "year_from_value": 1846,
+                "year_to_value": 1862,
                 "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
                         {
                             "name": "Flateyjardalur",
                             "id": 24091
@@ -737,16 +743,6 @@
                         }
                     ]
                 }
-            },
-            {
-                "original_string": "Tóku fósturuppp. Heiðarhúsum (4) 1846-1847-1862.",
-                "year": "1846-1862",
-                "age": 4,
-                "status": "fósturbarn",
-                "location": "Heiðarhúsum",
-                "note": "fósturuppp.",
-                "year_from_value": 1846,
-                "year_to_value": 1862
             },
             {
                 "original_string": "Hjú á Hofi (21) 1863.",
@@ -790,7 +786,31 @@
                 "location": "Heiðarhúsum",
                 "note": "",
                 "year_from_value": 1864,
-                "year_to_value": 1865
+                "year_to_value": 1865,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1806,21 +1826,77 @@
                 "year": "1801-1819",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Vatnsenda",
+                "location": "Vatnsendi",
                 "note": "",
                 "note_ref": 1,
                 "year_from_value": 1801,
-                "year_to_value": 1819
+                "year_to_value": 1819,
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Vatnsenda... 1822-1823 (Hrb.)",
                 "year": "1822-1823",
                 "age": null,
                 "status": "Bóndi",
-                "location": "Vatnsenda",
+                "location": "Vatnsendi",
                 "note": "Hrb.",
                 "year_from_value": 1822,
-                "year_to_value": 1823
+                "year_to_value": 1823,
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Fossseli... 1823-1825. (þá að Vatnsenda).",
@@ -1861,10 +1937,38 @@
                 "year": "1825-1826",
                 "age": null,
                 "status": "Bóndi",
-                "location": "Vatnsenda",
+                "location": "Vatnsendi",
                 "note": "Hrb.",
                 "year_from_value": 1825,
-                "year_to_value": 1826
+                "year_to_value": 1826,
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Ljósavatni... 1826-1828 (Hrb.)",
@@ -3596,9 +3700,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 23/1. 1838 á Þórðarstöðum Fl.",
+                "original_string": "F. 23/1. 1838 á Þórðarstöðum Fj.",
                 "date": "1838-01-23",
-                "location": "Þórðarstöðum Fl."
+                "location": "Þórðarstöðum Fj."
             },
             "death": {
                 "original_string": "",
@@ -3652,10 +3756,10 @@
         "residence_history": [
             {
                 "year": "1838",
-                "original_string": "F. 23/1. 1838 á Þórðarstöðum Fl.",
+                "original_string": "F. 23/1. 1838 á Þórðarstöðum Fj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Þórðarstöðum Fl.",
+                "location": "Þórðarstöðum Fj.",
                 "year_from_value": 1838,
                 "year_to_value": 1838
             },

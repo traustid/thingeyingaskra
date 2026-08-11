@@ -3047,7 +3047,31 @@
                 "location": "Daðastaðir",
                 "note": "",
                 "year_from_value": 1841,
-                "year_to_value": 1841
+                "year_to_value": 1841,
+                "location_obj": {
+                    "id": 1001705,
+                    "name": "Daðastaðir",
+                    "lat": "65.699301",
+                    "lng": "-17.362704",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Ekkill þaðan að Grímshúsum (78) 1849-",
@@ -3239,12 +3263,12 @@
             "death": {
                 "original_string": "D. í Nýjabæ Fr. 21/3 1860.",
                 "date": "1860-03-21",
-                "location": "Nýjabæ Fr",
+                "location": "Nýibær Fr",
                 "location_obj": {
                     "id": 10294,
                     "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"
@@ -3342,36 +3366,56 @@
                 "year": "1859",
                 "age": 59,
                 "status": "G.",
-                "location": "Nýjabæ Fn.",
+                "location": "Nýibær Fn.",
                 "note": "",
                 "year_from_value": 1859,
-                "year_to_value": 1859
-            },
-            {
-                "year": "1860",
-                "original_string": "D. í Nýjabæ Fr. 21/3 1860.",
-                "age": 0,
-                "status": "Dánarstaður",
-                "location": "Nýjabæ Fr",
-                "year_from_value": 1860,
-                "year_to_value": 1860,
+                "year_to_value": 1859,
                 "location_obj": {
-                    "id": 10294,
+                    "id": 90075,
                     "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.484963",
+                    "lng": "-17.581935",
                     "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
+                        "id": 1,
+                        "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Flatey",
-                            "id": 24092
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
-                            "name": "Flateyjardalur",
-                            "id": 24091
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "year": "1860",
+                "original_string": "D. í Nýjabæ Fn. 21/3 1860.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Nýibær Fn.",
+                "year_from_value": 1860,
+                "year_to_value": 1860,
+                "location_obj": {
+                    "id": 90075,
+                    "name": "Nýibær",
+                    "lat": "65.484963",
+                    "lng": "-17.581935",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3545,10 +3589,34 @@
                 "year": "1815",
                 "age": 21,
                 "status": "Hjú",
-                "location": "Litluvöllum",
+                "location": "Litluvellir",
                 "note": "",
                 "year_from_value": 1815,
-                "year_to_value": 1815
+                "year_to_value": 1815,
+                "location_obj": {
+                    "id": 15083,
+                    "name": "Litluvellir",
+                    "lat": "65.462154",
+                    "lng": "-17.433764",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Garði (21) 1816.",
@@ -5397,34 +5465,10 @@
                 "year": "1882",
                 "age": 16,
                 "status": "Með móður",
-                "location": "Brettingsstaðir Fl.",
+                "location": "Brettingsstaðir Fj.",
                 "note": "",
                 "year_from_value": 1882,
-                "year_to_value": 1882,
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1882
             }
         ],
         "notes": {},

@@ -903,7 +903,31 @@
                 "note": "",
                 "year": "1866",
                 "year_from_value": 1866,
-                "year_to_value": 1866
+                "year_to_value": 1866,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Til heimilis á Hringveri (46 ára) 1867.",
@@ -1798,7 +1822,7 @@
             "birth": {
                 "original_string": "F. þriðjud. í 4. v. Jóu 17/3. 1851 á Jarlsst. B.",
                 "date": "1851-03-17",
-                "location": "Jarlsst. B."
+                "location": "Jarlsstaðir B."
             },
             "death": null,
             "names": [
@@ -1851,7 +1875,7 @@
                 "original_string": "F. þriðjud. í 4. v. Jóu 17/3. 1851 á Jarlsst. B.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Jarlsst. B.",
+                "location": "Jarlsstaðir B.",
                 "year_from_value": 1851,
                 "year_to_value": 1851
             },

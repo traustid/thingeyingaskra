@@ -1007,7 +1007,31 @@
             "birth": {
                 "original_string": "F 1/9. 1898 í Klambraseli.",
                 "date": "1898-09-01",
-                "location": "Klambraseli"
+                "location": "Klambrasel",
+                "location_obj": {
+                    "id": 90074,
+                    "name": "Klambrasel",
+                    "lat": "65.852766",
+                    "lng": "-17.292501",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1064,20 +1088,68 @@
                 "original_string": "F 1/9. 1898 í Klambraseli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Klambraseli",
+                "location": "Klambrasel",
                 "year_from_value": 1898,
-                "year_to_value": 1898
+                "year_to_value": 1898,
+                "location_obj": {
+                    "id": 90074,
+                    "name": "Klambrasel",
+                    "lat": "65.852766",
+                    "lng": "-17.292501",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Klambraseli (á l.) 1898-1900-",
                 "year": "1898-1900",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Klambraseli",
+                "location": "Klambrasel",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1898,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90074,
+                    "name": "Klambrasel",
+                    "lat": "65.852766",
+                    "lng": "-17.292501",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

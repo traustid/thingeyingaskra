@@ -957,7 +957,31 @@
                 "note": "",
                 "year": "1843-1845",
                 "year_from_value": 1843,
-                "year_to_value": 1845
+                "year_to_value": 1845,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. hjú í Neðribæ (41) 1845-1848.",
@@ -3037,35 +3061,11 @@
                 "year_or_period": "1885-1900",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Brettingsstaðir, Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "note": "nýf.",
                 "year": "1885-1900",
                 "year_from_value": 1885,
-                "year_to_value": 1900,
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1900
             }
         ],
         "notes": {},

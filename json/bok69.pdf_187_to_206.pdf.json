@@ -1360,14 +1360,42 @@
                 }
             },
             {
-                "original_string": "B. á Svaði (30) 1826-29. (Hrb.).",
+                "original_string": "B. á Svæði (30) 1826-29. (Hrb.).",
                 "year": "1826-1829",
                 "age": 30,
                 "status": "Bóndi",
                 "location": "Svæði",
                 "note": "Hrb.",
                 "year_from_value": 1826,
-                "year_to_value": 1829
+                "year_to_value": 1829,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Finnastöðum (34) 1829-47. (Hrb.).",
@@ -3630,7 +3658,31 @@
                 "status": "Lettingur",
                 "note": "",
                 "year_from_value": 1856,
-                "year_to_value": 1857
+                "year_to_value": 1857,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Tungugerði (18 ára) 1858-1859.",
@@ -3946,7 +3998,31 @@
                 "status": "Bóndi",
                 "note": "",
                 "year_from_value": 1879,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

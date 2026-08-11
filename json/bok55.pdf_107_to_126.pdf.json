@@ -4098,9 +4098,37 @@
             "status": "óskg.",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 18/9. 1864 á Svaði.",
+                "original_string": "F. 18/9. 1864 á Svæði.",
                 "date": "1864-09-18",
-                "location": "Svæði"
+                "location": "Svæði",
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -4125,7 +4153,7 @@
             },
             {
                 "name": "Sigríður Magnúsdóttir",
-                "note": "vk. á Svaði",
+                "note": "vk. á Svæði",
                 "names": [
                     "Sigríður",
                     "Magnúsdóttir"
@@ -4134,16 +4162,44 @@
                 "lastName": "Magnúsdóttir"
             }
         ],
-        "parents_original_string": "P. Pálsson frá Knappstöðum og Sigríður Magnúsd. vk. á Svaði.",
+        "parents_original_string": "P. Pálsson frá Knappstöðum og Sigríður Magnúsd. vk. á Svæði.",
         "residence_history": [
             {
                 "year": "1864",
-                "original_string": "F. 18/9. 1864 á Svaði.",
+                "original_string": "F. 18/9. 1864 á Svæði.",
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Svæði",
                 "year_from_value": 1864,
-                "year_to_value": 1864
+                "year_to_value": 1864,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub. í Litlagerði (á 1.) 1864.",

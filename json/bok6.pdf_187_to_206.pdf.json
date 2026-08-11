@@ -1781,7 +1781,35 @@
                 "location": "Svæði",
                 "note": "",
                 "year_from_value": 1878,
-                "year_to_value": 1879
+                "year_to_value": 1879,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_6/196",
@@ -3376,12 +3404,12 @@
             "birth": {
                 "original_string": "F. 21/12. 1855 í R.hlíð.",
                 "date": "1855-12-21",
-                "location": "R.hlíð"
+                "location": "Reykjahlíð"
             },
             "death": {
                 "original_string": "D. þar 20/12. 1859, 4 ára. Barnaveiki.",
                 "date": "1859-12-20",
-                "location": "R.hlíð"
+                "location": "Reykjahlíð"
             },
             "names": [
                 "Benedikt",
@@ -3393,7 +3421,7 @@
         "parents": [
             {
                 "name": "P. Jónsson",
-                "note": "R.hlíð",
+                "note": "Reykjahlíð",
                 "names": [
                     "P.",
                     "Jónsson"
@@ -3419,7 +3447,7 @@
                 "original_string": "F. 21/12. 1855 í R.hlíð.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "R.hlíð",
+                "location": "Reykjahlíð",
                 "year_from_value": 1855,
                 "year_to_value": 1855
             },
@@ -3462,7 +3490,7 @@
                 "original_string": "D. þar 20/12. 1859, 4 ára. Barnaveiki.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "R.hlíð",
+                "location": "Reykjahlíð",
                 "year_from_value": 1859,
                 "year_to_value": 1859
             }

@@ -248,7 +248,31 @@
                 "note_ref": null,
                 "year": "1829",
                 "year_from_value": 1829,
-                "year_to_value": 1829
+                "year_to_value": 1829,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Barnfóstra (gift) á sama bæ (66) 1831-1832.",
@@ -260,7 +284,31 @@
                 "note_ref": null,
                 "year": "1831-1832",
                 "year_from_value": 1831,
-                "year_to_value": 1832
+                "year_to_value": 1832,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G., móðir H. í Neðribæ (70) 1836-1842.",
@@ -1144,40 +1192,12 @@
                 "year_or_period": "-1819",
                 "age": null,
                 "status": "Ráðsk.",
-                "location": "Eyri Fl.",
+                "location": "Eyri Fj.",
                 "note": "",
                 "note_ref": null,
                 "year": "-1819",
                 "year_from_value": 1819,
-                "year_to_value": 1819,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1819
             }
         ],
         "notes": {},
@@ -1595,72 +1615,24 @@
                 "year_or_period": "1827",
                 "age": 37,
                 "status": "Hjú",
-                "location": "Brettingsstaðir Fl.",
+                "location": "Brettingsstaðir Fj.",
                 "note": "",
                 "note_ref": 2,
                 "year": "1827",
                 "year_from_value": 1827,
-                "year_to_value": 1827,
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1827
             },
             {
                 "original_string": "Hjú á Brettingsst. Fl. (46) 1836-1854. (Við hrepp '44).",
                 "year_or_period": "1836-1854",
                 "age": 46,
                 "status": "Hjú",
-                "location": "Brettingsstaðir Fl.",
+                "location": "Brettingsstaðir Fj.",
                 "note": "Við hrepp '44",
                 "note_ref": null,
                 "year": "1836-1854",
                 "year_from_value": 1836,
-                "year_to_value": 1854,
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1854
             },
             {
                 "year": "1855",
@@ -1906,7 +1878,7 @@
                 "year_or_period": "1825",
                 "age": 36,
                 "status": "Hjú",
-                "location": "Brettingsst., Fl.d.",
+                "location": "Brettingsstaðir, Fl.d.",
                 "note": "",
                 "note_ref": null,
                 "year": "1825",
@@ -3696,7 +3668,7 @@
                 }
             },
             {
-                "original_string": "Húsfr. á Svaði (39) 1873.",
+                "original_string": "Húsfr. á Svæði (39) 1873.",
                 "year_or_period": "1873",
                 "age": 39,
                 "status": "Húsfr.",
@@ -3705,7 +3677,35 @@
                 "note_ref": null,
                 "year": "1873",
                 "year_from_value": 1873,
-                "year_to_value": 1873
+                "year_to_value": 1873,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

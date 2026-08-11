@@ -1081,11 +1081,35 @@
                 "year_or_period": "1896",
                 "age": 20,
                 "status": "Hjú",
-                "location": "Klambraseli",
+                "location": "Klambrasel",
                 "note": "",
                 "year": "1896",
                 "year_from_value": 1896,
-                "year_to_value": 1896
+                "year_to_value": 1896,
+                "location_obj": {
+                    "id": 90074,
+                    "name": "Klambrasel",
+                    "lat": "65.852766",
+                    "lng": "-17.292501",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Laxamýri (21 árs) 1897-1900.",
@@ -1780,7 +1804,7 @@
             "birth": {
                 "original_string": "f. 17/3. 1835 í R. hlíðars. (Hofstöðum).",
                 "date": "1835-03-17",
-                "location": "R. hlíðars. (Hofstöðum)"
+                "location": "Reykjahlíðars. (Hofstöðum)"
             },
             "death": null,
             "names": [
@@ -1833,7 +1857,7 @@
                 "original_string": "f. 17/3. 1835 í R. hlíðars. (Hofstöðum).",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "R. hlíðars. (Hofstöðum)",
+                "location": "Reykjahlíðars. (Hofstöðum)",
                 "year_from_value": 1835,
                 "year_to_value": 1835
             },
@@ -2092,39 +2116,11 @@
                 "year_or_period": "1870",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Eyri, Fl.",
+                "location": "Eyri, Fj.",
                 "note": "",
                 "year": "1870",
                 "year_from_value": 1870,
-                "year_to_value": 1870,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1870
             },
             {
                 "original_string": "Hjá for. á Jökulsá (2) 1871. Með móður á Eyri Fj. (3) 1872.",
@@ -2435,7 +2431,7 @@
                 "year_or_period": "1895-1899",
                 "age": 26,
                 "status": "G. húsm.",
-                "location": "Nýjabæ",
+                "location": "Nýibær",
                 "note": "",
                 "year": "1895-1899",
                 "year_from_value": 1895,
@@ -2443,8 +2439,8 @@
                 "location_obj": {
                     "id": 10294,
                     "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"

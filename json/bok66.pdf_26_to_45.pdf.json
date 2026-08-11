@@ -1657,37 +1657,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 12/1. 1869 á Eyri Fl.",
+                "original_string": "F. 12/1. 1869 á Eyri Fj.",
                 "date": "1869-01-12",
-                "location": "Eyri Fl.",
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Eyri Fj."
             },
             "death": {
                 "original_string": "D. á Jökulsá 1/6. 1872, barn 3 ára.",
@@ -1753,79 +1725,23 @@
         "residence_history": [
             {
                 "year": "1869",
-                "original_string": "F. 12/1. 1869 á Eyri Fl.",
+                "original_string": "F. 12/1. 1869 á Eyri Fj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Eyri Fl.",
+                "location": "Eyri Fj.",
                 "year_from_value": 1869,
-                "year_to_value": 1869,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1869
             },
             {
                 "original_string": "Hjá for. á Eyri Fl. (1 árs) 1869-1870.",
                 "year_or_period": "1869-1870",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Eyri Fl.",
+                "location": "Eyri Fj.",
                 "note": "",
                 "year": "1869-1870",
                 "year_from_value": 1869,
-                "year_to_value": 1870,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1870
             },
             {
                 "original_string": "Hjá for. á Jökulsá (3) 1871.",
@@ -2415,7 +2331,31 @@
             "birth": {
                 "original_string": "F. um 1780 í Uppíbæ.",
                 "date": "1780-00-00",
-                "location": "Uppibær"
+                "location": "Uppibær",
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Arnareyri 10/3. 1843, 62 ára.",
@@ -2499,7 +2439,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Uppibær",
                 "year_from_value": 1780,
-                "year_to_value": 1780
+                "year_to_value": 1780,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Óg. hjá for. í Uppíbæ (21)-1801-",
@@ -2510,7 +2474,31 @@
                 "note": "",
                 "year": "1801",
                 "year_from_value": 1801,
-                "year_to_value": 1801
+                "year_to_value": 1801,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Kona Finnb. Hj. í Vík (25)-1805-1808-",
@@ -2556,7 +2544,31 @@
                 "note": "",
                 "year": "1811",
                 "year_from_value": 1811,
-                "year_to_value": 1811
+                "year_to_value": 1811,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Vík (33)-1813-1814-1816-",

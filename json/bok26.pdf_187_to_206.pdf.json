@@ -2209,7 +2209,31 @@
             "birth": {
                 "original_string": "F. 6/9. 1850 á Jarlsst. Grýt.",
                 "date": "1850-09-06",
-                "location": "Jarlsst. Grýt."
+                "location": "Jarlsstaðir Grýt.",
+                "location_obj": {
+                    "id": 1004895,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.950327",
+                    "lng": "-18.156724",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -2254,9 +2278,33 @@
                 "original_string": "F. 6/9. 1850 á Jarlsst. Grýt.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Jarlsst. Grýt.",
+                "location": "Jarlsstaðir Grýt.",
                 "year_from_value": 1850,
-                "year_to_value": 1850
+                "year_to_value": 1850,
+                "location_obj": {
+                    "id": 1004895,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.950327",
+                    "lng": "-18.156724",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Jarlsst. Grýt. (á l.) 1850-1852.",
@@ -3183,7 +3231,31 @@
                 "location": "Stangarbakki",
                 "note": "18 ára",
                 "year_from_value": 1865,
-                "year_to_value": 1865
+                "year_to_value": 1865,
+                "location_obj": {
+                    "id": 90073,
+                    "name": "Stangarbakki",
+                    "lat": "66.041189",
+                    "lng": "-17.342739",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Kaldbak (19 ára) 1866.",

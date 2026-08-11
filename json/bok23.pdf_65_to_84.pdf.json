@@ -844,14 +844,38 @@
                 }
             },
             {
-                "original_string": "Ráðsk. á N.-Dalksst. (31) 1893.",
+                "original_string": "Ráðsk. á N.-Dálksst. (31) 1893.",
                 "year": "1893",
                 "age": 31,
                 "status": "Ráðsk.",
-                "location": "N.-Dalksstaðir",
+                "location": "Neðri-Dálksstaðir",
                 "note": "",
                 "year_from_value": 1893,
-                "year_to_value": 1893
+                "year_to_value": 1893,
+                "location_obj": {
+                    "id": 90036,
+                    "name": "Neðri-Dálksstaðir",
+                    "lat": "65.756478",
+                    "lng": "-18.086943",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Breiðabóli (32) 1894.",
@@ -3092,7 +3116,7 @@
     {
         "person": {
             "name": "Guðrún Sigurðardóttir",
-            "status": "Brettingsst. Fl.",
+            "status": "Brettingsstaðir Fj.",
             "unmarried": false,
             "birth": {
                 "original_string": "F. um 1728.",
@@ -3116,7 +3140,7 @@
             {
                 "name": "Grímur Hallgrímsson",
                 "date": "",
-                "status": "Brettingsst.",
+                "status": "Brettingsstaðir",
                 "names": [
                     "Grímur",
                     "Hallgrímsson"

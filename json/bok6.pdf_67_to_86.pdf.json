@@ -802,11 +802,35 @@
                 "year": "1882-1883",
                 "age": 28,
                 "status": "Steinhöggvari",
-                "location": "Litluvöllum",
+                "location": "Litluvellir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1882,
-                "year_to_value": 1883
+                "year_to_value": 1883,
+                "location_obj": {
+                    "id": 15083,
+                    "name": "Litluvellir",
+                    "lat": "65.462154",
+                    "lng": "-17.433764",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -4672,11 +4696,35 @@
                 "year": "1816-1817",
                 "age": 20,
                 "status": "Hjú",
-                "location": "Uppiba",
+                "location": "Uppibær",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1816,
-                "year_to_value": 1817
+                "year_to_value": 1817,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Sigluvík... 1818-1822.",

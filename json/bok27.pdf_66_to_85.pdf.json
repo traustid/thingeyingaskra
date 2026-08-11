@@ -2702,7 +2702,31 @@
                 "location": "Þorvaldsstaðir",
                 "note": "",
                 "year_from_value": 1816,
-                "year_to_value": 1816
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Og. húsk. í Holtakoti R. (40) 1817.",
@@ -3478,14 +3502,42 @@
                 "year_to_value": 1841
             },
             {
-                "original_string": "Húsfr. á Svaði (24) 1841-43.",
+                "original_string": "Húsfr. á Svæði (24) 1841-43.",
                 "year": "1841-1843",
                 "age": 24,
                 "status": "Húsfrú",
                 "location": "Svæði",
                 "note": "",
                 "year_from_value": 1841,
-                "year_to_value": 1843
+                "year_to_value": 1843,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Botni (26) 1843-1844.",

@@ -1578,7 +1578,31 @@
                 "location": "Þorvaldsstaðir",
                 "note": "",
                 "year_from_value": 1831,
-                "year_to_value": 1832
+                "year_to_value": 1832,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Faðir ferm. barns í Helgast. sókn 1843.",
@@ -3979,27 +4003,33 @@
                 "year": "1878-1882",
                 "age": 26,
                 "status": "",
-                "location": "Eyri, Fl.",
+                "location": "Eyri, Fj.",
                 "note": "",
                 "year_from_value": 1878,
-                "year_to_value": 1882,
+                "year_to_value": 1882
+            },
+            {
+                "original_string": "Hjú í Uppiba (31) 1883-1884-1886.",
+                "year": "1883-1886",
+                "age": 31,
+                "status": "Hjú",
+                "location": "Uppibær",
+                "note": "",
+                "year_from_value": 1883,
+                "year_to_value": 1886,
                 "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
+                            "name": "Flatey",
+                            "id": 24092
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -4011,16 +4041,6 @@
                         }
                     ]
                 }
-            },
-            {
-                "original_string": "Hjú í Uppiba (31) 1883-1884-1886.",
-                "year": "1883-1886",
-                "age": 31,
-                "status": "Hjú",
-                "location": "Uppiba",
-                "note": "",
-                "year_from_value": 1883,
-                "year_to_value": 1886
             },
             {
                 "original_string": "Hjú í Grenivík (33) 1887. ?",
@@ -4091,10 +4111,34 @@
                 "year": "1889-1890",
                 "age": 37,
                 "status": "Hjú",
-                "location": "Uppiba",
+                "location": "Uppibær",
                 "note": "",
                 "year_from_value": 1889,
-                "year_to_value": 1890
+                "year_to_value": 1890,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Gýðugerði (34) 1891. ?",

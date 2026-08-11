@@ -5,9 +5,37 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 22/1. 1879 á Svaði.",
+                "original_string": "F. 22/1. 1879 á Svæði.",
                 "date": "1879-01-22",
-                "location": "Svæði"
+                "location": "Svæði",
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 4/6. 1889, 10 ára og 9 mán. 1)",
@@ -51,15 +79,43 @@
         "residence_history": [
             {
                 "year": "1879",
-                "original_string": "F. 22/1. 1879 á Svaði.",
+                "original_string": "F. 22/1. 1879 á Svæði.",
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Svæði",
                 "year_from_value": 1879,
-                "year_to_value": 1879
+                "year_to_value": 1879,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. á Svaði (1 árs) 1879–1887.",
+                "original_string": "Hjá for. á Svæði (1 árs) 1879–1887.",
                 "year": "1879-1887",
                 "age": 1,
                 "status": "Hjá for.",
@@ -67,7 +123,35 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1879,
-                "year_to_value": 1887
+                "year_to_value": 1887,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub. á Hóli Höfð. (10) 1888.",
@@ -3382,7 +3466,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1899,
-                "year_to_value": 1899
+                "year_to_value": 1899,
+                "location_obj": {
+                    "id": 90074,
+                    "name": "Klambrasel",
+                    "lat": "65.852766",
+                    "lng": "-17.292501",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Grenjaðarst. (43) 1900–",

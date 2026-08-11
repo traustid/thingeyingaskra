@@ -212,15 +212,39 @@
                 }
             },
             {
-                "original_string": "Hjú á N.-Dalksst. (25) 1877. ?",
+                "original_string": "Hjú á N.-Dálksst. (25) 1877. ?",
                 "year": "1877",
                 "age": 25,
                 "status": "Hjú",
-                "location": "N.-Dalksstaðir",
+                "location": "Neðri-Dálksstaðir",
                 "note": "?",
                 "note_ref": null,
                 "year_from_value": 1877,
-                "year_to_value": 1877
+                "year_to_value": 1877,
+                "location_obj": {
+                    "id": 90036,
+                    "name": "Neðri-Dálksstaðir",
+                    "lat": "65.756478",
+                    "lng": "-18.086943",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Sigluvík (26) 1878-1879.",

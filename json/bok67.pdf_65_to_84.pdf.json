@@ -659,7 +659,7 @@
                 "year": "1884-1886",
                 "age": 19,
                 "status": "Hjú",
-                "location": "Brettingsst., Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "note": "svo",
                 "year_from_value": 1884,
                 "year_to_value": 1886
@@ -3698,7 +3698,7 @@
     {
         "person": {
             "name": "Helgi Tryggvi Jónsson",
-            "status": "á Brettingsst. Fl.",
+            "status": "á Brettingsst. Fj.",
             "unmarried": false,
             "birth": {
                 "original_string": "F. 9/10. 1863 á Leikskálaá syðri.",
@@ -3746,7 +3746,7 @@
             {
                 "name": "Friðbjörg Elísa Guðmundsdóttir",
                 "date": null,
-                "status": "frá Brettingsst. Fl.",
+                "status": "frá Brettingsst. Fj.",
                 "names": [
                     "Friðbjörg",
                     "Elísa",
@@ -3890,14 +3890,38 @@
                 "location": "Heiðarhús",
                 "note": "G.'85",
                 "year_from_value": 1869,
-                "year_to_value": 1887
+                "year_to_value": 1887,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Brettingsst. Fl. (24) 1887-1900-",
                 "year": "1887-1900",
                 "age": 24,
                 "status": "B.",
-                "location": "Brettingsst., Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "note": "",
                 "year_from_value": 1887,
                 "year_to_value": 1900

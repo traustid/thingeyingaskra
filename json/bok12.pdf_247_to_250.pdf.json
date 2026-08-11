@@ -133,7 +133,7 @@
                 "year_or_period": "1870",
                 "age": 1,
                 "status": "Með for.",
-                "location": "Brettingsst., Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "note": "1 árs",
                 "year": "1870",
                 "year_from_value": 1870,
@@ -223,7 +223,7 @@
                 "year_or_period": "1889-1892",
                 "age": 20,
                 "status": "Hjá",
-                "location": "Brettingsst., Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "note": "",
                 "year": "1889-1892",
                 "year_from_value": 1889,
@@ -296,7 +296,7 @@
                 }
             },
             {
-                "original_string": "G. húsk. á Svaði (28) 1897.",
+                "original_string": "G. húsk. á Svæði (28) 1897.",
                 "year_or_period": "1897",
                 "age": 28,
                 "status": "G. húsk.",
@@ -304,7 +304,35 @@
                 "note": "",
                 "year": "1897",
                 "year_from_value": 1897,
-                "year_to_value": 1897
+                "year_to_value": 1897,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsk. á Grímsnesi (29) 1898.",
@@ -633,33 +661,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 26/2. 1889 á Brettingsstöðum, Fl.",
+                "original_string": "F. 26/2. 1889 á Brettingsstöðum, Fj.",
                 "date": "1889-02-26",
-                "location": "Brettingsstaðir, Fl.",
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Brettingsstaðir, Fj."
             },
             "death": {
                 "original_string": "",
@@ -714,43 +718,19 @@
         "residence_history": [
             {
                 "year": "1889",
-                "original_string": "F. 26/2. 1889 á Brettingsstöðum, Fl.",
+                "original_string": "F. 26/2. 1889 á Brettingsstöðum, Fj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Brettingsstaðir, Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "year_from_value": 1889,
-                "year_to_value": 1889,
-                "location_obj": {
-                    "id": 1002583,
-                    "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1889
             },
             {
                 "original_string": "Hjá for. á Brettingsst. Fl. (1 árs) 1890-1900-",
                 "year_or_period": "1890-1900",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Brettingsst., Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "note": "1 árs",
                 "year": "1890-1900",
                 "year_from_value": 1890,

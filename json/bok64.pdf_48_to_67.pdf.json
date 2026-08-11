@@ -814,7 +814,7 @@
                 "year": "1867",
                 "age": null,
                 "status": "Tökub.",
-                "location": "Brettingsst., L.",
+                "location": "Brettingsstaðir, L.",
                 "note": "",
                 "year_from_value": 1867,
                 "year_to_value": 1867
@@ -1832,20 +1832,68 @@
                 "year": "1896-1897",
                 "age": 29,
                 "status": "G. húsk.",
-                "location": "Halldórsstaðir, Þ.",
+                "location": "Halldórsstaðir, R.",
                 "note": "",
                 "year_from_value": 1896,
-                "year_to_value": 1897
+                "year_to_value": 1897,
+                "location_obj": {
+                    "id": 33711,
+                    "name": "Halldórsstaðir",
+                    "lat": "65.760420",
+                    "lng": "-17.388783",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Halldórsst. Þ. (31 árs) 1898.",
                 "year": "1898",
                 "age": 31,
                 "status": "Húsfr.",
-                "location": "Halldórsstaðir, Þ.",
+                "location": "Halldórsstaðir, R.",
                 "note": "",
                 "year_from_value": 1898,
-                "year_to_value": 1898
+                "year_to_value": 1898,
+                "location_obj": {
+                    "id": 33711,
+                    "name": "Halldórsstaðir",
+                    "lat": "65.760420",
+                    "lng": "-17.388783",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Ytri-Skál (31) 1899-1900-",
@@ -2474,7 +2522,7 @@
             "death": {
                 "original_string": "D. á Jarlsst. Þ. 19/4. 1896.",
                 "date": "1896-04-19",
-                "location": "Jarlsst., Þ."
+                "location": "Jarlsstaðir, Þ."
             },
             "names": [
                 "Sigurveig",
@@ -2570,7 +2618,7 @@
                 "year": "1863",
                 "age": 20,
                 "status": "Hjú",
-                "location": "Jarlsst., Þ.",
+                "location": "Jarlsstaðir, Þ.",
                 "note": "",
                 "year_from_value": 1863,
                 "year_to_value": 1863
@@ -2580,7 +2628,7 @@
                 "year": "1864-1895",
                 "age": 21,
                 "status": "Húsfr.",
-                "location": "Jarlsst., Þ.",
+                "location": "Jarlsstaðir, Þ.",
                 "note": "",
                 "year_from_value": 1864,
                 "year_to_value": 1895
@@ -2590,7 +2638,7 @@
                 "original_string": "D. á Jarlsst. Þ. 19/4. 1896.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Jarlsst., Þ.",
+                "location": "Jarlsstaðir, Þ.",
                 "year_from_value": 1896,
                 "year_to_value": 1896
             }

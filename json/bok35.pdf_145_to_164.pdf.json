@@ -549,7 +549,31 @@
                 "note_ref": "x",
                 "year": "1865",
                 "year_from_value": 1865,
-                "year_to_value": 1865
+                "year_to_value": 1865,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. á Hofi (64) 1866.",
@@ -622,7 +646,7 @@
                 }
             },
             {
-                "original_string": "Húsk. á Voglum (70) 1871-1872.",
+                "original_string": "Húsk. á Vöglum (70) 1871-1872.",
                 "year_or_period": "1871-1872",
                 "age": 70,
                 "status": "Húsk.",
@@ -4026,8 +4050,8 @@
                 "location_obj": {
                     "id": 10294,
                     "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"

@@ -402,11 +402,11 @@
                 "year_to_value": 1854
             },
             {
-                "original_string": "Hjú á Voglum (32) 1855-1856.",
+                "original_string": "Hjú á Vöglum (32) 1855-1856.",
                 "year": "1855-1856",
                 "age": 32,
                 "status": "Hjú",
-                "location": "Voglum",
+                "location": "Vöglum",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1855,
@@ -1413,7 +1413,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1899,
-                "year_to_value": 1899
+                "year_to_value": 1899,
+                "location_obj": {
+                    "id": 1001705,
+                    "name": "Daðastaðir",
+                    "lat": "65.699301",
+                    "lng": "-17.362704",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsk. á Ondólfsstöðum (22) 1900.",

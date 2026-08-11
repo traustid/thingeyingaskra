@@ -151,7 +151,31 @@
                 "status": "Með móður",
                 "location": "Heiðarhús",
                 "year_from_value": 1878,
-                "year_to_value": 1886
+                "year_to_value": 1886,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Hafralæk (11) 1887-1888.",
@@ -2388,7 +2412,7 @@
                 }
             },
             {
-                "original_string": "Eptir B. á Voglum (9) 1883.",
+                "original_string": "Eptir B. á Vöglum (9) 1883.",
                 "year": "1883",
                 "age": 9,
                 "status": "Eptir B.",

@@ -1965,7 +1965,31 @@
             "birth": {
                 "original_string": "F. 24/12. 1892 á Litluvöllum.",
                 "date": "1892-12-24",
-                "location": "Litluvöllum"
+                "location": "Litluvellir",
+                "location_obj": {
+                    "id": 15083,
+                    "name": "Litluvellir",
+                    "lat": "65.462154",
+                    "lng": "-17.433764",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2011,9 +2035,33 @@
                 "original_string": "F. 24/12. 1892 á Litluvöllum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Litluvöllum",
+                "location": "Litluvellir",
                 "year_from_value": 1892,
-                "year_to_value": 1892
+                "year_to_value": 1892,
+                "location_obj": {
+                    "id": 15083,
+                    "name": "Litluvellir",
+                    "lat": "65.462154",
+                    "lng": "-17.433764",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Litluvöllum (1 árs) 1892-1900.",

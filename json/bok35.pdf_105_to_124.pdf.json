@@ -638,7 +638,35 @@
             "birth": {
                 "original_string": "F. 5/10. 1861. á Vatnsenda.",
                 "date": "1861-10-05",
-                "location": "Vatnsendi"
+                "location": "Vatnsendi",
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -694,7 +722,35 @@
                 "status": "Fæðingarstaður",
                 "location": "Vatnsendi",
                 "year_from_value": 1861,
-                "year_to_value": 1861
+                "year_to_value": 1861,
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Þóroddsstað . . . 1863.",
@@ -2117,8 +2173,8 @@
                 "location_obj": {
                     "id": 10294,
                     "name": "Nýibær",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "66.162712",
+                    "lng": "-17.845896",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"
@@ -2721,33 +2777,9 @@
             "status": "Líklega tvær",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 8/8. 1875 á Hofi, Fl.",
+                "original_string": "F. 8/8. 1875 á Hofi, Fj.",
                 "date": "1875-08-08",
-                "location": "Hof Fl.",
-                "location_obj": {
-                    "id": 90050,
-                    "name": "Hof",
-                    "lat": "66.115101",
-                    "lng": "-17.886827",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Hof Fj."
             },
             "death": null,
             "names": [
@@ -2785,36 +2817,12 @@
         "residence_history": [
             {
                 "year": "1875",
-                "original_string": "F. 8/8. 1875 á Hofi, Fl.",
+                "original_string": "F. 8/8. 1875 á Hofi, Fj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hof Fl.",
+                "location": "Hof Fj.",
                 "year_from_value": 1875,
-                "year_to_value": 1875,
-                "location_obj": {
-                    "id": 90050,
-                    "name": "Hof",
-                    "lat": "66.115101",
-                    "lng": "-17.886827",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1875
             },
             {
                 "original_string": "Hjá for. á Hofi . . . 1875. -",
@@ -3255,7 +3263,31 @@
             "birth": {
                 "original_string": "F. 30/8. 1864 í Heiðarhúsum.",
                 "date": "1864-08-30",
-                "location": "Heiðarhús"
+                "location": "Heiðarhús",
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -3310,7 +3342,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Heiðarhús",
                 "year_from_value": 1864,
-                "year_to_value": 1864
+                "year_to_value": 1864,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Heiðarhúsum (ál.) 1864-1866.",
@@ -3322,7 +3378,31 @@
                 "note_ref": null,
                 "year": "1864-1866",
                 "year_from_value": 1864,
-                "year_to_value": 1866
+                "year_to_value": 1866,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Tökub. í Böðvarsnesi (5) 1869.",

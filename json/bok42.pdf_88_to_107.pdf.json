@@ -2517,15 +2517,39 @@
                 }
             },
             {
-                "original_string": "Með for. á Jarlsst. Grjt. (2) 1849.",
+                "original_string": "Með for. á Jarlsst. Grýt. (2) 1849.",
                 "year": "1849",
                 "age": 2,
                 "status": "",
-                "location": "Jarlsstaðir, Grjt.",
+                "location": "Jarlsstaðir, Grýt.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1849,
-                "year_to_value": 1849
+                "year_to_value": 1849,
+                "location_obj": {
+                    "id": 1004895,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.950327",
+                    "lng": "-18.156724",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3213,7 +3237,35 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1888,
-                "year_to_value": 1894
+                "year_to_value": 1894,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Holi, Höfð. (16) 1895-1896.",

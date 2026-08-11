@@ -491,15 +491,39 @@
                 "year_to_value": 1854
             },
             {
-                "original_string": "Hjú á N.-Dalksst. (23) 1855-1856.",
+                "original_string": "Hjú á N.-Dálksst. (23) 1855-1856.",
                 "year_or_period": "1855-1856",
                 "age": 23,
                 "status": "Hjú",
-                "location": "N.-Dalksstaðir",
+                "location": "Neðri-Dálksstaðir",
                 "note": "",
                 "year": "1855-1856",
                 "year_from_value": 1855,
-                "year_to_value": 1856
+                "year_to_value": 1856,
+                "location_obj": {
+                    "id": 90036,
+                    "name": "Neðri-Dálksstaðir",
+                    "lat": "65.756478",
+                    "lng": "-18.086943",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á E.-Dalksstöðum (25) 1857-1858.",
@@ -1235,39 +1259,11 @@
                 "year_or_period": "1850-1856",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Eyri Fl.",
+                "location": "Eyri Fj.",
                 "note": "ungbarn",
                 "year": "1850-1856",
                 "year_from_value": 1850,
-                "year_to_value": 1856,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1856
             },
             {
                 "original_string": "Fósturb. í Neðribæ (7) 1857-1860.",
@@ -2379,7 +2375,31 @@
                 "note": "",
                 "year": "1878-1881",
                 "year_from_value": 1878,
-                "year_to_value": 1881
+                "year_to_value": 1881,
+                "location_obj": {
+                    "id": 90069,
+                    "name": "Heiðarhús",
+                    "lat": "65.994195",
+                    "lng": "-17.851523",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á E.-Dalksst. (23) 1881-1882.",
@@ -3094,7 +3114,7 @@
                 "year_or_period": "1801-1813",
                 "age": 50,
                 "status": "G.",
-                "location": "Brattingsst. Fl.",
+                "location": "Brattingsst. Fj.",
                 "note": "",
                 "year": "1801-1813",
                 "year_from_value": 1801,

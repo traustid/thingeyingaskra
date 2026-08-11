@@ -26,7 +26,7 @@
             {
                 "name": "Hallgrímur Guðmundsson",
                 "date": "1875-10-19",
-                "status": "á Brettingsst. Fl.",
+                "status": "á Brettingsst. Fj.",
                 "names": [
                     "Hallgrímur",
                     "Guðmundsson"
@@ -109,7 +109,7 @@
                 "year": "1875-1882",
                 "age": 20,
                 "status": "G. hús k.",
-                "location": "Brettingsst., Fl.",
+                "location": "Brettingsstaðir, Fj.",
                 "note": "",
                 "year_from_value": 1875,
                 "year_to_value": 1882
@@ -782,14 +782,42 @@
         "parents_original_string": "For.: J. Vigfússon og Halldóra Þorvaldsdóttir.",
         "residence_history": [
             {
-                "original_string": "Hjá for. á Svaði (á 1.) 1890-1892-1894.",
+                "original_string": "Hjá for. á Svæði (á 1.) 1890-1892-1894.",
                 "year": "1890-1894",
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Svæði",
                 "note": "",
                 "year_from_value": 1890,
-                "year_to_value": 1894
+                "year_to_value": 1894,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú for. í Gröf, Grýt. (5) 1895-1898.",
@@ -2732,38 +2760,10 @@
                 "year": "1874-1875",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Eyri, Fl.",
+                "location": "Eyri, Fj.",
                 "note": "",
                 "year_from_value": 1874,
-                "year_to_value": 1875,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1875
             },
             {
                 "original_string": "Hjá for. á Hóli (1 árs) 1875.",
@@ -3013,10 +3013,34 @@
                 "year": "1882",
                 "age": 9,
                 "status": "Með móður",
-                "location": "Uppiba",
+                "location": "Uppibær",
                 "note": "",
                 "year_from_value": 1882,
-                "year_to_value": 1882
+                "year_to_value": 1882,
+                "location_obj": {
+                    "id": 90062,
+                    "name": "Uppibær",
+                    "lat": "66.160913",
+                    "lng": "-17.848818",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

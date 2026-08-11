@@ -224,7 +224,7 @@
             "birth": {
                 "original_string": "F. 1873 í Jarlsst. seli.",
                 "date": "1873-05-31",
-                "location": "Jarlsst. sel"
+                "location": "Jarlsstaðir sel"
             },
             "death": {
                 "original_string": "",
@@ -269,7 +269,7 @@
                 "original_string": "F. 1873 í Jarlsst. seli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Jarlsst. sel",
+                "location": "Jarlsstaðir sel",
                 "year_from_value": 1873,
                 "year_to_value": 1873
             },
@@ -1900,11 +1900,35 @@
                 "year": "1837",
                 "age": 1,
                 "status": "Með for.",
-                "location": "Jarlsst., Grýt.",
+                "location": "Jarlsstaðir, Grýt.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1837,
-                "year_to_value": 1837
+                "year_to_value": 1837,
+                "location_obj": {
+                    "id": 1004895,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.950327",
+                    "lng": "-18.156724",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hjalla Grýt. (4)-1840-1844.",

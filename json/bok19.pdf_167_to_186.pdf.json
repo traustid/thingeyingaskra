@@ -1431,7 +1431,7 @@
                 }
             },
             {
-                "original_string": "Hjá föður á Svaði (10) 1809.",
+                "original_string": "Hjá föður á Svæði (10) 1809.",
                 "year_or_period": "1809",
                 "age": 10,
                 "status": "Hjá föður",
@@ -1439,7 +1439,35 @@
                 "note": "",
                 "year": "1809",
                 "year_from_value": 1809,
-                "year_to_value": 1809
+                "year_to_value": 1809,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Niðurs. á Grýtu (12) 1811 (-1815).",
@@ -2746,39 +2774,11 @@
                 "year_or_period": "1801",
                 "age": 34,
                 "status": "Húsfr.",
-                "location": "Eyri Fl.",
+                "location": "Eyri Fj.",
                 "note": "eing.",
                 "year": "1801",
                 "year_from_value": 1801,
-                "year_to_value": 1801,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1801
             },
             {
                 "original_string": "G., til húsa á Þverá Fj. (38) 1805.",
@@ -3928,7 +3928,7 @@
                 }
             },
             {
-                "original_string": "Hjú á Svaði (20) 1862-1863",
+                "original_string": "Hjú á Svæði (20) 1862-1863",
                 "year_or_period": "1862-1863",
                 "age": 20,
                 "status": "Hjú",
@@ -3936,7 +3936,35 @@
                 "note": "",
                 "year": "1862-1863",
                 "year_from_value": 1862,
-                "year_to_value": 1863
+                "year_to_value": 1863,
+                "location_obj": {
+                    "id": 90068,
+                    "name": "Svæði",
+                    "lat": "65.944299",
+                    "lng": "-18.175461",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Gautlöndum (19) 1860-1862",
@@ -4966,7 +4994,31 @@
             "birth": {
                 "original_string": "F. 11/12 1819 á Litluvöllum.",
                 "date": "1819-12-11",
-                "location": "Litluvöllum"
+                "location": "Litluvellir",
+                "location_obj": {
+                    "id": 15083,
+                    "name": "Litluvellir",
+                    "lat": "65.462154",
+                    "lng": "-17.433764",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -5034,9 +5086,33 @@
                 "original_string": "F. 11/12 1819 á Litluvöllum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Litluvöllum",
+                "location": "Litluvellir",
                 "year_from_value": 1819,
-                "year_to_value": 1819
+                "year_to_value": 1819,
+                "location_obj": {
+                    "id": 15083,
+                    "name": "Litluvellir",
+                    "lat": "65.462154",
+                    "lng": "-17.433764",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Engidal (16) 1835-40.",
