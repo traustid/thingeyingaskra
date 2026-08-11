@@ -981,7 +981,31 @@
             "death": {
                 "original_string": "D. í Presthv. 25/1. 1866.",
                 "date": "1866-01-25",
-                "location": "Presthv."
+                "location": "Presthvammur",
+                "location_obj": {
+                    "id": 16500,
+                    "name": "Presthvammur",
+                    "lat": "65.828832",
+                    "lng": "-17.312746",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Elín",
@@ -1315,9 +1339,33 @@
                 "original_string": "D. í Presthv. 25/1. 1866.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Presthv.",
+                "location": "Presthvammur",
                 "year_from_value": 1866,
-                "year_to_value": 1866
+                "year_to_value": 1866,
+                "location_obj": {
+                    "id": 16500,
+                    "name": "Presthvammur",
+                    "lat": "65.828832",
+                    "lng": "-17.312746",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
