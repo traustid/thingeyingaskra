@@ -3871,9 +3871,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 23/3. 1862 í Guðugerði.",
+                "original_string": "F. 23/3. 1862 í Gyðugerði.",
                 "date": "1862-03-23",
-                "location": "Guðugerði"
+                "location": "Gyðugerði",
+                "location_obj": {
+                    "id": 90017,
+                    "name": "Gyðugerði",
+                    "lat": "66.15847",
+                    "lng": "-17.86426",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3916,22 +3940,70 @@
         "residence_history": [
             {
                 "year": "1862",
-                "original_string": "F. 23/3. 1862 í Guðugerði.",
+                "original_string": "F. 23/3. 1862 í Gyðugerði.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Guðugerði",
+                "location": "Gyðugerði",
                 "year_from_value": 1862,
-                "year_to_value": 1862
+                "year_to_value": 1862,
+                "location_obj": {
+                    "id": 90017,
+                    "name": "Gyðugerði",
+                    "lat": "66.15847",
+                    "lng": "-17.86426",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. í Guðugerði (1 árs) 1862-1863.",
+                "original_string": "Hjá for. í Gyðugerði (1 árs) 1862-1863.",
                 "year": "1862-1863",
                 "age": 1,
                 "status": "",
-                "location": "Guðugerði",
+                "location": "Gyðugerði",
                 "note": "Hjá for.",
                 "year_from_value": 1862,
-                "year_to_value": 1863
+                "year_to_value": 1863,
+                "location_obj": {
+                    "id": 90017,
+                    "name": "Gyðugerði",
+                    "lat": "66.15847",
+                    "lng": "-17.86426",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -4658,22 +4730,19 @@
                 "year_from_value": 1871,
                 "year_to_value": 1872,
                 "location_obj": {
-                    "id": 90019,
+                    "id": 90077,
                     "name": "Árbakki",
-                    "lat": "65.958172",
-                    "lng": "-18.192479",
+                    "aka": "Krákárbakki",
+                    "lat": "65.445082",
+                    "lng": "-17.112741",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Mývatnssveit",
+                            "id": 16604
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

@@ -1550,7 +1550,7 @@
     {
         "person": {
             "name": "Jón Jónsson",
-            "status": "(\"brotni\") (í Guðugerði)",
+            "status": "(\"brotni\") (í Gyðugerði)",
             "unmarried": false,
             "birth": {
                 "original_string": "F. 12/12 1849 í Austari-Krókum.",
@@ -1597,7 +1597,7 @@
             {
                 "name": "Guðrún Pálsdóttir",
                 "date": null,
-                "status": "frá Guðugerði",
+                "status": "frá Gyðugerði",
                 "names": [
                     "Guðrún",
                     "Pálsdóttir"
@@ -1606,7 +1606,7 @@
                 "lastName": "Pálsdóttir"
             }
         ],
-        "spouse_original_string": "K. : Guðrún Pálsdóttir (frá Guðugerði).",
+        "spouse_original_string": "K. : Guðrún Pálsdóttir (frá Gyðugerði).",
         "parents": [
             {
                 "name": "J. Magnússon",
@@ -1901,15 +1901,39 @@
                 }
             },
             {
-                "original_string": "Hjú í Guðugerði (28) 1878-1886. (G. '79).",
+                "original_string": "Hjú í Gyðugerði (28) 1878-1886. (G. '79).",
                 "year": "1878-1886",
                 "age": 28,
                 "status": "Hjú",
-                "location": "Guðugerði",
+                "location": "Gyðugerði",
                 "note": "G. '79",
                 "note_ref": null,
                 "year_from_value": 1878,
-                "year_to_value": 1886
+                "year_to_value": 1886,
+                "location_obj": {
+                    "id": 90017,
+                    "name": "Gyðugerði",
+                    "lat": "66.15847",
+                    "lng": "-17.86426",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á sama bæ (37) 1887-1891.",

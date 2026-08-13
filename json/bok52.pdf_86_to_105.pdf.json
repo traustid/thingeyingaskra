@@ -539,15 +539,39 @@
                 "year_to_value": 1860
             },
             {
-                "original_string": "Húsk. í Guðugerði (31) 1891.",
+                "original_string": "Húsk. í Gyðugerði (31) 1891.",
                 "year": "1891",
                 "age": 31,
                 "status": "Húsk.",
-                "location": "Guðugerði",
+                "location": "Gyðugerði",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1891,
-                "year_to_value": 1891
+                "year_to_value": 1891,
+                "location_obj": {
+                    "id": 90017,
+                    "name": "Gyðugerði",
+                    "lat": "66.15847",
+                    "lng": "-17.86426",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Grenivík (32) 1892-1900.",

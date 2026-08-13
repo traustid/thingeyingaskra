@@ -2903,9 +2903,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 23/7. 1885 í Guðugerði.",
+                "original_string": "F. 23/7. 1885 í Gyðugerði.",
                 "date": "1885-07-23",
-                "location": "Guðugerði"
+                "location": "Gyðugerði",
+                "location_obj": {
+                    "id": 90017,
+                    "name": "Gyðugerði",
+                    "lat": "66.15847",
+                    "lng": "-17.86426",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2960,23 +2984,71 @@
         "residence_history": [
             {
                 "year": "1885",
-                "original_string": "F. 23/7. 1885 í Guðugerði.",
+                "original_string": "F. 23/7. 1885 í Gyðugerði.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Guðugerði",
+                "location": "Gyðugerði",
                 "year_from_value": 1885,
-                "year_to_value": 1885
+                "year_to_value": 1885,
+                "location_obj": {
+                    "id": 90017,
+                    "name": "Gyðugerði",
+                    "lat": "66.15847",
+                    "lng": "-17.86426",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Með for. í Guðugerði (1/2 árs) 1885-1886-1891.",
+                "original_string": "Með for. í Gyðugerði (1/2 árs) 1885-1886-1891.",
                 "year_or_period": "1885-1891",
                 "age": null,
                 "status": "Með for.",
-                "location": "Guðugerði",
+                "location": "Gyðugerði",
                 "note": "1/2 árs",
                 "year": "1885-1891",
                 "year_from_value": 1885,
-                "year_to_value": 1891
+                "year_to_value": 1891,
+                "location_obj": {
+                    "id": 90017,
+                    "name": "Gyðugerði",
+                    "lat": "66.15847",
+                    "lng": "-17.86426",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú for. í Utíbe (7) 1892-1893.",

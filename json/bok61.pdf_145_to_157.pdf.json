@@ -1710,15 +1710,39 @@
         "parents_original_string": "For.:",
         "residence_history": [
             {
-                "original_string": "Hjú í Guðugerði (21) 1859.",
+                "original_string": "Hjú í Gyðugerði (21) 1859.",
                 "year_or_period": "1859",
                 "age": 21,
                 "status": "Hjú",
-                "location": "Guðugerði",
+                "location": "Gyðugerði",
                 "note": "",
                 "year": "1859",
                 "year_from_value": 1859,
-                "year_to_value": 1859
+                "year_to_value": 1859,
+                "location_obj": {
+                    "id": 90017,
+                    "name": "Gyðugerði",
+                    "lat": "66.15847",
+                    "lng": "-17.86426",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Vík (21) 1860.",

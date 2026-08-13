@@ -253,7 +253,7 @@
                 "year_or_period": "1837-1838",
                 "age": 7,
                 "status": "Niðurs.",
-                "location": "Þóroddsstað",
+                "location": "Þóroddsstaður",
                 "note": "",
                 "year": "1837-1838",
                 "year_from_value": 1837,
@@ -1178,10 +1178,34 @@
                 }
             },
             "death": {
-                "original_string": "D. í Guðugerði 18/2. 1873, 22 ára.",
+                "original_string": "D. í Gyðugerði 18/2. 1873, 22 ára.",
                 "date": "1873-02-18",
-                "location": "Guðugerði",
-                "note_ref": 1
+                "location": "Gyðugerði",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 90017,
+                    "name": "Gyðugerði",
+                    "lat": "66.15847",
+                    "lng": "-17.86426",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Steinunn",
@@ -1301,24 +1325,72 @@
                 }
             },
             {
-                "original_string": "Fósturb. í Guðugerði (11 ára) 1861-1872.",
+                "original_string": "Fósturb. í Gyðugerði (11 ára) 1861-1872.",
                 "year_or_period": "1861-1872",
                 "age": 11,
                 "status": "Fósturb.",
-                "location": "Guðugerði",
+                "location": "Gyðugerði",
                 "note": "",
                 "year": "1861-1872",
                 "year_from_value": 1861,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 90017,
+                    "name": "Gyðugerði",
+                    "lat": "66.15847",
+                    "lng": "-17.86426",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1873",
-                "original_string": "D. í Guðugerði 18/2. 1873, 22 ára.",
+                "original_string": "D. í Gyðugerði 18/2. 1873, 22 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Guðugerði",
+                "location": "Gyðugerði",
                 "year_from_value": 1873,
-                "year_to_value": 1873
+                "year_to_value": 1873,
+                "location_obj": {
+                    "id": 90017,
+                    "name": "Gyðugerði",
+                    "lat": "66.15847",
+                    "lng": "-17.86426",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

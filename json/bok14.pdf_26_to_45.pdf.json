@@ -1115,14 +1115,38 @@
                 }
             },
             {
-                "original_string": "Með for. frá Fossseli að Hóli Þ. (5) 1871-",
+                "original_string": "Með for. frá Fossseli að Hóli K. (5) 1871-",
                 "year": "1871-",
                 "age": 5,
                 "status": "",
-                "location": "Hóli, Þ.",
+                "location": "Hóll, K.",
                 "note": "Með for. frá Fossseli",
                 "year_from_value": 1871,
-                "year_to_value": 1871
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 90053,
+                    "name": "Hóll",
+                    "lat": "65.816492",
+                    "lng": "-17.556452",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Lundarbrekku (19) 1887-89.",
@@ -1406,7 +1430,7 @@
             "death": {
                 "original_string": "D. á S. króki 11/7. 1921.",
                 "date": "1921-07-11",
-                "location": "S. króki"
+                "location": "Sauðárkrókur"
             },
             "names": [
                 "Geirfinnur",
@@ -1523,11 +1547,11 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Þóroddsstad (3) 1864-1871-",
+                "original_string": "Hjá for. á Þóroddsstað (3) 1864-1871-",
                 "year": "1864-1871",
                 "age": 3,
                 "status": "",
-                "location": "Þóroddsstad",
+                "location": "Þóroddsstaður",
                 "note": "Hjá for.",
                 "year_from_value": 1864,
                 "year_to_value": 1871
@@ -1643,7 +1667,7 @@
                 "original_string": "D. á S. króki 11/7. 1921.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "S. króki",
+                "location": "Sauðárkrókur",
                 "year_from_value": 1921,
                 "year_to_value": 1921
             }
