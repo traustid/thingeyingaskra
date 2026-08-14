@@ -1462,7 +1462,7 @@
             "birth": {
                 "original_string": "F. 5/6. 1890 á Dada stöðum.",
                 "date": "1890-06-05",
-                "location": "Dada staðir"
+                "location": "Daðastaðir"
             },
             "death": {
                 "original_string": "",
@@ -1507,7 +1507,7 @@
                 "original_string": "F. 5/6. 1890 á Dada stöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Dada staðir",
+                "location": "Daðastaðir",
                 "year_from_value": 1890,
                 "year_to_value": 1890
             },
@@ -1516,7 +1516,7 @@
                 "year": "1890",
                 "age": 1,
                 "status": "",
-                "location": "Dada staðir",
+                "location": "Daðastaðir",
                 "note": "Med for.",
                 "note_ref": "x",
                 "year_from_value": 1890,
@@ -3963,7 +3963,31 @@
                 "note": "Með for.",
                 "note_ref": null,
                 "year_from_value": 1890,
-                "year_to_value": 1891
+                "year_to_value": 1891,
+                "location_obj": {
+                    "id": 90080,
+                    "name": "Beinabakki",
+                    "lat": "66.047877",
+                    "lng": "-17.347584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með föður á Bakka T. (5 ára) 1892.",
@@ -4009,7 +4033,31 @@
                 "note": "Með for.",
                 "note_ref": null,
                 "year_from_value": 1893,
-                "year_to_value": 1895
+                "year_to_value": 1895,
+                "location_obj": {
+                    "id": 90080,
+                    "name": "Beinabakki",
+                    "lat": "66.047877",
+                    "lng": "-17.347584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með föður í Nýjabæ (9 ára) 1896.",
