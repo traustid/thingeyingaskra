@@ -110,12 +110,12 @@
             "birth": {
                 "original_string": "f. 6/7. 1850 í Presthvammi",
                 "date": "1850-07-06",
-                "location": "Presthvammi",
+                "location": "Presthvammur",
                 "location_obj": {
                     "id": 16500,
                     "name": "Presthvammur",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.828832",
+                    "lng": "-17.312746",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -180,14 +180,14 @@
                 "original_string": "f. 6/7. 1850 í Presthvammi",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Presthvammi",
+                "location": "Presthvammur",
                 "year_from_value": 1850,
                 "year_to_value": 1850,
                 "location_obj": {
                     "id": 16500,
                     "name": "Presthvammur",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.828832",
+                    "lng": "-17.312746",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -213,7 +213,7 @@
                 "year_or_period": "1851",
                 "age": null,
                 "status": "",
-                "location": "Presthvammi",
+                "location": "Presthvammur",
                 "note": "ál.",
                 "year": "1851",
                 "year_from_value": 1851,
@@ -221,8 +221,8 @@
                 "location_obj": {
                     "id": 16500,
                     "name": "Presthvammur",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.828832",
+                    "lng": "-17.312746",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -707,15 +707,39 @@
                 "year_to_value": 1873
             },
             {
-                "original_string": "Hjá for. í Niðribæ (11) 1874-1877.",
+                "original_string": "Hjá for. í Neðribæ (11) 1874-1877.",
                 "year_or_period": "1874-1877",
                 "age": 11,
                 "status": "",
-                "location": "Niðribæ",
+                "location": "Neðribæ",
                 "note": "",
                 "year": "1874-1877",
                 "year_from_value": 1874,
-                "year_to_value": 1877
+                "year_to_value": 1877,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Nýjabæ (15) 1878.",

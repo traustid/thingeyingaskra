@@ -2403,9 +2403,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 31/8. 1889 á Varganesi.",
+                "original_string": "F. 31/8. 1889 á Vargsnesi.",
                 "date": "1889-08-31",
-                "location": "Varganes"
+                "location": "Vargsnes",
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -2445,22 +2469,70 @@
         "residence_history": [
             {
                 "year": "1889",
-                "original_string": "F. 31/8. 1889 á Varganesi.",
+                "original_string": "F. 31/8. 1889 á Vargsnesi.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Varganes",
+                "location": "Vargsnes",
                 "year_from_value": 1889,
-                "year_to_value": 1889
+                "year_to_value": 1889,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Með for. á Varganesi (á l.) 1889-1890.",
+                "original_string": "Með for. á Vargsnesi (á l.) 1889-1890.",
                 "year": "1889-1890",
                 "age": null,
                 "status": "",
-                "location": "Varganes",
+                "location": "Vargsnes",
                 "note": "á l.",
                 "year_from_value": 1889,
-                "year_to_value": 1890
+                "year_to_value": 1890,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

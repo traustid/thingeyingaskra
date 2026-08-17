@@ -811,7 +811,7 @@
             "status": "Ókv.",
             "unmarried": true,
             "birth": {
-                "original_string": "F. 9/9. 1887 á Holkoti.",
+                "original_string": "F. 9/9. 1887 á Hólkot.",
                 "date": "1887-09-09",
                 "location": "Holkot"
             },
@@ -856,7 +856,7 @@
         "residence_history": [
             {
                 "year": "1887",
-                "original_string": "F. 9/9. 1887 á Holkoti.",
+                "original_string": "F. 9/9. 1887 á Hólkot.",
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Holkot",
@@ -864,7 +864,7 @@
                 "year_to_value": 1887
             },
             {
-                "original_string": "Hjá for. á Holkoti (2) 1889-1900-",
+                "original_string": "Hjá for. á Hólkot (2) 1889-1900-",
                 "year_or_period": "1889-1900",
                 "age": 2,
                 "status": "Hjá for.",
@@ -2402,12 +2402,36 @@
                 "year_or_period": "1875-1877",
                 "age": 16,
                 "status": "Hjú",
-                "location": "Brettingsstaðir, Fj.",
+                "location": "Brettingsstaðir, Fl.",
                 "note": "",
                 "note_ref": "x",
                 "year": "1875-1877",
                 "year_from_value": 1875,
-                "year_to_value": 1877
+                "year_to_value": 1877,
+                "location_obj": {
+                    "id": 1002583,
+                    "name": "Brettingsstaðir",
+                    "lat": "66.118751",
+                    "lng": "-17.913197",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Veturlidast. (19) 1879-1880.",

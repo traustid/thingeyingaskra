@@ -1257,9 +1257,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. um 1791 á Holkoti R.",
+                "original_string": "F. um 1791 á Hólkot R.",
                 "date": "1791",
-                "location": "Holkoti, R."
+                "location": "Hólkot, R.",
+                "location_obj": {
+                    "id": 90056,
+                    "name": "Hólkot",
+                    "lat": "65.799484",
+                    "lng": "-17.441553",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1301,12 +1325,36 @@
         "residence_history": [
             {
                 "year": "1791",
-                "original_string": "F. um 1791 á Holkoti R.",
+                "original_string": "F. um 1791 á Hólkot R.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Holkoti, R.",
+                "location": "Hólkot, R.",
                 "year_from_value": 1791,
-                "year_to_value": 1791
+                "year_to_value": 1791,
+                "location_obj": {
+                    "id": 90056,
+                    "name": "Hólkot",
+                    "lat": "65.799484",
+                    "lng": "-17.441553",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fósturbarn í Fossseli (10 ára) 1801-",
@@ -1652,7 +1700,7 @@
                 "year": "1823",
                 "age": null,
                 "status": "Barn",
-                "location": "Skógarseli",
+                "location": "Skógarsel",
                 "note": "frá Ljósav. hr. (þar sveitlæg)",
                 "year_from_value": 1823,
                 "year_to_value": 1823,
@@ -3258,7 +3306,7 @@
                 "year": "1891",
                 "age": 20,
                 "status": "H. vm.",
-                "location": "Skógarseli",
+                "location": "Skógarsel",
                 "note": "",
                 "year_from_value": 1891,
                 "year_to_value": 1891,

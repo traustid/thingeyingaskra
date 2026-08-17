@@ -2341,9 +2341,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 13/7. 1853 á Varganesi.",
+                "original_string": "F. 13/7. 1853 á Vargsnesi.",
                 "date": "1853-07-13",
-                "location": "Varganesi"
+                "location": "Vargsnes",
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -2380,7 +2404,7 @@
             },
             {
                 "name": "Kristín Jónsdóttir",
-                "note": "hj. á Varganesi",
+                "note": "hj. á Vargsnesi",
                 "names": [
                     "Kristín",
                     "Jónsdóttir"
@@ -2389,16 +2413,40 @@
                 "lastName": "Jónsdóttir"
             }
         ],
-        "parents_original_string": "Jóh. Bjarnason og Kristín Jónsdóttir (hj. á Varganesi).",
+        "parents_original_string": "Jóh. Bjarnason og Kristín Jónsdóttir (hj. á Vargsnesi).",
         "residence_history": [
             {
                 "year": "1853",
-                "original_string": "F. 13/7. 1853 á Varganesi.",
+                "original_string": "F. 13/7. 1853 á Vargsnesi.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Varganesi",
+                "location": "Vargsnes",
                 "year_from_value": 1853,
-                "year_to_value": 1853
+                "year_to_value": 1853,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hofi (á 3.) 1855-1863.",
@@ -3704,7 +3752,7 @@
                 "year_or_period": "1889-1900",
                 "age": 44,
                 "status": "Húsfr.",
-                "location": "Skógarseli",
+                "location": "Skógarsel",
                 "note": "",
                 "year": "1889-1900",
                 "year_from_value": 1889,

@@ -1134,7 +1134,7 @@
                 "year": "1863",
                 "age": 10,
                 "status": "Hjá for.",
-                "location": "Presthvammi",
+                "location": "Presthvammur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1863,
@@ -1142,8 +1142,8 @@
                 "location_obj": {
                     "id": 16500,
                     "name": "Presthvammur",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.828832",
+                    "lng": "-17.312746",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -3488,15 +3488,39 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Varganesi (á 1.) 1895-1900-",
+                "original_string": "Hjá for. á Vargsnesi (á 1.) 1895-1900-",
                 "year": "1895-1900",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Varganesi",
+                "location": "Vargsnes",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1895,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

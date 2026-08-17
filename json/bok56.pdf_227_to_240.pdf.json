@@ -924,15 +924,39 @@
                 "year_to_value": 1878
             },
             {
-                "original_string": "Hjú í Niðribæ (46) 1884-1885.",
+                "original_string": "Hjú í Neðribæ (46) 1884-1885.",
                 "year": "1884-1885",
                 "age": 46,
                 "status": "Hjú",
-                "location": "Niðribæ",
+                "location": "Neðribæ",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1884,
-                "year_to_value": 1885
+                "year_to_value": 1885,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Brekkingst. Fb. (48) 1886.",

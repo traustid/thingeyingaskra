@@ -2476,7 +2476,7 @@
     {
         "person": {
             "name": "Jón Jónsson",
-            "status": "um. Niðribæ",
+            "status": "um. Neðribæ",
             "unmarried": false,
             "birth": {
                 "original_string": "F. um 1774.",
@@ -2484,10 +2484,34 @@
                 "location": ""
             },
             "death": {
-                "original_string": "D. í Niðribæ 15/2. 1810, 36 ára. 1)",
+                "original_string": "D. í Neðribæ 15/2. 1810, 36 ára. 1)",
                 "date": "1810-02-15",
-                "location": "Niðribæ",
-                "note_ref": 1
+                "location": "Neðribæ",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Jón",
@@ -2503,12 +2527,36 @@
         "residence_history": [
             {
                 "year": "1810",
-                "original_string": "D. í Niðribæ 15/2. 1810, 36 ára. 1)",
+                "original_string": "D. í Neðribæ 15/2. 1810, 36 ára. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Niðribæ",
+                "location": "Neðribæ",
                 "year_from_value": 1810,
-                "year_to_value": 1810
+                "year_to_value": 1810,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

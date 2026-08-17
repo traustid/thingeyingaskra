@@ -4941,9 +4941,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 9/11. 1872 á Varganesi.",
+                "original_string": "F. 9/11. 1872 á Vargsnesi.",
                 "date": "1872-11-09",
-                "location": "Varganesi"
+                "location": "Vargsnes",
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -4984,7 +5008,7 @@
             },
             {
                 "name": "Sigríður Pétursdóttir",
-                "note": "hj. á Varganesi",
+                "note": "hj. á Vargsnesi",
                 "names": [
                     "Sigríður",
                     "Pétursdóttir"
@@ -4993,16 +5017,40 @@
                 "lastName": "Pétursdóttir"
             }
         ],
-        "parents_original_string": "For. : Kl. Jónsson og Sigríður Pétursdóttir. hj. á Varganesi.",
+        "parents_original_string": "For. : Kl. Jónsson og Sigríður Pétursdóttir. hj. á Vargsnesi.",
         "residence_history": [
             {
                 "year": "1872",
-                "original_string": "F. 9/11. 1872 á Varganesi.",
+                "original_string": "F. 9/11. 1872 á Vargsnesi.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Varganesi",
+                "location": "Vargsnes",
                 "year_from_value": 1872,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Geirbjarnarst. (16) - 1888-1893.",

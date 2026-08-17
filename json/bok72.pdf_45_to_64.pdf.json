@@ -1355,12 +1355,12 @@
             "birth": {
                 "original_string": "F. 20/6 1859 í Presthvammi.",
                 "date": "1859-06-20",
-                "location": "Presthvammi",
+                "location": "Presthvammur",
                 "location_obj": {
                     "id": 16500,
                     "name": "Presthvammur",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.828832",
+                    "lng": "-17.312746",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -1435,14 +1435,14 @@
                 "original_string": "F. 20/6 1859 í Presthvammi.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Presthvammi",
+                "location": "Presthvammur",
                 "year_from_value": 1859,
                 "year_to_value": 1859,
                 "location_obj": {
                     "id": 16500,
                     "name": "Presthvammur",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.828832",
+                    "lng": "-17.312746",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -2298,7 +2298,7 @@
                 "year_or_period": "1892",
                 "age": 39,
                 "status": "Systir K.",
-                "location": "Skógarseli",
+                "location": "Skógarsel",
                 "note": "",
                 "note_ref": null,
                 "year": "1892",
@@ -3780,7 +3780,31 @@
                 "note_ref": null,
                 "year": "1801-1808",
                 "year_from_value": 1801,
-                "year_to_value": 1808
+                "year_to_value": 1808,
+                "location_obj": {
+                    "id": 16545,
+                    "name": "Brettingsstaðir",
+                    "lat": "65.6436240882",
+                    "lng": "-17.1706867218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

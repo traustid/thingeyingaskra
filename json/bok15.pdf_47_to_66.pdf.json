@@ -1567,15 +1567,39 @@
                 }
             },
             {
-                "original_string": "Hjú í Presthwammi (20) 1835.",
+                "original_string": "Hjú í Presthvammi (20) 1835.",
                 "year": "1835",
                 "age": 20,
                 "status": "Hjú",
-                "location": "Presthwammi",
+                "location": "Presthvammur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1835,
-                "year_to_value": 1835
+                "year_to_value": 1835,
+                "location_obj": {
+                    "id": 16500,
+                    "name": "Presthvammur",
+                    "lat": "65.828832",
+                    "lng": "-17.312746",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú (gestaþjónusta) á Grenjaðarst. (23) 1837.",
@@ -3240,15 +3264,39 @@
                 }
             },
             {
-                "original_string": "G. hjón (og husk.) í Presthwammi (68) 1845-1848.",
+                "original_string": "G. hjón (og husk.) í Presthvammi (68) 1845-1848.",
                 "year": "1845-1848",
                 "age": 68,
                 "status": "G. hjón",
-                "location": "Presthwammi",
+                "location": "Presthvammur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1845,
-                "year_to_value": 1848
+                "year_to_value": 1848,
+                "location_obj": {
+                    "id": 16500,
+                    "name": "Presthvammur",
+                    "lat": "65.828832",
+                    "lng": "-17.312746",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsk. í Klömbur (68) 1849.",
@@ -3652,9 +3700,33 @@
             "status": "mállaus",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 22/9 1877 í Skíðarseli.",
+                "original_string": "F. 22/9 1877 í Skógarseli.",
                 "date": "1877-09-22",
-                "location": "Skíðarseli"
+                "location": "Skógarsel",
+                "location_obj": {
+                    "id": 90007,
+                    "name": "Skógarsel",
+                    "lat": "65.690420",
+                    "lng": "-17.425777",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Seljadalur",
+                            "id": 12378
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3696,23 +3768,71 @@
         "residence_history": [
             {
                 "year": "1877",
-                "original_string": "F. 22/9 1877 í Skíðarseli.",
+                "original_string": "F. 22/9 1877 í Skógarseli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skíðarseli",
+                "location": "Skógarsel",
                 "year_from_value": 1877,
-                "year_to_value": 1877
+                "year_to_value": 1877,
+                "location_obj": {
+                    "id": 90007,
+                    "name": "Skógarsel",
+                    "lat": "65.690420",
+                    "lng": "-17.425777",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Seljadalur",
+                            "id": 12378
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá móður í Presthwammi (3) 1880.",
+                "original_string": "Hjá móður í Presthvammi (3) 1880.",
                 "year": "1880",
                 "age": 3,
                 "status": "Hjá móður",
-                "location": "Presthwammi",
+                "location": "Presthvammur",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1880,
-                "year_to_value": 1880
+                "year_to_value": 1880,
+                "location_obj": {
+                    "id": 16500,
+                    "name": "Presthvammur",
+                    "lat": "65.828832",
+                    "lng": "-17.312746",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Á sveit á Hallbjarnarst. R. (14) 1891-1894. 1)",

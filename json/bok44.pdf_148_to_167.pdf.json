@@ -2111,9 +2111,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 14/11. 1871 í Niðribæ.",
+                "original_string": "F. 14/11. 1871 í Neðribæ.",
                 "date": "1871-11-14",
-                "location": "Niðribæ"
+                "location": "Neðribæ",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2156,15 +2180,39 @@
         "residence_history": [
             {
                 "year": "1871",
-                "original_string": "F. 14/11. 1871 í Niðribæ.",
+                "original_string": "F. 14/11. 1871 í Neðribæ.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Niðribæ",
+                "location": "Neðribæ",
                 "year_from_value": 1871,
-                "year_to_value": 1871
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. í Niðribæ (7 vikna) 1871-1872.",
+                "original_string": "Hjá for. í Neðribæ (7 vikna) 1871-1872.",
                 "year": "1871-1872",
                 "age": null,
                 "status": "Hjá for.",

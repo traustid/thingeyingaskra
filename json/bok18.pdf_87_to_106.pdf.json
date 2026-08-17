@@ -1004,7 +1004,7 @@
                 }
             },
             {
-                "original_string": "Húsfr. á Holkoti 1844-62.",
+                "original_string": "Húsfr. á Hólkot 1844-62.",
                 "year": "1844-1862",
                 "age": null,
                 "status": "Húsfr.",
@@ -1015,12 +1015,12 @@
                 "year_to_value": 1862
             },
             {
-                "original_string": "Húsfr. frá Holkoti að Bergsstöðum (69) 1862.",
+                "original_string": "Húsfr. frá Hólkot að Bergsstöðum (69) 1862.",
                 "year": "1862",
                 "age": 69,
                 "status": "Húsfr.",
                 "location": "Bergsstaðir",
-                "note": "frá Holkoti",
+                "note": "frá Hólkot",
                 "note_ref": null,
                 "year_from_value": 1862,
                 "year_to_value": 1862,
@@ -1085,7 +1085,7 @@
                 }
             },
             {
-                "original_string": "G. kona á Holkoti (71) 1863-",
+                "original_string": "G. kona á Hólkot (71) 1863-",
                 "year": "1863",
                 "age": 71,
                 "status": "G. kona",
@@ -2631,15 +2631,39 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Varganesi (2) 1895-1900-",
+                "original_string": "Hjá for. á Vargsnesi (2) 1895-1900-",
                 "year": "1895-1900",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Varganes",
+                "location": "Vargsnes",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1895,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 90059,
+                    "name": "Vargsnes",
+                    "lat": "66.032121",
+                    "lng": "-17.677713",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

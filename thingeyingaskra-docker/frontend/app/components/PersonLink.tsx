@@ -24,6 +24,9 @@ function PersonLink(props) {
 					{props.item.person.birth ? props.item.person.birth.original_string : ''}{' - '}
 					{props.item.person.death ? props.item.person.death.original_string : ''}
 				</div>
+				{
+					props.item.person.status && <div className="text-sm italic text-gray-600">{props.item.person.status}</div>
+				}
 			</div>
 
 			<div className="md:w-1/2">

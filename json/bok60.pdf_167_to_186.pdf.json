@@ -1180,7 +1180,7 @@
                 "year": "1892-1894",
                 "age": 1,
                 "status": "Með for.",
-                "location": "Skógarseli",
+                "location": "Skógarsel",
                 "note": "",
                 "year_from_value": 1892,
                 "year_to_value": 1894,
@@ -1282,7 +1282,7 @@
                 "year": "1897",
                 "age": null,
                 "status": "Með for.",
-                "location": "Skógarseli",
+                "location": "Skógarsel",
                 "note": "",
                 "year_from_value": 1897,
                 "year_to_value": 1897,
@@ -1845,15 +1845,15 @@
                 "year": "1896",
                 "age": 9,
                 "status": "Niðursl.",
-                "location": "Presthvammi",
+                "location": "Presthvammur",
                 "note": "",
                 "year_from_value": 1896,
                 "year_to_value": 1896,
                 "location_obj": {
                     "id": 16500,
                     "name": "Presthvammur",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.828832",
+                    "lng": "-17.312746",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -1913,15 +1913,15 @@
                 "year": "1898-1900",
                 "age": 11,
                 "status": "Niðursl.",
-                "location": "Presthvammi",
+                "location": "Presthvammur",
                 "note": "",
                 "year_from_value": 1898,
                 "year_to_value": 1900,
                 "location_obj": {
                     "id": 16500,
                     "name": "Presthvammur",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.828832",
+                    "lng": "-17.312746",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -3730,14 +3730,38 @@
                 }
             },
             {
-                "original_string": "G. húsk. í Niðribæ (33) 1866.",
+                "original_string": "G. húsk. í Neðribæ (33) 1866.",
                 "year": "1866",
                 "age": 33,
                 "status": "G. húsk.",
-                "location": "Niðribæ",
+                "location": "Neðribæ",
                 "note": "",
                 "year_from_value": 1866,
-                "year_to_value": 1866
+                "year_to_value": 1866,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á Beinabakka ytri (32 ára) 1868- 1869.",

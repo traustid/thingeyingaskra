@@ -1827,16 +1827,40 @@
                 "year_to_value": 1896
             },
             {
-                "original_string": "B. í Niðribæ (47) 1897-1900-",
+                "original_string": "B. í Neðribæ (47) 1897-1900-",
                 "year_or_period": "1897-1900",
                 "age": 47,
                 "status": "B.",
-                "location": "Niðribæ",
+                "location": "Neðribæ",
                 "note": "",
                 "note_ref": null,
                 "year": "1897-1900",
                 "year_from_value": 1897,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -3329,9 +3353,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 22/3. 1898. í Niðribæ.",
+                "original_string": "F. 22/3. 1898. í Neðribæ.",
                 "date": "1898-03-22",
-                "location": "Niðribæ"
+                "location": "Neðribæ",
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -3370,24 +3418,72 @@
         "residence_history": [
             {
                 "year": "1898",
-                "original_string": "F. 22/3. 1898. í Niðribæ.",
+                "original_string": "F. 22/3. 1898. í Neðribæ.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Niðribæ",
+                "location": "Neðribæ",
                 "year_from_value": 1898,
-                "year_to_value": 1898
+                "year_to_value": 1898,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. í Niðribæ (á 1.) 1898-1900-",
+                "original_string": "Hjá for. í Neðribæ (á 1.) 1898-1900-",
                 "year_or_period": "1898-1900",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Niðribæ",
+                "location": "Neðribæ",
                 "note": "á 1.",
                 "note_ref": null,
                 "year": "1898-1900",
                 "year_from_value": 1898,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 15053,
+                    "name": "Neðribær",
+                    "lat": "66.161196",
+                    "lng": "-17.850939",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flatey",
+                            "id": 24092
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
