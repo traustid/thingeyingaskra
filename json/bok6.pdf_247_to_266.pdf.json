@@ -2657,15 +2657,39 @@
                 }
             },
             {
-                "original_string": "Hjú í Reykjavíkurhlíð (25) 1882.",
+                "original_string": "Hjú í Reykjahlíð (25) 1882.",
                 "year_or_period": "1882",
                 "age": 25,
                 "status": "Hjú",
-                "location": "Reykjavíkurhlíð",
+                "location": "Reykjahlíð",
                 "note": "",
                 "year": "1882",
                 "year_from_value": 1882,
-                "year_to_value": 1882
+                "year_to_value": 1882,
+                "location_obj": {
+                    "id": 16624,
+                    "name": "Reykjahlíð",
+                    "lat": "65.644316",
+                    "lng": "-16.91306",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Bjarnarst. B. (23) 1884-1885.",
@@ -2864,7 +2888,7 @@
             }
         ],
         "notes": {
-            "1": "Sjá: Reykjavíkurhlíðar ættir, bls. 51."
+            "1": "Sjá: Reykjahlíðar ættir, bls. 51."
         },
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_6/257",
         "bok": "bok6",
