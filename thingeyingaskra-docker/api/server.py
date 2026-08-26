@@ -563,6 +563,8 @@ async def getParents(personId):
 		# Check both ordering configurations (Father as main person vs Mother as main person)
 		response.append(getParentRecord(parents[0], parents[1]))
 		response.append(getParentRecord(parents[1], parents[0]))
+	else:
+		response = parents
 
 	return {
 		'results': response
@@ -651,7 +653,6 @@ async def getChildren(personId):
 	dbQuery = {
 		'$or': or_conditions
 	}
-	print(dbQuery)
 
 	results = collection.find(dbQuery).sort('person.birth.date', 1)
 	

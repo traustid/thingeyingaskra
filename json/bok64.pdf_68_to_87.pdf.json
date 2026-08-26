@@ -480,7 +480,31 @@
             "birth": {
                 "original_string": "F. 5/4. 1829 í Hörgsdal.",
                 "date": "1829-04-05",
-                "location": "Hörgshól"
+                "location": "Hörgsdalur",
+                "location_obj": {
+                    "id": 10282,
+                    "name": "Hörgsdalur",
+                    "lat": "65.544394",
+                    "lng": "-17.29314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 17/3 1890",
@@ -530,16 +554,40 @@
                 "lastName": "Ívansdóttir"
             }
         ],
-        "parents_original_string": "J. Magnússon og Ingibjörg Ívansdóttir, bj. bú í Hörgshól.",
+        "parents_original_string": "J. Magnússon og Ingibjörg Ívansdóttir, bj. bú í Hörgsdal.",
         "residence_history": [
             {
                 "year": "1829",
                 "original_string": "F. 5/4. 1829 í Hörgsdal.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hörgshól",
+                "location": "Hörgsdalur",
                 "year_from_value": 1829,
-                "year_to_value": 1829
+                "year_to_value": 1829,
+                "location_obj": {
+                    "id": 10282,
+                    "name": "Hörgsdalur",
+                    "lat": "65.544394",
+                    "lng": "-17.29314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Hörgsdal (1 árs) 1830-1848 -",

@@ -4349,15 +4349,39 @@
                 }
             },
             {
-                "original_string": "Léttadr. í Ljónesi (8) 1868.",
+                "original_string": "Léttadr. í Sýrnesi (8) 1868.",
                 "year": "1868",
                 "age": 8,
                 "status": "Léttadr.",
-                "location": "Ljónesi",
+                "location": "Sýrnesi",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1868,
-                "year_to_value": 1868
+                "year_to_value": 1868,
+                "location_obj": {
+                    "id": 16486,
+                    "name": "Sýrnes",
+                    "lat": "65.810620379",
+                    "lng": "-17.4304318428",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

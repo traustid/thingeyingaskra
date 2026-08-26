@@ -4437,7 +4437,8 @@
     {
         "person": {
             "name": "Jón Jónsson",
-            "status": "„Nefur“ 1)",
+            "status": "„Nefur“",
+            "note_ref": 1,
             "unmarried": false,
             "birth": {
                 "original_string": "F. 26/4. 1830. -",
@@ -4483,7 +4484,7 @@
             },
             {
                 "name": "Ingibjörg Ívarsdóttir",
-                "note": "hj. bú. í Hörgshól",
+                "note": "hj. bú. í Hörgsdal",
                 "names": [
                     "Ingibjörg",
                     "Ívarsdóttir"
@@ -4492,19 +4493,43 @@
                 "lastName": "Ívarsdóttir"
             }
         ],
-        "parents_original_string": "For. : J. Magnússon og Ingibjörg Ívarsdóttir, hj. bú. í Hörgshól",
+        "parents_original_string": "For. : J. Magnússon og Ingibjörg Ívarsdóttir, hj. bú. í Hörgsdal",
         "residence_history": [
             {
-                "original_string": "Hjá for. í Hörgshól (á 1.) 1830-1841-",
+                "original_string": "Hjá for. í Hörgsdal (á 1.) 1830-1841-",
                 "year_or_period": "1830-1841",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Hörgshóll",
+                "location": "Hörgsdalur",
                 "note": "",
                 "note_ref": null,
                 "year": "1830-1841",
                 "year_from_value": 1830,
-                "year_to_value": 1841
+                "year_to_value": 1841,
+                "location_obj": {
+                    "id": 10282,
+                    "name": "Hörgsdalur",
+                    "lat": "65.544394",
+                    "lng": "-17.29314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttap. í Garði M. (13) 1843-1845- 1)",
@@ -4579,60 +4604,228 @@
                 }
             },
             {
-                "original_string": "Hjá for. í Hörgshól ... 1847-1848- 1855- (G.'55)",
+                "original_string": "Hjá for. í Hörgsdal ... 1847-1848- 1855- (G.'55)",
                 "year_or_period": "1847-1855",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Hörgshóll",
+                "location": "Hörgsdalur",
                 "note": "G.'55",
                 "note_ref": null,
                 "year": "1847-1855",
                 "year_from_value": 1847,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 10282,
+                    "name": "Hörgsdalur",
+                    "lat": "65.544394",
+                    "lng": "-17.29314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "B. í Hörgshól ... 1858- B. (30) þaðan að Sýrnesi 1859.",
-                "year_or_period": "1858-1859",
+                "original_string": "B. í Hörgsdal ... 1858- B. (30)",
+                "year_or_period": "1858",
                 "age": 30,
                 "status": "B.",
-                "location": "Hörgshóll/Sýrnes",
+                "location": "Hörgsdalur",
                 "note": "",
                 "note_ref": null,
                 "year": "1858-1859",
                 "year_from_value": 1858,
-                "year_to_value": 1859
+                "year_to_value": 1858,
+                "location_obj": {
+                    "id": 10282,
+                    "name": "Hörgsdalur",
+                    "lat": "65.544394",
+                    "lng": "-17.29314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "B. í Sýrnesi (29) 1860. G. húsm. í Sigluvík (32) 1860.",
+                "original_string": "B. í Sýrnesi (29) 1860.",
                 "year_or_period": "1860",
                 "age": 29,
-                "status": "B./G. húsm.",
-                "location": "Sýrnes/Sigluvík",
+                "status": "B.",
+                "location": "Sýrnes",
                 "note": "",
                 "note_ref": null,
                 "year": "1860",
                 "year_from_value": 1860,
-                "year_to_value": 1860
+                "year_to_value": 1860,
+                "location_obj": {
+                    "id": 16486,
+                    "name": "Sýrnes",
+                    "lat": "65.810620379",
+                    "lng": "-17.4304318428",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "B. í Hörgshól ... (32) frá Sigluvík að Hörgshól 1861. 1861-1862.",
+                "original_string": "G. húsm. í Sigluvík (32) 1860.",
+                "year_or_period": "1860",
+                "age": 32,
+                "status": "G. húsm.",
+                "location": "Sigluvík",
+                "note": "",
+                "note_ref": null,
+                "year": "1860",
+                "year_from_value": 1860,
+                "year_to_value": 1860,
+                "location_obj": {
+                    "id": 1003857,
+                    "name": "Sigluvík",
+                    "lat": "65.722346",
+                    "lng": "-18.073694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. í Hörgsdal ... (32) frá Sigluvík að Hörgsdal 1861. 1861-1862.",
                 "year_or_period": "1861-1862",
                 "age": 32,
                 "status": "B.",
-                "location": "Hörgshóll",
-                "note": "frá Sigluvík að Hörgshól 1861.",
+                "location": "Hörgsdalur",
+                "note": "frá Sigluvík að Hörgsdal 1861.",
                 "note_ref": null,
                 "year": "1861-1862",
                 "year_from_value": 1861,
-                "year_to_value": 1862
+                "year_to_value": 1862,
+                "location_obj": {
+                    "id": 10282,
+                    "name": "Hörgsdalur",
+                    "lat": "65.544394",
+                    "lng": "-17.29314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "B. (38) frá Rifstagerði að Laugaseli 1867.",
+                "original_string": "B. (38) frá Álftagerði að Laugaseli 1867.",
+                "year_or_period": "1867",
+                "age": 32,
+                "status": "G. húsm.",
+                "location": "Álftagerði",
+                "note": "",
+                "note_ref": null,
+                "year": "1867",
+                "year_from_value": 1867,
+                "year_to_value": 1867,
+                "location_obj": {
+                    "id": 1004883,
+                    "name": "Álftagerði",
+                    "lat": "65.56973047434619",
+                    "lng": "-17.048008018493874",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. (38) frá Álftagerði að Laugaseli 1867.",
                 "year_or_period": "1867",
                 "age": 38,
                 "status": "B.",
                 "location": "Laugasel",
-                "note": "frá Rifstagerði að Laugaseli 1867.",
+                "note": "frá Álftagerði að Laugaseli 1867.",
                 "note_ref": null,
                 "year": "1867",
                 "year_from_value": 1867,
@@ -4663,52 +4856,148 @@
                 }
             },
             {
-                "original_string": "B. (40) þaðan að Hörgshól 1869-70.",
+                "original_string": "B. (40) þaðan að Hörgsdal 1869-70.",
                 "year_or_period": "1869-1870",
                 "age": 40,
                 "status": "B.",
-                "location": "Hörgshóll",
-                "note": "þaðan að Hörgshól 1869-70.",
+                "location": "Hörgsdalur",
+                "note": "þaðan að Hörgsdal 1869-70.",
                 "note_ref": null,
                 "year": "1869-1870",
                 "year_from_value": 1869,
-                "year_to_value": 1870
+                "year_to_value": 1870,
+                "location_obj": {
+                    "id": 10282,
+                    "name": "Hörgsdalur",
+                    "lat": "65.544394",
+                    "lng": "-17.29314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "B. í Hörgshól (42) 1871-1872.",
+                "original_string": "B. í Hörgsdal (42) 1871-1872.",
                 "year_or_period": "1871-1872",
                 "age": 42,
                 "status": "B.",
-                "location": "Hörgshóll",
+                "location": "Hörgsdalur",
                 "note": "",
                 "note_ref": null,
                 "year": "1871-1872",
                 "year_from_value": 1871,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 10282,
+                    "name": "Hörgsdalur",
+                    "lat": "65.544394",
+                    "lng": "-17.29314",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fyrirv. í Litlu-Sigluvík (47) 1876.",
                 "year_or_period": "1876",
                 "age": 47,
                 "status": "Fyrirv.",
-                "location": "Litla-Sigluvík",
+                "location": "Sigluvík",
                 "note": "",
                 "note_ref": null,
                 "year": "1876",
                 "year_from_value": 1876,
-                "year_to_value": 1876
+                "year_to_value": 1876,
+                "location_obj": {
+                    "id": 1003857,
+                    "name": "Sigluvík",
+                    "lat": "65.722346",
+                    "lng": "-18.073694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fyrirv. í Litlu-Sigluvík ... 1879.",
                 "year_or_period": "1879",
                 "age": null,
                 "status": "Fyrirv.",
-                "location": "Litla-Sigluvík",
+                "location": "Sigluvík",
                 "note": "",
                 "note_ref": null,
                 "year": "1879",
                 "year_from_value": 1879,
-                "year_to_value": 1879
+                "year_to_value": 1879,
+                "location_obj": {
+                    "id": 1003857,
+                    "name": "Sigluvík",
+                    "lat": "65.722346",
+                    "lng": "-18.073694",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Hrappsst. seli (53) 1883-84. (Hrb.).",
@@ -4820,8 +5109,8 @@
             }
         ],
         "notes": {
-            "1": "Treglæs; meinlaus; kaus stirðlega.",
-            "2": "Bjó um skeið á „Nefi“ hjá Hörgshól og hlaut viðurnefnið af því. -"
+            "1": "Treglæs; meinlaus; kaun stirðlega.",
+            "2": "Bjó um skeið á „Nefi“ hjá Hörgsdal og hlaut viðurnefnið af því. -"
         },
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_39/64",
         "bok": "bok39",

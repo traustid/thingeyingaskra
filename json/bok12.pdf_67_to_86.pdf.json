@@ -4779,9 +4779,33 @@
             "status": "Sigríður",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 20/7 1859 í Ljónesi.",
+                "original_string": "F. 20/7 1859 í Sýrnesi.",
                 "date": "1859-07-20",
-                "location": "Ljónes"
+                "location": "Sýrnes",
+                "location_obj": {
+                    "id": 16486,
+                    "name": "Sýrnes",
+                    "lat": "65.810620379",
+                    "lng": "-17.4304318428",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Elín",
@@ -4819,23 +4843,71 @@
         "residence_history": [
             {
                 "year": "1859",
-                "original_string": "F. 20/7 1859 í Ljónesi.",
+                "original_string": "F. 20/7 1859 í Sýrnesi.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Ljónes",
+                "location": "Sýrnes",
                 "year_from_value": 1859,
-                "year_to_value": 1859
+                "year_to_value": 1859,
+                "location_obj": {
+                    "id": 16486,
+                    "name": "Sýrnes",
+                    "lat": "65.810620379",
+                    "lng": "-17.4304318428",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. í Ljónesi (1 árs) 1860. Með for. í Sigluvík (2) 1860.",
+                "original_string": "Hjá for. í Sýrnesi (1 árs) 1860. Með for. í Sigluvík (2) 1860.",
                 "year_or_period": "1860",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Ljónes",
+                "location": "Sýrnes",
                 "note": "Með for. í Sigluvík (2) 1860",
                 "year": "1860",
                 "year_from_value": 1860,
-                "year_to_value": 1860
+                "year_to_value": 1860,
+                "location_obj": {
+                    "id": 16486,
+                    "name": "Sýrnes",
+                    "lat": "65.810620379",
+                    "lng": "-17.4304318428",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. (2) frá Sigluvík að Hörgsdal 1861.",
