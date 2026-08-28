@@ -1367,14 +1367,38 @@
         "parents_original_string": "For.: Sigurb. Sveinsson og",
         "residence_history": [
             {
-                "original_string": "Með föður í Dali (13) 1885.",
+                "original_string": "Með föður í Dæli (13) 1885.",
                 "year": "1885",
                 "age": 13,
                 "status": "Með föður",
                 "location": "Dæli",
                 "note": "",
                 "year_from_value": 1885,
-                "year_to_value": 1885
+                "year_to_value": 1885,
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

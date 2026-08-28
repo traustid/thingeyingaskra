@@ -3702,9 +3702,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. seinni 1799 á Kálfatrá, Holi K.",
+                "original_string": "F. um 1799 á Hóli K.",
                 "date": "1799",
-                "location": "Kálfatrá"
+                "location": "Hóll K.",
+                "location_obj": {
+                    "id": 90053,
+                    "name": "Hóll",
+                    "lat": "65.816492",
+                    "lng": "-17.556452",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Guðlaug",
@@ -3753,12 +3777,36 @@
         "residence_history": [
             {
                 "year": "1799",
-                "original_string": "F. seinni 1799 á Kálfatrá, Holi K.",
+                "original_string": "F. um 1799 á Hóli K.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Kálfatrá",
+                "location": "Hóll K.",
                 "year_from_value": 1799,
-                "year_to_value": 1799
+                "year_to_value": 1799,
+                "location_obj": {
+                    "id": 90053,
+                    "name": "Hóll",
+                    "lat": "65.816492",
+                    "lng": "-17.556452",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Holi K. (3) 1801—1802.",
@@ -3846,22 +3894,18 @@
                 "year_from_value": 1826,
                 "year_to_value": 1826,
                 "location_obj": {
-                    "id": 90003,
+                    "id": 90004,
                     "name": "Hjalli",
-                    "lat": "65.969928",
-                    "lng": "-18.211361",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Reykjadalur",
+                            "id": 16405
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3883,22 +3927,18 @@
                 "note": "",
                 "year": "1826—1838",
                 "location_obj": {
-                    "id": 90003,
+                    "id": 90004,
                     "name": "Hjalli",
-                    "lat": "65.969928",
-                    "lng": "-18.211361",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Reykjadalur",
+                            "id": 16405
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3991,25 +4031,29 @@
                 }
             },
             {
-                "original_string": "Hjú frá Lafsgerði að Mývatni (48) 1847.",
+                "original_string": "Hjú frá Láfsgerði að Mývatni (48) 1847.",
                 "year_or_period": "1847",
                 "age": 48,
                 "status": "Hjú",
-                "location": "Mývatni",
-                "note": "frá Lafsgerði",
+                "location": "Láfsgerði",
+                "note": "",
                 "year": "1847",
                 "year_from_value": 1847,
                 "year_to_value": 1847,
                 "location_obj": {
-                    "id": 8974,
-                    "name": "Mývatn",
-                    "lat": "65.594232994",
-                    "lng": "-17.0044326782",
+                    "id": 15863,
+                    "name": "Láfsgerði",
+                    "lat": "65.73225",
+                    "lng": "-17.418956",
                     "location_type": {
                         "id": 88,
                         "name": "Örnefni"
                     },
                     "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
                         {
                             "name": "Suður-Þingeyjarsýsla",
                             "id": 1003354
@@ -4123,15 +4167,39 @@
                 }
             },
             {
-                "original_string": "Hjú (. . .) frá Vogum að Rei 1854.",
+                "original_string": "Hjú (. . .) frá Vogum að Ási 1854.",
                 "year_or_period": "1854",
                 "age": null,
                 "status": "Hjú",
-                "location": "Rei",
+                "location": "Ás",
                 "note": "frá Vogum",
                 "year": "1854",
                 "year_from_value": 1854,
-                "year_to_value": 1854
+                "year_to_value": 1854,
+                "location_obj": {
+                    "id": 14317,
+                    "name": "Ás",
+                    "lat": "66.022794",
+                    "lng": "-16.473363",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kelduhverfi",
+                            "id": 24585
+                        },
+                        {
+                            "name": "Norður-Þingeyjarsýsla",
+                            "id": 16841
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_16/65",

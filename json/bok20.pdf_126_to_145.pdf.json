@@ -612,7 +612,27 @@
             "birth": {
                 "original_string": "f. 8/4. 1864 í V-Krókum",
                 "date": "1864-04-08",
-                "location": "V-Krókum"
+                "location": "Vestari-Krókar",
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -658,9 +678,29 @@
                 "original_string": "f. 8/4. 1864 í V-Krókum",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "V-Krókum",
+                "location": "Vestari-Krókar",
                 "year_from_value": 1864,
-                "year_to_value": 1864
+                "year_to_value": 1864,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Vestari Krókum (5) - 1868 -",
@@ -785,11 +825,35 @@
                 "year_or_period": "1881-1883",
                 "age": 16,
                 "status": "Hjú",
-                "location": "A-Krókum",
+                "location": "Austari-Krókar",
                 "note": "",
                 "year": "1881-1883",
                 "year_from_value": 1881,
-                "year_to_value": 1883
+                "year_to_value": 1883,
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

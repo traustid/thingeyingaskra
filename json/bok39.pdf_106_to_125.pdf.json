@@ -554,11 +554,35 @@
                 "year_or_period": "1805-1806",
                 "age": 41,
                 "status": "Til heimilis",
-                "location": "Þverá, R.",
+                "location": "Þverá, Rhv.",
                 "note": "",
                 "year": "1805-1806",
                 "year_from_value": 1805,
-                "year_to_value": 1806
+                "year_to_value": 1806,
+                "location_obj": {
+                    "id": 16638,
+                    "name": "Þverá",
+                    "lat": "65.919194",
+                    "lng": "-17.30752",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Stóruvöllum (43) 1807.",
@@ -2771,7 +2795,7 @@
             "death": {
                 "original_string": "D. á Knarrareyri 29/7. 1843, 64 ára. 1)",
                 "date": "1843-07-29",
-                "location": "Knarrareyri",
+                "location": "Knarrareyri (Eyri)",
                 "note_ref": 1
             },
             "names": [
@@ -3019,7 +3043,7 @@
                 "original_string": "D. á Knarrareyri 29/7. 1843, 64 ára. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Knarrareyri",
+                "location": "Knarrareyri (Eyri)",
                 "year_from_value": 1843,
                 "year_to_value": 1843
             }

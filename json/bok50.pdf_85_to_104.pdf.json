@@ -2042,14 +2042,38 @@
                 }
             },
             {
-                "original_string": "G. Hjú í Dali (30) 1844.",
+                "original_string": "G. Hjú í Dæli (30) 1844.",
                 "year": "1844",
                 "age": 30,
                 "status": "G. Hjú",
                 "location": "Dæli",
                 "note": "",
                 "year_from_value": 1844,
-                "year_to_value": 1844
+                "year_to_value": 1844,
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Kambsmýrum ... 1845-",
@@ -3835,7 +3859,31 @@
             "birth": {
                 "original_string": "F. 28/1. 1852 í A-Krókum.",
                 "date": "1852-01-28",
-                "location": "A-Krókum"
+                "location": "Austari-Krókar",
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3894,9 +3942,33 @@
                 "original_string": "F. 28/1. 1852 í A-Krókum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "A-Krókum",
+                "location": "Austari-Krókar",
                 "year_from_value": 1852,
-                "year_to_value": 1852
+                "year_to_value": 1852,
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Austari-Krókum (1 árs) 1852-1853.",

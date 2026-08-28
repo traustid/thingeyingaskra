@@ -1758,7 +1758,7 @@
                 }
             },
             {
-                "original_string": "Hjú í Dali (16) 1829.",
+                "original_string": "Hjú í Dæli (16) 1829.",
                 "year": "1829",
                 "age": 16,
                 "status": "Hjú",
@@ -1766,7 +1766,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1829,
-                "year_to_value": 1829
+                "year_to_value": 1829,
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2443,11 +2467,35 @@
                 "year": "1883",
                 "age": 47,
                 "status": "Hjú",
-                "location": "A-Krókum",
+                "location": "Austari-Krókar",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1883,
-                "year_to_value": 1883
+                "year_to_value": 1883,
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

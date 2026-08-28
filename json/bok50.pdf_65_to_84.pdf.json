@@ -390,9 +390,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 6/12. 1808 í Dali.",
+                "original_string": "F. 6/12. 1808 í Dæli.",
                 "date": "1808-12-06",
-                "location": "Dæli"
+                "location": "Dæli",
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -446,12 +470,36 @@
         "residence_history": [
             {
                 "year": "1808",
-                "original_string": "F. 6/12. 1808 í Dali.",
+                "original_string": "F. 6/12. 1808 í Dæli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Dæli",
                 "year_from_value": 1808,
-                "year_to_value": 1808
+                "year_to_value": 1808,
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Sigríðarstöðum (22) 1829-31.",
@@ -489,7 +537,7 @@
                 }
             },
             {
-                "original_string": "Hjá for. í Dali (26) 1832-1833.",
+                "original_string": "Hjá for. í Dæli (26) 1832-1833.",
                 "year_or_period": "1832-1833",
                 "age": 26,
                 "status": "Hjá for.",
@@ -497,7 +545,31 @@
                 "note": "",
                 "year": "1832-1833",
                 "year_from_value": 1832,
-                "year_to_value": 1833
+                "year_to_value": 1833,
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Sigríðarst. ... 1834.",

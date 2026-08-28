@@ -1831,12 +1831,36 @@
                 "year_or_period": "1898",
                 "age": 8,
                 "status": "Með föður",
-                "location": "A-Krókum",
+                "location": "Austari-Krókar",
                 "note": "",
                 "note_ref": null,
                 "year": "1898",
                 "year_from_value": 1898,
-                "year_to_value": 1898
+                "year_to_value": 1898,
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með föður á Veturliðast. (9) 1899.",
@@ -1962,7 +1986,7 @@
         "parents_original_string": "For. : Sk. Olgeirsson og Snjólaug Pálsdóttir.",
         "residence_history": [
             {
-                "original_string": "Hjá for. í Dali (á 1.) 1883-1896.",
+                "original_string": "Hjá for. í Dæli (á 1.) 1883-1896.",
                 "year_or_period": "1883-1896",
                 "age": 1,
                 "status": "Hjá for.",
@@ -1971,7 +1995,31 @@
                 "note_ref": null,
                 "year": "1883-1896",
                 "year_from_value": 1883,
-                "year_to_value": 1896
+                "year_to_value": 1896,
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttast. og hjú á Hallgilsst. (14) 1897-1900-",

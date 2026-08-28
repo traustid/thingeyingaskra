@@ -2482,15 +2482,39 @@
         "parents_original_string": "",
         "residence_history": [
             {
-                "original_string": "Léttadr. í Gnjótárgerði Fn. (16) 1845-1846.",
+                "original_string": "Léttadr. í Grjótárgerði Fn. (16) 1845-1846.",
                 "year_or_period": "1845-1846",
                 "age": 16,
                 "status": "Léttadr.",
-                "location": "Gnjótárgerði Fn.",
+                "location": "Grjótárgerði Fn.",
                 "note": "",
                 "year": "1845-1846",
                 "year_from_value": 1845,
-                "year_to_value": 1846
+                "year_to_value": 1846,
+                "location_obj": {
+                    "id": 90012,
+                    "name": "Grjótárgerði",
+                    "lat": "65.631606",
+                    "lng": "-17.838890",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Sörlastöðum (24) 1853-1854.",
@@ -3934,11 +3958,11 @@
                 }
             },
             {
-                "original_string": "Hjá for. í Gnjótárgerði (3) 1894-1900.",
+                "original_string": "Hjá for. í Grjótárgerði (3) 1894-1900.",
                 "year_or_period": "1894-1900",
                 "age": 3,
                 "status": "Hjá for.",
-                "location": "Gnjótárgerði",
+                "location": "Grjótárgerði",
                 "note": "",
                 "year": "1894-1900",
                 "year_from_value": 1894,

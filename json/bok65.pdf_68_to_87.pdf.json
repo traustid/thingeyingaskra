@@ -911,10 +911,30 @@
                 "year": "1894-1900",
                 "age": 11,
                 "status": "Hjá for.",
-                "location": "V-Krókum",
+                "location": "Vestari-Krókar",
                 "note": "",
                 "year_from_value": 1894,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1789,7 +1809,7 @@
             "birth": {
                 "original_string": "F. 16/6. 1897 á Knarrareyri.",
                 "date": "1897-06-16",
-                "location": "Knarrareyri"
+                "location": "Knarrareyri (Eyri)"
             },
             "death": {
                 "original_string": "",
@@ -1834,7 +1854,7 @@
                 "original_string": "F. 16/6. 1897 á Knarrareyri.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Knarrareyri",
+                "location": "Knarrareyri (Eyri)",
                 "year_from_value": 1897,
                 "year_to_value": 1897
             },
@@ -2803,10 +2823,34 @@
                 "year": "1891",
                 "age": 59,
                 "status": "Hjú?",
-                "location": "A-Krókum",
+                "location": "Austari-Krókar",
                 "note": "",
                 "year_from_value": 1891,
-                "year_to_value": 1891
+                "year_to_value": 1891,
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. hjú á Skuggabjörgum ... 1893-1895.",

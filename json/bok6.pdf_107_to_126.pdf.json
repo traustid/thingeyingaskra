@@ -2224,9 +2224,33 @@
             "status": "póstur",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 3/10. 1805 á Veigeirsstöðum.",
+                "original_string": "F. 3/10. 1805 á Végeirsstöðum.",
                 "date": "1805-10-03",
-                "location": "Veigeirsstaðir"
+                "location": "Végeirsstaðir",
+                "location_obj": {
+                    "id": 12053,
+                    "name": "Végeirsstaðir",
+                    "lat": "65.8107",
+                    "lng": "-17.89104",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -2280,23 +2304,71 @@
         "residence_history": [
             {
                 "year": "1805",
-                "original_string": "F. 3/10. 1805 á Veigeirsstöðum.",
+                "original_string": "F. 3/10. 1805 á Végeirsstöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Veigeirsstaðir",
+                "location": "Végeirsstaðir",
                 "year_from_value": 1805,
-                "year_to_value": 1805
+                "year_to_value": 1805,
+                "location_obj": {
+                    "id": 12053,
+                    "name": "Végeirsstaðir",
+                    "lat": "65.8107",
+                    "lng": "-17.89104",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. á Veigeirsstöðum (4) 1810–1816–",
+                "original_string": "Hjá for. á Végeirsstöðum (4) 1810–1816–",
                 "year": "1810-1816",
                 "age": 4,
                 "status": "Hjá for.",
-                "location": "Veigeirsstaðir",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1810,
-                "year_to_value": 1816
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 12053,
+                    "name": "Végeirsstaðir",
+                    "lat": "65.8107",
+                    "lng": "-17.89104",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

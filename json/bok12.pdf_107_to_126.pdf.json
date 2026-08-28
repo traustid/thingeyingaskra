@@ -3400,10 +3400,34 @@
                 "location": ""
             },
             "death": {
-                "original_string": "D. á Veigeirsst. 21/5. 1838, 3 ára.",
+                "original_string": "D. á Végeirsst. 21/5. 1838, 3 ára.",
                 "date": "1838-05-21",
-                "location": "Veigeirsstaðir",
-                "note_ref": 1
+                "location": "Végeirsstaðir",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 12053,
+                    "name": "Végeirsstaðir",
+                    "lat": "65.8107",
+                    "lng": "-17.89104",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Elínbjörg",
@@ -3439,23 +3463,71 @@
         "parents_original_string": "Gunnl. Sæmundsson og Björg Arngrímsd.",
         "residence_history": [
             {
-                "original_string": "Hjá for. á Veigeirsstöðum (1 árs) 1834-1836-",
+                "original_string": "Hjá for. á Végeirsstöðum (1 árs) 1834-1836-",
                 "year": "1834-1836",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Veigeirsstöðum",
+                "location": "Végeirsstaðir",
                 "note": "",
                 "year_from_value": 1834,
-                "year_to_value": 1836
+                "year_to_value": 1836,
+                "location_obj": {
+                    "id": 12053,
+                    "name": "Végeirsstaðir",
+                    "lat": "65.8107",
+                    "lng": "-17.89104",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1838",
-                "original_string": "D. á Veigeirsst. 21/5. 1838, 3 ára.",
+                "original_string": "D. á Végeirsst. 21/5. 1838, 3 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Veigeirsstaðir",
+                "location": "Végeirsstaðir",
                 "year_from_value": 1838,
-                "year_to_value": 1838
+                "year_to_value": 1838,
+                "location_obj": {
+                    "id": 12053,
+                    "name": "Végeirsstaðir",
+                    "lat": "65.8107",
+                    "lng": "-17.89104",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

@@ -2841,10 +2841,34 @@
                 "year": "1880-1881",
                 "age": 6,
                 "status": "Með móður",
-                "location": "Þverá, R.",
+                "location": "Þverá, Rhv.",
                 "note": "",
                 "year_from_value": 1880,
-                "year_to_value": 1881
+                "year_to_value": 1881,
+                "location_obj": {
+                    "id": 16638,
+                    "name": "Þverá",
+                    "lat": "65.919194",
+                    "lng": "-17.30752",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -4125,7 +4149,7 @@
                 }
             },
             {
-                "original_string": "Hjú í Dali (16) 1881-1883.",
+                "original_string": "Hjú í Dæli (16) 1881-1883.",
                 "year": "1881-1883",
                 "age": 16,
                 "status": "Hjú",

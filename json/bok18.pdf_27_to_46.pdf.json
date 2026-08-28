@@ -3186,31 +3186,7 @@
             "death": {
                 "original_string": "D. 10/9 1916 á Þverá R. hv.",
                 "date": "1916-09-10",
-                "location": "Þverá, R. hv.",
-                "location_obj": {
-                    "id": 16638,
-                    "name": "Þverá",
-                    "lat": "65.919194",
-                    "lng": "-17.30752",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Reykjahverfi",
-                            "id": 1001642
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Þverá, Rhv. hv."
             },
             "names": [
                 "Guðný",
@@ -3415,12 +3391,36 @@
                 "year_or_period": "1865-1888",
                 "age": 35,
                 "status": "Húsfr.",
-                "location": "Þverá, R.",
+                "location": "Þverá, Rhv.",
                 "note": "",
                 "note_ref": null,
                 "year": "1865-1888",
                 "year_from_value": 1865,
-                "year_to_value": 1888
+                "year_to_value": 1888,
+                "location_obj": {
+                    "id": 16638,
+                    "name": "Þverá",
+                    "lat": "65.919194",
+                    "lng": "-17.30752",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. Móðir K. á Öndólfsstöðum (60) 1889-1891.",
@@ -3463,12 +3463,36 @@
                 "year_or_period": "1892",
                 "age": null,
                 "status": "Móðir K.",
-                "location": "Þverá, R.",
+                "location": "Þverá, Rhv.",
                 "note": "",
                 "note_ref": null,
                 "year": "1892",
                 "year_from_value": 1892,
-                "year_to_value": 1892
+                "year_to_value": 1892,
+                "location_obj": {
+                    "id": 16638,
+                    "name": "Þverá",
+                    "lat": "65.919194",
+                    "lng": "-17.30752",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Móðir K. á Öndólfsstöðum ... 1892-1897.",
@@ -3511,21 +3535,12 @@
                 "year_or_period": "1898-1900",
                 "age": 69,
                 "status": "Móðir K.",
-                "location": "Þverá, R.",
+                "location": "Þverá, Rhv.",
                 "note": "",
                 "note_ref": null,
                 "year": "1898-1900",
                 "year_from_value": 1898,
-                "year_to_value": 1900
-            },
-            {
-                "year": "1916",
-                "original_string": "D. 10/9 1916 á Þverá R. hv.",
-                "age": 0,
-                "status": "Dánarstaður",
-                "location": "Þverá, R. hv.",
-                "year_from_value": 1916,
-                "year_to_value": 1916,
+                "year_to_value": 1900,
                 "location_obj": {
                     "id": 16638,
                     "name": "Þverá",
@@ -3550,6 +3565,15 @@
                         }
                     ]
                 }
+            },
+            {
+                "year": "1916",
+                "original_string": "D. 10/9 1916 á Þverá R. hv.",
+                "age": 0,
+                "status": "Dánarstaður",
+                "location": "Þverá, Rhv. hv.",
+                "year_from_value": 1916,
+                "year_to_value": 1916
             }
         ],
         "notes": {},

@@ -279,11 +279,31 @@
                 "year": "1884-1891",
                 "age": 34,
                 "status": "Hjá for.",
-                "location": "V-Krókum",
+                "location": "Vestari-Krókar",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1884,
-                "year_to_value": 1891
+                "year_to_value": 1891,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Br. B. á Hóli Höfð. (42) 1892-1893.",
@@ -1304,7 +1324,7 @@
             },
             {
                 "name": "Ólöf Halldórsd",
-                "note": "frá Dali, hjón á Kambsmýrum",
+                "note": "frá Dæli, hjón á Kambsmýrum",
                 "names": [
                     "Ólöf",
                     "Halldórsd"
@@ -1313,7 +1333,7 @@
                 "lastName": "Halldórsd"
             }
         ],
-        "parents_original_string": "Eir. Jónsson og Ólöf Halldórsd (frá Dali). hjón á Kambsmýrum.",
+        "parents_original_string": "Eir. Jónsson og Ólöf Halldórsd (frá Dæli). hjón á Kambsmýrum.",
         "residence_history": [
             {
                 "year": "1846",
@@ -1458,11 +1478,35 @@
                 "year": "1872-1873",
                 "age": null,
                 "status": "Hjú",
-                "location": "A-Krókum",
+                "location": "Austari-Krókar",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1872,
-                "year_to_value": 1873
+                "year_to_value": 1873,
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Kambsmýrum (29) 1875-1876.",
@@ -1504,11 +1548,35 @@
                 "year": "1877-1880",
                 "age": 32,
                 "status": "G. hjú",
-                "location": "A-Krókum",
+                "location": "Austari-Krókar",
                 "note": "húsm. '79",
                 "note_ref": null,
                 "year_from_value": 1877,
-                "year_to_value": 1880
+                "year_to_value": 1880,
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsm. á Hallandi (35) 1881.",

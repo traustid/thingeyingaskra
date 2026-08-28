@@ -982,11 +982,35 @@
                 "year": "1899",
                 "age": 26,
                 "status": "Hjú",
-                "location": "A-Krókum",
+                "location": "Austari-Krókar",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1899,
-                "year_to_value": 1899
+                "year_to_value": 1899,
+                "location_obj": {
+                    "id": 25731,
+                    "name": "Austari-Krókar",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Bjargi (26 ára) . . . 1900.",
@@ -3957,7 +3981,27 @@
             "birth": {
                 "original_string": "F. 19/7 1868 í V-Krókum.",
                 "date": "1868-07-19",
-                "location": "V-Krókum"
+                "location": "Vestari-Krókar",
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -4010,9 +4054,29 @@
                 "original_string": "F. 19/7 1868 í V-Krókum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "V-Krókum",
+                "location": "Vestari-Krókar",
                 "year_from_value": 1868,
-                "year_to_value": 1868
+                "year_to_value": 1868,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Vestari-Krókum (1 árs) -1868-1872-",
@@ -4085,11 +4149,31 @@
                 "year": "1877-1882",
                 "age": 11,
                 "status": "Niðurs.",
-                "location": "V-Krókum",
+                "location": "Vestari-Krókar",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1877,
-                "year_to_value": 1882
+                "year_to_value": 1882,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á sama bæ . . . 1883-1886.",

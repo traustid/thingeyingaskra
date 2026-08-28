@@ -1968,7 +1968,7 @@
         "parents_original_string": "For.: Á. Halldórsson og Sigurveig Árnadóttir.",
         "residence_history": [
             {
-                "original_string": "Hjá for. í Dali (á l.) 1859-1873.",
+                "original_string": "Hjá for. í Dæli (á l.) 1859-1873.",
                 "year": "1859-1873",
                 "age": null,
                 "status": "Hjá for.",
@@ -1976,7 +1976,31 @@
                 "note": "á l.",
                 "note_ref": null,
                 "year_from_value": 1859,
-                "year_to_value": 1873
+                "year_to_value": 1873,
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Fjóshatungu (21) 1879-1880.",
@@ -4095,11 +4119,31 @@
                 "year": "1887-1891",
                 "age": 32,
                 "status": "Hjá for.",
-                "location": "V-Krókum",
+                "location": "Vestari-Krókar",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1887,
-                "year_to_value": 1891
+                "year_to_value": 1891,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Systir B. á Hóli Höfð. (37) 1892-1896.",

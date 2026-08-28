@@ -5,9 +5,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 3/11. 1859 í Dali.",
+                "original_string": "F. 3/11. 1859 í Dæli.",
                 "date": "1859-11-03",
-                "location": "Dæli"
+                "location": "Dæli",
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -49,22 +73,70 @@
         "residence_history": [
             {
                 "year": "1859",
-                "original_string": "F. 3/11. 1859 í Dali.",
+                "original_string": "F. 3/11. 1859 í Dæli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
                 "location": "Dæli",
                 "year_from_value": 1859,
-                "year_to_value": 1859
+                "year_to_value": 1859,
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. í Dali (1 árs) 1859-1876-",
+                "original_string": "Hjá for. í Dæli (1 árs) 1859-1876-",
                 "year": "1859-1876",
                 "age": 1,
                 "status": "Hjá for.",
                 "location": "Dæli",
                 "note": "",
                 "year_from_value": 1859,
-                "year_to_value": 1876
+                "year_to_value": 1876,
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá móður á sama bæ (18) 1877.",
@@ -416,22 +488,18 @@
                 "date": "1830-12-08",
                 "location": "Hjalli",
                 "location_obj": {
-                    "id": 90003,
+                    "id": 90004,
                     "name": "Hjalli",
-                    "lat": "65.969928",
-                    "lng": "-18.211361",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Reykjadalur",
+                            "id": 16405
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -503,22 +571,18 @@
                 "year_from_value": 1830,
                 "year_to_value": 1830,
                 "location_obj": {
-                    "id": 90003,
+                    "id": 90004,
                     "name": "Hjalli",
-                    "lat": "65.969928",
-                    "lng": "-18.211361",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Reykjadalur",
+                            "id": 16405
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -541,22 +605,18 @@
                 "year_from_value": 1830,
                 "year_to_value": 1830,
                 "location_obj": {
-                    "id": 90003,
+                    "id": 90004,
                     "name": "Hjalli",
-                    "lat": "65.969928",
-                    "lng": "-18.211361",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Reykjadalur",
+                            "id": 16405
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2632,10 +2692,34 @@
                 "year": "1863",
                 "age": 19,
                 "status": "Hjú",
-                "location": "Þverá, R.",
+                "location": "Þverá, Rhv.",
                 "note": "",
                 "year_from_value": 1863,
-                "year_to_value": 1863
+                "year_to_value": 1863,
+                "location_obj": {
+                    "id": 16638,
+                    "name": "Þverá",
+                    "lat": "65.919194",
+                    "lng": "-17.30752",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Jarlsst. Þ. (20) 1863.",
@@ -3824,11 +3908,11 @@
                 }
             },
             {
-                "original_string": "E. lifandi á Jódisarst. (39) 1870.",
+                "original_string": "E. lifandi á Jódísarst. (39) 1870.",
                 "year": "1870",
                 "age": 39,
                 "status": "E. lifandi",
-                "location": "Jódisarstaðir",
+                "location": "Jódísarstaðir",
                 "note": "",
                 "year_from_value": 1870,
                 "year_to_value": 1870,

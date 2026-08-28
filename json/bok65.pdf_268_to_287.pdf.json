@@ -254,11 +254,11 @@
                 }
             },
             {
-                "original_string": "Húsfr. á Jódisarst. (25) 1899-1900.",
+                "original_string": "Húsfr. á Jódísarst. (25) 1899-1900.",
                 "year": "1899-1900",
                 "age": 25,
                 "status": "Húsfr.",
-                "location": "Jódisarstaðir",
+                "location": "Jódísarstaðir",
                 "note": "",
                 "year_from_value": 1899,
                 "year_to_value": 1900,
@@ -3289,22 +3289,18 @@
                 "date": "1803-04-12",
                 "location": "Hjalli, Grýt",
                 "location_obj": {
-                    "id": 90003,
+                    "id": 90004,
                     "name": "Hjalli",
-                    "lat": "65.969928",
-                    "lng": "-18.211361",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Reykjadalur",
+                            "id": 16405
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3364,22 +3360,18 @@
                 "year_from_value": 1803,
                 "year_to_value": 1803,
                 "location_obj": {
-                    "id": 90003,
+                    "id": 90004,
                     "name": "Hjalli",
-                    "lat": "65.969928",
-                    "lng": "-18.211361",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Reykjadalur",
+                            "id": 16405
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3695,9 +3687,33 @@
                 }
             },
             "death": {
-                "original_string": "D. í Dali 25/8. 1843, 35 ára",
+                "original_string": "D. í Dæli 25/8. 1843, 35 ára",
                 "date": "1843-08-25",
-                "location": "Dæli"
+                "location": "Dæli",
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Steinunn",
@@ -3710,7 +3726,7 @@
             {
                 "name": "Árni Halldórsson",
                 "date": "1833-05-13",
-                "status": "í Dali",
+                "status": "í Dæli",
                 "names": [
                     "Árni",
                     "Halldórsson"
@@ -3719,7 +3735,7 @@
                 "lastName": "Halldórsson"
             }
         ],
-        "spouse_original_string": "M. 13/5. 1833 : Árni Halldórsson (í Dali).",
+        "spouse_original_string": "M. 13/5. 1833 : Árni Halldórsson (í Dæli).",
         "parents": [
             {
                 "name": "J. Jónsson",
@@ -3894,14 +3910,38 @@
                 }
             },
             {
-                "original_string": "G. í Dali (26) 1833-1839.",
+                "original_string": "G. í Dæli (26) 1833-1839.",
                 "year": "1833-1839",
                 "age": 26,
                 "status": "G.",
                 "location": "Dæli",
                 "note": "",
                 "year_from_value": 1833,
-                "year_to_value": 1839
+                "year_to_value": 1839,
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. á sama bæ . . . 1840-1842-",
@@ -3915,12 +3955,36 @@
             },
             {
                 "year": "1843",
-                "original_string": "D. í Dali 25/8. 1843, 35 ára",
+                "original_string": "D. í Dæli 25/8. 1843, 35 ára",
                 "age": 0,
                 "status": "Dánarstaður",
                 "location": "Dæli",
                 "year_from_value": 1843,
-                "year_to_value": 1843
+                "year_to_value": 1843,
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

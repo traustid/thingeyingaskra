@@ -1630,22 +1630,18 @@
                 "year_from_value": 1879,
                 "year_to_value": 1881,
                 "location_obj": {
-                    "id": 90003,
+                    "id": 90004,
                     "name": "Hjalli",
-                    "lat": "65.969928",
-                    "lng": "-18.211361",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Reykjadalur",
+                            "id": 16405
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3928,14 +3924,38 @@
         "parents_original_string": "",
         "residence_history": [
             {
-                "original_string": "E. húsm., smiður í Dali (42) 1885.",
+                "original_string": "E. húsm., smiður í Dæli (42) 1885.",
                 "year": "1885",
                 "age": 42,
                 "status": "E. húsm.",
                 "location": "Dæli",
                 "note": "smiður",
                 "year_from_value": 1885,
-                "year_to_value": 1885
+                "year_to_value": 1885,
+                "location_obj": {
+                    "id": 90085,
+                    "name": "Dæli",
+                    "lat": "65.798674",
+                    "lng": "-17.913472",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

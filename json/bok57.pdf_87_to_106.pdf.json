@@ -368,35 +368,7 @@
             "birth": {
                 "original_string": "F. 2/8 1810 á Eyri Fjörðum.",
                 "date": "1810-08-02",
-                "location": "Eyri, Fjörðum",
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Eyri, Fjörðum"
             },
             "death": {
                 "original_string": "Grafin 19/7. 1818, 9 ára.",
@@ -443,35 +415,7 @@
                 "status": "Fæðingarstaður",
                 "location": "Eyri, Fjörðum",
                 "year_from_value": 1810,
-                "year_to_value": 1810,
-                "location_obj": {
-                    "id": 90008,
-                    "name": "Eyri",
-                    "lat": "66.104731",
-                    "lng": "-17.87562",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Knarrareyri",
-                            "id": 0
-                        },
-                        {
-                            "name": "Flateyjardalur",
-                            "id": 24091
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1810
             },
             {
                 "original_string": "Með for. á Eyri Fj. (á l.) 1811-1817 -",
@@ -1985,7 +1929,7 @@
             {
                 "name": "Benedikt Jónsson",
                 "date": "1873-01-27",
-                "status": "á Veigeirsstöðum",
+                "status": "á Végeirsstöðum",
                 "names": [
                     "Benedikt",
                     "Jónsson"
@@ -1994,7 +1938,7 @@
                 "lastName": "Jónsson"
             }
         ],
-        "spouse_original_string": "M. 27/1. 1873: Benedikt Jónsson (á Veigeirsstöðum).",
+        "spouse_original_string": "M. 27/1. 1873: Benedikt Jónsson (á Végeirsstöðum).",
         "parents": [
             {
                 "name": "P. Árnason",
@@ -2010,15 +1954,39 @@
         "parents_original_string": "P. Árnason (í Fljótum, Skagaf.s.).",
         "residence_history": [
             {
-                "original_string": "Ráðsk. á Veigeirsstöðum (20) 1872. (Kom frá Ak.).",
+                "original_string": "Ráðsk. á Végeirsstöðum (20) 1872. (Kom frá Ak.).",
                 "year_or_period": "1872",
                 "age": 20,
                 "status": "Ráðsk.",
-                "location": "Veigeirsstaðir",
+                "location": "Végeirsstaðir",
                 "note": "Kom frá Ak.",
                 "year": "1872",
                 "year_from_value": 1872,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 12053,
+                    "name": "Végeirsstaðir",
+                    "lat": "65.8107",
+                    "lng": "-17.89104",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
