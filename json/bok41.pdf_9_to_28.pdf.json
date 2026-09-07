@@ -613,10 +613,10 @@
                 "Jón",
                 "Kjartansson",
                 "(á",
-                "Daðastaðir)"
+                "Daðastöðum)"
             ],
             "firstName": "Jón",
-            "lastName": "Daðastaðir)"
+            "lastName": "Daðastöðum)"
         },
         "spouse": [
             {
@@ -1504,7 +1504,7 @@
                 "year": "1860-",
                 "age": 20,
                 "status": "Hjú",
-                "location": "Hofstöðum",
+                "location": "Hofsstöðum",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1860,
@@ -3164,9 +3164,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 12/10 1793 á Birningstaðir L",
+                "original_string": "F. 12/10 1793 á Birningsstaðir L",
                 "date": "1793-10-12",
-                "location": "Birningstaðir L",
+                "location": "Birningsstaðir L",
                 "location_obj": {
                     "id": 16541,
                     "name": "Birningsstaðir",
@@ -3244,10 +3244,10 @@
         "residence_history": [
             {
                 "year": "1793",
-                "original_string": "F. 12/10 1793 á Birningstaðir L",
+                "original_string": "F. 12/10 1793 á Birningsstaðir L",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Birningstaðir L",
+                "location": "Birningsstaðir L",
                 "year_from_value": 1793,
                 "year_to_value": 1793,
                 "location_obj": {
@@ -3276,15 +3276,39 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Birningst., L. (8 ára) 1801-1803.",
+                "original_string": "Hjá for. á Birningsstaðir, L. (8 ára) 1801-1803.",
                 "year": "1801-1803",
                 "age": 8,
                 "status": "Hjá for.",
-                "location": "Birningst., L.",
+                "location": "Birningsstaðir, L.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1801,
-                "year_to_value": 1803
+                "year_to_value": 1803,
+                "location_obj": {
+                    "id": 16541,
+                    "name": "Birningsstaðir",
+                    "lat": "65.768257",
+                    "lng": "-17.279065",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fósturson á Hallandi (12) 1805-1821.",
@@ -4221,7 +4245,7 @@
                 "year": "1848-1863",
                 "age": null,
                 "status": "Býr",
-                "location": "Ysta-Fell",
+                "location": "Ystafell",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1848,

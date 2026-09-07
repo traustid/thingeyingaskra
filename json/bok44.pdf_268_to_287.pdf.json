@@ -1552,7 +1552,31 @@
             "birth": {
                 "original_string": "F. 7/6 1867 í Fagrabæ.",
                 "date": "1867-06-07",
-                "location": "Fagrabær"
+                "location": "Fagribær",
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1597,20 +1621,68 @@
                 "original_string": "F. 7/6 1867 í Fagrabæ.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "year_from_value": 1867,
-                "year_to_value": 1867
+                "year_to_value": 1867,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Fagrabæ (ca 1.) 1867-1887-89.",
                 "year": "1867-1889",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "note": "ca",
                 "note_ref": null,
                 "year_from_value": 1867,
-                "year_to_value": 1889
+                "year_to_value": 1889,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Hvammi (22) 1889.",

@@ -1361,9 +1361,9 @@
                 }
             },
             "death": {
-                "original_string": "D. á Birningst. F. 1/8. 1843.",
+                "original_string": "D. á Birningsstaðir F. 1/8. 1843.",
                 "date": "1843-08-01",
-                "location": "Birningstaðir",
+                "location": "Birningsstaðir",
                 "location_obj": {
                     "id": 16541,
                     "name": "Birningsstaðir",
@@ -1592,11 +1592,11 @@
                 }
             },
             {
-                "original_string": "Hjú á Birningst. Fr. (71) 1842. (Dáinn 1843).",
+                "original_string": "Hjú á Birningsstaðir Fr. (71) 1842. (Dáinn 1843).",
                 "year": "1842",
                 "age": 71,
                 "status": "Hjú",
-                "location": "Birningstaðir",
+                "location": "Birningsstaðir",
                 "note": "Dáinn 1843",
                 "note_ref": 1,
                 "year_from_value": 1842,
@@ -1628,10 +1628,10 @@
             },
             {
                 "year": "1843",
-                "original_string": "D. á Birningst. F. 1/8. 1843.",
+                "original_string": "D. á Birningsstaðir F. 1/8. 1843.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Birningstaðir",
+                "location": "Birningsstaðir",
                 "year_from_value": 1843,
                 "year_to_value": 1843,
                 "location_obj": {
@@ -2295,23 +2295,23 @@
                 "year": "1891-1892",
                 "age": 27,
                 "status": "Hjú",
-                "location": "Garður",
+                "location": "Garður M.",
                 "note": "",
                 "year_from_value": 1891,
                 "year_to_value": 1892,
                 "location_obj": {
-                    "id": 16845,
+                    "id": 1003406,
                     "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
+                    "lat": "65.553393",
+                    "lng": "-16.973920",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Aðaldalur",
-                            "id": 16498
+                            "name": "Mývatnssveit",
+                            "id": 16604
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3572,10 +3572,34 @@
                 "year": "1860-1862",
                 "age": 1,
                 "status": "Tökubarn",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "note": "",
                 "year_from_value": 1860,
-                "year_to_value": 1862
+                "year_to_value": 1862,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fósturb. í Hléskógum (5) 1863.",

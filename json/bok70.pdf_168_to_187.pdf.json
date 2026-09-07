@@ -5,9 +5,9 @@
             "status": "á Birningsstöðum",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 5/2. 1899 á Birningstaðir L",
+                "original_string": "F. 5/2. 1899 á Birningsstaðir L",
                 "date": "1899-02-05",
-                "location": "Birningstaðir L",
+                "location": "Birningsstaðir L",
                 "location_obj": {
                     "id": 16541,
                     "name": "Birningsstaðir",
@@ -73,10 +73,10 @@
         "residence_history": [
             {
                 "year": "1899",
-                "original_string": "F. 5/2. 1899 á Birningstaðir L",
+                "original_string": "F. 5/2. 1899 á Birningsstaðir L",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Birningstaðir L",
+                "location": "Birningsstaðir L",
                 "year_from_value": 1899,
                 "year_to_value": 1899,
                 "location_obj": {
@@ -105,11 +105,11 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Birningst. L. (á 1.) 1899-1900-",
+                "original_string": "Hjá for. á Birningsstaðir L. (á 1.) 1899-1900-",
                 "year": "1899-1900-",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Birningstaðir L",
+                "location": "Birningsstaðir L",
                 "note": "á 1.",
                 "note_ref": null,
                 "year_from_value": 1899,
@@ -2984,11 +2984,11 @@
                 }
             },
             {
-                "original_string": "G. hjú að 1/2 á Birningst. L. (54) 1867-1871.",
+                "original_string": "G. hjú að 1/2 á Birningsstaðir L. (54) 1867-1871.",
                 "year": "1867-1871",
                 "age": 54,
                 "status": "G. hjú",
-                "location": "Birningstaðir L",
+                "location": "Birningsstaðir L",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1867,
@@ -3054,11 +3054,11 @@
                 }
             },
             {
-                "original_string": "G. hjú á Birningst. L. (66) 1876.",
+                "original_string": "G. hjú á Birningsstaðir L. (66) 1876.",
                 "year": "1876",
                 "age": 66,
                 "status": "G. hjú",
-                "location": "Birningstaðir L",
+                "location": "Birningsstaðir L",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1876,
@@ -3557,6 +3557,7 @@
                 "note": "",
                 "names": [
                     "J.",
+                    "pr.",
                     "Jónsson"
                 ],
                 "firstName": "J.",
@@ -3814,15 +3815,39 @@
                 "year_to_value": 1833
             },
             {
-                "original_string": "Smali, léttingur, hjú á Sveinarnesi (14) 1833-1843.",
+                "original_string": "Smali, léttingur, hjú á Svínárnesi (14) 1833-1843.",
                 "year": "1833-1843",
                 "age": 14,
                 "status": "Smali, léttingur, hjú",
-                "location": "Sveinarnesi",
+                "location": "Svínárnesi",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1833,
-                "year_to_value": 1843
+                "year_to_value": 1843,
+                "location_obj": {
+                    "id": 14541,
+                    "name": "Svínárnes",
+                    "lat": "65.997767",
+                    "lng": "-18.25444",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú í Hvammi (24) 1844-1845.",
@@ -3864,15 +3889,39 @@
                 }
             },
             {
-                "original_string": "Hjú á Sveinarnesi... 1846-1847. (G.'47).",
+                "original_string": "Hjú á Svínárnesi... 1846-1847. (G.'47).",
                 "year": "1846-1847",
                 "age": null,
                 "status": "Hjú",
-                "location": "Sveinarnesi",
+                "location": "Svínárnesi",
                 "note": "(G.'47)",
                 "note_ref": null,
                 "year_from_value": 1846,
-                "year_to_value": 1847
+                "year_to_value": 1847,
+                "location_obj": {
+                    "id": 14541,
+                    "name": "Svínárnes",
+                    "lat": "65.997767",
+                    "lng": "-18.25444",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Finnastöðum (28) 1848-51. (Hrb).",

@@ -633,14 +633,38 @@
                 }
             },
             {
-                "original_string": "Hjá á Svinárnesi (22) 1861-1864.",
+                "original_string": "Hjá á Svínárnesi (22) 1861-1864.",
                 "year": "1861-1864",
                 "age": 22,
                 "status": "Hjá",
-                "location": "Svinárnes",
+                "location": "Svínárnes",
                 "note": "",
                 "year_from_value": 1861,
-                "year_to_value": 1864
+                "year_to_value": 1864,
+                "location_obj": {
+                    "id": 14541,
+                    "name": "Svínárnes",
+                    "lat": "65.997767",
+                    "lng": "-18.25444",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1650,7 +1674,7 @@
                 "year": "1874-1876",
                 "age": 41,
                 "status": "G. hjú",
-                "location": "Hofstaðir",
+                "location": "Hofsstaðir",
                 "note": "",
                 "year_from_value": 1874,
                 "year_to_value": 1876,
@@ -3916,18 +3940,18 @@
                 "year_from_value": 1887,
                 "year_to_value": 1895,
                 "location_obj": {
-                    "id": 1002583,
+                    "id": 16545,
                     "name": "Brettingsstaðir",
-                    "lat": "66.118751",
-                    "lng": "-17.913197",
+                    "lat": "65.6436240882",
+                    "lng": "-17.1706867218",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Flateyjardalur",
-                            "id": 24091
+                            "name": "Laxárdalur",
+                            "id": 24700
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

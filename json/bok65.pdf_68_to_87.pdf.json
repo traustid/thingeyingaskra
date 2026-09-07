@@ -1113,14 +1113,38 @@
                 }
             },
             {
-                "original_string": "Hjú á Sveinarnesi (24) 1870-1872.",
+                "original_string": "Hjú á Svínárnesi (24) 1870-1872.",
                 "year": "1870-1872",
                 "age": 24,
                 "status": "Hjú",
-                "location": "Sveinarnesi",
+                "location": "Svínárnesi",
                 "note": "",
                 "year_from_value": 1870,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 14541,
+                    "name": "Svínárnes",
+                    "lat": "65.997767",
+                    "lng": "-18.25444",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -1809,7 +1833,35 @@
             "birth": {
                 "original_string": "F. 16/6. 1897 á Knarrareyri.",
                 "date": "1897-06-16",
-                "location": "Knarrareyri (Eyri)"
+                "location": "Knarrareyri (Eyri)",
+                "location_obj": {
+                    "id": 90008,
+                    "name": "Knarrareyri",
+                    "lat": "66.104731",
+                    "lng": "-17.87562",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Eyri",
+                            "id": 0
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1856,7 +1908,35 @@
                 "status": "Fæðingarstaður",
                 "location": "Knarrareyri (Eyri)",
                 "year_from_value": 1897,
-                "year_to_value": 1897
+                "year_to_value": 1897,
+                "location_obj": {
+                    "id": 90008,
+                    "name": "Knarrareyri",
+                    "lat": "66.104731",
+                    "lng": "-17.87562",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Eyri",
+                            "id": 0
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Eyri Fl. (á 1.) 1897.",
@@ -2208,6 +2288,7 @@
                 "note": "",
                 "names": [
                     "Jón",
+                    "pr.",
                     "Stefánsson"
                 ],
                 "firstName": "Jón",
@@ -2428,6 +2509,7 @@
                 "note": "eldri",
                 "names": [
                     "Jón",
+                    "pr.",
                     "Reykjalín"
                 ],
                 "firstName": "Jón",

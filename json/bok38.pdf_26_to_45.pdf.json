@@ -678,18 +678,18 @@
                 "year_from_value": 1863,
                 "year_to_value": 1863,
                 "location_obj": {
-                    "id": 12361,
+                    "id": 23886,
                     "name": "Bakki",
-                    "lat": "65.57006",
-                    "lng": "-17.703681",
+                    "lat": "66.070217",
+                    "lng": "-17.34827",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
+                            "name": "Tjörnes",
+                            "id": 16460
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3010,6 +3010,7 @@
                 "note": "",
                 "names": [
                     "Guðmundur",
+                    "pr.",
                     "Guðmundsson"
                 ],
                 "firstName": "Guðmundur",
@@ -3078,7 +3079,31 @@
             "birth": {
                 "original_string": "F. 21/6. 1793. á Hamri, Laxárdal.",
                 "date": "1793-06-21",
-                "location": "Hamur, Laxárdalur"
+                "location": "Hamar, Laxárdalur",
+                "location_obj": {
+                    "id": 16561,
+                    "name": "Hamar",
+                    "lat": "65.67005",
+                    "lng": "-17.17729",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -3123,9 +3148,33 @@
                 "original_string": "F. 21/6. 1793. á Hamri, Laxárdal.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hamur, Laxárdalur",
+                "location": "Hamar, Laxárdalur",
                 "year_from_value": 1793,
-                "year_to_value": 1793
+                "year_to_value": 1793,
+                "location_obj": {
+                    "id": 16561,
+                    "name": "Hamar",
+                    "lat": "65.67005",
+                    "lng": "-17.17729",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hamri (8 ára) 1801-1803.",

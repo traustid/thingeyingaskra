@@ -398,6 +398,7 @@
                 "note": "",
                 "names": [
                     "Sig.",
+                    "pr.",
                     "Árnason"
                 ],
                 "firstName": "Sig.",
@@ -1328,7 +1329,7 @@
             "birth": {
                 "original_string": "F. 20/11 1885 á Hofstöðum.",
                 "date": "1885-11-20",
-                "location": "Hofstaðir",
+                "location": "Hofsstaðir",
                 "location_obj": {
                     "id": 13626,
                     "name": "Hofsstaðir",
@@ -1397,7 +1398,7 @@
                 "original_string": "F. 20/11 1885 á Hofstöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hofstaðir",
+                "location": "Hofsstaðir",
                 "year_from_value": 1885,
                 "year_to_value": 1885,
                 "location_obj": {
@@ -1430,7 +1431,7 @@
                 "year": "1885–1886",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Hofstaðir",
+                "location": "Hofsstaðir",
                 "note": "ál.",
                 "note_ref": null,
                 "location_obj": {
@@ -1463,7 +1464,7 @@
                 "year": "1888–1900",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Hofstaðir",
+                "location": "Hofsstaðir",
                 "note": "Og líklega einnig 1887",
                 "note_ref": null,
                 "location_obj": {
@@ -2264,18 +2265,18 @@
                 "year_from_value": 1874,
                 "year_to_value": 1874,
                 "location_obj": {
-                    "id": 16559,
+                    "id": 33711,
                     "name": "Halldórsstaðir",
-                    "lat": "65.746042",
-                    "lng": "-17.270317",
+                    "lat": "65.760420",
+                    "lng": "-17.388783",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Laxárdalur",
-                            "id": 24700
+                            "name": "Reykjadalur",
+                            "id": 16405
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2604,11 +2605,35 @@
                 "year": "1862",
                 "age": null,
                 "status": "Fósturb.",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "note": "ál.",
                 "note_ref": null,
                 "year_from_value": 1862,
-                "year_to_value": 1862
+                "year_to_value": 1862,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

@@ -777,10 +777,34 @@
                 "year_or_period": "1872–73",
                 "age": null,
                 "status": "B.",
-                "location": "Skógar R.",
+                "location": "Skógar Rhv.",
                 "note": "",
                 "note_ref": null,
-                "year": "1872–73"
+                "year": "1872–73",
+                "location_obj": {
+                    "id": 1000913,
+                    "name": "Skógar",
+                    "lat": "65.939166",
+                    "lng": "-17.306057",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Brekknakoti (31) 1874.",
@@ -2457,14 +2481,38 @@
                 "year_to_value": 1770
             },
             {
-                "original_string": "B. á Sveinarnesi (31)–1801–07. (Og Eing.–Hrb.)",
+                "original_string": "B. á Svínárnesi (31)–1801–07. (Og Eing.–Hrb.)",
                 "year_or_period": "1801–07",
                 "age": 31,
                 "status": "B.",
-                "location": "Sveinarnes",
+                "location": "Svínárnes",
                 "note": "Og Eing.–Hrb.",
                 "note_ref": null,
-                "year": "1801–07"
+                "year": "1801–07",
+                "location_obj": {
+                    "id": 14541,
+                    "name": "Svínárnes",
+                    "lat": "65.997767",
+                    "lng": "-18.25444",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Látrum (38) 1807–22.",

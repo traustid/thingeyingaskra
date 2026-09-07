@@ -2834,18 +2834,18 @@
                 "year_from_value": 1860,
                 "year_to_value": 1860,
                 "location_obj": {
-                    "id": 1003406,
+                    "id": 16845,
                     "name": "Garður",
-                    "lat": "65.553393",
-                    "lng": "-16.973920",
+                    "lat": "65.879636",
+                    "lng": "-17.446246",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Aðaldalur",
+                            "id": 16498
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -5043,7 +5043,31 @@
             "birth": {
                 "original_string": "F. 10/11. 1868 á Fagrabæ.",
                 "date": "1868-11-10",
-                "location": "Fagrabær"
+                "location": "Fagribær",
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. á Skarði 18/4. 1873, 4 ára.",
@@ -5112,20 +5136,68 @@
                 "original_string": "F. 10/11. 1868 á Fagrabæ.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "year_from_value": 1868,
-                "year_to_value": 1868
+                "year_to_value": 1868,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Fagrabæ (á 1.) 1868.",
                 "year": "1868",
                 "age": 1,
                 "status": "Með for.",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1868,
-                "year_to_value": 1868
+                "year_to_value": 1868,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Skarði (á 1. árs) 1869-1872.",

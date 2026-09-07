@@ -2630,15 +2630,39 @@
                 }
             },
             {
-                "original_string": "Hjú á Hafstöðum (37) 1880-",
+                "original_string": "Hjú á Hofstöðum (37) 1880-",
                 "year": "1880",
                 "age": 37,
                 "status": "Hjú",
-                "location": "Hafstaðir",
+                "location": "Hofsstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1880,
-                "year_to_value": 1880
+                "year_to_value": 1880,
+                "location_obj": {
+                    "id": 13626,
+                    "name": "Hofsstaðir",
+                    "lat": "65.608268",
+                    "lng": "-17.164034",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Helluvaði (39) 1881- 1883. ?",
@@ -4183,7 +4207,7 @@
                 "year": "1850-1858",
                 "age": 8,
                 "status": "",
-                "location": "Ysta-Fell",
+                "location": "Ystafell",
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year_from_value": 1850,
@@ -4421,9 +4445,33 @@
             "status": "Ógift, en móðir",
             "unmarried": true,
             "birth": {
-                "original_string": "F. 16/4. 1880 á Hafstöðum.",
+                "original_string": "F. 16/4. 1880 á Hofstöðum.",
                 "date": "1880-04-16",
-                "location": "Hafstaðir"
+                "location": "Hofsstaðir",
+                "location_obj": {
+                    "id": 13626,
+                    "name": "Hofsstaðir",
+                    "lat": "65.608268",
+                    "lng": "-17.164034",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. 31/7 1943, 63 ára.",
@@ -4452,7 +4500,7 @@
             },
             {
                 "name": "Jakobína Pétursdóttir",
-                "note": "hj. á Hafstöðum",
+                "note": "hj. á Hofstöðum",
                 "names": [
                     "Jakobína",
                     "Pétursdóttir"
@@ -4461,16 +4509,40 @@
                 "lastName": "Pétursdóttir"
             }
         ],
-        "parents_original_string": "For.: J. Stefánsson og Jakobína Pétursdóttir, hj. á Hafstöðum.",
+        "parents_original_string": "For.: J. Stefánsson og Jakobína Pétursdóttir, hj. á Hofstöðum.",
         "residence_history": [
             {
                 "year": "1880",
-                "original_string": "F. 16/4. 1880 á Hafstöðum.",
+                "original_string": "F. 16/4. 1880 á Hofstöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hafstaðir",
+                "location": "Hofsstaðir",
                 "year_from_value": 1880,
-                "year_to_value": 1880
+                "year_to_value": 1880,
+                "location_obj": {
+                    "id": 13626,
+                    "name": "Hofsstaðir",
+                    "lat": "65.608268",
+                    "lng": "-17.164034",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í S. Neslöndum (á 1.) 1880- 1883.",

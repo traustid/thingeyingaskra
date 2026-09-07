@@ -525,18 +525,18 @@
                 "year_from_value": 1898,
                 "year_to_value": 1898,
                 "location_obj": {
-                    "id": 16409,
+                    "id": 25730,
                     "name": "Hallbjarnarstaðir",
-                    "lat": "65.671379",
-                    "lng": "-17.322558",
+                    "lat": "66.149698",
+                    "lng": "-17.251747",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Reykjadalur",
-                            "id": 16405
+                            "name": "Tjörnes",
+                            "id": 16460
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -4209,7 +4209,35 @@
             "birth": {
                 "original_string": "F. 3/10. 1899 á Knarrareyri.",
                 "date": "1899-10-03",
-                "location": "Knarrareyri (Eyri)"
+                "location": "Knarrareyri (Eyri)",
+                "location_obj": {
+                    "id": 90008,
+                    "name": "Knarrareyri",
+                    "lat": "66.104731",
+                    "lng": "-17.87562",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Eyri",
+                            "id": 0
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -4257,7 +4285,35 @@
                 "status": "Fæðingarstaður",
                 "location": "Knarrareyri (Eyri)",
                 "year_from_value": 1899,
-                "year_to_value": 1899
+                "year_to_value": 1899,
+                "location_obj": {
+                    "id": 90008,
+                    "name": "Knarrareyri",
+                    "lat": "66.104731",
+                    "lng": "-17.87562",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Eyri",
+                            "id": 0
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Eyri Fl. (á 1.) 1899.",

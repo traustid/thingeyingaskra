@@ -1422,6 +1422,7 @@
                 "note": "",
                 "names": [
                     "St.",
+                    "pr.",
                     "Halldórsson"
                 ],
                 "firstName": "St.",
@@ -2223,18 +2224,18 @@
                 "year_from_value": 1876,
                 "year_to_value": 1881,
                 "location_obj": {
-                    "id": 1006440,
+                    "id": 25899,
                     "name": "Þverá",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.730993",
+                    "lng": "-17.244662",
                     "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
+                        "id": 33,
+                        "name": "Bær"
                     },
                     "parent": [
                         {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
+                            "name": "Laxárdalur",
+                            "id": 24700
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2895,24 +2896,72 @@
                 "year_or_period": "1801",
                 "age": 11,
                 "status": "Uppalsingur",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "note": "",
                 "note_ref": null,
                 "year": "1801",
                 "year_from_value": 1801,
-                "year_to_value": 1801
+                "year_to_value": 1801,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Uppalsingur á Fagrabæ ... - 1812-1818 - (hjú 1818).",
                 "year_or_period": "1812-1818",
                 "age": null,
                 "status": "Uppalsingur",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "note": "hjú 1818",
                 "note_ref": null,
                 "year": "1812-1818",
                 "year_from_value": 1812,
-                "year_to_value": 1818
+                "year_to_value": 1818,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú frá Fagrabæ - að Vík, Héðinsfirði (32) 1822.",

@@ -12,8 +12,32 @@
             "death": {
                 "original_string": "D. á Hamri 18/6. 1803. 1)",
                 "date": "1803-06-18",
-                "location": "Hamur",
-                "note_ref": 1
+                "location": "Hamar",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 16561,
+                    "name": "Hamar",
+                    "lat": "65.67005",
+                    "lng": "-17.17729",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Guðmundur",
@@ -27,7 +51,7 @@
         "parents": [
             {
                 "name": "J. Einarsson",
-                "note": "Hafstöðum, Hamri",
+                "note": "Hofsstöðum, Hamri",
                 "names": [
                     "J.",
                     "Einarsson"
@@ -87,9 +111,33 @@
                 "original_string": "D. á Hamri 18/6. 1803. 1)",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Hamur",
+                "location": "Hamar",
                 "year_from_value": 1803,
-                "year_to_value": 1803
+                "year_to_value": 1803,
+                "location_obj": {
+                    "id": 16561,
+                    "name": "Hamar",
+                    "lat": "65.67005",
+                    "lng": "-17.17729",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -1478,18 +1526,18 @@
                 "year_from_value": 1804,
                 "year_to_value": 1805,
                 "location_obj": {
-                    "id": 1003406,
+                    "id": 16845,
                     "name": "Garður",
-                    "lat": "65.553393",
-                    "lng": "-16.973920",
+                    "lat": "65.879636",
+                    "lng": "-17.446246",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Mývatnssveit",
-                            "id": 16604
+                            "name": "Aðaldalur",
+                            "id": 16498
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

@@ -3405,11 +3405,35 @@
                 "year": "1896-1897",
                 "age": 31,
                 "status": "Kona v.",
-                "location": "Skógar R.",
+                "location": "Skógar Rhv.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1896,
-                "year_to_value": 1897
+                "year_to_value": 1897,
+                "location_obj": {
+                    "id": 1000913,
+                    "name": "Skógar",
+                    "lat": "65.939166",
+                    "lng": "-17.306057",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. húsk. í Nesi A. (33) 1898.",
@@ -4456,7 +4480,7 @@
                 "age": 50,
                 "status": "G. kona",
                 "location": "Helgastaðir",
-                "note": "að Svinárnesi",
+                "note": "að Svínárnesi",
                 "note_ref": null,
                 "year_from_value": 1853,
                 "year_to_value": 1859,
@@ -4486,15 +4510,39 @@
                 }
             },
             {
-                "original_string": "G. kona á Svinárnesi (57) 1860-1864.",
+                "original_string": "G. kona á Svínárnesi (57) 1860-1864.",
                 "year": "1860-1864",
                 "age": 57,
                 "status": "G. kona",
-                "location": "Svinárnes",
+                "location": "Svínárnes",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1860,
-                "year_to_value": 1864
+                "year_to_value": 1864,
+                "location_obj": {
+                    "id": 14541,
+                    "name": "Svínárnes",
+                    "lat": "65.997767",
+                    "lng": "-18.25444",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Móðir K. á sama bæ (62) 1865-1878.",
@@ -4509,7 +4557,7 @@
             }
         ],
         "notes": {
-            "1": "G. kona frá Svinárnesi."
+            "1": "G. kona frá Svínárnesi."
         },
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/e-1726-72?/41",
         "bok": "bok72",

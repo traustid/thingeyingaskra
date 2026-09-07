@@ -3,6 +3,9 @@ import os, json, re
 notFound = []
 
 for filename in os.listdir('json'):
+	#if 'bok37.pdf_26_to_45.pdf.json' not in filename:
+	#	continue
+
 	#print('Laga '+filename)
 	file = open('json/'+filename)
 	data = json.load(file)

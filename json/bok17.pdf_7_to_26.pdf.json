@@ -443,7 +443,7 @@
                 "year": "1862–1868",
                 "age": 4,
                 "status": "Hjá for.",
-                "location": "E.-Dalkstaðir",
+                "location": "Efri-Dálksstaðir",
                 "note": "",
                 "note_ref": null
             },
@@ -452,7 +452,7 @@
                 "year": "1870",
                 "age": 12,
                 "status": "Hjá for.",
-                "location": "N.-Dalkstaðir",
+                "location": "Neðri-Dálksstaðir",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1870,
@@ -496,11 +496,39 @@
                 "year": "1873",
                 "age": 15,
                 "status": "Léttadr.",
-                "location": "Birningsst., Fn.",
+                "location": "Birningsstaðir, Fn.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1873,
-                "year_to_value": 1873
+                "year_to_value": 1873,
+                "location_obj": {
+                    "id": 16541,
+                    "name": "Birningsstaðir",
+                    "lat": "65.717569",
+                    "lng": "-17.799308",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á sama bæ (16)–1875–1876.",
@@ -3142,13 +3170,37 @@
                 }
             },
             {
-                "original_string": "Hjú á Svinárnesi (26) 1845–1850.",
+                "original_string": "Hjú á Svínárnesi (26) 1845–1850.",
                 "year": "1845–1850",
                 "age": 26,
                 "status": "Hjú",
-                "location": "Svinárnes",
+                "location": "Svínárnes",
                 "note": "",
-                "note_ref": null
+                "note_ref": null,
+                "location_obj": {
+                    "id": 14541,
+                    "name": "Svínárnes",
+                    "lat": "65.997767",
+                    "lng": "-18.25444",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Grímsnesi (32) 1851.",
@@ -3190,7 +3242,7 @@
                 "year": "1852–1856",
                 "age": 35,
                 "status": "Hjú",
-                "location": "N.-Dalkstaðir",
+                "location": "Neðri-Dálksstaðir",
                 "note": "",
                 "note_ref": null
             },

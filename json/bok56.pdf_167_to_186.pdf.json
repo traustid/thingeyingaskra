@@ -3115,18 +3115,18 @@
                 "year_from_value": 1894,
                 "year_to_value": 1894,
                 "location_obj": {
-                    "id": 13949,
+                    "id": 33711,
                     "name": "Halldórsstaðir",
-                    "lat": "65.734894",
-                    "lng": "-17.594338",
+                    "lat": "65.760420",
+                    "lng": "-17.388783",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Kaldakinn",
-                            "id": 16594
+                            "name": "Reykjadalur",
+                            "id": 16405
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3610,7 +3610,7 @@
                 "year_or_period": "1801-",
                 "age": 13,
                 "status": "Hjú",
-                "location": "Hofstaðir",
+                "location": "Hofsstaðir",
                 "note": "",
                 "note_ref": null,
                 "year": "1801-",
@@ -3868,7 +3868,31 @@
             "birth": {
                 "original_string": "F. á Hamri um 1810.",
                 "date": "1810-00-00",
-                "location": "Hamur"
+                "location": "Hamar",
+                "location_obj": {
+                    "id": 16561,
+                    "name": "Hamar",
+                    "lat": "65.67005",
+                    "lng": "-17.17729",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Klömbur 22/6. 1883. 1)",
@@ -3949,9 +3973,33 @@
                 "original_string": "F. á Hamri um 1810.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hamur",
+                "location": "Hamar",
                 "year_from_value": 1810,
-                "year_to_value": 1810
+                "year_to_value": 1810,
+                "location_obj": {
+                    "id": 16561,
+                    "name": "Hamar",
+                    "lat": "65.67005",
+                    "lng": "-17.17729",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Laxárdalur",
+                            "id": 24700
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hamri 1810-1816.",

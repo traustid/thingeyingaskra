@@ -5,14 +5,63 @@
             "status": "fyrri",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 8/1 1799 á Bjarnarst. B.",
+                "original_string": "F. 8/1. 1799 á Bjarnarst. B.",
                 "date": "1799-01-08",
-                "location": "Bjarnarstaðabakki"
+                "location": "Bjarnarstaðir B.",
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
-                "original_string": "D. á s.st. 16/10 1803.",
+                "original_string": "D. á s.st. 16/10. 1803.",
                 "date": "1803-10-16",
-                "location": "Bjarnarstaðabakki"
+                "location": "Bjarnarstaðir B.",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Jón",
@@ -25,13 +74,13 @@
         "spouse_original_string": "",
         "parents": [
             {
-                "name": "A. Markússon",
+                "name": "Á. Markússon",
                 "note": "",
                 "names": [
-                    "A.",
+                    "Á.",
                     "Markússon"
                 ],
-                "firstName": "A.",
+                "firstName": "Á.",
                 "lastName": "Markússon"
             },
             {
@@ -45,37 +94,42 @@
                 "lastName": "Aradóttir"
             }
         ],
-        "parents_original_string": "For.: A. Markússon og Hólmfríður Aradóttir.",
+        "parents_original_string": "For.: Á. Markússon og Hólmfríður Aradóttir.",
         "residence_history": [
             {
-                "year": "1799",
-                "original_string": "F. 8/1 1799 á Bjarnarst. B.",
-                "age": 0,
-                "status": "Fæðingarstaður",
-                "location": "Bjarnarstaðabakki",
-                "year_from_value": 1799,
-                "year_to_value": 1799
-            },
-            {
-                "original_string": "Hjá for. á Bjarnarst. B. (3) 1801-1803.",
+                "original_string": "Hjá for. á Bjarnarst. B. (3) - 1801-1803.",
                 "year_or_period": "1801-1803",
                 "age": 3,
-                "status": "Hjá for.",
-                "location": "Bjarnarstaðabakki",
+                "status": "",
+                "location": "Bjarnarstaðir B.",
                 "note": "",
-                "note_ref": 1,
                 "year": "1801-1803",
                 "year_from_value": 1801,
-                "year_to_value": 1803
-            },
-            {
-                "year": "1803",
-                "original_string": "D. á s.st. 16/10 1803.",
-                "age": 0,
-                "status": "Dánarstaður",
-                "location": "Bjarnarstaðabakki",
-                "year_from_value": 1803,
-                "year_to_value": 1803
+                "year_to_value": 1803,
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
@@ -92,9 +146,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 9/11 1803 á Végeirsstöðum.",
+                "original_string": "F. 9/11. 1803 í Vegeirsstöðum.",
                 "date": "1803-11-09",
-                "location": "Végeirsstaðir",
+                "location": "Vegeirsstaðir",
                 "location_obj": {
                     "id": 12053,
                     "name": "Végeirsstaðir",
@@ -121,33 +175,10 @@
                 }
             },
             "death": {
-                "original_string": "D. í Skriðu 29/10 1858.",
+                "original_string": "D. í Skriðu 29/10. 1858.",
                 "date": "1858-10-29",
-                "location": "Rauðaskriða",
-                "location_obj": {
-                    "id": 24909,
-                    "name": "Rauðaskriða",
-                    "lat": "65.836736",
-                    "lng": "-17.472869",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Skriða",
+                "note_ref": 1
             },
             "names": [
                 "Jón",
@@ -180,16 +211,16 @@
                 "lastName": "Sigurðardóttir"
             }
         ],
-        "spouse_original_string": "K.: 1. Þórunn Jónsdóttir 2. Ingiríður Sigurðardóttir.",
+        "spouse_original_string": "K.: 1. Þórunn Jónsdóttir. 2. Ingiríður Sigurðardóttir.",
         "parents": [
             {
-                "name": "Ó. Ólafsson",
+                "name": "Á. Ólafsson",
                 "note": "",
                 "names": [
-                    "Ó.",
+                    "Á.",
                     "Ólafsson"
                 ],
-                "firstName": "Ó.",
+                "firstName": "Á.",
                 "lastName": "Ólafsson"
             },
             {
@@ -203,46 +234,13 @@
                 "lastName": "Jónsdóttir"
             }
         ],
-        "parents_original_string": "For.: Ó. Ólafsson og Guðrún Jónsdóttir.",
+        "parents_original_string": "For.: Á. Ólafsson og Guðrún Jónsdóttir.",
         "residence_history": [
-            {
-                "year": "1803",
-                "original_string": "F. 9/11 1803 á Végeirsstöðum.",
-                "age": 0,
-                "status": "Fæðingarstaður",
-                "location": "Végeirsstaðir",
-                "year_from_value": 1803,
-                "year_to_value": 1803,
-                "location_obj": {
-                    "id": 12053,
-                    "name": "Végeirsstaðir",
-                    "lat": "65.8107",
-                    "lng": "-17.89104",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
-            },
             {
                 "original_string": "Hjá for. á Tjörn (2) 1805-1815.",
                 "year_or_period": "1805-1815",
                 "age": 2,
-                "status": "Hjá for.",
+                "status": "",
                 "location": "Tjörn",
                 "note": "",
                 "year": "1805-1815",
@@ -274,11 +272,11 @@
                 }
             },
             {
-                "original_string": "Hjú í Fjóshatungu (13) 1816-",
+                "original_string": "Hjú í Fjósatungu (13) 1816-",
                 "year_or_period": "1816-",
                 "age": 13,
                 "status": "Hjú",
-                "location": "Fjóshatunga",
+                "location": "Fjósatunga",
                 "note": "",
                 "year": "1816-",
                 "year_from_value": 1816,
@@ -309,11 +307,11 @@
                 }
             },
             {
-                "original_string": "Hjú í Fjóshatungu (26) 1829-1831.",
+                "original_string": "Hjú í Fjósatungu (26)-1829-1831.",
                 "year_or_period": "1829-1831",
                 "age": 26,
                 "status": "Hjú",
-                "location": "Fjóshatunga",
+                "location": "Fjósatunga",
                 "note": "",
                 "year": "1829-1831",
                 "year_from_value": 1829,
@@ -344,11 +342,11 @@
                 }
             },
             {
-                "original_string": "Hjú í Fjóshatungu (32) 1834-1838-",
+                "original_string": "Hjú í Fjósatungu (32) 1834-1838-",
                 "year_or_period": "1834-1838",
                 "age": 32,
                 "status": "Hjú",
-                "location": "Fjóshatunga",
+                "location": "Fjósatunga",
                 "note": "",
                 "year": "1834-1838",
                 "year_from_value": 1834,
@@ -379,12 +377,12 @@
                 }
             },
             {
-                "original_string": "B. í Fjóshatungu (38) 1840-53.",
+                "original_string": "B. í Fjósatungu (38) 1840-53. (Hrb. Compantalinn B frá 18)",
                 "year_or_period": "1840-1853",
                 "age": 38,
                 "status": "B.",
-                "location": "Fjóshatunga",
-                "note": "Hrb. En partatímum frá 18",
+                "location": "Fjósatunga",
+                "note": "Hrb. Compantalinn B frá 18",
                 "year": "1840-1853",
                 "year_from_value": 1840,
                 "year_to_value": 1853,
@@ -449,10 +447,10 @@
                 }
             },
             {
-                "original_string": "Húsmaður í Sýrnesi (63) 1857-",
+                "original_string": "Húsm. í Sýrnesi (63) 1857-",
                 "year_or_period": "1857-",
                 "age": 63,
-                "status": "Húsmaður",
+                "status": "Húsm.",
                 "location": "Sýrnes",
                 "note": "",
                 "year": "1857-",
@@ -484,46 +482,13 @@
                 }
             },
             {
-                "original_string": "Hjú í Rauðuskriðu (62) 1858-",
+                "original_string": "Hjú í Rauðuskriðu (giftur Þórunni) (62) 1858-",
                 "year_or_period": "1858-",
                 "age": 62,
                 "status": "Hjú",
-                "location": "Rauðuskriða",
+                "location": "Rauðaskriða",
                 "note": "giftur Þórunni",
                 "year": "1858-",
-                "year_from_value": 1858,
-                "year_to_value": 1858,
-                "location_obj": {
-                    "id": 24909,
-                    "name": "Rauðaskriða",
-                    "lat": "65.836736",
-                    "lng": "-17.472869",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Aðaldalur",
-                            "id": 16498
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
-            },
-            {
-                "year": "1858",
-                "original_string": "D. í Skriðu 29/10 1858.",
-                "age": 0,
-                "status": "Dánarstaður",
-                "location": "Rauðaskriða",
                 "year_from_value": 1858,
                 "year_to_value": 1858,
                 "location_obj": {
@@ -566,12 +531,36 @@
             "status": "héraðslæknir á Kópaskeri",
             "unmarried": false,
             "birth": {
-                "original_string": "F. í Garði M. 10/9 1889.",
+                "original_string": "F. í Garði M. 10/9. 1889.",
                 "date": "1889-09-10",
-                "location": "Garður, Mýr."
+                "location": "Garður M.",
+                "location_obj": {
+                    "id": 1003406,
+                    "name": "Garður",
+                    "lat": "65.553393",
+                    "lng": "-16.973920",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
-                "original_string": "D. 10/1 1944.",
+                "original_string": "D. 10/1. 1944.",
                 "date": "1944-01-10",
                 "location": ""
             },
@@ -585,8 +574,8 @@
         "spouse": [
             {
                 "name": "Valgerður G. Sveinsdóttir",
-                "date": "",
-                "status": "frá Folli, Sléttuhlíð, f. 10/12 1895",
+                "date": "1895-12-10",
+                "status": "frá Folli, Sléttuhlíð",
                 "names": [
                     "Valgerður",
                     "G.",
@@ -596,7 +585,7 @@
                 "lastName": "Sveinsdóttir"
             }
         ],
-        "spouse_original_string": "K.: Valgerður G. Sveinsdóttir (frá Folli, Sléttuhlíð) f. 10/12 1895.",
+        "spouse_original_string": "K.: Valgerður G. Sveinsdóttir (frá Folli, Sléttuhlíð) f. 10/12. 1895.",
         "parents": [
             {
                 "name": "Á. Jónsson",
@@ -610,7 +599,7 @@
             },
             {
                 "name": "Guðbjörg Stefánsdóttir",
-                "note": "hj. bú í Garði M.",
+                "note": "hj. búi í Garði M.",
                 "names": [
                     "Guðbjörg",
                     "Stefánsdóttir"
@@ -619,23 +608,14 @@
                 "lastName": "Stefánsdóttir"
             }
         ],
-        "parents_original_string": "For.: Á. Jónsson og Guðbjörg Stefánsdóttir (hj. bú í Garði M.)",
+        "parents_original_string": "For.: Á. Jónsson og Guðbjörg Stefánsdóttir hj. búi í Garði M.",
         "residence_history": [
             {
-                "year": "1889",
-                "original_string": "F. í Garði M. 10/9 1889.",
-                "age": 0,
-                "status": "Fæðingarstaður",
-                "location": "Garður, Mýr.",
-                "year_from_value": 1889,
-                "year_to_value": 1889
-            },
-            {
-                "original_string": "Hjá for. í Garði M. (á 1.) 1889-1891.",
+                "original_string": "Hjá for. á Garði M. (á 1.) 1889-1891.",
                 "year_or_period": "1889-1891",
                 "age": 1,
-                "status": "Hjá for.",
-                "location": "Garður, M.",
+                "status": "",
+                "location": "Garður M.",
                 "note": "",
                 "year": "1889-1891",
                 "year_from_value": 1889,
@@ -702,12 +682,12 @@
             },
             {
                 "original_string": "Hjá for. í Garði M. ... 1893-1900-",
-                "year_or_period": "1893-1900",
+                "year_or_period": "1893-1900-",
                 "age": null,
-                "status": "Hjá for.",
-                "location": "Garður, M.",
+                "status": "",
+                "location": "Garður M.",
                 "note": "",
-                "year": "1893-1900",
+                "year": "1893-1900-",
                 "year_from_value": 1893,
                 "year_to_value": 1900,
                 "location_obj": {
@@ -745,17 +725,41 @@
     {
         "person": {
             "name": "Jón Árnason",
-            "status": "hrstj. í Haga",
+            "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. um 1780 í Nesi Þ.",
-                "date": "1780-01-01",
-                "location": "Nes, Þing."
+                "original_string": "F. 14/3. 1853 í Dali.",
+                "date": "1853-03-14",
+                "location": "Dalur",
+                "location_obj": {
+                    "id": 1001850,
+                    "name": "Dalur",
+                    "lat": "65.951668",
+                    "lng": "-18.159150",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grenivík",
+                            "id": 24170
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
-                "original_string": "D. 1874 í Garði Þ.",
-                "date": "1874-01-01",
-                "location": "Garður, Þing."
+                "original_string": "",
+                "date": "",
+                "location": ""
             },
             "names": [
                 "Jón",
@@ -766,29 +770,2265 @@
         },
         "spouse": [
             {
-                "name": "Sigurlaug Árgrímsdóttir",
+                "name": "Arnbjörg Guðlaugsdóttir",
+                "date": "",
+                "status": "",
+                "names": [
+                    "Arnbjörg",
+                    "Guðlaugsdóttir"
+                ],
+                "firstName": "Arnbjörg",
+                "lastName": "Guðlaugsdóttir"
+            }
+        ],
+        "spouse_original_string": "K.: Arnbjörg Guðlaugsdóttir.",
+        "parents": [
+            {
+                "name": "Á. Halldórsson",
+                "note": "",
+                "names": [
+                    "Á.",
+                    "Halldórsson"
+                ],
+                "firstName": "Á.",
+                "lastName": "Halldórsson"
+            },
+            {
+                "name": "Sigurveig Árnadóttir",
+                "note": "",
+                "names": [
+                    "Sigurveig",
+                    "Árnadóttir"
+                ],
+                "firstName": "Sigurveig",
+                "lastName": "Árnadóttir"
+            }
+        ],
+        "parents_original_string": "For.: Á. Halldórsson og Sigurveig Árnadóttir.",
+        "residence_history": [
+            {
+                "original_string": "Hjá for. í Dali (1 árs) 1853-1876.",
+                "year_or_period": "1853-1876",
+                "age": 1,
+                "status": "",
+                "location": "Dalur",
+                "note": "",
+                "year": "1853-1876",
+                "year_from_value": 1853,
+                "year_to_value": 1876,
+                "location_obj": {
+                    "id": 1001850,
+                    "name": "Dalur",
+                    "lat": "65.951668",
+                    "lng": "-18.159150",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grenivík",
+                            "id": 24170
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Hjá móður á sama bæ (24) 1877",
+                "year_or_period": "1877",
+                "age": 24,
+                "status": "",
+                "location": "Dalur",
+                "note": "",
+                "year": "1877",
+                "year_from_value": 1877,
+                "year_to_value": 1877,
+                "location_obj": {
+                    "id": 1001850,
+                    "name": "Dalur",
+                    "lat": "65.951668",
+                    "lng": "-18.159150",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Grenivík",
+                            "id": 24170
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Br. B. í Lundi (24) 1877-1883. (Svo).",
+                "year_or_period": "1877-1883",
+                "age": 24,
+                "status": "Br. B.",
+                "location": "Lundur",
+                "note": "Svo",
+                "year": "1877-1883",
+                "year_from_value": 1877,
+                "year_to_value": 1883,
+                "location_obj": {
+                    "id": 24743,
+                    "name": "Lundur",
+                    "lat": "65.690189",
+                    "lng": "-17.870023",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Br. B. í Fjósatungu (30) 1883-1885.",
+                "year_or_period": "1883-1885",
+                "age": 30,
+                "status": "Br. B.",
+                "location": "Fjósatunga",
+                "note": "",
+                "year": "1883-1885",
+                "year_from_value": 1883,
+                "year_to_value": 1885,
+                "location_obj": {
+                    "id": 1005212,
+                    "name": "Fjósatunga",
+                    "lat": "65.645111",
+                    "lng": "-17.851273",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. í Grjótárgerði Fn. (33) 1886-1889.",
+                "year_or_period": "1886-1889",
+                "age": 33,
+                "status": "B.",
+                "location": "Grjótárgerði, Fn.",
+                "note": "",
+                "year": "1886-1889",
+                "year_from_value": 1886,
+                "year_to_value": 1889,
+                "location_obj": {
+                    "id": 90012,
+                    "name": "Grjótárgerði",
+                    "lat": "65.631606",
+                    "lng": "-17.838890",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. á Kotungsstöðum (36) 1890-1893.",
+                "year_or_period": "1890-1893",
+                "age": 36,
+                "status": "B.",
+                "location": "Kotungsstaðir",
+                "note": "",
+                "year": "1890-1893",
+                "year_from_value": 1890,
+                "year_to_value": 1893,
+                "location_obj": {
+                    "id": 15272,
+                    "name": "Kotungsstaðir",
+                    "lat": "65.628533",
+                    "lng": "-17.838162",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. á Kambsstöðum (44) 1894-1900-",
+                "year_or_period": "1894-1900-",
+                "age": 44,
+                "status": "B.",
+                "location": "Kambsstaðir",
+                "note": "",
+                "year": "1894-1900-",
+                "year_from_value": 1894,
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 16617,
+                    "name": "Kambsstaðir",
+                    "lat": "65.706948",
+                    "lng": "-17.761724",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {},
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/29",
+        "bok": "bok37",
+        "number": 29,
+        "_id": "bok37-29"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "á Arndísarstöðum",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. 17/6. 1831 í Heiðarbót.",
+                "date": "1831-06-17",
+                "location": "Heiðarbót",
+                "location_obj": {
+                    "id": 24410,
+                    "name": "Heiðarbót",
+                    "lat": "65.922339",
+                    "lng": "-17.281055",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            "death": {
+                "original_string": "D. á Arndísarst. 28/7. 1895.",
+                "date": "1895-07-28",
+                "location": "Arndísarstaðir",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 15089,
+                    "name": "Arndísarstaðir",
+                    "lat": "65.648607",
+                    "lng": "-17.523857",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [
+            {
+                "name": "Herdís Ingjaldsdóttir",
+                "date": "",
+                "status": "frá Mýri",
+                "names": [
+                    "Herdís",
+                    "Ingjaldsdóttir"
+                ],
+                "firstName": "Herdís",
+                "lastName": "Ingjaldsdóttir"
+            }
+        ],
+        "spouse_original_string": "K.: Herdís Ingjaldsdóttir (frá Mýri).",
+        "parents": [
+            {
+                "name": "Á. Indriðason",
+                "note": "",
+                "names": [
+                    "Á.",
+                    "Indriðason"
+                ],
+                "firstName": "Á.",
+                "lastName": "Indriðason"
+            },
+            {
+                "name": "Helga Sörensdóttir",
+                "note": "",
+                "names": [
+                    "Helga",
+                    "Sörensdóttir"
+                ],
+                "firstName": "Helga",
+                "lastName": "Sörensdóttir"
+            }
+        ],
+        "parents_original_string": "For.: Á. Indriðason og Helga Sörensdóttir.",
+        "residence_history": [
+            {
+                "original_string": "Dótturson B. á Geirbjarnarst. (2 1/2) 1834-1838-",
+                "year_or_period": "1834-1838",
+                "age": 2.5,
+                "status": "Dótturson B.",
+                "location": "Geirbjarnarstaðir",
+                "note": "",
+                "year": "1834-1838",
+                "year_from_value": 1834,
+                "year_to_value": 1838,
+                "location_obj": {
+                    "id": 24139,
+                    "name": "Geirbjarnarstaðir",
+                    "lat": "65.897474",
+                    "lng": "-17.563625",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Hjá for. í Hólsgerði (14)-1844-",
+                "year_or_period": "1844-",
+                "age": 14,
+                "status": "",
+                "location": "Hólsgerði",
+                "note": "",
+                "year": "1844-",
+                "year_from_value": 1844,
+                "year_to_value": 1844,
+                "location_obj": {
+                    "id": 12312,
+                    "name": "Hólsgerði",
+                    "lat": "65.808411",
+                    "lng": "-17.550526",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "G. hjú á Mýri (25) 1856-1857.",
+                "year_or_period": "1856-1857",
+                "age": 25,
+                "status": "G. hjú",
+                "location": "Mýri",
+                "note": "",
+                "year": "1856-1857",
+                "year_from_value": 1856,
+                "year_to_value": 1857,
+                "location_obj": {
+                    "id": 24814,
+                    "name": "Mýri",
+                    "lat": "65.376773",
+                    "lng": "-17.388316",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. í Brenniási (26) 1857-64. (Hrb.).",
+                "year_or_period": "1857-1864",
+                "age": 26,
+                "status": "B.",
+                "location": "Brenniás",
+                "note": "Hrb.",
+                "year": "1857-1864",
+                "year_from_value": 1857,
+                "year_to_value": 1864,
+                "location_obj": {
+                    "id": 12830,
+                    "name": "Brenniás",
+                    "lat": "65.5893336226",
+                    "lng": "-17.4017846906",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. á Arndísarst. (35) 1864-95 (Hrb.).",
+                "year_or_period": "1864-1895",
+                "age": 35,
+                "status": "B.",
+                "location": "Arndísarstaðir",
+                "note": "Hrb.",
+                "year": "1864-1895",
+                "year_from_value": 1864,
+                "year_to_value": 1895,
+                "location_obj": {
+                    "id": 15089,
+                    "name": "Arndísarstaðir",
+                    "lat": "65.648607",
+                    "lng": "-17.523857",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {
+            "1": "B., 64 ára. - Influensa."
+        },
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/30",
+        "bok": "bok37",
+        "number": 30,
+        "_id": "bok37-30"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "á Skútustöðum",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. 18/2. 1820 í Skútust.",
+                "date": "1820-02-18",
+                "location": "Skútustaðir",
+                "location_obj": {
+                    "id": 16474,
+                    "name": "Skútustaðir",
+                    "lat": "65.5673011918",
+                    "lng": "-17.0371341705",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            "death": {
+                "original_string": "D. 13/8. 1875, 56 ára",
+                "date": "1875-08-13",
+                "location": "",
+                "note_ref": 1
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [
+            {
+                "name": "Þuríður Helgadóttir",
+                "date": "",
+                "status": "frá Skútustöðum",
+                "names": [
+                    "Þuríður",
+                    "Helgadóttir"
+                ],
+                "firstName": "Þuríður",
+                "lastName": "Helgadóttir"
+            }
+        ],
+        "spouse_original_string": "K.: Þuríður Helgadóttir (frá Skútustöðum).",
+        "parents": [
+            {
+                "name": "Á. Arason",
+                "note": "á Sveinstr.",
+                "names": [
+                    "Á.",
+                    "Arason"
+                ],
+                "firstName": "Á.",
+                "lastName": "Arason"
+            },
+            {
+                "name": "Sigríður Jónsdóttir",
+                "note": "",
+                "names": [
+                    "Sigríður",
+                    "Jónsdóttir"
+                ],
+                "firstName": "Sigríður",
+                "lastName": "Jónsdóttir"
+            }
+        ],
+        "parents_original_string": "For.: Á. Arason (á Sveinstr.) og Sigríður Jónsdóttir.",
+        "residence_history": [
+            {
+                "original_string": "Hjá for. á Sveinströnd (10) 1830-1848-",
+                "year_or_period": "1830-1848-",
+                "age": 10,
+                "status": "",
+                "location": "Sveinströnd",
+                "note": "",
+                "year": "1830-1848-",
+                "year_from_value": 1830,
+                "year_to_value": 1848,
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. á Sveinströnd (36) 1855-",
+                "year_or_period": "1855-",
+                "age": 36,
+                "status": "B.",
+                "location": "Sveinströnd",
+                "note": "",
+                "year": "1855-",
+                "year_from_value": 1855,
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 90024,
+                    "name": "Sveinströnd",
+                    "lat": "65.546314",
+                    "lng": "-17.082167",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. á Litluströnd ...-1849-1859.",
+                "year_or_period": "1849-1859",
+                "age": null,
+                "status": "B.",
+                "location": "Litlaströnd",
+                "note": "",
+                "year": "1849-1859",
+                "year_from_value": 1849,
+                "year_to_value": 1859,
+                "location_obj": {
+                    "id": 24724,
+                    "name": "Litlaströnd",
+                    "lat": "65.539896",
+                    "lng": "-17.069602",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. á Svínadal ... 1859-1871.",
+                "year_or_period": "1859-1871",
+                "age": null,
+                "status": "B.",
+                "location": "Svínadalur",
+                "note": "",
+                "year": "1859-1871",
+                "year_from_value": 1859,
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 16777,
+                    "name": "Svínadalur",
+                    "lat": "65.984506",
+                    "lng": "-16.512451",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kelduhverfi",
+                            "id": 24585
+                        },
+                        {
+                            "name": "Norður-Þingeyjarsýsla",
+                            "id": 16841
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. á Skútustöðum (52) 1871-1874.",
+                "year_or_period": "1871-1874",
+                "age": 52,
+                "status": "B.",
+                "location": "Skútustaðir",
+                "note": "(51) frá Svínadal",
+                "year": "1871-1874",
+                "year_from_value": 1871,
+                "year_to_value": 1874,
+                "location_obj": {
+                    "id": 16474,
+                    "name": "Skútustaðir",
+                    "lat": "65.5673011918",
+                    "lng": "-17.0371341705",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {
+            "1": "Bóndi. - Úr höfuðveiki"
+        },
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/31",
+        "bok": "bok37",
+        "number": 31,
+        "_id": "bok37-31"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. 21/2. 1878 á L. Laugum.",
+                "date": "1878-02-21",
+                "location": "Litlu Laugar"
+            },
+            "death": {
+                "original_string": "D. 28/2. 1884, 5 ára.",
+                "date": "1884-02-28",
+                "location": "",
+                "note_ref": 1
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [],
+        "spouse_original_string": "",
+        "parents": [
+            {
+                "name": "Á. Kristjánsson",
+                "note": "",
+                "names": [
+                    "Á.",
+                    "Kristjánsson"
+                ],
+                "firstName": "Á.",
+                "lastName": "Kristjánsson"
+            },
+            {
+                "name": "Guðbjörg Guðmundsdóttir",
+                "note": "",
+                "names": [
+                    "Guðbjörg",
+                    "Guðmundsdóttir"
+                ],
+                "firstName": "Guðbjörg",
+                "lastName": "Guðmundsdóttir"
+            }
+        ],
+        "parents_original_string": "For.: Á. Kristjánsson og Guðbjörg Guðmundsdóttir.",
+        "residence_history": [
+            {
+                "original_string": "Hjá for. í Miðhvammi (2) 1879-1880.",
+                "year_or_period": "1879-1880",
+                "age": 2,
+                "status": "",
+                "location": "Miðhvammur",
+                "note": "",
+                "year": "1879-1880",
+                "year_from_value": 1879,
+                "year_to_value": 1880,
+                "location_obj": {
+                    "id": 25967,
+                    "name": "Miðhvammur",
+                    "lat": "65.845428",
+                    "lng": "-17.352688",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Med for. í Fótaskinni ... 1881-1882.",
+                "year_or_period": "1881-1882",
+                "age": null,
+                "status": "",
+                "location": "Helluland",
+                "note": "",
+                "year": "1881-1882",
+                "year_from_value": 1881,
+                "year_to_value": 1882,
+                "location_obj": {
+                    "id": 90011,
+                    "name": "Helluland",
+                    "lat": "65.821415",
+                    "lng": "-17.379450",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fótaskinn",
+                            "id": 0
+                        },
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {
+            "1": "Barn þurfamanns. - Barnaveiki."
+        },
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/32",
+        "bok": "bok37",
+        "number": 32,
+        "_id": "bok37-32"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. 25/2. 1888.",
+                "date": "1888-02-25",
+                "location": ""
+            },
+            "death": {
+                "original_string": "",
+                "date": "",
+                "location": ""
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [],
+        "spouse_original_string": "",
+        "parents": [
+            {
+                "name": "Árni próf. Jónsson",
+                "note": "",
+                "names": [
+                    "Árni",
+                    "próf.",
+                    "Jónsson"
+                ],
+                "firstName": "Árni",
+                "lastName": "Jónsson"
+            },
+            {
+                "name": "Dýrleif Sveinsdóttir",
+                "note": "",
+                "names": [
+                    "Dýrleif",
+                    "Sveinsdóttir"
+                ],
+                "firstName": "Dýrleif",
+                "lastName": "Sveinsdóttir"
+            }
+        ],
+        "parents_original_string": "For.: Árni próf. Jónsson og Dýrleif Sveinsdóttir.",
+        "residence_history": [
+            {
+                "original_string": "Hjá for. á Skútustöðum (á 1.) 1888-1900-",
+                "year_or_period": "1888-1900-",
+                "age": 1,
+                "status": "",
+                "location": "Skútustaðir",
+                "note": "",
+                "year": "1888-1900-",
+                "year_from_value": 1888,
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 16474,
+                    "name": "Skútustaðir",
+                    "lat": "65.5673011918",
+                    "lng": "-17.0371341705",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {},
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/33",
+        "bok": "bok37",
+        "number": 33,
+        "_id": "bok37-33"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. 26/7. 1899 á Knarrareyri.",
+                "date": "1899-07-26",
+                "location": "Knarrareyri",
+                "location_obj": {
+                    "id": 90008,
+                    "name": "Knarrareyri",
+                    "lat": "66.104731",
+                    "lng": "-17.87562",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Eyri",
+                            "id": 0
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            "death": {
+                "original_string": "",
+                "date": "",
+                "location": ""
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [],
+        "spouse_original_string": "",
+        "parents": [
+            {
+                "name": "Á. Tómasson",
+                "note": "",
+                "names": [
+                    "Á.",
+                    "Tómasson"
+                ],
+                "firstName": "Á.",
+                "lastName": "Tómasson"
+            },
+            {
+                "name": "Jóhanna Jónsdóttir",
+                "note": "",
+                "names": [
+                    "Jóhanna",
+                    "Jónsdóttir"
+                ],
+                "firstName": "Jóhanna",
+                "lastName": "Jónsdóttir"
+            }
+        ],
+        "parents_original_string": "For.: Á. Tómasson og Jóhanna Jónsdóttir.",
+        "residence_history": [
+            {
+                "original_string": "Með for. á Eyri Fl. (á 1.) 1899-",
+                "year_or_period": "1899-",
+                "age": 1,
+                "status": "",
+                "location": "Knarrareyri",
+                "note": "",
+                "year": "1899-",
+                "year_from_value": 1899,
+                "year_to_value": 1899,
+                "location_obj": {
+                    "id": 90008,
+                    "name": "Knarrareyri",
+                    "lat": "66.104731",
+                    "lng": "-17.87562",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Eyri",
+                            "id": 0
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {},
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/34",
+        "bok": "bok37",
+        "number": 34,
+        "_id": "bok37-34"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. 30/11. 1808 á Litlu-völlum.",
+                "date": "1808-11-30",
+                "location": "Litluvellir",
+                "location_obj": {
+                    "id": 15083,
+                    "name": "Litluvellir",
+                    "lat": "65.462154",
+                    "lng": "-17.433764",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            "death": {
+                "original_string": "",
+                "date": "",
+                "location": ""
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [
+            {
+                "name": "Sigurbjörg Sigurðardóttir",
+                "date": "",
+                "status": "Ólafssonar",
+                "names": [
+                    "Sigurbjörg",
+                    "Sigurðardóttir"
+                ],
+                "firstName": "Sigurbjörg",
+                "lastName": "Sigurðardóttir"
+            }
+        ],
+        "spouse_original_string": "K.: Sigurbjörg Sigurðardóttir (Ólafssonar).",
+        "parents": [
+            {
+                "name": "Á. Markússon",
+                "note": "",
+                "names": [
+                    "Á.",
+                    "Markússon"
+                ],
+                "firstName": "Á.",
+                "lastName": "Markússon"
+            },
+            {
+                "name": "Hólmfríður Árnadóttir",
+                "note": "Litluvöllum",
+                "names": [
+                    "Hólmfríður",
+                    "Árnadóttir"
+                ],
+                "firstName": "Hólmfríður",
+                "lastName": "Árnadóttir"
+            }
+        ],
+        "parents_original_string": "For.: Á. Markússon og Hólmfríður Árnadóttir (Litluvöllum).",
+        "residence_history": [
+            {
+                "original_string": "Hjá for. á Litlu-völlum (1/2 árs) 1809-1815-",
+                "year_or_period": "1809-1815",
+                "age": 0.5,
+                "status": "",
+                "location": "Litluvellir",
+                "note": "",
+                "year": "1809-1815",
+                "year_from_value": 1809,
+                "year_to_value": 1815,
+                "location_obj": {
+                    "id": 15083,
+                    "name": "Litluvellir",
+                    "lat": "65.462154",
+                    "lng": "-17.433764",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Hjá for. á Jarlsstöðum B. (10)-1819-",
+                "year_or_period": "1819-",
+                "age": 10,
+                "status": "",
+                "location": "Jarlsstaðir B.",
+                "note": "",
+                "year": "1819-",
+                "year_from_value": 1819,
+                "year_to_value": 1819,
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Með for. frá Jarlsst. B. að Gautlöndum (13) 1821-",
+                "year_or_period": "1821-",
+                "age": 13,
+                "status": "",
+                "location": "Gautlönd",
+                "note": "",
+                "year": "1821-",
+                "year_from_value": 1821,
+                "year_to_value": 1821,
+                "location_obj": {
+                    "id": 16389,
+                    "name": "Gautlönd",
+                    "lat": "65.551978",
+                    "lng": "-17.131995",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Léttadr. með for. frá Gautl. að Fljótsbakka 1823-",
+                "year_or_period": "1823-",
+                "age": null,
+                "status": "Léttadr.",
+                "location": "Fljótsbakki",
+                "note": "",
+                "year": "1823-",
+                "year_from_value": 1823,
+                "year_to_value": 1823,
+                "location_obj": {
+                    "id": 90016,
+                    "name": "Fljótsbakki",
+                    "lat": "65.715964",
+                    "lng": "-17.524174",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Þaðan með móður að Jarlsst. B. (vinnup.) 1824-",
+                "year_or_period": "1824-",
+                "age": null,
+                "status": "Vinnup.",
+                "location": "Jarlsstaðir B.",
+                "note": "",
+                "year": "1824-",
+                "year_from_value": 1824,
+                "year_to_value": 1824,
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Frá Fljótsbakka að Vatnsenda (vm.) 1827-1834-",
+                "year_or_period": "1827-1834",
+                "age": null,
+                "status": "Vm.",
+                "location": "Vatnsendi",
+                "note": "",
+                "year": "1827-1834",
+                "year_from_value": 1827,
+                "year_to_value": 1834,
+                "location_obj": {
+                    "id": 90072,
+                    "name": "Vatnsendi",
+                    "lat": "65.691475",
+                    "lng": "-17.646584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "G. hjú á Úlfsbæ (29) 1837.",
+                "year_or_period": "1837",
+                "age": 29,
+                "status": "G. hjú",
+                "location": "Úlfsbær",
+                "note": "",
+                "year": "1837",
+                "year_from_value": 1837,
+                "year_to_value": 1837,
+                "location_obj": {
+                    "id": 25659,
+                    "name": "Úlfsbær",
+                    "lat": "65.668466",
+                    "lng": "-17.539419",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. á Finnsstöðum (29) 1837-1849 (Hrb.).",
+                "year_or_period": "1837-1849",
+                "age": 29,
+                "status": "B.",
+                "location": "Finnsstaðir",
+                "note": "Hrb.",
+                "year": "1837-1849",
+                "year_from_value": 1837,
+                "year_to_value": 1849,
+                "location_obj": {
+                    "id": 16547,
+                    "name": "Finnsstaðir",
+                    "lat": "65.744675",
+                    "lng": "-17.595593",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. á Halldórsst. K. ... 1849-1852 (Hrb.).",
+                "year_or_period": "1849-1852",
+                "age": null,
+                "status": "B.",
+                "location": "Halldórsstaðir, K.",
+                "note": "Hrb.",
+                "year": "1849-1852",
+                "year_from_value": 1849,
+                "year_to_value": 1852,
+                "location_obj": {
+                    "id": 13949,
+                    "name": "Halldórsstaðir",
+                    "lat": "65.734894",
+                    "lng": "-17.594338",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {},
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/35",
+        "bok": "bok37",
+        "number": 35,
+        "_id": "bok37-35"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "áður hrstj. í Gjósav. hr.",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. um 1726.",
+                "date": "1726-00-00",
+                "location": ""
+            },
+            "death": {
+                "original_string": "D. 10/12. 1803, 77 ára, G. - Ellibrestir.",
+                "date": "1803-12-10",
+                "location": "",
+                "note_ref": 1
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [
+            {
+                "name": "Else Sörensdóttir",
+                "date": "",
+                "status": "frá Ljósavatni",
+                "names": [
+                    "Else",
+                    "Sörensdóttir"
+                ],
+                "firstName": "Else",
+                "lastName": "Sörensdóttir"
+            }
+        ],
+        "spouse_original_string": "K.: Else Sörensdóttir (frá Ljósavatni)",
+        "parents": [],
+        "parents_original_string": "",
+        "residence_history": [
+            {
+                "original_string": "G. faðir B. á Geirbjarnarstöðum (75) 1801-",
+                "year_or_period": "1801-",
+                "age": 75,
+                "status": "G. faðir B.",
+                "location": "Geirbjarnarstaðir",
+                "note": "",
+                "year": "1801-",
+                "year_from_value": 1801,
+                "year_to_value": 1801,
+                "location_obj": {
+                    "id": 24139,
+                    "name": "Geirbjarnarstaðir",
+                    "lat": "65.897474",
+                    "lng": "-17.563625",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {
+            "1": "1785: B. í Hólsgerði, húsb. og hreppstjóri, 58 ára. Les vel; góður þjónustumaður; ekki illa að sér."
+        },
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/36",
+        "bok": "bok37",
+        "number": 36,
+        "_id": "bok37-36"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "á Hrappsstöðum B.",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. um 1744.",
+                "date": "1744-00-00",
+                "location": ""
+            },
+            "death": {
+                "original_string": "D. á Landamóti 5/9(?) 1811. G.",
+                "date": "1811-09-05",
+                "location": "Landamót",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 16601,
+                    "name": "Landamót",
+                    "lat": "65.724831",
+                    "lng": "-17.598935",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [
+            {
+                "name": "Þorgerður Indriðadóttir",
+                "date": "",
+                "status": "",
+                "names": [
+                    "Þorgerður",
+                    "Indriðadóttir"
+                ],
+                "firstName": "Þorgerður",
+                "lastName": "Indriðadóttir"
+            }
+        ],
+        "spouse_original_string": "K.: Þorgerður Indriðadóttir.",
+        "parents": [],
+        "parents_original_string": "For.:",
+        "residence_history": [
+            {
+                "original_string": "B. á Hrappsstöðum B. (57)-1801-1810 (Hrb.).",
+                "year_or_period": "1801-1810",
+                "age": 57,
+                "status": "B.",
+                "location": "Hrappsstaðir B.",
+                "note": "Hrb.",
+                "year": "1801-1810",
+                "year_from_value": 1801,
+                "year_to_value": 1810,
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappsstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {
+            "1": "Stríð landfarsýki."
+        },
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/37",
+        "bok": "bok37",
+        "number": 37,
+        "_id": "bok37-37"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "á Hallandi",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. um 1757.",
+                "date": "1757-00-00",
+                "location": ""
+            },
+            "death": {
+                "original_string": "",
+                "date": "",
+                "location": ""
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [
+            {
+                "name": "Anna Þorvaldsdóttir",
+                "date": "",
+                "status": "",
+                "names": [
+                    "Anna",
+                    "Þorvaldsdóttir"
+                ],
+                "firstName": "Anna",
+                "lastName": "Þorvaldsdóttir"
+            }
+        ],
+        "spouse_original_string": "K.: Anna Þorvaldsdóttir.",
+        "parents": [
+            {
+                "name": "Árni Jónsson",
+                "note": "Skriddi",
+                "names": [
+                    "Árni",
+                    "Jónsson"
+                ],
+                "firstName": "Árni",
+                "lastName": "Jónsson"
+            },
+            {
+                "name": "Herdís Jónsd.",
+                "note": "frá Hvammi, E",
+                "names": [
+                    "Herdís",
+                    "Jónsd."
+                ],
+                "firstName": "Herdís",
+                "lastName": "Jónsd."
+            }
+        ],
+        "parents_original_string": "For.: Árni Jónsson (Skriddi) og Herdís Jónsd. (frá Hvammi, E)",
+        "residence_history": [
+            {
+                "original_string": "G. húsb. á Veigastöðum... 1819. - B. á sama bæ... 1820.",
+                "year_or_period": "1819-1820",
+                "age": null,
+                "status": "G. húsb. / B.",
+                "location": "Veigastaðir",
+                "note": "",
+                "year": "1819-1820",
+                "year_from_value": 1819,
+                "year_to_value": 1820,
+                "location_obj": {
+                    "id": 1004894,
+                    "name": "Veigastaðir",
+                    "lat": "65.685822",
+                    "lng": "-18.037117",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "B. á Hallandi... 1821-1832.",
+                "year_or_period": "1821-1832",
+                "age": null,
+                "status": "B.",
+                "location": "Halland",
+                "note": "",
+                "year": "1821-1832",
+                "year_from_value": 1821,
+                "year_to_value": 1832,
+                "location_obj": {
+                    "id": 1003545,
+                    "name": "Hallandi",
+                    "lat": "65.688891",
+                    "lng": "-18.044815",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "G. húsb. á sama bæ... 1833-1839.",
+                "year_or_period": "1833-1839",
+                "age": null,
+                "status": "G. húsb.",
+                "location": "Halland",
+                "note": "",
+                "year": "1833-1839",
+                "year_from_value": 1833,
+                "year_to_value": 1839,
+                "location_obj": {
+                    "id": 1003545,
+                    "name": "Hallandi",
+                    "lat": "65.688891",
+                    "lng": "-18.044815",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Niðurs. á sama bæ... 1840 og 1842-1843-1844.",
+                "year_or_period": "1840-1844",
+                "age": null,
+                "status": "Niðurs.",
+                "location": "Halland",
+                "note": "",
+                "year": "1840-1844",
+                "year_from_value": 1840,
+                "year_to_value": 1844,
+                "location_obj": {
+                    "id": 1003545,
+                    "name": "Hallandi",
+                    "lat": "65.688891",
+                    "lng": "-18.044815",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {},
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/38",
+        "bok": "bok37",
+        "number": 38,
+        "_id": "bok37-38"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "frá Hóli á Hólsfjöllum",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. um 1758.",
+                "date": "1758-00-00",
+                "location": "Hóll á Hólsfjöllum",
+                "location_obj": {
+                    "id": 13090,
+                    "name": "Hóll",
+                    "lat": "66.164372",
+                    "lng": "-17.24011",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Tjörnes",
+                            "id": 16460
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            "death": {
+                "original_string": "D. á Þorvaldsst. 17/8. 1810, 52 ára.",
+                "date": "1810-08-17",
+                "location": "Þorvaldsstaðir",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [
+            {
+                "name": "Guðrún Jónsdóttir",
+                "date": "1770-00-00",
+                "status": "",
+                "names": [
+                    "Guðrún",
+                    "Jónsdóttir"
+                ],
+                "firstName": "Guðrún",
+                "lastName": "Jónsdóttir"
+            }
+        ],
+        "spouse_original_string": "K.: Guðrún Jónsdóttir (f. um 1770)",
+        "parents": [],
+        "parents_original_string": "For.:",
+        "residence_history": [
+            {
+                "original_string": "Húsm. á Ketilsstöðum (37) 1801.",
+                "year_or_period": "1801",
+                "age": 37,
+                "status": "Húsm.",
+                "location": "Ketilsstaðir",
+                "note_ref": 2,
+                "year": "1801",
+                "year_from_value": 1801,
+                "year_to_value": 1801,
+                "location_obj": {
+                    "id": 11696,
+                    "name": "Ketilsstaðir",
+                    "lat": "66.172744",
+                    "lng": "-17.217066",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Sambýlism. á Þorvaldsst. (48 ára) 1806-1808-1810.",
+                "year_or_period": "1806-1810",
+                "age": 48,
+                "status": "Sambýlism.",
+                "location": "Þorvaldsstaðir",
+                "note": "",
+                "year": "1806-1810",
+                "year_from_value": 1806,
+                "year_to_value": 1810,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {
+            "1": "Hvorki bóndi, öreigi. - Lífsholga mikil og meiri eynd. Hefur lengi borið þá vesöld með sér.",
+            "2": "Þessi hjón (Jón og Guðrún) virðast vera í Grímshúsum 1797. Fæðist þeim þar dóttir, er Helga heitir, 16/3. 1797."
+        },
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/39",
+        "bok": "bok37",
+        "number": 39,
+        "_id": "bok37-39"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "hrstj., í Haga",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. um 1780 í Nesi, A.",
+                "date": "1780-00-00",
+                "location": "Nes, A.",
+                "location_obj": {
+                    "id": 24832,
+                    "name": "Nes",
+                    "lat": "65.878069",
+                    "lng": "-17.405309",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            "death": {
+                "original_string": "D. 1874, í Garði A.",
+                "date": "1874-00-00",
+                "location": "Garður, A.",
+                "location_obj": {
+                    "id": 16845,
+                    "name": "Garður",
+                    "lat": "65.879636",
+                    "lng": "-17.446246",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [
+            {
+                "name": "Sigurlaug Arngrímsd.",
                 "date": "",
                 "status": "",
                 "names": [
                     "Sigurlaug",
-                    "Árgrímsdóttir"
+                    "Arngrímsd."
                 ],
                 "firstName": "Sigurlaug",
-                "lastName": "Árgrímsdóttir"
+                "lastName": "Arngrímsd."
             },
             {
-                "name": "Helga Jónsdóttir",
+                "name": "Helga Jónsd.",
                 "date": "",
                 "status": "",
                 "names": [
                     "Helga",
-                    "Jónsdóttir"
+                    "Jónsd."
                 ],
                 "firstName": "Helga",
-                "lastName": "Jónsdóttir"
+                "lastName": "Jónsd."
             }
         ],
-        "spouse_original_string": "K.: 1. Sigurlaug Árgrímsd. - 2. Helga Jónsd.",
+        "spouse_original_string": "K.: 1. Sigurlaug Arngrímsd. - 2. Helga Jónsd.",
         "parents": [
             {
                 "name": "Á. Ásbjörnsson",
@@ -801,34 +3041,24 @@
                 "lastName": "Ásbjörnsson"
             },
             {
-                "name": "Guðrún Jónsdóttir",
+                "name": "Guðrún Jónsd.",
                 "note": "frá Vesturhellum",
                 "names": [
                     "Guðrún",
-                    "Jónsdóttir"
+                    "Jónsd."
                 ],
                 "firstName": "Guðrún",
-                "lastName": "Jónsdóttir"
+                "lastName": "Jónsd."
             }
         ],
-        "parents_original_string": "For.: Á. Ásbjörnsson og Guðrún Jónsd. (frá Vesturhellum)",
+        "parents_original_string": "F.: Á. Ásbjörnsson og Guðrún Jónsd (frá Vesturhellum).",
         "residence_history": [
-            {
-                "year": "1780",
-                "original_string": "F. um 1780 í Nesi Þ.",
-                "age": 0,
-                "status": "Fæðingarstaður",
-                "location": "Nes, Þing.",
-                "year_from_value": 1780,
-                "year_to_value": 1780
-            },
             {
                 "original_string": "Hjú í Nesi (21 árs) 1801-",
                 "year_or_period": "1801-",
                 "age": 21,
                 "status": "Hjú",
                 "location": "Nes",
-                "note": "",
                 "note_ref": 1,
                 "year": "1801-",
                 "year_from_value": 1801,
@@ -859,15 +3089,15 @@
                 }
             },
             {
-                "original_string": "B. í Haga (25) 1804-1814.",
-                "year_or_period": "1804-1814",
+                "original_string": "B. í Haga (25) 1804-1814. x B. í Haga 1824-1825.",
+                "year_or_period": "1804-1825",
                 "age": 25,
                 "status": "B.",
                 "location": "Hagi",
                 "note": "",
-                "year": "1804-1814",
+                "year": "1804-1825",
                 "year_from_value": 1804,
-                "year_to_value": 1814,
+                "year_to_value": 1825,
                 "location_obj": {
                     "id": 24331,
                     "name": "Hagi",
@@ -894,12 +3124,46 @@
                 }
             },
             {
-                "original_string": "Ráðsm. á Möðruvallaklaustri (35) 1815",
+                "original_string": "B. í Haga (47) 1827-1831. Búlaus í Haga 1832-1842",
+                "year_or_period": "1827-1842",
+                "age": 47,
+                "status": "B. / Búlaus",
+                "location": "Hagi",
+                "note": "",
+                "year": "1827-1842",
+                "year_from_value": 1827,
+                "year_to_value": 1842,
+                "location_obj": {
+                    "id": 24331,
+                    "name": "Hagi",
+                    "lat": "65.856858",
+                    "lng": "-17.383064",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Ráðsm. á Möðruv. klaustri (35) 1815",
                 "year_or_period": "1815",
                 "age": 35,
                 "status": "Ráðsm.",
                 "location": "Möðruvallaklaustur",
-                "note": "",
                 "note_ref": 1,
                 "year": "1815",
                 "year_from_value": 1815,
@@ -911,7 +3175,6 @@
                 "age": null,
                 "status": "B.",
                 "location": "Hagi",
-                "note": "",
                 "note_ref": 2,
                 "year": "1816-1820",
                 "year_from_value": 1816,
@@ -977,10 +3240,10 @@
                 }
             },
             {
-                "original_string": "Húsmaður í Húsavík (78 ára) 1856.",
+                "original_string": "Húsm. í Húsavík (78 ára) 1856.",
                 "year_or_period": "1856",
                 "age": 78,
-                "status": "Húsmaður",
+                "status": "Húsm.",
                 "location": "Húsavík",
                 "note": "",
                 "year": "1856",
@@ -1008,12 +3271,13 @@
                 }
             },
             {
-                "original_string": "Í dvöl í Kaldbak (79 ára) 1857.",
+                "original_string": "Í dvöl í Kaldbak (79 ára) 1857. „Gamall meðhjálpari“.",
                 "year_or_period": "1857",
                 "age": 79,
                 "status": "Í dvöl",
                 "location": "Kaldbakur",
                 "note": "Gamall meðhjálpari",
+                "note_ref": 3,
                 "year": "1857",
                 "year_from_value": 1857,
                 "year_to_value": 1857,
@@ -1043,23 +3307,974 @@
                 }
             },
             {
-                "year": "1874",
-                "original_string": "D. 1874 í Garði Þ.",
-                "age": 0,
-                "status": "Dánarstaður",
-                "location": "Garður, Þing.",
-                "year_from_value": 1874,
-                "year_to_value": 1874
+                "original_string": "G. búlaus á Hraunkoti (82) 1860-1872.",
+                "year_or_period": "1860-1872",
+                "age": 82,
+                "status": "G. búlaus",
+                "location": "Hraunkot",
+                "note": "",
+                "year": "1860-1872",
+                "year_from_value": 1860,
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 10221,
+                    "name": "Hraunkot",
+                    "lat": "65.931904",
+                    "lng": "-17.520193",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Faðir h. í Garði A. (96) 1873.",
+                "year_or_period": "1873",
+                "age": 96,
+                "status": "Faðir h.",
+                "location": "Garður, A.",
+                "note": "",
+                "year": "1873",
+                "year_from_value": 1873,
+                "year_to_value": 1873,
+                "location_obj": {
+                    "id": 16845,
+                    "name": "Garður",
+                    "lat": "65.879636",
+                    "lng": "-17.446246",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {
             "1": "1786: Niðurs. á Tjörn, 6 ára.",
-            "2": "Vel bændur og skrifandi. Ráðvendi maður Þável upplýstur í andlegu.",
-            "3": "Meðhjálpari, skip og dável að sér. Meinlaus og þrifinn, skip og greindur."
+            "2": "Vellæsandi og skrifandi. Ráðvöndur maður. Dável upplýstur í andlegu.",
+            "3": "Meðhjálpari, skip og dável að sér. Meinhægur og prúður, skip og greindur."
         },
-        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/29",
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/40",
         "bok": "bok37",
-        "number": 29,
-        "_id": "bok37-29"
+        "number": 40,
+        "_id": "bok37-40"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. um 1783.",
+                "date": "1783-00-00",
+                "location": ""
+            },
+            "death": {
+                "original_string": "",
+                "date": "",
+                "location": ""
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [],
+        "spouse_original_string": "",
+        "parents": [],
+        "parents_original_string": "For.:",
+        "residence_history": [
+            {
+                "original_string": "Hjú í Tungu, Sv. (36) 1819-1820.",
+                "year_or_period": "1819-1820",
+                "age": 36,
+                "status": "Hjú",
+                "location": "Tunga, Sv.",
+                "note": "",
+                "year": "1819-1820",
+                "year_from_value": 1819,
+                "year_to_value": 1820,
+                "location_obj": {
+                    "id": 25200,
+                    "name": "Tunga",
+                    "lat": "65.751172",
+                    "lng": "-18.069293",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {},
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/41",
+        "bok": "bok37",
+        "number": 41,
+        "_id": "bok37-41"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. um 1792.",
+                "date": "1792-00-00",
+                "location": ""
+            },
+            "death": {
+                "original_string": "",
+                "date": "",
+                "location": ""
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [],
+        "spouse_original_string": "",
+        "parents": [],
+        "parents_original_string": "For.:",
+        "residence_history": [
+            {
+                "original_string": "Hjú á Arnstapa (48) 1840-41.",
+                "year_or_period": "1840-1841",
+                "age": 48,
+                "status": "Hjú",
+                "location": "Arnstapi",
+                "note": "",
+                "year": "1840-1841",
+                "year_from_value": 1840,
+                "year_to_value": 1841,
+                "location_obj": {
+                    "id": 90002,
+                    "name": "Arnstapi",
+                    "lat": "65.699813",
+                    "lng": "-17.696587",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {},
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/42",
+        "bok": "bok37",
+        "number": 42,
+        "_id": "bok37-42"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "í Kaupangi",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. um 1794-",
+                "date": "1794-00-00",
+                "location": "Kaupangur"
+            },
+            "death": {
+                "original_string": "D. í Vallakoti 21/8. 1856.",
+                "date": "1856-08-21",
+                "location": "Vallakot",
+                "note_ref": 1,
+                "location_obj": {
+                    "id": 25225,
+                    "name": "Vallakot",
+                    "lat": "65.7467438477",
+                    "lng": "-17.4144136906",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [
+            {
+                "name": "Salbjörg Bjarnadóttir",
+                "date": "",
+                "status": "",
+                "names": [
+                    "Salbjörg",
+                    "Bjarnadóttir"
+                ],
+                "firstName": "Salbjörg",
+                "lastName": "Bjarnadóttir"
+            }
+        ],
+        "spouse_original_string": "K.: Salbjörg Bjarnadóttir.",
+        "parents": [],
+        "parents_original_string": "For.:",
+        "residence_history": [
+            {
+                "original_string": "Vinnup. á N.-Dálksstöðum (18) 1812. ?",
+                "year_or_period": "1812",
+                "age": 18,
+                "status": "Vinnup.",
+                "location": "Neðri-Dálksstaðir",
+                "note": "",
+                "year": "1812",
+                "year_from_value": 1812,
+                "year_to_value": 1812,
+                "location_obj": {
+                    "id": 90036,
+                    "name": "Neðri-Dálksstaðir",
+                    "lat": "65.756478",
+                    "lng": "-18.086943",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Hjú í Vík (23) 1816 - ?",
+                "year_or_period": "1816-",
+                "age": 23,
+                "status": "Hjú",
+                "location": "Vík",
+                "note": "",
+                "year": "1816-",
+                "year_from_value": 1816,
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 16628,
+                    "name": "Vík",
+                    "lat": "66.139034",
+                    "lng": "-17.922003",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "G. hjú á Þönglabakka (49) 1842-1843.",
+                "year_or_period": "1842-1843",
+                "age": 49,
+                "status": "G. hjú",
+                "location": "Þönglabakki",
+                "note": "",
+                "year": "1842-1843",
+                "year_from_value": 1842,
+                "year_to_value": 1843,
+                "location_obj": {
+                    "id": 16635,
+                    "name": "Þönglabakki",
+                    "lat": "66.152511",
+                    "lng": "-18.123532",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Þorgeirsfjörður",
+                            "id": 25312
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "G. hjú á Eyri Fj. (51) 1844.",
+                "year_or_period": "1844",
+                "age": 51,
+                "status": "G. hjú",
+                "location": "Knarrareyri",
+                "note": "",
+                "year": "1844",
+                "year_from_value": 1844,
+                "year_to_value": 1844,
+                "location_obj": {
+                    "id": 90008,
+                    "name": "Knarrareyri",
+                    "lat": "66.104731",
+                    "lng": "-17.87562",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Eyri",
+                            "id": 0
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "G. hjú á Botni (52) 1845.",
+                "year_or_period": "1845",
+                "age": 52,
+                "status": "G. hjú",
+                "location": "Botn",
+                "note": "",
+                "year": "1845",
+                "year_from_value": 1845,
+                "year_to_value": 1845,
+                "location_obj": {
+                    "id": 25665,
+                    "name": "Botn",
+                    "lat": "66.151975",
+                    "lng": "-18.142719",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Þorgeirsfjörður",
+                            "id": 25312
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "G. hjú á Þönglabakka (54) 1846.",
+                "year_or_period": "1846",
+                "age": 54,
+                "status": "G. hjú",
+                "location": "Þönglabakki",
+                "note": "",
+                "year": "1846",
+                "year_from_value": 1846,
+                "year_to_value": 1846,
+                "location_obj": {
+                    "id": 16635,
+                    "name": "Þönglabakki",
+                    "lat": "66.152511",
+                    "lng": "-18.123532",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Þorgeirsfjörður",
+                            "id": 25312
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "G. hjú á Þverá Fn. (55) 1847-1849.",
+                "year_or_period": "1847-1849",
+                "age": 55,
+                "status": "G. hjú",
+                "location": "Þverá, Fn.",
+                "note": "",
+                "year": "1847-1849",
+                "year_from_value": 1847,
+                "year_to_value": 1849,
+                "location_obj": {
+                    "id": 1006440,
+                    "name": "Þverá",
+                    "lat": null,
+                    "lng": null,
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "G. hjú á Halldórsst. B. (58) 1851-52.",
+                "year_or_period": "1851-1852",
+                "age": 58,
+                "status": "G. hjú",
+                "location": "Halldórsstaðir B.",
+                "note": "",
+                "year": "1851-1852",
+                "year_from_value": 1851,
+                "year_to_value": 1852,
+                "location_obj": {
+                    "id": 16560,
+                    "name": "Halldórsstaðir",
+                    "lat": "65.449709",
+                    "lng": "-17.410081",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "G. hjú á Bjarnarst. B. (60) 1853-1855.",
+                "year_or_period": "1853-1855",
+                "age": 60,
+                "status": "G. hjú",
+                "location": "Bjarnarstaðir B.",
+                "note": "",
+                "year": "1853-1855",
+                "year_from_value": 1853,
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 12832,
+                    "name": "Bjarnarstaðir",
+                    "lat": "65.4353456356",
+                    "lng": "-17.3457813263",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Hjú á Halldórsst. B. (63) 1856.",
+                "year_or_period": "1856",
+                "age": 63,
+                "status": "Hjú",
+                "location": "Halldórsstaðir B.",
+                "note": "",
+                "year": "1856",
+                "year_from_value": 1856,
+                "year_to_value": 1856,
+                "location_obj": {
+                    "id": 16560,
+                    "name": "Halldórsstaðir",
+                    "lat": "65.449709",
+                    "lng": "-17.410081",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "E. í Vallakoti (65) 1856.",
+                "year_or_period": "1856",
+                "age": 65,
+                "status": "E.",
+                "location": "Vallakot",
+                "note": "",
+                "year": "1856",
+                "year_from_value": 1856,
+                "year_to_value": 1856,
+                "location_obj": {
+                    "id": 25225,
+                    "name": "Vallakot",
+                    "lat": "65.7467438477",
+                    "lng": "-17.4144136906",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Húsmaður í Sýrnesi 1857, 63 ára",
+                "year_or_period": "1857",
+                "age": 63,
+                "status": "Húsmaður",
+                "location": "Sýrnes",
+                "note": "",
+                "year": "1857",
+                "year_from_value": 1857,
+                "year_to_value": 1857,
+                "location_obj": {
+                    "id": 16486,
+                    "name": "Sýrnes",
+                    "lat": "65.810620379",
+                    "lng": "-17.4304318428",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "Hjú í Rauðuskriðu (giftur Þórunni) 1858, 62 ára.",
+                "year_or_period": "1858",
+                "age": 62,
+                "status": "Hjú",
+                "location": "Rauðaskriða",
+                "note": "giftur Þórunni",
+                "year": "1858",
+                "year_from_value": 1858,
+                "year_to_value": 1858,
+                "location_obj": {
+                    "id": 24909,
+                    "name": "Rauðaskriða",
+                    "lat": "65.836736",
+                    "lng": "-17.472869",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {
+            "1": "Ekkjum. í Vallakoti, kominn í vor, 65 ára. - Úr innvortis-meinsemdum."
+        },
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/43",
+        "bok": "bok37",
+        "number": 43,
+        "_id": "bok37-43"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. um 1795.",
+                "date": "1795-00-00",
+                "location": ""
+            },
+            "death": {
+                "original_string": "",
+                "date": "",
+                "location": ""
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [
+            {
+                "name": "Þórunn Jónsdóttir",
+                "date": "",
+                "status": "",
+                "names": [
+                    "Þórunn",
+                    "Jónsdóttir"
+                ],
+                "firstName": "Þórunn",
+                "lastName": "Jónsdóttir"
+            }
+        ],
+        "spouse_original_string": "K.: Þórunn Jónsdóttir.",
+        "parents": [],
+        "parents_original_string": "For.:",
+        "residence_history": [
+            {
+                "original_string": "G. í Garði Fn. (43) 1839-1840.",
+                "year_or_period": "1839-1840",
+                "age": 43,
+                "status": "G.",
+                "location": "Garður, Fn.",
+                "note": "",
+                "year": "1839-1840",
+                "year_from_value": 1839,
+                "year_to_value": 1840,
+                "location_obj": {
+                    "id": 26124,
+                    "name": "Garður",
+                    "lat": "65.86095",
+                    "lng": "-17.874554",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Dalsmynni",
+                            "id": 16453
+                        },
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "G. hjú í Vestari-Krökum (46) 1841. (frá Garði).",
+                "year_or_period": "1841",
+                "age": 46,
+                "status": "G. hjú",
+                "location": "Vestari-Krókar",
+                "note": "frá Garði",
+                "year": "1841",
+                "year_from_value": 1841,
+                "year_to_value": 1841,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            },
+            {
+                "original_string": "G. hjú í Böðvarsnesi (47) 1842-1845-1847.",
+                "year_or_period": "1842-1847",
+                "age": 47,
+                "status": "G. hjú",
+                "location": "Böðvarsnes",
+                "note": "",
+                "year": "1842-1847",
+                "year_from_value": 1842,
+                "year_to_value": 1847,
+                "location_obj": {
+                    "id": 13880,
+                    "name": "Böðvarsnes",
+                    "lat": "65.82665",
+                    "lng": "-17.884969",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {},
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/44",
+        "bok": "bok37",
+        "number": 44,
+        "_id": "bok37-44"
+    },
+    {
+        "person": {
+            "name": "Jón Árnason",
+            "status": "",
+            "unmarried": false,
+            "birth": {
+                "original_string": "F. um 1809.",
+                "date": "1809-00-00",
+                "location": ""
+            },
+            "death": {
+                "original_string": "",
+                "date": "",
+                "location": ""
+            },
+            "names": [
+                "Jón",
+                "Árnason"
+            ],
+            "firstName": "Jón",
+            "lastName": "Árnason"
+        },
+        "spouse": [],
+        "spouse_original_string": "",
+        "parents": [],
+        "parents_original_string": "For.:",
+        "residence_history": [
+            {
+                "original_string": "Til kennslu á Grenjaðarst. (18) 1827-1829.",
+                "year_or_period": "1827-1829",
+                "age": 18,
+                "status": "Til kennslu",
+                "location": "Grenjaðarstaður",
+                "note": "",
+                "year": "1827-1829",
+                "year_from_value": 1827,
+                "year_to_value": 1829,
+                "location_obj": {
+                    "id": 16501,
+                    "name": "Grenjaðarstaður",
+                    "lat": "65.8209185748",
+                    "lng": "-17.3502874374",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
+            }
+        ],
+        "notes": {},
+        "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_37/45",
+        "bok": "bok37",
+        "number": 45,
+        "_id": "bok37-45"
     }
 ]

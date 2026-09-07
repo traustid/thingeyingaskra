@@ -2802,15 +2802,43 @@
                 }
             },
             {
-                "original_string": "Með móður á Binningast. Fr. (2) 1881.",
+                "original_string": "Með móður á Birningsst. Fr. (2) 1881.",
                 "year": "1881",
                 "age": 2,
                 "status": "Með móður",
-                "location": "Binningast. Fn.",
+                "location": "Birningsstaðir Fn.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1881,
-                "year_to_value": 1881
+                "year_to_value": 1881,
+                "location_obj": {
+                    "id": 16541,
+                    "name": "Birningsstaðir",
+                    "lat": "65.717569",
+                    "lng": "-17.799308",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Hrísgerði . . . 1882.",
@@ -2848,15 +2876,43 @@
                 }
             },
             {
-                "original_string": "Með móður á Binningast. Fr. . . . 1883.",
+                "original_string": "Með móður á Birningsst. Fr. . . . 1883.",
                 "year": "1883",
                 "age": null,
                 "status": "Með móður",
-                "location": "Binningast. Fn.",
+                "location": "Birningsstaðir Fn.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1883,
-                "year_to_value": 1883
+                "year_to_value": 1883,
+                "location_obj": {
+                    "id": 16541,
+                    "name": "Birningsstaðir",
+                    "lat": "65.717569",
+                    "lng": "-17.799308",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2903,6 +2959,7 @@
                 "note": "",
                 "names": [
                     "Sigg.",
+                    "pr.",
                     "Pálsson"
                 ],
                 "firstName": "Sigg.",

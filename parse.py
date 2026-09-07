@@ -5,7 +5,7 @@ import time
 from google import genai
 from google.genai import errors
 
-from . import config
+import config
 
 client = genai.Client(api_key=config.google_api_key)
 

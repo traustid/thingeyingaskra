@@ -249,7 +249,31 @@
             "birth": {
                 "original_string": "F. í Fagrabæ 19/9 1899.",
                 "date": "1899-09-19",
-                "location": "Fagrabær"
+                "location": "Fagribær",
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -295,20 +319,68 @@
                 "original_string": "F. í Fagrabæ 19/9 1899.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "year_from_value": 1899,
-                "year_to_value": 1899
+                "year_to_value": 1899,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Fagrabæ (á 1.) 1900.",
                 "year": "1900",
                 "age": 1,
                 "status": "Hjá for.",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1900,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
@@ -2090,11 +2162,35 @@
                 "year": "1880-1882",
                 "age": 4,
                 "status": "Með móður",
-                "location": "Skógar R.",
+                "location": "Skógar Rhv.",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1880,
-                "year_to_value": 1882
+                "year_to_value": 1882,
+                "location_obj": {
+                    "id": 1000913,
+                    "name": "Skógar",
+                    "lat": "65.939166",
+                    "lng": "-17.306057",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður í Valadal (7 ára) 1884-1885.",

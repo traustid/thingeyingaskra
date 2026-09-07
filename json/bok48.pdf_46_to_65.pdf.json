@@ -3800,7 +3800,7 @@
                 "year": "1850-1858",
                 "age": 2,
                 "status": "Hjá for.",
-                "location": "Ysta-Fell",
+                "location": "Ystafell",
                 "note": "",
                 "year_from_value": 1850,
                 "year_to_value": 1858,
@@ -4008,14 +4008,38 @@
                 }
             },
             {
-                "original_string": "Með for. (23) frá Reykjum að Hafstöðum 1854.",
+                "original_string": "Með for. (23) frá Reykjum að Hofstöðum 1854.",
                 "year": "1854",
                 "age": 23,
                 "status": "Með for.",
-                "location": "Hafstaðir",
+                "location": "Hofsstaðir",
                 "note": "frá Reykjum",
                 "year_from_value": 1854,
-                "year_to_value": 1854
+                "year_to_value": 1854,
+                "location_obj": {
+                    "id": 13626,
+                    "name": "Hofsstaðir",
+                    "lat": "65.608268",
+                    "lng": "-17.164034",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Stafni 1855-1863.",
@@ -4937,12 +4961,12 @@
                 }
             },
             {
-                "original_string": "Með móður (16) frá Hafstöðum að Ytrafjalli 1855.",
+                "original_string": "Með móður (16) frá Hofstöðum að Ytrafjalli 1855.",
                 "year": "1855",
                 "age": 16,
                 "status": "Með móður",
                 "location": "Ytra-Fjall",
-                "note": "frá Hafstöðum",
+                "note": "frá Hofstöðum",
                 "year_from_value": 1855,
                 "year_to_value": 1855,
                 "location_obj": {

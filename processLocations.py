@@ -204,6 +204,9 @@ def findPlace(placeItem):
 			notFound[histName] = notFound[histName]+1
 
 for filename in os.listdir(jsonDir):
+	#if 'bok37.pdf_26_to_45.pdf.json' not in filename:
+	#	continue
+
 	file = open(jsonDir+'/'+filename)
 	fileCounter += 1
 
@@ -211,9 +214,6 @@ for filename in os.listdir(jsonDir):
 		data = json.load(file)
 
 		for item in data:
-			#if item['person']['name'] != 'Ingibjörg Ívarsdóttir':
-			#	continue
-
 			if 'person' in item and item['person'] is not None and 'birth' in item['person'] and item['person']['birth'] is not None and 'location' in item['person']['birth'] and item['person']['birth']['location'] is not None:
 				findPlace(item['person']['birth'])
 

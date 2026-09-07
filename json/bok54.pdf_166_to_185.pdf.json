@@ -1459,9 +1459,9 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "um 1738 á Birningst. Fj.",
+                "original_string": "um 1738 á Birningsstaðir Fj.",
                 "date": "1738",
-                "location": "Birningstaðir, Fj."
+                "location": "Birningsstaðir, Fj."
             },
             "death": {
                 "original_string": "D. í Dæli 19/9. 1828.",
@@ -1538,10 +1538,10 @@
         "residence_history": [
             {
                 "year": "1738",
-                "original_string": "um 1738 á Birningst. Fj.",
+                "original_string": "um 1738 á Birningsstaðir Fj.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Birningstaðir, Fj.",
+                "location": "Birningsstaðir, Fj.",
                 "year_from_value": 1738,
                 "year_to_value": 1738
             },
@@ -1809,11 +1809,35 @@
                 "year_or_period": "1888-1889",
                 "age": 3,
                 "status": "Með for.",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "note": "",
                 "year": "1888-1889",
                 "year_from_value": 1888,
-                "year_to_value": 1889
+                "year_to_value": 1889,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Meðalheimi (5) 1890.",
@@ -2353,6 +2377,7 @@
                 "status": "",
                 "names": [
                     "Tómas",
+                    "pr.",
                     "Skúlason"
                 ],
                 "firstName": "Tómas",
@@ -3222,7 +3247,31 @@
             "death": {
                 "original_string": "D. í Fagrabæ 8/6. 1894, 64 ára.",
                 "date": "1894-06-08",
-                "location": "Fagrabær"
+                "location": "Fagribær",
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Ólöf",
@@ -3412,20 +3461,68 @@
                 "year_or_period": "1863-1894",
                 "age": 33,
                 "status": "Húsfr.",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "note": "",
                 "year": "1863-1894",
                 "year_from_value": 1863,
-                "year_to_value": 1894
+                "year_to_value": 1894,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1894",
                 "original_string": "D. í Fagrabæ 8/6. 1894, 64 ára.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "year_from_value": 1894,
-                "year_to_value": 1894
+                "year_to_value": 1894,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

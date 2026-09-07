@@ -1197,7 +1197,35 @@
             "birth": {
                 "original_string": "F. 27/12. 1896 á Knarrareyri.",
                 "date": "1896-12-27",
-                "location": "Knarrareyri (Eyri)"
+                "location": "Knarrareyri (Eyri)",
+                "location_obj": {
+                    "id": 90008,
+                    "name": "Knarrareyri",
+                    "lat": "66.104731",
+                    "lng": "-17.87562",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Eyri",
+                            "id": 0
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -1241,7 +1269,35 @@
                 "status": "Fæðingarstaður",
                 "location": "Knarrareyri (Eyri)",
                 "year_from_value": 1896,
-                "year_to_value": 1896
+                "year_to_value": 1896,
+                "location_obj": {
+                    "id": 90008,
+                    "name": "Knarrareyri",
+                    "lat": "66.104731",
+                    "lng": "-17.87562",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Eyri",
+                            "id": 0
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Eyri Fl. (á 1.) 1896-1899.",
@@ -2701,18 +2757,18 @@
                 "year_from_value": 1855,
                 "year_to_value": 1855,
                 "location_obj": {
-                    "id": 16638,
+                    "id": 25899,
                     "name": "Þverá",
-                    "lat": "65.919194",
-                    "lng": "-17.30752",
+                    "lat": "65.730993",
+                    "lng": "-17.244662",
                     "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
+                        "id": 33,
+                        "name": "Bær"
                     },
                     "parent": [
                         {
-                            "name": "Reykjahverfi",
-                            "id": 1001642
+                            "name": "Laxárdalur",
+                            "id": 24700
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3016,11 +3072,35 @@
                 "year": "1843-1844",
                 "age": 18,
                 "status": "Hjú",
-                "location": "Skógar R.",
+                "location": "Skógar Rhv.",
                 "note": "þá talin einnig á Þverá R, helm.vistir?",
                 "note_ref": null,
                 "year_from_value": 1843,
-                "year_to_value": 1844
+                "year_to_value": 1844,
+                "location_obj": {
+                    "id": 1000913,
+                    "name": "Skógar",
+                    "lat": "65.939166",
+                    "lng": "-17.306057",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Grenjaðarstað (19) 1845-1849.",

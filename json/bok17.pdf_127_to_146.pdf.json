@@ -1370,6 +1370,7 @@
                 "note": "",
                 "names": [
                     "Þ.",
+                    "pr.",
                     "Jónsson"
                 ],
                 "firstName": "Þ.",
@@ -2910,11 +2911,35 @@
                 "year": "1888-1889",
                 "age": 8,
                 "status": "Með for.",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "note": "",
                 "note_ref": 2,
                 "year_from_value": 1888,
-                "year_to_value": 1889
+                "year_to_value": 1889,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Meðalheimi (10) 1890-1899.",
@@ -3303,10 +3328,38 @@
                 "year": "1875-1878",
                 "age": 22,
                 "status": "Hjú",
-                "location": "Birningsst., Fn.",
+                "location": "Birningsstaðir, Fn.",
                 "note": "",
                 "year_from_value": 1875,
-                "year_to_value": 1878
+                "year_to_value": 1878,
+                "location_obj": {
+                    "id": 16541,
+                    "name": "Birningsstaðir",
+                    "lat": "65.717569",
+                    "lng": "-17.799308",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. á Hálsi Fr. (27) 1880-1881.",
@@ -4431,7 +4484,31 @@
             "birth": {
                 "original_string": "F. 25/2 1870 í Fagrabæ.",
                 "date": "1870-02-25",
-                "location": "Fagrabær"
+                "location": "Fagribær",
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -4476,9 +4553,33 @@
                 "original_string": "F. 25/2 1870 í Fagrabæ.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Fagrabær",
+                "location": "Fagribær",
                 "year_from_value": 1870,
-                "year_to_value": 1870
+                "year_to_value": 1870,
+                "location_obj": {
+                    "id": 26025,
+                    "name": "Fagribær",
+                    "lat": "65.860407",
+                    "lng": "-18.074664",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kjálki",
+                            "id": 1003818
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með móður á Melum (5) 1876-",

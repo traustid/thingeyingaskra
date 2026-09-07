@@ -1591,15 +1591,39 @@
         "parents_original_string": "For.: Halld. Jóhannesson og Kristín S. Jónsdóttir.",
         "residence_history": [
             {
-                "original_string": "Með for. á Svinárnesi (á 1.) 1868.",
+                "original_string": "Með for. á Svínárnesi (á 1.) 1868.",
                 "year": "1868",
                 "age": null,
                 "status": "Með for.",
-                "location": "Svinárnes",
+                "location": "Svínárnes",
                 "note": "á 1.",
                 "note_ref": null,
                 "year_from_value": 1868,
-                "year_to_value": 1868
+                "year_to_value": 1868,
+                "location_obj": {
+                    "id": 14541,
+                    "name": "Svínárnes",
+                    "lat": "65.997767",
+                    "lng": "-18.25444",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Látraströnd",
+                            "id": 24709
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. á Látrum (2) 1869-1873.",
@@ -1921,11 +1945,11 @@
                 }
             },
             {
-                "original_string": "Hjá for. á Birningst. L. (7) 1856-1863-",
+                "original_string": "Hjá for. á Birningsstaðir L. (7) 1856-1863-",
                 "year": "1856-1863",
                 "age": 7,
                 "status": "Hjá for.",
-                "location": "Birningstaðir L",
+                "location": "Birningsstaðir L",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1856,

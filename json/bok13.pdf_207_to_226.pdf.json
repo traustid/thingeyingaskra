@@ -125,11 +125,11 @@
                 }
             },
             {
-                "original_string": "Hjú að Narfastadaseli úr Eyjafirði (22) 1844.",
+                "original_string": "Hjú að Narfastaðaseli úr Eyjafirði (22) 1844.",
                 "year_or_period": "1844",
                 "age": 22,
                 "status": "Hjú",
-                "location": "Narfastadasel",
+                "location": "Narfastaðasel",
                 "note": "úr Eyjafirði",
                 "note_ref": null,
                 "year": "1844",
@@ -3623,7 +3623,35 @@
             "birth": {
                 "original_string": "F. 17/10. 1858 á Knarrareyri.",
                 "date": "1858-10-17",
-                "location": "Knarrareyri (Eyri)"
+                "location": "Knarrareyri (Eyri)",
+                "location_obj": {
+                    "id": 90008,
+                    "name": "Knarrareyri",
+                    "lat": "66.104731",
+                    "lng": "-17.87562",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Eyri",
+                            "id": 0
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -3666,7 +3694,35 @@
                 "status": "Fæðingarstaður",
                 "location": "Knarrareyri (Eyri)",
                 "year_from_value": 1858,
-                "year_to_value": 1858
+                "year_to_value": 1858,
+                "location_obj": {
+                    "id": 90008,
+                    "name": "Knarrareyri",
+                    "lat": "66.104731",
+                    "lng": "-17.87562",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Eyri",
+                            "id": 0
+                        },
+                        {
+                            "name": "Flateyjardalur",
+                            "id": 24091
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Eyri Fl. (1/2 árs) 1858-1861-1866.",

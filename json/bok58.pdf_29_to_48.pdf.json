@@ -7,7 +7,31 @@
             "birth": {
                 "original_string": "F. 11/4. 1845 í Skógum R.",
                 "date": "1845-04-11",
-                "location": "Skógar R."
+                "location": "Skógar Rhv.",
+                "location_obj": {
+                    "id": 1000913,
+                    "name": "Skógar",
+                    "lat": "65.939166",
+                    "lng": "-17.306057",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -53,9 +77,33 @@
                 "original_string": "F. 11/4. 1845 í Skógum R.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skógar R.",
+                "location": "Skógar Rhv.",
                 "year_from_value": 1845,
-                "year_to_value": 1845
+                "year_to_value": 1845,
+                "location_obj": {
+                    "id": 1000913,
+                    "name": "Skógar",
+                    "lat": "65.939166",
+                    "lng": "-17.306057",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Skógum (2) 1847-1862.",
@@ -68,18 +116,18 @@
                 "year_from_value": 1847,
                 "year_to_value": 1862,
                 "location_obj": {
-                    "id": 13475,
+                    "id": 1000913,
                     "name": "Skógar",
-                    "lat": "65.726879",
-                    "lng": "-17.915404",
+                    "lat": "65.939166",
+                    "lng": "-17.306057",
                     "location_type": {
-                        "id": 88,
-                        "name": "Örnefni"
+                        "id": 1,
+                        "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
+                            "name": "Reykjahverfi",
+                            "id": 1001642
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -132,22 +180,70 @@
                 "year_or_period": "1863-1864",
                 "age": 19,
                 "status": "Hjú",
-                "location": "Skógar R.",
+                "location": "Skógar Rhv.",
                 "note": "",
                 "year": "1863-1864",
                 "year_from_value": 1863,
-                "year_to_value": 1864
+                "year_to_value": 1864,
+                "location_obj": {
+                    "id": 1000913,
+                    "name": "Skógar",
+                    "lat": "65.939166",
+                    "lng": "-17.306057",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Skógum R. . . . 1872.",
                 "year_or_period": "1872",
                 "age": null,
                 "status": "Húsfr.",
-                "location": "Skógar R.",
+                "location": "Skógar Rhv.",
                 "note": "",
                 "year": "1872",
                 "year_from_value": 1872,
-                "year_to_value": 1872
+                "year_to_value": 1872,
+                "location_obj": {
+                    "id": 1000913,
+                    "name": "Skógar",
+                    "lat": "65.939166",
+                    "lng": "-17.306057",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Brekknakoti (29) 1874.",
@@ -985,7 +1081,7 @@
             "birth": {
                 "original_string": "F. 4/1. 1851 á Hofstöðum.",
                 "date": "1851-01-04",
-                "location": "Hofstöðum",
+                "location": "Hofsstöðum",
                 "location_obj": {
                     "id": 13626,
                     "name": "Hofsstaðir",
@@ -1066,7 +1162,7 @@
                 "original_string": "F. 4/1. 1851 á Hofstöðum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Hofstöðum",
+                "location": "Hofsstöðum",
                 "year_from_value": 1851,
                 "year_to_value": 1851,
                 "location_obj": {
@@ -1215,7 +1311,7 @@
                 "year_or_period": "1871-1873",
                 "age": 22,
                 "status": "Hjú",
-                "location": "Hofstöðum",
+                "location": "Hofsstöðum",
                 "note": "kom frá Ófeigst.",
                 "year": "1871-1873",
                 "year_from_value": 1871,

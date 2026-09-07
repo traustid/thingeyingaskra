@@ -2063,16 +2063,44 @@
                 "year_to_value": 1812
             },
             {
-                "original_string": "Hjú á Birningst. Fr. (18) 1829-1834.",
+                "original_string": "Hjú á Birningsstaðir Fr. (18) 1829-1834.",
                 "year_or_period": "1829-1834",
                 "age": 18,
                 "status": "Hjú",
-                "location": "Birningstaðir, Fn.",
+                "location": "Birningsstaðir, Fn.",
                 "note": "",
                 "note_ref": null,
                 "year": "1829-1834",
                 "year_from_value": 1829,
-                "year_to_value": 1834
+                "year_to_value": 1834,
+                "location_obj": {
+                    "id": 16541,
+                    "name": "Birningsstaðir",
+                    "lat": "65.717569",
+                    "lng": "-17.799308",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Ljósavatnsskarð",
+                            "id": 24734
+                        },
+                        {
+                            "name": "Fnjóskadalur",
+                            "id": 16452
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "G. á Hjaltadal (25) 1836-1838.",
@@ -2787,6 +2815,7 @@
                 "note": "",
                 "names": [
                     "J.",
+                    "pr.",
                     "Þorsteinsson"
                 ],
                 "firstName": "J.",
