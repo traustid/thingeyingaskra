@@ -619,7 +619,31 @@
             "birth": {
                 "original_string": "F. 15/3 1862 á Austaraseli.",
                 "date": "1862-03-15",
-                "location": "Austaraseli"
+                "location": "Austaraseli",
+                "location_obj": {
+                    "id": 90086,
+                    "name": "Austarasel",
+                    "lat": "65.661437",
+                    "lng": "-16.688301",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -663,7 +687,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Austaraseli",
                 "year_from_value": 1862,
-                "year_to_value": 1862
+                "year_to_value": 1862,
+                "location_obj": {
+                    "id": 90086,
+                    "name": "Austarasel",
+                    "lat": "65.661437",
+                    "lng": "-16.688301",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. (7) frá Austaraseli - í Vopnafjörð 1870.",

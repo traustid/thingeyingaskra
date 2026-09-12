@@ -2272,9 +2272,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 27/5. 1895 í Skógum Þ.",
+                "original_string": "F. 27/5. 1895 í Skógum R.",
                 "date": "1895-05-27",
-                "location": "Skógar, Þ."
+                "location": "Skógar Rhv.",
+                "location_obj": {
+                    "id": 1000913,
+                    "name": "Skógar",
+                    "lat": "65.939166",
+                    "lng": "-17.306057",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -2314,23 +2338,71 @@
         "residence_history": [
             {
                 "year": "1895",
-                "original_string": "F. 27/5. 1895 í Skógum Þ.",
+                "original_string": "F. 27/5. 1895 í Skógum R.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Skógar, Þ.",
+                "location": "Skógar Rhv.",
                 "year_from_value": 1895,
-                "year_to_value": 1895
+                "year_to_value": 1895,
+                "location_obj": {
+                    "id": 1000913,
+                    "name": "Skógar",
+                    "lat": "65.939166",
+                    "lng": "-17.306057",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Með for. í Skógum Þ. (á 1.) 1895.",
+                "original_string": "Með for. í Skógum R. (á 1.) 1895.",
                 "year_or_period": "1895",
                 "age": 1,
                 "status": "með for.",
-                "location": "Skógar, Þ.",
+                "location": "Skógar Rhv.",
                 "note": "",
                 "year": "1895",
                 "year_from_value": 1895,
-                "year_to_value": 1895
+                "year_to_value": 1895,
+                "location_obj": {
+                    "id": 1000913,
+                    "name": "Skógar",
+                    "lat": "65.939166",
+                    "lng": "-17.306057",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjahverfi",
+                            "id": 1001642
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Naustum (2 ára) 1896.",
