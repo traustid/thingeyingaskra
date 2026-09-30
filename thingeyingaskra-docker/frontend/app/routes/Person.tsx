@@ -134,7 +134,7 @@ function ResidenceHistoryItem(props) {
 				!item.location_obj && <span>{item.location}</span>
 			}
 			{
-				item.note_ref && data.notes[item.note_ref] && <span> <sup title={data.notes && data.notes[item.note_ref] ? data.notes[item.note_ref] : null}>{item.note_ref}</sup></span>
+				item.note_ref && props.notes && props.notes[item.note_ref] && <span> <sup title={props.notes && props.notes[item.note_ref] ? props.notes[item.note_ref] : null}>{item.note_ref}</sup></span>
 			}
 		</div>
 		<div className="w-2/6 text-sm italic">{item.original_string}</div>
@@ -348,7 +348,7 @@ export default function Person() {
 							{
 								data.residence_history && data.residence_history.length > 0 && <div className="pb-4">
 									{
-										data.residence_history.map((item, index) => <ResidenceHistoryItem key={index} personId={personId} item={item} />)
+										data.residence_history.map((item, index) => <ResidenceHistoryItem key={index} personId={personId} item={item} notes={data.notes} />)
 									}
 
 									<div className="mt-4">
