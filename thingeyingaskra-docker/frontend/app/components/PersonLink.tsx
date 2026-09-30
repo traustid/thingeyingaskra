@@ -9,7 +9,7 @@ function PersonLink(props) {
 		</div>
 	}
 	if (props.item && props.item.person) {
-		return <NavLink className="md:flex flex-wrap py-2 px-4 rounded hover:bg-gray-100/40 border-b border-gray-200 border-t border-t-transparent hover:border-t-gray-200 hover:border hover:shadow-md transition-all group" to={'/einstaklingar/'+props.item._id}>
+		return <NavLink className={'md:flex flex-wrap py-2 px-4 rounded hover:bg-gray-100/40 border-b border-gray-200 border-t border-t-transparent hover:border-t-gray-200 hover:border hover:shadow-md transition-all group '+props.className} to={'/einstaklingar/'+props.item._id}>
 
 			<div className="md:w-1/2">
 				{
@@ -20,28 +20,32 @@ function PersonLink(props) {
 				<div className="font-bold group-hover:underline">
 					{props.item.person.name}
 				</div>
-				<div className="text-sm">
-					{props.item.person.birth ? props.item.person.birth.original_string : ''}{' - '}
-					{props.item.person.death ? props.item.person.death.original_string : ''}
-				</div>
 				{
-					props.item.person.status && <div className="text-sm italic text-gray-600">{props.item.person.status}</div>
-				}
-			</div>
-
-			<div className="md:w-1/2">
-				{
-					props.item.spouse && props.item.spouse.length > 0 &&
-					<div className="text-sm mt-1"><span className="font-bold text-gray-500">Maki:</span> {props.item.spouse.map(p => p.name).join(', ')}</div>
+					<div className="text-sm">
+						{props.item.person.birth ? props.item.person.birth.original_string : ''}{' - '}
+						{props.item.person.death ? props.item.person.death.original_string : ''}
+					</div>
 				}
 				{
-					props.item.parents && props.item.parents.length > 0 &&
-					<div className="text-sm mt-1"><span className="font-bold text-gray-500">Foreldrar:</span> {props.item.parents.map(p => p.name).join(', ')}</div>
+					!props.hideInfo && props.item.person.status && <div className="text-sm italic text-gray-600">{props.item.person.status}</div>
 				}
 			</div>
 
 			{
-				props.item.residence_history && <div className="w-full mt-2">
+				!props.hideInfo && <div className="md:w-1/2">
+					{
+						props.item.spouse && props.item.spouse.length > 0 &&
+						<div className="text-sm mt-1"><span className="font-bold text-gray-500">Maki:</span> {props.item.spouse.map(p => p.name).join(', ')}</div>
+					}
+					{
+						props.item.parents && props.item.parents.length > 0 &&
+						<div className="text-sm mt-1"><span className="font-bold text-gray-500">Foreldrar:</span> {props.item.parents.map(p => p.name).join(', ')}</div>
+					}
+				</div>
+			}
+
+			{
+				props.item.residence_history && !props.hideInfo && <div className="w-full mt-2">
 				<div className="text-sm">
 					{
 						_.uniq(_.compact(props.item.residence_history.map(item => item.location_obj ? item.location_obj.name : item.location || null))).join(', ')

@@ -777,7 +777,27 @@
             "birth": {
                 "original_string": "F. 11/8. 1842 í Krókum.",
                 "date": "1842-08-11",
-                "location": "Krókar"
+                "location": "Vestari-Krókar",
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -822,9 +842,29 @@
                 "original_string": "F. 11/8. 1842 í Krókum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Krókar",
+                "location": "Vestari-Krókar",
                 "year_from_value": 1842,
-                "year_to_value": 1842
+                "year_to_value": 1842,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Vestari-Krókum (3 ára) 1845.",

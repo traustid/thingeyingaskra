@@ -109,6 +109,47 @@ function ChildrenList(props) {
 	</div>
 }
 
+function ResidenceHistoryItem(props) {
+	const item = props.item;
+
+	const [sameYearInfo, setSameYearInfo] = useState();
+
+	useEffect(() => {
+		setSameYearInfo(null);
+	}, [props.personId])
+
+	return <div className="flex flex-wrap border-b border-gray-300 py-2">
+		<div className={'w-2/6'+(item.location_obj ? ' underline decoration-dotted cursor-pointer' : '')} onClick={() => {
+			if (!sameYearInfo && item.location_obj) {
+				fetch(config.apiRoot+'/place/'+item.location_obj.id+'?year_from='+item.year_from_value+'&year_to='+item.year_to_value)
+					.then(res => res.json())
+					.then(json => setSameYearInfo(json.results.filter(item => item._id != props.personId)))
+			}
+		}}><strong>{item.year_from_value+(item.year_from_value != item.year_to_value ? '-'+item.year_to_value : '')}</strong>{item.age ? ' ('+item.age+' ára)' : ''}</div>
+		<div className="w-2/6">
+			{
+				item.location_obj && <Link className="underline" to={'/stadir/'+item.location_obj.id}>{item.location_obj.name}</Link>
+			}
+			{
+				!item.location_obj && <span>{item.location}</span>
+			}
+			{
+				item.note_ref && data.notes[item.note_ref] && <span> <sup title={data.notes && data.notes[item.note_ref] ? data.notes[item.note_ref] : null}>{item.note_ref}</sup></span>
+			}
+		</div>
+		<div className="w-2/6 text-sm italic">{item.original_string}</div>
+		{
+			sameYearInfo && <div className="w-full grow bg-gray-100 border border-gray-300 p-4 mt-2 rounded">
+				<Label>Samtíða á þessu tímabili</Label>
+				<div className="flex flex-wrap">
+					{
+						sameYearInfo.map((item, index) => <PersonLink key={index} item={item} hideInfo={true} className="w-1/2" /> )
+					}
+				</div>
+			</div>
+		}
+	</div>
+}
 export default function Person() {
 	const { personId } = useParams();
 
@@ -251,7 +292,7 @@ export default function Person() {
 								<div className="text-sm text-gray-500">{data.person.birth.original_string}
 
 									{
-										data.person.birth.note_ref && <span> <sup title={data.notes && data.notes[data.person.birth.note_ref] ? data.notes[data.person.birth.note_ref] : null}>{data.person.death.note_ref}</sup></span>
+										data.person.birth.note_ref && data.notes[data.person.birth.note_ref] && <span> <sup title={data.notes && data.notes[data.person.birth.note_ref] ? data.notes[data.person.birth.note_ref] : null}>{data.person.birth.note_ref}</sup></span>
 									}
 								</div>
 							</div>
@@ -271,7 +312,7 @@ export default function Person() {
 								</div>
 								<div className="text-sm text-gray-500">{data.person.death.original_string}
 									{
-										data.person.death.note_ref && <span> <sup title={data.notes && data.notes[data.person.death.note_ref] ? data.notes[data.person.death.note_ref] : null}>{data.person.death.note_ref}</sup></span>
+										data.person.death.note_ref && data.notes[data.person.death.note_ref] && <span> <sup title={data.notes && data.notes[data.person.death.note_ref] ? data.notes[data.person.death.note_ref] : null}>{data.person.death.note_ref}</sup></span>
 									}
 
 								</div>
@@ -307,21 +348,7 @@ export default function Person() {
 							{
 								data.residence_history && data.residence_history.length > 0 && <div className="pb-4">
 									{
-										data.residence_history.map((item, index) => <div key={index} className="flex flex-wrap border-b border-gray-300 py-2">
-											<div className="w-2/6"><strong>{item.year}</strong>{item.age ? ' ('+item.age+' ára)' : ''}</div>
-											<div className="w-2/6">
-												{
-													item.location_obj && <Link className="underline" to={'/stadir/'+item.location_obj.id}>{item.location_obj.name}</Link>
-												}
-												{
-													!item.location_obj && <span>{item.location}</span>
-												}
-												{
-													item.note_ref && <span> <sup title={data.notes && data.notes[item.note_ref] ? data.notes[item.note_ref] : null}>{item.note_ref}</sup></span>
-												}
-											</div>
-											<div className="w-2/6 text-sm italic">{item.original_string}</div>
-										</div>)
+										data.residence_history.map((item, index) => <ResidenceHistoryItem key={index} personId={personId} item={item} />)
 									}
 
 									<div className="mt-4">

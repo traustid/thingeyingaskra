@@ -1,5 +1,4 @@
 import { Link, NavLink, useNavigate, useParams } from "react-router";
-import type { Route } from "./+types/home";
 import { Fragment, useEffect, useRef, useState } from "react";
 import _ from "underscore";
 
@@ -10,7 +9,7 @@ import config from '../config.js';
 import PersonLink from "~/components/PersonLink";
 import Panel from "~/components/Panel";
 
-export function meta({}: Route.MetaArgs) {
+export function meta() {
 	return [
 		{ title: "Þingeyingaskrá Konráðs Vilhjálmssonar" },
 		{ name: "description", content: "Í Þingeyingaskrá Konráðs Vilhjálmssonar er fimmtán þúsund Þingeyingum fylgt frá vöggu til grafar. Konráð Vilhjálmsson fræðimaður vann að skránni í meira enn áratug. Verkið er byggt að miklu leyti á manntölum prestanna. Verkinu skipti Konráð niður í 72 bækur." },
@@ -23,7 +22,9 @@ export default function Places() {
 	const [selectedPlace, setSelectedPlace] = useState();
 	const [personList, setPersonList] = useState();
 	const [minMax, setMinMax] = useState();
+	const [yearMinMax, setYearMinMax] = useState();
 	const [relMinMax, setRelMinMax] = useState();
+	const [groupedYears, setGroupedYears] = useState();
 
 	const { placeId } = useParams();
 	const navigate = useNavigate();
@@ -38,10 +39,12 @@ export default function Places() {
 			.then(json => {
 				const minValue = _.min(_.pluck(json.results, 'records_count'));
 				const maxValue = _.max(_.pluck(json.results, 'records_count'));
+
 				setMinMax({
 					min: minValue,
 					max: maxValue
-				})
+				});
+
 				setMapData(json.results);
 
 				let bounds = _.filter(json.results, i => i.lat && i.lng).map(i => [i.lat, i.lng]);
@@ -56,6 +59,40 @@ export default function Places() {
 			});
 	}, []);
 
+	console.log(yearMinMax)
+
+	const generatePeriodBuckets = (minYear, maxYear) => {
+		const periods = [];
+
+		const remainder = minYear % 5;
+		let currentStart = minYear;
+
+		if (remainder !== 0) {
+			const firstEnd = minYear + (4 - remainder);
+			const actualEnd = Math.min(firstEnd, maxYear);
+			
+			periods.push({
+			start: currentStart,
+			end: actualEnd,
+			label: `${currentStart}-${actualEnd}`
+			});
+			
+			currentStart = actualEnd + 1;
+		}
+
+		while (currentStart <= maxYear) {
+			const currentEnd = Math.min(currentStart + 4, maxYear);
+			periods.push({
+			start: currentStart,
+			end: currentEnd,
+			label: `${currentStart}-${currentEnd}`
+			});
+			currentStart = currentEnd + 1;
+		}
+
+		return periods;
+	}
+
 	useEffect(() => {
 		if (!placeId) {
 			setPersonList(null);
@@ -69,6 +106,34 @@ export default function Places() {
 				.then(json => {
 					setPersonList(json.results);
 					setSelectedPlace(json.place);
+
+					let minYear = _.min(_.pluck(json.results, 'year_from'));
+					let maxYear = _.max(_.pluck(json.results, 'year_to'));
+
+					setYearMinMax({
+						minYear: minYear,
+						maxYear: maxYear
+					});
+
+					let periods = generatePeriodBuckets(minYear, maxYear);
+
+					let grouped = {};
+
+					json.results.forEach(item => {
+						periods.forEach(period => {
+							const hasOverlap = item.year_from <= period.end && item.year_to >= period.start;
+
+							if (hasOverlap) {
+								if (!grouped[period.label]) {
+									grouped[period.label] = [];
+								};
+
+								grouped[period.label].push(item);
+							}
+						});
+					});
+
+					setGroupedYears(grouped);
 				});
 
 			fetch(config.apiRoot+'/related_places/'+placeId)
@@ -79,7 +144,7 @@ export default function Places() {
 					setRelMinMax({
 						min: minValue,
 						max: maxValue
-					})
+					});
 					setRelatedMapData(json.results);
 				});
 		}
@@ -96,17 +161,22 @@ export default function Places() {
 
 		<div className="flex gap-6">
 			{
-				personList && personList.length > 0 && <Panel className="mt-4 w-1/3">
+				personList && personList.length > 0 && groupedYears && <Panel className="mt-4 w-1/3">
 					{
 						selectedPlace && personList && <div className="mb-4 bg-gray-100 border border-gray-200 p-3 rounded-md flex gap-2 divide-solid divide-gray-300">
 							{_.uniq(personList, (p => p._id)).length} einstaklingar.
 						</div>
 					}
 					{
-						personList.map((item, index) => <PersonLink key={index} 
-							item={item}
-							headerText={item.year}
-						/>)
+						Object.keys(groupedYears).map(period => <div key={period} className="mb-4">
+							<div className="text-lg text-center mb-4 text-[#267fad] font-bold">{period}</div>
+							{
+								groupedYears[period].map((item, index) => <PersonLink key={index} 
+									item={item}
+									headerText={item.year}
+								/>)
+							}
+						</div>)
 					}
 				</Panel>
 			}

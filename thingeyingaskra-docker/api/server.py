@@ -290,23 +290,34 @@ async def getPersons(startId=None, order=None, birthyear=None):
 		}
 
 @app.get('/api/place/{placeId}')
-async def getPlace(placeId):
+async def getPlace(placeId, year_from=None, year_to=None):
+	matchQuery = {
+		'residence_history.location_obj.id': int(placeId),
+		#'residence_history.year_from_value': {
+		#	'$gte': 1880
+		#},
+		#'residence_history.year_to_value': {
+		#	'$lte': 1900
+		#}
+	}
+
+	if year_from is not None and year_to is not None:
+		matchQuery['residence_history.year_from_value'] = {
+			'$gte': int(year_from)
+		}
+		matchQuery['residence_history.year_to_value'] = {
+			'$lte': int(year_to)
+		}
+
+	print(year_to)
+
 	pipeline = [
 		# 1. Flatten the array so every year/location entry becomes an individual row
 		{'$unwind': '$residence_history'},
 		
 		# 2. Filter down to records matching your specific location
 		{
-			'$match': {
-				# Switch this to 'residence_history.location_obj.name': target_location_name if searching by string text
-				'residence_history.location_obj.id': int(placeId),
-				#'residence_history.year_from_value': {
-				#	'$gte': 1880
-				#},
-				#'residence_history.year_to_value': {
-				#	'$lte': 1900
-				#}
-			}
+			'$match': matchQuery
 		},
 		
 		# 3. Reshape the document to return only the target person info and that specific year
@@ -314,13 +325,15 @@ async def getPlace(placeId):
 			'$project': {
 				'_id': 1, # Keep the primary person database record identifier
 				'person': 1,
-				'year': '$residence_history.year'
+				'year': '$residence_history.year',
+				'year_from': '$residence_history.year_from_value',
+				'year_to': '$residence_history.year_to_value'
 			}
 		},
 		
 		# 4. Sort chronologically by the year string value ascending
 		# (Use -1 instead of 1 if you want the most recent records first)
-		{'$sort': {'year': 1}}
+		{'$sort': {'year_from': 1}}
 	]
 
 	locationObjPipeline = [

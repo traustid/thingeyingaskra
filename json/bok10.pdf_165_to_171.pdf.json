@@ -596,7 +596,27 @@
             "birth": {
                 "original_string": "F. 16/12. 1854 í Krókum.",
                 "date": "1854-12-16",
-                "location": "Krókar"
+                "location": "Vestari-Krókar",
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -654,9 +674,29 @@
                 "original_string": "F. 16/12. 1854 í Krókum.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Krókar",
+                "location": "Vestari-Krókar",
                 "year_from_value": 1854,
-                "year_to_value": 1854
+                "year_to_value": 1854,
+                "location_obj": {
+                    "id": 10234,
+                    "name": "Vestari-Krókar",
+                    "lat": "65.893253",
+                    "lng": "-17.864567",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á A-Krókum (1 árs) 1854.",
@@ -671,8 +711,8 @@
                 "location_obj": {
                     "id": 25731,
                     "name": "Austari-Krókar",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.899418",
+                    "lng": "-17.849780",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
