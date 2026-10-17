@@ -3392,14 +3392,38 @@
                 "year_to_value": 1855
             },
             {
-                "original_string": "Til heimilis á Hólmavadi (19) 1856.",
+                "original_string": "Til heimilis á Hólmavaði (19) 1856.",
                 "year": "1856",
                 "age": 19,
                 "status": "Til heimilis",
-                "location": "Hólmavadi",
+                "location": "Hólmavaði",
                 "note": "",
                 "year_from_value": 1856,
-                "year_to_value": 1856
+                "year_to_value": 1856,
+                "location_obj": {
+                    "id": 33760,
+                    "name": "Hólmavað",
+                    "lat": "65.857635",
+                    "lng": "-17.403704",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Léttap. í Prestholmi (19) 1857.",
@@ -3556,7 +3580,35 @@
                 "note": "",
                 "note_ref": 1,
                 "year_from_value": 1885,
-                "year_to_value": 1886
+                "year_to_value": 1886,
+                "location_obj": {
+                    "id": 90071,
+                    "name": "Grenivíkurkot",
+                    "lat": "65.950617",
+                    "lng": "-18.177070",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1887",

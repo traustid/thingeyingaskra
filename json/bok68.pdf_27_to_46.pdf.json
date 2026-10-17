@@ -2371,7 +2371,31 @@
             "death": {
                 "original_string": "D. á Arnarvatni 22/8. 1825. 67 ára.",
                 "date": "1825-08-22",
-                "location": "Arnarvatn"
+                "location": "Arnarvatn",
+                "location_obj": {
+                    "id": 16388,
+                    "name": "Arnarvatn",
+                    "lat": "65.584427",
+                    "lng": "-17.129831",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Valgerður",
@@ -2544,7 +2568,31 @@
                 "status": "Dánarstaður",
                 "location": "Arnarvatn",
                 "year_from_value": 1825,
-                "year_to_value": 1825
+                "year_to_value": 1825,
+                "location_obj": {
+                    "id": 16388,
+                    "name": "Arnarvatn",
+                    "lat": "65.584427",
+                    "lng": "-17.129831",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

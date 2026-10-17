@@ -1,14 +1,13 @@
 import { Link, NavLink, useParams } from "react-router";
-import type { Route } from "./+types/home";
 import { useEffect, useRef, useState } from "react";
-import PersonLink from "../components/PersonLink";
+import PersonLink from "../components/PersonLink.jsx";
 import _ from 'underscore';
 
 import config from '../config.js';
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import Panel from "~/components/Panel";
 
-export function meta({}: Route.MetaArgs) {
+export function meta() {
 	return [
 		{ title: "Þingeyingaskrá Konráðs Vilhjálmssonar" },
 		{ name: "description", content: "Welcome to React Router!" },

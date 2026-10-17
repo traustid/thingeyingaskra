@@ -612,15 +612,39 @@
                 "year_to_value": 1812
             },
             {
-                "original_string": "B. á Knappstöðum B. (32) 1812-38 (Hrb.).",
+                "original_string": "B. á Hrappsstöðum B. (32) 1812-38 (Hrb.).",
                 "year": "1812-1838",
                 "age": 32,
                 "status": "B.",
-                "location": "Knappstaðir B.",
+                "location": "Hrappsstaðir B.",
                 "note": "Hrb.",
                 "note_ref": null,
                 "year_from_value": 1812,
-                "year_to_value": 1838
+                "year_to_value": 1838,
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappsstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Fremstafelli ... 1838-1849 (Hrb.).",

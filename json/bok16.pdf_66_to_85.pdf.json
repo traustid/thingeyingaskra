@@ -939,7 +939,7 @@
                 "location": ""
             },
             "death": {
-                "original_string": "Drukknaði í Naustavík 1817, 40 ára. 1)",
+                "original_string": "D. frá í Naustavík 1817, 40 ára. 1)",
                 "date": "1817-00-00",
                 "location": "Naustavík",
                 "note_ref": 1,
@@ -1124,7 +1124,7 @@
             }
         ],
         "notes": {
-            "1": "Umv. - Dó úti milli bæja í Þistilfirði. Grafinn að Svalbarði. \"Umpenningur úr Fúlalæk varð úti í Þistilfirði (1817).\" S.G. Sunn. 19."
+            "1": "Umr. - Dó úti milli bæja í Þistilfirði. Grafinn að Svalbarði. \"Umrenningur úr Fúlalæk varð úti í Þistilfirði (1817).\" S.G. Sunn. 19."
         },
         "pageUrl": "https://issuu.com/heradsskjalasafnthingeyinga/docs/b_k_16/71",
         "bok": "bok16",
@@ -1743,7 +1743,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1816,
-                "year_to_value": 1816
+                "year_to_value": 1816,
+                "location_obj": {
+                    "id": 1001705,
+                    "name": "Daðastaðir",
+                    "lat": "65.699301",
+                    "lng": "-17.362704",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Fermdur frá Langavatni (15) 1826.",
@@ -3863,7 +3887,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1900,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 1001705,
+                    "name": "Daðastaðir",
+                    "lat": "65.699301",
+                    "lng": "-17.362704",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

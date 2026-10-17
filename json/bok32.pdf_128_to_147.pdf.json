@@ -363,7 +363,31 @@
             "birth": {
                 "original_string": "F. um 1774. á Jarlsst. B.",
                 "date": "1774-00-00",
-                "location": "Jarlsstaðir B."
+                "location": "Jarlsstaðir B.",
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -389,7 +413,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Jarlsstaðir B.",
                 "year_from_value": 1774,
-                "year_to_value": 1774
+                "year_to_value": 1774,
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Ljósavatni (27) 1801-",
@@ -1035,22 +1083,19 @@
                 "year_from_value": 1871,
                 "year_to_value": 1872,
                 "location_obj": {
-                    "id": 90019,
+                    "id": 90077,
                     "name": "Árbakki",
-                    "lat": "65.958172",
-                    "lng": "-18.192479",
+                    "aka": "Krákárbakki",
+                    "lat": "65.445082",
+                    "lng": "-17.112741",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Mývatnssveit",
+                            "id": 16604
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

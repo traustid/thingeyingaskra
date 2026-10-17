@@ -746,22 +746,18 @@
                 "year_from_value": 1871,
                 "year_to_value": 1872,
                 "location_obj": {
-                    "id": 1004483,
+                    "id": 90053,
                     "name": "Hóll",
-                    "lat": "65.851329",
-                    "lng": "-17.869841",
+                    "lat": "65.816492",
+                    "lng": "-17.556452",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Fnjóskadalur",
-                            "id": 16452
+                            "name": "Kaldakinn",
+                            "id": 16594
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3237,9 +3233,33 @@
                 "location": ""
             },
             "death": {
-                "original_string": "D. í Forsseli 16/8 1821.",
+                "original_string": "D. í Fossseli 16/8 1821.",
                 "date": "1821-08-16",
-                "location": "Forssel"
+                "location": "Fosssel",
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Baldvin",
@@ -3345,24 +3365,72 @@
                 }
             },
             {
-                "original_string": "Með for. frá Glaumbæ að Tosseli 1821.",
+                "original_string": "Með for. frá Glaumbæ að Fossseli 1821.",
                 "year_or_period": "1821",
                 "age": null,
                 "status": "",
-                "location": "Tossel",
+                "location": "Fosssel",
                 "note": "frá Glaumbæ",
                 "year": "1821",
                 "year_from_value": 1821,
-                "year_to_value": 1821
+                "year_to_value": 1821,
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1821",
-                "original_string": "D. í Forsseli 16/8 1821.",
+                "original_string": "D. í Fossseli 16/8 1821.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Forssel",
+                "location": "Fosssel",
                 "year_from_value": 1821,
-                "year_to_value": 1821
+                "year_to_value": 1821,
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

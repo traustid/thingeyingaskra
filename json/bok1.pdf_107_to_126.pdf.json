@@ -1248,7 +1248,35 @@
             "birth": {
                 "original_string": "F. 4/4 1891 í Grenivíkukoti.",
                 "date": "1891-04-04",
-                "location": "Grenivíkukoti"
+                "location": "Grenivíkukoti",
+                "location_obj": {
+                    "id": 90071,
+                    "name": "Grenivíkurkot",
+                    "lat": "65.950617",
+                    "lng": "-18.177070",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -1291,7 +1319,35 @@
                 "status": "Fæðingarstaður",
                 "location": "Grenivíkukoti",
                 "year_from_value": 1891,
-                "year_to_value": 1891
+                "year_to_value": 1891,
+                "location_obj": {
+                    "id": 90071,
+                    "name": "Grenivíkurkot",
+                    "lat": "65.950617",
+                    "lng": "-18.177070",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Með for. í Grenivíkurkoti (1 árs) 1891-1892- 1900.",
@@ -3362,22 +3418,19 @@
                 "year_from_value": 1883,
                 "year_to_value": 1885,
                 "location_obj": {
-                    "id": 90019,
+                    "id": 90077,
                     "name": "Árbakki",
-                    "lat": "65.958172",
-                    "lng": "-18.192479",
+                    "aka": "Krákárbakki",
+                    "lat": "65.445082",
+                    "lng": "-17.112741",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Mývatnssveit",
+                            "id": 16604
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3400,22 +3453,19 @@
                 "year_from_value": 1888,
                 "year_to_value": 1895,
                 "location_obj": {
-                    "id": 90019,
+                    "id": 90077,
                     "name": "Árbakki",
-                    "lat": "65.958172",
-                    "lng": "-18.192479",
+                    "aka": "Krákárbakki",
+                    "lat": "65.445082",
+                    "lng": "-17.112741",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Mývatnssveit",
+                            "id": 16604
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

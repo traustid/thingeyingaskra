@@ -1984,7 +1984,31 @@
             "death": {
                 "original_string": "D. á Jarlsst. B. 21/3. 1848, 37 ára.",
                 "date": "1848-03-21",
-                "location": "Jarlsstaðir, B."
+                "location": "Jarlsstaðir, B.",
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "María",
@@ -2133,7 +2157,31 @@
                 "status": "Dánarstaður",
                 "location": "Jarlsstaðir, B.",
                 "year_from_value": 1848,
-                "year_to_value": 1848
+                "year_to_value": 1848,
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

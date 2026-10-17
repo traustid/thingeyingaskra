@@ -1290,28 +1290,76 @@
                 }
             },
             {
-                "original_string": "Frá Hallbj.st. R. að Helluvadi 1855",
+                "original_string": "Frá Hallbj.st. R. að Helluvaði 1855",
                 "year_or_period": "1855",
                 "age": null,
                 "status": "",
-                "location": "Helluvadi",
+                "location": "Helluvaði",
                 "note": "Frá Hallbj.staðir R",
                 "note_ref": null,
                 "year": "1855",
                 "year_from_value": 1855,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 1001708,
+                    "name": "Helluvað",
+                    "lat": "65.587333",
+                    "lng": "-17.154798",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "K. vinn. á Helluvadi (48) 1855-",
+                "original_string": "K. vinn. á Helluvaði (48) 1855-",
                 "year_or_period": "1855-",
                 "age": 48,
                 "status": "K. vinn.",
-                "location": "Helluvadi",
+                "location": "Helluvaði",
                 "note": "",
                 "note_ref": null,
                 "year": "1855-",
                 "year_from_value": 1855,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 1001708,
+                    "name": "Helluvað",
+                    "lat": "65.587333",
+                    "lng": "-17.154798",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "K. vinn. (49) þaðan að Rauðá 1856 (51)",
@@ -1426,12 +1474,12 @@
                 }
             },
             {
-                "original_string": "G. Kona frá Helluvadi að Stórutaugum 1860.",
+                "original_string": "G. Kona frá Helluvaði að Stórutaugum 1860.",
                 "year_or_period": "1860",
                 "age": null,
                 "status": "G. Kona",
                 "location": "Stórutaugum",
-                "note": "frá Helluvadi",
+                "note": "frá Helluvaði",
                 "note_ref": null,
                 "year": "1860",
                 "year_from_value": 1860,
@@ -2164,31 +2212,7 @@
             "birth": {
                 "original_string": "F. 18/9. 1804 í Höfða, Grýt.",
                 "date": "1804-09-18",
-                "location": "Höfða, Grýt.",
-                "location_obj": {
-                    "id": 16495,
-                    "name": "Höfði",
-                    "lat": "65.915741",
-                    "lng": "-18.163212",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "location": "Höfða, Grýt."
             },
             "death": {
                 "original_string": "D. 1882.",
@@ -2247,31 +2271,7 @@
                 "status": "Fæðingarstaður",
                 "location": "Höfða, Grýt.",
                 "year_from_value": 1804,
-                "year_to_value": 1804,
-                "location_obj": {
-                    "id": 16495,
-                    "name": "Höfði",
-                    "lat": "65.915741",
-                    "lng": "-18.163212",
-                    "location_type": {
-                        "id": 1,
-                        "name": "Heimilisfang"
-                    },
-                    "parent": [
-                        {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Suður-Þingeyjarsýsla",
-                            "id": 1003354
-                        },
-                        {
-                            "name": "Ísland",
-                            "id": 16573
-                        }
-                    ]
-                }
+                "year_to_value": 1804
             },
             {
                 "original_string": "Fósturb. á Svalbarði (12) 1816-1817.",
@@ -2321,18 +2321,18 @@
                 "year_from_value": 1827,
                 "year_to_value": 1837,
                 "location_obj": {
-                    "id": 16495,
+                    "id": 15860,
                     "name": "Höfði",
-                    "lat": "65.915741",
-                    "lng": "-18.163212",
+                    "lat": "66.048372",
+                    "lng": "-17.354084",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
+                            "name": "Húsavík",
+                            "id": 24308
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3565,9 +3565,33 @@
                 "location": ""
             },
             "death": {
-                "original_string": "D. á Helluvadi 6/10. 1878, 56 ára, vinn",
+                "original_string": "D. á Helluvaði 6/10. 1878, 56 ára, vinn",
                 "date": "1878-10-06",
-                "location": "Helluvadi"
+                "location": "Helluvaði",
+                "location_obj": {
+                    "id": 1001708,
+                    "name": "Helluvað",
+                    "lat": "65.587333",
+                    "lng": "-17.154798",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Halldóra",
@@ -3580,7 +3604,7 @@
             {
                 "name": "Helgi Helgason",
                 "date": "1844-10-22",
-                "status": "á Helluvadi",
+                "status": "á Helluvaði",
                 "names": [
                     "Helgi",
                     "Helgason"
@@ -3589,7 +3613,7 @@
                 "lastName": "Helgason"
             }
         ],
-        "spouse_original_string": "M. : Helgi Helgason (á Helluvadi) 22/10. 1844.",
+        "spouse_original_string": "M. : Helgi Helgason (á Helluvaði) 22/10. 1844.",
         "parents": [
             {
                 "name": "J. Jónsson",
@@ -3939,25 +3963,73 @@
                 }
             },
             {
-                "original_string": "Móðir H. á Helluvadi (50) 1871-1877.",
+                "original_string": "Móðir H. á Helluvaði (50) 1871-1877.",
                 "year_or_period": "1871-1877",
                 "age": 50,
                 "status": "Móðir H.",
-                "location": "Helluvadi",
+                "location": "Helluvaði",
                 "note": "",
                 "note_ref": null,
                 "year": "1871-1877",
                 "year_from_value": 1871,
-                "year_to_value": 1877
+                "year_to_value": 1877,
+                "location_obj": {
+                    "id": 1001708,
+                    "name": "Helluvað",
+                    "lat": "65.587333",
+                    "lng": "-17.154798",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "year": "1878",
-                "original_string": "D. á Helluvadi 6/10. 1878, 56 ára, vinn",
+                "original_string": "D. á Helluvaði 6/10. 1878, 56 ára, vinn",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Helluvadi",
+                "location": "Helluvaði",
                 "year_from_value": 1878,
-                "year_to_value": 1878
+                "year_to_value": 1878,
+                "location_obj": {
+                    "id": 1001708,
+                    "name": "Helluvað",
+                    "lat": "65.587333",
+                    "lng": "-17.154798",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

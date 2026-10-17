@@ -1156,7 +1156,31 @@
             "birth": {
                 "original_string": "F. 1/11 1862 á Jarlsst. B.",
                 "date": "1862-11-01",
-                "location": "Jarlsstaðir, B."
+                "location": "Jarlsstaðir, B.",
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1215,7 +1239,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Jarlsstaðir, B.",
                 "year_from_value": 1862,
-                "year_to_value": 1862
+                "year_to_value": 1862,
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Jarlsst. B. (1 árs) 1863-70.",
@@ -1226,7 +1274,31 @@
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1863,
-                "year_to_value": 1870
+                "year_to_value": 1870,
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Mjóadal (7) 1871-73.",
@@ -1492,7 +1564,31 @@
                 "note": "Hrb.",
                 "note_ref": null,
                 "year_from_value": 1861,
-                "year_to_value": 1870
+                "year_to_value": 1870,
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "B. í Mjóadal (34) 1870-73. (Hrb.)",
@@ -1559,8 +1655,8 @@
                 "location_obj": {
                     "id": 25731,
                     "name": "Austari-Krókar",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.899418",
+                    "lng": "-17.849780",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
@@ -1642,8 +1738,8 @@
                 "location_obj": {
                     "id": 25731,
                     "name": "Austari-Krókar",
-                    "lat": null,
-                    "lng": null,
+                    "lat": "65.899418",
+                    "lng": "-17.849780",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"

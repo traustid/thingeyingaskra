@@ -2023,7 +2023,31 @@
             "death": {
                 "original_string": "D. á Grímset. 17/10 1879.",
                 "date": "1879-10-17",
-                "location": "Grímset"
+                "location": "Grímsstaðir",
+                "location_obj": {
+                    "id": 14309,
+                    "name": "Grímsstaðir",
+                    "lat": "65.653385",
+                    "lng": "-16.974047",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Aðalbjörg",
@@ -2224,9 +2248,33 @@
                 "original_string": "D. á Grímset. 17/10 1879.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Grímset",
+                "location": "Grímsstaðir",
                 "year_from_value": 1879,
-                "year_to_value": 1879
+                "year_to_value": 1879,
+                "location_obj": {
+                    "id": 14309,
+                    "name": "Grímsstaðir",
+                    "lat": "65.653385",
+                    "lng": "-16.974047",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

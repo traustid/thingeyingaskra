@@ -3135,23 +3135,47 @@
                 }
             },
             {
-                "original_string": "G. frá Glaumbæ að Tosseli . . . 1821-23.",
+                "original_string": "G. frá Glaumbæ að Fossseli . . . 1821-23.",
                 "year": "1821-1823",
                 "age": null,
                 "status": "G.",
-                "location": "Tossel",
+                "location": "Fosssel",
                 "note": "frá Glaumbæ",
                 "note_ref": null,
                 "year_from_value": 1821,
-                "year_to_value": 1823
+                "year_to_value": 1823,
+                "location_obj": {
+                    "id": 13584,
+                    "name": "Fosssel",
+                    "lat": "65.783437",
+                    "lng": "-17.490284",
+                    "location_type": {
+                        "id": 88,
+                        "name": "Örnefni"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "G. kona (vk.) yfirgefur búskap frá Tosseli að Daðast. 1823.",
+                "original_string": "G. kona (vk.) yfirgefur búskap frá Fossseli að Daðast. 1823.",
                 "year": "1823",
                 "age": null,
                 "status": "G. kona (vk.)",
                 "location": "Daðastaðir",
-                "note": "yfirgefur búskap frá Tosseli",
+                "note": "yfirgefur búskap frá Fossseli",
                 "note_ref": null,
                 "year_from_value": 1823,
                 "year_to_value": 1823,
@@ -3437,11 +3461,35 @@
                 "year": "1850",
                 "age": null,
                 "status": "Húsk.",
-                "location": "Klambar",
+                "location": "Klambrar",
                 "note": "",
                 "note_ref": null,
                 "year_from_value": 1850,
-                "year_to_value": 1850
+                "year_to_value": 1850,
+                "location_obj": {
+                    "id": 1003685,
+                    "name": "Klömbur",
+                    "lat": "65.834784",
+                    "lng": "-17.330884",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "E. húsk. á Auðnum (60) 1851.",

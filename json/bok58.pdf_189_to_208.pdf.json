@@ -569,7 +569,31 @@
                 "location": "Reinabakki ytri",
                 "note": "Hjá for.",
                 "year_from_value": 1870,
-                "year_to_value": 1871
+                "year_to_value": 1871,
+                "location_obj": {
+                    "id": 90080,
+                    "name": "Beinabakki",
+                    "lat": "66.047877",
+                    "lng": "-17.347584",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Kaldbak (11 ára) 1872-1873.",
@@ -2023,18 +2047,22 @@
                 "year_from_value": 1840,
                 "year_to_value": 1847,
                 "location_obj": {
-                    "id": 90004,
+                    "id": 90003,
                     "name": "Hjalli",
-                    "lat": "65.693643",
-                    "lng": "-17.342826",
+                    "lat": "65.969928",
+                    "lng": "-18.211361",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Reykjadalur",
-                            "id": 16405
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

@@ -1651,7 +1651,31 @@
             "birth": {
                 "original_string": "F. 26/6. 1855 á Jarlsst. B.",
                 "date": "1855-06-26",
-                "location": "Jarlsstaðir B."
+                "location": "Jarlsstaðir B.",
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1698,7 +1722,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Jarlsstaðir B.",
                 "year_from_value": 1855,
-                "year_to_value": 1855
+                "year_to_value": 1855,
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Jarlsst. B. (1 árs) 1856-57.",
@@ -1864,18 +1912,18 @@
                 "year_from_value": 1859,
                 "year_to_value": 1859,
                 "location_obj": {
-                    "id": 1004895,
+                    "id": 1002743,
                     "name": "Jarlsstaðir",
-                    "lat": "65.950327",
-                    "lng": "-18.156724",
+                    "lat": "65.883203",
+                    "lng": "-17.430757",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
+                            "name": "Aðaldalur",
+                            "id": 16498
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

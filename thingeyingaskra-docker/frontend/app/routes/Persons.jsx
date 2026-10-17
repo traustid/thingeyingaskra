@@ -5,7 +5,6 @@ import _ from 'underscore';
 
 import config from '../config.js';
 import { useParams, useSearchParams } from "react-router";
-import Label from "~/components/Label.js";
 
 function Persons(props) {
 	const [data, setData] = useState();

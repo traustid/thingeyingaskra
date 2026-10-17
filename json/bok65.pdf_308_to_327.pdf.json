@@ -327,7 +327,31 @@
             "birth": {
                 "original_string": "F. um 1778 í Fellsseli.",
                 "date": "1778-00-00",
-                "location": "Fellssel"
+                "location": "Fellssel",
+                "location_obj": {
+                    "id": 10055,
+                    "name": "Fellssel",
+                    "lat": "65.768489",
+                    "lng": "-17.590552",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Veisuseli 7/8 1855. 1)",
@@ -410,7 +434,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Fellssel",
                 "year_from_value": 1778,
-                "year_to_value": 1778
+                "year_to_value": 1778,
+                "location_obj": {
+                    "id": 10055,
+                    "name": "Fellssel",
+                    "lat": "65.768489",
+                    "lng": "-17.590552",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Litlutjörnum (20) 1801-1810.",
@@ -1280,7 +1328,31 @@
                 "note_ref": null,
                 "year": "1879-1880",
                 "year_from_value": 1879,
-                "year_to_value": 1880
+                "year_to_value": 1880,
+                "location_obj": {
+                    "id": 90076,
+                    "name": "Hafralækjargerði",
+                    "lat": "65.871062",
+                    "lng": "-17.432703",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Aðaldalur",
+                            "id": 16498
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Húsfr. í Fótaskinni (54) 1881. G. húsk. í Haga (55) 1882.",

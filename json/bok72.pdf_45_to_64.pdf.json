@@ -451,22 +451,19 @@
                 "year_from_value": 1848,
                 "year_to_value": 1848,
                 "location_obj": {
-                    "id": 90019,
+                    "id": 90077,
                     "name": "Árbakki",
-                    "lat": "65.958172",
-                    "lng": "-18.192479",
+                    "aka": "Krákárbakki",
+                    "lat": "65.445082",
+                    "lng": "-17.112741",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Mývatnssveit",
+                            "id": 16604
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -2339,7 +2336,31 @@
                 "note_ref": null,
                 "year": "1893-1894",
                 "year_from_value": 1893,
-                "year_to_value": 1894
+                "year_to_value": 1894,
+                "location_obj": {
+                    "id": 16388,
+                    "name": "Arnarvatn",
+                    "lat": "65.584427",
+                    "lng": "-17.129831",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Litluströnd (42) 1895.",

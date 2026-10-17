@@ -671,7 +671,31 @@
             "birth": {
                 "original_string": "F. 28/6. 1794. á Þorvaldsstöðum.",
                 "date": "1794-06-28",
-                "location": "Þorvaldsstöðum"
+                "location": "Þorvaldsstöðum",
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": null,
             "names": [
@@ -714,7 +738,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Þorvaldsstöðum",
                 "year_from_value": 1794,
-                "year_to_value": 1794
+                "year_to_value": 1794,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Kvíslarhóli (7 ára) 1801.",
@@ -1394,7 +1442,31 @@
                 "note": "Hjá for.",
                 "note_ref": null,
                 "year_from_value": 1834,
-                "year_to_value": 1838
+                "year_to_value": 1838,
+                "location_obj": {
+                    "id": 90070,
+                    "name": "Þorvaldsstaðir",
+                    "lat": "66.032343",
+                    "lng": "-17.336998",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Br.son á Ófeigsstöðum (15) 1844-",
@@ -2579,18 +2651,18 @@
                 "year_from_value": 1873,
                 "year_to_value": 1873,
                 "location_obj": {
-                    "id": 16845,
+                    "id": 1003406,
                     "name": "Garður",
-                    "lat": "65.879636",
-                    "lng": "-17.446246",
+                    "lat": "65.553393",
+                    "lng": "-16.973920",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Aðaldalur",
-                            "id": 16498
+                            "name": "Mývatnssveit",
+                            "id": 16604
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3988,7 +4060,31 @@
                 "note": "Með for.",
                 "note_ref": null,
                 "year_from_value": 1900,
-                "year_to_value": 1900
+                "year_to_value": 1900,
+                "location_obj": {
+                    "id": 10055,
+                    "name": "Fellssel",
+                    "lat": "65.768489",
+                    "lng": "-17.590552",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Kaldakinn",
+                            "id": 16594
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},

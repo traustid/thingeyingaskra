@@ -2493,14 +2493,38 @@
                 }
             },
             {
-                "original_string": "Hjú í Reykjavík líkl. (32) 1883.",
+                "original_string": "Hjú í Reykjahlíð. (32) 1883.",
                 "year": "1883",
                 "age": 32,
                 "status": "Hjú",
-                "location": "Reykjavík",
+                "location": "Reykjahlíð",
                 "note": "",
                 "year_from_value": 1883,
-                "year_to_value": 1883
+                "year_to_value": 1883,
+                "location_obj": {
+                    "id": 16624,
+                    "name": "Reykjahlíð",
+                    "lat": "65.644316",
+                    "lng": "-16.91306",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Mývatnssveit",
+                            "id": 16604
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Laus, án heimilis við Mývatn 1886-87.",
@@ -2611,14 +2635,38 @@
                 "year_to_value": 1890
             },
             {
-                "original_string": "Hjú á Geitingsá (38) 1893.",
+                "original_string": "Hjú á Geldingsá (38) 1893.",
                 "year": "1893",
                 "age": 38,
                 "status": "Hjú",
-                "location": "Geitingsá",
+                "location": "Geldingsá",
                 "note": "",
                 "year_from_value": 1893,
-                "year_to_value": 1893
+                "year_to_value": 1893,
+                "location_obj": {
+                    "id": 13303,
+                    "name": "Geldingsá",
+                    "lat": "65.708854",
+                    "lng": "-18.054883",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Svalbarðsströnd",
+                            "id": 25150
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Lausam. á L. Laugum (41) 1894.",
@@ -2655,14 +2703,38 @@
                 }
             },
             {
-                "original_string": "Húsm. á Dadas töðum (43) 1895.",
+                "original_string": "Húsm. á Daðastöðum (43) 1895.",
                 "year": "1895",
                 "age": 43,
                 "status": "Húsm.",
-                "location": "Dadas töðum",
+                "location": "Daðastaðir",
                 "note": "",
                 "year_from_value": 1895,
-                "year_to_value": 1895
+                "year_to_value": 1895,
+                "location_obj": {
+                    "id": 1001705,
+                    "name": "Daðastaðir",
+                    "lat": "65.699301",
+                    "lng": "-17.362704",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Lausam. á Litlutjörnum (45) 1897.",
@@ -2742,22 +2814,19 @@
                 "year_from_value": 1899,
                 "year_to_value": 1899,
                 "location_obj": {
-                    "id": 90019,
+                    "id": 90077,
                     "name": "Árbakki",
-                    "lat": "65.958172",
-                    "lng": "-18.192479",
+                    "aka": "Krákárbakki",
+                    "lat": "65.445082",
+                    "lng": "-17.112741",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Mývatnssveit",
+                            "id": 16604
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

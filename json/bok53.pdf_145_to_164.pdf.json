@@ -2385,18 +2385,22 @@
                 "year_from_value": 1831,
                 "year_to_value": 1837,
                 "location_obj": {
-                    "id": 90004,
+                    "id": 90003,
                     "name": "Hjalli",
-                    "lat": "65.693643",
-                    "lng": "-17.342826",
+                    "lat": "65.969928",
+                    "lng": "-18.211361",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Reykjadalur",
-                            "id": 16405
+                            "name": "Höfðahverfi",
+                            "id": 24527
+                        },
+                        {
+                            "name": "Grýtubakkahreppur",
+                            "id": 12834
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3537,7 +3541,31 @@
                 "location": "Úlfsbær",
                 "note": "",
                 "year_from_value": 1864,
-                "year_to_value": 1864
+                "year_to_value": 1864,
+                "location_obj": {
+                    "id": 25659,
+                    "name": "Úlfsbær",
+                    "lat": "65.668466",
+                    "lng": "-17.539419",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Nýpá (51) 1865-1867.",
@@ -3668,12 +3696,60 @@
             "birth": {
                 "original_string": "F. á Narfast. 4/5. 1842.",
                 "date": "1842-05-04",
-                "location": "Narfast"
+                "location": "Narfastaðir",
+                "location_obj": {
+                    "id": 24821,
+                    "name": "Narfastaðir",
+                    "lat": "65.675002686",
+                    "lng": "-17.3511457443",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. þar 3/3. 1860.",
                 "date": "1860-03-03",
-                "location": "Narfast"
+                "location": "Narfastaðir",
+                "location_obj": {
+                    "id": 24821,
+                    "name": "Narfastaðir",
+                    "lat": "65.675002686",
+                    "lng": "-17.3511457443",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "names": [
                 "Ólafur",
@@ -3713,9 +3789,33 @@
                 "original_string": "F. á Narfast. 4/5. 1842.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Narfast",
+                "location": "Narfastaðir",
                 "year_from_value": 1842,
-                "year_to_value": 1842
+                "year_to_value": 1842,
+                "location_obj": {
+                    "id": 24821,
+                    "name": "Narfastaðir",
+                    "lat": "65.675002686",
+                    "lng": "-17.3511457443",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Narfastöðum (ál.) 1842-1860.",
@@ -3790,9 +3890,33 @@
                 "original_string": "D. þar 3/3. 1860.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Narfast",
+                "location": "Narfastaðir",
                 "year_from_value": 1860,
-                "year_to_value": 1860
+                "year_to_value": 1860,
+                "location_obj": {
+                    "id": 24821,
+                    "name": "Narfastaðir",
+                    "lat": "65.675002686",
+                    "lng": "-17.3511457443",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {

@@ -1268,7 +1268,31 @@
             "birth": {
                 "original_string": "F. 28/10. 1866 á Jarlsst. B.",
                 "date": "1866-10-28",
-                "location": "Jarlsstaðir B."
+                "location": "Jarlsstaðir B.",
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1315,7 +1339,31 @@
                 "status": "Fæðingarstaður",
                 "location": "Jarlsstaðir B.",
                 "year_from_value": 1866,
-                "year_to_value": 1866
+                "year_to_value": 1866,
+                "location_obj": {
+                    "id": 90005,
+                    "name": "Jarlsstaðir",
+                    "lat": "65.563921",
+                    "lng": "-17.477218",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. á Hrappsst. B. (1 árs) 1867-73.",
@@ -3172,18 +3220,18 @@
                 "year_from_value": 1829,
                 "year_to_value": 1845,
                 "location_obj": {
-                    "id": 13945,
+                    "id": 24832,
                     "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
+                    "lat": "65.878069",
+                    "lng": "-17.405309",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
+                            "name": "Aðaldalur",
+                            "id": 16498
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -3239,18 +3287,18 @@
                 "year_from_value": 1852,
                 "year_to_value": 1852,
                 "location_obj": {
-                    "id": 13945,
+                    "id": 24832,
                     "name": "Nes",
-                    "lat": "65.902255",
-                    "lng": "-18.118468",
+                    "lat": "65.878069",
+                    "lng": "-17.405309",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
+                            "name": "Aðaldalur",
+                            "id": 16498
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",

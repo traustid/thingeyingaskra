@@ -781,7 +781,31 @@
                 "note": "",
                 "year": "1855-1861",
                 "year_from_value": 1855,
-                "year_to_value": 1861
+                "year_to_value": 1861,
+                "location_obj": {
+                    "id": 90073,
+                    "name": "Stangarbakki",
+                    "lat": "66.041189",
+                    "lng": "-17.342739",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Húsavík",
+                            "id": 24308
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjá for. í Gíslabæ (11 ára) 1862-1863.",
@@ -2056,7 +2080,31 @@
             "birth": {
                 "original_string": "F. um 1755 á Narfast.",
                 "date": "1755-00-00",
-                "location": "Narfast"
+                "location": "Narfastaðir",
+                "location_obj": {
+                    "id": 24821,
+                    "name": "Narfastaðir",
+                    "lat": "65.675002686",
+                    "lng": "-17.3511457443",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "D. í Garði A. 7/5 1834.",
@@ -2126,9 +2174,33 @@
                 "original_string": "F. um 1755 á Narfast.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Narfast",
+                "location": "Narfastaðir",
                 "year_from_value": 1755,
-                "year_to_value": 1755
+                "year_to_value": 1755,
+                "location_obj": {
+                    "id": 24821,
+                    "name": "Narfastaðir",
+                    "lat": "65.675002686",
+                    "lng": "-17.3511457443",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Reykjadalur",
+                            "id": 16405
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
                 "original_string": "Hjú á Laxamýri (51 árs) 1806.",

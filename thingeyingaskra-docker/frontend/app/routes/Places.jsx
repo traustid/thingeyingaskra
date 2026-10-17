@@ -6,8 +6,8 @@ import { CircleMarker, MapContainer, Marker, Pane, Popup, TileLayer, Tooltip } f
 
 import "leaflet/dist/leaflet.css";
 import config from '../config.js';
-import PersonLink from "~/components/PersonLink";
-import Panel from "~/components/Panel";
+import PersonLink from "../components/PersonLink.jsx";
+import Panel from "../components/Panel";
 
 export function meta() {
 	return [
@@ -58,8 +58,6 @@ export default function Places() {
 
 			});
 	}, []);
-
-	console.log(yearMinMax)
 
 	const generatePeriodBuckets = (minYear, maxYear) => {
 		const periods = [];

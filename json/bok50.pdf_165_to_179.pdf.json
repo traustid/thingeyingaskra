@@ -415,11 +415,11 @@
                 }
             },
             {
-                "original_string": "Húsfr. á Knappst. K. (60) 1830-1834.",
+                "original_string": "Húsfr. á Hrappsstaðir K. (60) 1830-1834.",
                 "year": "1830-1834",
                 "age": 60,
                 "status": "Húsfr.",
-                "location": "Knappst. K.",
+                "location": "Hrappsstaðir K.",
                 "note": "",
                 "year_from_value": 1830,
                 "year_to_value": 1834
@@ -600,18 +600,18 @@
                 "year_from_value": 1841,
                 "year_to_value": 1843,
                 "location_obj": {
-                    "id": 24832,
+                    "id": 13945,
                     "name": "Nes",
-                    "lat": "65.878069",
-                    "lng": "-17.405309",
+                    "lat": "65.902255",
+                    "lng": "-18.118468",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Aðaldalur",
-                            "id": 16498
+                            "name": "Höfðahverfi",
+                            "id": 24527
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -633,18 +633,18 @@
                 "year_from_value": 1843,
                 "year_to_value": 1843,
                 "location_obj": {
-                    "id": 24832,
+                    "id": 13945,
                     "name": "Nes",
-                    "lat": "65.878069",
-                    "lng": "-17.405309",
+                    "lat": "65.902255",
+                    "lng": "-18.118468",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Aðaldalur",
-                            "id": 16498
+                            "name": "Höfðahverfi",
+                            "id": 24527
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1287,7 +1287,7 @@
                 "original_string": "D. á Kaðalst. 6/6. 1816. - Niðurseta.",
                 "age": 0,
                 "status": "Dánarstaður",
-                "location": "Kaðalstaðir",
+                "location": "Kaðalsstaðir",
                 "year_from_value": 1816,
                 "year_to_value": 1816,
                 "location_obj": {
@@ -1742,22 +1742,18 @@
                 "year_from_value": 1806,
                 "year_to_value": 1809,
                 "location_obj": {
-                    "id": 90003,
+                    "id": 90004,
                     "name": "Hjalli",
-                    "lat": "65.969928",
-                    "lng": "-18.211361",
+                    "lat": "65.693643",
+                    "lng": "-17.342826",
                     "location_type": {
                         "id": 1,
                         "name": "Heimilisfang"
                     },
                     "parent": [
                         {
-                            "name": "Höfðahverfi",
-                            "id": 24527
-                        },
-                        {
-                            "name": "Grýtubakkahreppur",
-                            "id": 12834
+                            "name": "Reykjadalur",
+                            "id": 16405
                         },
                         {
                             "name": "Suður-Þingeyjarsýsla",
@@ -1902,9 +1898,33 @@
             "status": "",
             "unmarried": false,
             "birth": {
-                "original_string": "F. 7/5. 1888 í Knappst.seli.",
+                "original_string": "F. 7/5. 1888 í Hrappsstaðaseli.",
                 "date": "1888-05-07",
-                "location": "Knappst.seli"
+                "location": "Hrappsstaðaseli",
+                "location_obj": {
+                    "id": 1001888,
+                    "name": "Hrappsstaðasel",
+                    "lat": "65.55743020636",
+                    "lng": "-17.385520460449",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             "death": {
                 "original_string": "",
@@ -1946,22 +1966,70 @@
         "residence_history": [
             {
                 "year": "1888",
-                "original_string": "F. 7/5. 1888 í Knappst.seli.",
+                "original_string": "F. 7/5. 1888 í Hrappsstaðaseli.",
                 "age": 0,
                 "status": "Fæðingarstaður",
-                "location": "Knappst.seli",
+                "location": "Hrappsstaðaseli",
                 "year_from_value": 1888,
-                "year_to_value": 1888
+                "year_to_value": 1888,
+                "location_obj": {
+                    "id": 1001888,
+                    "name": "Hrappsstaðasel",
+                    "lat": "65.55743020636",
+                    "lng": "-17.385520460449",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             },
             {
-                "original_string": "Hjá for. í Knappst. seli (á l.) 1889.",
+                "original_string": "Hjá for. í Hrappsstaðir seli (á l.) 1889.",
                 "year": "1889",
                 "age": null,
                 "status": "Hjá for.",
-                "location": "Knappst. seli",
+                "location": "Hrappsstaðir seli",
                 "note": "á l.",
                 "year_from_value": 1889,
-                "year_to_value": 1889
+                "year_to_value": 1889,
+                "location_obj": {
+                    "id": 10417,
+                    "name": "Hrappsstaðir",
+                    "lat": "65.541475",
+                    "lng": "-17.470323",
+                    "location_type": {
+                        "id": 1,
+                        "name": "Heimilisfang"
+                    },
+                    "parent": [
+                        {
+                            "name": "Bárðardalur",
+                            "id": 16538
+                        },
+                        {
+                            "name": "Suður-Þingeyjarsýsla",
+                            "id": 1003354
+                        },
+                        {
+                            "name": "Ísland",
+                            "id": 16573
+                        }
+                    ]
+                }
             }
         ],
         "notes": {},
