@@ -4,7 +4,7 @@ function About(props) {
 			<h1 className="text-3xl">Um þessa útgáfu</h1>
 		</div>
 		<div className=" max-w-3xl">
-			<p className="text-lg mb-4">Þessi vefur býður upp á aðgang að Þingeyingaskrá Konráðs Vilhjálmssonar. Skráin var skönnuð inn með stuðningi frá Þjóðskjalasafni Íslands og er aðgengileg á vef Héraðsskjalasafns Þingeyinga.</p>
+			<p className="text-lg mb-4">Þessi vefur býður upp á aðgang að Þingeyingaskrá Konráðs Vilhjálmssonar. Skráin var skönnuð inn með stuðningi frá Þjóðskjalasafni Íslands og er aðgengileg á <a href="https://www.husmus.is/is/heradsskjalasafn/skjalavefur/onnur-skjol/thingeyingaskra">vef Héraðsskjalasafns Þingeyinga</a>.</p>
 			<p className="text-lg mb-4">Þingeyingaskrá Konráðs Vilhjálmssonar er uppflettiskrá yfir rúmlega 15.000 einstaklinga sem
 	voru á lífi á 19. öld í Þingeyjarsýslum. Elstu einstaklingarnir í skránni voru fæddir skömmu eftir
 	1700 og þeir yngstu á síðustu árum 19. aldarinnar. Konráð Vilhjálmsson (1885-1962) var kennari
