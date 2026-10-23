@@ -95,7 +95,7 @@ export default function Search() {
 				}
 				
 				{
-					data.persons.map((item, index) => <PersonLink item={item} key={index} />)
+					data.persons.map((item, index) => <PersonLink item={item} key={index} expandableHistory={true} />)
 				}
 			</div>
 		}

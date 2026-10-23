@@ -7,6 +7,7 @@ notFound = []
 ids = []
 
 for filename in os.listdir('json'):
+	print(filename)
 	#if 'bok37.pdf_26_to_45.pdf.json' not in filename:
 	#	continue
 
@@ -15,6 +16,7 @@ for filename in os.listdir('json'):
 
 	for index, item in enumerate(data):
 		item['_id'] = filename.split('.')[0]+'-'+item['pageUrl'].split('/')[-1]
+		item['json_file'] = filename
 
 		if item['_id'] in ids:
 			item['_id'] = item['_id']+'-'+str(index)

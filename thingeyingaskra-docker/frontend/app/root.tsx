@@ -50,12 +50,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
 					<div className="pointer-events-none absolute inset-0 bg-linear-to-b from-white/80 to-white/50" />
 
 					<div className="relative max-w-[1400px] px-8 md:px-10 mx-auto py-8 md:py-10">
-						<Link to={'/'}>
+
+						<Link to={'/'} className="grow">
 							<h1 className="text-3xl"><img className="max-w-full md:max-w-[350px]" src={headerLogo} /></h1>
 							<div className="text-2xl font-bold text-[#714216]">Konráðs Vilhjálmssonar</div>
 						</Link>
 
-						<div className="flex gap-4 mt-4 md:mt-10">
+						<div className="flex gap-1 mt-4 md:mt-10">
 							<input onChange={(event) => setSearchInput(event.target.value)} 
 								onKeyDown={(event) => {
 									if (event.key == 'Enter') {
@@ -67,9 +68,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
 								type="text" 
 								placeholder="Leita að nafni, bæ eða stöðu" />
 
-							<button className="bg-gray-200 border-1 rounded border-gray-400 shadow-lg p-2 px-4 hover:bg-gray-300 hover:shadow-lg transition-all cursor-pointer"
+							<button className="bg-gray-200 border-1 rounded border-gray-400 font-bold text-sm shadow-lg p-2 px-4 hover:bg-gray-300 hover:shadow-lg transition-all cursor-pointer"
 								onClick={() => navigate('/leit/'+searchInput)}
 							>Leita</button>
+							<Link className="ml-3 bg-white font-bold text-sm border-1 rounded border-gray-400/50 p-3 px-4 hover:bg-gray-300 hover:shadow-lg transition-all" to={'/um'}>Um verkefnið</Link>
 						</div>
 					</div>
 

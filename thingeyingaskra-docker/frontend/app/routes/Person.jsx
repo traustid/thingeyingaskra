@@ -224,7 +224,7 @@ export default function Person() {
 		{
 			data && <div className="lg:w-4/5">
 
-				<div className="flex items-center pb-6 px-6 md:px-0 border-b border-gray-300">
+				<div className="flex items-center pb-6 px-6 md:px-0 border-b border-gray-300 gap-2">
 					<div className="grow">
 						<h1 className="text-3xl">{data.person.name}</h1>
 						{
@@ -232,6 +232,9 @@ export default function Person() {
 						}
 					</div>
 					<a href={data.pageUrl} className="bg-[#267fad] text-white rounded-lg shadow-sm text-sm p-2 px-2 hover:bg-gray-300 hover:shadow-lg transition-all">Skoða skrá</a>
+					{
+						data.json_file && <a href={'https://github.com/traustid/thingeyingaskra/edit/master/json/'+data.json_file} className="bg-gray-100 text-gray-600 rounded-lg shadow-sm text-sm p-2 px-2 border border-gray-400 hover:bg-gray-300 hover:shadow-lg transition-all">GitHub</a>
+					}
 				</div>
 
 
