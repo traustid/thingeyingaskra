@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import Label from "./Label";
 import { Link } from "react-router";
 
+import config from "../config";
+import PersonLink from "./PersonLink";
+
 function ResidenceHistoryItem(props) {
 	const item = props.item;
 
